@@ -1,0 +1,10 @@
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.single-popular-car h3 span.price {
+    color: #0e0e0e;
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+}

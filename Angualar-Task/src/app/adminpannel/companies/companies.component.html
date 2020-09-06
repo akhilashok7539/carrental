@@ -17,8 +17,8 @@
 
             <div class="col-sm-8 col-9 text-right m-b-20">
 
-                <a class="btn btn btn-primary btn-rounded float-right " style="color: white;" (click)="addcompany()"><i
-                        class="fa fa-plus"></i> </a>
+                <!-- <a class="btn btn btn-primary btn-rounded float-right " style="color: white;" (click)="addcompany()"><i
+                        class="fa fa-plus"></i> </a> -->
             </div>
         </div>
 
@@ -47,15 +47,15 @@
 
                         <ng-container matColumnDef="name">
                             <mat-header-cell *matHeaderCellDef>Owner Name </mat-header-cell>
-                            <mat-cell *matCellDef="let element "> </mat-cell>
+                            <mat-cell *matCellDef="let element "> {{element.name}}</mat-cell>
                         </ng-container>
                         <ng-container matColumnDef="email">
                             <mat-header-cell *matHeaderCellDef>Email</mat-header-cell>
-                            <mat-cell *matCellDef="let element"> </mat-cell>
+                            <mat-cell *matCellDef="let element">{{element.emailId}} </mat-cell>
                         </ng-container>
                         <ng-container matColumnDef="phonenumber">
                             <mat-header-cell *matHeaderCellDef> Contact</mat-header-cell>
-                            <mat-cell *matCellDef="let element"></mat-cell>
+                            <mat-cell *matCellDef="let element">{{element.mobile}}</mat-cell>
                         </ng-container>
 
 
@@ -69,7 +69,7 @@
                     </mat-table>
 
 
-                    <mat-paginator #paginator [length]="totalLength" [pageSize]="limit" [pageSizeOptions]="pageLimit">
+                    <mat-paginator #paginator [length]="totalLength" [pageSize]="limit" (page)="changePage($event)">
                     </mat-paginator>
 
                     <h5 *ngIf="message == 'No data found'">No data Found</h5>

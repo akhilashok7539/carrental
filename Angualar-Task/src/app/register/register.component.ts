@@ -13,7 +13,7 @@ import { LoginService } from '../login/login.service';
 export class RegisterComponent implements OnInit {
   registerForm: FormGroup;
   public registerModel: Registeruser;
-  
+  hide;
   constructor(private formBuilder: FormBuilder,private loginservice:LoginService,
     private router: Router) {
 

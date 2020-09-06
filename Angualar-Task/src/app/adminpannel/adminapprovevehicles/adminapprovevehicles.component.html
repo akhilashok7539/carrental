@@ -47,24 +47,25 @@
 
                         <ng-container matColumnDef="vname">
                             <mat-header-cell *matHeaderCellDef>Vehicle Name </mat-header-cell>
-                            <mat-cell *matCellDef="let element "> </mat-cell>
+                            <mat-cell *matCellDef="let element ">{{element.model}} </mat-cell>
                         </ng-container>
                         <ng-container matColumnDef="vnumber">
                             <mat-header-cell *matHeaderCellDef>Vehicle Number</mat-header-cell>
-                            <mat-cell *matCellDef="let element"> </mat-cell>
+                            <mat-cell *matCellDef="let element">{{element.numberPlate}} </mat-cell>
                         </ng-container>
                         <ng-container matColumnDef="name">
-                            <mat-header-cell *matHeaderCellDef> Onwer Name</mat-header-cell>
-                            <mat-cell *matCellDef="let element"></mat-cell>
+                            <mat-header-cell *matHeaderCellDef> Company Name</mat-header-cell>
+                            <mat-cell *matCellDef="let element">{{element.companyName}}</mat-cell>
                         </ng-container>
-                        <ng-container matColumnDef="phonenumber">
-                            <mat-header-cell *matHeaderCellDef> Contact Number</mat-header-cell>
-                            <mat-cell *matCellDef="let element"></mat-cell>
-                        </ng-container>
+                  
 
                         <ng-container matColumnDef="approve">
                             <mat-header-cell *matHeaderCellDef> Approve / Reject</mat-header-cell>
-                            <mat-cell *matCellDef="let element"></mat-cell>
+                            <mat-cell *matCellDef="let element">
+                                <button class="btn btn-danger" (click)="approve(element)">Approve</button> &nbsp;
+                                <button class="btn btn-dark" (click)="reject(element)">Reject</button>
+
+                            </mat-cell>
                         </ng-container>
 
 
@@ -73,13 +74,12 @@
                         <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
                         <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
                     </mat-table>
+                    <!-- [pageSizeOptions]="pageLimit" -->
 
-
-                    <mat-paginator #paginator [length]="totalLength" [pageSize]="limit" [pageSizeOptions]="pageLimit">
+                    <mat-paginator #paginator [length]="totalLength" [pageSize]="limit" (page)="changePage($event)">
                     </mat-paginator>
 
-                    <h5 *ngIf="message == 'No data found'">No data Found</h5>
-
+               
                 </div>
 
             </div>

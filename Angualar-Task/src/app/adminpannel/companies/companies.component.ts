@@ -13,7 +13,7 @@ export class CompaniesComponent implements OnInit {
   searchString: any;
 
   displayedColumns = ['name','email', 'phonenumber'];
-  limit: number = 5;
+  limit: number = 15;
   skip: number = 0;
   totalLength: number = 0;
   pageIndex: number = 0;
@@ -27,9 +27,10 @@ export class CompaniesComponent implements OnInit {
     this.getallOwners();
   }
   getallOwners(){
-    this.adminservice.getallowners().subscribe(
+    this.adminservice.getallowners(this.pageIndex).subscribe(
       data =>{
-
+        this.results = data;
+        this.dataSource.data = this.results;
       },
       error =>{
 
@@ -48,5 +49,18 @@ export class CompaniesComponent implements OnInit {
     {
       this.message = 'No data found';
     }
+  }
+  changePage(e)
+  {
+    
+      this.adminservice.getallowners(e.pageIndex).subscribe(
+        data =>{
+          this.results = data;
+          this.dataSource.data = this.results;
+        },
+        error =>{
+  
+        }
+      )
   }
 }

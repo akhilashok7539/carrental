@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  BASEURL : "http://localhost:8080/server/"
+  BASEURL : "https://cmgaadi.com/server/"
 
 };

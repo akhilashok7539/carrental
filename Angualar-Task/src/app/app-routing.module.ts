@@ -16,10 +16,16 @@ import { DriversComponent } from './ownerpannel/drivers/drivers.component';
 import { AddDriversComponent } from './ownerpannel/drivers/add-drivers/add-drivers.component';
 import { ViewliscenceComponent } from './ownerpannel/drivers/viewliscence/viewliscence.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { AddLocationComponent } from './adminpannel/location/add-location/add-location.component';
+import { EditLocationComponent } from './adminpannel/location/edit-location/edit-location.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 
 const routes: Routes = [
-  { path:'', redirectTo: '/Home', pathMatch: 'full' },
+  { path:'', redirectTo: '/404', pathMatch: 'full' },
+  // {path: '**', redirectTo: '/404'},
+  {path: '404', component: ErrorPageComponent},
+   
   { path:'Home', component: HomeComponent },
   { path:'login', component: LoginComponent },
   { path:'register', component: RegisterComponent },
@@ -34,6 +40,8 @@ const routes: Routes = [
   { path:'drivers', component: DriversComponent,},
   { path:'add-drivers', component: AddDriversComponent,},
   { path:'forgotpassword', component: ForgotpasswordComponent,},
+  { path:'add-location', component: AddLocationComponent,},
+  { path:'edit-location/:id/:name', component: EditLocationComponent,},
 
   { path:'view-licsense/:id', component: ViewliscenceComponent,},
 

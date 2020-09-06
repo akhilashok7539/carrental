@@ -37,6 +37,10 @@ import { LoadingScreenInterceptor } from './_interceptor/loadinginterceptor';
 import { LoadingService } from './loading/loading.service';
 import { ViewliscenceComponent } from './ownerpannel/drivers/viewliscence/viewliscence.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { EditLocationComponent } from './adminpannel/location/edit-location/edit-location.component';
+import { AddLocationComponent } from './adminpannel/location/add-location/add-location.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -62,7 +66,10 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
     AddDriversComponent,
     LoadingComponent,
     ViewliscenceComponent,
-    ForgotpasswordComponent
+    ForgotpasswordComponent,
+    EditLocationComponent,
+    AddLocationComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
@@ -76,6 +83,7 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
   ],
   providers: [
     // AuthGuard,
+    {provide: LocationStrategy, useClass: HashLocationStrategy},
     { provide: HTTP_INTERCEPTORS, useClass: LoadingScreenInterceptor, multi: true },
 
     LoginService, AdminService, OwnerService,

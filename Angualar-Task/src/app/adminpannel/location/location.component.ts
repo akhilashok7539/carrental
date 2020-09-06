@@ -1,6 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
+import { AdminService } from '../admin.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-location',
@@ -11,8 +13,8 @@ export class LocationComponent implements OnInit {
   results: any;
   searchString: any;
 
-  displayedColumns = ['location','delete'];
-  limit: number = 5;
+  displayedColumns = ['location','Edit','delete'];
+  limit: number = 15;
   skip: number = 0;
   totalLength: number = 0;
   pageIndex: number = 0;
@@ -20,9 +22,10 @@ export class LocationComponent implements OnInit {
   dataSource = new MatTableDataSource();
   @ViewChild(MatPaginator, { static: false }) paginator: MatPaginator;
   message: any = 'data found';
-  constructor() { }
+  constructor(private adminpannel:AdminService,private router:Router) { }
 
   ngOnInit() {
+    this.getalllocations();
   }
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
@@ -37,4 +40,21 @@ export class LocationComponent implements OnInit {
       this.message = 'No data found';
     }
   }
+  getalllocations(){
+    this.adminpannel.getalllocation().subscribe(
+      data =>{
+        console.log(data)
+        this.results =data;
+        this.dataSource.data = this.results;
+      },
+      error =>{
+
+      }
+    )
+  }
+  edit(w)
+  {
+    this.router.navigate(['/edit-location',w.id,w.name])
+  }
+  
 }

@@ -17,7 +17,7 @@
 
             <div class="col-sm-8 col-9 text-right m-b-20">
 
-                <a class="btn btn btn-primary btn-rounded float-right " style="color: white;" (click)="addlocation()"><i
+                <a class="btn btn btn-primary btn-rounded float-right " style="color: white;" routerLink="/add-location"><i
                         class="fa fa-plus"></i> </a>
             </div>
         </div>
@@ -44,13 +44,17 @@
 
                         <ng-container matColumnDef="location">
                             <mat-header-cell *matHeaderCellDef>Location Name </mat-header-cell>
-                            <mat-cell *matCellDef="let element "> </mat-cell>
+                            <mat-cell *matCellDef="let element "> {{element.name}}</mat-cell>
+                        </ng-container>
+                        <ng-container matColumnDef="Edit">
+                            <mat-header-cell *matHeaderCellDef>Delete</mat-header-cell>
+                            <mat-cell *matCellDef="let element"> <button (click)="edit(element)" class="btn btn-danger">Edit</button> </mat-cell>
                         </ng-container>
                         <ng-container matColumnDef="delete">
                             <mat-header-cell *matHeaderCellDef>Delete</mat-header-cell>
-                            <mat-cell *matCellDef="let element"> </mat-cell>
+                            <mat-cell *matCellDef="let element"> <button class="btn btn-dark">Delete</button> </mat-cell>
                         </ng-container>
-                      
+                        
 
 
 
@@ -63,10 +67,10 @@
                     </mat-table>
 
 
-                    <mat-paginator #paginator [length]="totalLength" [pageSize]="limit" [pageSizeOptions]="pageLimit">
+                    <mat-paginator #paginator [length]="totalLength" [pageSize]="limit" >
                     </mat-paginator>
 
-                    <h5 *ngIf="message == 'No data found'">No data Found</h5>
+
 
                 </div>
 

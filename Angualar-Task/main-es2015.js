@@ -201,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<router-outlet></router-outlet>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-loading></app-loading>\r\n<router-outlet></router-outlet>");
 
 /***/ }),
 
@@ -426,6 +426,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html ***!
+  \*************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>add-vehiclekm-handover works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html ***!
+  \********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n<div class=\"page-wrapper\" style=\"margin-top: 101px;\">\n    <div class=\"row\">\n\n        <div class=\"col-sm-4\">\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\n                    aria-hidden=\"true\"></i> Back</button>\n\n        </div>\n        <div class=\"col-sm-4\">\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\n                color: #ffb100;\">Handover Management</em> </h4>\n        </div>\n        <div class=\"col-sm-4\">\n\n        </div>\n        <hr>\n    </div>\n\n    <div class=\"row\" style=\"margin-top: 10px;\">\n        <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n            <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n            <div class=\"card\" style=\"margin-bottom: 10px;\">\n                <span class=\"close\">   <button matTooltip=\"View Vehicle\" class=\"btn btn-dark\"\n                    style=\"display: block;margin-bottom: 10px;margin-left: auto;\"\n                    (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> </button></span>\n                <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                    style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n\n                &nbsp;\n             \n                <button class=\"btn btn-dark\" (click)=\"openDialog(results)\">Add current kilometer</button>\n                <!-- </mat-card> -->\n            </div>\n        </div>\n    </div>\n\n\n</div>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html ***!
@@ -435,7 +461,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"page-wrapper\">\n\n   \n<section id=\"service-area\" class=\"section-padding\" style=\"    margin-top: 74px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- Section Title Start -->\n         \n            <!-- Section Title End -->\n        </div>\n\n       \n        <!-- Service Content Start -->\n        <div class=\"row\">\n            <!-- Single Service Start -->\n            <div class=\"col-lg-4 text-center\" routerLink=\"/vehicles\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-taxi\" style=\"color: rebeccapurple;\"></i> -->\n                    <img src=\"./assets/img/car.png\"/>\n                    <h3>Vehicles</h3>\n                </div>\n            </div>\n           \n            <!-- Single Service End -->\n            \n            <!-- Single Service Start -->\n            <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-map-marker\" style=\"    color: red\"></i> -->\n                    <img src=\"./assets/img/order-shipped.png\"/>\n                    <h3>Vehicle Tracking</h3>\n                </div>\n            </div>\n         \n            <div class=\"col-lg-4 text-center\" routerLink=\"/drivers\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-user\" style=\"    color: green\"></i> -->\n                    <img src=\"./assets/img/taxi-driver.png\"/>\n                    <h3>Drivers</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-history\" ></i> -->\n                    <img src=\"./assets/img/mobile-payment--v3.png\"/>\n\n                    <h3>Payment Reports</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/request\">\n                <div class=\"service-item\">\n                    <img src=\"./assets/img/request-service.png\"/>\n\n                    <h3>Request</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/bankdetails\"> \n                <div class=\"service-item\">\n                    <img src=\"./assets/img/bank-building.png\"/>\n                    <h3>Bank Manage</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/admin-resetpassword\">\n                <div class=\"service-item\">\n                   <img src=\"./assets/img/icons8-password-book-100.png\" alt=\"\">\n                    <h3>Reset password</h3>\n                </div>\n            </div>\n            <!-- <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <i class=\"fa fa-user\" style=\"    color: blue\"></i>\n                    <h3>Profile</h3>\n                </div>\n            </div>\n           -->\n            <!-- Single Service End -->\n        </div>\n        <!-- Service Content End -->\n    </div>\n</section>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"page-wrapper\">\n\n   \n<section id=\"service-area\" class=\"section-padding\" style=\"    margin-top: 74px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- Section Title Start -->\n         \n            <!-- Section Title End -->\n        </div>\n\n       \n        <!-- Service Content Start -->\n        <div class=\"row\">\n            <!-- Single Service Start -->\n            <div class=\"col-lg-4 text-center\" routerLink=\"/vehicles\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-taxi\" style=\"color: rebeccapurple;\"></i> -->\n                    <img src=\"./assets/img/car.png\"/>\n                    <h3>Vehicles</h3>\n                </div>\n            </div>\n           \n            <!-- Single Service End -->\n            \n            <!-- Single Service Start -->\n            <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-map-marker\" style=\"    color: red\"></i> -->\n                    <img src=\"./assets/img/order-shipped.png\"/>\n                    <h3>Vehicle Tracking</h3>\n                </div>\n            </div>\n         \n            <div class=\"col-lg-4 text-center\" routerLink=\"/drivers\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-user\" style=\"    color: green\"></i> -->\n                    <img src=\"./assets/img/taxi-driver.png\"/>\n                    <h3>Drivers</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-history\" ></i> -->\n                    <img src=\"./assets/img/mobile-payment--v3.png\"/>\n\n                    <h3>Payment Reports</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/request\">\n                <div class=\"service-item\">\n                    <img src=\"./assets/img/request-service.png\"/>\n\n                    <h3>Request</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/handovervehicles\">\n                <div class=\"service-item\">\n                    <img src=\"./assets/img/icons8-valet-parking-100.png\"/>\n\n                    \n                    <h3>Handover Vehicles </h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/bankdetails\"> \n                <div class=\"service-item\">\n                    <img src=\"./assets/img/bank-building.png\"/>\n                    <h3>Bank Manage</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/admin-resetpassword\">\n                <div class=\"service-item\">\n                   <img src=\"./assets/img/icons8-password-book-100.png\" alt=\"\">\n                    <h3>Reset password</h3>\n                </div>\n            </div>\n            <!-- <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <i class=\"fa fa-user\" style=\"    color: blue\"></i>\n                    <h3>Profile</h3>\n                </div>\n            </div>\n           -->\n            <!-- Single Service End -->\n        </div>\n        <!-- Service Content End -->\n    </div>\n</section>\n</div>\n");
 
 /***/ }),
 
@@ -448,7 +474,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n\n\n\n\n    <div class=\"content\"  style=\"margin-top: 33px !important;\">\n        <button class=\"btn btn-warning\" routerLink=\"/admin\"><i class=\"fa fa-arrow-left\"></i>  </button>\n        <div class=\"row\" >\n            <div class=\"col-sm-12\">\n   \n                <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\n                    <mat-tab label=\"Pending\">\n\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\n                                    <div class=\"row\" style=\"padding: 5px;\">\n                                        <button class=\"btn btn-success\" style=\"margin-left: auto;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\n                                        <button class=\"btn btn-danger\" style=\"    margin-right: auto; \n                                            margin-left: 11px;\" (click)=\"reject(results)\"> <i class=\"fa fa-close\"></i> Reject</button>\n\n                                    </div>\n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                    </mat-tab>\n                    <mat-tab label=\"Approved\">\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\n                                    \n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                    </mat-tab>\n                    <mat-tab label=\"Reject\">\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\n                                    \n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                    </mat-tab>\n                </mat-tab-group>\n            </div>\n        </div>\n    </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n\n\n\n\n    <div class=\"content\"  style=\"margin-top: 33px !important;\">\n        <button class=\"btn btn-warning\" routerLink=\"/admin\"><i class=\"fa fa-arrow-left\"></i>  </button>\n        <div class=\"row\" >\n            <div class=\"col-sm-12\">\n   \n                <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\n                    <mat-tab label=\"Pending\">\n\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\n                                    <div class=\"row\" style=\"padding: 5px;\">\n                                        <button class=\"btn btn-success\" style=\"margin-left: auto;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\n                                        <button class=\"btn btn-danger\" style=\"    margin-right: auto; \n                                            margin-left: 11px;\" (click)=\"reject(results)\"> <i class=\"fa fa-close\"></i> Reject</button>\n\n                                    </div>\n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\n\n                    </mat-tab>\n                    <mat-tab label=\"Approved\">\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\n                                    \n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\n\n                    </mat-tab>\n                    <mat-tab label=\"Reject\">\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\n                                    \n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\n                        \n                    </mat-tab>\n                </mat-tab-group>\n            </div>\n        </div>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -2299,6 +2325,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component */ "./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.ts");
 /* harmony import */ var _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./ownerpannel/requests/requests.component */ "./src/app/ownerpannel/requests/requests.component.ts");
 /* harmony import */ var _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./ownerpannel/requests/view-requests/view-requests.component */ "./src/app/ownerpannel/requests/view-requests/view-requests.component.ts");
+/* harmony import */ var _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./ownerpannel/handovervehicles/handovervehicles.component */ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts");
 
 
 
@@ -2308,6 +2335,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // import { AuthGuard } from './_guards/auth.guard';
+
 
 
 
@@ -2363,6 +2391,7 @@ const routes = [
     { path: 'viewlicsenceback', component: _ownerpannel_drivers_viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_26__["ViewlicsencebackComponent"] },
     { path: 'editdrivers', component: _ownerpannel_drivers_edit_drivers_edit_drivers_component__WEBPACK_IMPORTED_MODULE_27__["EditDriversComponent"] },
     { path: 'bankdetails', component: _ownerpannel_bankdetails_bankdetails_component__WEBPACK_IMPORTED_MODULE_28__["BankdetailsComponent"] },
+    { path: 'handovervehicles', component: _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_33__["HandovervehiclesComponent"] },
     { path: 'add-bankdetails', component: _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_29__["AddBanksComponent"] },
     { path: 'edit-bankdetails', component: _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_30__["EditBankdetailsComponent"] },
     { path: 'request', component: _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_31__["RequestsComponent"] },
@@ -2489,6 +2518,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component */ "./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.ts");
 /* harmony import */ var _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./ownerpannel/requests/requests.component */ "./src/app/ownerpannel/requests/requests.component.ts");
 /* harmony import */ var _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./ownerpannel/requests/view-requests/view-requests.component */ "./src/app/ownerpannel/requests/view-requests/view-requests.component.ts");
+/* harmony import */ var _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./ownerpannel/handovervehicles/handovervehicles.component */ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts");
+/* harmony import */ var _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component */ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts");
 
 
 
@@ -2507,6 +2538,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // import { AuthGuard } from './_guards/auth.guard';
+
+
 
 
 
@@ -2587,7 +2620,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_50__["AddBanksComponent"],
             _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_51__["EditBankdetailsComponent"],
             _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__["RequestsComponent"],
-            _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"]
+            _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"],
+            _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__["HandovervehiclesComponent"],
+            _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -2607,7 +2642,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             { provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HTTP_INTERCEPTORS"], useClass: _interceptor_jwtinterceptor__WEBPACK_IMPORTED_MODULE_26__["AuthInterceptor"], multi: true },
         ],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
-        entryComponents: [_ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"]]
+        entryComponents: [_ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"], _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"]]
     })
 ], AppModule);
 
@@ -2828,7 +2863,7 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".overlay {\r\n    position:fixed;\r\n    display:block;\r\n    width:100%;\r\n    height:100%;\r\n    top:0;\r\n    left:0px;\r\n    background-color:rgba(192, 181, 181, 0.589);\r\n    align-items: center;\r\n  }\r\n  .spinner {\r\n    position:absolute;\r\n    top:50%;\r\n    left:50%;\r\n    transform: translate(-50%,-50%);\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n  /* .loader {\r\n    position: fixed;\r\n    left: 0px;\r\n    top: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 9999;\r\n   \r\n    opacity: .8;\r\n} */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9hZGluZy9sb2FkaW5nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsYUFBYTtJQUNiLFVBQVU7SUFDVixXQUFXO0lBQ1gsS0FBSztJQUNMLFFBQVE7SUFDUiwyQ0FBMkM7SUFDM0MsbUJBQW1CO0VBQ3JCO0VBQ0E7SUFDRSxpQkFBaUI7SUFDakIsT0FBTztJQUNQLFFBQVE7SUFDUiwrQkFBK0I7SUFDL0IsaUJBQWlCO0lBQ2pCLGtCQUFrQjtFQUNwQjtFQUNBOzs7Ozs7Ozs7R0FTQyIsImZpbGUiOiJzcmMvYXBwL2xvYWRpbmcvbG9hZGluZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm92ZXJsYXkge1xyXG4gICAgcG9zaXRpb246Zml4ZWQ7XHJcbiAgICBkaXNwbGF5OmJsb2NrO1xyXG4gICAgd2lkdGg6MTAwJTtcclxuICAgIGhlaWdodDoxMDAlO1xyXG4gICAgdG9wOjA7XHJcbiAgICBsZWZ0OjBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6cmdiYSgxOTIsIDE4MSwgMTgxLCAwLjU4OSk7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIH1cclxuICAuc3Bpbm5lciB7XHJcbiAgICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICAgIHRvcDo1MCU7XHJcbiAgICBsZWZ0OjUwJTtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsLTUwJSk7XHJcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcclxuICAgIG1hcmdpbi1yaWdodDogYXV0bztcclxuICB9XHJcbiAgLyogLmxvYWRlciB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBsZWZ0OiAwcHg7XHJcbiAgICB0b3A6IDBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgei1pbmRleDogOTk5OTtcclxuICAgXHJcbiAgICBvcGFjaXR5OiAuODtcclxufSAqL1xyXG4iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".overlay {\r\n    position:fixed;\r\n    display:block;\r\n    width:100%;\r\n    height:100%;\r\n    top:0;\r\n    left:0px;\r\n    background-color:rgba(192, 181, 181, 0.589);\r\n    align-items: center;\r\n  }\r\n  .spinner {\r\n    position:absolute;\r\n    top:50%;\r\n    left:49%;\r\n    transform: translate(-50%,-50%);\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n  /* .loader {\r\n    position: fixed;\r\n    left: 0px;\r\n    top: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 9999;\r\n   \r\n    opacity: .8;\r\n} */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9hZGluZy9sb2FkaW5nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsYUFBYTtJQUNiLFVBQVU7SUFDVixXQUFXO0lBQ1gsS0FBSztJQUNMLFFBQVE7SUFDUiwyQ0FBMkM7SUFDM0MsbUJBQW1CO0VBQ3JCO0VBQ0E7SUFDRSxpQkFBaUI7SUFDakIsT0FBTztJQUNQLFFBQVE7SUFDUiwrQkFBK0I7SUFDL0IsaUJBQWlCO0lBQ2pCLGtCQUFrQjtFQUNwQjtFQUNBOzs7Ozs7Ozs7R0FTQyIsImZpbGUiOiJzcmMvYXBwL2xvYWRpbmcvbG9hZGluZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm92ZXJsYXkge1xyXG4gICAgcG9zaXRpb246Zml4ZWQ7XHJcbiAgICBkaXNwbGF5OmJsb2NrO1xyXG4gICAgd2lkdGg6MTAwJTtcclxuICAgIGhlaWdodDoxMDAlO1xyXG4gICAgdG9wOjA7XHJcbiAgICBsZWZ0OjBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6cmdiYSgxOTIsIDE4MSwgMTgxLCAwLjU4OSk7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIH1cclxuICAuc3Bpbm5lciB7XHJcbiAgICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICAgIHRvcDo1MCU7XHJcbiAgICBsZWZ0OjQ5JTtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsLTUwJSk7XHJcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcclxuICAgIG1hcmdpbi1yaWdodDogYXV0bztcclxuICB9XHJcbiAgLyogLmxvYWRlciB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBsZWZ0OiAwcHg7XHJcbiAgICB0b3A6IDBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgei1pbmRleDogOTk5OTtcclxuICAgXHJcbiAgICBvcGFjaXR5OiAuODtcclxufSAqL1xyXG4iXX0= */");
 
 /***/ }),
 
@@ -4555,6 +4590,152 @@ EditCarsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.css":
+/*!**********************************************************************************************************!*\
+  !*** ./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.css ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2hhbmRvdmVydmVoaWNsZXMvYWRkLXZlaGljbGVrbS1oYW5kb3Zlci9hZGQtdmVoaWNsZWttLWhhbmRvdmVyLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts":
+/*!*********************************************************************************************************!*\
+  !*** ./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts ***!
+  \*********************************************************************************************************/
+/*! exports provided: AddVehiclekmHandoverComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddVehiclekmHandoverComponent", function() { return AddVehiclekmHandoverComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+
+
+
+let AddVehiclekmHandoverComponent = class AddVehiclekmHandoverComponent {
+    constructor(dialogRef, data) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+        console.log(data);
+    }
+    ngOnInit() {
+    }
+};
+AddVehiclekmHandoverComponent.ctorParameters = () => [
+    { type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialogRef"] },
+    { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"],] }] }
+];
+AddVehiclekmHandoverComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-add-vehiclekm-handover',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-vehiclekm-handover.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-vehiclekm-handover.component.css */ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.css")).default]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"]))
+], AddVehiclekmHandoverComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.css":
+/*!*****************************************************************************!*\
+  !*** ./src/app/ownerpannel/handovervehicles/handovervehicles.component.css ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".row{\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n.single-popular-car h3 span.price {\r\n    color: #0e0e0e;\r\n    float: right;\r\n    font-size: 14px;\r\n    font-weight: 700;\r\n}\r\n.vehImg{\r\n    /* width: 78%;\r\n    margin: 0 auto;\r\n    height: 200px;\r\n    display: block; */\r\n    display: block;\r\n    /* height: 134px; */\r\n    margin-bottom: 10px;\r\n    margin-left: auto;\r\n    width: 221px !important;\r\n    margin-right: auto;\r\n    height: 183px !important;\r\n}\r\n/* img{\r\n        max-width: -webkit-fill-available;\r\n    } */\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvaGFuZG92ZXJ2ZWhpY2xlcy9oYW5kb3ZlcnZlaGljbGVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCO0FBQ0E7SUFDSSxjQUFjO0lBQ2QsWUFBWTtJQUNaLGVBQWU7SUFDZixnQkFBZ0I7QUFDcEI7QUFDQTtJQUNJOzs7cUJBR2lCO0lBQ2pCLGNBQWM7SUFDZCxtQkFBbUI7SUFDbkIsbUJBQW1CO0lBQ25CLGlCQUFpQjtJQUNqQix1QkFBdUI7SUFDdkIsa0JBQWtCO0lBQ2xCLHdCQUF3QjtBQUM1QjtBQUNJOztPQUVHIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvaGFuZG92ZXJ2ZWhpY2xlcy9oYW5kb3ZlcnZlaGljbGVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm93e1xyXG4gICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgIG1hcmdpbi1yaWdodDogMHB4O1xyXG59XHJcbi5zaW5nbGUtcG9wdWxhci1jYXIgaDMgc3Bhbi5wcmljZSB7XHJcbiAgICBjb2xvcjogIzBlMGUwZTtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA3MDA7XHJcbn1cclxuLnZlaEltZ3tcclxuICAgIC8qIHdpZHRoOiA3OCU7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICAgIGhlaWdodDogMjAwcHg7XHJcbiAgICBkaXNwbGF5OiBibG9jazsgKi9cclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgLyogaGVpZ2h0OiAxMzRweDsgKi9cclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcclxuICAgIHdpZHRoOiAyMjFweCAhaW1wb3J0YW50O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gICAgaGVpZ2h0OiAxODNweCAhaW1wb3J0YW50O1xyXG59XHJcbiAgICAvKiBpbWd7XHJcbiAgICAgICAgbWF4LXdpZHRoOiAtd2Via2l0LWZpbGwtYXZhaWxhYmxlO1xyXG4gICAgfSAqLyJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts":
+/*!****************************************************************************!*\
+  !*** ./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts ***!
+  \****************************************************************************/
+/*! exports provided: HandovervehiclesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HandovervehiclesComponent", function() { return HandovervehiclesComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
+/* harmony import */ var _add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./add-vehiclekm-handover/add-vehiclekm-handover.component */ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts");
+
+
+
+
+
+
+let HandovervehiclesComponent = class HandovervehiclesComponent {
+    constructor(ownerService, dialog) {
+        this.ownerService = ownerService;
+        this.dialog = dialog;
+        this.PENDING = '2';
+        this.APPROVED = '1';
+        this.REJECTED = '3';
+        this.results = [];
+        this.formData = new FormData();
+        this.message = 'data found';
+    }
+    ngOnInit() {
+        this.apiurl = src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].BASEURL;
+        console.log(this.apiurl);
+        this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
+        this.ownerId = this.ownerdetails['userId'];
+        this.getapprovedVehicles();
+    }
+    getapprovedVehicles() {
+        this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(data => {
+            this.results = data;
+            if (this.results.length == 0) {
+                this.message = 'No Data Found';
+            }
+            else {
+                this.message = 'Data Found';
+            }
+        }, error => {
+        });
+    }
+    openDialog(s) {
+        const dialogRef = this.dialog.open(_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_5__["AddVehiclekmHandoverComponent"], {
+            width: '450px',
+            data: s
+        });
+        dialogRef.afterClosed().subscribe(result => {
+            console.log('The dialog was closed');
+        });
+    }
+};
+HandovervehiclesComponent.ctorParameters = () => [
+    { type: _owner_service__WEBPACK_IMPORTED_MODULE_4__["OwnerService"] },
+    { type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialog"] }
+];
+HandovervehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-handovervehicles',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./handovervehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./handovervehicles.component.css */ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.css")).default]
+    })
+], HandovervehiclesComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/ownerpannel/owner.service.ts":
 /*!**********************************************!*\
   !*** ./src/app/ownerpannel/owner.service.ts ***!
@@ -4754,6 +4935,7 @@ let RequestsComponent = class RequestsComponent {
         this.REJECTED = '3';
         this.results = [];
         this.formData = new FormData();
+        this.message = 'data found';
     }
     ngOnInit() {
         this.apiurl = src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].BASEURL;
@@ -4778,18 +4960,36 @@ let RequestsComponent = class RequestsComponent {
     getallPendingdata() {
         this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(data => {
             this.results = data;
+            if (this.results.length == 0) {
+                this.message = 'No Data Found';
+            }
+            else {
+                this.message = 'Data Found';
+            }
         }, error => {
         });
     }
     getallApprovedData() {
         this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(data => {
             this.results = data;
+            if (this.results.length == 0) {
+                this.message = 'No Data Found';
+            }
+            else {
+                this.message = 'Data Found';
+            }
         }, error => {
         });
     }
     getallrejectedData() {
         this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(data => {
             this.results = data;
+            if (this.results.length == 0) {
+                this.message = 'No Data Found';
+            }
+            else {
+                this.message = 'Data Found';
+            }
         }, error => {
         });
     }

@@ -311,7 +311,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<router-outlet></router-outlet>";
+    __webpack_exports__["default"] = "<app-loading></app-loading>\r\n<router-outlet></router-outlet>";
     /***/
   },
 
@@ -656,6 +656,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html":
+  /*!*************************************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html ***!
+    \*************************************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppOwnerpannelHandovervehiclesAddVehiclekmHandoverAddVehiclekmHandoverComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<p>add-vehiclekm-handover works!</p>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html":
+  /*!********************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html ***!
+    \********************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppOwnerpannelHandovervehiclesHandovervehiclesComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<app-navigation></app-navigation>\n<div class=\"page-wrapper\" style=\"margin-top: 101px;\">\n    <div class=\"row\">\n\n        <div class=\"col-sm-4\">\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\n                    aria-hidden=\"true\"></i> Back</button>\n\n        </div>\n        <div class=\"col-sm-4\">\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\n                color: #ffb100;\">Handover Management</em> </h4>\n        </div>\n        <div class=\"col-sm-4\">\n\n        </div>\n        <hr>\n    </div>\n\n    <div class=\"row\" style=\"margin-top: 10px;\">\n        <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n            <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n            <div class=\"card\" style=\"margin-bottom: 10px;\">\n                <span class=\"close\">   <button matTooltip=\"View Vehicle\" class=\"btn btn-dark\"\n                    style=\"display: block;margin-bottom: 10px;margin-left: auto;\"\n                    (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> </button></span>\n                <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                    style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n\n                &nbsp;\n             \n                <button class=\"btn btn-dark\" (click)=\"openDialog(results)\">Add current kilometer</button>\n                <!-- </mat-card> -->\n            </div>\n        </div>\n    </div>\n\n\n</div>";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html":
   /*!**********************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html ***!
@@ -671,7 +711,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"page-wrapper\">\n\n   \n<section id=\"service-area\" class=\"section-padding\" style=\"    margin-top: 74px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- Section Title Start -->\n         \n            <!-- Section Title End -->\n        </div>\n\n       \n        <!-- Service Content Start -->\n        <div class=\"row\">\n            <!-- Single Service Start -->\n            <div class=\"col-lg-4 text-center\" routerLink=\"/vehicles\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-taxi\" style=\"color: rebeccapurple;\"></i> -->\n                    <img src=\"./assets/img/car.png\"/>\n                    <h3>Vehicles</h3>\n                </div>\n            </div>\n           \n            <!-- Single Service End -->\n            \n            <!-- Single Service Start -->\n            <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-map-marker\" style=\"    color: red\"></i> -->\n                    <img src=\"./assets/img/order-shipped.png\"/>\n                    <h3>Vehicle Tracking</h3>\n                </div>\n            </div>\n         \n            <div class=\"col-lg-4 text-center\" routerLink=\"/drivers\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-user\" style=\"    color: green\"></i> -->\n                    <img src=\"./assets/img/taxi-driver.png\"/>\n                    <h3>Drivers</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-history\" ></i> -->\n                    <img src=\"./assets/img/mobile-payment--v3.png\"/>\n\n                    <h3>Payment Reports</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/request\">\n                <div class=\"service-item\">\n                    <img src=\"./assets/img/request-service.png\"/>\n\n                    <h3>Request</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/bankdetails\"> \n                <div class=\"service-item\">\n                    <img src=\"./assets/img/bank-building.png\"/>\n                    <h3>Bank Manage</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/admin-resetpassword\">\n                <div class=\"service-item\">\n                   <img src=\"./assets/img/icons8-password-book-100.png\" alt=\"\">\n                    <h3>Reset password</h3>\n                </div>\n            </div>\n            <!-- <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <i class=\"fa fa-user\" style=\"    color: blue\"></i>\n                    <h3>Profile</h3>\n                </div>\n            </div>\n           -->\n            <!-- Single Service End -->\n        </div>\n        <!-- Service Content End -->\n    </div>\n</section>\n</div>\n";
+    __webpack_exports__["default"] = "<div class=\"page-wrapper\">\n\n   \n<section id=\"service-area\" class=\"section-padding\" style=\"    margin-top: 74px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- Section Title Start -->\n         \n            <!-- Section Title End -->\n        </div>\n\n       \n        <!-- Service Content Start -->\n        <div class=\"row\">\n            <!-- Single Service Start -->\n            <div class=\"col-lg-4 text-center\" routerLink=\"/vehicles\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-taxi\" style=\"color: rebeccapurple;\"></i> -->\n                    <img src=\"./assets/img/car.png\"/>\n                    <h3>Vehicles</h3>\n                </div>\n            </div>\n           \n            <!-- Single Service End -->\n            \n            <!-- Single Service Start -->\n            <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-map-marker\" style=\"    color: red\"></i> -->\n                    <img src=\"./assets/img/order-shipped.png\"/>\n                    <h3>Vehicle Tracking</h3>\n                </div>\n            </div>\n         \n            <div class=\"col-lg-4 text-center\" routerLink=\"/drivers\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-user\" style=\"    color: green\"></i> -->\n                    <img src=\"./assets/img/taxi-driver.png\"/>\n                    <h3>Drivers</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <!-- <i class=\"fa fa-history\" ></i> -->\n                    <img src=\"./assets/img/mobile-payment--v3.png\"/>\n\n                    <h3>Payment Reports</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/request\">\n                <div class=\"service-item\">\n                    <img src=\"./assets/img/request-service.png\"/>\n\n                    <h3>Request</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/handovervehicles\">\n                <div class=\"service-item\">\n                    <img src=\"./assets/img/icons8-valet-parking-100.png\"/>\n\n                    \n                    <h3>Handover Vehicles </h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/bankdetails\"> \n                <div class=\"service-item\">\n                    <img src=\"./assets/img/bank-building.png\"/>\n                    <h3>Bank Manage</h3>\n                </div>\n            </div>\n            <div class=\"col-lg-4 text-center\" routerLink=\"/admin-resetpassword\">\n                <div class=\"service-item\">\n                   <img src=\"./assets/img/icons8-password-book-100.png\" alt=\"\">\n                    <h3>Reset password</h3>\n                </div>\n            </div>\n            <!-- <div class=\"col-lg-4 text-center\">\n                <div class=\"service-item\">\n                    <i class=\"fa fa-user\" style=\"    color: blue\"></i>\n                    <h3>Profile</h3>\n                </div>\n            </div>\n           -->\n            <!-- Single Service End -->\n        </div>\n        <!-- Service Content End -->\n    </div>\n</section>\n</div>\n";
     /***/
   },
 
@@ -691,7 +731,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n\n\n\n\n    <div class=\"content\"  style=\"margin-top: 33px !important;\">\n        <button class=\"btn btn-warning\" routerLink=\"/admin\"><i class=\"fa fa-arrow-left\"></i>  </button>\n        <div class=\"row\" >\n            <div class=\"col-sm-12\">\n   \n                <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\n                    <mat-tab label=\"Pending\">\n\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\n                                    <div class=\"row\" style=\"padding: 5px;\">\n                                        <button class=\"btn btn-success\" style=\"margin-left: auto;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\n                                        <button class=\"btn btn-danger\" style=\"    margin-right: auto; \n                                            margin-left: 11px;\" (click)=\"reject(results)\"> <i class=\"fa fa-close\"></i> Reject</button>\n\n                                    </div>\n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                    </mat-tab>\n                    <mat-tab label=\"Approved\">\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\n                                    \n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                    </mat-tab>\n                    <mat-tab label=\"Reject\">\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\n                                    \n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                    </mat-tab>\n                </mat-tab-group>\n            </div>\n        </div>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n\n\n\n\n    <div class=\"content\"  style=\"margin-top: 33px !important;\">\n        <button class=\"btn btn-warning\" routerLink=\"/admin\"><i class=\"fa fa-arrow-left\"></i>  </button>\n        <div class=\"row\" >\n            <div class=\"col-sm-12\">\n   \n                <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\n                    <mat-tab label=\"Pending\">\n\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\n                                    <div class=\"row\" style=\"padding: 5px;\">\n                                        <button class=\"btn btn-success\" style=\"margin-left: auto;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\n                                        <button class=\"btn btn-danger\" style=\"    margin-right: auto; \n                                            margin-left: 11px;\" (click)=\"reject(results)\"> <i class=\"fa fa-close\"></i> Reject</button>\n\n                                    </div>\n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\n\n                    </mat-tab>\n                    <mat-tab label=\"Approved\">\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\n                                    \n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\n\n                    </mat-tab>\n                    <mat-tab label=\"Reject\">\n                        <div class=\"row\" style=\"margin-top: 10px;\">\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\n                                <div class=\"card\">\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\"\n                                        style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\n                                   \n                                    &nbsp;\n                                    <button class=\"btn btn-dark\"\n                                        style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\"\n                                        (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\n                                    \n                                    <!-- </mat-card> -->\n                                </div>\n                            </div>\n                        </div>\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\n                        \n                    </mat-tab>\n                </mat-tab-group>\n            </div>\n        </div>\n    </div>\n</div>";
     /***/
   },
 
@@ -4152,7 +4192,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
     /*! ./ownerpannel/requests/view-requests/view-requests.component */
-    "./src/app/ownerpannel/requests/view-requests/view-requests.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
+    "./src/app/ownerpannel/requests/view-requests/view-requests.component.ts");
+    /* harmony import */
+
+
+    var _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
+    /*! ./ownerpannel/handovervehicles/handovervehicles.component */
+    "./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
 
 
     var routes = [{
@@ -4239,6 +4285,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     }, {
       path: 'bankdetails',
       component: _ownerpannel_bankdetails_bankdetails_component__WEBPACK_IMPORTED_MODULE_28__["BankdetailsComponent"]
+    }, {
+      path: 'handovervehicles',
+      component: _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_33__["HandovervehiclesComponent"]
     }, {
       path: 'add-bankdetails',
       component: _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_29__["AddBanksComponent"]
@@ -4676,7 +4725,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(
     /*! ./ownerpannel/requests/view-requests/view-requests.component */
-    "./src/app/ownerpannel/requests/view-requests/view-requests.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
+    "./src/app/ownerpannel/requests/view-requests/view-requests.component.ts");
+    /* harmony import */
+
+
+    var _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(
+    /*! ./ownerpannel/handovervehicles/handovervehicles.component */
+    "./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts");
+    /* harmony import */
+
+
+    var _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(
+    /*! ./ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component */
+    "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
 
 
     var AppModule = function AppModule() {
@@ -4684,7 +4745,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _login_login_component__WEBPACK_IMPORTED_MODULE_6__["LoginComponent"], _register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"], _adminpannel_adminpannel_component__WEBPACK_IMPORTED_MODULE_8__["AdminpannelComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _adminpannel_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_13__["SidebarComponent"], _adminpannel_header_header_component__WEBPACK_IMPORTED_MODULE_14__["HeaderComponent"], _adminpannel_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__["CountriesComponent"], _adminpannel_adminhome_adminhome_component__WEBPACK_IMPORTED_MODULE_16__["AdminhomeComponent"], _navigation_navigation_component__WEBPACK_IMPORTED_MODULE_17__["NavigationComponent"], _ownerpannel_ownerpannel_component__WEBPACK_IMPORTED_MODULE_18__["OwnerpannelComponent"], _ownerpannel_vehicles_vehicles_component__WEBPACK_IMPORTED_MODULE_19__["VehiclesComponent"], _adminpannel_companies_companies_component__WEBPACK_IMPORTED_MODULE_20__["CompaniesComponent"], _adminpannel_location_location_component__WEBPACK_IMPORTED_MODULE_21__["LocationComponent"], _adminpannel_adminapprovevehicles_adminapprovevehicles_component__WEBPACK_IMPORTED_MODULE_22__["AdminapprovevehiclesComponent"], _adminpannel_paymentreports_paymentreports_component__WEBPACK_IMPORTED_MODULE_23__["PaymentreportsComponent"], _adminpannel_reset_passowrd_reset_passowrd_component__WEBPACK_IMPORTED_MODULE_24__["ResetPassowrdComponent"], _ownerpannel_addnew_cars_addnew_cars_component__WEBPACK_IMPORTED_MODULE_25__["AddnewCarsComponent"], _ownerpannel_drivers_drivers_component__WEBPACK_IMPORTED_MODULE_30__["DriversComponent"], _ownerpannel_drivers_add_drivers_add_drivers_component__WEBPACK_IMPORTED_MODULE_31__["AddDriversComponent"], _loading_loading_component__WEBPACK_IMPORTED_MODULE_32__["LoadingComponent"], _ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"], _forgotpassword_forgotpassword_component__WEBPACK_IMPORTED_MODULE_35__["ForgotpasswordComponent"], _adminpannel_location_edit_location_edit_location_component__WEBPACK_IMPORTED_MODULE_36__["EditLocationComponent"], _adminpannel_location_add_location_add_location_component__WEBPACK_IMPORTED_MODULE_37__["AddLocationComponent"], _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_38__["ErrorPageComponent"], _ownerpannel_edit_cars_edit_cars_component__WEBPACK_IMPORTED_MODULE_41__["EditCarsComponent"], _registerpageformarketing_registerpageformarketing_component__WEBPACK_IMPORTED_MODULE_42__["RegisterpageformarketingComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_43__["FooterComponent"], _registerpageformarketing_pulicregistrationmarketing_pulicregistrationmarketing_component__WEBPACK_IMPORTED_MODULE_44__["PulicregistrationmarketingComponent"], _adminpannel_adminapprovevehicles_view_vehicledetails_view_vehicledetails_component__WEBPACK_IMPORTED_MODULE_45__["ViewVehicledetailsComponent"], _ownerpannel_vehicles_ownerviewvehicles_ownerviewvehicles_component__WEBPACK_IMPORTED_MODULE_46__["OwnerviewvehiclesComponent"], _ownerpannel_drivers_viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_47__["ViewlicsencebackComponent"], _ownerpannel_drivers_edit_drivers_edit_drivers_component__WEBPACK_IMPORTED_MODULE_48__["EditDriversComponent"], _ownerpannel_bankdetails_bankdetails_component__WEBPACK_IMPORTED_MODULE_49__["BankdetailsComponent"], _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_50__["AddBanksComponent"], _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_51__["EditBankdetailsComponent"], _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__["RequestsComponent"], _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _login_login_component__WEBPACK_IMPORTED_MODULE_6__["LoginComponent"], _register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"], _adminpannel_adminpannel_component__WEBPACK_IMPORTED_MODULE_8__["AdminpannelComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _adminpannel_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_13__["SidebarComponent"], _adminpannel_header_header_component__WEBPACK_IMPORTED_MODULE_14__["HeaderComponent"], _adminpannel_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__["CountriesComponent"], _adminpannel_adminhome_adminhome_component__WEBPACK_IMPORTED_MODULE_16__["AdminhomeComponent"], _navigation_navigation_component__WEBPACK_IMPORTED_MODULE_17__["NavigationComponent"], _ownerpannel_ownerpannel_component__WEBPACK_IMPORTED_MODULE_18__["OwnerpannelComponent"], _ownerpannel_vehicles_vehicles_component__WEBPACK_IMPORTED_MODULE_19__["VehiclesComponent"], _adminpannel_companies_companies_component__WEBPACK_IMPORTED_MODULE_20__["CompaniesComponent"], _adminpannel_location_location_component__WEBPACK_IMPORTED_MODULE_21__["LocationComponent"], _adminpannel_adminapprovevehicles_adminapprovevehicles_component__WEBPACK_IMPORTED_MODULE_22__["AdminapprovevehiclesComponent"], _adminpannel_paymentreports_paymentreports_component__WEBPACK_IMPORTED_MODULE_23__["PaymentreportsComponent"], _adminpannel_reset_passowrd_reset_passowrd_component__WEBPACK_IMPORTED_MODULE_24__["ResetPassowrdComponent"], _ownerpannel_addnew_cars_addnew_cars_component__WEBPACK_IMPORTED_MODULE_25__["AddnewCarsComponent"], _ownerpannel_drivers_drivers_component__WEBPACK_IMPORTED_MODULE_30__["DriversComponent"], _ownerpannel_drivers_add_drivers_add_drivers_component__WEBPACK_IMPORTED_MODULE_31__["AddDriversComponent"], _loading_loading_component__WEBPACK_IMPORTED_MODULE_32__["LoadingComponent"], _ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"], _forgotpassword_forgotpassword_component__WEBPACK_IMPORTED_MODULE_35__["ForgotpasswordComponent"], _adminpannel_location_edit_location_edit_location_component__WEBPACK_IMPORTED_MODULE_36__["EditLocationComponent"], _adminpannel_location_add_location_add_location_component__WEBPACK_IMPORTED_MODULE_37__["AddLocationComponent"], _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_38__["ErrorPageComponent"], _ownerpannel_edit_cars_edit_cars_component__WEBPACK_IMPORTED_MODULE_41__["EditCarsComponent"], _registerpageformarketing_registerpageformarketing_component__WEBPACK_IMPORTED_MODULE_42__["RegisterpageformarketingComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_43__["FooterComponent"], _registerpageformarketing_pulicregistrationmarketing_pulicregistrationmarketing_component__WEBPACK_IMPORTED_MODULE_44__["PulicregistrationmarketingComponent"], _adminpannel_adminapprovevehicles_view_vehicledetails_view_vehicledetails_component__WEBPACK_IMPORTED_MODULE_45__["ViewVehicledetailsComponent"], _ownerpannel_vehicles_ownerviewvehicles_ownerviewvehicles_component__WEBPACK_IMPORTED_MODULE_46__["OwnerviewvehiclesComponent"], _ownerpannel_drivers_viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_47__["ViewlicsencebackComponent"], _ownerpannel_drivers_edit_drivers_edit_drivers_component__WEBPACK_IMPORTED_MODULE_48__["EditDriversComponent"], _ownerpannel_bankdetails_bankdetails_component__WEBPACK_IMPORTED_MODULE_49__["BankdetailsComponent"], _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_50__["AddBanksComponent"], _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_51__["EditBankdetailsComponent"], _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__["RequestsComponent"], _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"], _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__["HandovervehiclesComponent"], _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _material__WEBPACK_IMPORTED_MODULE_10__["MaterialModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"], ngx_toastr__WEBPACK_IMPORTED_MODULE_40__["ToastrModule"].forRoot(), _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["ReactiveFormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"]],
       providers: [// AuthGuard,
       {
@@ -4700,7 +4761,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         multi: true
       }],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
-      entryComponents: [_ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"]]
+      entryComponents: [_ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"], _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"]]
     })], AppModule);
     /***/
   },
@@ -5075,7 +5136,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".overlay {\r\n    position:fixed;\r\n    display:block;\r\n    width:100%;\r\n    height:100%;\r\n    top:0;\r\n    left:0px;\r\n    background-color:rgba(192, 181, 181, 0.589);\r\n    align-items: center;\r\n  }\r\n  .spinner {\r\n    position:absolute;\r\n    top:50%;\r\n    left:50%;\r\n    transform: translate(-50%,-50%);\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n  /* .loader {\r\n    position: fixed;\r\n    left: 0px;\r\n    top: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 9999;\r\n   \r\n    opacity: .8;\r\n} */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9hZGluZy9sb2FkaW5nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsYUFBYTtJQUNiLFVBQVU7SUFDVixXQUFXO0lBQ1gsS0FBSztJQUNMLFFBQVE7SUFDUiwyQ0FBMkM7SUFDM0MsbUJBQW1CO0VBQ3JCO0VBQ0E7SUFDRSxpQkFBaUI7SUFDakIsT0FBTztJQUNQLFFBQVE7SUFDUiwrQkFBK0I7SUFDL0IsaUJBQWlCO0lBQ2pCLGtCQUFrQjtFQUNwQjtFQUNBOzs7Ozs7Ozs7R0FTQyIsImZpbGUiOiJzcmMvYXBwL2xvYWRpbmcvbG9hZGluZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm92ZXJsYXkge1xyXG4gICAgcG9zaXRpb246Zml4ZWQ7XHJcbiAgICBkaXNwbGF5OmJsb2NrO1xyXG4gICAgd2lkdGg6MTAwJTtcclxuICAgIGhlaWdodDoxMDAlO1xyXG4gICAgdG9wOjA7XHJcbiAgICBsZWZ0OjBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6cmdiYSgxOTIsIDE4MSwgMTgxLCAwLjU4OSk7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIH1cclxuICAuc3Bpbm5lciB7XHJcbiAgICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICAgIHRvcDo1MCU7XHJcbiAgICBsZWZ0OjUwJTtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsLTUwJSk7XHJcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcclxuICAgIG1hcmdpbi1yaWdodDogYXV0bztcclxuICB9XHJcbiAgLyogLmxvYWRlciB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBsZWZ0OiAwcHg7XHJcbiAgICB0b3A6IDBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgei1pbmRleDogOTk5OTtcclxuICAgXHJcbiAgICBvcGFjaXR5OiAuODtcclxufSAqL1xyXG4iXX0= */";
+    __webpack_exports__["default"] = ".overlay {\r\n    position:fixed;\r\n    display:block;\r\n    width:100%;\r\n    height:100%;\r\n    top:0;\r\n    left:0px;\r\n    background-color:rgba(192, 181, 181, 0.589);\r\n    align-items: center;\r\n  }\r\n  .spinner {\r\n    position:absolute;\r\n    top:50%;\r\n    left:49%;\r\n    transform: translate(-50%,-50%);\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n  /* .loader {\r\n    position: fixed;\r\n    left: 0px;\r\n    top: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 9999;\r\n   \r\n    opacity: .8;\r\n} */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9hZGluZy9sb2FkaW5nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsYUFBYTtJQUNiLFVBQVU7SUFDVixXQUFXO0lBQ1gsS0FBSztJQUNMLFFBQVE7SUFDUiwyQ0FBMkM7SUFDM0MsbUJBQW1CO0VBQ3JCO0VBQ0E7SUFDRSxpQkFBaUI7SUFDakIsT0FBTztJQUNQLFFBQVE7SUFDUiwrQkFBK0I7SUFDL0IsaUJBQWlCO0lBQ2pCLGtCQUFrQjtFQUNwQjtFQUNBOzs7Ozs7Ozs7R0FTQyIsImZpbGUiOiJzcmMvYXBwL2xvYWRpbmcvbG9hZGluZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm92ZXJsYXkge1xyXG4gICAgcG9zaXRpb246Zml4ZWQ7XHJcbiAgICBkaXNwbGF5OmJsb2NrO1xyXG4gICAgd2lkdGg6MTAwJTtcclxuICAgIGhlaWdodDoxMDAlO1xyXG4gICAgdG9wOjA7XHJcbiAgICBsZWZ0OjBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6cmdiYSgxOTIsIDE4MSwgMTgxLCAwLjU4OSk7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIH1cclxuICAuc3Bpbm5lciB7XHJcbiAgICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICAgIHRvcDo1MCU7XHJcbiAgICBsZWZ0OjQ5JTtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsLTUwJSk7XHJcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcclxuICAgIG1hcmdpbi1yaWdodDogYXV0bztcclxuICB9XHJcbiAgLyogLmxvYWRlciB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBsZWZ0OiAwcHg7XHJcbiAgICB0b3A6IDBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgei1pbmRleDogOTk5OTtcclxuICAgXHJcbiAgICBvcGFjaXR5OiAuODtcclxufSAqL1xyXG4iXX0= */";
     /***/
   },
 
@@ -7942,6 +8003,255 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.css":
+  /*!**********************************************************************************************************!*\
+    !*** ./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.css ***!
+    \**********************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppOwnerpannelHandovervehiclesAddVehiclekmHandoverAddVehiclekmHandoverComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2hhbmRvdmVydmVoaWNsZXMvYWRkLXZlaGljbGVrbS1oYW5kb3Zlci9hZGQtdmVoaWNsZWttLWhhbmRvdmVyLmNvbXBvbmVudC5jc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts":
+  /*!*********************************************************************************************************!*\
+    !*** ./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts ***!
+    \*********************************************************************************************************/
+
+  /*! exports provided: AddVehiclekmHandoverComponent */
+
+  /***/
+  function srcAppOwnerpannelHandovervehiclesAddVehiclekmHandoverAddVehiclekmHandoverComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AddVehiclekmHandoverComponent", function () {
+      return AddVehiclekmHandoverComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/material/dialog */
+    "./node_modules/@angular/material/esm2015/dialog.js");
+
+    var AddVehiclekmHandoverComponent = /*#__PURE__*/function () {
+      function AddVehiclekmHandoverComponent(dialogRef, data) {
+        _classCallCheck(this, AddVehiclekmHandoverComponent);
+
+        this.dialogRef = dialogRef;
+        this.data = data;
+        console.log(data);
+      }
+
+      _createClass(AddVehiclekmHandoverComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return AddVehiclekmHandoverComponent;
+    }();
+
+    AddVehiclekmHandoverComponent.ctorParameters = function () {
+      return [{
+        type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialogRef"]
+      }, {
+        type: undefined,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+          args: [_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"]]
+        }]
+      }];
+    };
+
+    AddVehiclekmHandoverComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-add-vehiclekm-handover',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./add-vehiclekm-handover.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./add-vehiclekm-handover.component.css */
+      "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.css"))["default"]]
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"]))], AddVehiclekmHandoverComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/ownerpannel/handovervehicles/handovervehicles.component.css":
+  /*!*****************************************************************************!*\
+    !*** ./src/app/ownerpannel/handovervehicles/handovervehicles.component.css ***!
+    \*****************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppOwnerpannelHandovervehiclesHandovervehiclesComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".row{\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n.single-popular-car h3 span.price {\r\n    color: #0e0e0e;\r\n    float: right;\r\n    font-size: 14px;\r\n    font-weight: 700;\r\n}\r\n.vehImg{\r\n    /* width: 78%;\r\n    margin: 0 auto;\r\n    height: 200px;\r\n    display: block; */\r\n    display: block;\r\n    /* height: 134px; */\r\n    margin-bottom: 10px;\r\n    margin-left: auto;\r\n    width: 221px !important;\r\n    margin-right: auto;\r\n    height: 183px !important;\r\n}\r\n/* img{\r\n        max-width: -webkit-fill-available;\r\n    } */\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvaGFuZG92ZXJ2ZWhpY2xlcy9oYW5kb3ZlcnZlaGljbGVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCO0FBQ0E7SUFDSSxjQUFjO0lBQ2QsWUFBWTtJQUNaLGVBQWU7SUFDZixnQkFBZ0I7QUFDcEI7QUFDQTtJQUNJOzs7cUJBR2lCO0lBQ2pCLGNBQWM7SUFDZCxtQkFBbUI7SUFDbkIsbUJBQW1CO0lBQ25CLGlCQUFpQjtJQUNqQix1QkFBdUI7SUFDdkIsa0JBQWtCO0lBQ2xCLHdCQUF3QjtBQUM1QjtBQUNJOztPQUVHIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvaGFuZG92ZXJ2ZWhpY2xlcy9oYW5kb3ZlcnZlaGljbGVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm93e1xyXG4gICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgIG1hcmdpbi1yaWdodDogMHB4O1xyXG59XHJcbi5zaW5nbGUtcG9wdWxhci1jYXIgaDMgc3Bhbi5wcmljZSB7XHJcbiAgICBjb2xvcjogIzBlMGUwZTtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA3MDA7XHJcbn1cclxuLnZlaEltZ3tcclxuICAgIC8qIHdpZHRoOiA3OCU7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICAgIGhlaWdodDogMjAwcHg7XHJcbiAgICBkaXNwbGF5OiBibG9jazsgKi9cclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgLyogaGVpZ2h0OiAxMzRweDsgKi9cclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcclxuICAgIHdpZHRoOiAyMjFweCAhaW1wb3J0YW50O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gICAgaGVpZ2h0OiAxODNweCAhaW1wb3J0YW50O1xyXG59XHJcbiAgICAvKiBpbWd7XHJcbiAgICAgICAgbWF4LXdpZHRoOiAtd2Via2l0LWZpbGwtYXZhaWxhYmxlO1xyXG4gICAgfSAqLyJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts":
+  /*!****************************************************************************!*\
+    !*** ./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts ***!
+    \****************************************************************************/
+
+  /*! exports provided: HandovervehiclesComponent */
+
+  /***/
+  function srcAppOwnerpannelHandovervehiclesHandovervehiclesComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HandovervehiclesComponent", function () {
+      return HandovervehiclesComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/material/dialog */
+    "./node_modules/@angular/material/esm2015/dialog.js");
+    /* harmony import */
+
+
+    var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/environments/environment.prod */
+    "./src/environments/environment.prod.ts");
+    /* harmony import */
+
+
+    var _owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../owner.service */
+    "./src/app/ownerpannel/owner.service.ts");
+    /* harmony import */
+
+
+    var _add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./add-vehiclekm-handover/add-vehiclekm-handover.component */
+    "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts");
+
+    var HandovervehiclesComponent = /*#__PURE__*/function () {
+      function HandovervehiclesComponent(ownerService, dialog) {
+        _classCallCheck(this, HandovervehiclesComponent);
+
+        this.ownerService = ownerService;
+        this.dialog = dialog;
+        this.PENDING = '2';
+        this.APPROVED = '1';
+        this.REJECTED = '3';
+        this.results = [];
+        this.formData = new FormData();
+        this.message = 'data found';
+      }
+
+      _createClass(HandovervehiclesComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.apiurl = src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].BASEURL;
+          console.log(this.apiurl);
+          this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
+          this.ownerId = this.ownerdetails['userId'];
+          this.getapprovedVehicles();
+        }
+      }, {
+        key: "getapprovedVehicles",
+        value: function getapprovedVehicles() {
+          var _this40 = this;
+
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
+            _this40.results = data;
+
+            if (_this40.results.length == 0) {
+              _this40.message = 'No Data Found';
+            } else {
+              _this40.message = 'Data Found';
+            }
+          }, function (error) {});
+        }
+      }, {
+        key: "openDialog",
+        value: function openDialog(s) {
+          var dialogRef = this.dialog.open(_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_5__["AddVehiclekmHandoverComponent"], {
+            width: '450px',
+            data: s
+          });
+          dialogRef.afterClosed().subscribe(function (result) {
+            console.log('The dialog was closed');
+          });
+        }
+      }]);
+
+      return HandovervehiclesComponent;
+    }();
+
+    HandovervehiclesComponent.ctorParameters = function () {
+      return [{
+        type: _owner_service__WEBPACK_IMPORTED_MODULE_4__["OwnerService"]
+      }, {
+        type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialog"]
+      }];
+    };
+
+    HandovervehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-handovervehicles',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./handovervehicles.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./handovervehicles.component.css */
+      "./src/app/ownerpannel/handovervehicles/handovervehicles.component.css"))["default"]]
+    })], HandovervehiclesComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/ownerpannel/owner.service.ts":
   /*!**********************************************!*\
     !*** ./src/app/ownerpannel/owner.service.ts ***!
@@ -8299,6 +8609,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.REJECTED = '3';
         this.results = [];
         this.formData = new FormData();
+        this.message = 'data found';
       }
 
       _createClass(RequestsComponent, [{
@@ -8326,28 +8637,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallPendingdata",
         value: function getallPendingdata() {
-          var _this40 = this;
+          var _this41 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
-            _this40.results = data;
+            _this41.results = data;
+
+            if (_this41.results.length == 0) {
+              _this41.message = 'No Data Found';
+            } else {
+              _this41.message = 'Data Found';
+            }
           }, function (error) {});
         }
       }, {
         key: "getallApprovedData",
         value: function getallApprovedData() {
-          var _this41 = this;
+          var _this42 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
-            _this41.results = data;
+            _this42.results = data;
+
+            if (_this42.results.length == 0) {
+              _this42.message = 'No Data Found';
+            } else {
+              _this42.message = 'Data Found';
+            }
           }, function (error) {});
         }
       }, {
         key: "getallrejectedData",
         value: function getallrejectedData() {
-          var _this42 = this;
+          var _this43 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
-            _this42.results = data;
+            _this43.results = data;
+
+            if (_this43.results.length == 0) {
+              _this43.message = 'No Data Found';
+            } else {
+              _this43.message = 'Data Found';
+            }
           }, function (error) {});
         }
       }, {
@@ -8358,7 +8687,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve(s) {
-          var _this43 = this;
+          var _this44 = this;
 
           console.log(s.id);
           var status = "1";
@@ -8367,7 +8696,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this43.ngOnInit();
+            _this44.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -8375,7 +8704,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject(s) {
-          var _this44 = this;
+          var _this45 = this;
 
           console.log(s.id);
           var status = "3";
@@ -8384,7 +8713,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this44.ngOnInit();
+            _this45.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -8501,30 +8830,30 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ViewRequestsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this45 = this;
+          var _this46 = this;
 
           this.activaterouter.params.subscribe(function (params) {
             console.log(params.id, params.name);
-            _this45.customerName = params.name;
-            _this45.cId = params.id;
+            _this46.customerName = params.name;
+            _this46.cId = params.id;
           });
           this.getDetails();
         }
       }, {
         key: "getDetails",
         value: function getDetails() {
-          var _this46 = this;
+          var _this47 = this;
 
           this.ownerservice.getapprovalDetaislById(this.cId).subscribe(function (data) {
-            _this46.results = data;
-            _this46.approvalstatus = _this46.results['approvalStatus'];
-            _this46.startingLocation = _this46.results['startingLocation'];
-            _this46.destinationLocation = _this46.results['destinationLocation'];
-            _this46.requestedDate = _this46.results['requestedDate'];
-            _this46.companyName = _this46.results.vehicleForm['companyName'];
-            _this46.model = _this46.results.vehicleForm['model'];
-            _this46.numberPlate = _this46.results.vehicleForm['numberPlate'];
-            _this46.rentPerDay = _this46.results.vehicleForm['rentPerDay'];
+            _this47.results = data;
+            _this47.approvalstatus = _this47.results['approvalStatus'];
+            _this47.startingLocation = _this47.results['startingLocation'];
+            _this47.destinationLocation = _this47.results['destinationLocation'];
+            _this47.requestedDate = _this47.results['requestedDate'];
+            _this47.companyName = _this47.results.vehicleForm['companyName'];
+            _this47.model = _this47.results.vehicleForm['model'];
+            _this47.numberPlate = _this47.results.vehicleForm['numberPlate'];
+            _this47.rentPerDay = _this47.results.vehicleForm['rentPerDay'];
           }, function (error) {});
         }
       }, {
@@ -8535,7 +8864,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve() {
-          var _this47 = this;
+          var _this48 = this;
 
           console.log(this.cId);
           var status = "1";
@@ -8544,7 +8873,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this47.router.navigate(['/request']);
+            _this48.router.navigate(['/request']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -8552,7 +8881,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject() {
-          var _this48 = this;
+          var _this49 = this;
 
           console.log(this.cId);
           var status = "3";
@@ -8561,7 +8890,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this48.ngOnInit();
+            _this49.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -8702,88 +9031,88 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getimage2",
         value: function getimage2() {
-          var _this49 = this;
+          var _this50 = this;
 
           this.adminService.getimage(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this49.vehicleimage2 = _this49.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this50.vehicleimage2 = _this50.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsByid",
         value: function getvehicleDetailsByid() {
-          var _this50 = this;
+          var _this51 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vId).subscribe(function (data) {
-            _this50.results = data;
-            console.log(_this50.results);
-            _this50.vehicleModel.vehicleCompany = _this50.results['companyName'];
-            _this50.vehicleModel.vehicleType = _this50.results['type'];
-            _this50.vehicleModel.vehicleModel = _this50.results['model'];
-            _this50.vehicleModel.vehicleRegistration = _this50.results['numberPlate'];
-            _this50.vehicleModel.rent = _this50.results['rentPerDay'];
-            _this50.rentperkm = _this50.results['rentPerKM'];
-            _this50.rentPerHour = _this50.results['rentPerHour'];
-            _this50.vehicleModel.locality = _this50.results['locality'];
-            _this50.vehicleModel.vehicleYear = _this50.results['year'];
+            _this51.results = data;
+            console.log(_this51.results);
+            _this51.vehicleModel.vehicleCompany = _this51.results['companyName'];
+            _this51.vehicleModel.vehicleType = _this51.results['type'];
+            _this51.vehicleModel.vehicleModel = _this51.results['model'];
+            _this51.vehicleModel.vehicleRegistration = _this51.results['numberPlate'];
+            _this51.vehicleModel.rent = _this51.results['rentPerDay'];
+            _this51.rentperkm = _this51.results['rentPerKM'];
+            _this51.rentPerHour = _this51.results['rentPerHour'];
+            _this51.vehicleModel.locality = _this51.results['locality'];
+            _this51.vehicleModel.vehicleYear = _this51.results['year'];
 
-            if (_this50.results['driverId'] != null) {
-              _this50.vehicleModel.driver = _this50.results['driverId'];
+            if (_this51.results['driverId'] != null) {
+              _this51.vehicleModel.driver = _this51.results['driverId'];
             } else {
-              _this50.vehicleModel.driver = '';
+              _this51.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getlicencefrnt",
         value: function getlicencefrnt() {
-          var _this51 = this;
+          var _this52 = this;
 
           this.adminService.getlicencefrnt(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this51.liscence1 = _this51.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this52.liscence1 = _this52.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getlicscenceback",
         value: function getlicscenceback() {
-          var _this52 = this;
+          var _this53 = this;
 
           this.adminService.getlicscenceback(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this52.liscence2 = _this52.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this53.liscence2 = _this53.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getrc",
         value: function getrc() {
-          var _this53 = this;
+          var _this54 = this;
 
           this.adminService.getrc(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this53.rc = _this53.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this54.rc = _this54.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsById",
         value: function getvehicleDetailsById() {
-          var _this54 = this;
+          var _this55 = this;
 
           this.adminService.getVehicleDetailsbyId(this.vId).subscribe(function (data) {
-            _this54.DriverDetailsofCar = data['driver'];
-            console.log(_this54.DriverDetailsofCar);
-            _this54.vehicleModel.dname = _this54.DriverDetailsofCar['name'];
-            _this54.vehicleModel.dnumber = _this54.DriverDetailsofCar['number'];
-            _this54.vehicleModel.daddreess = _this54.DriverDetailsofCar['addresss'];
-            _this54.id = _this54.DriverDetailsofCar['id'];
+            _this55.DriverDetailsofCar = data['driver'];
+            console.log(_this55.DriverDetailsofCar);
+            _this55.vehicleModel.dname = _this55.DriverDetailsofCar['name'];
+            _this55.vehicleModel.dnumber = _this55.DriverDetailsofCar['number'];
+            _this55.vehicleModel.daddreess = _this55.DriverDetailsofCar['addresss'];
+            _this55.id = _this55.DriverDetailsofCar['id'];
           }, function (error) {});
         }
       }]);
@@ -8911,17 +9240,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallcarsbyowers",
         value: function getallcarsbyowers() {
-          var _this55 = this;
+          var _this56 = this;
 
           this.ownerserivice.getallcars(this.userId).subscribe(function (data) {
-            _this55.carList = data;
-            _this55.errormessage = "data found";
+            _this56.carList = data;
+            _this56.errormessage = "data found";
 
-            if (_this55.carList.length == 0) {
-              _this55.errormessage = "No data found";
+            if (_this56.carList.length == 0) {
+              _this56.errormessage = "No data found";
             }
           }, function (error) {
-            _this55.errormessage = "No data found";
+            _this56.errormessage = "No data found";
           });
         }
       }, {
@@ -8943,19 +9272,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "changeFilter",
         value: function changeFilter(s) {
-          var _this56 = this;
+          var _this57 = this;
 
           console.log(s);
           this.ownerserivice.getFilterOptionsVehicles(s, this.userId).subscribe(function (data) {
-            _this56.carList = data;
-            _this56.errormessage = "data found";
+            _this57.carList = data;
+            _this57.errormessage = "data found";
 
-            if (_this56.carList.length == 0) {
-              _this56.errormessage = "No data found";
+            if (_this57.carList.length == 0) {
+              _this57.errormessage = "No data found";
             }
           }, function (error) {
-            _this56.carList = [];
-            _this56.errormessage = "No data found";
+            _this57.carList = [];
+            _this57.errormessage = "No data found";
           });
         }
       }]);
@@ -9153,7 +9482,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this57 = this;
+          var _this58 = this;
 
           // alert('User Registration successfully');
           // console.log(this.registerForm.value);
@@ -9169,14 +9498,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           console.log(req);
           this.loginservice.register(req).subscribe(function (data) {
-            _this57.toaster.success('Register Successfully');
+            _this58.toaster.success('Register Successfully');
 
-            _this57.router.navigate(['/login']);
+            _this58.router.navigate(['/login']);
           }, function (error) {
-            _this57.error = error.error['message'];
-            console.log(_this57.error);
+            _this58.error = error.error['message'];
+            console.log(_this58.error);
 
-            _this57.toaster.error(_this57.error);
+            _this58.toaster.error(_this58.error);
           });
         }
       }]);
@@ -9409,7 +9738,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this58 = this;
+          var _this59 = this;
 
           this.submitted = true;
 
@@ -9428,10 +9757,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append("city", this.registerModel.locality);
             this.loginservice.userpublicregister(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Registration Completed!', 'Registered Successfully', 'success');
-              _this58.formData["delete"];
+              _this59.formData["delete"];
               window.location.reload();
             }, function (error) {
-              _this58.formData["delete"];
+              _this59.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Register!', 'Server is busy at this moment', 'error');
             });
           }

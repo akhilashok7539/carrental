@@ -296,6 +296,58 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add Vehicles Image 1</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n                <form [formGroup]=\"addVehiclesform\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                    </div>\n\n                </form>\n                <div class=\"col-sm-12\">\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add Vehicles Image 2</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n                <form [formGroup]=\"addVehiclesform\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 2 <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\n                                </div>\n\n\n                            </div>\n                        </div>\n                    </div>\n\n                </form>\n                <div class=\"col-sm-12\">\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add Vehicles licence Image Back</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n                <form [formGroup]=\"addVehiclesform\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 2 <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\n                                </div>\n\n\n                            </div>\n                        </div>\n                    </div>\n\n                </form>\n                <div class=\"col-sm-12\">\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html ***!
+  \********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add Vehicles licence Image Front</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n                <form [formGroup]=\"addVehiclesform\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 2 <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\n                                </div>\n\n\n                            </div>\n                        </div>\n                    </div>\n\n                </form>\n                <div class=\"col-sm-12\">\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html ***!
@@ -305,7 +357,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i\n            style=\"color:#1492E6;\">Add Vehicles</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add New Vehicles</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n\n                <form [formGroup]=\"addVehiclesform\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\n                                <!-- <input [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\" \n                                type=\"text\"   > -->\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\"\n                                    [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\"\n                                    class=\"form-control\">\n                                    <option value=\"\">Choose a option</option>\n                                    <option value=\"2Wheeler\">2 Wheeler</option>\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\n\n                                </select>\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\"\n                                    formControlName=\"vehicleCompany\">\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Model<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\"\n                                    formControlName=\"vehicleModel\">\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Year<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\"\n                                    formControlName=\"vehicleYear\">\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\"\n                                    formControlName=\"vehicleRegistration\">\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\"\n                                    formControlName=\"rent\">\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Locality<span class=\"text-danger\">*</span></label>\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\"\n                                    [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\n                                    <option value=\"\" selected disabled>Choose your locality</option>\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\n                                        {{locations.name}}</option>\n                                </select>\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Driver<span class=\"text-danger\"></span></label>\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\n                                    <option value=\"\">Choose your Driver</option>\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\"> {{driverslist.name}}</option>\n                                </select>\n\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\n                            <div class=\"form-group\">\n                                <label>Driver Rent Per KM</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\"\n                                    formControlName=\"dRent\">\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\" >\n                            <div class=\"form-group\">\n                                <label>Vehicle Rent Per KM</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\"\n                                    formControlName=\"vRentperKm\">\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\" >\n                            <div class=\"form-group\">\n                                <label>Vehicle Rent Per Hour</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\"\n                                    formControlName=\"vRentperHr\">\n                                <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> License Front <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\n\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>License Back <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-12\">\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\"\n                                (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                                <!-- <button (click)=\"clicks()\">click</button> -->\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add New Vehicles</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n\n                <form [formGroup]=\"addVehiclesform\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\n\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\">\n                                    <option value=\"\">Choose a option</option>\n                                    <option value=\"2Wheeler\">2 Wheeler</option>\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\n\n                                </select>\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Model<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Year<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Locality<span class=\"text-danger\">*</span></label>\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\n                                    <option value=\"\" selected disabled>Choose your locality</option>\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\n                                        {{locations.name}}</option>\n                                </select>\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Driver<span class=\"text-danger\"></span></label>\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\n                                    <option value=\"\">Choose your Driver</option>\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\"> {{driverslist.name}}</option>\n                                </select>\n\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\n                            <div class=\"form-group\">\n                                <label>Driver Rent Per KM</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Vehicle Rent Per KM</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Vehicle Rent Per Hour</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\" formControlName=\"vRentperHr\">\n                                <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <!-- <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> License Front <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\n\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\n                                </div>\n\n                            </div>\n                        </div> -->\n                        <!-- <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>License Back <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\n                                </div>\n\n                            </div>\n                        </div> -->\n                        <!-- <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\n                                </div>\n\n                            </div>\n                        </div> -->\n                        <!-- <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\n                                </div>\n\n                            </div>\n                        </div> -->\n                        <!-- <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\n                                </div>\n\n                            </div>\n                        </div> -->\n                        <div class=\"col-sm-12\">\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html ***!
+  \********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add Vehicles RC Image </h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n                <form [formGroup]=\"addVehiclesform\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> RC Image  <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img2.errors.required\">RC Image is required</div>\n                                </div>\n\n\n                            </div>\n                        </div>\n                    </div>\n\n                </form>\n                <div class=\"col-sm-12\">\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -357,7 +422,46 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/drivers\"><i\n                style=\"color: black;\">Drivers</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i\n            style=\"color:#1492E6;\">Add Drivers</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add New Drivers</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n\n                <form [formGroup]=\"driverForm\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Driver Name <span class=\"text-danger\">*</span></label>\n                                <input [(ngModel)]=\"driverModel.name\" formControlName=\"name\" class=\"form-control\" \n                                type=\"text\" [ngClass]=\"{ 'is-invalid': submitted && f.name.errors }\"  >\n                              \n                                <div *ngIf=\"submitted && f.name.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.name.errors.required\">Driver Name is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Phone Number<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.number.errors }\"\n                                type=\"text\"  [(ngModel)]=\"number\" formControlName=\"number\" >\n\n                                <div *ngIf=\"submitted && f.number.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.number.errors.required\">Driver Number is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Address<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.address.errors }\"\n                                type=\"text\" [(ngModel)]=\"driverModel.address\" formControlName=\"address\"  >\n                              \n                                <div *ngIf=\"submitted && f.address.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.address.errors.required\">Driver Address is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Pancard No<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.pancard.errors }\"\n                                type=\"text\"   [(ngModel)]=\"driverModel.pancard\" formControlName=\"pancard\">\n                              \n                                <div *ngIf=\"submitted && f.pancard.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.pancard.errors.required\">Driver Pancard is required</div>\n                                </div>\n                            </div>\n                        </div>\n                      \n                        \n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> License Front <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\"\n                                #file type=\"file\" (change)=\"addliscensefrnt($event)\"  formControlName=\"liscencefrnt\" >\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">Driver liscence front pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>License Back <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\"\n                                #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\"  >\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscenceback.errors.required\">Driver liscence back Pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Profile Pic <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.propic.errors }\"\n                                #file type=\"file\" (change)=\"addprofilepic($event)\"  formControlName=\"propic\"   >\n                                <div *ngIf=\"submitted && f.propic.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.propic.errors.required\">Driver Pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        \n                        <div class=\"col-sm-12\">\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/drivers\"><i\n                style=\"color: black;\">Drivers</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Drivers</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add New Drivers</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n\n                <form [formGroup]=\"driverForm\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Driver Name <span class=\"text-danger\">*</span></label>\n                                <input [(ngModel)]=\"driverModel.name\" formControlName=\"name\" class=\"form-control\" type=\"text\" [ngClass]=\"{ 'is-invalid': submitted && f.name.errors }\">\n\n                                <div *ngIf=\"submitted && f.name.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.name.errors.required\">Driver Name is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Phone Number<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.number.errors }\" type=\"text\" [(ngModel)]=\"number\" formControlName=\"number\">\n\n                                <div *ngIf=\"submitted && f.number.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.number.errors.required\">Driver Number is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Address<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.address.errors }\" type=\"text\" [(ngModel)]=\"driverModel.address\" formControlName=\"address\">\n\n                                <div *ngIf=\"submitted && f.address.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.address.errors.required\">Driver Address is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Pancard No<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.pancard.errors }\" type=\"text\" [(ngModel)]=\"driverModel.pancard\" formControlName=\"pancard\">\n\n                                <div *ngIf=\"submitted && f.pancard.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.pancard.errors.required\">Driver Pancard is required</div>\n                                </div>\n                            </div>\n                        </div>\n\n\n                        <!-- <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> License Front <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\"\n                                #file type=\"file\" (change)=\"addliscensefrnt($event)\"  formControlName=\"liscencefrnt\" >\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">Driver liscence front pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>License Back <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\"\n                                #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\"  >\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscenceback.errors.required\">Driver liscence back Pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Profile Pic <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.propic.errors }\"\n                                #file type=\"file\" (change)=\"addprofilepic($event)\"  formControlName=\"propic\"   >\n                                <div *ngIf=\"submitted && f.propic.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.propic.errors.required\">Driver Pic is required</div>\n                                </div>\n\n                            </div>\n                        </div> -->\n\n                        <div class=\"col-sm-12\">\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html ***!
+  \**********************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/drivers\"><i\n        style=\"color: black;\">Drivers</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Drivers</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\npadding: 20px;\nbackground-color: #F8FAFB;\nmargin-top: 25px;\nmargin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add Driver licence Image Front</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n                <form [formGroup]=\"driverForm\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> License Front <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">Driver liscence front pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                    </div>\n\n                </form>\n                <div class=\"col-sm-12\">\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html ***!
+  \******************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/drivers\"><i\n        style=\"color: black;\">Drivers</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Drivers</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\npadding: 20px;\nbackground-color: #F8FAFB;\nmargin-top: 25px;\nmargin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add Driver licence Image Back</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n                <form [formGroup]=\"driverForm\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>License Back <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscenceback.errors.required\">Driver liscence back Pic is required</div>\n                                </div>\n\n\n                            </div>\n                        </div>\n                    </div>\n\n                </form>\n                <div class=\"col-sm-12\">\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html ***!
+  \************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/drivers\"><i\n        style=\"color: black;\">Drivers</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Drivers</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\npadding: 20px;\nbackground-color: #F8FAFB;\nmargin-top: 25px;\nmargin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Add Driver Profile Pic</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n                <form [formGroup]=\"driverForm\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Profile Pic <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.propic.errors }\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"propic\">\n                                <div *ngIf=\"submitted && f.propic.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.propic.errors.required\">Driver Pic is required</div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </form>\n                <div class=\"col-sm-12\">\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -383,7 +487,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/drivers\"><i\n                style=\"color: black;\">Drivers</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i\n            style=\"color:#1492E6;\">Edit Drivers</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Edit  Drivers</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n\n                <form [formGroup]=\"driverForm\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Driver Name <span class=\"text-danger\">*</span></label>\n                                <input [(ngModel)]=\"driverModel.name\" formControlName=\"name\" class=\"form-control\" \n                                type=\"text\" [ngClass]=\"{ 'is-invalid': submitted && f.name.errors }\"  >\n                              \n                                <div *ngIf=\"submitted && f.name.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.name.errors.required\">Driver Name is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Phone Number<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.number.errors }\"\n                                type=\"text\"  [(ngModel)]=\"driverModel.number\" formControlName=\"number\" >\n\n                                <div *ngIf=\"submitted && f.number.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.number.errors.required\">Driver Number is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Address<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.address.errors }\"\n                                type=\"text\" [(ngModel)]=\"driverModel.address\" formControlName=\"address\"  >\n                              \n                                <div *ngIf=\"submitted && f.address.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.address.errors.required\">Driver Address is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Pancard No<span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.pancard.errors }\"\n                                type=\"text\"   [(ngModel)]=\"driverModel.pancard\" formControlName=\"pancard\">\n                              \n                                <div *ngIf=\"submitted && f.pancard.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.pancard.errors.required\">Driver Pancard is required</div>\n                                </div>\n                            </div>\n                        </div>\n                      \n                        \n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> License Front <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\"\n                                #file type=\"file\" (change)=\"addliscensefrnt($event)\"  formControlName=\"liscencefrnt\" >\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">Driver liscence front pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>License Back <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\"\n                                #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\"  >\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscenceback.errors.required\">Driver liscence back Pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Profile Pic <span class=\"text-danger\">*</span></label>\n                                <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.propic.errors }\"\n                                #file type=\"file\" (change)=\"addprofilepic($event)\"  formControlName=\"propic\"   >\n                                <div *ngIf=\"submitted && f.propic.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.propic.errors.required\">Driver Pic is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        \n                        <div class=\"col-sm-12\">\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/drivers\"><i\n                style=\"color: black;\">Drivers</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Edit Drivers</i> </p>\n\n\n    <div class=\"container\" style=\"margin-top: 20px;\">\n\n        <mat-accordion>\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        Edit Driver Basic Details\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Driver Basic Details\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n                padding: 20px;\n                background-color: #F8FAFB;\n                margin-top: 25px;\n                margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>Edit Drivers</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n\n                            <form [formGroup]=\"driverForm\">\n                                <div class=\"row\">\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Driver Name <span class=\"text-danger\">*</span></label>\n                                            <input [(ngModel)]=\"driverModel.name\" formControlName=\"name\" class=\"form-control\" type=\"text\" [ngClass]=\"{ 'is-invalid': submitted && f.name.errors }\">\n\n                                            <div *ngIf=\"submitted && f.name.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.name.errors.required\">Driver Name is required</div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Phone Number<span class=\"text-danger\">*</span></label>\n                                            <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.number.errors }\" type=\"text\" [(ngModel)]=\"driverModel.number\" formControlName=\"number\">\n\n                                            <div *ngIf=\"submitted && f.number.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.number.errors.required\">Driver Number is required</div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Address<span class=\"text-danger\">*</span></label>\n                                            <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.address.errors }\" type=\"text\" [(ngModel)]=\"driverModel.address\" formControlName=\"address\">\n\n                                            <div *ngIf=\"submitted && f.address.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.address.errors.required\">Driver Address is required</div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Pancard No<span class=\"text-danger\">*</span></label>\n                                            <input class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted && f.pancard.errors }\" type=\"text\" [(ngModel)]=\"driverModel.pancard\" formControlName=\"pancard\">\n\n                                            <div *ngIf=\"submitted && f.pancard.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.pancard.errors.required\">Driver Pancard is required</div>\n                                            </div>\n                                        </div>\n                                    </div>\n\n\n\n\n\n\n                                    <div class=\"col-sm-12\">\n                                        <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                                    </div>\n                                </div>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </mat-expansion-panel>\n\n\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        Edit Driver License Front\n\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Driver License Front\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n\n\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n                padding: 20px;\n                background-color: #F8FAFB;\n                margin-top: 25px;\n                margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>Edit Drivers</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n                            <div class=\"row\">\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> License Front <span class=\"text-danger\">*</span></label>\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\">\n\n                                    </div>\n                                </div>\n                            </div>\n                            <button class=\"btn btn-warning\" (click)=\"update()\">Update</button>\n\n                        </div>\n                    </div>\n                </div>\n\n\n            </mat-expansion-panel>\n\n\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        Edit Driver License Back\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Driver License Back\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n            padding: 20px;\n            background-color: #F8FAFB;\n            margin-top: 25px;\n            margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>Edit Drivers</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n                            <div class=\"row\">\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label>License Back <span class=\"text-danger\">*</span></label>\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\">\n\n\n                                    </div>\n                                </div>\n                            </div>\n                            <button class=\"btn btn-warning\" (click)=\"updateLback()\">Update</button>\n\n                        </div>\n                    </div>\n                </div>\n\n            </mat-expansion-panel>\n\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        Edit Driver Profile Picture\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Driver Profile Picture\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n            padding: 20px;\n            background-color: #F8FAFB;\n            margin-top: 25px;\n            margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>Edit Drivers</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n                            <div class=\"row\">\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> Profile Pic <span class=\"text-danger\">*</span></label>\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addprofilepic($event)\">\n\n                                    </div>\n                                </div>\n                            </div>\n                            <button class=\"btn btn-warning\" (click)=\"updatepPic()\">Update</button>\n\n                        </div>\n                    </div>\n                </div>\n\n            </mat-expansion-panel>\n        </mat-accordion>\n\n    </div>\n\n</div>");
 
 /***/ }),
 
@@ -422,7 +526,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i\n            style=\"color:#1492E6;\">Edit Vehicles</i> </p>\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <h3>Edit Vehicles</h3>\n            </div>\n        </div>\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n            <div class=\"col-lg-12\">\n\n                <form [formGroup]=\"addVehiclesform\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\n                                <!-- <input [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\" \n                                type=\"text\"   > -->\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\"\n                                    [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\"\n                                    class=\"form-control\">\n                                    <option value=\"\">Choose a option</option>\n                                    <option value=\"2Wheeler\">2 Wheeler</option>\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\n\n                                </select>\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\"\n                                    formControlName=\"vehicleCompany\">\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Model<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\"\n                                    formControlName=\"vehicleModel\">\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Year<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\"\n                                    formControlName=\"vehicleYear\">\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\"\n                                    formControlName=\"vehicleRegistration\">\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\"\n                                    formControlName=\"rent\">\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Locality<span class=\"text-danger\">*</span></label>\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\"\n                                    [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\n                                    <option value=\"\" selected disabled>Choose your locality</option>\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\n                                        {{locations.name}}</option>\n                                </select>\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>Driver<span class=\"text-danger\"></span></label>\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\n                                    <option value=\"\">Choose your Driver</option>\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\"> {{driverslist.name}}</option>\n                                </select>\n\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\n                            <div class=\"form-group\">\n                                <label>Driver Rent Per KM</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\"\n                                    formControlName=\"dRent\">\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\" >\n                            <div class=\"form-group\">\n                                <label>Vehicle Rent Per KM</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\"\n                                    formControlName=\"vRentperKm\">\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\" >\n                            <div class=\"form-group\">\n                                <label>Vehicle Rent Per Hour</label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\"\n                                    class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\"\n                                    formControlName=\"vRentperHr\">\n                                <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> License Front <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\n\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label>License Back <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-4\">\n                            <div class=\"form-group\">\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\"\n                                    class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\n                                </div>\n\n                            </div>\n                        </div>\n                        <div class=\"col-sm-12\">\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\"\n                                (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                                <!-- <button (click)=\"clicks()\">click</button> -->\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<div class=\"page-wrapper\">\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Edit Vehicles</i> </p>\n\n    <div class=\"container\" style=\"margin-top: 20px;\">\n\n        <mat-accordion>\n\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        Edit Vehicle Details\n                    </mat-panel-title>\n                    <mat-panel-description>\n                        Vehicle Details\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n            padding: 20px;\n            background-color: #F8FAFB;\n            margin-top: 25px;\n            margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>Edit Vehicles</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n\n                            <form [formGroup]=\"addVehiclesform\">\n                                <div class=\"row\">\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Vehicle Type<span class=\"text-danger\">*</span></label>\n                                            <!-- <input [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\" \n                                        type=\"text\"   > -->\n                                            <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\">\n                                            <option value=\"\">Choose a option</option>\n                                            <option value=\"2Wheeler\">2 Wheeler</option>\n                                            <option value=\"3Wheeler\">3 Wheeler</option>\n                                            <option value=\"4Wheeler\">4 Wheeler</option>\n\n                                        </select>\n                                            <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Company Name<span class=\"text-danger\">*</span></label>\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\n                                            <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Model<span class=\"text-danger\">*</span></label>\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\n                                            <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Year<span class=\"text-danger\">*</span></label>\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\n                                            <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Registration Number<span class=\"text-danger\">*</span></label>\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\n                                            <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\n                                                </div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Rent Per Day<span class=\"text-danger\">*</span></label>\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\n                                            <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Locality<span class=\"text-danger\">*</span></label>\n                                            <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\n                                            <option value=\"\" selected disabled>Choose your locality</option>\n                                            <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\n                                                {{locations.name}}</option>\n                                        </select>\n                                            <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Driver<span class=\"text-danger\"></span></label>\n                                            <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\n                                            <option value=\"\">Choose your Driver</option>\n                                            <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\n                                                {{driverslist.name}}</option>\n                                        </select>\n\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\n                                        <div class=\"form-group\">\n                                            <label>Driver Rent Per KM</label>\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\n                                            <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Vehicle Rent Per KM</label>\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\n                                            <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required\n                                                </div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-4\">\n                                        <div class=\"form-group\">\n                                            <label>Vehicle Rent Per Hour</label>\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\" formControlName=\"vRentperHr\">\n                                            <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\n                                                <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required\n                                                </div>\n                                            </div>\n\n                                        </div>\n                                    </div>\n                                    <!-- <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> License Front <span class=\"text-danger\">*</span></label>\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\"\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\n        \n                                        <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\n                                            <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\n                                        </div>\n        \n                                    </div>\n                                </div>\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label>License Back <span class=\"text-danger\">*</span></label>\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\"\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\n                                        <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\n                                            <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\n                                        </div>\n        \n                                    </div>\n                                </div>\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> RC Image <span class=\"text-danger\">*</span></label>\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\"\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\n                                        <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\n                                            <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\n                                        </div>\n        \n                                    </div>\n                                </div>\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\"\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\n                                        <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\n                                            <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\n                                        </div>\n        \n                                    </div>\n                                </div>\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> Image 2<span class=\"text-danger\">*</span></label>\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\"\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\n                                        <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\n                                            <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\n                                        </div>\n        \n                                    </div>\n                                </div> -->\n                                    <div class=\"col-sm-12\">\n                                        <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\n                                        <!-- <button (click)=\"clicks()\">click</button> -->\n                                    </div>\n                                </div>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </mat-expansion-panel>\n\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        Vehicle Image 1\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Update Vehicle Image\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n            padding: 20px;\n            background-color: #F8FAFB;\n            margin-top: 25px;\n            margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>Edit Vehicles Image 1</h3>\n\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n\n                            <div class=\"row\">\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\">\n\n\n                                    </div>\n                                </div>\n                            </div>\n                            <button class=\"btn btn-warning\" (click)=\"updateimg1()\">Update</button>\n\n                        </div>\n                    </div>\n                </div>\n            </mat-expansion-panel>\n\n\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        Vehicle Image 2\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Update Vehicle Image 2\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n            padding: 20px;\n            background-color: #F8FAFB;\n            margin-top: 25px;\n            margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>Edit Vehicles Image 2</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n\n                            <div class=\"row\">\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\">\n\n\n                                    </div>\n                                </div>\n                            </div>\n                            <button class=\"btn btn-warning\" (click)=\"updateimg2()\">Update</button>\n\n                        </div>\n                    </div>\n                </div>\n            </mat-expansion-panel>\n\n            <!-- licesnce imag frnt -->\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        License Front\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Update License Front\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n            padding: 20px;\n            background-color: #F8FAFB;\n            margin-top: 25px;\n            margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>License Front</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n\n                            <div class=\"row\">\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> License Front <span class=\"text-danger\">*</span></label>\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\">\n\n\n                                    </div>\n                                </div>\n                            </div>\n                            <button class=\"btn btn-warning\" (click)=\"updatelicfrnt()\">Update</button>\n\n                        </div>\n                    </div>\n                </div>\n            </mat-expansion-panel>\n            <!-- licesnce imag back -->\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        License Back\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Update License Back\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>License Back</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n\n                            <div class=\"row\">\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> License Back <span class=\"text-danger\">*</span></label>\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\">\n\n\n                                    </div>\n                                </div>\n                            </div>\n                            <button class=\"btn btn-warning\" (click)=\"updatelicback()\">Update</button>\n\n                        </div>\n                    </div>\n                </div>\n            </mat-expansion-panel>\n\n            <!-- rc Image -->\n            <mat-expansion-panel>\n                <mat-expansion-panel-header>\n                    <mat-panel-title>\n                        RC Image\n                    </mat-panel-title>\n                    <mat-panel-description>\n\n                        Update Rc Image\n\n                    </mat-panel-description>\n                </mat-expansion-panel-header>\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\n    padding: 20px;\n    background-color: #F8FAFB;\n    margin-top: 25px;\n    margin-left: 31px;\">\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <h3>RC Image</h3>\n                        </div>\n                    </div>\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\n                        <div class=\"col-lg-12\">\n\n                            <div class=\"row\">\n                                <div class=\"col-sm-4\">\n                                    <div class=\"form-group\">\n                                        <label> Rc Image<span class=\"text-danger\">*</span></label>\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\">\n\n\n                                    </div>\n                                </div>\n                            </div>\n                            <button class=\"btn btn-warning\" (click)=\"updaterc()\">Update</button>\n\n                        </div>\n                    </div>\n                </div>\n            </mat-expansion-panel>\n        </mat-accordion>\n\n    </div>\n</div>");
 
 /***/ }),
 
@@ -2326,6 +2430,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./ownerpannel/requests/requests.component */ "./src/app/ownerpannel/requests/requests.component.ts");
 /* harmony import */ var _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./ownerpannel/requests/view-requests/view-requests.component */ "./src/app/ownerpannel/requests/view-requests/view-requests.component.ts");
 /* harmony import */ var _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./ownerpannel/handovervehicles/handovervehicles.component */ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addimage_one_addimage_one_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addimage-one/addimage-one.component */ "./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addimage_two_addimage_two_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addimage-two/addimage-two.component */ "./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addlicence_front_addlicence_front_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addlicence-front/addlicence-front.component */ "./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addlicence_back_addlicence_back_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addlicence-back/addlicence-back.component */ "./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addrcimage_addrcimage_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addrcimage/addrcimage.component */ "./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.ts");
+/* harmony import */ var _ownerpannel_drivers_add_drivers_adddriver_licscence_adddriver_licscence_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.ts");
+/* harmony import */ var _ownerpannel_drivers_add_drivers_adddriver_licscenceback_adddriver_licscenceback_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.ts");
+/* harmony import */ var _ownerpannel_drivers_add_drivers_adddriver_profilepic_adddriver_profilepic_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.ts");
 
 
 
@@ -2335,6 +2447,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // import { AuthGuard } from './_guards/auth.guard';
+
+
+
+
+
+
+
+
 
 
 
@@ -2396,6 +2516,14 @@ const routes = [
     { path: 'edit-bankdetails', component: _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_30__["EditBankdetailsComponent"] },
     { path: 'request', component: _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_31__["RequestsComponent"] },
     { path: 'view-request/:id/:name', component: _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_32__["ViewRequestsComponent"] },
+    { path: 'image1', component: _ownerpannel_addnew_cars_addimage_one_addimage_one_component__WEBPACK_IMPORTED_MODULE_34__["AddimageOneComponent"] },
+    { path: 'image2', component: _ownerpannel_addnew_cars_addimage_two_addimage_two_component__WEBPACK_IMPORTED_MODULE_35__["AddimageTwoComponent"] },
+    { path: 'licsence1', component: _ownerpannel_addnew_cars_addlicence_front_addlicence_front_component__WEBPACK_IMPORTED_MODULE_36__["AddlicenceFrontComponent"] },
+    { path: 'licsence2', component: _ownerpannel_addnew_cars_addlicence_back_addlicence_back_component__WEBPACK_IMPORTED_MODULE_37__["AddlicenceBackComponent"] },
+    { path: 'rcfrnt', component: _ownerpannel_addnew_cars_addrcimage_addrcimage_component__WEBPACK_IMPORTED_MODULE_38__["AddrcimageComponent"] },
+    { path: 'driverlicsencefrnt', component: _ownerpannel_drivers_add_drivers_adddriver_licscence_adddriver_licscence_component__WEBPACK_IMPORTED_MODULE_39__["AdddriverLicscenceComponent"] },
+    { path: 'driverlicsenceback', component: _ownerpannel_drivers_add_drivers_adddriver_licscenceback_adddriver_licscenceback_component__WEBPACK_IMPORTED_MODULE_40__["AdddriverLicscencebackComponent"] },
+    { path: 'profilepicdriver', component: _ownerpannel_drivers_add_drivers_adddriver_profilepic_adddriver_profilepic_component__WEBPACK_IMPORTED_MODULE_41__["AdddriverProfilepicComponent"] },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -2520,6 +2648,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./ownerpannel/requests/view-requests/view-requests.component */ "./src/app/ownerpannel/requests/view-requests/view-requests.component.ts");
 /* harmony import */ var _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./ownerpannel/handovervehicles/handovervehicles.component */ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.ts");
 /* harmony import */ var _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component */ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addimage_one_addimage_one_component__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addimage-one/addimage-one.component */ "./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addimage_two_addimage_two_component__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addimage-two/addimage-two.component */ "./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addlicence_front_addlicence_front_component__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addlicence-front/addlicence-front.component */ "./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addlicence_back_addlicence_back_component__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addlicence-back/addlicence-back.component */ "./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.ts");
+/* harmony import */ var _ownerpannel_addnew_cars_addrcimage_addrcimage_component__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./ownerpannel/addnew-cars/addrcimage/addrcimage.component */ "./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.ts");
+/* harmony import */ var _ownerpannel_drivers_add_drivers_adddriver_licscence_adddriver_licscence_component__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.ts");
+/* harmony import */ var _ownerpannel_drivers_add_drivers_adddriver_licscenceback_adddriver_licscenceback_component__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.ts");
+/* harmony import */ var _ownerpannel_drivers_add_drivers_adddriver_profilepic_adddriver_profilepic_component__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.ts");
 
 
 
@@ -2538,6 +2674,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // import { AuthGuard } from './_guards/auth.guard';
+
+
+
+
+
+
+
+
 
 
 
@@ -2622,7 +2766,15 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__["RequestsComponent"],
             _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"],
             _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__["HandovervehiclesComponent"],
-            _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"]
+            _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"],
+            _ownerpannel_addnew_cars_addimage_one_addimage_one_component__WEBPACK_IMPORTED_MODULE_56__["AddimageOneComponent"],
+            _ownerpannel_addnew_cars_addimage_two_addimage_two_component__WEBPACK_IMPORTED_MODULE_57__["AddimageTwoComponent"],
+            _ownerpannel_addnew_cars_addlicence_front_addlicence_front_component__WEBPACK_IMPORTED_MODULE_58__["AddlicenceFrontComponent"],
+            _ownerpannel_addnew_cars_addlicence_back_addlicence_back_component__WEBPACK_IMPORTED_MODULE_59__["AddlicenceBackComponent"],
+            _ownerpannel_addnew_cars_addrcimage_addrcimage_component__WEBPACK_IMPORTED_MODULE_60__["AddrcimageComponent"],
+            _ownerpannel_drivers_add_drivers_adddriver_licscence_adddriver_licscence_component__WEBPACK_IMPORTED_MODULE_61__["AdddriverLicscenceComponent"],
+            _ownerpannel_drivers_add_drivers_adddriver_licscenceback_adddriver_licscenceback_component__WEBPACK_IMPORTED_MODULE_62__["AdddriverLicscencebackComponent"],
+            _ownerpannel_drivers_add_drivers_adddriver_profilepic_adddriver_profilepic_component__WEBPACK_IMPORTED_MODULE_63__["AdddriverProfilepicComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -3320,6 +3472,417 @@ NavigationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.css":
+/*!*********************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.css ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvYWRkbmV3LWNhcnMvYWRkaW1hZ2Utb25lL2FkZGltYWdlLW9uZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksT0FBTztJQUNQLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBR2xCLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJO1FBQ0ksaUJBQWlCO0lBQ3JCO0FBQ0o7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLDBCQUEwQjtBQUM5QiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2FkZG5ldy1jYXJzL2FkZGltYWdlLW9uZS9hZGRpbWFnZS1vbmUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlLXdyYXBwZXIge1xyXG4gICAgbGVmdDogMDtcclxuICAgIG1hcmdpbi1sZWZ0OiA4cHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNTBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuXHJcbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcclxuICAgIC5jb250YWluZXIge1xyXG4gICAgICAgIG1heC13aWR0aDogMTI4N3B4O1xyXG4gICAgfVxyXG59XHJcblxyXG4ubS10LTIwIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uc3VibWl0LWJ0biB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDA4NUIyO1xyXG4gICAgbWluLXdpZHRoOiAyMDBweDtcclxuICAgIHBhZGRpbmc6IDhweCAyMHB4O1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.ts":
+/*!********************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.ts ***!
+  \********************************************************************************/
+/*! exports provided: AddimageOneComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddimageOneComponent", function() { return AddimageOneComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
+/* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+
+
+
+
+let AddimageOneComponent = class AddimageOneComponent {
+    constructor(fb, router, toaster, owenerservice) {
+        this.fb = fb;
+        this.router = router;
+        this.toaster = toaster;
+        this.owenerservice = owenerservice;
+        this.formData = new FormData();
+        this.submitted = false;
+    }
+    ngOnInit() {
+        this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__["Vehicle"]();
+        this.addVehiclesform = this.fb.group({
+            // liscencefrnt:['',Validators.required],
+            // liscenceback:['',Validators.required],
+            // rcbook:['',Validators.required],
+            img1: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+        });
+        this.vehicleId = JSON.parse(localStorage.getItem("vehicleadddetailsid"));
+        console.log(this.vehicleId['id']);
+    }
+    get f() { return this.addVehiclesform.controls; }
+    addimage1(event) {
+        this.img1 = event.target.files;
+        this.image1 = this.img1.item(0);
+    }
+    submit() {
+        this.submitted = true;
+        // stop here if form is invalid
+        if (this.addVehiclesform.invalid) {
+            return;
+        }
+        else {
+            this.formData.append('image', this.image1);
+            this.formData.append('type', "1");
+            this.formData.append('id', this.vehicleId['id']);
+            this.owenerservice.addimages(this.formData).subscribe(data => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
+                this.router.navigate(['/image2']);
+            }, error => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
+            });
+        }
+    }
+};
+AddimageOneComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
+    { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_4__["ToastrService"] },
+    { type: _owner_service__WEBPACK_IMPORTED_MODULE_6__["OwnerService"] }
+];
+AddimageOneComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-addimage-one',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-one.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addimage-one.component.css */ "./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.css")).default]
+    })
+], AddimageOneComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.css":
+/*!*********************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.css ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvYWRkbmV3LWNhcnMvYWRkaW1hZ2UtdHdvL2FkZGltYWdlLXR3by5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksT0FBTztJQUNQLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBR2xCLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJO1FBQ0ksaUJBQWlCO0lBQ3JCO0FBQ0o7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLDBCQUEwQjtBQUM5QiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2FkZG5ldy1jYXJzL2FkZGltYWdlLXR3by9hZGRpbWFnZS10d28uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlLXdyYXBwZXIge1xyXG4gICAgbGVmdDogMDtcclxuICAgIG1hcmdpbi1sZWZ0OiA4cHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNTBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuXHJcbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcclxuICAgIC5jb250YWluZXIge1xyXG4gICAgICAgIG1heC13aWR0aDogMTI4N3B4O1xyXG4gICAgfVxyXG59XHJcblxyXG4ubS10LTIwIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uc3VibWl0LWJ0biB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDA4NUIyO1xyXG4gICAgbWluLXdpZHRoOiAyMDBweDtcclxuICAgIHBhZGRpbmc6IDhweCAyMHB4O1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.ts":
+/*!********************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.ts ***!
+  \********************************************************************************/
+/*! exports provided: AddimageTwoComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddimageTwoComponent", function() { return AddimageTwoComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
+/* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+
+
+
+
+let AddimageTwoComponent = class AddimageTwoComponent {
+    constructor(fb, router, toaster, owenerservice) {
+        this.fb = fb;
+        this.router = router;
+        this.toaster = toaster;
+        this.owenerservice = owenerservice;
+        this.formData = new FormData();
+        this.submitted = false;
+    }
+    ngOnInit() {
+        this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__["Vehicle"]();
+        this.addVehiclesform = this.fb.group({
+            // liscencefrnt:['',Validators.required],
+            // liscenceback:['',Validators.required],
+            // rcbook:['',Validators.required],
+            // img1:['',Validators.required],
+            img2: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+        });
+        this.vehicleId = JSON.parse(localStorage.getItem("vehicleadddetailsid"));
+        console.log(this.vehicleId['id']);
+    }
+    get f() { return this.addVehiclesform.controls; }
+    addimage2(event) {
+        this.img1 = event.target.files;
+        this.image1 = this.img1.item(0);
+    }
+    submit() {
+        this.submitted = true;
+        // stop here if form is invalid
+        if (this.addVehiclesform.invalid) {
+            return;
+        }
+        else {
+            this.formData.append('image', this.image1);
+            this.formData.append('type', "2");
+            this.formData.append('id', this.vehicleId['id']);
+            this.owenerservice.addimages(this.formData).subscribe(data => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
+                this.router.navigate(['/licsence1']);
+            }, error => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
+            });
+        }
+    }
+};
+AddimageTwoComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
+    { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_4__["ToastrService"] },
+    { type: _owner_service__WEBPACK_IMPORTED_MODULE_6__["OwnerService"] }
+];
+AddimageTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-addimage-two',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addimage-two.component.css */ "./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.css")).default]
+    })
+], AddimageTwoComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.css":
+/*!***************************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.css ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvYWRkbmV3LWNhcnMvYWRkbGljZW5jZS1iYWNrL2FkZGxpY2VuY2UtYmFjay5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksT0FBTztJQUNQLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBR2xCLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJO1FBQ0ksaUJBQWlCO0lBQ3JCO0FBQ0o7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLDBCQUEwQjtBQUM5QiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2FkZG5ldy1jYXJzL2FkZGxpY2VuY2UtYmFjay9hZGRsaWNlbmNlLWJhY2suY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlLXdyYXBwZXIge1xyXG4gICAgbGVmdDogMDtcclxuICAgIG1hcmdpbi1sZWZ0OiA4cHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNTBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuXHJcbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcclxuICAgIC5jb250YWluZXIge1xyXG4gICAgICAgIG1heC13aWR0aDogMTI4N3B4O1xyXG4gICAgfVxyXG59XHJcblxyXG4ubS10LTIwIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uc3VibWl0LWJ0biB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDA4NUIyO1xyXG4gICAgbWluLXdpZHRoOiAyMDBweDtcclxuICAgIHBhZGRpbmc6IDhweCAyMHB4O1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.ts":
+/*!**************************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.ts ***!
+  \**************************************************************************************/
+/*! exports provided: AddlicenceBackComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddlicenceBackComponent", function() { return AddlicenceBackComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
+/* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+
+
+
+
+let AddlicenceBackComponent = class AddlicenceBackComponent {
+    constructor(fb, router, toaster, owenerservice) {
+        this.fb = fb;
+        this.router = router;
+        this.toaster = toaster;
+        this.owenerservice = owenerservice;
+        this.formData = new FormData();
+        this.submitted = false;
+    }
+    ngOnInit() {
+        this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__["Vehicle"]();
+        this.addVehiclesform = this.fb.group({
+            // liscencefrnt:['',Validators.required],
+            // liscenceback:['',Validators.required],
+            // rcbook:['',Validators.required],
+            // img1:['',Validators.required],
+            img2: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+        });
+        this.vehicleId = JSON.parse(localStorage.getItem("vehicleadddetailsid"));
+        console.log(this.vehicleId['id']);
+    }
+    get f() { return this.addVehiclesform.controls; }
+    addimage2(event) {
+        this.img1 = event.target.files;
+        this.image1 = this.img1.item(0);
+    }
+    submit() {
+        this.submitted = true;
+        // stop here if form is invalid
+        if (this.addVehiclesform.invalid) {
+            return;
+        }
+        else {
+            this.formData.append('image', this.image1);
+            this.formData.append('type', "3");
+            this.formData.append('id', this.vehicleId['id']);
+            this.owenerservice.addimages(this.formData).subscribe(data => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added!', 'Licence Added Successfully', 'success');
+                this.router.navigate(['/rcfrnt']);
+            }, error => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added Error!', 'Licence Back Added SUnccessfully', 'error');
+            });
+        }
+    }
+};
+AddlicenceBackComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
+    { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_4__["ToastrService"] },
+    { type: _owner_service__WEBPACK_IMPORTED_MODULE_6__["OwnerService"] }
+];
+AddlicenceBackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-addlicence-back',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-back.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addlicence-back.component.css */ "./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.css")).default]
+    })
+], AddlicenceBackComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.css":
+/*!*****************************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.css ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvYWRkbmV3LWNhcnMvYWRkbGljZW5jZS1mcm9udC9hZGRsaWNlbmNlLWZyb250LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxPQUFPO0lBQ1AsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFHbEIseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0k7UUFDSSxpQkFBaUI7SUFDckI7QUFDSjs7QUFFQTtJQUNJLFdBQVc7SUFDWCwyQkFBMkI7QUFDL0I7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsMEJBQTBCO0FBQzlCIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvYWRkbmV3LWNhcnMvYWRkbGljZW5jZS1mcm9udC9hZGRsaWNlbmNlLWZyb250LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZS13cmFwcGVyIHtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDUwcHg7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG59XHJcblxyXG5AbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XHJcbiAgICAuY29udGFpbmVyIHtcclxuICAgICAgICBtYXgtd2lkdGg6IDEyODdweDtcclxuICAgIH1cclxufVxyXG5cclxuLm0tdC0yMCB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLnN1Ym1pdC1idG4ge1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBmb250LXdlaWdodDogNTAwO1xyXG4gICAgYmFja2dyb3VuZDogIzAwODVCMjtcclxuICAgIG1pbi13aWR0aDogMjAwcHg7XHJcbiAgICBwYWRkaW5nOiA4cHggMjBweDtcclxuICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xyXG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.ts":
+/*!****************************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.ts ***!
+  \****************************************************************************************/
+/*! exports provided: AddlicenceFrontComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddlicenceFrontComponent", function() { return AddlicenceFrontComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
+/* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+
+
+
+
+let AddlicenceFrontComponent = class AddlicenceFrontComponent {
+    constructor(fb, router, toaster, owenerservice) {
+        this.fb = fb;
+        this.router = router;
+        this.toaster = toaster;
+        this.owenerservice = owenerservice;
+        this.formData = new FormData();
+        this.submitted = false;
+    }
+    ngOnInit() {
+        this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__["Vehicle"]();
+        this.addVehiclesform = this.fb.group({
+            // liscencefrnt:['',Validators.required],
+            // liscenceback:['',Validators.required],
+            // rcbook:['',Validators.required],
+            // img1:['',Validators.required],
+            img2: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+        });
+        this.vehicleId = JSON.parse(localStorage.getItem("vehicleadddetailsid"));
+        console.log(this.vehicleId['id']);
+    }
+    get f() { return this.addVehiclesform.controls; }
+    addimage2(event) {
+        this.img1 = event.target.files;
+        this.image1 = this.img1.item(0);
+    }
+    submit() {
+        this.submitted = true;
+        // stop here if form is invalid
+        if (this.addVehiclesform.invalid) {
+            return;
+        }
+        else {
+            this.formData.append('image', this.image1);
+            this.formData.append('type', "3");
+            this.formData.append('id', this.vehicleId['id']);
+            this.owenerservice.addimages(this.formData).subscribe(data => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added!', 'Licence Front Added Successfully', 'success');
+                this.router.navigate(['/licsence2']);
+            }, error => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added Error!', 'Licence Front Added SUnccessfully', 'error');
+            });
+        }
+    }
+};
+AddlicenceFrontComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
+    { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_4__["ToastrService"] },
+    { type: _owner_service__WEBPACK_IMPORTED_MODULE_6__["OwnerService"] }
+];
+AddlicenceFrontComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-addlicence-front',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-front.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addlicence-front.component.css */ "./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.css")).default]
+    })
+], AddlicenceFrontComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/ownerpannel/addnew-cars/addnew-cars.component.css":
 /*!*******************************************************************!*\
   !*** ./src/app/ownerpannel/addnew-cars/addnew-cars.component.css ***!
@@ -3384,11 +3947,11 @@ let AddnewCarsComponent = class AddnewCarsComponent {
             vehicleRegistration: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             locality: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             rent: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            liscencefrnt: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            liscenceback: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            rcbook: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            img1: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            img2: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            // liscencefrnt:['',Validators.required],
+            // liscenceback:['',Validators.required],
+            // rcbook:['',Validators.required],
+            // img1:['',Validators.required],
+            // img2 :['',Validators.required],
             driver: [''],
             dRent: [''],
             vRentperHr: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
@@ -3450,11 +4013,11 @@ let AddnewCarsComponent = class AddnewCarsComponent {
             this.formData.append('locality', this.vehicleModel.locality);
             this.formData.append('rentPerDay', this.vehicleModel.rent);
             this.formData.append('ownerId', this.ownerId);
-            this.formData.append('licenceFront', this.lisencefrnt);
-            this.formData.append('licenceBack', this.lisenceback);
-            this.formData.append('rcImage', this.rcproof);
-            this.formData.append('image1', this.image1);
-            this.formData.append('image2', this.image2);
+            // this.formData.append('licenceFront', this.lisencefrnt);
+            // this.formData.append('licenceBack', this.lisenceback);
+            // this.formData.append('rcImage', this.rcproof);
+            // this.formData.append('image1', this.image1);
+            // this.formData.append('image2', this.image2);
             this.formData.append('driverId', this.vehicleModel.driver);
             this.formData.append('driverRentPerKM', this.vehicleModel.dRent);
             this.formData.append('rentPerKM', this.vehicleModel.vRentperKm);
@@ -3477,8 +4040,9 @@ let AddnewCarsComponent = class AddnewCarsComponent {
                 //   this.router.navigate(['/vehicles']);
                 //   } 
                 // })
-                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Added!', 'Vehicle Added Successfully', 'success');
-                this.router.navigate(['/vehicles']);
+                localStorage.setItem('vehicleadddetailsid', JSON.stringify(data));
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Added!', 'Basic Details Added Successfully', 'success');
+                this.router.navigate(['/image1']);
             }, error => {
                 // alert('error')
                 this.error = error.error['message'];
@@ -3504,6 +4068,109 @@ AddnewCarsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addnew-cars.component.css */ "./src/app/ownerpannel/addnew-cars/addnew-cars.component.css")).default]
     })
 ], AddnewCarsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.css":
+/*!*****************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.css ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvYWRkbmV3LWNhcnMvYWRkcmNpbWFnZS9hZGRyY2ltYWdlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxPQUFPO0lBQ1AsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFHbEIseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0k7UUFDSSxpQkFBaUI7SUFDckI7QUFDSjs7QUFFQTtJQUNJLFdBQVc7SUFDWCwyQkFBMkI7QUFDL0I7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsMEJBQTBCO0FBQzlCIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvYWRkbmV3LWNhcnMvYWRkcmNpbWFnZS9hZGRyY2ltYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZS13cmFwcGVyIHtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDUwcHg7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG59XHJcblxyXG5AbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XHJcbiAgICAuY29udGFpbmVyIHtcclxuICAgICAgICBtYXgtd2lkdGg6IDEyODdweDtcclxuICAgIH1cclxufVxyXG5cclxuLm0tdC0yMCB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLnN1Ym1pdC1idG4ge1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBmb250LXdlaWdodDogNTAwO1xyXG4gICAgYmFja2dyb3VuZDogIzAwODVCMjtcclxuICAgIG1pbi13aWR0aDogMjAwcHg7XHJcbiAgICBwYWRkaW5nOiA4cHggMjBweDtcclxuICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xyXG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.ts":
+/*!****************************************************************************!*\
+  !*** ./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.ts ***!
+  \****************************************************************************/
+/*! exports provided: AddrcimageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddrcimageComponent", function() { return AddrcimageComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
+/* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+
+
+
+
+let AddrcimageComponent = class AddrcimageComponent {
+    constructor(fb, router, toaster, owenerservice) {
+        this.fb = fb;
+        this.router = router;
+        this.toaster = toaster;
+        this.owenerservice = owenerservice;
+        this.formData = new FormData();
+        this.submitted = false;
+    }
+    ngOnInit() {
+        this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__["Vehicle"]();
+        this.addVehiclesform = this.fb.group({
+            // liscencefrnt:['',Validators.required],
+            // liscenceback:['',Validators.required],
+            // rcbook:['',Validators.required],
+            // img1:['',Validators.required],
+            img2: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+        });
+        this.vehicleId = JSON.parse(localStorage.getItem("vehicleadddetailsid"));
+        console.log(this.vehicleId['id']);
+    }
+    get f() { return this.addVehiclesform.controls; }
+    addimage2(event) {
+        this.img1 = event.target.files;
+        this.image1 = this.img1.item(0);
+    }
+    submit() {
+        this.submitted = true;
+        // stop here if form is invalid
+        if (this.addVehiclesform.invalid) {
+            return;
+        }
+        else {
+            this.formData.append('image', this.image1);
+            this.formData.append('type', "5");
+            this.formData.append('id', this.vehicleId['id']);
+            this.owenerservice.addimages(this.formData).subscribe(data => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
+                this.router.navigate(['/vehicles']);
+            }, error => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added Error!', 'RC Added SUnccessfully', 'error');
+            });
+        }
+    }
+};
+AddrcimageComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
+    { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_4__["ToastrService"] },
+    { type: _owner_service__WEBPACK_IMPORTED_MODULE_6__["OwnerService"] }
+];
+AddrcimageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-addrcimage',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addrcimage.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addrcimage.component.css */ "./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.css")).default]
+    })
+], AddrcimageComponent);
 
 
 
@@ -3857,9 +4524,6 @@ let AddDriversComponent = class AddDriversComponent {
             number: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required],
             address: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required],
             pancard: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required],
-            liscencefrnt: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required],
-            liscenceback: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required],
-            propic: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required]
         });
         this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
         this.ownerId = this.ownerdetails['userId'];
@@ -3889,13 +4553,14 @@ let AddDriversComponent = class AddDriversComponent {
             this.formData.append('number', this.driverModel.number);
             this.formData.append('addresss', this.driverModel.address);
             this.formData.append('panCardNO', this.driverModel.pancard);
-            this.formData.append('proPic', this.propic);
-            this.formData.append('licenceFront', this.lisencefrnt);
-            this.formData.append('licenceBack', this.lisenceback);
+            // this.formData.append('proPic', this.propic);
+            // this.formData.append('licenceFront', this.lisencefrnt);
+            // this.formData.append('licenceBack', this.lisenceback);
             this.ownerservice.addnewdriver(this.formData).subscribe(data => {
                 // this.toaster.success('Driver Added Successfully')
+                localStorage.setItem("driverDetails", JSON.stringify(data));
                 sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Driver Added!', 'Driver Added Successfully', 'success');
-                this.router.navigate(['/drivers']);
+                this.router.navigate(['/driverlicsencefrnt']);
             }, error => {
                 // alert('error')
                 this.error = error.error['message'];
@@ -3919,6 +4584,309 @@ AddDriversComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-drivers.component.css */ "./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.css")).default]
     })
 ], AddDriversComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.css":
+/*!*******************************************************************************************************!*\
+  !*** ./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.css ***!
+  \*******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvZHJpdmVycy9hZGQtZHJpdmVycy9hZGRkcml2ZXItbGljc2NlbmNlL2FkZGRyaXZlci1saWNzY2VuY2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLE9BQU87SUFDUCxnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUdsQix5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSTtRQUNJLGlCQUFpQjtJQUNyQjtBQUNKOztBQUVBO0lBQ0ksV0FBVztJQUNYLDJCQUEyQjtBQUMvQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsZUFBZTtJQUNmLGdCQUFnQjtJQUNoQixtQkFBbUI7SUFDbkIsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQiwwQkFBMEI7QUFDOUIiLCJmaWxlIjoic3JjL2FwcC9vd25lcnBhbm5lbC9kcml2ZXJzL2FkZC1kcml2ZXJzL2FkZGRyaXZlci1saWNzY2VuY2UvYWRkZHJpdmVyLWxpY3NjZW5jZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBhZ2Utd3JhcHBlciB7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDhweDtcclxuICAgIHBhZGRpbmctdG9wOiA1MHB4O1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG4gICAgLW1vei10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG4gICAgdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxufVxyXG5cclxuQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweCkge1xyXG4gICAgLmNvbnRhaW5lciB7XHJcbiAgICAgICAgbWF4LXdpZHRoOiAxMjg3cHg7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5tLXQtMjAge1xyXG4gICAgZmxvYXQ6IGxlZnQ7XHJcbiAgICBtYXJnaW4tdG9wOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5zdWJtaXQtYnRuIHtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIGNvbG9yOiAjZmZmO1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgIGJhY2tncm91bmQ6ICMwMDg1QjI7XHJcbiAgICBtaW4td2lkdGg6IDIwMHB4O1xyXG4gICAgcGFkZGluZzogOHB4IDIwcHg7XHJcbiAgICB0ZXh0LXRyYW5zZm9ybTogY2FwaXRhbGl6ZTtcclxufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.ts":
+/*!******************************************************************************************************!*\
+  !*** ./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.ts ***!
+  \******************************************************************************************************/
+/*! exports provided: AdddriverLicscenceComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverLicscenceComponent", function() { return AdddriverLicscenceComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
+
+
+
+
+
+
+
+
+let AdddriverLicscenceComponent = class AdddriverLicscenceComponent {
+    constructor(ownerservice, toaster, fb, router) {
+        this.ownerservice = ownerservice;
+        this.toaster = toaster;
+        this.fb = fb;
+        this.router = router;
+        this.formData = new FormData();
+        this.submitted = false;
+    }
+    ngOnInit() {
+        this.driverModel = new src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__["Driver"]();
+        this.driverForm = this.fb.group({
+            liscencefrnt: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required],
+        });
+        this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
+        this.ownerId = this.ownerdetails['userId'];
+        this.driverId = JSON.parse(localStorage.getItem('driverDetails'));
+    }
+    get f() { return this.driverForm.controls; }
+    addliscensefrnt(event) {
+        this.lisence1 = event.target.files;
+        this.lisencefrnt = this.lisence1.item(0);
+    }
+    submit() {
+        this.submitted = true;
+        // stop here if form is invalid
+        if (this.driverForm.invalid) {
+            return;
+        }
+        else {
+            this.formData.append('image', this.lisencefrnt);
+            this.formData.append('type', "1");
+            this.formData.append('id', this.driverId['id']);
+            this.ownerservice.adddriverimnage(this.formData).subscribe(data => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
+                this.router.navigate(['/driverlicsenceback']);
+            }, error => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
+            });
+        }
+    }
+};
+AdddriverLicscenceComponent.ctorParameters = () => [
+    { type: src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__["OwnerService"] },
+    { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_5__["ToastrService"] },
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] }
+];
+AdddriverLicscenceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-adddriver-licscence',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscence.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-licscence.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.css")).default]
+    })
+], AdddriverLicscenceComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.css":
+/*!***************************************************************************************************************!*\
+  !*** ./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.css ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvZHJpdmVycy9hZGQtZHJpdmVycy9hZGRkcml2ZXItbGljc2NlbmNlYmFjay9hZGRkcml2ZXItbGljc2NlbmNlYmFjay5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksT0FBTztJQUNQLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBR2xCLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJO1FBQ0ksaUJBQWlCO0lBQ3JCO0FBQ0o7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLDBCQUEwQjtBQUM5QiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2RyaXZlcnMvYWRkLWRyaXZlcnMvYWRkZHJpdmVyLWxpY3NjZW5jZWJhY2svYWRkZHJpdmVyLWxpY3NjZW5jZWJhY2suY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlLXdyYXBwZXIge1xyXG4gICAgbGVmdDogMDtcclxuICAgIG1hcmdpbi1sZWZ0OiA4cHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNTBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuXHJcbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcclxuICAgIC5jb250YWluZXIge1xyXG4gICAgICAgIG1heC13aWR0aDogMTI4N3B4O1xyXG4gICAgfVxyXG59XHJcblxyXG4ubS10LTIwIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uc3VibWl0LWJ0biB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDA4NUIyO1xyXG4gICAgbWluLXdpZHRoOiAyMDBweDtcclxuICAgIHBhZGRpbmc6IDhweCAyMHB4O1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.ts":
+/*!**************************************************************************************************************!*\
+  !*** ./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.ts ***!
+  \**************************************************************************************************************/
+/*! exports provided: AdddriverLicscencebackComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverLicscencebackComponent", function() { return AdddriverLicscencebackComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
+
+
+
+
+
+
+
+
+let AdddriverLicscencebackComponent = class AdddriverLicscencebackComponent {
+    constructor(ownerservice, toaster, fb, router) {
+        this.ownerservice = ownerservice;
+        this.toaster = toaster;
+        this.fb = fb;
+        this.router = router;
+        this.formData = new FormData();
+        this.submitted = false;
+    }
+    ngOnInit() {
+        this.driverModel = new src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__["Driver"]();
+        this.driverForm = this.fb.group({
+            // liscencefrnt: ['', Validators.required],
+            liscenceback: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required],
+        });
+        this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
+        this.ownerId = this.ownerdetails['userId'];
+        this.driverId = JSON.parse(localStorage.getItem('driverDetails'));
+    }
+    get f() { return this.driverForm.controls; }
+    addliscenseback(event) {
+        this.lisence1 = event.target.files;
+        this.lisencefrnt = this.lisence1.item(0);
+    }
+    submit() {
+        this.submitted = true;
+        // stop here if form is invalid
+        if (this.driverForm.invalid) {
+            return;
+        }
+        else {
+            this.formData.append('image', this.lisencefrnt);
+            this.formData.append('type', "2");
+            this.formData.append('id', this.driverId['id']);
+            this.ownerservice.adddriverimnage(this.formData).subscribe(data => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
+                this.router.navigate(['/profilepicdriver']);
+            }, error => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
+            });
+        }
+    }
+};
+AdddriverLicscencebackComponent.ctorParameters = () => [
+    { type: src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__["OwnerService"] },
+    { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_5__["ToastrService"] },
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] }
+];
+AdddriverLicscencebackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-adddriver-licscenceback',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscenceback.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-licscenceback.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.css")).default]
+    })
+], AdddriverLicscencebackComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.css":
+/*!*********************************************************************************************************!*\
+  !*** ./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.css ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2RyaXZlcnMvYWRkLWRyaXZlcnMvYWRkZHJpdmVyLXByb2ZpbGVwaWMvYWRkZHJpdmVyLXByb2ZpbGVwaWMuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.ts":
+/*!********************************************************************************************************!*\
+  !*** ./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.ts ***!
+  \********************************************************************************************************/
+/*! exports provided: AdddriverProfilepicComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverProfilepicComponent", function() { return AdddriverProfilepicComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
+
+
+
+
+
+
+
+
+let AdddriverProfilepicComponent = class AdddriverProfilepicComponent {
+    constructor(ownerservice, toaster, fb, router) {
+        this.ownerservice = ownerservice;
+        this.toaster = toaster;
+        this.fb = fb;
+        this.router = router;
+        this.formData = new FormData();
+        this.submitted = false;
+    }
+    ngOnInit() {
+        this.driverModel = new src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__["Driver"]();
+        this.driverForm = this.fb.group({
+            // liscencefrnt: ['', Validators.required],
+            // liscenceback:['',Validators.required],
+            propic: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required]
+        });
+        this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
+        this.ownerId = this.ownerdetails['userId'];
+        this.driverId = JSON.parse(localStorage.getItem('driverDetails'));
+    }
+    get f() { return this.driverForm.controls; }
+    addliscenseback(event) {
+        this.lisence1 = event.target.files;
+        this.lisencefrnt = this.lisence1.item(0);
+    }
+    submit() {
+        this.submitted = true;
+        // stop here if form is invalid
+        if (this.driverForm.invalid) {
+            return;
+        }
+        else {
+            this.formData.append('image', this.lisencefrnt);
+            this.formData.append('type', "2");
+            this.formData.append('id', this.driverId['id']);
+            this.ownerservice.adddriverimnage(this.formData).subscribe(data => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
+                this.router.navigate(['/drivers']);
+            }, error => {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
+            });
+        }
+    }
+};
+AdddriverProfilepicComponent.ctorParameters = () => [
+    { type: src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__["OwnerService"] },
+    { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_5__["ToastrService"] },
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] }
+];
+AdddriverProfilepicComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-adddriver-profilepic',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-profilepic.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-profilepic.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.css")).default]
+    })
+], AdddriverProfilepicComponent);
 
 
 
@@ -4095,7 +5063,7 @@ DriversComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n@media (min-width: 1200px)\r\n{.container {\r\n    max-width: 1287px;\r\n}}\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvZHJpdmVycy9lZGl0LWRyaXZlcnMvZWRpdC1kcml2ZXJzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxPQUFPO0lBQ1AsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFHbEIseUJBQXlCO0FBQzdCO0FBQ0E7Q0FDQztJQUNHLGlCQUFpQjtBQUNyQixDQUFDO0FBQ0Q7SUFDSSxXQUFXO0lBQ1gsMkJBQTJCO0FBQy9CO0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsMEJBQTBCO0FBQzlCIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvZHJpdmVycy9lZGl0LWRyaXZlcnMvZWRpdC1kcml2ZXJzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZS13cmFwcGVyIHtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDUwcHg7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG59XHJcbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpXHJcbnsuY29udGFpbmVyIHtcclxuICAgIG1heC13aWR0aDogMTI4N3B4O1xyXG59fVxyXG4ubS10LTIwIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uc3VibWl0LWJ0biB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDA4NUIyO1xyXG4gICAgbWluLXdpZHRoOiAyMDBweDtcclxuICAgIHBhZGRpbmc6IDhweCAyMHB4O1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XHJcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n\r\n::ng-deep .mat-expansion-panel {\r\n    margin-bottom: 20px !important;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvZHJpdmVycy9lZGl0LWRyaXZlcnMvZWRpdC1kcml2ZXJzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxPQUFPO0lBQ1AsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFHbEIseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0k7UUFDSSxpQkFBaUI7SUFDckI7QUFDSjs7QUFFQTtJQUNJLFdBQVc7SUFDWCwyQkFBMkI7QUFDL0I7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsMEJBQTBCO0FBQzlCOztBQUVBO0lBQ0ksOEJBQThCO0FBQ2xDIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvZHJpdmVycy9lZGl0LWRyaXZlcnMvZWRpdC1kcml2ZXJzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZS13cmFwcGVyIHtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDUwcHg7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG59XHJcblxyXG5AbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XHJcbiAgICAuY29udGFpbmVyIHtcclxuICAgICAgICBtYXgtd2lkdGg6IDEyODdweDtcclxuICAgIH1cclxufVxyXG5cclxuLm0tdC0yMCB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLnN1Ym1pdC1idG4ge1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBmb250LXdlaWdodDogNTAwO1xyXG4gICAgYmFja2dyb3VuZDogIzAwODVCMjtcclxuICAgIG1pbi13aWR0aDogMjAwcHg7XHJcbiAgICBwYWRkaW5nOiA4cHggMjBweDtcclxuICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xyXG59XHJcblxyXG46Om5nLWRlZXAgLm1hdC1leHBhbnNpb24tcGFuZWwge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweCAhaW1wb3J0YW50O1xyXG59Il19 */");
 
 /***/ }),
 
@@ -4139,9 +5107,6 @@ let EditDriversComponent = class EditDriversComponent {
             number: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             address: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             pancard: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            liscencefrnt: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            liscenceback: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            propic: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
         });
         this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
         this.ownerId = this.ownerdetails['userId'];
@@ -4184,13 +5149,13 @@ let EditDriversComponent = class EditDriversComponent {
             this.formData.append('number', this.driverModel.number);
             this.formData.append('addresss', this.driverModel.address);
             this.formData.append('panCardNO', this.driverModel.pancard);
-            this.formData.append('proPic', this.propic);
-            this.formData.append('licenceFront', this.lisencefrnt);
-            this.formData.append('licenceBack', this.lisenceback);
+            // this.formData.append('proPic', this.propic);
+            // this.formData.append('licenceFront', this.lisencefrnt);
+            // this.formData.append('licenceBack', this.lisenceback);
             this.formData.append('id', this.driverId);
             this.ownerservice.editdrivers(this.formData).subscribe(data => {
                 this.toaster.success('Driver updated Successfully');
-                this.router.navigate(['/drivers']);
+                // this.router.navigate(['/drivers'])
             }, error => {
                 // alert('error')
                 this.error = error.error['message'];
@@ -4198,6 +5163,39 @@ let EditDriversComponent = class EditDriversComponent {
                 this.formData.delete;
             });
         }
+    }
+    update() {
+        this.formData.append('image', this.lisencefrnt);
+        this.formData.append('type', "1");
+        this.formData.append('id', this.driverId);
+        this.ownerservice.adddriverimnage(this.formData).subscribe(data => {
+            this.formData = new FormData();
+            this.toaster.success("Driver License Front Updated");
+        }, error => {
+            this.toaster.success("Unable to Driver License Front");
+        });
+    }
+    updateLback() {
+        this.formData.append('image', this.lisenceback);
+        this.formData.append('type', "2");
+        this.formData.append('id', this.driverId);
+        this.ownerservice.adddriverimnage(this.formData).subscribe(data => {
+            this.formData = new FormData();
+            this.toaster.success("Driver License Back Updated");
+        }, error => {
+            this.toaster.success("Unable to Driver License Back");
+        });
+    }
+    updatepPic() {
+        this.formData.append('image', this.propic);
+        this.formData.append('type', "3");
+        this.formData.append('id', this.driverId);
+        this.ownerservice.adddriverimnage(this.formData).subscribe(data => {
+            this.formData = new FormData();
+            this.toaster.success("Profile Picture Updated");
+        }, error => {
+            this.toaster.success("Unable to update Profile Picture");
+        });
     }
 };
 EditDriversComponent.ctorParameters = () => [
@@ -4401,7 +5399,7 @@ ViewliscenceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n@media (min-width: 1200px)\r\n{.container {\r\n    max-width: 1287px;\r\n}}\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvZWRpdC1jYXJzL2VkaXQtY2Fycy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksT0FBTztJQUNQLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBR2xCLHlCQUF5QjtBQUM3QjtBQUNBO0NBQ0M7SUFDRyxpQkFBaUI7QUFDckIsQ0FBQztBQUNEO0lBQ0ksV0FBVztJQUNYLDJCQUEyQjtBQUMvQjtBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLDBCQUEwQjtBQUM5QiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2VkaXQtY2Fycy9lZGl0LWNhcnMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlLXdyYXBwZXIge1xyXG4gICAgbGVmdDogMDtcclxuICAgIG1hcmdpbi1sZWZ0OiA4cHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNTBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweClcclxuey5jb250YWluZXIge1xyXG4gICAgbWF4LXdpZHRoOiAxMjg3cHg7XHJcbn19XHJcbi5tLXQtMjAge1xyXG4gICAgZmxvYXQ6IGxlZnQ7XHJcbiAgICBtYXJnaW4tdG9wOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5zdWJtaXQtYnRuIHtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIGNvbG9yOiAjZmZmO1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgIGJhY2tncm91bmQ6ICMwMDg1QjI7XHJcbiAgICBtaW4td2lkdGg6IDIwMHB4O1xyXG4gICAgcGFkZGluZzogOHB4IDIwcHg7XHJcbiAgICB0ZXh0LXRyYW5zZm9ybTogY2FwaXRhbGl6ZTtcclxufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n\r\n::ng-deep .mat-expansion-panel {\r\n    margin-bottom: 20px !important;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvZWRpdC1jYXJzL2VkaXQtY2Fycy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksT0FBTztJQUNQLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBR2xCLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJO1FBQ0ksaUJBQWlCO0lBQ3JCO0FBQ0o7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLDBCQUEwQjtBQUM5Qjs7QUFFQTtJQUNJLDhCQUE4QjtBQUNsQyIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2VkaXQtY2Fycy9lZGl0LWNhcnMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlLXdyYXBwZXIge1xyXG4gICAgbGVmdDogMDtcclxuICAgIG1hcmdpbi1sZWZ0OiA4cHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNTBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuXHJcbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcclxuICAgIC5jb250YWluZXIge1xyXG4gICAgICAgIG1heC13aWR0aDogMTI4N3B4O1xyXG4gICAgfVxyXG59XHJcblxyXG4ubS10LTIwIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uc3VibWl0LWJ0biB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDA4NUIyO1xyXG4gICAgbWluLXdpZHRoOiAyMDBweDtcclxuICAgIHBhZGRpbmc6IDhweCAyMHB4O1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XHJcbn1cclxuXHJcbjo6bmctZGVlcCAubWF0LWV4cGFuc2lvbi1wYW5lbCB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbn0iXX0= */");
 
 /***/ }),
 
@@ -4457,11 +5455,11 @@ let EditCarsComponent = class EditCarsComponent {
             vehicleRegistration: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             locality: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             rent: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            liscencefrnt: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            liscenceback: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            rcbook: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            img1: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            img2: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            // liscencefrnt:['',Validators.required],
+            // liscenceback:['',Validators.required],
+            // rcbook:['',Validators.required],
+            // img1:['',Validators.required],
+            // img2 :['',Validators.required],
             driver: [''],
             dRent: [''],
             vRentperHr: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
@@ -4549,11 +5547,11 @@ let EditCarsComponent = class EditCarsComponent {
             this.formData.append('locality', this.vehicleModel.locality);
             this.formData.append('rentPerDay', this.vehicleModel.rent);
             this.formData.append('ownerId', this.ownerId);
-            this.formData.append('licenceFront', this.lisencefrnt);
-            this.formData.append('licenceBack', this.lisenceback);
-            this.formData.append('rcImage', this.rcproof);
-            this.formData.append('image1', this.image1);
-            this.formData.append('image2', this.image2);
+            // this.formData.append('licenceFront', this.lisencefrnt);
+            // this.formData.append('licenceBack', this.lisenceback);
+            // this.formData.append('rcImage', this.rcproof);
+            // this.formData.append('image1', this.image1);
+            // this.formData.append('image2', this.image2);
             this.formData.append('driverId', this.vehicleModel.driver);
             this.formData.append('id', this.vehicleId);
             this.formData.append('driverRentPerKM', this.vehicleModel.dRent);
@@ -4562,13 +5560,78 @@ let EditCarsComponent = class EditCarsComponent {
             this.owenerservice.editvehicle(this.formData).subscribe(data => {
                 // this.toaster.success('Vehicle Updated Successfully');
                 sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Updated!', 'Vehicle Updated Successfully', 'success');
-                this.router.navigate(['/vehicles']);
+                // this.router.navigate(['/vehicles'])
             }, error => {
                 this.error = error.error['message'];
                 sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', this.error, 'error');
                 this.formData.delete;
             });
         }
+    }
+    updateimg1() {
+        this.formData.append('image', this.image1);
+        this.formData.append('type', "1");
+        this.formData.append('id', this.vehicleId);
+        this.owenerservice.addimages(this.formData).subscribe(data => {
+            this.formData = new FormData();
+            this.files = '';
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
+        }, error => {
+            this.formData.delete;
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
+        });
+    }
+    updateimg2() {
+        this.formData.append('image', this.image2);
+        this.formData.append('type', "2");
+        this.formData.append('id', this.vehicleId);
+        this.owenerservice.addimages(this.formData).subscribe(data => {
+            this.formData = new FormData();
+            this.files = '';
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 2 Added!', 'Image 2 Added Successfully', 'success');
+        }, error => {
+            this.formData.delete;
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 2!', 'Unable to add image 2 Successfully', 'error');
+        });
+    }
+    updatelicfrnt() {
+        this.formData.append('image', this.lisencefrnt);
+        this.formData.append('type', "3");
+        this.formData.append('id', this.vehicleId);
+        this.owenerservice.addimages(this.formData).subscribe(data => {
+            this.formData = new FormData();
+            this.files = '';
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Added!', 'License Added Successfully', 'success');
+        }, error => {
+            this.formData.delete;
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License front!', 'Unable to add License front Successfully', 'error');
+        });
+    }
+    updatelicback() {
+        this.formData.append('image', this.lisenceback);
+        this.formData.append('type', "4");
+        this.formData.append('id', this.vehicleId);
+        this.owenerservice.addimages(this.formData).subscribe(data => {
+            this.formData = new FormData();
+            this.files = '';
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Back Added!', 'License Back Added Successfully', 'success');
+        }, error => {
+            this.formData = new FormData();
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License Back!', 'Unable to add License Back Successfully', 'error');
+        });
+    }
+    updaterc() {
+        this.formData.append('image', this.rcproof);
+        this.formData.append('type', "5");
+        this.formData.append('id', this.vehicleId);
+        this.owenerservice.addimages(this.formData).subscribe(data => {
+            this.formData = new FormData();
+            this.files = '';
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
+        }, error => {
+            this.formData = new FormData();
+            sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add RC!', 'Unable to add RC Successfully', 'error');
+        });
     }
 };
 EditCarsComponent.ctorParameters = () => [
@@ -4778,7 +5841,7 @@ let OwnerService = class OwnerService {
         return this.http.post(this.BASEURL + 'driver/add', formdata);
     }
     editdrivers(formdata) {
-        return this.http.post(this.BASEURL + 'driver/update', formdata);
+        return this.http.put(this.BASEURL + 'driver/update', formdata);
     }
     getDriverDetailsBydriverId(id) {
         return this.http.get(this.BASEURL + 'driver/get/' + id);
@@ -4831,6 +5894,12 @@ let OwnerService = class OwnerService {
     }
     approveRequest(req) {
         return this.http.post(this.BASEURL + 'trip/setApproval', req);
+    }
+    addimages(formdata) {
+        return this.http.post(this.BASEURL + 'vehicle/addImages', formdata);
+    }
+    adddriverimnage(formdata) {
+        return this.http.post(this.BASEURL + 'driver/addImages', formdata);
     }
 };
 OwnerService.ctorParameters = () => [
@@ -5493,7 +6562,8 @@ let RegisterComponent = class RegisterComponent {
             "userName": this.registerModel.username,
             "emailId": this.registerModel.email,
             "password": this.registerModel.password,
-            "mobile": this.registerModel.mobNo,
+            // "mobile":this.registerModel.mobNo,
+            "username": this.registerModel.mobNo,
             "addres": this.registerModel.address,
             "roleId": 2
         };
@@ -5766,7 +6836,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! F:\Angualar-Task\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! F:\cmgaddii\src\main.ts */"./src/main.ts");
 
 
 /***/ })

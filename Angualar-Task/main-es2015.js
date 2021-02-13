@@ -1,32 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "./$$_lazy_route_resource lazy recursive":
-/*!******************************************************!*\
-  !*** ./$$_lazy_route_resource lazy namespace object ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncaught exception popping up in devtools
-	return Promise.resolve().then(function() {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html ***!
-  \**************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html":
+/*!***************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html ***!
+  \***************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -36,10 +13,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html":
-/*!****************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html ***!
-  \****************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html":
+/*!*****************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -49,10 +26,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html":
-/*!***********************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html ***!
-  \***********************************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html":
+/*!************************************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html ***!
+  \************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -62,10 +39,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html":
-/*!******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html ***!
-  \******************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html":
+/*!*******************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75,10 +52,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html":
-/*!**********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html ***!
-  \**********************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html":
+/*!***********************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -88,10 +65,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html":
-/*!******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html ***!
-  \******************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html":
+/*!*******************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -101,10 +78,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html":
-/*!******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html ***!
-  \******************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html":
+/*!*******************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -114,10 +91,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html ***!
-  \************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html":
+/*!*************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -127,10 +104,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html":
-/*!*********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html ***!
-  \*********************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html":
+/*!**********************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html ***!
+  \**********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -140,10 +117,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html":
-/*!***********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html ***!
-  \***********************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html":
+/*!************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -153,10 +130,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html ***!
-  \****************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -166,10 +143,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html":
-/*!****************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html ***!
-  \****************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html ***!
+  \*****************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -179,10 +156,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html":
-/*!****************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html ***!
-  \****************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html ***!
+  \*****************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -192,10 +169,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html ***!
-  \**************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html":
+/*!***************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -205,10 +182,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
-/*!**************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
-  \**************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+/*!***************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \***************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -218,10 +195,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html ***!
-  \**********************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html ***!
+  \***********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -231,10 +208,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html ***!
-  \******************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html":
+/*!*******************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -244,10 +221,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html ***!
-  \********************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html":
+/*!*********************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -257,49 +234,49 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html ***!
-  \****************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html":
+/*!*****************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Features\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"reviews-area section-gap \" id=\"review \">\n    <div class=\"container \">\n        <div class=\"row d-flex justify-content-center \">\n            <div class=\"col-md-8 pb-40 header-text text-center \">\n                <h1>Some Features that Made us Unique</h1>\n                <p class=\"mb-10 text-center \">\n                    Who are in extremely love with eco friendly system.\n                </p>\n                <hr style=\"    background: yellow;\n                width: 50%;\n                margin: 14px auto;\">\n            </div>\n        </div>\n        <div class=\"row \">\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-review \">\n                    <h4>Regular Rides</h4>\n                    <p>\n                        You can use our CM Gaadi vehicles for regular rides. We provides some offers for our regular customers\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-review \">\n                    <h4>Prebook Your Rides</h4>\n                    <p>\n                        You can prebook your rides before ready to take our services. Free cancellation before the rides begins\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-review \">\n                    <h4>Vehicle Pickup Using Map Locations</h4>\n                    <p>\n                        You can choose the location for the car to pick up. Also you can search the cars to available in the nearest locations\n                    </p>\n\n                </div>\n            </div>\n            <div class=\"col-sm-2\"></div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-review \">\n                    <h4>24/7 Customer support</h4>\n                    <p>\n                        For support and other queries 24/7 customer support is provided.For any kind of issues while the ride, we will help you resolve it.\n\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-review \" style=\"    height: 208px;\">\n                    <h4>Push Notifications</h4>\n                    <p>\n                        You will get timely notifications on your rides. All your data are safe with us.\n                    </p>\n\n                </div>\n            </div>\n            <div class=\"col-sm-2\"></div>\n        </div>\n    </div>\n</section>\n\n\n<section class=\"reviews-area  \" id=\"review \">\n    <div class=\"container \">\n        <div class=\"row d-flex justify-content-center \">\n            <div class=\"col-md-8 pb-40 header-text text-center \">\n                <h1>How it Works?</h1>\n                <hr style=\"    background: yellow;\n                width: 50%;\n                margin: 14px auto;\">\n            </div>\n        </div>\n\n        <h3>For Owners</h3>\n        <hr style=\"    background: yellow;\n        width: 20%;\n        \">\n        <h5>• Register your cab/auto with CM Gaadi</h5>\n        <p style=\"margin-top: 20px;\">Cab/Auto owner needs to register your details and complete verification. Verification will takes 5-7 days. After the verification process your car will be active on CM Gaadi and live to the customer who needs car/auto rental.</p>\n\n        <h5>• Manage your rental service from phone</h5>\n        <p style=\"margin-top: 20px;\">You will get an id and password for your car rental. You can register n number of cars. Owner can register their drivers also in CM Gaadi.</p>\n\n\n        <h3>For Customer/Members</h3>\n\n        <hr style=\"background: yellow;\n        width: 20%; \">\n        <h5>• Search for a taxi book a taxi from our site</h5>\n        <p style=\"margin-top: 20px;\">We provide car/auto taxi services.</p>\n        <h5>• Search for a car and book a cab from our site</h5>\n        <p style=\"margin-top: 20px;\">If you need a driver for that trip, you will be directed to drivers list, and you can select your driver. Otherwise you prefer self-drive, upload you driver’s license, Aadhar number and address details. We SMS your car details 20 minutes before\n            pickup. Unlock it via the CM Gaadi app.</p>\n        <h5>• Fill the start checklist & end checklist in the CM Gaadi app</h5>\n        <p style=\"margin-top: 20px;\">Grab the keys from our office and drive. Return the car to the same location and fill the end checklist to end your trip.</p>\n    </div>\n</section>\n\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Features\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"reviews-area section-gap \" id=\"review \">\n    <div class=\"container \">\n        <div class=\"row d-flex justify-content-center \">\n            <div class=\"col-md-8 pb-40 header-text text-center \">\n                <h1>Some Features that Made us Unique</h1>\n                <p class=\"mb-10 text-center \">\n                    Who are in extremely love with eco friendly system.\n                </p>\n                <hr style=\"    background: yellow;\n                width: 50%;\n                margin: 14px auto;\">\n            </div>\n        </div>\n        <div class=\"row \">\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4>Regular Rides</h4>\n                    <p>\n                        You can use our CM Gaadi vehicles for regular rides. We provides some offers for our regular customers\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4>Prebook Your Rides</h4>\n                    <p>\n                        You can prebook your rides before ready to take our services. Free cancellation before the rides begins\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4>Vehicle Pickup Using Map Locations</h4>\n                    <p>\n                        You can choose the location for the car to pick up. Also you can search the cars to available in the nearest locations\n                    </p>\n\n                </div>\n            </div>\n            <div class=\"col-sm-2\"></div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4>24/7 Customer support</h4>\n                    <p>\n                        For support and other queries 24/7 customer support is provided.For any kind of issues while the ride, we will help you resolve it.\n\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \" style=\"    height: 208px;\">\n                    <h4>Push Notifications</h4>\n                    <p>\n                        You will get timely notifications on your rides. All your data are safe with us.\n                    </p>\n\n                </div>\n            </div>\n            <div class=\"col-sm-2\"></div>\n        </div>\n    </div>\n</section>\n\n\n<section class=\"reviews-area  \" id=\"review \">\n    <div class=\"container \">\n        <div class=\"row d-flex justify-content-center \">\n            <div class=\"col-md-8 pb-40 header-text text-center \">\n                <h1>How it Works?</h1>\n                <hr style=\"    background: yellow;\n                width: 50%;\n                margin: 14px auto;\">\n            </div>\n        </div>\n\n        <h3>For Owners</h3>\n        <hr style=\"    background: yellow;\n        width: 20%;\n        \">\n        <h5>• Register your cab/auto with CM Gaadi</h5>\n        <p style=\"margin-top: 20px;\">Cab/Auto owner needs to register your details and complete verification. Verification will takes 5-7 days. After the verification process your car will be active on CM Gaadi and live to the customer who needs car/auto rental.</p>\n\n        <h5>• Manage your rental service from phone</h5>\n        <p style=\"margin-top: 20px;\">You will get an id and password for your car rental. You can register n number of cars. Owner can register their drivers also in CM Gaadi.</p>\n\n\n        <h3>For Customer/Members</h3>\n\n        <hr style=\"background: yellow;\n        width: 20%; \">\n        <h5>• Search for a taxi book a taxi from our site</h5>\n        <p style=\"margin-top: 20px;\">We provide car/auto taxi services.</p>\n        <h5>• Search for a car and book a cab from our site</h5>\n        <p style=\"margin-top: 20px;\">If you need a driver for that trip, you will be directed to drivers list, and you can select your driver. Otherwise you prefer self-drive, upload you driver’s license, Aadhar number and address details. We SMS your car details 20 minutes before\n            pickup. Unlock it via the CM Gaadi app.</p>\n        <h5>• Fill the start checklist & end checklist in the CM Gaadi app</h5>\n        <p style=\"margin-top: 20px;\">Grab the keys from our office and drive. Return the car to the same location and fill the end checklist to end your trip.</p>\n    </div>\n</section>\n\n<app-footer></app-footer>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
-/*!************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
-  \************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
+/*!*************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
+  \*************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Quick links</h6>\r\n                    <ul>\r\n                        <li><a routerLink=\"/userhome\">Home</a></li>\r\n                        <li><a routerLink=\"/aboutus \">Aboutus</a></li>\r\n                        <li><a routerLink=\"/features \">Features</a></li>\r\n                        <li><a routerLink=\"/privacy\">Privacy Policy</a> </li>\r\n\r\n                        <!-- <li><a routerLink=\"/terms\">Terms & Conditons</a></li> -->\r\n                        <li><a routerLink=\"/cancelations\">Refund Policy</a> </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Features</h6>\r\n                    <ul>\r\n                        <li><a href=\"# \">Jobs</a></li>\r\n                        <li><a href=\"# \">Brand Assets</a></li>\r\n                        <li><a href=\"# \">Investor Relations</a></li>\r\n                        <li><a href=\"# \">Terms of Service</a></li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Resources</h6>\r\n                    <ul>\r\n                        <li><a href=\"# \">Jobs</a></li>\r\n                        <li><a href=\"# \">Brand Assets</a></li>\r\n                        <li><a href=\"# \">Investor Relations</a></li>\r\n                        <li><a href=\"# \">Terms of Service</a></li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 social-widget \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Follow Us</h6>\r\n                    <p>Let us be social</p>\r\n                    <div class=\"footer-social d-flex align-items-center \">\r\n                        <a href=\"# \"><i class=\"fa fa-facebook \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-twitter \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-dribbble \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-behance \"></i></a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Newsletter</h6>\r\n                    <p>Stay update with our latest</p>\r\n                    <div class=\" \" id=\"mc_embed_signup \">\r\n                        <form target=\"_blank \" novalidate=\"true \" action=\"https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 \" method=\"get \" class=\"form-inline \">\r\n                            <input class=\"form-control \" name=\"EMAIL \" placeholder=\"Enter Email \" onfocus=\"this.placeholder='' \" onblur=\"this.placeholder='Enter Email ' \" required=\" \" type=\"email \">\r\n                            <button class=\"click-btn btn btn-default \"><span class=\"lnr lnr-arrow-right \"></span></button>\r\n                            <div style=\"position: absolute; left: -5000px; \">\r\n                                <input name=\"b_36c4fd991d266f23781ded980_aefe40901a \" tabindex=\"-1 \" value=\" \" type=\"text \">\r\n                            </div>\r\n                            <div class=\"info \"></div>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <p class=\"mt-50 mx-auto footer-text col-lg-12 \">\r\n\r\n                Copyright &copy;\r\n                <script>\r\n                    document.write(new Date().getFullYear());\r\n                </script> All rights reserved\r\n\r\n            </p>\r\n        </div>\r\n    </div>\r\n</footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Quick links</h6>\r\n                    <ul>\r\n                        <li><a routerLink=\"/userhome\">Home</a></li>\r\n                        <li><a routerLink=\"/aboutus \">Aboutus</a></li>\r\n                        <li><a routerLink=\"/features \">Features</a></li>\r\n                        <li><a routerLink=\"/privacy\">Privacy Policy</a> </li>\r\n\r\n                        <li><a routerLink=\"/terms\">Terms & Conditons</a></li>\r\n                        <li><a routerLink=\"/cancelations\">Refund Policy</a> </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \"></div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \"></div>\r\n            <!-- <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Features</h6>\r\n                    <ul>\r\n                        <li><a href=\"# \">Jobs</a></li>\r\n                        <li><a href=\"# \">Brand Assets</a></li>\r\n                        <li><a href=\"# \">Investor Relations</a></li>\r\n                        <li><a href=\"# \">Terms of Service</a></li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Resources</h6>\r\n                    <ul>\r\n                        <li><a href=\"# \">Jobs</a></li>\r\n                        <li><a href=\"# \">Brand Assets</a></li>\r\n                        <li><a href=\"# \">Investor Relations</a></li>\r\n                        <li><a href=\"# \">Terms of Service</a></li>\r\n                    </ul>\r\n                </div>\r\n            </div> -->\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 social-widget \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Follow Us</h6>\r\n                    <p>Let us be social</p>\r\n                    <div class=\"footer-social d-flex align-items-center \">\r\n                        <a href=\"# \"><i class=\"fa fa-facebook \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-twitter \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-dribbble \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-behance \"></i></a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Newsletter</h6>\r\n                    <p>Stay update with our latest</p>\r\n                    <div class=\" \" id=\"mc_embed_signup \">\r\n                        <form target=\"_blank \" novalidate=\"true \" action=\"https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 \" method=\"get \" class=\"form-inline \">\r\n                            <input class=\"form-control \" name=\"EMAIL \" placeholder=\"Enter Email \" onfocus=\"this.placeholder='' \" onblur=\"this.placeholder='Enter Email ' \" required=\" \" type=\"email \">\r\n                            <button class=\"click-btn btn btn-default \"><span class=\"lnr lnr-arrow-right \"></span></button>\r\n                            <div style=\"position: absolute; left: -5000px; \">\r\n                                <input name=\"b_36c4fd991d266f23781ded980_aefe40901a \" tabindex=\"-1 \" value=\" \" type=\"text \">\r\n                            </div>\r\n                            <div class=\"info \"></div>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div> -->\r\n            <p class=\"mt-50 mx-auto footer-text col-lg-12 \">\r\n\r\n                Copyright &copy;\r\n                <script>\r\n                    document.write(new Date().getFullYear());\r\n                </script> All rights reserved\r\n\r\n            </p>\r\n        </div>\r\n    </div>\r\n</footer>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html ***!
-  \****************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-7\">\r\n            </div>\r\n            <div class=\"col-sm-5\">\r\n                <form >\r\n                    <div class=\"card\">\r\n                        <div class=\"card-title\">\r\n                            <h4>Reset Password</h4>\r\n                            <p>Please enter your Email Id for reset your password.</p>\r\n                            <div class=\"form-group\">\r\n                                <label for=\"email\">Email Id</label>\r\n                                <input type=\"text\" id=\"email\" class=\"form-control\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"row\" style=\"    margin: 0px;\">\r\n                            <button class=\"loginbtn\"  >Reset Password</button> &nbsp; &nbsp;\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n<div class=\"page-wrapper\" style=\"margin-top: 0px;\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-7\">\r\n            </div>\r\n            <div class=\"col-sm-5\">\r\n                <form>\r\n                    <div class=\"card\">\r\n                        <div class=\"card-title\">\r\n                            <h4>Reset Password</h4>\r\n                            <p>Please enter your Email Id for reset your password.</p>\r\n                            <div class=\"form-group\">\r\n                                <label for=\"email\">Email Id</label>\r\n                                <input type=\"text\" id=\"email\" class=\"form-control\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"row\" style=\"    margin: 0px;\">\r\n                            <button class=\"loginbtn\">Reset Password</button> &nbsp; &nbsp;\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
-/*!********************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
-  \********************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
+/*!*********************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
+  \*********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -309,10 +286,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html ***!
-  \**************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html":
+/*!***************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html ***!
+  \***************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -322,10 +299,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html ***!
-  \**********************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html":
+/*!***********************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html ***!
+  \***********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -335,23 +312,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html ***!
-  \********************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html":
+/*!*********************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <header id=\"header-area\" class=\"fixed-top\">\r\n\r\n    <div id=\"header-bottom\" style=\"background-color: rgb(0 0 0);\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-lg-4\">\r\n                    <a routerLink=\"/Home\" class=\"logo\">\r\n                        <img src=\"assets/img/logoos.png\" style=\"\r\n                        height: 64px;\" alt=\"JSOFT \" *ngIf=\"!isloggedIn\">\r\n                        <h6 *ngIf=\"isloggedIn\" style=\"    color: white;\r\n                        font-weight: bold;\r\n                        padding-top: 16px;\">Cmgaadi.com</h6>\r\n                    </a>\r\n                </div>\r\n\r\n                <div class=\"col-lg-8 d-none d-xl-block\">\r\n                    <nav class=\"mainmenu alignright\">\r\n                        <ul>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/userhome\">Home</a>\r\n                            </li>\r\n                            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n                            </li>\r\n                            <li *ngIf=\"isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/admin\">Home</a>\r\n                            </li>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/login\">Login</a>\r\n                            </li>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/register\">Register</a>\r\n                            </li>\r\n                            <li *ngIf=\"isloggedIn\" (click)=\"logout()\">\r\n                                <a style=\"cursor: pointer;\">Logout</a>\r\n                            </li>\r\n                        </ul>\r\n                    </nav>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</header> -->\r\n<nav class=\"navbar navbar-expand-lg navbar-light bg-dark\" style=\"background-color: #00060f !important;\">\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 50px;\">\r\n    </a>\r\n    <button style=\"background: white;\" class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n        <ul class=\"navbar-nav ml-auto\">\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/userhome\" style=\"color: white;\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/features\" style=\"color: white;\">Features</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/contactus\" style=\"color: white;\">Contact Us</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/login\" style=\"color: white;\">Login</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/register\" style=\"color: white; padding-left: 8px;   border: 1px solid #ffcb67;\">Register</a>\r\n            </li>\r\n\r\n        </ul>\r\n\r\n    </div>\r\n</nav>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <header id=\"header-area\" class=\"fixed-top\">\r\n\r\n    <div id=\"header-bottom\" style=\"background-color: rgb(0 0 0);\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-lg-4\">\r\n                    <a routerLink=\"/Home\" class=\"logo\">\r\n                        <img src=\"assets/img/logoos.png\" style=\"\r\n                        height: 64px;\" alt=\"JSOFT \" *ngIf=\"!isloggedIn\">\r\n                        <h6 *ngIf=\"isloggedIn\" style=\"    color: white;\r\n                        font-weight: bold;\r\n                        padding-top: 16px;\">Cmgaadi.com</h6>\r\n                    </a>\r\n                </div>\r\n\r\n                <div class=\"col-lg-8 d-none d-xl-block\">\r\n                    <nav class=\"mainmenu alignright\">\r\n                        <ul>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/userhome\">Home</a>\r\n                            </li>\r\n                            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n                            </li>\r\n                            <li *ngIf=\"isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/admin\">Home</a>\r\n                            </li>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/login\">Login</a>\r\n                            </li>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/register\">Register</a>\r\n                            </li>\r\n                            <li *ngIf=\"isloggedIn\" (click)=\"logout()\">\r\n                                <a style=\"cursor: pointer;\">Logout</a>\r\n                            </li>\r\n                        </ul>\r\n                    </nav>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</header> -->\r\n<nav class=\"navbar navbar-expand-lg navbar-light bg-dark\" style=\"background-color: #00060f !important;\">\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 50px;\">\r\n    </a>\r\n    <button style=\"background: white;\" class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n        <ul class=\"navbar-nav ml-auto\">\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/userhome\" style=\"color: white;\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About Us</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/features\" style=\"color: white;\">Features</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/services\" style=\"color: white;\">Services</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/contactus\" style=\"color: white;\">Contact Us</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/login\" style=\"color: white;\">Login</a>\r\n            </li>\r\n\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/register\" style=\"color: white;\">Register</a>\r\n            </li>\r\n\r\n        </ul>\r\n\r\n    </div>\r\n</nav>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html":
-/*!************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html ***!
-  \************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html":
+/*!*************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html ***!
+  \*************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -361,10 +338,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html":
-/*!************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html ***!
-  \************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html":
+/*!*************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html ***!
+  \*************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -374,10 +351,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html":
-/*!******************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html ***!
-  \******************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html ***!
+  \*******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -387,10 +364,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html":
-/*!********************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html ***!
-  \********************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html":
+/*!*********************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -400,10 +377,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html ***!
-  \**********************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html ***!
+  \***********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -413,10 +390,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html ***!
-  \********************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html":
+/*!*********************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html ***!
+  \*********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -426,10 +403,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html ***!
-  \******************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html ***!
+  \*******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -439,10 +416,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html ***!
-  \**********************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html ***!
+  \***********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -452,10 +429,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html":
-/*!********************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html ***!
-  \********************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html":
+/*!*********************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -465,10 +442,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html ***!
-  \******************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html ***!
+  \*******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -478,10 +455,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html":
-/*!**********************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html ***!
-  \**********************************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html":
+/*!***********************************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html ***!
+  \***********************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -491,10 +468,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html":
-/*!******************************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html ***!
-  \******************************************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html ***!
+  \*******************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -504,10 +481,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html":
-/*!************************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html ***!
-  \************************************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html":
+/*!*************************************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html ***!
+  \*************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -517,10 +494,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html ***!
-  \**************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html":
+/*!***************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -530,10 +507,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html ***!
-  \********************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html":
+/*!*********************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html ***!
+  \*********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -543,10 +520,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html":
-/*!****************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html ***!
-  \****************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html":
+/*!*****************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -556,10 +533,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html ***!
-  \********************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html":
+/*!*********************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html ***!
+  \*********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -569,10 +546,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html":
-/*!******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html ***!
-  \******************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html":
+/*!*******************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -582,10 +559,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html":
-/*!*************************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html ***!
-  \*************************************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html":
+/*!**************************************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html ***!
+  \**************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -595,10 +572,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html ***!
-  \********************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html":
+/*!*********************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html ***!
+  \*********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -608,10 +585,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html":
-/*!**********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html ***!
-  \**********************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html":
+/*!***********************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -621,10 +598,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html ***!
-  \****************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -634,10 +611,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html":
-/*!***********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html ***!
-  \***********************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html":
+/*!************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -647,10 +624,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html":
-/*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html ***!
-  \*******************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html":
+/*!********************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -660,10 +637,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html ***!
-  \****************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -673,10 +650,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html ***!
-  \******************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html ***!
+  \*******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -686,10 +663,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html":
-/*!********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html ***!
-  \********************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html ***!
+  \*********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -699,10 +676,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html ***!
-  \****************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html":
+/*!*****************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -712,10 +689,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html":
-/*!*****************************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html ***!
-  \*****************************************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html":
+/*!******************************************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html ***!
+  \******************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -725,36 +702,49 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html":
-/*!************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html ***!
-  \************************************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html":
+/*!*************************************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html ***!
+  \*************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"navbar navbar-expand-lg navbar-light bg-dark\" style=\"background-color: #00060f !important;\">\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 50px;\">\r\n    </a>\r\n    <button style=\"background: white;\" class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n        <ul class=\"navbar-nav ml-auto\">\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/userhome\" style=\"color: white;\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Features</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Contact Us</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Login</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white; padding-left: 8px;   border: 1px solid #ffcb67;\">Register</a>\r\n            </li>\r\n\r\n        </ul>\r\n\r\n    </div>\r\n</nav> -->\r\n\r\n<app-navigation></app-navigation>\r\n<section class=\"banner-area relative\">\r\n    <!-- <div class=\"overlay overlay-bg\"></div> -->\r\n    <div class=\"container\">\r\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\r\n            <div class=\"banner-content col-lg-7 col-md-6 \">\r\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\r\n                <h1 class=\"text-white text-uppercase\">\r\n                    Relaxed Journey Ever\r\n                </h1>\r\n                <p class=\"pt-20 pb-20 text-white\">\r\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\r\n\r\n                </p>\r\n                <a href=\"#\" class=\"primary-btn text-uppercase\">Rent Car Now</a>\r\n            </div>\r\n            <!-- <div class=\"col-lg-5  col-md-6 header-right\">\r\n                <h4 class=\"text-white pb-30\">Book Your Car Today!</h4>\r\n                <form class=\"form\" role=\"form\" autocomplete=\"off\">\r\n                    <div class=\"form-group\">\r\n                        <div class=\"default-select\" id=\"default-select\">\r\n                            <select>\r\n                                <option value=\" \" disabled selected hidden>Select Your Car</option>\r\n                                <option value=\" 1 \">BMW</option>\r\n                                <option value=\" 1 \">Farrari</option>\r\n                                <option value=\" 1 \">Toyota</option>\r\n                            </select>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\" form-group row \">\r\n                        <div class=\" col-md-6 wrap-left \">\r\n                            <div class=\" default-select \" id=\" default-select \">\r\n                                <select>\r\n                                    <option value=\"\" disabled selected hidden>Pickup</option>\r\n                                    <option value=\"1\">Pickup One</option>\r\n                                    <option value=\"1\">Pickup Two</option>\r\n                                    <option value=\"1\">Pickup Three</option>\r\n                                    <option value=\"1\">Pickup Four</option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n\r\n                    </div>\r\n\r\n                    <div class=\" from-group \">\r\n                        <input class=\" form-control txt-field \" type=\" text \" name=\" name \" placeholder=\" Your name \">\r\n                        <input class=\" form-control txt-field \" type=\" email \" name=\" email \" placeholder=\" Email address \">\r\n                        <input class=\" form-control txt-field \" type=\" tel \" name=\" phone \" placeholder=\" Phone number \">\r\n                    </div>\r\n                    <div class=\" form-group row \">\r\n                        <div class=\" col-md-12 \">\r\n                            <button type=\" reset \" class=\" btn btn-default btn-lg btn-block text-center text-uppercase \">Confirm Car\r\n                                Booking</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"feature-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text \">\r\n                <h1>What Services we offer to our clients</h1>\r\n                <p>\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Taxi Services</h4>\r\n                    <p>\r\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent a Car</h4>\r\n                    <p>\r\n                        Rent a car for ride with or without driver. You can use our app to select the car. No hidden or extra charges applicable. You can choose the locations and car type before submitting your confirmation\r\n\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent Your Car</h4>\r\n                    <p>\r\n                        You can rent your cars by registering, you will get a user id and account details after the verification. You can register n number of cars you owned.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-rocket \"></span>Technical Skills</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-diamond \"></span>Highly Recomended</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-bubble \"></span>Positive Reviews</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n\r\n<!-- <section class=\"home-about-area \" id=\"about \">\r\n    <div class=\"container-fluid \">\r\n        <div class=\"row justify-content-center align-items-center \">\r\n            <div class=\"col-lg-6 no-padding home-about-left \">\r\n                <img class=\"img-fluid \" src=\"assets/assets/img/about-img.jpg \" alt=\" \">\r\n            </div>\r\n            <div class=\"col-lg-6 no-padding home-about-right \">\r\n                <h1>Globally Connected <br> by Large Network</h1>\r\n                <p>\r\n                    <span>We are here to listen from you deliver exellence</span>\r\n                </p>\r\n                <p>\r\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.\r\n                </p>\r\n                <a class=\"text-uppercase primary-btn \" href=\"# \">get details</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n<section class=\"facts-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row \">\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">2536</h1>\r\n                <p>Projects Completed</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">6784</h1>\r\n                <p>Really Happy Clients</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">1059</h1>\r\n                <p>Total Tasks Completed</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">2239</h1>\r\n                <p>Cups of Coffee Taken</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">435</h1>\r\n                <p>In House Professionals</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"reviews-area section-gap \" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>Some Features that Made us Unique</h1>\r\n                <p class=\"mb-10 text-center \">\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-review \">\r\n                    <h4>Regular Rides</h4>\r\n                    <p>\r\n                        You can use our CM Gaadi vehicles for regular rides. We provides some offers for our regular customers\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-review \">\r\n                    <h4>Prebook Your Rides</h4>\r\n                    <p>\r\n                        You can prebook your rides before ready to take our services. Free cancellation before the rides begins\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-review \">\r\n                    <h4>Vehicle Pickup Using Map Locations</h4>\r\n                    <p>\r\n                        You can choose the location for the car to pick up. Also you can search the cars to available in the nearest locations\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-review \">\r\n                    <h4>24/7 Customer support</h4>\r\n                    <p>\r\n                        For support and other queries 24/7 customer support is provided.For any kind of issues while the ride, we will help you resolve it.\r\n\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-review \" style=\"    height: 208px;\">\r\n                    <h4>Push Notifications</h4>\r\n                    <p>\r\n                        You will get timely notifications on your rides. All your data are safe with us.\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n\r\n<section class=\"callaction-area relative section-gap \">\r\n    <div class=\"overlay overlay-bg \"></div>\r\n    <div class=\"container \">\r\n        <div class=\"row justify-content-center \">\r\n            <div class=\"col-lg-10 \">\r\n                <h1 class=\"text-white \">Experience Great Support</h1>\r\n                <p>\r\n                </p>\r\n                <a class=\"callaction-btn text-uppercase \" href=\"# \">Reach Our Support Team</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n\r\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"navbar navbar-expand-lg navbar-light bg-dark\" style=\"background-color: #00060f !important;\">\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 50px;\">\r\n    </a>\r\n    <button style=\"background: white;\" class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n        <ul class=\"navbar-nav ml-auto\">\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/userhome\" style=\"color: white;\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Features</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Contact Us</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Login</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white; padding-left: 8px;   border: 1px solid #ffcb67;\">Register</a>\r\n            </li>\r\n\r\n        </ul>\r\n\r\n    </div>\r\n</nav> -->\r\n\r\n<app-navigation></app-navigation>\r\n<section class=\"banner-area relative\">\r\n    <!-- <div class=\"overlay overlay-bg\"></div> -->\r\n    <div class=\"container\">\r\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\r\n            <div class=\"banner-content col-lg-7 col-md-6 \">\r\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\r\n                <h1 class=\"text-white text-uppercase\">\r\n                    Bringing the future of rides\r\n                </h1>\r\n                <p class=\"pt-20 pb-20 text-white\">\r\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\r\n\r\n                </p>\r\n                <a href=\"#\" class=\"primary-btn text-uppercase\">Rent Car Now</a>\r\n            </div>\r\n            <!-- <div class=\"col-lg-5  col-md-6 header-right\">\r\n                <h4 class=\"text-white pb-30\">Book Your Car Today!</h4>\r\n                <form class=\"form\" role=\"form\" autocomplete=\"off\">\r\n                    <div class=\"form-group\">\r\n                        <div class=\"default-select\" id=\"default-select\">\r\n                            <select>\r\n                                <option value=\" \" disabled selected hidden>Select Your Car</option>\r\n                                <option value=\" 1 \">BMW</option>\r\n                                <option value=\" 1 \">Farrari</option>\r\n                                <option value=\" 1 \">Toyota</option>\r\n                            </select>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\" form-group row \">\r\n                        <div class=\" col-md-6 wrap-left \">\r\n                            <div class=\" default-select \" id=\" default-select \">\r\n                                <select>\r\n                                    <option value=\"\" disabled selected hidden>Pickup</option>\r\n                                    <option value=\"1\">Pickup One</option>\r\n                                    <option value=\"1\">Pickup Two</option>\r\n                                    <option value=\"1\">Pickup Three</option>\r\n                                    <option value=\"1\">Pickup Four</option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n\r\n                    </div>\r\n\r\n                    <div class=\" from-group \">\r\n                        <input class=\" form-control txt-field \" type=\" text \" name=\" name \" placeholder=\" Your name \">\r\n                        <input class=\" form-control txt-field \" type=\" email \" name=\" email \" placeholder=\" Email address \">\r\n                        <input class=\" form-control txt-field \" type=\" tel \" name=\" phone \" placeholder=\" Phone number \">\r\n                    </div>\r\n                    <div class=\" form-group row \">\r\n                        <div class=\" col-md-12 \">\r\n                            <button type=\" reset \" class=\" btn btn-default btn-lg btn-block text-center text-uppercase \">Confirm Car\r\n                                Booking</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"feature-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text \">\r\n                <h1>What Services we offer to our clients</h1>\r\n                <p>\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Taxi Services</h4>\r\n                    <p>\r\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent a Car</h4>\r\n                    <p>\r\n                        Rent a car for ride with or without driver. You can use our app to select the car. No hidden or extra charges applicable. You can choose the locations and car type before submitting your confirmation\r\n\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent Your Car</h4>\r\n                    <p>\r\n                        You can rent your cars by registering, you will get a user id and account details after the verification. You can register n number of cars you owned.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-rocket \"></span>Technical Skills</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-diamond \"></span>Highly Recomended</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-bubble \"></span>Positive Reviews</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n\r\n<!-- <section class=\"home-about-area \" id=\"about \">\r\n    <div class=\"container-fluid \">\r\n        <div class=\"row justify-content-center align-items-center \">\r\n            <div class=\"col-lg-6 no-padding home-about-left \">\r\n                <img class=\"img-fluid \" src=\"assets/assets/img/about-img.jpg \" alt=\" \">\r\n            </div>\r\n            <div class=\"col-lg-6 no-padding home-about-right \">\r\n                <h1>Globally Connected <br> by Large Network</h1>\r\n                <p>\r\n                    <span>We are here to listen from you deliver exellence</span>\r\n                </p>\r\n                <p>\r\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.\r\n                </p>\r\n                <a class=\"text-uppercase primary-btn \" href=\"# \">get details</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n<!-- <section class=\"facts-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row \">\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">2536</h1>\r\n                <p>Projects Completed</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">6784</h1>\r\n                <p>Really Happy Clients</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">1059</h1>\r\n                <p>Total Tasks Completed</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">2239</h1>\r\n                <p>Cups of Coffee Taken</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">435</h1>\r\n                <p>In House Professionals</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n\r\n\r\n<section class=\"reviews-area\" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>Some Features that Made us Unique</h1>\r\n                <p class=\"mb-10 text-center \">\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Regular Rides</h4>\r\n                    <p>\r\n                        You can use our CM Gaadi vehicles for regular rides. We provides some offers for our regular customers\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Prebook Your Rides</h4>\r\n                    <p>\r\n                        You can prebook your rides before ready to take our services. Free cancellation before the rides begins\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Vehicle Pickup Using Map Locations</h4>\r\n                    <p>\r\n                        You can choose the location for the car to pick up. Also you can search the cars to available in the nearest locations\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>24/7 Customer support</h4>\r\n                    <p>\r\n                        For support and other queries 24/7 customer support is provided.For any kind of issues while the ride, we will help you resolve it.\r\n\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \" style=\"    height: 208px;\">\r\n                    <h4>Push Notifications</h4>\r\n                    <p>\r\n                        You will get timely notifications on your rides. All your data are safe with us.\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<section class=\"reviews-area\" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>Pricing</h1>\r\n                <p class=\"mb-10 text-center \">\r\n                    Our Pricing Structure.\r\n                </p>\r\n                <hr>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-6 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Pricing For CAB Services</h4>\r\n                    <!-- <p>\r\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\r\n                    </p> -->\r\n                    <p>Minumum Kilometer - 5</p>\r\n                    <p>Minumum Charge - 150</p>\r\n                    <p>Waiting Charge - Per hour basis</p>\r\n\r\n                    <p>Note : Beyond 5km per hour or per km charges whichever comes big will be included with RS 150/-</p>\r\n                    <p>Km charge and hour charge will display on screen when booking a vehicle</p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-6 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Pricing For AUTO Services</h4>\r\n                    <p>Minumum Kilometer - 1.5</p>\r\n                    <p>Minumum Charge - 25</p>\r\n                    <p>Waiting Charge - Per Half hour basis</p>\r\n\r\n                    <p>Note : Beyond 1.5km per hour or per km charges whichever comes big will be included with RS 25/-</p>\r\n                    <p>Km charge and hour charge will display on screen when booking a vehicle</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<!-- <section class=\"callaction-area relative section-gap \">\r\n    <div class=\"overlay overlay-bg \"></div>\r\n    <div class=\"container \">\r\n        <div class=\"row justify-content-center \">\r\n            <div class=\"col-lg-10 \">\r\n                <h1 class=\"text-white \">Experience Great Support</h1>\r\n                <p>\r\n                </p>\r\n                <a class=\"callaction-btn text-uppercase \" href=\"# \">Reach Our Support Team</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n\r\n\r\n\r\n<app-footer></app-footer>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html ***!
-  \**********************************************************************************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html":
+/*!*****************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>termsandconditons works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Services\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n<section class=\"feature-area section-gap \">\n    <div class=\"container \">\n        <div class=\"row d-flex justify-content-center \">\n            <div class=\"col-md-8 pb-40 header-text \">\n                <h1>What Services we offer to our clients</h1>\n                <p>\n                    Who are in extremely love with eco friendly system.\n                </p>\n            </div>\n        </div>\n        <div class=\"row \">\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-user \"></span>Taxi Services</h4>\n                    <p>\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-car \"></span>Rent a Car</h4>\n                    <p>\n                        Rent a car for ride with or without driver. You can use our app to select the car. No hidden or extra charges applicable. You can choose the locations and car type before submitting your confirmation\n\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-car \"></span>Rent Your Car</h4>\n                    <p>\n                        You can rent your cars by registering, you will get a user id and account details after the verification. You can register n number of cars you owned.\n                    </p>\n                </div>\n            </div>\n            <!-- <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-rocket \"></span>Technical Skills</h4>\n                    <p>\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-diamond \"></span>Highly Recomended</h4>\n                    <p>\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-bubble \"></span>Positive Reviews</h4>\n                    <p>\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\n                    </p>\n                </div>\n            </div> -->\n        </div>\n    </div>\n</section>");
 
 /***/ }),
 
-/***/ "./node_modules/tslib/tslib.es6.js":
-/*!*****************************************!*\
-  !*** ./node_modules/tslib/tslib.es6.js ***!
-  \*****************************************/
+/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Terms & Conditions\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n<section>\n    <div class=\"container\" style=\"margin-top: 20px;\">\n\n        <h6> Forbidden Uses: vehicles may not be used for the following:</h6>\n        <hr>\n        <p>Transporting goods/people in violation of local laws or excise & customs rules.</p>\n        <p>For sports, adventure, races rally and other competitive events.</p>\n        <p>For over speeding violations over 125 Km/hr, there will be a fine of ₹2500. Vehicle speed is tracked and monitored remotely through an in-car device to ensure the safety of all CM Gaadi members.</p>\n        <h6>For Self-Driving Cars</h6>\n        <hr>\n        <p>CM Gaadi member can choose two type of renting service. </p>\n        <p>1.Self-Driving car by the usage of a kilometer, Daily rent is applicable if the usage exceeds 24 hours. </p>\n        <p>2.Self-Driving car with Daily rent by kilometer limit, the additional charge is applicable if the daily limit exceeds.\n        </p>\n        <p>Proper Registration should be made on CM Gaadi for car owner approval, An approval process may take a maximum of 48 hours.</p>\n        <p>Once the owner approved the trip, The CM Gaadi member should pick up the car from the desired location specified by the owner.</p>\n        <p>If the CM Gaadi member, cancel’s the trip after the Owner’s approval Rs.75 will be charged towards the CM Gaadi member</p>\n\n        <p> CM Gaadi members should bring the original driving license followed by an Aadhar card for identity reference. Once the verification process was done the owner and CM Gaadi member mutually verified the starting kilometer reading from the car's\n            Odometer. </p>\n        <p>\n            Customer should verify the fuel level in the fuel gauge with the owner and it’s the customer's responsibility to return the car with the same fuel noted at the time of pickup\n        </p>\n        <p>Trip charges are calculated only at the time returning a car, and a trip kilometer is calculated by starting kilometer and ending kilometer from car’s odometer. </p>\n        <p>The rider should drive or utilize the car at the desired location as specified during the time of registration, Incase the customer violates the city limit or state limit or change in drop location. Then the owner will claim the legal case against\n            the rider for policy violation. </p>\n\n\n\n        <p>Your liability in the event of theft or accident to the vehicle is restricted to a maximum amount equal to ₹10,000/-. Car insurance handles the remainder. This is provided you adhere to all of CM Gaadi's standard rules and regulations as described</p>\n        <p>Requesting customers to mark damages, if any, in the car at the time of taking it as well as returning it to the owner</p>\n\n        <p>Incase of breakdown during the time of ride, customer can contact for customer support</p>\n\n        <p>Customer is responsible for any minor scratches, minor damages, self-damages, interior damages, change in any vehicle parts, damage due to rash driving, damage due to rough usage. And those damages are chargeable by the owner or the owner will\n            charge the cost for the damaged part with the labour cost for changing the damaged part</p>\n\n        <p>Customers are not permitted to do any changes on the engine part or electronic part. But customers can customize the driver components such as music system, Steering system, seat hight, light focus area, and other user-accessible equipment.</p>\n\n\n\n        <p>CM Gaadi or Owner is not responsible for missing any personal belongings of the customer during or after the drop off of the car. </p>\n        <p>In case of puncture or tire replacement due to rough driving or driving off-road, the customer needs to pay for the puncture and tire repairing or replacement. It is advised to the customer not to pick up the car if there is any tire-related issue\n            or report the issue properly during at the time of car pickup. </p>\n\n        <p>Customer should fuel the car very carefully recommend by the car company such as diesel or petrol or LPG. Any miss fuel to the car will leads to severe damage to the engine and customer should pay the entire service cost along with penalty and\n            daily rent of the car.</p>\n\n        <p>Customer can demand a driver in case they need a full-time driver for their trip, and separate charges will be applicable for the driver. Still, all the terms and conditions will be applicable to customers if they bring a driver into action. </p>\n\n\n        <h6>For Owners </h6>\n        <hr>\n\n        <p>Owner can register the vehicle using CM Gaadi App, along with vehicle details such as vehicle make, model, year, fuel type, seating capacity, color, average mileage, wheel type, details of the modification. Owners need to submit the vehicle Registration\n            copy, Insurance Copy, pollution Certificate, Owner’s ID proof, Pickup location details</p>\n\n\n        <p>Owners need to specify the desired pickup location, or the owner can utilize the CM Gaadi yard as pickup and drop-off location. The owner should specify either the car is applicable for multicity, interstate driving, and multicity drop-off. </p>\n\n\n        <p>The CM Gaadi technician will visit the location and examines the vehicle for CM Gaadi specification. Once the evaluation was done CM Gaadi will create the customized tariff for your vehicle. The entire process may take up to 5-7 days. </p>\n        <p>Owner need to pay the registration fee of rupees 1000 for the evaluation process and technician charges if applicable</p>\n        <p>Owner is responsible for any accident during at the time of ride, hence owner needs to choose the right insurance for their car. </p>\n\n        <p>Owner needs to update the kilometer reading, damages, fuel gauge, Tire condition, interior and exterior of the car with pictures. </p>\n\n\n\n        <p>Owner should share the GPS signal of the vehicle with CM Gaadi, If the vehicle does not have the GPS signaling Device then CM Gaadi will install the GPS device on the vehicle to identify the the exact location of the vehicle. Charges may be applicable\n            if CM Gaadi installs the GPS.</p>\n\n        <p>Owners shall have direct contact with the CM Gaadi customer in case of any issues, Such as puncture, Accident, City violation, State violation, Over speeding or in case of any illegal activities. </p>\n\n        <p>Owner is responsible for any accident, car theft, or car utilized for any illegal activities. It’s the owners' responsibility to keep Insurance, Pollution Certificate, Road tax, Permit, and FC on up to date. CM Gaadi is not responsible if an issue\n            raised due to the expiry of legal documents. It is advised to owners that their vehicle should have full insurance with the proper valuation for safety. </p>\n\n\n\n\n\n\n\n\n    </div>\n</section>\n\n<app-footer></app-footer>");
+
+/***/ }),
+
+/***/ "../node_modules/tslib/tslib.es6.js":
+/*!******************************************!*\
+  !*** ../node_modules/tslib/tslib.es6.js ***!
+  \******************************************/
 /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __createBinding, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1005,6 +995,29 @@ function __classPrivateFieldSet(receiver, privateMap, value) {
 
 /***/ }),
 
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
 /***/ "./src/app/_interceptor/jwtinterceptor.ts":
 /*!************************************************!*\
   !*** ./src/app/_interceptor/jwtinterceptor.ts ***!
@@ -1015,8 +1028,8 @@ function __classPrivateFieldSet(receiver, privateMap, value) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthInterceptor", function() { return AuthInterceptor; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _login_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../login/login.service */ "./src/app/login/login.service.ts");
 
 
@@ -1063,9 +1076,9 @@ AuthInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoadingScreenInterceptor", function() { return LoadingScreenInterceptor; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm2015/operators/index.js");
 /* harmony import */ var _loading_loading_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../loading/loading.service */ "./src/app/loading/loading.service.ts");
 
 
@@ -1102,7 +1115,7 @@ LoadingScreenInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Bank", function() { return Bank; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 
 class Bank {
 }
@@ -1120,7 +1133,7 @@ class Bank {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Driver", function() { return Driver; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 
 class Driver {
 }
@@ -1138,7 +1151,7 @@ class Driver {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Login", function() { return Login; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 
 class Login {
 }
@@ -1156,7 +1169,7 @@ class Login {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Registeruser", function() { return Registeruser; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 
 class Registeruser {
 }
@@ -1174,7 +1187,7 @@ class Registeruser {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Vehicle", function() { return Vehicle; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 
 class Vehicle {
     ;
@@ -1193,11 +1206,11 @@ class Vehicle {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthenticationService", function() { return AuthenticationService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "../node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm2015/operators/index.js");
 
 
 
@@ -1263,8 +1276,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutusComponent", function() { return AboutusComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let AboutusComponent = class AboutusComponent {
@@ -1275,7 +1288,7 @@ let AboutusComponent = class AboutusComponent {
 AboutusComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-aboutus',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./aboutus.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./aboutus.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./aboutus.component.css */ "./src/app/aboutus/aboutus.component.css")).default]
     })
 ], AboutusComponent);
@@ -1294,9 +1307,9 @@ AboutusComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminService", function() { return AdminService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 
 
@@ -1404,14 +1417,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminapprovevehiclesComponent", function() { return AdminapprovevehiclesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -1564,7 +1577,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 AdminapprovevehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adminapprovevehicles',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminapprovevehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminapprovevehicles.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adminapprovevehicles.component.css */ "./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.css")).default]
     })
 ], AdminapprovevehiclesComponent);
@@ -1596,13 +1609,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewVehicledetailsComponent", function() { return ViewVehicledetailsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -1717,7 +1730,7 @@ ViewVehicledetailsComponent.ctorParameters = () => [
 ViewVehicledetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-view-vehicledetails',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-vehicledetails.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-vehicledetails.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./view-vehicledetails.component.css */ "./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.css")).default]
     })
 ], ViewVehicledetailsComponent);
@@ -1749,8 +1762,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminhomeComponent", function() { return AdminhomeComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let AdminhomeComponent = class AdminhomeComponent {
@@ -1764,7 +1777,7 @@ let AdminhomeComponent = class AdminhomeComponent {
 AdminhomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adminhome',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminhome.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminhome.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adminhome.component.css */ "./src/app/adminpannel/adminhome/adminhome.component.css")).default]
     })
 ], AdminhomeComponent);
@@ -1796,8 +1809,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminpannelComponent", function() { return AdminpannelComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./admin.service */ "./src/app/adminpannel/admin.service.ts");
 
 
@@ -1810,7 +1823,7 @@ let AdminpannelComponent = class AdminpannelComponent {
 AdminpannelComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adminpannel',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminpannel.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminpannel.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html")).default,
         providers: [_admin_service__WEBPACK_IMPORTED_MODULE_2__["AdminService"]],
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adminpannel.component.css */ "./src/app/adminpannel/adminpannel.component.css")).default]
     })
@@ -1843,10 +1856,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompaniesComponent", function() { return CompaniesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
 
 
@@ -1904,7 +1917,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 CompaniesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-companies',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./companies.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./companies.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./companies.component.css */ "./src/app/adminpannel/companies/companies.component.css")).default]
     })
 ], CompaniesComponent);
@@ -1936,10 +1949,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CountriesComponent", function() { return CountriesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
 
 
@@ -1982,7 +1995,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 CountriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-countries',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./countries.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./countries.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./countries.component.css */ "./src/app/adminpannel/countries/countries.component.css")).default]
     })
 ], CountriesComponent);
@@ -2014,9 +2027,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_services_authentication_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/_services/authentication.service */ "./src/app/_services/authentication.service.ts");
 
 
@@ -2041,7 +2054,7 @@ HeaderComponent.ctorParameters = () => [
 HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-header',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./header.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./header.component.css */ "./src/app/adminpannel/header/header.component.css")).default]
     })
 ], HeaderComponent);
@@ -2073,13 +2086,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddLocationComponent", function() { return AddLocationComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -2127,7 +2140,7 @@ AddLocationComponent.ctorParameters = () => [
 AddLocationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-add-location',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-location.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-location.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-location.component.css */ "./src/app/adminpannel/location/add-location/add-location.component.css")).default]
     })
 ], AddLocationComponent);
@@ -2159,12 +2172,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditLocationComponent", function() { return EditLocationComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -2211,7 +2224,7 @@ EditLocationComponent.ctorParameters = () => [
 EditLocationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-edit-location',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-location.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-location.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-location.component.css */ "./src/app/adminpannel/location/edit-location/edit-location.component.css")).default]
     })
 ], EditLocationComponent);
@@ -2243,12 +2256,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocationComponent", function() { return LocationComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 
 
 
@@ -2307,7 +2320,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 LocationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-location',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./location.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./location.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./location.component.css */ "./src/app/adminpannel/location/location.component.css")).default]
     })
 ], LocationComponent);
@@ -2339,10 +2352,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PaymentreportsComponent", function() { return PaymentreportsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
 
 
 
@@ -2379,7 +2392,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 PaymentreportsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-paymentreports',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./paymentreports.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./paymentreports.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./paymentreports.component.css */ "./src/app/adminpannel/paymentreports/paymentreports.component.css")).default]
     })
 ], PaymentreportsComponent);
@@ -2411,13 +2424,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResetPassowrdComponent", function() { return ResetPassowrdComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var src_app_register_password_validation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/register/password-validation */ "./src/app/register/password-validation.ts");
 /* harmony import */ var src_app_models_login__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/_models/login */ "./src/app/_models/login.ts");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -2465,7 +2478,7 @@ ResetPassowrdComponent.ctorParameters = () => [
 ResetPassowrdComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-reset-passowrd',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./reset-passowrd.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./reset-passowrd.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./reset-passowrd.component.css */ "./src/app/adminpannel/reset-passowrd/reset-passowrd.component.css")).default]
     })
 ], ResetPassowrdComponent);
@@ -2497,8 +2510,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SidebarComponent", function() { return SidebarComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let SidebarComponent = class SidebarComponent {
@@ -2512,7 +2525,7 @@ let SidebarComponent = class SidebarComponent {
 SidebarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-sidebar',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./sidebar.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./sidebar.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./sidebar.component.css */ "./src/app/adminpannel/sidebar/sidebar.component.css")).default]
     })
 ], SidebarComponent);
@@ -2531,9 +2544,9 @@ SidebarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register.component.ts");
@@ -2580,6 +2593,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _termsandconditons_termsandconditons_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./termsandconditons/termsandconditons.component */ "./src/app/termsandconditons/termsandconditons.component.ts");
 /* harmony import */ var _privacyandpolicy_privacyandpolicy_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./privacyandpolicy/privacyandpolicy.component */ "./src/app/privacyandpolicy/privacyandpolicy.component.ts");
 /* harmony import */ var _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./cancelationpolicy/cancelationpolicy.component */ "./src/app/cancelationpolicy/cancelationpolicy.component.ts");
+/* harmony import */ var _services_services_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./services/services.component */ "./src/app/services/services.component.ts");
 
 
 
@@ -2589,6 +2603,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // import { AuthGuard } from './_guards/auth.guard';
+
 
 
 
@@ -2641,6 +2656,7 @@ const routes = [
     { path: 'terms', component: _termsandconditons_termsandconditons_component__WEBPACK_IMPORTED_MODULE_46__["TermsandconditonsComponent"] },
     { path: 'privacy', component: _privacyandpolicy_privacyandpolicy_component__WEBPACK_IMPORTED_MODULE_47__["PrivacyandpolicyComponent"] },
     { path: 'cancelations', component: _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_48__["CancelationpolicyComponent"] },
+    { path: 'services', component: _services_services_component__WEBPACK_IMPORTED_MODULE_49__["ServicesComponent"] },
     { path: 'Home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
     { path: 'login', component: _login_login_component__WEBPACK_IMPORTED_MODULE_4__["LoginComponent"] },
     { path: 'register', component: _register_register_component__WEBPACK_IMPORTED_MODULE_5__["RegisterComponent"] },
@@ -2717,8 +2733,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let AppComponent = class AppComponent {
@@ -2729,7 +2745,7 @@ let AppComponent = class AppComponent {
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-root',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
     })
 ], AppComponent);
@@ -2748,19 +2764,19 @@ AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser/animations */ "../node_modules/@angular/platform-browser/fesm2015/animations.js");
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register.component.ts");
 /* harmony import */ var _adminpannel_adminpannel_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./adminpannel/adminpannel.component */ "./src/app/adminpannel/adminpannel.component.ts");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./material */ "./src/app/material.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
 /* harmony import */ var _adminpannel_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./adminpannel/sidebar/sidebar.component */ "./src/app/adminpannel/sidebar/sidebar.component.ts");
 /* harmony import */ var _adminpannel_header_header_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./adminpannel/header/header.component */ "./src/app/adminpannel/header/header.component.ts");
 /* harmony import */ var _adminpannel_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./adminpannel/countries/countries.component */ "./src/app/adminpannel/countries/countries.component.ts");
@@ -2787,8 +2803,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _adminpannel_location_edit_location_edit_location_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./adminpannel/location/edit-location/edit-location.component */ "./src/app/adminpannel/location/edit-location/edit-location.component.ts");
 /* harmony import */ var _adminpannel_location_add_location_add_location_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./adminpannel/location/add-location/add-location.component */ "./src/app/adminpannel/location/add-location/add-location.component.ts");
 /* harmony import */ var _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./error-page/error-page.component */ "./src/app/error-page/error-page.component.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/common */ "../node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var _ownerpannel_edit_cars_edit_cars_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./ownerpannel/edit-cars/edit-cars.component */ "./src/app/ownerpannel/edit-cars/edit-cars.component.ts");
 /* harmony import */ var _registerpageformarketing_registerpageformarketing_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./registerpageformarketing/registerpageformarketing.component */ "./src/app/registerpageformarketing/registerpageformarketing.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
@@ -2819,6 +2835,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _termsandconditons_termsandconditons_component__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./termsandconditons/termsandconditons.component */ "./src/app/termsandconditons/termsandconditons.component.ts");
 /* harmony import */ var _privacyandpolicy_privacyandpolicy_component__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./privacyandpolicy/privacyandpolicy.component */ "./src/app/privacyandpolicy/privacyandpolicy.component.ts");
 /* harmony import */ var _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ./cancelationpolicy/cancelationpolicy.component */ "./src/app/cancelationpolicy/cancelationpolicy.component.ts");
+/* harmony import */ var _services_services_component__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! ./services/services.component */ "./src/app/services/services.component.ts");
 
 
 
@@ -2837,6 +2854,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // import { AuthGuard } from './_guards/auth.guard';
+
 
 
 
@@ -2951,7 +2969,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_67__["ContactusComponent"],
             _termsandconditons_termsandconditons_component__WEBPACK_IMPORTED_MODULE_68__["TermsandconditonsComponent"],
             _privacyandpolicy_privacyandpolicy_component__WEBPACK_IMPORTED_MODULE_69__["PrivacyandpolicyComponent"],
-            _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_70__["CancelationpolicyComponent"]
+            _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_70__["CancelationpolicyComponent"],
+            _services_services_component__WEBPACK_IMPORTED_MODULE_71__["ServicesComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -3002,8 +3021,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CancelationpolicyComponent", function() { return CancelationpolicyComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let CancelationpolicyComponent = class CancelationpolicyComponent {
@@ -3014,7 +3033,7 @@ let CancelationpolicyComponent = class CancelationpolicyComponent {
 CancelationpolicyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-cancelationpolicy',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./cancelationpolicy.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./cancelationpolicy.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./cancelationpolicy.component.css */ "./src/app/cancelationpolicy/cancelationpolicy.component.css")).default]
     })
 ], CancelationpolicyComponent);
@@ -3046,8 +3065,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactusComponent", function() { return ContactusComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let ContactusComponent = class ContactusComponent {
@@ -3058,7 +3077,7 @@ let ContactusComponent = class ContactusComponent {
 ContactusComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-contactus',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./contactus.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./contactus.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./contactus.component.css */ "./src/app/contactus/contactus.component.css")).default]
     })
 ], ContactusComponent);
@@ -3090,8 +3109,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorPageComponent", function() { return ErrorPageComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let ErrorPageComponent = class ErrorPageComponent {
@@ -3102,7 +3121,7 @@ let ErrorPageComponent = class ErrorPageComponent {
 ErrorPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-error-page',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./error-page.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./error-page.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./error-page.component.css */ "./src/app/error-page/error-page.component.css")).default]
     })
 ], ErrorPageComponent);
@@ -3134,8 +3153,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FeaturesComponent", function() { return FeaturesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let FeaturesComponent = class FeaturesComponent {
@@ -3146,7 +3165,7 @@ let FeaturesComponent = class FeaturesComponent {
 FeaturesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-features',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./features.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./features.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./features.component.css */ "./src/app/features/features.component.css")).default]
     })
 ], FeaturesComponent);
@@ -3178,8 +3197,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let FooterComponent = class FooterComponent {
@@ -3190,7 +3209,7 @@ let FooterComponent = class FooterComponent {
 FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-footer',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")).default]
     })
 ], FooterComponent);
@@ -3222,8 +3241,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ForgotpasswordComponent", function() { return ForgotpasswordComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let ForgotpasswordComponent = class ForgotpasswordComponent {
@@ -3234,7 +3253,7 @@ let ForgotpasswordComponent = class ForgotpasswordComponent {
 ForgotpasswordComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-forgotpassword',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./forgotpassword.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./forgotpassword.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./forgotpassword.component.css */ "./src/app/forgotpassword/forgotpassword.component.css")).default]
     })
 ], ForgotpasswordComponent);
@@ -3266,9 +3285,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _login_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../login/login.service */ "./src/app/login/login.service.ts");
 
 
@@ -3306,7 +3325,7 @@ HomeComponent.ctorParameters = () => [
 HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-home',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")).default]
     })
 ], HomeComponent);
@@ -3338,8 +3357,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoadingComponent", function() { return LoadingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _loading_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./loading.service */ "./src/app/loading/loading.service.ts");
 
 
@@ -3362,7 +3381,7 @@ LoadingComponent.ctorParameters = () => [
 LoadingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-loading',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./loading.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./loading.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./loading.component.css */ "./src/app/loading/loading.component.css")).default]
     })
 ], LoadingComponent);
@@ -3381,9 +3400,9 @@ LoadingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoadingService", function() { return LoadingService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "../node_modules/rxjs/_esm2015/index.js");
 
 
 
@@ -3431,14 +3450,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./login.service */ "./src/app/login/login.service.ts");
 /* harmony import */ var _services_authentication_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_services/authentication.service */ "./src/app/_services/authentication.service.ts");
-/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/snack-bar */ "../node_modules/@angular/material/esm2015/snack-bar.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -3513,7 +3532,7 @@ LoginComponent.ctorParameters = () => [
 LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-login',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./login.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./login.component.css */ "./src/app/login/login.component.css")).default]
     })
 ], LoginComponent);
@@ -3532,9 +3551,9 @@ LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginService", function() { return LoginService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 
 
@@ -3582,49 +3601,49 @@ LoginService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaterialModule", function() { return MaterialModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/cdk/a11y */ "./node_modules/@angular/cdk/esm2015/a11y.js");
-/* harmony import */ var _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/cdk/drag-drop */ "./node_modules/@angular/cdk/esm2015/drag-drop.js");
-/* harmony import */ var _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/cdk/portal */ "./node_modules/@angular/cdk/esm2015/portal.js");
-/* harmony import */ var _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/cdk/scrolling */ "./node_modules/@angular/cdk/esm2015/scrolling.js");
-/* harmony import */ var _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/cdk/stepper */ "./node_modules/@angular/cdk/esm2015/stepper.js");
-/* harmony import */ var _angular_cdk_table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/cdk/table */ "./node_modules/@angular/cdk/esm2015/table.js");
-/* harmony import */ var _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/cdk/tree */ "./node_modules/@angular/cdk/esm2015/tree.js");
-/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/autocomplete */ "./node_modules/@angular/material/esm2015/autocomplete.js");
-/* harmony import */ var _angular_material_badge__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/badge */ "./node_modules/@angular/material/esm2015/badge.js");
-/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "./node_modules/@angular/material/esm2015/bottom-sheet.js");
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/esm2015/button.js");
-/* harmony import */ var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/button-toggle */ "./node_modules/@angular/material/esm2015/button-toggle.js");
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/esm2015/card.js");
-/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/esm2015/checkbox.js");
-/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/chips */ "./node_modules/@angular/material/esm2015/chips.js");
-/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/esm2015/stepper.js");
-/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/esm2015/datepicker.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
-/* harmony import */ var _angular_material_divider__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/divider */ "./node_modules/@angular/material/esm2015/divider.js");
-/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm2015/expansion.js");
-/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/esm2015/grid-list.js");
-/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/esm2015/icon.js");
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/esm2015/input.js");
-/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/list */ "./node_modules/@angular/material/esm2015/list.js");
-/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/menu */ "./node_modules/@angular/material/esm2015/menu.js");
-/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/esm2015/core.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
-/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/esm2015/progress-bar.js");
-/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/esm2015/progress-spinner.js");
-/* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/radio */ "./node_modules/@angular/material/esm2015/radio.js");
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm2015/select.js");
-/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/esm2015/sidenav.js");
-/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/slider */ "./node_modules/@angular/material/esm2015/slider.js");
-/* harmony import */ var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/material/slide-toggle */ "./node_modules/@angular/material/esm2015/slide-toggle.js");
-/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
-/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @angular/material/sort */ "./node_modules/@angular/material/esm2015/sort.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/material/tabs */ "./node_modules/@angular/material/esm2015/tabs.js");
-/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/esm2015/toolbar.js");
-/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! @angular/material/tooltip */ "./node_modules/@angular/material/esm2015/tooltip.js");
-/* harmony import */ var _angular_material_tree__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @angular/material/tree */ "./node_modules/@angular/material/esm2015/tree.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/cdk/a11y */ "../node_modules/@angular/cdk/esm2015/a11y.js");
+/* harmony import */ var _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/cdk/drag-drop */ "../node_modules/@angular/cdk/esm2015/drag-drop.js");
+/* harmony import */ var _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/cdk/portal */ "../node_modules/@angular/cdk/esm2015/portal.js");
+/* harmony import */ var _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/cdk/scrolling */ "../node_modules/@angular/cdk/esm2015/scrolling.js");
+/* harmony import */ var _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/cdk/stepper */ "../node_modules/@angular/cdk/esm2015/stepper.js");
+/* harmony import */ var _angular_cdk_table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/cdk/table */ "../node_modules/@angular/cdk/esm2015/table.js");
+/* harmony import */ var _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/cdk/tree */ "../node_modules/@angular/cdk/esm2015/tree.js");
+/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/autocomplete */ "../node_modules/@angular/material/esm2015/autocomplete.js");
+/* harmony import */ var _angular_material_badge__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/badge */ "../node_modules/@angular/material/esm2015/badge.js");
+/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "../node_modules/@angular/material/esm2015/bottom-sheet.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/button */ "../node_modules/@angular/material/esm2015/button.js");
+/* harmony import */ var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/button-toggle */ "../node_modules/@angular/material/esm2015/button-toggle.js");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/card */ "../node_modules/@angular/material/esm2015/card.js");
+/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/checkbox */ "../node_modules/@angular/material/esm2015/checkbox.js");
+/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/chips */ "../node_modules/@angular/material/esm2015/chips.js");
+/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/stepper */ "../node_modules/@angular/material/esm2015/stepper.js");
+/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/datepicker */ "../node_modules/@angular/material/esm2015/datepicker.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_material_divider__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/divider */ "../node_modules/@angular/material/esm2015/divider.js");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/expansion */ "../node_modules/@angular/material/esm2015/expansion.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/grid-list */ "../node_modules/@angular/material/esm2015/grid-list.js");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/icon */ "../node_modules/@angular/material/esm2015/icon.js");
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/input */ "../node_modules/@angular/material/esm2015/input.js");
+/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/list */ "../node_modules/@angular/material/esm2015/list.js");
+/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/menu */ "../node_modules/@angular/material/esm2015/menu.js");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/material/core */ "../node_modules/@angular/material/esm2015/core.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material/progress-bar */ "../node_modules/@angular/material/esm2015/progress-bar.js");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/progress-spinner */ "../node_modules/@angular/material/esm2015/progress-spinner.js");
+/* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/radio */ "../node_modules/@angular/material/esm2015/radio.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/material/select */ "../node_modules/@angular/material/esm2015/select.js");
+/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/material/sidenav */ "../node_modules/@angular/material/esm2015/sidenav.js");
+/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/slider */ "../node_modules/@angular/material/esm2015/slider.js");
+/* harmony import */ var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/material/slide-toggle */ "../node_modules/@angular/material/esm2015/slide-toggle.js");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @angular/material/snack-bar */ "../node_modules/@angular/material/esm2015/snack-bar.js");
+/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @angular/material/sort */ "../node_modules/@angular/material/esm2015/sort.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/material/tabs */ "../node_modules/@angular/material/esm2015/tabs.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @angular/material/toolbar */ "../node_modules/@angular/material/esm2015/toolbar.js");
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! @angular/material/tooltip */ "../node_modules/@angular/material/esm2015/tooltip.js");
+/* harmony import */ var _angular_material_tree__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @angular/material/tree */ "../node_modules/@angular/material/esm2015/tree.js");
 
 
 
@@ -3746,9 +3765,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationComponent", function() { return NavigationComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 
 
 
@@ -3772,7 +3791,7 @@ NavigationComponent.ctorParameters = () => [
 NavigationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-navigation',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./navigation.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./navigation.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./navigation.component.css */ "./src/app/navigation/navigation.component.css")).default]
     })
 ], NavigationComponent);
@@ -3804,14 +3823,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddimageOneComponent", function() { return AddimageOneComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -3874,7 +3893,7 @@ AddimageOneComponent.ctorParameters = () => [
 AddimageOneComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addimage-one',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-one.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-one.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addimage-one.component.css */ "./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.css")).default]
     })
 ], AddimageOneComponent);
@@ -3906,14 +3925,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddimageTwoComponent", function() { return AddimageTwoComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -3977,7 +3996,7 @@ AddimageTwoComponent.ctorParameters = () => [
 AddimageTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addimage-two',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-two.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addimage-two.component.css */ "./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.css")).default]
     })
 ], AddimageTwoComponent);
@@ -4009,14 +4028,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddlicenceBackComponent", function() { return AddlicenceBackComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4080,7 +4099,7 @@ AddlicenceBackComponent.ctorParameters = () => [
 AddlicenceBackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addlicence-back',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-back.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-back.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addlicence-back.component.css */ "./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.css")).default]
     })
 ], AddlicenceBackComponent);
@@ -4112,14 +4131,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddlicenceFrontComponent", function() { return AddlicenceFrontComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4183,7 +4202,7 @@ AddlicenceFrontComponent.ctorParameters = () => [
 AddlicenceFrontComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addlicence-front',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-front.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-front.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addlicence-front.component.css */ "./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.css")).default]
     })
 ], AddlicenceFrontComponent);
@@ -4215,14 +4234,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddnewCarsComponent", function() { return AddnewCarsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4373,7 +4392,7 @@ AddnewCarsComponent.ctorParameters = () => [
 AddnewCarsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addnew-cars',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addnew-cars.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addnew-cars.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addnew-cars.component.css */ "./src/app/ownerpannel/addnew-cars/addnew-cars.component.css")).default]
     })
 ], AddnewCarsComponent);
@@ -4405,14 +4424,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddrcimageComponent", function() { return AddrcimageComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4476,7 +4495,7 @@ AddrcimageComponent.ctorParameters = () => [
 AddrcimageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addrcimage',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addrcimage.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addrcimage.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addrcimage.component.css */ "./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.css")).default]
     })
 ], AddrcimageComponent);
@@ -4508,13 +4527,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddBanksComponent", function() { return AddBanksComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_models_bank__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/_models/bank */ "./src/app/_models/bank.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -4574,7 +4593,7 @@ AddBanksComponent.ctorParameters = () => [
 AddBanksComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-add-banks',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-banks.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-banks.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-banks.component.css */ "./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.css")).default]
     })
 ], AddBanksComponent);
@@ -4606,10 +4625,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BankdetailsComponent", function() { return BankdetailsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_adminpannel_admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/adminpannel/admin.service */ "./src/app/adminpannel/admin.service.ts");
 /* harmony import */ var src_app_models_bank__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/bank */ "./src/app/_models/bank.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
@@ -4670,7 +4689,7 @@ BankdetailsComponent.ctorParameters = () => [
 BankdetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-bankdetails',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./bankdetails.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./bankdetails.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./bankdetails.component.css */ "./src/app/ownerpannel/bankdetails/bankdetails.component.css")).default]
     })
 ], BankdetailsComponent);
@@ -4702,13 +4721,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditBankdetailsComponent", function() { return EditBankdetailsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_models_bank__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/_models/bank */ "./src/app/_models/bank.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -4768,7 +4787,7 @@ EditBankdetailsComponent.ctorParameters = () => [
 EditBankdetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-edit-bankdetails',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-bankdetails.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-bankdetails.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-bankdetails.component.css */ "./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.css")).default]
     })
 ], EditBankdetailsComponent);
@@ -4800,14 +4819,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddDriversComponent", function() { return AddDriversComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4889,7 +4908,7 @@ AddDriversComponent.ctorParameters = () => [
 AddDriversComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-add-drivers',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-drivers.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-drivers.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-drivers.component.css */ "./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.css")).default]
     })
 ], AddDriversComponent);
@@ -4921,13 +4940,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverLicscenceComponent", function() { return AdddriverLicscenceComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
@@ -4989,7 +5008,7 @@ AdddriverLicscenceComponent.ctorParameters = () => [
 AdddriverLicscenceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adddriver-licscence',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscence.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscence.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-licscence.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.css")).default]
     })
 ], AdddriverLicscenceComponent);
@@ -5021,13 +5040,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverLicscencebackComponent", function() { return AdddriverLicscencebackComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
@@ -5090,7 +5109,7 @@ AdddriverLicscencebackComponent.ctorParameters = () => [
 AdddriverLicscencebackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adddriver-licscenceback',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscenceback.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscenceback.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-licscenceback.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.css")).default]
     })
 ], AdddriverLicscencebackComponent);
@@ -5122,13 +5141,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverProfilepicComponent", function() { return AdddriverProfilepicComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
@@ -5192,7 +5211,7 @@ AdddriverProfilepicComponent.ctorParameters = () => [
 AdddriverProfilepicComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adddriver-profilepic',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-profilepic.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-profilepic.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-profilepic.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.css")).default]
     })
 ], AdddriverProfilepicComponent);
@@ -5224,17 +5243,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DriversComponent", function() { return DriversComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
 /* harmony import */ var _viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./viewliscence/viewliscence.component */ "./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.ts");
 /* harmony import */ var _viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./viewlicsenceback/viewlicsenceback.component */ "./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.ts");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
 
 
 
@@ -5354,7 +5373,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 DriversComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-drivers',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./drivers.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./drivers.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./drivers.component.css */ "./src/app/ownerpannel/drivers/drivers.component.css")).default]
     })
 ], DriversComponent);
@@ -5386,11 +5405,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditDriversComponent", function() { return EditDriversComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
@@ -5516,7 +5535,7 @@ EditDriversComponent.ctorParameters = () => [
 EditDriversComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-edit-drivers',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-drivers.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-drivers.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-drivers.component.css */ "./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.css")).default]
     })
 ], EditDriversComponent);
@@ -5548,12 +5567,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewlicsencebackComponent", function() { return ViewlicsencebackComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
 
@@ -5602,7 +5621,7 @@ ViewlicsencebackComponent.ctorParameters = () => [
 ViewlicsencebackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
         selector: 'app-viewlicsenceback',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./viewlicsenceback.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./viewlicsenceback.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./viewlicsenceback.component.css */ "./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.css")).default]
     }),
     tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"])(_angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__["MAT_DIALOG_DATA"]))
@@ -5635,13 +5654,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewliscenceComponent", function() { return ViewliscenceComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 
 
 
@@ -5689,7 +5708,7 @@ ViewliscenceComponent.ctorParameters = () => [
 ViewliscenceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-viewliscence',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./viewliscence.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./viewliscence.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./viewliscence.component.css */ "./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.css")).default]
     }),
     tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__["MAT_DIALOG_DATA"]))
@@ -5722,14 +5741,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditCarsComponent", function() { return EditCarsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -5953,7 +5972,7 @@ EditCarsComponent.ctorParameters = () => [
 EditCarsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-edit-cars',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-cars.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-cars.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-cars.component.css */ "./src/app/ownerpannel/edit-cars/edit-cars.component.css")).default]
     })
 ], EditCarsComponent);
@@ -5985,9 +6004,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddVehiclekmHandoverComponent", function() { return AddVehiclekmHandoverComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
 
 
 
@@ -6007,7 +6026,7 @@ AddVehiclekmHandoverComponent.ctorParameters = () => [
 AddVehiclekmHandoverComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-add-vehiclekm-handover',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-vehiclekm-handover.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-vehiclekm-handover.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-vehiclekm-handover.component.css */ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.css")).default]
     }),
     tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"]))
@@ -6040,9 +6059,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HandovervehiclesComponent", function() { return HandovervehiclesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var _add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./add-vehiclekm-handover/add-vehiclekm-handover.component */ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts");
@@ -6099,7 +6118,7 @@ HandovervehiclesComponent.ctorParameters = () => [
 HandovervehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-handovervehicles',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./handovervehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./handovervehicles.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./handovervehicles.component.css */ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.css")).default]
     })
 ], HandovervehiclesComponent);
@@ -6118,10 +6137,10 @@ HandovervehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OwnerService", function() { return OwnerService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
 
 
 
@@ -6250,8 +6269,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OwnerpannelComponent", function() { return OwnerpannelComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let OwnerpannelComponent = class OwnerpannelComponent {
@@ -6262,7 +6281,7 @@ let OwnerpannelComponent = class OwnerpannelComponent {
 OwnerpannelComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-ownerpannel',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./ownerpannel.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./ownerpannel.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./ownerpannel.component.css */ "./src/app/ownerpannel/ownerpannel.component.css")).default]
     })
 ], OwnerpannelComponent);
@@ -6294,12 +6313,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RequestsComponent", function() { return RequestsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -6409,7 +6428,7 @@ RequestsComponent.ctorParameters = () => [
 RequestsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-requests',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./requests.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./requests.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./requests.component.css */ "./src/app/ownerpannel/requests/requests.component.css")).default]
     })
 ], RequestsComponent);
@@ -6441,11 +6460,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewRequestsComponent", function() { return ViewRequestsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_4__);
 
 
@@ -6517,7 +6536,7 @@ ViewRequestsComponent.ctorParameters = () => [
 ViewRequestsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-view-requests',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-requests.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-requests.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./view-requests.component.css */ "./src/app/ownerpannel/requests/view-requests/view-requests.component.css")).default]
     })
 ], ViewRequestsComponent);
@@ -6549,11 +6568,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OwnerviewvehiclesComponent", function() { return OwnerviewvehiclesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_adminpannel_admin_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/adminpannel/admin.service */ "./src/app/adminpannel/admin.service.ts");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 
@@ -6660,7 +6679,7 @@ OwnerviewvehiclesComponent.ctorParameters = () => [
 OwnerviewvehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-ownerviewvehicles',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./ownerviewvehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./ownerviewvehicles.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./ownerviewvehicles.component.css */ "./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.css")).default]
     })
 ], OwnerviewvehiclesComponent);
@@ -6692,12 +6711,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VehiclesComponent", function() { return VehiclesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 
 
 
@@ -6761,7 +6780,7 @@ VehiclesComponent.ctorParameters = () => [
 VehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-vehicles',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vehicles.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./vehicles.component.css */ "./src/app/ownerpannel/vehicles/vehicles.component.css")).default]
     })
 ], VehiclesComponent);
@@ -6793,9 +6812,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VehicletrackingComponent", function() { return VehicletrackingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
 
@@ -6826,7 +6845,7 @@ VehicletrackingComponent.ctorParameters = () => [
 VehicletrackingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-vehicletracking',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vehicletracking.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vehicletracking.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./vehicletracking.component.css */ "./src/app/ownerpannel/vehicletracking/vehicletracking.component.css")).default]
     })
 ], VehicletrackingComponent);
@@ -6858,8 +6877,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrivacyandpolicyComponent", function() { return PrivacyandpolicyComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let PrivacyandpolicyComponent = class PrivacyandpolicyComponent {
@@ -6870,7 +6889,7 @@ let PrivacyandpolicyComponent = class PrivacyandpolicyComponent {
 PrivacyandpolicyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-privacyandpolicy',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./privacyandpolicy.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./privacyandpolicy.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./privacyandpolicy.component.css */ "./src/app/privacyandpolicy/privacyandpolicy.component.css")).default]
     })
 ], PrivacyandpolicyComponent);
@@ -6889,7 +6908,7 @@ PrivacyandpolicyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MustMatch", function() { return MustMatch; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 
 // custom validator to check that two fields match
 function MustMatch(controlName, matchingControlName) {
@@ -6936,14 +6955,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterComponent", function() { return RegisterComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _models_register__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_models/register */ "./src/app/_models/register.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _password_validation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./password-validation */ "./src/app/register/password-validation.ts");
 /* harmony import */ var _login_login_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../login/login.service */ "./src/app/login/login.service.ts");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 
 
 
@@ -7008,7 +7027,7 @@ RegisterComponent.ctorParameters = () => [
 RegisterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-register',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./register.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./register.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./register.component.css */ "./src/app/register/register.component.css")).default]
     })
 ], RegisterComponent);
@@ -7040,8 +7059,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PulicregistrationmarketingComponent", function() { return PulicregistrationmarketingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let PulicregistrationmarketingComponent = class PulicregistrationmarketingComponent {
@@ -7052,7 +7071,7 @@ let PulicregistrationmarketingComponent = class PulicregistrationmarketingCompon
 PulicregistrationmarketingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-pulicregistrationmarketing',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./pulicregistrationmarketing.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./pulicregistrationmarketing.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./pulicregistrationmarketing.component.css */ "./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.css")).default]
     })
 ], PulicregistrationmarketingComponent);
@@ -7084,14 +7103,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterpageformarketingComponent", function() { return RegisterpageformarketingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _login_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../login/login.service */ "./src/app/login/login.service.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _models_register__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_models/register */ "./src/app/_models/register.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -7162,10 +7181,54 @@ RegisterpageformarketingComponent.ctorParameters = () => [
 RegisterpageformarketingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-registerpageformarketing',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./registerpageformarketing.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./registerpageformarketing.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./registerpageformarketing.component.css */ "./src/app/registerpageformarketing/registerpageformarketing.component.css")).default]
     })
 ], RegisterpageformarketingComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/services.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/services/services.component.css ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NlcnZpY2VzL3NlcnZpY2VzLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/services/services.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/services/services.component.ts ***!
+  \************************************************/
+/*! exports provided: ServicesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicesComponent", function() { return ServicesComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+
+
+let ServicesComponent = class ServicesComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-services',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./services.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./services.component.css */ "./src/app/services/services.component.css")).default]
+    })
+], ServicesComponent);
 
 
 
@@ -7194,8 +7257,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TermsandconditonsComponent", function() { return TermsandconditonsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
 
 
 let TermsandconditonsComponent = class TermsandconditonsComponent {
@@ -7206,7 +7269,7 @@ let TermsandconditonsComponent = class TermsandconditonsComponent {
 TermsandconditonsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-termsandconditons',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./termsandconditons.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./termsandconditons.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./termsandconditons.component.css */ "./src/app/termsandconditons/termsandconditons.component.css")).default]
     })
 ], TermsandconditonsComponent);
@@ -7225,7 +7288,7 @@ TermsandconditonsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 
 const environment = {
     production: true,
@@ -7246,7 +7309,7 @@ const environment = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
@@ -7275,9 +7338,9 @@ const environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "../node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
 
@@ -7301,7 +7364,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\cmgaddi\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! E:\cmgaddi\latesetfile\src\main.ts */"./src/main.ts");
 
 
 /***/ })

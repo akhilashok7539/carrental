@@ -1,22 +1,45 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html":
-/*!***************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html ***!
-  \***************************************************************************************/
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html ***!
+  \**************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    About Us\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n\n<section class=\"home-about-area\" id=\"about\">\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-lg-6 no-padding home-about-left\">\n                <img class=\"img-fluid\" src=\"assets/assets/img/about-img.jpg\" alt=\"\">\n            </div>\n            <div class=\"col-lg-6 no-padding home-about-right\">\n                <h1>About Us</h1>\n                <hr>\n                <p>CM Gaadi is an Indian company that offers vehicles for hire such as self-drive car rental or Auto rental services. It’s a platform for vehicle owners to rent your vehicle to desired customers and earn money from your own vehicle. And also\n                    it’s a better place to search your desired vehicle with your budget. CM Gaadi is mainly focuses on expatriates who are abroad but have vehicles, it’s have no usage –can register your vehicle on CM Gaadi and they can manage their rental\n                    service at where ever they are. So, this will help expatriates to earn money by their vehicles while sitting abroad. Also people who need vehicle for travelling can rent a vehicle from CM Gaadi by providing their details</p>\n            </div>\n        </div>\n    </div>\n</section>\n\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n\r\n<section class=\"banner-area relative\" id=\"home\">\r\n    <div class=\"overlay overlay-bg\"></div>\r\n    <div class=\"container\">\r\n        <div class=\"row d-flex align-items-center justify-content-center\">\r\n            <div class=\"about-content col-lg-12\">\r\n                <h1 class=\"text-white\">\r\n                    About Us\r\n                </h1>\r\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"home-about-area\" id=\"about\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row justify-content-center align-items-center\">\r\n            <div class=\"col-lg-6 no-padding home-about-left\">\r\n                <img class=\"img-fluid\" src=\"assets/assets/img/about-img.jpg\" alt=\"\">\r\n            </div>\r\n            <div class=\"col-lg-6 no-padding home-about-right\">\r\n                <h1>About Us</h1>\r\n                <hr>\r\n                <p>CM Gaadi is an Indian company that offers vehicles for hire such as self-drive car rental or Auto rental services. It’s a platform for vehicle owners to rent your vehicle to desired customers and earn money from your own vehicle. And also\r\n                    it’s a better place to search your desired vehicle with your budget. CM Gaadi is mainly focuses on expatriates who are abroad but have vehicles, it’s have no usage –can register your vehicle on CM Gaadi and they can manage their rental\r\n                    service at where ever they are. So, this will help expatriates to earn money by their vehicles while sitting abroad. Also people who need vehicle for travelling can rent a vehicle from CM Gaadi by providing their details</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<app-footer></app-footer>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html":
-/*!*****************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html ***!
-  \*****************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html ***!
+  \****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -26,10 +49,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html":
-/*!************************************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html ***!
-  \************************************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html":
+/*!***********************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html ***!
+  \***********************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -39,36 +62,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html ***!
-  \*******************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"page-wrapper\" >\r\n    <div class=\"row\" >\r\n        <div class=\"col-md-12 \" *ngIf=\"userRole == 'ADMIN'\">\r\n    \r\n            <!-- <div class=\"table-responsive\"> -->\r\n                <!-- <app-countries></app-countries> -->\r\n                <app-companies></app-companies>\r\n            <!-- </div> -->\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div *ngIf=\"userRole == 'OWNER'\">\r\n<app-ownerpannel></app-ownerpannel>\r\n    \r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <div class=\"page-wrapper\" >\r\n    <div class=\"row\" >\r\n        <div class=\"col-md-12 \" *ngIf=\"userRole == 'ADMIN'\">\r\n    \r\n        \r\n                <app-companies></app-companies>\r\n         \r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div *ngIf=\"userRole == 'OWNER'\">\r\n<app-ownerpannel></app-ownerpannel>\r\n    \r\n</div> -->");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html":
-/*!***********************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html ***!
-  \***********************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome> ");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1>\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n\r\n                    <div class=\"col-xl-3 col-md-6 mb-4\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-3 col-md-6 mb-4\">\r\n                        <div class=\"card border-left-success shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff0278 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff0278 !important;\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-3 col-md-6 mb-4\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff5f02 !important;\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff5f02 !important;\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-3 col-md-6 mb-4\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff02d5 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-warning text-uppercase mb-1\" style=\"color: #ff02d5 !important;\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-3 col-md-6 mb-4\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #00d6a1 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #00d6a1 !important;\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-3 col-md-6 mb-4\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-3 col-md-6 mb-4\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-3 col-md-6 mb-4\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html ***!
-  \*******************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78,10 +101,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html ***!
-  \*******************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -91,23 +114,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html":
-/*!*************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html ***!
-  \*************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <mat-toolbar class=\"mat-elevation-z6\" color=\"primary\" >\r\n Dashboard \r\n <div style=\"position:absolute; right:10px;\">\r\n    <button style=\"outline: none;\" mat-icon-button [matMenuTriggerFor]=\"menu\" matTooltip=\"Profile Actions\">\r\n        <mat-icon>account_circle</mat-icon>\r\n    </button>\r\n    <mat-menu #menu=\"matMenu\">\r\n        <button mat-menu-item (click)=\"logout()\" style=\"outline: none;\">\r\n          <span>Sign Out</span>\r\n          <mat-icon style=\"padding-left: 5px;\">exit_to_app</mat-icon>\r\n        </button>\r\n    </mat-menu>\r\n</div>\r\n  </mat-toolbar> -->\r\n  <header id=\"header-area\" class=\"fixed-top\">\r\n\r\n    <div id=\"header-bottom\" style=\"background-color: rgb(0 0 0);\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <!--== Logo Start ==-->\r\n                <div class=\"col-lg-4\">\r\n                   \r\n                </div>\r\n                <!--== Logo End ==-->\r\n\r\n                <!--== Main Menu Start ==-->\r\n                <div class=\"col-lg-8 d-none d-xl-block\">\r\n                    <nav class=\"mainmenu alignright\">\r\n                        <ul>\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/Home\">Home</a>\r\n\r\n                            </li>\r\n                            <li routerLinkActive=\"active\"><a href=\"about.html\">About</a></li>\r\n                            <li routerLinkActive=\"active\"><a href=\"services.html\">services</a></li>\r\n\r\n\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/login\">Login</a></li>\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/register\">Register</a></li>\r\n                        </ul>\r\n                    </nav>\r\n                </div>\r\n                <!--== Main Menu End ==-->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</header>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <mat-toolbar class=\"mat-elevation-z6\" color=\"primary\" >\r\n Dashboard \r\n <div style=\"position:absolute; right:10px;\">\r\n    <button style=\"outline: none;\" mat-icon-button [matMenuTriggerFor]=\"menu\" matTooltip=\"Profile Actions\">\r\n        <mat-icon>account_circle</mat-icon>\r\n    </button>\r\n    <mat-menu #menu=\"matMenu\">\r\n        <button mat-menu-item (click)=\"logout()\" style=\"outline: none;\">\r\n          <span>Sign Out</span>\r\n          <mat-icon style=\"padding-left: 5px;\">exit_to_app</mat-icon>\r\n        </button>\r\n    </mat-menu>\r\n</div>\r\n  </mat-toolbar> -->\r\n\r\n\r\n<nav class=\"navbar navbar-expand navbar-light bg-white topbar mb-4 fixed-top shadow\">\r\n\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logonew.png\" alt=\"\" style=\"width: 101px;\">\r\n        <!-- <h6>CMGAADI</h6> -->\r\n    </a>\r\n\r\n</nav>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html":
-/*!**********************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html ***!
-  \**********************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html ***!
+  \*********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -117,10 +140,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html":
-/*!************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html ***!
-  \************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html ***!
+  \***********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -130,10 +153,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -143,10 +166,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html":
-/*!*****************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html ***!
-  \*****************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html ***!
+  \****************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -156,10 +179,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html":
-/*!*****************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html ***!
-  \*****************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html ***!
+  \****************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -169,23 +192,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html":
-/*!***************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html ***!
-  \***************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <mat-sidenav-container>\r\n    <mat-sidenav  mode=\"side\" opened=\"true\" [fixedInViewport]=\"true\" [fixedTopGap]=\"64\">\r\n                <ul>\r\n                    <li routerLink=\"/admin\" routerLinkActive=\"active\">Home</li>\r\n                    \r\n                    <li *ngIf=\"userRole == 'ADMIN'\" routerLink=\"/countries\" routerLinkActive=\"active\">Countries</li>\r\n\r\n                </ul>\r\n      </mat-sidenav>\r\n  \r\n </mat-sidenav-container> -->\r\n    \r\n<div class=\"sidebar\" id=\"sidebar\" >\r\n    <div class=\"sidebar-inner slimscroll\" style=\"overflow-y: auto;\">\r\n        <div id=\"sidebar-menu\" class=\"sidebar-menu\">\r\n            <ul  *ngIf=\"userRole == 'ADMIN'\">\r\n\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong>  Admin</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/admin\"><i class=\"fa fa-user\"></i> <span>Owners</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/locations\"><i class=\"fa fa-map-marker\"></i> <span>Locality</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-vehicles\" ><i class=\"fa fa-car\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/admin-paymentreports\"><i class=\"fa fa-inr\"></i> <span>Payment Reports</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n                \r\n            </ul >\r\n            <ul  *ngIf =\"userRole=='OWNER'\">\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong> Owner</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/admin\"><i class=\"fa fa-user-md\"></i> <span>Home</span></a>\r\n                </li>\r\n                <!-- <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/items\"><i class=\"fa fa-user-md\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n           \r\n             \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/booking-customers\"><i class=\"fa fa-user-md\"></i> <span>Drivers  </span></a>\r\n                </li>\r\n               \r\n                <li routerLinkActive=\"active\">\r\n                    <a  routerLink =\"/admin-deliveryBoys\"><i class=\"fa fa-user-md\"></i> <span>Vehicle Tracking</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/booking-history\"><i class=\"fa fa-user-md\"></i> <span>Payment reports</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>  Bank manage</span></a>\r\n                </li>  -->\r\n               \r\n                 <!-- <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Profile</span></a>\r\n                </li>  -->\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Terms & Conditions</span></a>\r\n                </li> \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Privacy</span></a>\r\n                </li> \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Help and Support</span></a>\r\n                </li> \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li> \r\n                <!-- <li routerLinkActive=\"active\">\r\n                    <a routerLink =\"/booking-history\"><i class=\"fa fa-user-md\"></i> <span>Change password</span></a>\r\n                </li> -->\r\n            </ul >\r\n        </div>\r\n    </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <mat-sidenav-container>\r\n    <mat-sidenav mode=\"side\" opened=\"true\" [fixedInViewport]=\"true\" [fixedTopGap]=\"64\">\r\n        <ul>\r\n            <li routerLink=\"/admin\" routerLinkActive=\"active\">Home</li>\r\n\r\n            <li *ngIf=\"userRole == 'ADMIN'\" routerLink=\"/countries\" routerLinkActive=\"active\">Countries</li>\r\n\r\n        </ul>\r\n    </mat-sidenav>\r\n\r\n</mat-sidenav-container> -->\r\n<!-- \r\n<div class=\"sidebar\" id=\"sidebar\">\r\n    <div class=\"sidebar-inner slimscroll\" style=\"overflow-y: auto;\">\r\n        <div id=\"sidebar-menu\" class=\"sidebar-menu\">\r\n            <ul *ngIf=\"userRole == 'ADMIN'\">\r\n\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong>  Admin</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user\"></i> <span>Owners</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/locations\"><i class=\"fa fa-map-marker\"></i> <span>Locality</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-vehicles\"><i class=\"fa fa-car\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-paymentreports\"><i class=\"fa fa-inr\"></i> <span>Payment Reports</span></a>\r\n                </li>\r\n\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n            <ul *ngIf=\"userRole=='OWNER'\">\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong> Owner</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user-md\"></i> <span>Home</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Terms & Conditions</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Privacy</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Help and Support</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n<ul class=\"navbar-nav bg-gradient-primary sidebar sidebar-dark accordion\" id=\"accordionSidebar\" style=\"position: fixed;\">\r\n\r\n    <a class=\"sidebar-brand d-flex align-items-center justify-content-center\" href=\"index.html\">\r\n        <div class=\"sidebar-brand-icon rotate-n-15\">\r\n            <i class=\"fas fa-laugh-wink\"></i>\r\n        </div>\r\n        <div class=\"sidebar-brand-text mx-3\"> <sup></sup></div>\r\n    </a>\r\n\r\n    <hr class=\"sidebar-divider my-0\">\r\n\r\n    <li class=\"nav-item active\">\r\n        <a class=\"nav-link\" routerLink=\"/admin\">\r\n            <i class=\"fas fa-fw fa-tachometer-alt\"></i>\r\n            <span>Dashboard</span></a>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider\">\r\n    <!-- \r\n    <div class=\"sidebar-heading\">\r\n        Interface\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">\r\n            <i class=\"fas fa-fw fa-cog\"></i>\r\n            <span>Components</span>\r\n        </a>\r\n        <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Components:</h6>\r\n                <a class=\"collapse-item\" href=\"buttons.html\">Buttons</a>\r\n                <a class=\"collapse-item\" href=\"cards.html\">Cards</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\" aria-controls=\"collapseUtilities\">\r\n            <i class=\"fas fa-fw fa-wrench\"></i>\r\n            <span>Utilities</span>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Utilities:</h6>\r\n                <a class=\"collapse-item\" href=\"utilities-color.html\">Colors</a>\r\n                <a class=\"collapse-item\" href=\"utilities-border.html\">Borders</a>\r\n                <a class=\"collapse-item\" href=\"utilities-animation.html\">Animations</a>\r\n                <a class=\"collapse-item\" href=\"utilities-other.html\">Other</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider\">\r\n\r\n    <div class=\"sidebar-heading\">\r\n        Addons\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapsePages\" aria-expanded=\"true\" aria-controls=\"collapsePages\">\r\n            <i class=\"fas fa-fw fa-folder\"></i>\r\n            <span>Pages</span>\r\n        </a>\r\n        <div id=\"collapsePages\" class=\"collapse\" aria-labelledby=\"headingPages\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Login Screens:</h6>\r\n                <a class=\"collapse-item\" href=\"login.html\">Login</a>\r\n                <a class=\"collapse-item\" href=\"register.html\">Register</a>\r\n                <a class=\"collapse-item\" href=\"forgot-password.html\">Forgot Password</a>\r\n                <div class=\"collapse-divider\"></div>\r\n                <h6 class=\"collapse-header\">Other Pages:</h6>\r\n                <a class=\"collapse-item\" href=\"404.html\">404 Page</a>\r\n                <a class=\"collapse-item\" href=\"blank.html\">Blank Page</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"charts.html\">\r\n            <i class=\"fas fa-fw fa-chart-area\"></i>\r\n            <span>Charts</span></a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"tables.html\">\r\n            <i class=\"fas fa-fw fa-table\"></i>\r\n            <span>Tables</span></a>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider d-none d-md-block\"> -->\r\n\r\n\r\n\r\n</ul>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
-/*!***************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
-  \***************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \**************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -195,36 +218,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html":
-/*!***********************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html ***!
+  \**********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    CANCELLATION AND REFUND POLICY\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n\n<section>\n    <div class=\"container\" style=\"margin-top: 20px;\">\n\n        <h6>CANCELLATION</h6>\n        <hr>\n        <p>You can cancel a trip at any time through the Cmgaadi app, but may be charged a cancellation fee if you cancel after you're matched with your driver. These fees pay driver-partners for the time and effort they spend getting to your location.</p>\n        <p>If you believe you were charged a cancellation fee in error, let us know the reason and you can feel free to contact us through help & support desk.</p>\n        <h6>REFUND</h6>\n        <hr>\n        <p>\n            Your cancellation fee will be refunded to your original payment method if you are eligible for a refund when we checking with the reasons. Refunds may take up to 5 business days to process depending on your bank.\n        </p>\n    </div>\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n\r\n<section class=\"banner-area relative\" id=\"home\">\r\n    <div class=\"overlay overlay-bg\"></div>\r\n    <div class=\"container\">\r\n        <div class=\"row d-flex align-items-center justify-content-center\">\r\n            <div class=\"about-content col-lg-12\">\r\n                <h1 class=\"text-white\">\r\n                    CANCELLATION AND REFUND POLICY\r\n                </h1>\r\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section>\r\n    <div class=\"container\" style=\"margin-top: 20px;\">\r\n\r\n        <h6>CANCELLATION</h6>\r\n        <hr>\r\n        <p>You can cancel a trip at any time through the Cmgaadi app, but may be charged a cancellation fee if you cancel after you're matched with your driver. These fees pay driver-partners for the time and effort they spend getting to your location.</p>\r\n        <p>If you believe you were charged a cancellation fee in error, let us know the reason and you can feel free to contact us through help & support desk.</p>\r\n        <h6>REFUND</h6>\r\n        <hr>\r\n        <p>\r\n            Your cancellation fee will be refunded to your original payment method if you are eligible for a refund when we checking with the reasons. Refunds may take up to 5 business days to process depending on your bank.\r\n        </p>\r\n    </div>\r\n</section>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html":
-/*!*******************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html ***!
-  \*******************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html ***!
+  \******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Contact Us\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n<section class=\"contact-page-area section-gap\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- <h3>Contact Us</h3> -->\n            <!-- <div class=\"map-wrap\" style=\"width:100%; height: 445px;\" id=\"map\"></div> -->\n            <div class=\"col-lg-4 d-flex flex-column address-wrap\">\n                <div class=\"single-contact-address d-flex flex-row\">\n                    <div class=\"icon\">\n                        <span class=\"lnr lnr-home\"></span>\n                    </div>\n                    <div class=\"contact-details\">\n                        <h5>N0.6/858-M,2nd Floor,Suite #126</h5>\n                        <p>Valamkottil Towers,judgemukku,Thrikkakara P.O,Kakkanad,Eranakulam</p>\n                        <p>KL-682021</p>\n                    </div>\n                </div>\n                <div class=\"single-contact-address d-flex flex-row\">\n                    <div class=\"icon\">\n                        <span class=\"lnr lnr-phone-handset\"></span>\n                    </div>\n                    <div class=\"contact-details\">\n                        <h5>00 (000) 0000 0000</h5>\n                        <p>Mon to Fri 9am to 6 pm</p>\n                    </div>\n                </div>\n                <div class=\"single-contact-address d-flex flex-row\">\n                    <div class=\"icon\">\n                        <span class=\"lnr lnr-envelope\"></span>\n                    </div>\n                    <div class=\"contact-details\">\n                        <h5><a href=\"/cdn-cgi/l/email-protection\" class=\"__cf_email__\" data-cfemail=\"84f7f1f4f4ebf6f0c4e7ebe0e1f0ece1e9e1f7aae7ebe9\">customercare@cmgaadi.com</a></h5>\n                        <p>Send us your query anytime!</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-8\">\n                <form class=\"form-area \" id=\"myForm\" action=\"mail.php\" method=\"post\" class=\"contact-form text-right\">\n                    <div class=\"row\">\n                        <div class=\"col-lg-6 form-group\">\n                            <input name=\"name\" placeholder=\"Enter your name\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Enter your name'\" class=\"common-input mb-20 form-control\" required=\"\" type=\"text\">\n                            <input name=\"email\" placeholder=\"Enter email address\" pattern=\"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{1,63}$\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Enter email address'\" class=\"common-input mb-20 form-control\" required=\"\" type=\"email\">\n                            <input name=\"subject\" placeholder=\"Enter your subject\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Enter your subject'\" class=\"common-input mb-20 form-control\" required=\"\" type=\"text\">\n                            <div class=\"mt-20 alert-msg\" style=\"text-align: left;\"></div>\n                        </div>\n                        <div class=\"col-lg-6 form-group\">\n                            <textarea class=\"common-textarea form-control\" name=\"message\" placeholder=\"Messege\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Messege'\" required=\"\"></textarea>\n                            <button class=\"primary-btn mt-20 text-white\" style=\"float: right;\">Send Message</button>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n\r\n<section class=\"banner-area relative\" id=\"home\">\r\n    <div class=\"overlay overlay-bg\"></div>\r\n    <div class=\"container\">\r\n        <div class=\"row d-flex align-items-center justify-content-center\">\r\n            <div class=\"about-content col-lg-12\">\r\n                <h1 class=\"text-white\">\r\n                    Contact Us\r\n                </h1>\r\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n\r\n<section class=\"contact-page-area section-gap\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <!-- <h3>Contact Us</h3> -->\r\n            <!-- <div class=\"map-wrap\" style=\"width:100%; height: 445px;\" id=\"map\"></div> -->\r\n            <div class=\"col-lg-4 d-flex flex-column address-wrap\">\r\n                <div class=\"single-contact-address d-flex flex-row\">\r\n                    <div class=\"icon\">\r\n                        <span class=\"lnr lnr-home\"></span>\r\n                    </div>\r\n                    <div class=\"contact-details\">\r\n                        <h5>N0.6/858-M,2nd Floor,Suite #126</h5>\r\n                        <p>Valamkottil Towers,judgemukku,Thrikkakara P.O,Kakkanad,Eranakulam</p>\r\n                        <p>KL-682021</p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"single-contact-address d-flex flex-row\">\r\n                    <div class=\"icon\">\r\n                        <span class=\"lnr lnr-phone-handset\"></span>\r\n                    </div>\r\n                    <div class=\"contact-details\">\r\n                        <h5>00 (000) 0000 0000</h5>\r\n                        <p>Mon to Fri 9am to 6 pm</p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"single-contact-address d-flex flex-row\">\r\n                    <div class=\"icon\">\r\n                        <span class=\"lnr lnr-envelope\"></span>\r\n                    </div>\r\n                    <div class=\"contact-details\">\r\n                        <h5><a href=\"/cdn-cgi/l/email-protection\" class=\"__cf_email__\" data-cfemail=\"84f7f1f4f4ebf6f0c4e7ebe0e1f0ece1e9e1f7aae7ebe9\">customercare@cmgaadi.com</a></h5>\r\n                        <p>Send us your query anytime!</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-8\">\r\n                <form class=\"form-area \" id=\"myForm\" action=\"mail.php\" method=\"post\" class=\"contact-form text-right\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-lg-6 form-group\">\r\n                            <input name=\"name\" placeholder=\"Enter your name\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Enter your name'\" class=\"common-input mb-20 form-control\" required=\"\" type=\"text\">\r\n                            <input name=\"email\" placeholder=\"Enter email address\" pattern=\"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{1,63}$\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Enter email address'\" class=\"common-input mb-20 form-control\" required=\"\" type=\"email\">\r\n                            <input name=\"subject\" placeholder=\"Enter your subject\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Enter your subject'\" class=\"common-input mb-20 form-control\" required=\"\" type=\"text\">\r\n                            <div class=\"mt-20 alert-msg\" style=\"text-align: left;\"></div>\r\n                        </div>\r\n                        <div class=\"col-lg-6 form-group\">\r\n                            <textarea class=\"common-textarea form-control\" name=\"message\" placeholder=\"Messege\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Messege'\" required=\"\"></textarea>\r\n                            <button class=\"primary-btn mt-20 text-white\" style=\"float: right;\">Send Message</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n<app-footer></app-footer>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html":
-/*!*********************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html ***!
-  \*********************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -234,36 +257,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html":
-/*!*****************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html ***!
-  \*****************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html ***!
+  \****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Features\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"reviews-area section-gap \" id=\"review \">\n    <div class=\"container \">\n        <div class=\"row d-flex justify-content-center \">\n            <div class=\"col-md-8 pb-40 header-text text-center \">\n                <h1>Some Features that Made us Unique</h1>\n                <p class=\"mb-10 text-center \">\n                    Who are in extremely love with eco friendly system.\n                </p>\n                <hr style=\"    background: yellow;\n                width: 50%;\n                margin: 14px auto;\">\n            </div>\n        </div>\n        <div class=\"row \">\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4>Regular Rides</h4>\n                    <p>\n                        You can use our CM Gaadi vehicles for regular rides. We provides some offers for our regular customers\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4>Prebook Your Rides</h4>\n                    <p>\n                        You can prebook your rides before ready to take our services. Free cancellation before the rides begins\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4>Vehicle Pickup Using Map Locations</h4>\n                    <p>\n                        You can choose the location for the car to pick up. Also you can search the cars to available in the nearest locations\n                    </p>\n\n                </div>\n            </div>\n            <div class=\"col-sm-2\"></div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4>24/7 Customer support</h4>\n                    <p>\n                        For support and other queries 24/7 customer support is provided.For any kind of issues while the ride, we will help you resolve it.\n\n                    </p>\n                    <!-- <div class=\"star \">\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star checked \"></span>\n                        <span class=\"fa fa-star \"></span>\n                        <span class=\"fa fa-star \"></span>\n                    </div> -->\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \" style=\"    height: 208px;\">\n                    <h4>Push Notifications</h4>\n                    <p>\n                        You will get timely notifications on your rides. All your data are safe with us.\n                    </p>\n\n                </div>\n            </div>\n            <div class=\"col-sm-2\"></div>\n        </div>\n    </div>\n</section>\n\n\n<section class=\"reviews-area  \" id=\"review \">\n    <div class=\"container \">\n        <div class=\"row d-flex justify-content-center \">\n            <div class=\"col-md-8 pb-40 header-text text-center \">\n                <h1>How it Works?</h1>\n                <hr style=\"    background: yellow;\n                width: 50%;\n                margin: 14px auto;\">\n            </div>\n        </div>\n\n        <h3>For Owners</h3>\n        <hr style=\"    background: yellow;\n        width: 20%;\n        \">\n        <h5>• Register your cab/auto with CM Gaadi</h5>\n        <p style=\"margin-top: 20px;\">Cab/Auto owner needs to register your details and complete verification. Verification will takes 5-7 days. After the verification process your car will be active on CM Gaadi and live to the customer who needs car/auto rental.</p>\n\n        <h5>• Manage your rental service from phone</h5>\n        <p style=\"margin-top: 20px;\">You will get an id and password for your car rental. You can register n number of cars. Owner can register their drivers also in CM Gaadi.</p>\n\n\n        <h3>For Customer/Members</h3>\n\n        <hr style=\"background: yellow;\n        width: 20%; \">\n        <h5>• Search for a taxi book a taxi from our site</h5>\n        <p style=\"margin-top: 20px;\">We provide car/auto taxi services.</p>\n        <h5>• Search for a car and book a cab from our site</h5>\n        <p style=\"margin-top: 20px;\">If you need a driver for that trip, you will be directed to drivers list, and you can select your driver. Otherwise you prefer self-drive, upload you driver’s license, Aadhar number and address details. We SMS your car details 20 minutes before\n            pickup. Unlock it via the CM Gaadi app.</p>\n        <h5>• Fill the start checklist & end checklist in the CM Gaadi app</h5>\n        <p style=\"margin-top: 20px;\">Grab the keys from our office and drive. Return the car to the same location and fill the end checklist to end your trip.</p>\n    </div>\n</section>\n\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n\r\n<section class=\"banner-area relative\" id=\"home\">\r\n    <div class=\"overlay overlay-bg\"></div>\r\n    <div class=\"container\">\r\n        <div class=\"row d-flex align-items-center justify-content-center\">\r\n            <div class=\"about-content col-lg-12\">\r\n                <h1 class=\"text-white\">\r\n                    Features\r\n                </h1>\r\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<section class=\"reviews-area section-gap \" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>Some Features that Made us Unique</h1>\r\n                <p class=\"mb-10 text-center \">\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n                <hr style=\"    background: yellow;\r\n                width: 50%;\r\n                margin: 14px auto;\">\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Regular Rides</h4>\r\n                    <p>\r\n                        You can use our CM Gaadi vehicles for regular rides. We provides some offers for our regular customers\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Prebook Your Rides</h4>\r\n                    <p>\r\n                        You can prebook your rides before ready to take our services. Free cancellation before the rides begins\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Vehicle Pickup Using Map Locations</h4>\r\n                    <p>\r\n                        You can choose the location for the car to pick up. Also you can search the cars to available in the nearest locations\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>24/7 Customer support</h4>\r\n                    <p>\r\n                        For support and other queries 24/7 customer support is provided.For any kind of issues while the ride, we will help you resolve it.\r\n\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \" style=\"    height: 208px;\">\r\n                    <h4>Push Notifications</h4>\r\n                    <p>\r\n                        You will get timely notifications on your rides. All your data are safe with us.\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"reviews-area  \" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>How it Works?</h1>\r\n                <hr style=\"    background: yellow;\r\n                width: 50%;\r\n                margin: 14px auto;\">\r\n            </div>\r\n        </div>\r\n\r\n        <h3>For Owners</h3>\r\n        <hr style=\"    background: yellow;\r\n        width: 20%;\r\n        \">\r\n        <h5>• Register your cab/auto with CM Gaadi</h5>\r\n        <p style=\"margin-top: 20px;\">Cab/Auto owner needs to register your details and complete verification. Verification will takes 5-7 days. After the verification process your car will be active on CM Gaadi and live to the customer who needs car/auto rental.</p>\r\n\r\n        <h5>• Manage your rental service from phone</h5>\r\n        <p style=\"margin-top: 20px;\">You will get an id and password for your car rental. You can register n number of cars. Owner can register their drivers also in CM Gaadi.</p>\r\n\r\n\r\n        <h3>For Customer/Members</h3>\r\n\r\n        <hr style=\"background: yellow;\r\n        width: 20%; \">\r\n        <h5>• Search for a taxi book a taxi from our site</h5>\r\n        <p style=\"margin-top: 20px;\">We provide car/auto taxi services.</p>\r\n        <h5>• Search for a car and book a cab from our site</h5>\r\n        <p style=\"margin-top: 20px;\">If you need a driver for that trip, you will be directed to drivers list, and you can select your driver. Otherwise you prefer self-drive, upload you driver’s license, Aadhar number and address details. We SMS your car details 20 minutes before\r\n            pickup. Unlock it via the CM Gaadi app.</p>\r\n        <h5>• Fill the start checklist & end checklist in the CM Gaadi app</h5>\r\n        <p style=\"margin-top: 20px;\">Grab the keys from our office and drive. Return the car to the same location and fill the end checklist to end your trip.</p>\r\n    </div>\r\n</section>\r\n\r\n<app-footer></app-footer>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
-/*!*************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
-  \*************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Quick links</h6>\r\n                    <ul>\r\n                        <li><a routerLink=\"/userhome\">Home</a></li>\r\n                        <li><a routerLink=\"/aboutus \">Aboutus</a></li>\r\n                        <li><a routerLink=\"/features \">Features</a></li>\r\n                        <li><a routerLink=\"/privacy\">Privacy Policy</a> </li>\r\n\r\n                        <li><a routerLink=\"/terms\">Terms & Conditons</a></li>\r\n                        <li><a routerLink=\"/cancelations\">Refund Policy</a> </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \"></div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \"></div>\r\n            <!-- <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Features</h6>\r\n                    <ul>\r\n                        <li><a href=\"# \">Jobs</a></li>\r\n                        <li><a href=\"# \">Brand Assets</a></li>\r\n                        <li><a href=\"# \">Investor Relations</a></li>\r\n                        <li><a href=\"# \">Terms of Service</a></li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Resources</h6>\r\n                    <ul>\r\n                        <li><a href=\"# \">Jobs</a></li>\r\n                        <li><a href=\"# \">Brand Assets</a></li>\r\n                        <li><a href=\"# \">Investor Relations</a></li>\r\n                        <li><a href=\"# \">Terms of Service</a></li>\r\n                    </ul>\r\n                </div>\r\n            </div> -->\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 social-widget \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Follow Us</h6>\r\n                    <p>Let us be social</p>\r\n                    <div class=\"footer-social d-flex align-items-center \">\r\n                        <a href=\"# \"><i class=\"fa fa-facebook \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-twitter \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-dribbble \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-behance \"></i></a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Newsletter</h6>\r\n                    <p>Stay update with our latest</p>\r\n                    <div class=\" \" id=\"mc_embed_signup \">\r\n                        <form target=\"_blank \" novalidate=\"true \" action=\"https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 \" method=\"get \" class=\"form-inline \">\r\n                            <input class=\"form-control \" name=\"EMAIL \" placeholder=\"Enter Email \" onfocus=\"this.placeholder='' \" onblur=\"this.placeholder='Enter Email ' \" required=\" \" type=\"email \">\r\n                            <button class=\"click-btn btn btn-default \"><span class=\"lnr lnr-arrow-right \"></span></button>\r\n                            <div style=\"position: absolute; left: -5000px; \">\r\n                                <input name=\"b_36c4fd991d266f23781ded980_aefe40901a \" tabindex=\"-1 \" value=\" \" type=\"text \">\r\n                            </div>\r\n                            <div class=\"info \"></div>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div> -->\r\n            <p class=\"mt-50 mx-auto footer-text col-lg-12 \">\r\n\r\n                Copyright &copy;\r\n                <script>\r\n                    document.write(new Date().getFullYear());\r\n                </script> All rights reserved\r\n\r\n            </p>\r\n        </div>\r\n    </div>\r\n</footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>About Us</h6>\r\n                    <p>CM Gaadi is an Indian company that offers vehicles for hire such as self-drive car rental or Auto rental services. It’s a platform for vehicle owners to rent your vehicle to desired customers and earn money from your own vehicle. And\r\n                        also it’s a better place to search your desired vehicle with your budget. </p>\r\n                </div>\r\n\r\n            </div>\r\n\r\n            <div class=\"col-lg-3 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Quick links</h6>\r\n                    <ul>\r\n                        <li><a routerLink=\"/userhome\">Home</a></li>\r\n                        <li><a routerLink=\"/aboutus \">Aboutus</a></li>\r\n                        <li><a routerLink=\"/features \">Features</a></li>\r\n                        <li><a routerLink=\"/privacy\">Privacy Policy</a> </li>\r\n\r\n                        <li><a routerLink=\"/terms\">Terms & Conditons</a></li>\r\n                        <li><a routerLink=\"/cancelations\">Refund Policy</a> </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-3 col-md-6 col-sm-6 \"></div> -->\r\n            <!-- <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Features</h6>\r\n                    <ul>\r\n                        <li><a href=\"# \">Jobs</a></li>\r\n                        <li><a href=\"# \">Brand Assets</a></li>\r\n                        <li><a href=\"# \">Investor Relations</a></li>\r\n                        <li><a href=\"# \">Terms of Service</a></li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Resources</h6>\r\n                    <ul>\r\n                        <li><a href=\"# \">Jobs</a></li>\r\n                        <li><a href=\"# \">Brand Assets</a></li>\r\n                        <li><a href=\"# \">Investor Relations</a></li>\r\n                        <li><a href=\"# \">Terms of Service</a></li>\r\n                    </ul>\r\n                </div>\r\n            </div> -->\r\n            <div class=\"col-lg-2 col-md-6 col-sm-6 social-widget \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Follow Us</h6>\r\n                    <p>Let us be social</p>\r\n                    <div class=\"footer-social d-flex align-items-center \">\r\n                        <a href=\"# \"><i class=\"fa fa-facebook \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-twitter \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-dribbble \"></i></a>\r\n                        <a href=\"# \"><i class=\"fa fa-behance \"></i></a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-md-6 col-sm-6 \">\r\n                <div class=\"single-footer-widget \">\r\n                    <h6>Newsletter</h6>\r\n                    <p>Stay update with our latest</p>\r\n                    <div class=\" \" id=\"mc_embed_signup \">\r\n                        <form target=\"_blank \" novalidate=\"true \" action=\"https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 \" method=\"get \" class=\"form-inline \">\r\n                            <input class=\"form-control \" name=\"EMAIL \" placeholder=\"Enter Email \" onfocus=\"this.placeholder='' \" onblur=\"this.placeholder='Enter Email ' \" required=\" \" type=\"email \">\r\n                            <button class=\"click-btn btn btn-default \"><span class=\"lnr lnr-arrow-right \"></span></button>\r\n                            <div style=\"position: absolute; left: -5000px; \">\r\n                                <input name=\"b_36c4fd991d266f23781ded980_aefe40901a \" tabindex=\"-1 \" value=\" \" type=\"text \">\r\n                            </div>\r\n                            <div class=\"info \"></div>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div> -->\r\n            <p class=\"mt-50 mx-auto footer-text col-lg-12 \">\r\n\r\n                Copyright &copy;\r\n                <script>\r\n                    document.write(new Date().getFullYear());\r\n                </script> All rights reserved\r\n\r\n            </p>\r\n        </div>\r\n    </div>\r\n</footer>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -273,10 +296,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
-/*!*********************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
-  \*********************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
+  \********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -286,10 +309,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html":
-/*!***************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html ***!
-  \***************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html ***!
+  \**************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -299,10 +322,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html":
-/*!***********************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html ***!
-  \***********************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -312,23 +335,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html":
-/*!*********************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html ***!
-  \*********************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <header id=\"header-area\" class=\"fixed-top\">\r\n\r\n    <div id=\"header-bottom\" style=\"background-color: rgb(0 0 0);\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-lg-4\">\r\n                    <a routerLink=\"/Home\" class=\"logo\">\r\n                        <img src=\"assets/img/logoos.png\" style=\"\r\n                        height: 64px;\" alt=\"JSOFT \" *ngIf=\"!isloggedIn\">\r\n                        <h6 *ngIf=\"isloggedIn\" style=\"    color: white;\r\n                        font-weight: bold;\r\n                        padding-top: 16px;\">Cmgaadi.com</h6>\r\n                    </a>\r\n                </div>\r\n\r\n                <div class=\"col-lg-8 d-none d-xl-block\">\r\n                    <nav class=\"mainmenu alignright\">\r\n                        <ul>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/userhome\">Home</a>\r\n                            </li>\r\n                            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n                            </li>\r\n                            <li *ngIf=\"isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/admin\">Home</a>\r\n                            </li>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/login\">Login</a>\r\n                            </li>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/register\">Register</a>\r\n                            </li>\r\n                            <li *ngIf=\"isloggedIn\" (click)=\"logout()\">\r\n                                <a style=\"cursor: pointer;\">Logout</a>\r\n                            </li>\r\n                        </ul>\r\n                    </nav>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</header> -->\r\n<nav class=\"navbar navbar-expand-lg navbar-light bg-dark\" style=\"background-color: #00060f !important;\">\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 50px;\">\r\n    </a>\r\n    <button style=\"background: white;\" class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n        <ul class=\"navbar-nav ml-auto\">\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/userhome\" style=\"color: white;\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About Us</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/features\" style=\"color: white;\">Features</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/services\" style=\"color: white;\">Services</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/contactus\" style=\"color: white;\">Contact Us</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/login\" style=\"color: white;\">Login</a>\r\n            </li>\r\n\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/register\" style=\"color: white;\">Register</a>\r\n            </li>\r\n\r\n        </ul>\r\n\r\n    </div>\r\n</nav>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <header id=\"header-area\" class=\"fixed-top\">\r\n\r\n    <div id=\"header-bottom\" style=\"background-color: rgb(0 0 0);\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-lg-4\">\r\n                    <a routerLink=\"/Home\" class=\"logo\">\r\n                        <img src=\"assets/img/logoos.png\" style=\"\r\n                        height: 64px;\" alt=\"JSOFT \" *ngIf=\"!isloggedIn\">\r\n                        <h6 *ngIf=\"isloggedIn\" style=\"    color: white;\r\n                        font-weight: bold;\r\n                        padding-top: 16px;\">Cmgaadi.com</h6>\r\n                    </a>\r\n                </div>\r\n\r\n                <div class=\"col-lg-8 d-none d-xl-block\">\r\n                    <nav class=\"mainmenu alignright\">\r\n                        <ul>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/userhome\">Home</a>\r\n                            </li>\r\n                            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n                            </li>\r\n                            <li *ngIf=\"isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/admin\">Home</a>\r\n                            </li>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/login\">Login</a>\r\n                            </li>\r\n                            <li *ngIf=\"!isloggedIn\" routerLinkActive=\"active\">\r\n                                <a routerLink=\"/register\">Register</a>\r\n                            </li>\r\n                            <li *ngIf=\"isloggedIn\" (click)=\"logout()\">\r\n                                <a style=\"cursor: pointer;\">Logout</a>\r\n                            </li>\r\n                        </ul>\r\n                    </nav>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</header> -->\r\n<nav class=\"navbar navbar-expand-lg navbar-light bg-dark\" style=\"background-color: #00060f !important;\">\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logonew.png\" alt=\"\" style=\"width: 101px;\">\r\n        <!-- <h6>CMGAADI</h6> -->\r\n    </a>\r\n    <button style=\"background: white;\" class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n        <ul class=\"navbar-nav ml-auto\">\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/userhome\" style=\"color: white;\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About Us</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/features\" style=\"color: white;\">Features</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/services\" style=\"color: white;\">Services</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/contactus\" style=\"color: white;\">Contact Us</a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/login\" style=\"color: white;\">Login</a>\r\n            </li>\r\n\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/register\" style=\"color: white;\">Register</a>\r\n            </li>\r\n\r\n        </ul>\r\n\r\n    </div>\r\n</nav>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html":
-/*!*************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html ***!
-  \*************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -338,10 +361,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html":
-/*!*************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html ***!
-  \*************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -351,10 +374,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html":
-/*!*******************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html ***!
-  \*******************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html ***!
+  \******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -364,10 +387,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html":
-/*!*********************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html ***!
-  \*********************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -377,10 +400,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html":
-/*!***********************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html ***!
+  \**********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -390,10 +413,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html":
-/*!*********************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html ***!
-  \*********************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html ***!
+  \********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -403,10 +426,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html":
-/*!*******************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html ***!
-  \*******************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html ***!
+  \******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -416,10 +439,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html":
-/*!***********************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html ***!
+  \**********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -429,10 +452,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html":
-/*!*********************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html ***!
-  \*********************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -442,10 +465,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html":
-/*!*******************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html ***!
-  \*******************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html ***!
+  \******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -455,10 +478,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html":
-/*!***********************************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html ***!
-  \***********************************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html ***!
+  \**********************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -468,10 +491,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html":
-/*!*******************************************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html ***!
-  \*******************************************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html ***!
+  \******************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -481,10 +504,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html":
-/*!*************************************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html ***!
-  \*************************************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html ***!
+  \************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -494,23 +517,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html":
-/*!***************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html ***!
-  \***************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n<div class=\"row\" style=\"margin-bottom: 27px;\r\nmargin-top: 100px;  \">\r\n \r\n    <div class=\"col-sm-4\">\r\n        <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"></i> Back</button>\r\n\r\n    </div>\r\n    <div class=\"col-sm-4\">\r\n        <h4 style=\"text-align: center;\" >Driver <em style=\"font-style: normal;\r\n            color: #ffb100;\">Management</em> </h4>\r\n    </div>\r\n    <div class=\"col-sm-4\">\r\n        <button routerLink=\"/add-drivers\" class=\" btn btn-success\" style=\"float: right;\"> <i class=\"fa fa-plus\"></i> Add Drivers</button>\r\n        \r\n    </div>\r\n</div>\r\n<div class=\"row\">\r\n    \r\n</div>\r\n<div class=\"row\">\r\n<div class=\"container\">\r\n\r\n    <div class=\"col-sm-12\">\r\n      \r\n        <!-- <mat-card>\r\n            <span class=\"close\"> <i  matTooltip=\"Edit Profile\" (click)=\"edit(driverslist)\" class=\"fa fa-edit\"></i> </span>\r\n            <div class=\"row\">\r\n                <div class=\"col-sm-4\">\r\n                    <img src=\"{{apUrl}}driver/getProfilePic/{{driverslist.id}}\" alt=\"\" style=\"height: 108px;\r\n                    width: 92px;\">\r\n                   \r\n\r\n                </div>\r\n                <div class=\"col-sm-8\">\r\n                    <p>Driver Name : {{driverslist.name}}</p>\r\n                    <p>Phone Number : {{driverslist.number}} </p>\r\n                    <p>Pan Card No : {{driverslist.panCardNO}}</p>\r\n                    <p>License Front : <Button (click)=\"getlicsence(driverslist.id)\" style=\"    border: none;\r\n                    background: none;\" matTooltip=\"donwload \"> <i class=\"fa fa-eye\"></i></Button></p>\r\n                    <p>License Back : <Button (click)=\"getlicsenceback(driverslist.id)\"  style=\"    border: none;\r\n                    background: none;\" matTooltip=\"donwload\"> <i class=\"fa fa-eye\"></i></Button></p>\r\n\r\n                </div>\r\n            </div>\r\n        </mat-card> -->\r\n            <!-- <ul  *ngFor=\"let driverslist of driverslist; let i=index;\">\r\n                <li><a style=\"    margin-top: 13px;\r\n                    \"> {{i+1}}</a> </li>\r\n            <li><a style=\"    margin-top: 13px;\r\n                width: 200px;\"><img src=\"{{apUrl}}driver/getProfilePic/{{driverslist.id}}\" alt=\"Avatar\" class=\"avatar\"></a></li>\r\n            <li><a style=\"    margin-top: 13px;\r\n                width: 200px;\">{{driverslist.name}}</a></li>\r\n            <li><a style=\"    margin-top: 13px;\r\n                width: 200px;\">{{driverslist.number}}</a></li>\r\n            <li><a style=\"    margin-top: 13px;\r\n                width: 200px;\">{{driverslist.panCardNO}}</a></li>\r\n            <li><a style=\"    margin-top: 13px;\r\n                width: 200px;\">License Front : <Button (click)=\"getlicsence(driverslist.id)\" style=\"    border: none;\r\n                    background: none;\" matTooltip=\"License Front \"> <i class=\"fa fa-eye\"></i></Button></a> </li>    \r\n            <li> <a style=\"margin-top: 13px;\r\n                width: 200px;\"> License Back : <Button (click)=\"getlicsenceback(driverslist.id)\"  style=\"    border: none;\r\n                    background: none;\" matTooltip=\"License Back\"> <i class=\"fa fa-eye\"></i></Button></a> </li>\r\n                    <li><a  style=\"margin-top: 13px;\"><i  matTooltip=\"Edit Profile\" (click)=\"edit(driverslist)\" class=\"fa fa-edit\"></i></a> </li>\r\n          \r\n                </ul> -->\r\n          \r\n\r\n\r\n                    <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"name\">\r\n                            <mat-header-cell *matHeaderCellDef>Driver Name </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \"> {{element.name}}</mat-cell>\r\n                        </ng-container>\r\n                      \r\n                        <ng-container matColumnDef=\"phonenumber\">\r\n                            <mat-header-cell *matHeaderCellDef> Contact Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.number}}</mat-cell>\r\n                        </ng-container>\r\n\r\n                        <ng-container matColumnDef=\"pan\">\r\n                            <mat-header-cell *matHeaderCellDef>Pancard Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.panCardNO}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"licensefrnt\">\r\n                            <mat-header-cell *matHeaderCellDef>License Front</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"><Button (click)=\"getlicsence(element.id)\" style=\"    border: none;\r\n                                background: none;\" matTooltip=\"License Front \"> <i class=\"fa fa-eye\"></i> View</Button> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"licenseback\">\r\n                            <mat-header-cell *matHeaderCellDef>License Back</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> <Button (click)=\"getlicsenceback(element.id)\"  style=\"    border: none;\r\n                                background: none;\" matTooltip=\"License Back\">\r\n                                 <i class=\"fa fa-eye\"></i> View</Button></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"edit\">\r\n                            <mat-header-cell *matHeaderCellDef></mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"><i  matTooltip=\"Edit Profile\" (click)=\"edit(element)\" class=\"fa fa-edit\"></i> </mat-cell>\r\n\r\n                        </ng-container>\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" (page)=\"changePage($event)\">\r\n                    </mat-paginator>\r\n\r\n\r\n                </div>\r\n\r\n          \r\n\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <app-navigation></app-navigation>\r\n<div class=\"row\" style=\"margin-bottom: 27px;\r\nmargin-top: 100px;  \">\r\n \r\n    <div class=\"col-sm-4\">\r\n        <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"></i> Back</button>\r\n\r\n    </div>\r\n    <div class=\"col-sm-4\">\r\n        <h4 style=\"text-align: center;\" >Driver <em style=\"font-style: normal;\r\n            color: #ffb100;\">Management</em> </h4>\r\n    </div>\r\n    <div class=\"col-sm-4\">\r\n        <button routerLink=\"/add-drivers\" class=\" btn btn-success\" style=\"float: right;\"> <i class=\"fa fa-plus\"></i> Add Drivers</button>\r\n        \r\n    </div>\r\n</div>\r\n<div class=\"row\">\r\n    \r\n</div>\r\n<div class=\"row\">\r\n<div class=\"container\">\r\n\r\n    <div class=\"col-sm-12\">\r\n      \r\n    \r\n                    <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"name\">\r\n                            <mat-header-cell *matHeaderCellDef>Driver Name </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \"> {{element.name}}</mat-cell>\r\n                        </ng-container>\r\n                      \r\n                        <ng-container matColumnDef=\"phonenumber\">\r\n                            <mat-header-cell *matHeaderCellDef> Contact Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.number}}</mat-cell>\r\n                        </ng-container>\r\n\r\n                        <ng-container matColumnDef=\"pan\">\r\n                            <mat-header-cell *matHeaderCellDef>Pancard Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.panCardNO}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"licensefrnt\">\r\n                            <mat-header-cell *matHeaderCellDef>License Front</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"><Button (click)=\"getlicsence(element.id)\" style=\"    border: none;\r\n                                background: none;\" matTooltip=\"License Front \"> <i class=\"fa fa-eye\"></i> View</Button> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"licenseback\">\r\n                            <mat-header-cell *matHeaderCellDef>License Back</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> <Button (click)=\"getlicsenceback(element.id)\"  style=\"    border: none;\r\n                                background: none;\" matTooltip=\"License Back\">\r\n                                 <i class=\"fa fa-eye\"></i> View</Button></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"edit\">\r\n                            <mat-header-cell *matHeaderCellDef></mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"><i  matTooltip=\"Edit Profile\" (click)=\"edit(element)\" class=\"fa fa-edit\"></i> </mat-cell>\r\n\r\n                        </ng-container>\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" (page)=\"changePage($event)\">\r\n                    </mat-paginator>\r\n\r\n\r\n                </div>\r\n\r\n          \r\n\r\n    </div>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Driver Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <button routerLink=\"/add-drivers\" style=\"float: right;\" class=\" btn btn-success\"><i class=\"fa fa-plus\"\r\n                            aria-hidden=\"true\"></i> Add New Drivers</button>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead>\r\n                                    <tr>\r\n                                        <th>Driver Name</th>\r\n                                        <th>Phone Number</th>\r\n                                        <th>Pan Card</th>\r\n                                        <th>License Front</th>\r\n                                        <th>License Back</th>\r\n                                        <th>Edit</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let driverslist of driverslist\">\r\n                                        <td>{{driverslist.name}}</td>\r\n                                        <td>{{driverslist.number}}</td>\r\n                                        <td>{{driverslist.panCardNO}}</td>\r\n                                        <td>\r\n                                            <Button (click)=\"getlicsence(driverslist.id)\" style=\"    border: none;\r\n                                            background: none;\" matTooltip=\"License Front \"> <i class=\"fa fa-eye\"></i> View</Button>\r\n                                        </td>\r\n                                        <td>\r\n                                            <Button (click)=\"getlicsenceback(driverslist.id)\" style=\"    border: none;\r\n                                            background: none;\" matTooltip=\"License Back\">\r\n                                             <i class=\"fa fa-eye\"></i> View</Button>\r\n                                        </td>\r\n                                        <td><i matTooltip=\"Edit Profile\" (click)=\"edit(driverslist)\" class=\"fa fa-edit\"></i></td>\r\n                                    </tr>\r\n\r\n                                </tbody>\r\n                            </table>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html":
-/*!*********************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html ***!
-  \*********************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html ***!
+  \********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -520,10 +543,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html":
-/*!*****************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html ***!
-  \*****************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html ***!
+  \****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -533,10 +556,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html":
-/*!*********************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html ***!
-  \*********************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html ***!
+  \********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -546,10 +569,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html":
-/*!*******************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html ***!
-  \*******************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -559,10 +582,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html":
-/*!**************************************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html ***!
-  \**************************************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html ***!
+  \*************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -572,10 +595,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html":
-/*!*********************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html ***!
-  \*********************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html ***!
+  \********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -585,10 +608,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html":
-/*!***********************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html ***!
-  \***********************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -598,10 +621,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -611,10 +634,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html":
-/*!************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html ***!
-  \************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html ***!
+  \***********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -624,10 +647,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html":
-/*!********************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html ***!
-  \********************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html ***!
+  \*******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -637,23 +660,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <app-header></app-header> -->\r\n<app-navigation></app-navigation>\r\n<div class=\"page-wrapper\" style=\"margin-top: 101px;\">\r\n    <div class=\"row\">\r\n       \r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\r\n                aria-hidden=\"true\"></i> Back</button>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <h4 style=\"text-align: center;\" >Vehicle <em style=\"font-style: normal;\r\n                color: #ffb100;\">Management</em> </h4>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/add-cars\" class=\" btn btn-success\" style=\"float: right;\"><i class=\"fa fa-plus\"\r\n                aria-hidden=\"true\"></i> Add New Cars</button>\r\n        </div>\r\n      \r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-9\">\r\n\r\n        </div>\r\n        <div class=\"col-sm-3\">\r\n            <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\"\r\n                style=\"margin-top: 15px;\">\r\n                <option value=\"\" selected disabled>Filter Options</option>\r\n                <option value=\"1\">Approved</option>\r\n                <option value=\"3\">Rejected</option>\r\n                <option value=\"2\">Pending</option>\r\n\r\n            </select>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row \" style=\"margin-top: 11px;\">\r\n        <!-- Single Popular Car Start -->\r\n        <div class=\"col-lg-3 col-md-6 con suv mpv\" *ngFor=\"let car of carList\">\r\n            <div class=\"single-popular-car\">\r\n                <div class=\"p-car-thumbnails\">\r\n                    <!-- <a  > -->\r\n                    <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"JSOFT\" class=\"vehImg\">\r\n                    <!-- </a> -->\r\n                </div>\r\n\r\n                <div class=\"p-car-content\">\r\n                    <h3>\r\n                        <a>{{car.companyName}}</a>\r\n                        <span class=\"price\"><i class=\"fa fa-tag\"></i> {{car.rentPerDay}}</span>\r\n                    </h3>\r\n                    <h5 style=\"float: right;\">Model : {{car.model}}</h5>\r\n\r\n                    <h5>{{car.numberPlate}}</h5>\r\n\r\n                    <h5 style=\"    float: right;\r\n                        margin-top: -1px;\">{{car.type}}</h5>\r\n\r\n                    <h5>{{car.year}}</h5>\r\n                    <h5><i class=\"fa fa-map-marker\"></i> {{car.locationName}}</h5>\r\n\r\n                    <!-- <div class=\"p-car-feature\">\r\n                            <a href=\"#\">{{car.year}}</a>\r\n                            <br>\r\n                            <a href=\"#\">{{car.type}}</a>\r\n                            <br>\r\n                            <a href=\"#\"><i class=\"fa fa-map-marker\"></i>  {{car.locationName}}</a>\r\n                        </div> -->\r\n\r\n\r\n                \r\n                </div>\r\n                <div class=\"p-car-content\" style=\"    padding: 0px 20px 19px;\">\r\n                    <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                        View</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                        Edit</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                            class=\"fa fa-trash\"></i> Delete</button>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n        <!-- <div class=\"col-lg-3 col-md-6 con suv mpv\">\r\n            <div class=\"single-popular-car\">\r\n                <div class=\"p-car-thumbnails\">\r\n                    <a class=\"car-hover\" href=\"assets/img/car/car-1.jpg\">\r\n                        <img src=\"assets/img/car/car-5.jpg\" alt=\"JSOFT\">\r\n                    </a>\r\n                </div>\r\n\r\n                <div class=\"p-car-content\">\r\n                    <h3>\r\n                        <a href=\"#\">Dodge Ram 1500</a>\r\n                        <span class=\"price\"><i class=\"fa fa-tag\"></i> $55/day</span>\r\n                    </h3>\r\n\r\n                    <h5>HATCHBACK</h5>\r\n\r\n                    <div class=\"p-car-feature\">\r\n                        <a href=\"#\">2017</a>\r\n                        <a href=\"#\">manual</a>\r\n                        <a href=\"#\">AIR CONDITION</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div> -->\r\n        <!-- <div class=\"col-lg-3 col-md-6 con suv mpv\">\r\n            <div class=\"single-popular-car\">\r\n                <div class=\"p-car-thumbnails\">\r\n                    <a class=\"car-hover\" href=\"assets/img/car/car-1.jpg\">\r\n                        <img src=\"assets/img/car/car-1.jpg\" alt=\"JSOFT\">\r\n                    </a>\r\n                </div>\r\n\r\n                <div class=\"p-car-content\">\r\n                    <h3>\r\n                        <a href=\"#\">Dodge Ram 1500</a>\r\n                        <span class=\"price\"><i class=\"fa fa-tag\"></i> $55/day</span>\r\n                    </h3>\r\n\r\n                    <h5>HATCHBACK</h5>\r\n\r\n                    <div class=\"p-car-feature\">\r\n                        <a href=\"#\">2017</a>\r\n                        <a href=\"#\">manual</a>\r\n                        <a href=\"#\">AIR CONDITION</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div> -->\r\n    </div>\r\n    <div class=\"row\" *ngIf=\"errormessage == 'No data found'\">\r\n        <img src=\"./assets/img/nodata.png\" alt=\"\" style=\"    margin: auto;\r\n        display: block;     width: 36%;   filter: brightness(0.5);\">\r\n    </div>\r\n    <h5 *ngIf=\"errormessage == 'No data found'\" style=\"text-align: center;\">No Vehicles Found</h5>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <app-navigation></app-navigation> -->\r\n<!-- <app-header></app-header> -->\r\n<!-- <div class=\"page-wrapper\" style=\"margin-top: 101px;\">\r\n    <div class=\"row\">\r\n\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\r\n                aria-hidden=\"true\"></i> Back</button>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\r\n                color: #ffb100;\">Management</em> </h4>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/add-cars\" class=\" btn btn-success\" style=\"float: right;\"><i class=\"fa fa-plus\"\r\n                aria-hidden=\"true\"></i> Add New Cars</button>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-9\">\r\n\r\n        </div>\r\n        <div class=\"col-sm-3\">\r\n            <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 15px;\">\r\n                <option value=\"\" selected disabled>Filter Options</option>\r\n                <option value=\"1\">Approved</option>\r\n                <option value=\"3\">Rejected</option>\r\n                <option value=\"2\">Pending</option>\r\n\r\n            </select>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row \" style=\"margin-top: 11px;\">\r\n        <div class=\"col-lg-3 col-md-6 con suv mpv\" *ngFor=\"let car of carList\">\r\n            <div class=\"single-popular-car\">\r\n                <div class=\"p-car-thumbnails\">\r\n                    <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"JSOFT\" class=\"vehImg\">\r\n                </div>\r\n\r\n                <div class=\"p-car-content\">\r\n                    <h3>\r\n                        <a>{{car.companyName}}</a>\r\n                        <span class=\"price\"><i class=\"fa fa-tag\"></i> {{car.rentPerDay}}</span>\r\n                    </h3>\r\n                    <h5 style=\"float: right;\">Model : {{car.model}}</h5>\r\n\r\n                    <h5>{{car.numberPlate}}</h5>\r\n\r\n                    <h5 style=\"    float: right;\r\n                        margin-top: -1px;\">{{car.type}}</h5>\r\n\r\n                    <h5>{{car.year}}</h5>\r\n                    <h5><i class=\"fa fa-map-marker\"></i> {{car.locationName}}</h5>\r\n\r\n               \r\n\r\n\r\n\r\n                </div>\r\n                <div class=\"p-car-content\" style=\"    padding: 0px 20px 19px;\">\r\n                    <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                        View</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                        Edit</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                            class=\"fa fa-trash\"></i> Delete</button>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n\r\n    </div>\r\n    <div class=\"row\" *ngIf=\"errormessage == 'No data found'\">\r\n        <img src=\"./assets/img/nodata.png\" alt=\"\" style=\"    margin: auto;\r\n        display: block;     width: 36%;   filter: brightness(0.5);\">\r\n    </div>\r\n    <h5 *ngIf=\"errormessage == 'No data found'\" style=\"text-align: center;\">No Vehicles Found</h5>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <button routerLink=\"/add-cars\" style=\"float: right;\" class=\" btn btn-success\"><i class=\"fa fa-plus\"\r\n                            aria-hidden=\"true\"></i> Add New Cars</button>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead>\r\n                                    <tr>\r\n                                        <th>Name</th>\r\n                                        <th>Position</th>\r\n                                        <th>Office</th>\r\n                                        <th>Age</th>\r\n                                        <th>Start date</th>\r\n                                        <th>Salary</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr>\r\n                                        <td>Tiger Nixon</td>\r\n                                        <td>System Architect</td>\r\n                                        <td>Edinburgh</td>\r\n                                        <td>61</td>\r\n                                        <td>2011/04/25</td>\r\n                                        <td>$320,800</td>\r\n                                    </tr>\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html":
-/*!*******************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html ***!
-  \*******************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html ***!
+  \******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -663,23 +686,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html":
-/*!*********************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Privacy & Policy\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n\n<section>\n    <div class=\"container\" style=\"margin-top: 20px;\">\n\n        <h6> 1. Introduction </h6>\n        <hr>\n        <p>\n\n            In this policy, we, us, our and Cmgaadi refer to Cmgaadi. For more information about us and how to contact us, see our website www.cmgaadi.com. When you use CM Gaadi mobile and desktop applications (the App) and services offered to users (collectively\n            with the Website and the App, the Services), you trust us with your personal data. We’re committed to keeping that trust. That starts with helping you understand our privacy practices. This notice describes the personal data we collect, how\n            it’s used and shared, and your choices regarding this data. We recommend that you read this along with our privacy overview, which highlights key points about our privacy practices.\n        </p>\n        <h6> 2. Overview </h6>\n        <hr>\n\n        <p> Scope This notice describes how CM Gaadi and its affiliates collect and use personal data. This notice applies to all users of our apps, websites, features in the world, unless covered by a separate privacy notice, such as the CM Gaadi Freight\n            Privacy Notice or Careem Privacy Policy. This notice specifically applies to:  Riders: individuals who request or receive transportation, including those who receive transportation requested by another individual  Drivers: individuals who\n            provide transportation to Riders individually or through partner transportation companies This notice also governs CM Gaadi’s other collections of personal data in connection with CM Gaadi’s services. For example, we may collect the contact\n            information of individuals who use accounts owned by CM Gaadi for Business customers or of owners. We may also collect the personal data of those who start but do not complete applications to be drivers or in connection with our mapping technology\n            and features. All those subject to this notice are referred to as “users” in this notice. In addition, please note the following: Our data practices are subject to applicable laws in the places in which we operate. This means that we engage\n            in the practices described in this notice in a particular country or region only if permitted under the laws of those places. Please contact us here or through the addresses below with any questions regarding our practices in a particular\n            country or region.\n        </p>\n        <h6>3. Data controller and transfer </h6>\n        <hr>\n\n        <p>  [data Collector Company] are the data controllers for the personal data collected in connection with use of CM Gaadi’s services in the Indian Economic Area, the India . If you’re a driver in the India , the CM Gaadi entity holding the operator\n            or driver license is a controller for complying with licensing requirements. [Data Collector ] is the data controller for the personal data collected in connection with use of CM Gaadi’s services anywhere else. CM Gaadi operates, and processes\n            data, globally. We may also transfer data to countries other than the one where our users live or use CM Gaadi’s services. We do so in order to fulfill our agreements with users, such as our Terms of Use, or based on users’ prior consent,\n            adequacy decisions for the relevant countries, or other transfer mechanisms as may be available under applicable law, such as the Standard Contractual Clauses. Questions, comments, and complaints about CM Gaadi’s data practices can be submitted\n            here [Link]. You may also use this form to submit a question to CM Gaadi’s Data Protection Officer [Link].\n        </p>\n        <h6> 4. Data Collection & Uses </h6>\n        <hr>\n\n        <p>\n            Data provided by users. This includes:  User profile: We collect data when users create or update their CM Gaadi accounts. This may include their name, email, phone number, login name and password, address, profile picture, payment or banking information\n            (including related payment verification information), driver’s license and other government identification documents (which may indicate document numbers as well as birth date, gender, and photo). This also includes vehicle or insurance information\n            of drivers, emergency contact information, user settings, and evidence of health or fitness to provide services using CM Gaadi apps.  This also includes gender and/or occupation (when required for certain CM Gaadi services or programs, such\n            as CM Gaadi Cash or Women Rider Preferred).  We may use the photos submitted by users to verify their identities, such as through facial recognition technologies. For more information, please see the section titled “How we use personal data.”\n             Background check and identity verification: We collect background check and identity verification information for drivers This may include information such as driver history or criminal record (where permitted by law), and right to work.\n            This information may be collected by an authorized vendor on CM Gaadi’s behalf. We also collect identity verification from CM Gaadi Eats users who request alcohol delivery.  Demographic data: We may collect demographic data about users, including\n            through user surveys. In some countries, we may also receive demographic data about users from third parties.  User content: We collect the information users submit when they contact CM Gaadi customer support, provide ratings or compliments\n            for other users, or otherwise contact CM Gaadi. This may include feedback, photographs or other recordings collected by users. Data created during use of our services. This includes:  Location data (driver): CM Gaadi collects this data when\n            the CM Gaadi app is running in the foreground (app open and on-screen) or background (app open but not on-screen) of their mobile device.  Location data (riders). We collect precise or approximate location data from riders’ and delivery recipients’\n            mobile devices if they enable us to do so. CM Gaadi collects this data from the time a ride until it is finished, and any time the app is running in the foreground of their mobile device. We use this data to enhance your use of our apps, including\n            to improve pick-up locations, enable safety features, and prevent and detect fraud.  CM Gaadi collects driver location data, and links location data collected during a trip with their rider’s account, even if the rider has not enabled us\n            to collect location data from their device. This enables us to offer services to the rider like receipt generation and customer support.  Transaction information: We collect transaction information related to the use of our services, including\n            the type of services requested or provided, order details, delivery information, date and time the service was provided, amount charged, distance traveled, and payment method. Additionally, if someone uses your promotion code, we may associate\n            your name with that person.  Usage data: We collect data about how users interact with our services. This includes data such as access dates and times, app features or pages viewed, app crashes and other system activity, type of browser,\n            and third-party sites or services used before interacting with our services. In some cases, we collect this data through cookies, pixels, tags, and similar tracking technologies that create and maintain unique identifiers. To learn more about\n            these technologies, please see our Cookie Notice.  Device data: We may collect data about the devices used to access our services, including the hardware models, device IP address, operating systems and versions, software, preferred languages,\n            unique device identifiers, advertising identifiers, serial numbers, device motion data, and mobile network data.  Communications data: We enable users to communicate with each other and CM Gaadi through CM Gaadi’s mobile apps and websites.\n            For example, we enable drivers and riders to call, text, or send other files to each other (generally without disclosing their telephone numbers to each other). To provide this service, CM Gaadi receives some data regarding the calls, texts,\n            or other communications, including the date and time of the communications and the content of the communications. CM Gaadi may also use this data for customer support services (including to resolve disputes between users), for safety and security\n            purposes, to improve our products and services, and for analytics.  Rental car’s data: We collect data generated by rental Car’s, when they’re in use. This includes the date and time of use, and the location, route, and distance traveled.\n            To the extent permitted by law, the location data collected from the rental car during the trip will be linked to the renter’s account, even if they have not enabled CM Gaadi to collect location data from their mobile device.  Audio recordings:\n            In certain jurisdictions, and where permitted by law, users can record the audio of their trips through an in-app feature. Recordings are encrypted and stored on users’ devices, and are only shared with CM Gaadi if submitted to customer support\n            by the users in connection with safety incidents. Data from other sources.  User feedback, such as ratings, feedback, or compliments.  Users participating in our referral programs. For example, when a user refers another person, we receive\n            the referred person’s personal data from that user.  CM Gaadi account owners who request services for or on behalf of other users, or who enable such users to request or receive services through their accounts. This includes owners of CM\n            Gaadi for Business accounts.  Users or others providing information in connection with claims or disputes.  CM Gaadi business partners through which users create or access their CM Gaadi account, such as payment providers, social media services,\n            or apps or websites that use CM Gaadi’s APIs or whose APIs CM Gaadi uses.  Vendors who help us verify users’ identity, background information, and eligibility to work, for regulatory, safety, and security purposes.  Insurance, vehicle, or\n            financial services providers for drivers.  Partner transportation companies (for drivers who use our services through an account associated with such a company).  Publicly available sources.  Marketing service providers. How we use Personal\n            Data  To enhance the safety and security of our users and services  For customer support  For research and development  To enable communications between users  To send marketing and non-marketing communications to users  In connection\n            with legal proceedings CM Gaadi uses the data it collects for purposes including: Providing services and features- CM Gaadi uses the data we collect to provide, personalize, maintain, and improve our products and services.  Create and update\n            users’ accounts.  Verify drivers’ identity, background history, and eligibility to work.  Enable transportation, and other services.  Offer, process, or facilitate payments for our services.  Offer, obtain, provide, or facilitate insurance,\n            vehicle, invoicing, or financing solutions in connection with our services.  Track and share the progress of rides.  Enable features that allow users to share information with other people, such as when riders submit a compliment about a\n            driver, refer a friend to CM Gaadi, split fares, or share ETA and location with their contacts.  Enable features to personalize users’ CM Gaadi accounts, such as creating bookmarks for favorite places, and to enable quick access to previous\n            destinations. Please see the section of this notice titled “Choice and transparency” to learn how to object to this use of personal data.  Enable Accessibility features that make it easier for users with disabilities to use our services,\n            such as those that enable deaf or hard-of-hearing drivers to alert their riders of their disabilities, allow only text messages from riders, and enable receipt of flashing trip request notifications instead of sound notifications on their\n            mobile device.  Perform internal operations necessary to provide our services, including to troubleshoot software bugs and operational problems; to conduct data analysis, testing, and research; and to monitor and analyze usage and activity\n            trends. Safety and security. We use personal data to help maintain the safety, security, and integrity of our services and users. This includes:  Screening riders and drivers persons before enabling their use of our services and at subsequent\n            intervals, including through reviews of background checks, where permitted by law, to help prevent use of our services by unsafe drivers and/or riders.  Using data from drivers’ devices to help identify unsafe driving behavior such as speeding\n            or harsh braking and acceleration, and to inform them of safer driving practices. We also use data from car owner’s to verify the type of vehicles they used to provide rental service.  using information derived from driver’s license photos,\n            and other photos submitted to CM Gaadi, for safety and security purposes. This includes CM Gaadi’s Real-Time ID Check feature, which prompts drivers to share a selfie before going online to help ensure that the driver using the app matches\n            the CM Gaadi account we have on file. This also includes comparing photographs that we have on file against photographs (i) of other users to prevent identity-borrowing, and (ii) from public databases to verify user identity.  Using device,\n            location, profile, usage, and other data to prevent, detect, and combat fraud or unsafe activities.  Using user ratings and feedback to encourage compliance with our Community Guidelines and as grounds for deactivating drivers and delivery\n            persons with low ratings or who otherwise violated such guidelines in certain countries. Customer support. CM Gaadi uses the information we collect (including recordings of customer support calls with notice to and the consent of the user)\n            to provide customer support, including to:  Direct questions to the appropriate customer support person  Investigate and address user concerns  Monitor and improve our customer support responses and processes Research and development. We\n            may use the data we collect for testing, research, analysis, product development, and machine learning to improve the user experience. This helps us to improve and enhance the safety and security of our services, improve our ability to prevent\n            the use of our services for illegal or improper purposes, develop new features and products, and facilitate insurance and finance solutions in connection with our services. Enabling communications between users. For example, a driver may message\n            or call a rider to confirm a pickup location, a rider may contact a driver to retrieve a lost item. Marketing. CM Gaadi may use the data we collect to market our services to our users. This includes sending users communications about CM Gaadi\n            services, features, promotions, sweepstakes, studies, surveys, news, updates, and events. We may also send communications to our users about products and services offered by CM Gaadi partners. Although we may send users communications about\n            CM Gaadi partners’ products and services, we do not sell users’ personal data to, or share it with, such partners or others for purposes of their own direct marketing or advertising, except with users’ consent. We may use the data we collect\n            to personalize the marketing communications (including advertisements) that we send, including based on user location, past use of CM Gaadi’s services, and user preferences and settings. Non-marketing communications. CM Gaadi may use the data\n            we collect to generate and provide users with receipts; inform them of changes to our terms, services, or policies; or send other communications that aren’t for the purpose of marketing the services or products of CM Gaadi or its partners.\n            Legal proceedings and requirements. We may use the personal data we collect to investigate or address claims or disputes relating to use of CM Gaadi’s services, or as otherwise allowed by applicable law, or as requested by regulators, government\n            entities, and official inquiries. Automated decision-making. We use personal data to make automated decisions relating to use of our services. This includes:  Enabling dynamic pricing, in which the price of a ride for CM Gaadi orders, is\n            determined based on constantly varying factors such as the estimated time and distance, the predicted route, estimated traffic, and the number of riders and drivers using CM Gaadi at a given moment.  Matching available drivers to users requesting\n            services. Users can be matched based on availability, proximity, and other factors.  Determining driver and car’s rating , and deactivating drivers, riders, and cars with low ratings  Deactivating users who are identified as having engaged\n            in fraud or activities that may otherwise harm CM Gaadi, its users, and others. In some cases, such as when a user is determined to be abusing CM Gaadi’s referral program, such behavior may result in automatic deactivation.  Using driver\n            location information, and communications between riders and drivers, to identify cancellation fees earned or induced through fraud. For example, if we determine by using such information that a driver is delaying a rider pickup in order to\n            induce a cancellation, we will not charge the rider a cancellation fee and will adjust the amounts paid to the driver to omit such a fee. To object to such adjustment, please contact CM Gaadi customer support.\n        </p>\n        <h6>5. Cookies and Third Party Technologies </h6>\n        <hr>\n\n        <p> Cookies are small text files that are stored on browsers or devices by websites, apps, online media, and advertisements. CM Gaadi uses cookies and similar technologies for purposes such as:  Authenticating users  Remembering user preferences\n            and settings  Determining the popularity of content  Delivering and measuring the effectiveness of advertising campaigns  Analyzing site traffic and trends, and generally understanding the online behaviors and interests of people who interact\n            with our services We may also allow others to provide audience measurement and analytics services for us, to serve advertisements on our behalf across the Internet, and to track and report on the performance of those advertisements. These\n            entities may use cookies, web beacons, SDKs, and other technologies to identify the devices used by visitors to our websites, as well as when they visit other online sites and services.\n        </p>\n        <h6>6. Data Sharing and disclosure </h6>\n        <hr>\n\n        <p>\n            With Other User  Riders’ first name, rating, and pickup and/or dropoff locations with drivers.  Riders’ first name with other riders in a carpool trip. Riders in carpool trips may also see the dropoff location of the other riders.  For drivers and\n            Car Owner, we may share data with the rider(s), delivery recipient(s) and car owner(s), including name and photo; vehicle make, model, color, license plate, and vehicle photo; location (before and during trip); average rating provided by users;\n            total number of trips; length of use of the CM Gaadi app; contact information (depending upon applicable laws); and driver or delivery person profile, including compliments and other feedback submitted by past users.  We also provide riders\n            recipients with receipts containing information such as a breakdown of amounts charged, driver first name, photo, route map, and such other information required on invoices in the country or region where the driver operates.  For those who\n            participate in CM Gaadi’s referral program, we share certain personal data of referred users, such as trip count, with the user who referred them, to the extent relevant to determining the referral bonus. At the user’s request  Other people\n            at the user’s request. For example, we share a user’s ETA and location with a friend when requested by that user, or a user’s trip information when they split a fare with a friend.  CM Gaadi business partners. For example, if a user requests\n            a service through a partnership or promotional offering made by a third party, CM Gaadi may share certain data with those third parties. This may include, for example, other services, platforms, apps, or websites that integrate with our APIs;\n            vehicle suppliers or services; those with an API or service with which we integrate; With the General Public  Questions or comments from users submitted through public forums such as CM Gaadi blogs and CM Gaadi social media pages may be viewable\n            by the public, including any personal data included in the questions or comments submitted by a user. The CM Gaadi Account Owner If a user requests transportation or places an order using an account owned by another party, we may share their\n            order or trip information, including real-time location data, with the owner of that account. This occurs, for example, when:  A rider uses their employer’s CM Gaadi for Business profile, such as when they take trips arranged through CM Gaadi\n            Central  A driver uses an account owned by or associated with an CM Gaadi partner transportation company  A rider takes a trip arranged by a friend or under a Family Profile With CM Gaadi subsidiaries and affiliates We share data with our\n            subsidiaries and affiliates to help us provide our services or conduct data processing on our behalf. With CM Gaadi service providers and business partners CM Gaadi provides data to vendors, consultants, marketing partners, research firms,\n            and other service providers or business partners. These include:  Payment processors and facilitators  Background check and identity verification providers (drivers and cash riders only)  Cloud storage providers  Google, in connection\n            with the use of Google Maps in CM Gaadi’s apps (see Google’s privacy policy for information on their collection and use of data)  Facebook, in connection with the use of the Facebook Business Tools in CM Gaadi’s apps and websites (see Facebook’s\n            privacy policy for information on their collection and use of data)  Marketing partners and marketing platform providers, including social media advertising services  Data analytics providers  Research partners, including those performing\n            surveys or research projects in partnership with CM Gaadi or on CM Gaadi’s behalf  Vendors that assist CM Gaadi to enhance the safety and security of its apps  Consultants, lawyers, accountants, and other professional service providers \n            Fleet partners  Insurance and financing partners  Airports  Lime and other local providers  Vehicle solution vendors or third-party vehicle suppliers For legal reasons or in the event of a dispute CM Gaadi may share users’ personal data\n            if we believe it’s required by applicable law, regulation, operating license or agreement, legal process or governmental request, or where the disclosure is otherwise appropriate due to safety or similar concerns. This includes sharing personal\n            data with law enforcement officials, public health officials, other government authorities, airports (if required by the airport authorities as a condition of operating on airport property), or other third parties as necessary to enforce our\n            Terms of Service, user agreements, or other policies; to protect CM Gaadi’s rights or property or the rights, safety, or property of others; or in the event of a claim or dispute relating to the use of our services. If you use another person’s\n            credit card, we may be required by law to share your personal data, including trip or order information, with the owner of that credit card. This also includes sharing personal data with others in connection with, or during negotiations of,\n            any merger, sale of company assets, consolidation or restructuring, financing, or acquisition of all or a portion of our business by or into another company. With consent CM Gaadi may share a user’s personal data other than as described in\n            this notice if we notify the user and they consent to the sharing. 7. Data Retention and Deletion CM Gaadi retains user data for as long as necessary for the purposes described above. This means that we retain different categories of data\n            for different periods of time depending on the category of user to whom the data relates, the type of data, and the purposes for which we collected the data. Users may request deletion of their account at any time through the app or website\n            provided by CM Gaadi Following an account deletion request, CM Gaadi deletes the user’s account and data, unless they must be retained due to legal or regulatory requirements, for purposes of safety, security, and fraud prevention, or because\n            of an issue relating to the user’s account such as an outstanding credit or an unresolved claim or dispute. Because we are subject to legal and regulatory requirements relating to drivers and delivery persons, this generally means that we\n            retain their account and data for a minimum of 7 years after a deletion request. For riders and delivery recipients, their data is generally deleted within 90 days of a deletion request, except where retention is necessary for the above reasons.\n        </p>\n        <h6>8. Ground For Processing.</h6>\n        <hr>\n\n        <p>\n\n            To provide requested services and features For purposes of the legitimate interests of CM Gaadi or other parties This includes using personal data to maintain and enhance our users’ safety and security. For example, we use personal data to prevent use\n            of our services by users who have engaged in inappropriate or dangerous behaviour, such as by retaining data of banned users to prevent their use of CM Gaadi’s apps. We also use usage data to prevent matching of riders and drivers for whom\n            there is higher risk of conflict (for instance, because they have been the subject of prior complaints from other users). This also includes purposes such as combating fraud; improving our services, direct marketing, research, and development;\n            and enforcing CM Gaadi’s Terms of Service. In addition, it includes using personal data to the extent necessary for the interests of other people or the general public, such as in connection with legal or insurance claims, and to protect the\n            rights and safety of others. With consent CM Gaadi may collect and use personal data based on the user’s consent. For example, we may collect personal data through voluntary surveys. Responses to such surveys are collected on the basis of\n            consent and will be deleted once no longer necessary for the purposes collected. A user who has provided consent to a collection or use of their personal data can revoke it at any time. However, the user will not be able to use any service\n            or feature that requires collection or use of that personal data.\n        </p>\n        <ul>\n            <li>In order to provide our services, we must collect and use certain personal data. This includes:</li>\n            <li>User profile data, which we use to establish and maintain user accounts; verify user identity; communicate with users about their trips, orders, and accounts; and enable users to make payments or receive earnings</li>\n            <li>Background trip information, which is used to verify an applicant’s eligibility to be a driver.</li>\n            <li>Driver and delivery person location data, which we use to track trips and assist with navigation</li>\n            <li>Transaction information</li>\n            <li>Information relating to customer support</li>\n            <li>\n                Usage data, which is necessary to maintain, optimize, and enhance CM Gaadi’s services, including to determine incentives, connect riders and drivers, and calculate costs of trips and driver earnings\n\n\n            </li>\n\n        </ul>\n        <h6>9. Choice of Transparency</h6>\n        <hr>\n\n        <p> CM Gaadi enables users to access and control the data that CM Gaadi collects, including through:\n\n\n        </p>\n        <ul>\n            <li>In-app settings</li>\n            <li>Device permissions</li>\n            <li>In-app ratings pages</li>\n            <li>Marketing opt-outs</li>\n\n        </ul>\n\n        <h6>10. Updates To This Notice</h6>\n        <hr>\n\n        <p>We may occasionally update this notice. If we make significant changes, we will notify users in advance of the changes through the CM Gaadi apps or through other means, such as email and website. Your continued use of the Services after we make\n            changes is deemed to be acceptance of those changes, We encourage users to periodically review this notice for the latest information on our privacy practices. After such notice, use of our services by users in countries outside the European\n            Union will be understood as consent to the updates to the extent permitted by law.\n        </p>\n    </div>\n\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n\r\n<section class=\"banner-area relative\" id=\"home\">\r\n    <div class=\"overlay overlay-bg\"></div>\r\n    <div class=\"container\">\r\n        <div class=\"row d-flex align-items-center justify-content-center\">\r\n            <div class=\"about-content col-lg-12\">\r\n                <h1 class=\"text-white\">\r\n                    Privacy & Policy\r\n                </h1>\r\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section>\r\n    <div class=\"container\" style=\"margin-top: 20px;\">\r\n\r\n        <h6> 1. Introduction </h6>\r\n        <hr>\r\n        <p>\r\n\r\n            In this policy, we, us, our and Cmgaadi refer to Cmgaadi. For more information about us and how to contact us, see our website www.cmgaadi.com. When you use CM Gaadi mobile and desktop applications (the App) and services offered to users (collectively\r\n            with the Website and the App, the Services), you trust us with your personal data. We’re committed to keeping that trust. That starts with helping you understand our privacy practices. This notice describes the personal data we collect, how\r\n            it’s used and shared, and your choices regarding this data. We recommend that you read this along with our privacy overview, which highlights key points about our privacy practices.\r\n        </p>\r\n        <h6> 2. Overview </h6>\r\n        <hr>\r\n\r\n        <p> Scope This notice describes how CM Gaadi and its affiliates collect and use personal data. This notice applies to all users of our apps, websites, features in the world, unless covered by a separate privacy notice, such as the CM Gaadi Freight\r\n            Privacy Notice or Careem Privacy Policy. This notice specifically applies to:  Riders: individuals who request or receive transportation, including those who receive transportation requested by another individual  Drivers: individuals who\r\n            provide transportation to Riders individually or through partner transportation companies This notice also governs CM Gaadi’s other collections of personal data in connection with CM Gaadi’s services. For example, we may collect the contact\r\n            information of individuals who use accounts owned by CM Gaadi for Business customers or of owners. We may also collect the personal data of those who start but do not complete applications to be drivers or in connection with our mapping technology\r\n            and features. All those subject to this notice are referred to as “users” in this notice. In addition, please note the following: Our data practices are subject to applicable laws in the places in which we operate. This means that we engage\r\n            in the practices described in this notice in a particular country or region only if permitted under the laws of those places. Please contact us here or through the addresses below with any questions regarding our practices in a particular\r\n            country or region.\r\n        </p>\r\n        <h6>3. Data controller and transfer </h6>\r\n        <hr>\r\n\r\n        <p>  [data Collector Company] are the data controllers for the personal data collected in connection with use of CM Gaadi’s services in the Indian Economic Area, the India . If you’re a driver in the India , the CM Gaadi entity holding the operator\r\n            or driver license is a controller for complying with licensing requirements. [Data Collector ] is the data controller for the personal data collected in connection with use of CM Gaadi’s services anywhere else. CM Gaadi operates, and processes\r\n            data, globally. We may also transfer data to countries other than the one where our users live or use CM Gaadi’s services. We do so in order to fulfill our agreements with users, such as our Terms of Use, or based on users’ prior consent,\r\n            adequacy decisions for the relevant countries, or other transfer mechanisms as may be available under applicable law, such as the Standard Contractual Clauses. Questions, comments, and complaints about CM Gaadi’s data practices can be submitted\r\n            here [Link]. You may also use this form to submit a question to CM Gaadi’s Data Protection Officer [Link].\r\n        </p>\r\n        <h6> 4. Data Collection & Uses </h6>\r\n        <hr>\r\n\r\n        <p>\r\n            Data provided by users. This includes:  User profile: We collect data when users create or update their CM Gaadi accounts. This may include their name, email, phone number, login name and password, address, profile picture, payment or banking information\r\n            (including related payment verification information), driver’s license and other government identification documents (which may indicate document numbers as well as birth date, gender, and photo). This also includes vehicle or insurance information\r\n            of drivers, emergency contact information, user settings, and evidence of health or fitness to provide services using CM Gaadi apps.  This also includes gender and/or occupation (when required for certain CM Gaadi services or programs, such\r\n            as CM Gaadi Cash or Women Rider Preferred).  We may use the photos submitted by users to verify their identities, such as through facial recognition technologies. For more information, please see the section titled “How we use personal data.”\r\n             Background check and identity verification: We collect background check and identity verification information for drivers This may include information such as driver history or criminal record (where permitted by law), and right to work.\r\n            This information may be collected by an authorized vendor on CM Gaadi’s behalf. We also collect identity verification from CM Gaadi Eats users who request alcohol delivery.  Demographic data: We may collect demographic data about users, including\r\n            through user surveys. In some countries, we may also receive demographic data about users from third parties.  User content: We collect the information users submit when they contact CM Gaadi customer support, provide ratings or compliments\r\n            for other users, or otherwise contact CM Gaadi. This may include feedback, photographs or other recordings collected by users. Data created during use of our services. This includes:  Location data (driver): CM Gaadi collects this data when\r\n            the CM Gaadi app is running in the foreground (app open and on-screen) or background (app open but not on-screen) of their mobile device.  Location data (riders). We collect precise or approximate location data from riders’ and delivery recipients’\r\n            mobile devices if they enable us to do so. CM Gaadi collects this data from the time a ride until it is finished, and any time the app is running in the foreground of their mobile device. We use this data to enhance your use of our apps, including\r\n            to improve pick-up locations, enable safety features, and prevent and detect fraud.  CM Gaadi collects driver location data, and links location data collected during a trip with their rider’s account, even if the rider has not enabled us\r\n            to collect location data from their device. This enables us to offer services to the rider like receipt generation and customer support.  Transaction information: We collect transaction information related to the use of our services, including\r\n            the type of services requested or provided, order details, delivery information, date and time the service was provided, amount charged, distance traveled, and payment method. Additionally, if someone uses your promotion code, we may associate\r\n            your name with that person.  Usage data: We collect data about how users interact with our services. This includes data such as access dates and times, app features or pages viewed, app crashes and other system activity, type of browser,\r\n            and third-party sites or services used before interacting with our services. In some cases, we collect this data through cookies, pixels, tags, and similar tracking technologies that create and maintain unique identifiers. To learn more about\r\n            these technologies, please see our Cookie Notice.  Device data: We may collect data about the devices used to access our services, including the hardware models, device IP address, operating systems and versions, software, preferred languages,\r\n            unique device identifiers, advertising identifiers, serial numbers, device motion data, and mobile network data.  Communications data: We enable users to communicate with each other and CM Gaadi through CM Gaadi’s mobile apps and websites.\r\n            For example, we enable drivers and riders to call, text, or send other files to each other (generally without disclosing their telephone numbers to each other). To provide this service, CM Gaadi receives some data regarding the calls, texts,\r\n            or other communications, including the date and time of the communications and the content of the communications. CM Gaadi may also use this data for customer support services (including to resolve disputes between users), for safety and security\r\n            purposes, to improve our products and services, and for analytics.  Rental car’s data: We collect data generated by rental Car’s, when they’re in use. This includes the date and time of use, and the location, route, and distance traveled.\r\n            To the extent permitted by law, the location data collected from the rental car during the trip will be linked to the renter’s account, even if they have not enabled CM Gaadi to collect location data from their mobile device.  Audio recordings:\r\n            In certain jurisdictions, and where permitted by law, users can record the audio of their trips through an in-app feature. Recordings are encrypted and stored on users’ devices, and are only shared with CM Gaadi if submitted to customer support\r\n            by the users in connection with safety incidents. Data from other sources.  User feedback, such as ratings, feedback, or compliments.  Users participating in our referral programs. For example, when a user refers another person, we receive\r\n            the referred person’s personal data from that user.  CM Gaadi account owners who request services for or on behalf of other users, or who enable such users to request or receive services through their accounts. This includes owners of CM\r\n            Gaadi for Business accounts.  Users or others providing information in connection with claims or disputes.  CM Gaadi business partners through which users create or access their CM Gaadi account, such as payment providers, social media services,\r\n            or apps or websites that use CM Gaadi’s APIs or whose APIs CM Gaadi uses.  Vendors who help us verify users’ identity, background information, and eligibility to work, for regulatory, safety, and security purposes.  Insurance, vehicle, or\r\n            financial services providers for drivers.  Partner transportation companies (for drivers who use our services through an account associated with such a company).  Publicly available sources.  Marketing service providers. How we use Personal\r\n            Data  To enhance the safety and security of our users and services  For customer support  For research and development  To enable communications between users  To send marketing and non-marketing communications to users  In connection\r\n            with legal proceedings CM Gaadi uses the data it collects for purposes including: Providing services and features- CM Gaadi uses the data we collect to provide, personalize, maintain, and improve our products and services.  Create and update\r\n            users’ accounts.  Verify drivers’ identity, background history, and eligibility to work.  Enable transportation, and other services.  Offer, process, or facilitate payments for our services.  Offer, obtain, provide, or facilitate insurance,\r\n            vehicle, invoicing, or financing solutions in connection with our services.  Track and share the progress of rides.  Enable features that allow users to share information with other people, such as when riders submit a compliment about a\r\n            driver, refer a friend to CM Gaadi, split fares, or share ETA and location with their contacts.  Enable features to personalize users’ CM Gaadi accounts, such as creating bookmarks for favorite places, and to enable quick access to previous\r\n            destinations. Please see the section of this notice titled “Choice and transparency” to learn how to object to this use of personal data.  Enable Accessibility features that make it easier for users with disabilities to use our services,\r\n            such as those that enable deaf or hard-of-hearing drivers to alert their riders of their disabilities, allow only text messages from riders, and enable receipt of flashing trip request notifications instead of sound notifications on their\r\n            mobile device.  Perform internal operations necessary to provide our services, including to troubleshoot software bugs and operational problems; to conduct data analysis, testing, and research; and to monitor and analyze usage and activity\r\n            trends. Safety and security. We use personal data to help maintain the safety, security, and integrity of our services and users. This includes:  Screening riders and drivers persons before enabling their use of our services and at subsequent\r\n            intervals, including through reviews of background checks, where permitted by law, to help prevent use of our services by unsafe drivers and/or riders.  Using data from drivers’ devices to help identify unsafe driving behavior such as speeding\r\n            or harsh braking and acceleration, and to inform them of safer driving practices. We also use data from car owner’s to verify the type of vehicles they used to provide rental service.  using information derived from driver’s license photos,\r\n            and other photos submitted to CM Gaadi, for safety and security purposes. This includes CM Gaadi’s Real-Time ID Check feature, which prompts drivers to share a selfie before going online to help ensure that the driver using the app matches\r\n            the CM Gaadi account we have on file. This also includes comparing photographs that we have on file against photographs (i) of other users to prevent identity-borrowing, and (ii) from public databases to verify user identity.  Using device,\r\n            location, profile, usage, and other data to prevent, detect, and combat fraud or unsafe activities.  Using user ratings and feedback to encourage compliance with our Community Guidelines and as grounds for deactivating drivers and delivery\r\n            persons with low ratings or who otherwise violated such guidelines in certain countries. Customer support. CM Gaadi uses the information we collect (including recordings of customer support calls with notice to and the consent of the user)\r\n            to provide customer support, including to:  Direct questions to the appropriate customer support person  Investigate and address user concerns  Monitor and improve our customer support responses and processes Research and development. We\r\n            may use the data we collect for testing, research, analysis, product development, and machine learning to improve the user experience. This helps us to improve and enhance the safety and security of our services, improve our ability to prevent\r\n            the use of our services for illegal or improper purposes, develop new features and products, and facilitate insurance and finance solutions in connection with our services. Enabling communications between users. For example, a driver may message\r\n            or call a rider to confirm a pickup location, a rider may contact a driver to retrieve a lost item. Marketing. CM Gaadi may use the data we collect to market our services to our users. This includes sending users communications about CM Gaadi\r\n            services, features, promotions, sweepstakes, studies, surveys, news, updates, and events. We may also send communications to our users about products and services offered by CM Gaadi partners. Although we may send users communications about\r\n            CM Gaadi partners’ products and services, we do not sell users’ personal data to, or share it with, such partners or others for purposes of their own direct marketing or advertising, except with users’ consent. We may use the data we collect\r\n            to personalize the marketing communications (including advertisements) that we send, including based on user location, past use of CM Gaadi’s services, and user preferences and settings. Non-marketing communications. CM Gaadi may use the data\r\n            we collect to generate and provide users with receipts; inform them of changes to our terms, services, or policies; or send other communications that aren’t for the purpose of marketing the services or products of CM Gaadi or its partners.\r\n            Legal proceedings and requirements. We may use the personal data we collect to investigate or address claims or disputes relating to use of CM Gaadi’s services, or as otherwise allowed by applicable law, or as requested by regulators, government\r\n            entities, and official inquiries. Automated decision-making. We use personal data to make automated decisions relating to use of our services. This includes:  Enabling dynamic pricing, in which the price of a ride for CM Gaadi orders, is\r\n            determined based on constantly varying factors such as the estimated time and distance, the predicted route, estimated traffic, and the number of riders and drivers using CM Gaadi at a given moment.  Matching available drivers to users requesting\r\n            services. Users can be matched based on availability, proximity, and other factors.  Determining driver and car’s rating , and deactivating drivers, riders, and cars with low ratings  Deactivating users who are identified as having engaged\r\n            in fraud or activities that may otherwise harm CM Gaadi, its users, and others. In some cases, such as when a user is determined to be abusing CM Gaadi’s referral program, such behavior may result in automatic deactivation.  Using driver\r\n            location information, and communications between riders and drivers, to identify cancellation fees earned or induced through fraud. For example, if we determine by using such information that a driver is delaying a rider pickup in order to\r\n            induce a cancellation, we will not charge the rider a cancellation fee and will adjust the amounts paid to the driver to omit such a fee. To object to such adjustment, please contact CM Gaadi customer support.\r\n        </p>\r\n        <h6>5. Cookies and Third Party Technologies </h6>\r\n        <hr>\r\n\r\n        <p> Cookies are small text files that are stored on browsers or devices by websites, apps, online media, and advertisements. CM Gaadi uses cookies and similar technologies for purposes such as:  Authenticating users  Remembering user preferences\r\n            and settings  Determining the popularity of content  Delivering and measuring the effectiveness of advertising campaigns  Analyzing site traffic and trends, and generally understanding the online behaviors and interests of people who interact\r\n            with our services We may also allow others to provide audience measurement and analytics services for us, to serve advertisements on our behalf across the Internet, and to track and report on the performance of those advertisements. These\r\n            entities may use cookies, web beacons, SDKs, and other technologies to identify the devices used by visitors to our websites, as well as when they visit other online sites and services.\r\n        </p>\r\n        <h6>6. Data Sharing and disclosure </h6>\r\n        <hr>\r\n\r\n        <p>\r\n            With Other User  Riders’ first name, rating, and pickup and/or dropoff locations with drivers.  Riders’ first name with other riders in a carpool trip. Riders in carpool trips may also see the dropoff location of the other riders.  For drivers and\r\n            Car Owner, we may share data with the rider(s), delivery recipient(s) and car owner(s), including name and photo; vehicle make, model, color, license plate, and vehicle photo; location (before and during trip); average rating provided by users;\r\n            total number of trips; length of use of the CM Gaadi app; contact information (depending upon applicable laws); and driver or delivery person profile, including compliments and other feedback submitted by past users.  We also provide riders\r\n            recipients with receipts containing information such as a breakdown of amounts charged, driver first name, photo, route map, and such other information required on invoices in the country or region where the driver operates.  For those who\r\n            participate in CM Gaadi’s referral program, we share certain personal data of referred users, such as trip count, with the user who referred them, to the extent relevant to determining the referral bonus. At the user’s request  Other people\r\n            at the user’s request. For example, we share a user’s ETA and location with a friend when requested by that user, or a user’s trip information when they split a fare with a friend.  CM Gaadi business partners. For example, if a user requests\r\n            a service through a partnership or promotional offering made by a third party, CM Gaadi may share certain data with those third parties. This may include, for example, other services, platforms, apps, or websites that integrate with our APIs;\r\n            vehicle suppliers or services; those with an API or service with which we integrate; With the General Public  Questions or comments from users submitted through public forums such as CM Gaadi blogs and CM Gaadi social media pages may be viewable\r\n            by the public, including any personal data included in the questions or comments submitted by a user. The CM Gaadi Account Owner If a user requests transportation or places an order using an account owned by another party, we may share their\r\n            order or trip information, including real-time location data, with the owner of that account. This occurs, for example, when:  A rider uses their employer’s CM Gaadi for Business profile, such as when they take trips arranged through CM Gaadi\r\n            Central  A driver uses an account owned by or associated with an CM Gaadi partner transportation company  A rider takes a trip arranged by a friend or under a Family Profile With CM Gaadi subsidiaries and affiliates We share data with our\r\n            subsidiaries and affiliates to help us provide our services or conduct data processing on our behalf. With CM Gaadi service providers and business partners CM Gaadi provides data to vendors, consultants, marketing partners, research firms,\r\n            and other service providers or business partners. These include:  Payment processors and facilitators  Background check and identity verification providers (drivers and cash riders only)  Cloud storage providers  Google, in connection\r\n            with the use of Google Maps in CM Gaadi’s apps (see Google’s privacy policy for information on their collection and use of data)  Facebook, in connection with the use of the Facebook Business Tools in CM Gaadi’s apps and websites (see Facebook’s\r\n            privacy policy for information on their collection and use of data)  Marketing partners and marketing platform providers, including social media advertising services  Data analytics providers  Research partners, including those performing\r\n            surveys or research projects in partnership with CM Gaadi or on CM Gaadi’s behalf  Vendors that assist CM Gaadi to enhance the safety and security of its apps  Consultants, lawyers, accountants, and other professional service providers \r\n            Fleet partners  Insurance and financing partners  Airports  Lime and other local providers  Vehicle solution vendors or third-party vehicle suppliers For legal reasons or in the event of a dispute CM Gaadi may share users’ personal data\r\n            if we believe it’s required by applicable law, regulation, operating license or agreement, legal process or governmental request, or where the disclosure is otherwise appropriate due to safety or similar concerns. This includes sharing personal\r\n            data with law enforcement officials, public health officials, other government authorities, airports (if required by the airport authorities as a condition of operating on airport property), or other third parties as necessary to enforce our\r\n            Terms of Service, user agreements, or other policies; to protect CM Gaadi’s rights or property or the rights, safety, or property of others; or in the event of a claim or dispute relating to the use of our services. If you use another person’s\r\n            credit card, we may be required by law to share your personal data, including trip or order information, with the owner of that credit card. This also includes sharing personal data with others in connection with, or during negotiations of,\r\n            any merger, sale of company assets, consolidation or restructuring, financing, or acquisition of all or a portion of our business by or into another company. With consent CM Gaadi may share a user’s personal data other than as described in\r\n            this notice if we notify the user and they consent to the sharing. 7. Data Retention and Deletion CM Gaadi retains user data for as long as necessary for the purposes described above. This means that we retain different categories of data\r\n            for different periods of time depending on the category of user to whom the data relates, the type of data, and the purposes for which we collected the data. Users may request deletion of their account at any time through the app or website\r\n            provided by CM Gaadi Following an account deletion request, CM Gaadi deletes the user’s account and data, unless they must be retained due to legal or regulatory requirements, for purposes of safety, security, and fraud prevention, or because\r\n            of an issue relating to the user’s account such as an outstanding credit or an unresolved claim or dispute. Because we are subject to legal and regulatory requirements relating to drivers and delivery persons, this generally means that we\r\n            retain their account and data for a minimum of 7 years after a deletion request. For riders and delivery recipients, their data is generally deleted within 90 days of a deletion request, except where retention is necessary for the above reasons.\r\n        </p>\r\n        <h6>8. Ground For Processing.</h6>\r\n        <hr>\r\n\r\n        <p>\r\n\r\n            To provide requested services and features For purposes of the legitimate interests of CM Gaadi or other parties This includes using personal data to maintain and enhance our users’ safety and security. For example, we use personal data to prevent use\r\n            of our services by users who have engaged in inappropriate or dangerous behaviour, such as by retaining data of banned users to prevent their use of CM Gaadi’s apps. We also use usage data to prevent matching of riders and drivers for whom\r\n            there is higher risk of conflict (for instance, because they have been the subject of prior complaints from other users). This also includes purposes such as combating fraud; improving our services, direct marketing, research, and development;\r\n            and enforcing CM Gaadi’s Terms of Service. In addition, it includes using personal data to the extent necessary for the interests of other people or the general public, such as in connection with legal or insurance claims, and to protect the\r\n            rights and safety of others. With consent CM Gaadi may collect and use personal data based on the user’s consent. For example, we may collect personal data through voluntary surveys. Responses to such surveys are collected on the basis of\r\n            consent and will be deleted once no longer necessary for the purposes collected. A user who has provided consent to a collection or use of their personal data can revoke it at any time. However, the user will not be able to use any service\r\n            or feature that requires collection or use of that personal data.\r\n        </p>\r\n        <ul>\r\n            <li>In order to provide our services, we must collect and use certain personal data. This includes:</li>\r\n            <li>User profile data, which we use to establish and maintain user accounts; verify user identity; communicate with users about their trips, orders, and accounts; and enable users to make payments or receive earnings</li>\r\n            <li>Background trip information, which is used to verify an applicant’s eligibility to be a driver.</li>\r\n            <li>Driver and delivery person location data, which we use to track trips and assist with navigation</li>\r\n            <li>Transaction information</li>\r\n            <li>Information relating to customer support</li>\r\n            <li>\r\n                Usage data, which is necessary to maintain, optimize, and enhance CM Gaadi’s services, including to determine incentives, connect riders and drivers, and calculate costs of trips and driver earnings\r\n\r\n\r\n            </li>\r\n\r\n        </ul>\r\n        <h6>9. Choice of Transparency</h6>\r\n        <hr>\r\n\r\n        <p> CM Gaadi enables users to access and control the data that CM Gaadi collects, including through:\r\n\r\n\r\n        </p>\r\n        <ul>\r\n            <li>In-app settings</li>\r\n            <li>Device permissions</li>\r\n            <li>In-app ratings pages</li>\r\n            <li>Marketing opt-outs</li>\r\n\r\n        </ul>\r\n\r\n        <h6>10. Updates To This Notice</h6>\r\n        <hr>\r\n\r\n        <p>We may occasionally update this notice. If we make significant changes, we will notify users in advance of the changes through the CM Gaadi apps or through other means, such as email and website. Your continued use of the Services after we make\r\n            changes is deemed to be acceptance of those changes, We encourage users to periodically review this notice for the latest information on our privacy practices. After such notice, use of our services by users in countries outside the European\r\n            Union will be understood as consent to the updates to the extent permitted by law.\r\n        </p>\r\n    </div>\r\n\r\n</section>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html":
-/*!*****************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html ***!
-  \*****************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html ***!
+  \****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -689,10 +712,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html":
-/*!******************************************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html ***!
-  \******************************************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html ***!
+  \*****************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -702,49 +725,49 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html":
-/*!*************************************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html ***!
-  \*************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"navbar navbar-expand-lg navbar-light bg-dark\" style=\"background-color: #00060f !important;\">\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 50px;\">\r\n    </a>\r\n    <button style=\"background: white;\" class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n        <ul class=\"navbar-nav ml-auto\">\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/userhome\" style=\"color: white;\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Features</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Contact Us</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Login</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white; padding-left: 8px;   border: 1px solid #ffcb67;\">Register</a>\r\n            </li>\r\n\r\n        </ul>\r\n\r\n    </div>\r\n</nav> -->\r\n\r\n<app-navigation></app-navigation>\r\n<section class=\"banner-area relative\">\r\n    <!-- <div class=\"overlay overlay-bg\"></div> -->\r\n    <div class=\"container\">\r\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\r\n            <div class=\"banner-content col-lg-7 col-md-6 \">\r\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\r\n                <h1 class=\"text-white text-uppercase\">\r\n                    Bringing the future of rides\r\n                </h1>\r\n                <p class=\"pt-20 pb-20 text-white\">\r\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\r\n\r\n                </p>\r\n                <a href=\"#\" class=\"primary-btn text-uppercase\">Rent Car Now</a>\r\n            </div>\r\n            <!-- <div class=\"col-lg-5  col-md-6 header-right\">\r\n                <h4 class=\"text-white pb-30\">Book Your Car Today!</h4>\r\n                <form class=\"form\" role=\"form\" autocomplete=\"off\">\r\n                    <div class=\"form-group\">\r\n                        <div class=\"default-select\" id=\"default-select\">\r\n                            <select>\r\n                                <option value=\" \" disabled selected hidden>Select Your Car</option>\r\n                                <option value=\" 1 \">BMW</option>\r\n                                <option value=\" 1 \">Farrari</option>\r\n                                <option value=\" 1 \">Toyota</option>\r\n                            </select>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\" form-group row \">\r\n                        <div class=\" col-md-6 wrap-left \">\r\n                            <div class=\" default-select \" id=\" default-select \">\r\n                                <select>\r\n                                    <option value=\"\" disabled selected hidden>Pickup</option>\r\n                                    <option value=\"1\">Pickup One</option>\r\n                                    <option value=\"1\">Pickup Two</option>\r\n                                    <option value=\"1\">Pickup Three</option>\r\n                                    <option value=\"1\">Pickup Four</option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n\r\n                    </div>\r\n\r\n                    <div class=\" from-group \">\r\n                        <input class=\" form-control txt-field \" type=\" text \" name=\" name \" placeholder=\" Your name \">\r\n                        <input class=\" form-control txt-field \" type=\" email \" name=\" email \" placeholder=\" Email address \">\r\n                        <input class=\" form-control txt-field \" type=\" tel \" name=\" phone \" placeholder=\" Phone number \">\r\n                    </div>\r\n                    <div class=\" form-group row \">\r\n                        <div class=\" col-md-12 \">\r\n                            <button type=\" reset \" class=\" btn btn-default btn-lg btn-block text-center text-uppercase \">Confirm Car\r\n                                Booking</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"feature-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text \">\r\n                <h1>What Services we offer to our clients</h1>\r\n                <p>\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Taxi Services</h4>\r\n                    <p>\r\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent a Car</h4>\r\n                    <p>\r\n                        Rent a car for ride with or without driver. You can use our app to select the car. No hidden or extra charges applicable. You can choose the locations and car type before submitting your confirmation\r\n\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent Your Car</h4>\r\n                    <p>\r\n                        You can rent your cars by registering, you will get a user id and account details after the verification. You can register n number of cars you owned.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-rocket \"></span>Technical Skills</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-diamond \"></span>Highly Recomended</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-bubble \"></span>Positive Reviews</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n\r\n<!-- <section class=\"home-about-area \" id=\"about \">\r\n    <div class=\"container-fluid \">\r\n        <div class=\"row justify-content-center align-items-center \">\r\n            <div class=\"col-lg-6 no-padding home-about-left \">\r\n                <img class=\"img-fluid \" src=\"assets/assets/img/about-img.jpg \" alt=\" \">\r\n            </div>\r\n            <div class=\"col-lg-6 no-padding home-about-right \">\r\n                <h1>Globally Connected <br> by Large Network</h1>\r\n                <p>\r\n                    <span>We are here to listen from you deliver exellence</span>\r\n                </p>\r\n                <p>\r\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.\r\n                </p>\r\n                <a class=\"text-uppercase primary-btn \" href=\"# \">get details</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n<!-- <section class=\"facts-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row \">\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">2536</h1>\r\n                <p>Projects Completed</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">6784</h1>\r\n                <p>Really Happy Clients</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">1059</h1>\r\n                <p>Total Tasks Completed</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">2239</h1>\r\n                <p>Cups of Coffee Taken</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">435</h1>\r\n                <p>In House Professionals</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n\r\n\r\n<section class=\"reviews-area\" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>Some Features that Made us Unique</h1>\r\n                <p class=\"mb-10 text-center \">\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Regular Rides</h4>\r\n                    <p>\r\n                        You can use our CM Gaadi vehicles for regular rides. We provides some offers for our regular customers\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Prebook Your Rides</h4>\r\n                    <p>\r\n                        You can prebook your rides before ready to take our services. Free cancellation before the rides begins\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Vehicle Pickup Using Map Locations</h4>\r\n                    <p>\r\n                        You can choose the location for the car to pick up. Also you can search the cars to available in the nearest locations\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>24/7 Customer support</h4>\r\n                    <p>\r\n                        For support and other queries 24/7 customer support is provided.For any kind of issues while the ride, we will help you resolve it.\r\n\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \" style=\"    height: 208px;\">\r\n                    <h4>Push Notifications</h4>\r\n                    <p>\r\n                        You will get timely notifications on your rides. All your data are safe with us.\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<section class=\"reviews-area\" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>Pricing</h1>\r\n                <p class=\"mb-10 text-center \">\r\n                    Our Pricing Structure.\r\n                </p>\r\n                <hr>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-6 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Pricing For CAB Services</h4>\r\n                    <!-- <p>\r\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\r\n                    </p> -->\r\n                    <p>Minumum Kilometer - 5</p>\r\n                    <p>Minumum Charge - 150</p>\r\n                    <p>Waiting Charge - Per hour basis</p>\r\n\r\n                    <p>Note : Beyond 5km per hour or per km charges whichever comes big will be included with RS 150/-</p>\r\n                    <p>Km charge and hour charge will display on screen when booking a vehicle</p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-6 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Pricing For AUTO Services</h4>\r\n                    <p>Minumum Kilometer - 1.5</p>\r\n                    <p>Minumum Charge - 25</p>\r\n                    <p>Waiting Charge - Per Half hour basis</p>\r\n\r\n                    <p>Note : Beyond 1.5km per hour or per km charges whichever comes big will be included with RS 25/-</p>\r\n                    <p>Km charge and hour charge will display on screen when booking a vehicle</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<!-- <section class=\"callaction-area relative section-gap \">\r\n    <div class=\"overlay overlay-bg \"></div>\r\n    <div class=\"container \">\r\n        <div class=\"row justify-content-center \">\r\n            <div class=\"col-lg-10 \">\r\n                <h1 class=\"text-white \">Experience Great Support</h1>\r\n                <p>\r\n                </p>\r\n                <a class=\"callaction-btn text-uppercase \" href=\"# \">Reach Our Support Team</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n\r\n\r\n\r\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"navbar navbar-expand-lg navbar-light bg-dark\" style=\"background-color: #00060f !important;\">\r\n    <a class=\"navbar-brand\" href=\"#\">\r\n        <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 50px;\">\r\n    </a>\r\n    <button style=\"background: white;\" class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n        <ul class=\"navbar-nav ml-auto\">\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/userhome\" style=\"color: white;\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" routerLinkActive=\"active\">\r\n                <a class=\"nav-link\" routerLink=\"/aboutus\" style=\"color: white;\">About US</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Features</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Contact Us</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white;\">Login</a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link\" href=\"#\" style=\"color: white; padding-left: 8px;   border: 1px solid #ffcb67;\">Register</a>\r\n            </li>\r\n\r\n        </ul>\r\n\r\n    </div>\r\n</nav> -->\r\n\r\n<app-navigation></app-navigation>\r\n<section class=\"banner-area relative\">\r\n    <!-- <div class=\"overlay overlay-bg\"></div> -->\r\n    <div class=\"container\">\r\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\r\n            <div class=\"banner-content col-lg-7 col-md-6 \">\r\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\r\n                <h1 class=\"text-white text-uppercase\">\r\n                    Bringing the future of rides\r\n                </h1>\r\n                <p class=\"pt-20 pb-20 text-white\">\r\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\r\n\r\n                </p>\r\n                <!-- <a href=\"#\" class=\"primary-btn text-uppercase\">Rent Car Now</a> -->\r\n            </div>\r\n            <!-- <div class=\"col-lg-5  col-md-6 header-right\">\r\n                <h4 class=\"text-white pb-30\">Book Your Car Today!</h4>\r\n                <form class=\"form\" role=\"form\" autocomplete=\"off\">\r\n                    <div class=\"form-group\">\r\n                        <div class=\"default-select\" id=\"default-select\">\r\n                            <select>\r\n                                <option value=\" \" disabled selected hidden>Select Your Car</option>\r\n                                <option value=\" 1 \">BMW</option>\r\n                                <option value=\" 1 \">Farrari</option>\r\n                                <option value=\" 1 \">Toyota</option>\r\n                            </select>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\" form-group row \">\r\n                        <div class=\" col-md-6 wrap-left \">\r\n                            <div class=\" default-select \" id=\" default-select \">\r\n                                <select>\r\n                                    <option value=\"\" disabled selected hidden>Pickup</option>\r\n                                    <option value=\"1\">Pickup One</option>\r\n                                    <option value=\"1\">Pickup Two</option>\r\n                                    <option value=\"1\">Pickup Three</option>\r\n                                    <option value=\"1\">Pickup Four</option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n\r\n                    </div>\r\n\r\n                    <div class=\" from-group \">\r\n                        <input class=\" form-control txt-field \" type=\" text \" name=\" name \" placeholder=\" Your name \">\r\n                        <input class=\" form-control txt-field \" type=\" email \" name=\" email \" placeholder=\" Email address \">\r\n                        <input class=\" form-control txt-field \" type=\" tel \" name=\" phone \" placeholder=\" Phone number \">\r\n                    </div>\r\n                    <div class=\" form-group row \">\r\n                        <div class=\" col-md-12 \">\r\n                            <button type=\" reset \" class=\" btn btn-default btn-lg btn-block text-center text-uppercase \">Confirm Car\r\n                                Booking</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"feature-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text \">\r\n                <h1>What Services we offer to our clients</h1>\r\n                <p>\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Taxi Services</h4>\r\n                    <p>\r\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent a Car</h4>\r\n                    <p>\r\n                        Rent a car for ride with or without driver. You can use our app to select the car. No hidden or extra charges applicable. You can choose the locations and car type before submitting your confirmation\r\n\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent Your Car</h4>\r\n                    <p>\r\n                        You can rent your cars by registering, you will get a user id and account details after the verification. You can register n number of cars you owned.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-rocket \"></span>Technical Skills</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-diamond \"></span>Highly Recomended</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-bubble \"></span>Positive Reviews</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n\r\n<!-- <section class=\"home-about-area \" id=\"about \">\r\n    <div class=\"container-fluid \">\r\n        <div class=\"row justify-content-center align-items-center \">\r\n            <div class=\"col-lg-6 no-padding home-about-left \">\r\n                <img class=\"img-fluid \" src=\"assets/assets/img/about-img.jpg \" alt=\" \">\r\n            </div>\r\n            <div class=\"col-lg-6 no-padding home-about-right \">\r\n                <h1>Globally Connected <br> by Large Network</h1>\r\n                <p>\r\n                    <span>We are here to listen from you deliver exellence</span>\r\n                </p>\r\n                <p>\r\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.\r\n                </p>\r\n                <a class=\"text-uppercase primary-btn \" href=\"# \">get details</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n<!-- <section class=\"facts-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row \">\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">2536</h1>\r\n                <p>Projects Completed</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">6784</h1>\r\n                <p>Really Happy Clients</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">1059</h1>\r\n                <p>Total Tasks Completed</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">2239</h1>\r\n                <p>Cups of Coffee Taken</p>\r\n            </div>\r\n            <div class=\"col single-fact \">\r\n                <h1 class=\"counter \">435</h1>\r\n                <p>In House Professionals</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n\r\n\r\n<section class=\"reviews-area\" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>Some Features that Made us Unique</h1>\r\n                <p class=\"mb-10 text-center \">\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Regular Rides</h4>\r\n                    <p>\r\n                        You can use our CM Gaadi vehicles for regular rides. We provides some offers for our regular customers\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Prebook Your Rides</h4>\r\n                    <p>\r\n                        You can prebook your rides before ready to take our services. Free cancellation before the rides begins\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>Vehicle Pickup Using Map Locations</h4>\r\n                    <p>\r\n                        You can choose the location for the car to pick up. Also you can search the cars to available in the nearest locations\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4>24/7 Customer support</h4>\r\n                    <p>\r\n                        For support and other queries 24/7 customer support is provided.For any kind of issues while the ride, we will help you resolve it.\r\n\r\n                    </p>\r\n                    <!-- <div class=\"star \">\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star checked \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                        <span class=\"fa fa-star \"></span>\r\n                    </div> -->\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \" style=\"    height: 208px;\">\r\n                    <h4>Push Notifications</h4>\r\n                    <p>\r\n                        You will get timely notifications on your rides. All your data are safe with us.\r\n                    </p>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<section class=\"reviews-area\" id=\"review \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text text-center \">\r\n                <h1>Pricing</h1>\r\n                <p class=\"mb-10 text-center \">\r\n                    Our Pricing Structure.\r\n                </p>\r\n                <hr>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-6 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Pricing For CAB Services</h4>\r\n                    <!-- <p>\r\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\r\n                    </p> -->\r\n                    <p>Minumum Kilometer - 5</p>\r\n                    <p>Minumum Charge - 150</p>\r\n                    <p>Waiting Charge - Per hour basis</p>\r\n\r\n                    <p>Note : Beyond 5km per hour or per km charges whichever comes big will be included with RS 150/-</p>\r\n                    <p>Km charge and hour charge will display on screen when booking a vehicle</p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-6 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Pricing For AUTO Services</h4>\r\n                    <p>Minumum Kilometer - 1.5</p>\r\n                    <p>Minumum Charge - 25</p>\r\n                    <p>Waiting Charge - Per Half hour basis</p>\r\n\r\n                    <p>Note : Beyond 1.5km per hour or per km charges whichever comes big will be included with RS 25/-</p>\r\n                    <p>Km charge and hour charge will display on screen when booking a vehicle</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<!-- <section class=\"callaction-area relative section-gap \">\r\n    <div class=\"overlay overlay-bg \"></div>\r\n    <div class=\"container \">\r\n        <div class=\"row justify-content-center \">\r\n            <div class=\"col-lg-10 \">\r\n                <h1 class=\"text-white \">Experience Great Support</h1>\r\n                <p>\r\n                </p>\r\n                <a class=\"callaction-btn text-uppercase \" href=\"# \">Reach Our Support Team</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section> -->\r\n\r\n\r\n\r\n<app-footer></app-footer>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html":
-/*!*****************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html ***!
-  \*****************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html ***!
+  \****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Services\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n<section class=\"feature-area section-gap \">\n    <div class=\"container \">\n        <div class=\"row d-flex justify-content-center \">\n            <div class=\"col-md-8 pb-40 header-text \">\n                <h1>What Services we offer to our clients</h1>\n                <p>\n                    Who are in extremely love with eco friendly system.\n                </p>\n            </div>\n        </div>\n        <div class=\"row \">\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-user \"></span>Taxi Services</h4>\n                    <p>\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-car \"></span>Rent a Car</h4>\n                    <p>\n                        Rent a car for ride with or without driver. You can use our app to select the car. No hidden or extra charges applicable. You can choose the locations and car type before submitting your confirmation\n\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-car \"></span>Rent Your Car</h4>\n                    <p>\n                        You can rent your cars by registering, you will get a user id and account details after the verification. You can register n number of cars you owned.\n                    </p>\n                </div>\n            </div>\n            <!-- <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-rocket \"></span>Technical Skills</h4>\n                    <p>\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-diamond \"></span>Highly Recomended</h4>\n                    <p>\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 \">\n                <div class=\"single-feature \">\n                    <h4><span class=\"lnr lnr-bubble \"></span>Positive Reviews</h4>\n                    <p>\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\n                    </p>\n                </div>\n            </div> -->\n        </div>\n    </div>\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n<section class=\"banner-area relative\" id=\"home\">\r\n    <div class=\"overlay overlay-bg\"></div>\r\n    <div class=\"container\">\r\n        <div class=\"row d-flex align-items-center justify-content-center\">\r\n            <div class=\"about-content col-lg-12\">\r\n                <h1 class=\"text-white\">\r\n                    Services\r\n                </h1>\r\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n<section class=\"feature-area section-gap \">\r\n    <div class=\"container \">\r\n        <div class=\"row d-flex justify-content-center \">\r\n            <div class=\"col-md-8 pb-40 header-text \">\r\n                <h1>What Services we offer to our clients</h1>\r\n                <p>\r\n                    Who are in extremely love with eco friendly system.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row \">\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-user \"></span>Taxi Services</h4>\r\n                    <p>\r\n                        We provides taxi services in locations like (write Locations). You can book your taxi from our CM Gaadi site or app. After the ride ends you can pay by cash or cards or UPI\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent a Car</h4>\r\n                    <p>\r\n                        Rent a car for ride with or without driver. You can use our app to select the car. No hidden or extra charges applicable. You can choose the locations and car type before submitting your confirmation\r\n\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-car \"></span>Rent Your Car</h4>\r\n                    <p>\r\n                        You can rent your cars by registering, you will get a user id and account details after the verification. You can register n number of cars you owned.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-rocket \"></span>Technical Skills</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-diamond \"></span>Highly Recomended</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 \">\r\n                <div class=\"single-feature \">\r\n                    <h4><span class=\"lnr lnr-bubble \"></span>Positive Reviews</h4>\r\n                    <p>\r\n                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.\r\n                    </p>\r\n                </div>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</section>");
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html":
-/*!***********************************************************************************************************!*\
-  !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html ***!
+  \**********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n<section class=\"banner-area relative\" id=\"home\">\n    <div class=\"overlay overlay-bg\"></div>\n    <div class=\"container\">\n        <div class=\"row d-flex align-items-center justify-content-center\">\n            <div class=\"about-content col-lg-12\">\n                <h1 class=\"text-white\">\n                    Terms & Conditions\n                </h1>\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\n            </div>\n        </div>\n    </div>\n</section>\n\n<section>\n    <div class=\"container\" style=\"margin-top: 20px;\">\n\n        <h6> Forbidden Uses: vehicles may not be used for the following:</h6>\n        <hr>\n        <p>Transporting goods/people in violation of local laws or excise & customs rules.</p>\n        <p>For sports, adventure, races rally and other competitive events.</p>\n        <p>For over speeding violations over 125 Km/hr, there will be a fine of ₹2500. Vehicle speed is tracked and monitored remotely through an in-car device to ensure the safety of all CM Gaadi members.</p>\n        <h6>For Self-Driving Cars</h6>\n        <hr>\n        <p>CM Gaadi member can choose two type of renting service. </p>\n        <p>1.Self-Driving car by the usage of a kilometer, Daily rent is applicable if the usage exceeds 24 hours. </p>\n        <p>2.Self-Driving car with Daily rent by kilometer limit, the additional charge is applicable if the daily limit exceeds.\n        </p>\n        <p>Proper Registration should be made on CM Gaadi for car owner approval, An approval process may take a maximum of 48 hours.</p>\n        <p>Once the owner approved the trip, The CM Gaadi member should pick up the car from the desired location specified by the owner.</p>\n        <p>If the CM Gaadi member, cancel’s the trip after the Owner’s approval Rs.75 will be charged towards the CM Gaadi member</p>\n\n        <p> CM Gaadi members should bring the original driving license followed by an Aadhar card for identity reference. Once the verification process was done the owner and CM Gaadi member mutually verified the starting kilometer reading from the car's\n            Odometer. </p>\n        <p>\n            Customer should verify the fuel level in the fuel gauge with the owner and it’s the customer's responsibility to return the car with the same fuel noted at the time of pickup\n        </p>\n        <p>Trip charges are calculated only at the time returning a car, and a trip kilometer is calculated by starting kilometer and ending kilometer from car’s odometer. </p>\n        <p>The rider should drive or utilize the car at the desired location as specified during the time of registration, Incase the customer violates the city limit or state limit or change in drop location. Then the owner will claim the legal case against\n            the rider for policy violation. </p>\n\n\n\n        <p>Your liability in the event of theft or accident to the vehicle is restricted to a maximum amount equal to ₹10,000/-. Car insurance handles the remainder. This is provided you adhere to all of CM Gaadi's standard rules and regulations as described</p>\n        <p>Requesting customers to mark damages, if any, in the car at the time of taking it as well as returning it to the owner</p>\n\n        <p>Incase of breakdown during the time of ride, customer can contact for customer support</p>\n\n        <p>Customer is responsible for any minor scratches, minor damages, self-damages, interior damages, change in any vehicle parts, damage due to rash driving, damage due to rough usage. And those damages are chargeable by the owner or the owner will\n            charge the cost for the damaged part with the labour cost for changing the damaged part</p>\n\n        <p>Customers are not permitted to do any changes on the engine part or electronic part. But customers can customize the driver components such as music system, Steering system, seat hight, light focus area, and other user-accessible equipment.</p>\n\n\n\n        <p>CM Gaadi or Owner is not responsible for missing any personal belongings of the customer during or after the drop off of the car. </p>\n        <p>In case of puncture or tire replacement due to rough driving or driving off-road, the customer needs to pay for the puncture and tire repairing or replacement. It is advised to the customer not to pick up the car if there is any tire-related issue\n            or report the issue properly during at the time of car pickup. </p>\n\n        <p>Customer should fuel the car very carefully recommend by the car company such as diesel or petrol or LPG. Any miss fuel to the car will leads to severe damage to the engine and customer should pay the entire service cost along with penalty and\n            daily rent of the car.</p>\n\n        <p>Customer can demand a driver in case they need a full-time driver for their trip, and separate charges will be applicable for the driver. Still, all the terms and conditions will be applicable to customers if they bring a driver into action. </p>\n\n\n        <h6>For Owners </h6>\n        <hr>\n\n        <p>Owner can register the vehicle using CM Gaadi App, along with vehicle details such as vehicle make, model, year, fuel type, seating capacity, color, average mileage, wheel type, details of the modification. Owners need to submit the vehicle Registration\n            copy, Insurance Copy, pollution Certificate, Owner’s ID proof, Pickup location details</p>\n\n\n        <p>Owners need to specify the desired pickup location, or the owner can utilize the CM Gaadi yard as pickup and drop-off location. The owner should specify either the car is applicable for multicity, interstate driving, and multicity drop-off. </p>\n\n\n        <p>The CM Gaadi technician will visit the location and examines the vehicle for CM Gaadi specification. Once the evaluation was done CM Gaadi will create the customized tariff for your vehicle. The entire process may take up to 5-7 days. </p>\n        <p>Owner need to pay the registration fee of rupees 1000 for the evaluation process and technician charges if applicable</p>\n        <p>Owner is responsible for any accident during at the time of ride, hence owner needs to choose the right insurance for their car. </p>\n\n        <p>Owner needs to update the kilometer reading, damages, fuel gauge, Tire condition, interior and exterior of the car with pictures. </p>\n\n\n\n        <p>Owner should share the GPS signal of the vehicle with CM Gaadi, If the vehicle does not have the GPS signaling Device then CM Gaadi will install the GPS device on the vehicle to identify the the exact location of the vehicle. Charges may be applicable\n            if CM Gaadi installs the GPS.</p>\n\n        <p>Owners shall have direct contact with the CM Gaadi customer in case of any issues, Such as puncture, Accident, City violation, State violation, Over speeding or in case of any illegal activities. </p>\n\n        <p>Owner is responsible for any accident, car theft, or car utilized for any illegal activities. It’s the owners' responsibility to keep Insurance, Pollution Certificate, Road tax, Permit, and FC on up to date. CM Gaadi is not responsible if an issue\n            raised due to the expiry of legal documents. It is advised to owners that their vehicle should have full insurance with the proper valuation for safety. </p>\n\n\n\n\n\n\n\n\n    </div>\n</section>\n\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n\r\n<section class=\"banner-area relative\" id=\"home\">\r\n    <div class=\"overlay overlay-bg\"></div>\r\n    <div class=\"container\">\r\n        <div class=\"row d-flex align-items-center justify-content-center\">\r\n            <div class=\"about-content col-lg-12\">\r\n                <h1 class=\"text-white\">\r\n                    Terms & Conditions\r\n                </h1>\r\n                <!-- <p class=\"text-white link-nav\"><a href=\"index.html\">Home </a> <span class=\"lnr lnr-arrow-right\"></span> <a href=\"about.html\"> About Us</a></p> -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<section>\r\n    <div class=\"container\" style=\"margin-top: 20px;\">\r\n\r\n        <h6> Forbidden Uses: vehicles may not be used for the following:</h6>\r\n        <hr>\r\n        <p>Transporting goods/people in violation of local laws or excise & customs rules.</p>\r\n        <p>For sports, adventure, races rally and other competitive events.</p>\r\n        <p>For over speeding violations over 125 Km/hr, there will be a fine of ₹2500. Vehicle speed is tracked and monitored remotely through an in-car device to ensure the safety of all CM Gaadi members.</p>\r\n        <h6>For Self-Driving Cars</h6>\r\n        <hr>\r\n        <p>CM Gaadi member can choose two type of renting service. </p>\r\n        <p>1.Self-Driving car by the usage of a kilometer, Daily rent is applicable if the usage exceeds 24 hours. </p>\r\n        <p>2.Self-Driving car with Daily rent by kilometer limit, the additional charge is applicable if the daily limit exceeds.\r\n        </p>\r\n        <p>Proper Registration should be made on CM Gaadi for car owner approval, An approval process may take a maximum of 48 hours.</p>\r\n        <p>Once the owner approved the trip, The CM Gaadi member should pick up the car from the desired location specified by the owner.</p>\r\n        <p>If the CM Gaadi member, cancel’s the trip after the Owner’s approval Rs.75 will be charged towards the CM Gaadi member</p>\r\n\r\n        <p> CM Gaadi members should bring the original driving license followed by an Aadhar card for identity reference. Once the verification process was done the owner and CM Gaadi member mutually verified the starting kilometer reading from the car's\r\n            Odometer. </p>\r\n        <p>\r\n            Customer should verify the fuel level in the fuel gauge with the owner and it’s the customer's responsibility to return the car with the same fuel noted at the time of pickup\r\n        </p>\r\n        <p>Trip charges are calculated only at the time returning a car, and a trip kilometer is calculated by starting kilometer and ending kilometer from car’s odometer. </p>\r\n        <p>The rider should drive or utilize the car at the desired location as specified during the time of registration, Incase the customer violates the city limit or state limit or change in drop location. Then the owner will claim the legal case against\r\n            the rider for policy violation. </p>\r\n\r\n\r\n\r\n        <p>Your liability in the event of theft or accident to the vehicle is restricted to a maximum amount equal to ₹10,000/-. Car insurance handles the remainder. This is provided you adhere to all of CM Gaadi's standard rules and regulations as described</p>\r\n        <p>Requesting customers to mark damages, if any, in the car at the time of taking it as well as returning it to the owner</p>\r\n\r\n        <p>Incase of breakdown during the time of ride, customer can contact for customer support</p>\r\n\r\n        <p>Customer is responsible for any minor scratches, minor damages, self-damages, interior damages, change in any vehicle parts, damage due to rash driving, damage due to rough usage. And those damages are chargeable by the owner or the owner will\r\n            charge the cost for the damaged part with the labour cost for changing the damaged part</p>\r\n\r\n        <p>Customers are not permitted to do any changes on the engine part or electronic part. But customers can customize the driver components such as music system, Steering system, seat hight, light focus area, and other user-accessible equipment.</p>\r\n\r\n\r\n\r\n        <p>CM Gaadi or Owner is not responsible for missing any personal belongings of the customer during or after the drop off of the car. </p>\r\n        <p>In case of puncture or tire replacement due to rough driving or driving off-road, the customer needs to pay for the puncture and tire repairing or replacement. It is advised to the customer not to pick up the car if there is any tire-related issue\r\n            or report the issue properly during at the time of car pickup. </p>\r\n\r\n        <p>Customer should fuel the car very carefully recommend by the car company such as diesel or petrol or LPG. Any miss fuel to the car will leads to severe damage to the engine and customer should pay the entire service cost along with penalty and\r\n            daily rent of the car.</p>\r\n\r\n        <p>Customer can demand a driver in case they need a full-time driver for their trip, and separate charges will be applicable for the driver. Still, all the terms and conditions will be applicable to customers if they bring a driver into action. </p>\r\n\r\n\r\n        <h6>For Owners </h6>\r\n        <hr>\r\n\r\n        <p>Owner can register the vehicle using CM Gaadi App, along with vehicle details such as vehicle make, model, year, fuel type, seating capacity, color, average mileage, wheel type, details of the modification. Owners need to submit the vehicle Registration\r\n            copy, Insurance Copy, pollution Certificate, Owner’s ID proof, Pickup location details</p>\r\n\r\n\r\n        <p>Owners need to specify the desired pickup location, or the owner can utilize the CM Gaadi yard as pickup and drop-off location. The owner should specify either the car is applicable for multicity, interstate driving, and multicity drop-off. </p>\r\n\r\n\r\n        <p>The CM Gaadi technician will visit the location and examines the vehicle for CM Gaadi specification. Once the evaluation was done CM Gaadi will create the customized tariff for your vehicle. The entire process may take up to 5-7 days. </p>\r\n        <p>Owner need to pay the registration fee of rupees 1000 for the evaluation process and technician charges if applicable</p>\r\n        <p>Owner is responsible for any accident during at the time of ride, hence owner needs to choose the right insurance for their car. </p>\r\n\r\n        <p>Owner needs to update the kilometer reading, damages, fuel gauge, Tire condition, interior and exterior of the car with pictures. </p>\r\n\r\n\r\n\r\n        <p>Owner should share the GPS signal of the vehicle with CM Gaadi, If the vehicle does not have the GPS signaling Device then CM Gaadi will install the GPS device on the vehicle to identify the the exact location of the vehicle. Charges may be applicable\r\n            if CM Gaadi installs the GPS.</p>\r\n\r\n        <p>Owners shall have direct contact with the CM Gaadi customer in case of any issues, Such as puncture, Accident, City violation, State violation, Over speeding or in case of any illegal activities. </p>\r\n\r\n        <p>Owner is responsible for any accident, car theft, or car utilized for any illegal activities. It’s the owners' responsibility to keep Insurance, Pollution Certificate, Road tax, Permit, and FC on up to date. CM Gaadi is not responsible if an issue\r\n            raised due to the expiry of legal documents. It is advised to owners that their vehicle should have full insurance with the proper valuation for safety. </p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    </div>\r\n</section>\r\n\r\n<app-footer></app-footer>");
 
 /***/ }),
 
-/***/ "../node_modules/tslib/tslib.es6.js":
-/*!******************************************!*\
-  !*** ../node_modules/tslib/tslib.es6.js ***!
-  \******************************************/
+/***/ "./node_modules/tslib/tslib.es6.js":
+/*!*****************************************!*\
+  !*** ./node_modules/tslib/tslib.es6.js ***!
+  \*****************************************/
 /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __createBinding, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -995,29 +1018,6 @@ function __classPrivateFieldSet(receiver, privateMap, value) {
 
 /***/ }),
 
-/***/ "./$$_lazy_route_resource lazy recursive":
-/*!******************************************************!*\
-  !*** ./$$_lazy_route_resource lazy namespace object ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncaught exception popping up in devtools
-	return Promise.resolve().then(function() {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
-
-/***/ }),
-
 /***/ "./src/app/_interceptor/jwtinterceptor.ts":
 /*!************************************************!*\
   !*** ./src/app/_interceptor/jwtinterceptor.ts ***!
@@ -1028,8 +1028,8 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthInterceptor", function() { return AuthInterceptor; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _login_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../login/login.service */ "./src/app/login/login.service.ts");
 
 
@@ -1076,9 +1076,9 @@ AuthInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoadingScreenInterceptor", function() { return LoadingScreenInterceptor; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
 /* harmony import */ var _loading_loading_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../loading/loading.service */ "./src/app/loading/loading.service.ts");
 
 
@@ -1115,7 +1115,7 @@ LoadingScreenInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Bank", function() { return Bank; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 
 class Bank {
 }
@@ -1133,7 +1133,7 @@ class Bank {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Driver", function() { return Driver; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 
 class Driver {
 }
@@ -1151,7 +1151,7 @@ class Driver {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Login", function() { return Login; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 
 class Login {
 }
@@ -1169,7 +1169,7 @@ class Login {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Registeruser", function() { return Registeruser; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 
 class Registeruser {
 }
@@ -1187,7 +1187,7 @@ class Registeruser {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Vehicle", function() { return Vehicle; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 
 class Vehicle {
     ;
@@ -1206,11 +1206,11 @@ class Vehicle {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthenticationService", function() { return AuthenticationService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "../node_modules/rxjs/_esm2015/index.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
 
 
 
@@ -1276,8 +1276,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutusComponent", function() { return AboutusComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let AboutusComponent = class AboutusComponent {
@@ -1288,7 +1288,7 @@ let AboutusComponent = class AboutusComponent {
 AboutusComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-aboutus',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./aboutus.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./aboutus.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./aboutus.component.css */ "./src/app/aboutus/aboutus.component.css")).default]
     })
 ], AboutusComponent);
@@ -1307,9 +1307,9 @@ AboutusComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminService", function() { return AdminService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 
 
@@ -1417,14 +1417,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminapprovevehiclesComponent", function() { return AdminapprovevehiclesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -1577,7 +1577,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 AdminapprovevehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adminapprovevehicles',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminapprovevehicles.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminapprovevehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adminapprovevehicles.component.css */ "./src/app/adminpannel/adminapprovevehicles/adminapprovevehicles.component.css")).default]
     })
 ], AdminapprovevehiclesComponent);
@@ -1609,13 +1609,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewVehicledetailsComponent", function() { return ViewVehicledetailsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -1730,7 +1730,7 @@ ViewVehicledetailsComponent.ctorParameters = () => [
 ViewVehicledetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-view-vehicledetails',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-vehicledetails.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-vehicledetails.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./view-vehicledetails.component.css */ "./src/app/adminpannel/adminapprovevehicles/view-vehicledetails/view-vehicledetails.component.css")).default]
     })
 ], ViewVehicledetailsComponent);
@@ -1762,8 +1762,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminhomeComponent", function() { return AdminhomeComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let AdminhomeComponent = class AdminhomeComponent {
@@ -1777,7 +1777,7 @@ let AdminhomeComponent = class AdminhomeComponent {
 AdminhomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adminhome',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminhome.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminhome.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminhome/adminhome.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adminhome.component.css */ "./src/app/adminpannel/adminhome/adminhome.component.css")).default]
     })
 ], AdminhomeComponent);
@@ -1795,7 +1795,7 @@ AdminhomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".row{\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n.table-responsive{\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9hZG1pbnBhbm5lbC9hZG1pbnBhbm5lbC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvd3tcclxuICAgIG1hcmdpbi1sZWZ0OiAwcHg7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDBweDtcclxufVxyXG4udGFibGUtcmVzcG9uc2l2ZXtcclxuICAgIG1hcmdpbi1sZWZ0OiAxOTVweDtcclxuICAgIG1hcmdpbi10b3A6IDE2cHg7XHJcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n.table-responsive {\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cge1xyXG4gICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgIG1hcmdpbi1yaWdodDogMHB4O1xyXG59XHJcblxyXG4udGFibGUtcmVzcG9uc2l2ZSB7XHJcbiAgICBtYXJnaW4tbGVmdDogMTk1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xyXG59Il19 */");
 
 /***/ }),
 
@@ -1809,8 +1809,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminpannelComponent", function() { return AdminpannelComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./admin.service */ "./src/app/adminpannel/admin.service.ts");
 
 
@@ -1823,7 +1823,7 @@ let AdminpannelComponent = class AdminpannelComponent {
 AdminpannelComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adminpannel',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminpannel.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adminpannel.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/adminpannel.component.html")).default,
         providers: [_admin_service__WEBPACK_IMPORTED_MODULE_2__["AdminService"]],
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adminpannel.component.css */ "./src/app/adminpannel/adminpannel.component.css")).default]
     })
@@ -1856,10 +1856,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompaniesComponent", function() { return CompaniesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
 
 
@@ -1917,7 +1917,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 CompaniesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-companies',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./companies.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./companies.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/companies/companies.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./companies.component.css */ "./src/app/adminpannel/companies/companies.component.css")).default]
     })
 ], CompaniesComponent);
@@ -1949,10 +1949,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CountriesComponent", function() { return CountriesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
 
 
@@ -1995,7 +1995,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 CountriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-countries',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./countries.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./countries.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/countries/countries.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./countries.component.css */ "./src/app/adminpannel/countries/countries.component.css")).default]
     })
 ], CountriesComponent);
@@ -2027,9 +2027,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_services_authentication_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/_services/authentication.service */ "./src/app/_services/authentication.service.ts");
 
 
@@ -2054,7 +2054,7 @@ HeaderComponent.ctorParameters = () => [
 HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-header',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./header.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/header/header.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./header.component.css */ "./src/app/adminpannel/header/header.component.css")).default]
     })
 ], HeaderComponent);
@@ -2086,13 +2086,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddLocationComponent", function() { return AddLocationComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -2140,7 +2140,7 @@ AddLocationComponent.ctorParameters = () => [
 AddLocationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-add-location',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-location.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-location.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/add-location/add-location.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-location.component.css */ "./src/app/adminpannel/location/add-location/add-location.component.css")).default]
     })
 ], AddLocationComponent);
@@ -2172,12 +2172,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditLocationComponent", function() { return EditLocationComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -2224,7 +2224,7 @@ EditLocationComponent.ctorParameters = () => [
 EditLocationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-edit-location',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-location.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-location.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/edit-location/edit-location.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-location.component.css */ "./src/app/adminpannel/location/edit-location/edit-location.component.css")).default]
     })
 ], EditLocationComponent);
@@ -2256,12 +2256,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocationComponent", function() { return LocationComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 
 
 
@@ -2320,7 +2320,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 LocationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-location',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./location.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./location.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/location/location.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./location.component.css */ "./src/app/adminpannel/location/location.component.css")).default]
     })
 ], LocationComponent);
@@ -2352,10 +2352,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PaymentreportsComponent", function() { return PaymentreportsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
 
 
 
@@ -2392,7 +2392,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 PaymentreportsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-paymentreports',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./paymentreports.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./paymentreports.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/paymentreports/paymentreports.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./paymentreports.component.css */ "./src/app/adminpannel/paymentreports/paymentreports.component.css")).default]
     })
 ], PaymentreportsComponent);
@@ -2424,13 +2424,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResetPassowrdComponent", function() { return ResetPassowrdComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var src_app_register_password_validation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/register/password-validation */ "./src/app/register/password-validation.ts");
 /* harmony import */ var src_app_models_login__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/_models/login */ "./src/app/_models/login.ts");
 /* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -2478,7 +2478,7 @@ ResetPassowrdComponent.ctorParameters = () => [
 ResetPassowrdComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-reset-passowrd',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./reset-passowrd.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./reset-passowrd.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/reset-passowrd/reset-passowrd.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./reset-passowrd.component.css */ "./src/app/adminpannel/reset-passowrd/reset-passowrd.component.css")).default]
     })
 ], ResetPassowrdComponent);
@@ -2496,7 +2496,7 @@ ResetPassowrdComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n.sidebar {\r\n\tbackground: linear-gradient(to bottom, white , #ffcb67);\r\n\tbox-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n\ttop: 79px;\r\n\twidth: 230px;\r\n\t/* z-index: 1039; */\r\n\tz-index: 0;\r\n\tbackground-color: #fff;\r\n\tbottom: 0;\r\n\tmargin-top: 0px;\r\n\tposition: fixed;\r\n\tleft: 0;\r\n\ttransition: all 0.2s ease-in-out;\r\n}\r\n.sidebar.opened {\r\n\ttransition: all 0.4s ease;\r\n}\r\n.sidebar-inner {\r\n\theight: 100%;\r\n\ttransition: all 0.2s ease-in-out 0s;\r\n}\r\n.sidebar-menu ul {\r\n\tfont-size: 14px;\r\n\tlist-style-type: none;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n}\r\n.sidebar-menu li a {\r\n\tcolor: #888;\r\n\tdisplay: block;\r\n\tfont-size: 15px;\r\n\theight: auto;\r\n\tpadding: 0 20px;\r\n}\r\n.sidebar-menu li a:hover {\r\n\tcolor: #009efb;\r\n}\r\n.sidebar-menu li.active a {\r\n\tcolor: #009efb;\r\n\tbackground-color: #f3f3f3;\r\n}\r\n.menu-title {\r\n\tcolor: #333;\r\n\tfont-size: 15px;\r\n\tfont-weight: 500;\r\n\tpadding: 12px 20px;\r\n}\r\n.menu-title > i {\r\n\tfloat: right;\r\n\tline-height: 40px;\r\n}\r\n.sidebar-menu li.menu-title a {\r\n\tcolor: #009efb;\r\n\tdisplay: inline-block;\r\n\t/* float: right; */\r\n\tpadding: 0;\r\n}\r\n.sidebar-menu li.menu-title a.btn {\r\n\tcolor: #fff;\r\n\tdisplay: block;\r\n\tfloat: none;\r\n\tfont-size: 15px;\r\n\tline-height: inherit;\r\n\tmargin-bottom: 15px;\r\n}\r\n.sidebar-menu ul ul a.active {\r\n\tcolor: #009efb;\r\n\ttext-decoration: underline;\r\n}\r\n.mobile-user-menu {\r\n\tcolor: #fff;\r\n\tdisplay: none;\r\n\tfont-size: 24px;\r\n\theight: 50px;\r\n\tline-height: 50px;\r\n\tpadding: 0 20px;\r\n\tposition: absolute;\r\n\tright: 0;\r\n\ttext-align: right;\r\n\ttop: 0;\r\n\twidth: 50px;\r\n\tz-index: 10;\r\n}\r\n.mobile-user-menu > a {\r\n\tcolor: #fff;\r\n\tpadding: 0;\r\n}\r\n.mobile-user-menu > a:hover {\r\n\tcolor: #fff;\r\n}\r\n.mobile-user-menu > .dropdown-menu > a {\r\n    line-height: 23px;\r\n}\r\n.profile-rightbar {\r\n\tdisplay: none !important;\r\n\tcolor: #009efb;\r\n\tfont-size: 26px;\r\n\tmargin-left: 15px;\r\n}\r\n.fixed-sidebar-right {\r\n\tposition: fixed;\r\n\ttop: 60px;\r\n\tright: 0;\r\n\twidth: 300px;\r\n\tmargin-right: -300px;\r\n\tbottom: 0;\r\n\tz-index: 101;\r\n\ttransition: all 0.4s ease;\r\n}\r\n.mobile_btn {\r\n\tdisplay: none;\r\n}\r\n.sidebar .sidebar-menu > ul > li > a span {\r\n\ttransition: all 0.2s ease-in-out 0s;\r\n\tdisplay: inline-block;\r\n\tmargin-left: 10px;\r\n\twhite-space: nowrap;\r\n\tcolor: black;\r\n}\r\n.sidebar .sidebar-menu > ul > li > a span.badge {\r\n\tcolor: #fff;\r\n\tmargin-left: auto;\r\n}\r\n.sidebar-menu ul ul a {\r\n\tdisplay: block;\r\n\tfont-size: 14px;\r\n\tpadding: 9px 10px 9px 50px;\r\n\tposition: relative;\r\n}\r\n.sidebar-menu ul ul {\r\n\tbackground-color: #f3f3f3;\r\n\tdisplay: none;\r\n}\r\n.sidebar-menu ul ul ul a {\r\n\tpadding-left: 70px;\r\n}\r\n.sidebar-menu ul ul ul ul a {\r\n\tpadding-left: 90px;\r\n}\r\n.sidebar-menu > ul > li {\r\n\tposition: relative;\r\n}\r\n.sidebar-menu .menu-arrow {\r\n\ttransition: transform .15s;\r\n\tposition: absolute;\r\n\tright: 15px;\r\n\tdisplay: inline-block;\r\n\tfont-family: 'FontAwesome';\r\n\ttext-rendering: auto;\r\n\tline-height: 40px;\r\n\tfont-size: 18px;\r\n\t-webkit-font-smoothing: antialiased;\r\n\t-moz-osx-font-smoothing: grayscale;\r\n\ttransform: translate(0, 0);\r\n\tline-height: 18px;\r\n\ttop: 15px;\r\n}\r\n.sidebar-menu .menu-arrow:before {\r\n\tcontent: \"\\f105\";\r\n}\r\n.sidebar-menu li a.subdrop .menu-arrow {\r\n\ttransform: rotate(90deg);\r\n}\r\n.sidebar-menu ul ul a .menu-arrow {\r\n\ttop: 6px;\r\n}\r\n.sidebar-menu a {\r\n\ttransition: unset;\r\n\t-moz-transition: unset;\r\n\t-o-transition: unset;\r\n\t-ms-transition: unset;\r\n\t-webkit-transition: unset;\r\n}\r\n.sidebar-menu > ul > li > a {\r\n\tpadding: 12px 20px;\r\n\talign-items: center;\r\n\tdisplay: flex;\r\n\tjustify-content: flex-start;\r\n\tposition: relative;\r\n\ttransition: all 0.2s ease-in-out 0s;\r\n}\r\n.sidebar-menu ul li a i {\r\n\talign-items: center;\r\n\tdisplay: inline-flex;\r\n\tfont-size: 18px;\r\n\tmin-height: 24px;\r\n\tline-height: 18px;\r\n\twidth: 20px;\r\n\ttransition: all 0.2s ease-in-out 0s;\r\n}\r\n.sidebar-menu ul li.menu-title a i {\r\n\tfont-size: 16px;\r\n\tmargin-right: 0;\r\n\ttext-align: right;\r\n\twidth: auto;\r\n}\r\n.sidebar-menu li.active a {\r\n\tcolor: orange;\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5wYW5uZWwvc2lkZWJhci9zaWRlYmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0NBQ0MsdURBQXVEO0NBQ3ZELDBDQUEwQztDQUMxQyxTQUFTO0NBQ1QsWUFBWTtDQUNaLG1CQUFtQjtDQUNuQixVQUFVO0NBQ1Ysc0JBQXNCO0NBQ3RCLFNBQVM7Q0FDVCxlQUFlO0NBQ2YsZUFBZTtDQUNmLE9BQU87Q0FDUCxnQ0FBZ0M7QUFDakM7QUFDQTtDQUdDLHlCQUF5QjtBQUMxQjtBQUNBO0NBQ0MsWUFBWTtDQUNaLG1DQUFtQztBQUNwQztBQUNBO0NBQ0MsZUFBZTtDQUNmLHFCQUFxQjtDQUNyQixTQUFTO0NBQ1QsVUFBVTtBQUNYO0FBQ0E7Q0FDQyxXQUFXO0NBQ1gsY0FBYztDQUNkLGVBQWU7Q0FDZixZQUFZO0NBQ1osZUFBZTtBQUNoQjtBQUNBO0NBQ0MsY0FBYztBQUNmO0FBQ0E7Q0FDQyxjQUFjO0NBQ2QseUJBQXlCO0FBQzFCO0FBQ0E7Q0FDQyxXQUFXO0NBQ1gsZUFBZTtDQUNmLGdCQUFnQjtDQUNoQixrQkFBa0I7QUFDbkI7QUFDQTtDQUNDLFlBQVk7Q0FDWixpQkFBaUI7QUFDbEI7QUFDQTtDQUNDLGNBQWM7Q0FDZCxxQkFBcUI7Q0FDckIsa0JBQWtCO0NBQ2xCLFVBQVU7QUFDWDtBQUNBO0NBQ0MsV0FBVztDQUNYLGNBQWM7Q0FDZCxXQUFXO0NBQ1gsZUFBZTtDQUNmLG9CQUFvQjtDQUNwQixtQkFBbUI7QUFDcEI7QUFDQTtDQUNDLGNBQWM7Q0FDZCwwQkFBMEI7QUFDM0I7QUFDQTtDQUNDLFdBQVc7Q0FDWCxhQUFhO0NBQ2IsZUFBZTtDQUNmLFlBQVk7Q0FDWixpQkFBaUI7Q0FDakIsZUFBZTtDQUNmLGtCQUFrQjtDQUNsQixRQUFRO0NBQ1IsaUJBQWlCO0NBQ2pCLE1BQU07Q0FDTixXQUFXO0NBQ1gsV0FBVztBQUNaO0FBQ0E7Q0FDQyxXQUFXO0NBQ1gsVUFBVTtBQUNYO0FBQ0E7Q0FDQyxXQUFXO0FBQ1o7QUFDQTtJQUNJLGlCQUFpQjtBQUNyQjtBQUNBO0NBQ0Msd0JBQXdCO0NBQ3hCLGNBQWM7Q0FDZCxlQUFlO0NBQ2YsaUJBQWlCO0FBQ2xCO0FBQ0E7Q0FDQyxlQUFlO0NBQ2YsU0FBUztDQUNULFFBQVE7Q0FDUixZQUFZO0NBQ1osb0JBQW9CO0NBQ3BCLFNBQVM7Q0FDVCxZQUFZO0NBR1oseUJBQXlCO0FBQzFCO0FBQ0E7Q0FDQyxhQUFhO0FBQ2Q7QUFDQTtDQUNDLG1DQUFtQztDQUNuQyxxQkFBcUI7Q0FDckIsaUJBQWlCO0NBQ2pCLG1CQUFtQjtDQUNuQixZQUFZO0FBQ2I7QUFDQTtDQUNDLFdBQVc7Q0FDWCxpQkFBaUI7QUFDbEI7QUFDQTtDQUNDLGNBQWM7Q0FDZCxlQUFlO0NBQ2YsMEJBQTBCO0NBQzFCLGtCQUFrQjtBQUNuQjtBQUNBO0NBQ0MseUJBQXlCO0NBQ3pCLGFBQWE7QUFDZDtBQUNBO0NBQ0Msa0JBQWtCO0FBQ25CO0FBQ0E7Q0FDQyxrQkFBa0I7QUFDbkI7QUFDQTtDQUNDLGtCQUFrQjtBQUNuQjtBQUNBO0NBR0MsMEJBQTBCO0NBQzFCLGtCQUFrQjtDQUNsQixXQUFXO0NBQ1gscUJBQXFCO0NBQ3JCLDBCQUEwQjtDQUMxQixvQkFBb0I7Q0FDcEIsaUJBQWlCO0NBQ2pCLGVBQWU7Q0FDZixtQ0FBbUM7Q0FDbkMsa0NBQWtDO0NBSWxDLDBCQUEwQjtDQUMxQixpQkFBaUI7Q0FDakIsU0FBUztBQUNWO0FBQ0E7Q0FDQyxnQkFBZ0I7QUFDakI7QUFDQTtDQUlDLHdCQUF3QjtBQUN6QjtBQUNBO0NBQ0MsUUFBUTtBQUNUO0FBQ0E7Q0FDQyxpQkFBaUI7Q0FDakIsc0JBQXNCO0NBQ3RCLG9CQUFvQjtDQUNwQixxQkFBcUI7Q0FDckIseUJBQXlCO0FBQzFCO0FBQ0E7Q0FDQyxrQkFBa0I7Q0FDbEIsbUJBQW1CO0NBQ25CLGFBQWE7Q0FDYiwyQkFBMkI7Q0FDM0Isa0JBQWtCO0NBQ2xCLG1DQUFtQztBQUNwQztBQUNBO0NBQ0MsbUJBQW1CO0NBQ25CLG9CQUFvQjtDQUNwQixlQUFlO0NBQ2YsZ0JBQWdCO0NBQ2hCLGlCQUFpQjtDQUNqQixXQUFXO0NBQ1gsbUNBQW1DO0FBQ3BDO0FBQ0E7Q0FDQyxlQUFlO0NBQ2YsZUFBZTtDQUNmLGlCQUFpQjtDQUNqQixXQUFXO0FBQ1o7QUFLQTtDQUNDLGFBQWE7QUFDZCIsImZpbGUiOiJzcmMvYXBwL2FkbWlucGFubmVsL3NpZGViYXIvc2lkZWJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi5zaWRlYmFyIHtcclxuXHRiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gYm90dG9tLCB3aGl0ZSAsICNmZmNiNjcpO1xyXG5cdGJveC1zaGFkb3c6IDAgMXB4IDJweCAwIHJnYmEoMCwgMCwgMCwgMC4xKTtcclxuXHR0b3A6IDc5cHg7XHJcblx0d2lkdGg6IDIzMHB4O1xyXG5cdC8qIHotaW5kZXg6IDEwMzk7ICovXHJcblx0ei1pbmRleDogMDtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG5cdGJvdHRvbTogMDtcclxuXHRtYXJnaW4tdG9wOiAwcHg7XHJcblx0cG9zaXRpb246IGZpeGVkO1xyXG5cdGxlZnQ6IDA7XHJcblx0dHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZS1pbi1vdXQ7XHJcbn1cclxuLnNpZGViYXIub3BlbmVkIHtcclxuXHQtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcblx0LW1vei10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG5cdHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuLnNpZGViYXItaW5uZXIge1xyXG5cdGhlaWdodDogMTAwJTtcclxuXHR0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlLWluLW91dCAwcztcclxufVxyXG4uc2lkZWJhci1tZW51IHVsIHtcclxuXHRmb250LXNpemU6IDE0cHg7XHJcblx0bGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG5cdG1hcmdpbjogMDtcclxuXHRwYWRkaW5nOiAwO1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgbGkgYSB7XHJcblx0Y29sb3I6ICM4ODg7XHJcblx0ZGlzcGxheTogYmxvY2s7XHJcblx0Zm9udC1zaXplOiAxNXB4O1xyXG5cdGhlaWdodDogYXV0bztcclxuXHRwYWRkaW5nOiAwIDIwcHg7XHJcbn1cclxuLnNpZGViYXItbWVudSBsaSBhOmhvdmVyIHtcclxuXHRjb2xvcjogIzAwOWVmYjtcclxufVxyXG4uc2lkZWJhci1tZW51IGxpLmFjdGl2ZSBhIHtcclxuXHRjb2xvcjogIzAwOWVmYjtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZjNmM2YzO1xyXG59XHJcbi5tZW51LXRpdGxlIHtcclxuXHRjb2xvcjogIzMzMztcclxuXHRmb250LXNpemU6IDE1cHg7XHJcblx0Zm9udC13ZWlnaHQ6IDUwMDtcclxuXHRwYWRkaW5nOiAxMnB4IDIwcHg7XHJcbn1cclxuLm1lbnUtdGl0bGUgPiBpIHtcclxuXHRmbG9hdDogcmlnaHQ7XHJcblx0bGluZS1oZWlnaHQ6IDQwcHg7XHJcbn1cclxuLnNpZGViYXItbWVudSBsaS5tZW51LXRpdGxlIGEge1xyXG5cdGNvbG9yOiAjMDA5ZWZiO1xyXG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuXHQvKiBmbG9hdDogcmlnaHQ7ICovXHJcblx0cGFkZGluZzogMDtcclxufVxyXG4uc2lkZWJhci1tZW51IGxpLm1lbnUtdGl0bGUgYS5idG4ge1xyXG5cdGNvbG9yOiAjZmZmO1xyXG5cdGRpc3BsYXk6IGJsb2NrO1xyXG5cdGZsb2F0OiBub25lO1xyXG5cdGZvbnQtc2l6ZTogMTVweDtcclxuXHRsaW5lLWhlaWdodDogaW5oZXJpdDtcclxuXHRtYXJnaW4tYm90dG9tOiAxNXB4O1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgdWwgdWwgYS5hY3RpdmUge1xyXG5cdGNvbG9yOiAjMDA5ZWZiO1xyXG5cdHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG59XHJcbi5tb2JpbGUtdXNlci1tZW51IHtcclxuXHRjb2xvcjogI2ZmZjtcclxuXHRkaXNwbGF5OiBub25lO1xyXG5cdGZvbnQtc2l6ZTogMjRweDtcclxuXHRoZWlnaHQ6IDUwcHg7XHJcblx0bGluZS1oZWlnaHQ6IDUwcHg7XHJcblx0cGFkZGluZzogMCAyMHB4O1xyXG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHRyaWdodDogMDtcclxuXHR0ZXh0LWFsaWduOiByaWdodDtcclxuXHR0b3A6IDA7XHJcblx0d2lkdGg6IDUwcHg7XHJcblx0ei1pbmRleDogMTA7XHJcbn1cclxuLm1vYmlsZS11c2VyLW1lbnUgPiBhIHtcclxuXHRjb2xvcjogI2ZmZjtcclxuXHRwYWRkaW5nOiAwO1xyXG59XHJcbi5tb2JpbGUtdXNlci1tZW51ID4gYTpob3ZlciB7XHJcblx0Y29sb3I6ICNmZmY7XHJcbn1cclxuLm1vYmlsZS11c2VyLW1lbnUgPiAuZHJvcGRvd24tbWVudSA+IGEge1xyXG4gICAgbGluZS1oZWlnaHQ6IDIzcHg7XHJcbn1cclxuLnByb2ZpbGUtcmlnaHRiYXIge1xyXG5cdGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcclxuXHRjb2xvcjogIzAwOWVmYjtcclxuXHRmb250LXNpemU6IDI2cHg7XHJcblx0bWFyZ2luLWxlZnQ6IDE1cHg7XHJcbn1cclxuLmZpeGVkLXNpZGViYXItcmlnaHQge1xyXG5cdHBvc2l0aW9uOiBmaXhlZDtcclxuXHR0b3A6IDYwcHg7XHJcblx0cmlnaHQ6IDA7XHJcblx0d2lkdGg6IDMwMHB4O1xyXG5cdG1hcmdpbi1yaWdodDogLTMwMHB4O1xyXG5cdGJvdHRvbTogMDtcclxuXHR6LWluZGV4OiAxMDE7XHJcblx0LXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG5cdC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuXHR0cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG59XHJcbi5tb2JpbGVfYnRuIHtcclxuXHRkaXNwbGF5OiBub25lO1xyXG59XHJcbi5zaWRlYmFyIC5zaWRlYmFyLW1lbnUgPiB1bCA+IGxpID4gYSBzcGFuIHtcclxuXHR0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlLWluLW91dCAwcztcclxuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcblx0bWFyZ2luLWxlZnQ6IDEwcHg7XHJcblx0d2hpdGUtc3BhY2U6IG5vd3JhcDtcclxuXHRjb2xvcjogYmxhY2s7XHJcbn1cclxuLnNpZGViYXIgLnNpZGViYXItbWVudSA+IHVsID4gbGkgPiBhIHNwYW4uYmFkZ2Uge1xyXG5cdGNvbG9yOiAjZmZmO1xyXG5cdG1hcmdpbi1sZWZ0OiBhdXRvO1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgdWwgdWwgYSB7XHJcblx0ZGlzcGxheTogYmxvY2s7XHJcblx0Zm9udC1zaXplOiAxNHB4O1xyXG5cdHBhZGRpbmc6IDlweCAxMHB4IDlweCA1MHB4O1xyXG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG4uc2lkZWJhci1tZW51IHVsIHVsIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZjNmM2YzO1xyXG5cdGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuLnNpZGViYXItbWVudSB1bCB1bCB1bCBhIHtcclxuXHRwYWRkaW5nLWxlZnQ6IDcwcHg7XHJcbn1cclxuLnNpZGViYXItbWVudSB1bCB1bCB1bCB1bCBhIHtcclxuXHRwYWRkaW5nLWxlZnQ6IDkwcHg7XHJcbn1cclxuLnNpZGViYXItbWVudSA+IHVsID4gbGkge1xyXG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG4uc2lkZWJhci1tZW51IC5tZW51LWFycm93IHtcclxuXHQtd2Via2l0LXRyYW5zaXRpb246IC13ZWJraXQtdHJhbnNmb3JtIDAuMTVzO1xyXG5cdC1vLXRyYW5zaXRpb246IC1vLXRyYW5zZm9ybSAwLjE1cztcclxuXHR0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gLjE1cztcclxuXHRwb3NpdGlvbjogYWJzb2x1dGU7XHJcblx0cmlnaHQ6IDE1cHg7XHJcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG5cdGZvbnQtZmFtaWx5OiAnRm9udEF3ZXNvbWUnO1xyXG5cdHRleHQtcmVuZGVyaW5nOiBhdXRvO1xyXG5cdGxpbmUtaGVpZ2h0OiA0MHB4O1xyXG5cdGZvbnQtc2l6ZTogMThweDtcclxuXHQtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcclxuXHQtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xyXG5cdC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGUoMCwgMCk7XHJcblx0LW1zLXRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDApO1xyXG5cdC1vLXRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDApO1xyXG5cdHRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDApO1xyXG5cdGxpbmUtaGVpZ2h0OiAxOHB4O1xyXG5cdHRvcDogMTVweDtcclxufVxyXG4uc2lkZWJhci1tZW51IC5tZW51LWFycm93OmJlZm9yZSB7XHJcblx0Y29udGVudDogXCJcXGYxMDVcIjtcclxufVxyXG4uc2lkZWJhci1tZW51IGxpIGEuc3ViZHJvcCAubWVudS1hcnJvdyB7XHJcblx0LW1zLXRyYW5zZm9ybTogcm90YXRlKDkwZGVnKTtcclxuXHQtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDkwZGVnKTtcclxuXHQtby10cmFuc2Zvcm06IHJvdGF0ZSg5MGRlZyk7XHJcblx0dHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpO1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgdWwgdWwgYSAubWVudS1hcnJvdyB7XHJcblx0dG9wOiA2cHg7XHJcbn1cclxuLnNpZGViYXItbWVudSBhIHtcclxuXHR0cmFuc2l0aW9uOiB1bnNldDtcclxuXHQtbW96LXRyYW5zaXRpb246IHVuc2V0O1xyXG5cdC1vLXRyYW5zaXRpb246IHVuc2V0O1xyXG5cdC1tcy10cmFuc2l0aW9uOiB1bnNldDtcclxuXHQtd2Via2l0LXRyYW5zaXRpb246IHVuc2V0O1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgPiB1bCA+IGxpID4gYSB7XHJcblx0cGFkZGluZzogMTJweCAyMHB4O1xyXG5cdGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblx0ZGlzcGxheTogZmxleDtcclxuXHRqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQ7XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2UtaW4tb3V0IDBzO1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgdWwgbGkgYSBpIHtcclxuXHRhbGlnbi1pdGVtczogY2VudGVyO1xyXG5cdGRpc3BsYXk6IGlubGluZS1mbGV4O1xyXG5cdGZvbnQtc2l6ZTogMThweDtcclxuXHRtaW4taGVpZ2h0OiAyNHB4O1xyXG5cdGxpbmUtaGVpZ2h0OiAxOHB4O1xyXG5cdHdpZHRoOiAyMHB4O1xyXG5cdHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2UtaW4tb3V0IDBzO1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgdWwgbGkubWVudS10aXRsZSBhIGkge1xyXG5cdGZvbnQtc2l6ZTogMTZweDtcclxuXHRtYXJnaW4tcmlnaHQ6IDA7XHJcblx0dGV4dC1hbGlnbjogcmlnaHQ7XHJcblx0d2lkdGg6IGF1dG87XHJcbn1cclxuXHJcblxyXG5cclxuXHJcbi5zaWRlYmFyLW1lbnUgbGkuYWN0aXZlIGEge1xyXG5cdGNvbG9yOiBvcmFuZ2U7XHJcbn1cclxuXHJcbiJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("/* \r\n.sidebar {\r\n\tbackground: linear-gradient(to bottom, white , #ffcb67);\r\n\tbox-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n\ttop: 79px;\r\n\twidth: 230px;\r\n\tz-index: 0;\r\n\tbackground-color: #fff;\r\n\tbottom: 0;\r\n\tmargin-top: 0px;\r\n\tposition: fixed;\r\n\tleft: 0;\r\n\ttransition: all 0.2s ease-in-out;\r\n}\r\n.sidebar.opened {\r\n\t-webkit-transition: all 0.4s ease;\r\n\t-moz-transition: all 0.4s ease;\r\n\ttransition: all 0.4s ease;\r\n}\r\n.sidebar-inner {\r\n\theight: 100%;\r\n\ttransition: all 0.2s ease-in-out 0s;\r\n}\r\n.sidebar-menu ul {\r\n\tfont-size: 14px;\r\n\tlist-style-type: none;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n}\r\n.sidebar-menu li a {\r\n\tcolor: #888;\r\n\tdisplay: block;\r\n\tfont-size: 15px;\r\n\theight: auto;\r\n\tpadding: 0 20px;\r\n}\r\n.sidebar-menu li a:hover {\r\n\tcolor: #009efb;\r\n}\r\n.sidebar-menu li.active a {\r\n\tcolor: #009efb;\r\n\tbackground-color: #f3f3f3;\r\n}\r\n.menu-title {\r\n\tcolor: #333;\r\n\tfont-size: 15px;\r\n\tfont-weight: 500;\r\n\tpadding: 12px 20px;\r\n}\r\n.menu-title > i {\r\n\tfloat: right;\r\n\tline-height: 40px;\r\n}\r\n.sidebar-menu li.menu-title a {\r\n\tcolor: #009efb;\r\n\tdisplay: inline-block;\r\n\tpadding: 0;\r\n}\r\n.sidebar-menu li.menu-title a.btn {\r\n\tcolor: #fff;\r\n\tdisplay: block;\r\n\tfloat: none;\r\n\tfont-size: 15px;\r\n\tline-height: inherit;\r\n\tmargin-bottom: 15px;\r\n}\r\n.sidebar-menu ul ul a.active {\r\n\tcolor: #009efb;\r\n\ttext-decoration: underline;\r\n}\r\n.mobile-user-menu {\r\n\tcolor: #fff;\r\n\tdisplay: none;\r\n\tfont-size: 24px;\r\n\theight: 50px;\r\n\tline-height: 50px;\r\n\tpadding: 0 20px;\r\n\tposition: absolute;\r\n\tright: 0;\r\n\ttext-align: right;\r\n\ttop: 0;\r\n\twidth: 50px;\r\n\tz-index: 10;\r\n}\r\n.mobile-user-menu > a {\r\n\tcolor: #fff;\r\n\tpadding: 0;\r\n}\r\n.mobile-user-menu > a:hover {\r\n\tcolor: #fff;\r\n}\r\n.mobile-user-menu > .dropdown-menu > a {\r\n    line-height: 23px;\r\n}\r\n.profile-rightbar {\r\n\tdisplay: none !important;\r\n\tcolor: #009efb;\r\n\tfont-size: 26px;\r\n\tmargin-left: 15px;\r\n}\r\n.fixed-sidebar-right {\r\n\tposition: fixed;\r\n\ttop: 60px;\r\n\tright: 0;\r\n\twidth: 300px;\r\n\tmargin-right: -300px;\r\n\tbottom: 0;\r\n\tz-index: 101;\r\n\t-webkit-transition: all 0.4s ease;\r\n\t-moz-transition: all 0.4s ease;\r\n\ttransition: all 0.4s ease;\r\n}\r\n.mobile_btn {\r\n\tdisplay: none;\r\n}\r\n.sidebar .sidebar-menu > ul > li > a span {\r\n\ttransition: all 0.2s ease-in-out 0s;\r\n\tdisplay: inline-block;\r\n\tmargin-left: 10px;\r\n\twhite-space: nowrap;\r\n\tcolor: black;\r\n}\r\n.sidebar .sidebar-menu > ul > li > a span.badge {\r\n\tcolor: #fff;\r\n\tmargin-left: auto;\r\n}\r\n.sidebar-menu ul ul a {\r\n\tdisplay: block;\r\n\tfont-size: 14px;\r\n\tpadding: 9px 10px 9px 50px;\r\n\tposition: relative;\r\n}\r\n.sidebar-menu ul ul {\r\n\tbackground-color: #f3f3f3;\r\n\tdisplay: none;\r\n}\r\n.sidebar-menu ul ul ul a {\r\n\tpadding-left: 70px;\r\n}\r\n.sidebar-menu ul ul ul ul a {\r\n\tpadding-left: 90px;\r\n}\r\n.sidebar-menu > ul > li {\r\n\tposition: relative;\r\n}\r\n.sidebar-menu .menu-arrow {\r\n\t-webkit-transition: -webkit-transform 0.15s;\r\n\t-o-transition: -o-transform 0.15s;\r\n\ttransition: transform .15s;\r\n\tposition: absolute;\r\n\tright: 15px;\r\n\tdisplay: inline-block;\r\n\tfont-family: 'FontAwesome';\r\n\ttext-rendering: auto;\r\n\tline-height: 40px;\r\n\tfont-size: 18px;\r\n\t-webkit-font-smoothing: antialiased;\r\n\t-moz-osx-font-smoothing: grayscale;\r\n\t-webkit-transform: translate(0, 0);\r\n\t-ms-transform: translate(0, 0);\r\n\t-o-transform: translate(0, 0);\r\n\ttransform: translate(0, 0);\r\n\tline-height: 18px;\r\n\ttop: 15px;\r\n}\r\n.sidebar-menu .menu-arrow:before {\r\n\tcontent: \"\\f105\";\r\n}\r\n.sidebar-menu li a.subdrop .menu-arrow {\r\n\t-ms-transform: rotate(90deg);\r\n\t-webkit-transform: rotate(90deg);\r\n\t-o-transform: rotate(90deg);\r\n\ttransform: rotate(90deg);\r\n}\r\n.sidebar-menu ul ul a .menu-arrow {\r\n\ttop: 6px;\r\n}\r\n.sidebar-menu a {\r\n\ttransition: unset;\r\n\t-moz-transition: unset;\r\n\t-o-transition: unset;\r\n\t-ms-transition: unset;\r\n\t-webkit-transition: unset;\r\n}\r\n.sidebar-menu > ul > li > a {\r\n\tpadding: 12px 20px;\r\n\talign-items: center;\r\n\tdisplay: flex;\r\n\tjustify-content: flex-start;\r\n\tposition: relative;\r\n\ttransition: all 0.2s ease-in-out 0s;\r\n}\r\n.sidebar-menu ul li a i {\r\n\talign-items: center;\r\n\tdisplay: inline-flex;\r\n\tfont-size: 18px;\r\n\tmin-height: 24px;\r\n\tline-height: 18px;\r\n\twidth: 20px;\r\n\ttransition: all 0.2s ease-in-out 0s;\r\n}\r\n.sidebar-menu ul li.menu-title a i {\r\n\tfont-size: 16px;\r\n\tmargin-right: 0;\r\n\ttext-align: right;\r\n\twidth: auto;\r\n}\r\n\r\n\r\n\r\n\r\n.sidebar-menu li.active a {\r\n\tcolor: orange;\r\n}\r\n */\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5wYW5uZWwvc2lkZWJhci9zaWRlYmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7RUFzTkUiLCJmaWxlIjoic3JjL2FwcC9hZG1pbnBhbm5lbC9zaWRlYmFyL3NpZGViYXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFxyXG4uc2lkZWJhciB7XHJcblx0YmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIGJvdHRvbSwgd2hpdGUgLCAjZmZjYjY3KTtcclxuXHRib3gtc2hhZG93OiAwIDFweCAycHggMCByZ2JhKDAsIDAsIDAsIDAuMSk7XHJcblx0dG9wOiA3OXB4O1xyXG5cdHdpZHRoOiAyMzBweDtcclxuXHR6LWluZGV4OiAwO1xyXG5cdGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcblx0Ym90dG9tOiAwO1xyXG5cdG1hcmdpbi10b3A6IDBweDtcclxuXHRwb3NpdGlvbjogZml4ZWQ7XHJcblx0bGVmdDogMDtcclxuXHR0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlLWluLW91dDtcclxufVxyXG4uc2lkZWJhci5vcGVuZWQge1xyXG5cdC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuXHQtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcblx0dHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxufVxyXG4uc2lkZWJhci1pbm5lciB7XHJcblx0aGVpZ2h0OiAxMDAlO1xyXG5cdHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2UtaW4tb3V0IDBzO1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgdWwge1xyXG5cdGZvbnQtc2l6ZTogMTRweDtcclxuXHRsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcblx0bWFyZ2luOiAwO1xyXG5cdHBhZGRpbmc6IDA7XHJcbn1cclxuLnNpZGViYXItbWVudSBsaSBhIHtcclxuXHRjb2xvcjogIzg4ODtcclxuXHRkaXNwbGF5OiBibG9jaztcclxuXHRmb250LXNpemU6IDE1cHg7XHJcblx0aGVpZ2h0OiBhdXRvO1xyXG5cdHBhZGRpbmc6IDAgMjBweDtcclxufVxyXG4uc2lkZWJhci1tZW51IGxpIGE6aG92ZXIge1xyXG5cdGNvbG9yOiAjMDA5ZWZiO1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgbGkuYWN0aXZlIGEge1xyXG5cdGNvbG9yOiAjMDA5ZWZiO1xyXG5cdGJhY2tncm91bmQtY29sb3I6ICNmM2YzZjM7XHJcbn1cclxuLm1lbnUtdGl0bGUge1xyXG5cdGNvbG9yOiAjMzMzO1xyXG5cdGZvbnQtc2l6ZTogMTVweDtcclxuXHRmb250LXdlaWdodDogNTAwO1xyXG5cdHBhZGRpbmc6IDEycHggMjBweDtcclxufVxyXG4ubWVudS10aXRsZSA+IGkge1xyXG5cdGZsb2F0OiByaWdodDtcclxuXHRsaW5lLWhlaWdodDogNDBweDtcclxufVxyXG4uc2lkZWJhci1tZW51IGxpLm1lbnUtdGl0bGUgYSB7XHJcblx0Y29sb3I6ICMwMDllZmI7XHJcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG5cdHBhZGRpbmc6IDA7XHJcbn1cclxuLnNpZGViYXItbWVudSBsaS5tZW51LXRpdGxlIGEuYnRuIHtcclxuXHRjb2xvcjogI2ZmZjtcclxuXHRkaXNwbGF5OiBibG9jaztcclxuXHRmbG9hdDogbm9uZTtcclxuXHRmb250LXNpemU6IDE1cHg7XHJcblx0bGluZS1oZWlnaHQ6IGluaGVyaXQ7XHJcblx0bWFyZ2luLWJvdHRvbTogMTVweDtcclxufVxyXG4uc2lkZWJhci1tZW51IHVsIHVsIGEuYWN0aXZlIHtcclxuXHRjb2xvcjogIzAwOWVmYjtcclxuXHR0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufVxyXG4ubW9iaWxlLXVzZXItbWVudSB7XHJcblx0Y29sb3I6ICNmZmY7XHJcblx0ZGlzcGxheTogbm9uZTtcclxuXHRmb250LXNpemU6IDI0cHg7XHJcblx0aGVpZ2h0OiA1MHB4O1xyXG5cdGxpbmUtaGVpZ2h0OiA1MHB4O1xyXG5cdHBhZGRpbmc6IDAgMjBweDtcclxuXHRwb3NpdGlvbjogYWJzb2x1dGU7XHJcblx0cmlnaHQ6IDA7XHJcblx0dGV4dC1hbGlnbjogcmlnaHQ7XHJcblx0dG9wOiAwO1xyXG5cdHdpZHRoOiA1MHB4O1xyXG5cdHotaW5kZXg6IDEwO1xyXG59XHJcbi5tb2JpbGUtdXNlci1tZW51ID4gYSB7XHJcblx0Y29sb3I6ICNmZmY7XHJcblx0cGFkZGluZzogMDtcclxufVxyXG4ubW9iaWxlLXVzZXItbWVudSA+IGE6aG92ZXIge1xyXG5cdGNvbG9yOiAjZmZmO1xyXG59XHJcbi5tb2JpbGUtdXNlci1tZW51ID4gLmRyb3Bkb3duLW1lbnUgPiBhIHtcclxuICAgIGxpbmUtaGVpZ2h0OiAyM3B4O1xyXG59XHJcbi5wcm9maWxlLXJpZ2h0YmFyIHtcclxuXHRkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7XHJcblx0Y29sb3I6ICMwMDllZmI7XHJcblx0Zm9udC1zaXplOiAyNnB4O1xyXG5cdG1hcmdpbi1sZWZ0OiAxNXB4O1xyXG59XHJcbi5maXhlZC1zaWRlYmFyLXJpZ2h0IHtcclxuXHRwb3NpdGlvbjogZml4ZWQ7XHJcblx0dG9wOiA2MHB4O1xyXG5cdHJpZ2h0OiAwO1xyXG5cdHdpZHRoOiAzMDBweDtcclxuXHRtYXJnaW4tcmlnaHQ6IC0zMDBweDtcclxuXHRib3R0b206IDA7XHJcblx0ei1pbmRleDogMTAxO1xyXG5cdC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuXHQtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcblx0dHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxufVxyXG4ubW9iaWxlX2J0biB7XHJcblx0ZGlzcGxheTogbm9uZTtcclxufVxyXG4uc2lkZWJhciAuc2lkZWJhci1tZW51ID4gdWwgPiBsaSA+IGEgc3BhbiB7XHJcblx0dHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZS1pbi1vdXQgMHM7XHJcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG5cdG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG5cdHdoaXRlLXNwYWNlOiBub3dyYXA7XHJcblx0Y29sb3I6IGJsYWNrO1xyXG59XHJcbi5zaWRlYmFyIC5zaWRlYmFyLW1lbnUgPiB1bCA+IGxpID4gYSBzcGFuLmJhZGdlIHtcclxuXHRjb2xvcjogI2ZmZjtcclxuXHRtYXJnaW4tbGVmdDogYXV0bztcclxufVxyXG4uc2lkZWJhci1tZW51IHVsIHVsIGEge1xyXG5cdGRpc3BsYXk6IGJsb2NrO1xyXG5cdGZvbnQtc2l6ZTogMTRweDtcclxuXHRwYWRkaW5nOiA5cHggMTBweCA5cHggNTBweDtcclxuXHRwb3NpdGlvbjogcmVsYXRpdmU7XHJcbn1cclxuLnNpZGViYXItbWVudSB1bCB1bCB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogI2YzZjNmMztcclxuXHRkaXNwbGF5OiBub25lO1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgdWwgdWwgdWwgYSB7XHJcblx0cGFkZGluZy1sZWZ0OiA3MHB4O1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgdWwgdWwgdWwgdWwgYSB7XHJcblx0cGFkZGluZy1sZWZ0OiA5MHB4O1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgPiB1bCA+IGxpIHtcclxuXHRwb3NpdGlvbjogcmVsYXRpdmU7XHJcbn1cclxuLnNpZGViYXItbWVudSAubWVudS1hcnJvdyB7XHJcblx0LXdlYmtpdC10cmFuc2l0aW9uOiAtd2Via2l0LXRyYW5zZm9ybSAwLjE1cztcclxuXHQtby10cmFuc2l0aW9uOiAtby10cmFuc2Zvcm0gMC4xNXM7XHJcblx0dHJhbnNpdGlvbjogdHJhbnNmb3JtIC4xNXM7XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdHJpZ2h0OiAxNXB4O1xyXG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuXHRmb250LWZhbWlseTogJ0ZvbnRBd2Vzb21lJztcclxuXHR0ZXh0LXJlbmRlcmluZzogYXV0bztcclxuXHRsaW5lLWhlaWdodDogNDBweDtcclxuXHRmb250LXNpemU6IDE4cHg7XHJcblx0LXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7XHJcblx0LW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcclxuXHQtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDApO1xyXG5cdC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAwKTtcclxuXHQtby10cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAwKTtcclxuXHR0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAwKTtcclxuXHRsaW5lLWhlaWdodDogMThweDtcclxuXHR0b3A6IDE1cHg7XHJcbn1cclxuLnNpZGViYXItbWVudSAubWVudS1hcnJvdzpiZWZvcmUge1xyXG5cdGNvbnRlbnQ6IFwiXFxmMTA1XCI7XHJcbn1cclxuLnNpZGViYXItbWVudSBsaSBhLnN1YmRyb3AgLm1lbnUtYXJyb3cge1xyXG5cdC1tcy10cmFuc2Zvcm06IHJvdGF0ZSg5MGRlZyk7XHJcblx0LXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSg5MGRlZyk7XHJcblx0LW8tdHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpO1xyXG5cdHRyYW5zZm9ybTogcm90YXRlKDkwZGVnKTtcclxufVxyXG4uc2lkZWJhci1tZW51IHVsIHVsIGEgLm1lbnUtYXJyb3cge1xyXG5cdHRvcDogNnB4O1xyXG59XHJcbi5zaWRlYmFyLW1lbnUgYSB7XHJcblx0dHJhbnNpdGlvbjogdW5zZXQ7XHJcblx0LW1vei10cmFuc2l0aW9uOiB1bnNldDtcclxuXHQtby10cmFuc2l0aW9uOiB1bnNldDtcclxuXHQtbXMtdHJhbnNpdGlvbjogdW5zZXQ7XHJcblx0LXdlYmtpdC10cmFuc2l0aW9uOiB1bnNldDtcclxufVxyXG4uc2lkZWJhci1tZW51ID4gdWwgPiBsaSA+IGEge1xyXG5cdHBhZGRpbmc6IDEycHggMjBweDtcclxuXHRhbGlnbi1pdGVtczogY2VudGVyO1xyXG5cdGRpc3BsYXk6IGZsZXg7XHJcblx0anVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0O1xyXG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuXHR0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlLWluLW91dCAwcztcclxufVxyXG4uc2lkZWJhci1tZW51IHVsIGxpIGEgaSB7XHJcblx0YWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHRkaXNwbGF5OiBpbmxpbmUtZmxleDtcclxuXHRmb250LXNpemU6IDE4cHg7XHJcblx0bWluLWhlaWdodDogMjRweDtcclxuXHRsaW5lLWhlaWdodDogMThweDtcclxuXHR3aWR0aDogMjBweDtcclxuXHR0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlLWluLW91dCAwcztcclxufVxyXG4uc2lkZWJhci1tZW51IHVsIGxpLm1lbnUtdGl0bGUgYSBpIHtcclxuXHRmb250LXNpemU6IDE2cHg7XHJcblx0bWFyZ2luLXJpZ2h0OiAwO1xyXG5cdHRleHQtYWxpZ246IHJpZ2h0O1xyXG5cdHdpZHRoOiBhdXRvO1xyXG59XHJcblxyXG5cclxuXHJcblxyXG4uc2lkZWJhci1tZW51IGxpLmFjdGl2ZSBhIHtcclxuXHRjb2xvcjogb3JhbmdlO1xyXG59XHJcbiAqLyJdfQ== */");
 
 /***/ }),
 
@@ -2510,8 +2510,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SidebarComponent", function() { return SidebarComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let SidebarComponent = class SidebarComponent {
@@ -2525,7 +2525,7 @@ let SidebarComponent = class SidebarComponent {
 SidebarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-sidebar',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./sidebar.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./sidebar.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/sidebar/sidebar.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./sidebar.component.css */ "./src/app/adminpannel/sidebar/sidebar.component.css")).default]
     })
 ], SidebarComponent);
@@ -2544,9 +2544,9 @@ SidebarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register.component.ts");
@@ -2733,8 +2733,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let AppComponent = class AppComponent {
@@ -2745,7 +2745,7 @@ let AppComponent = class AppComponent {
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-root',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
     })
 ], AppComponent);
@@ -2764,19 +2764,19 @@ AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser/animations */ "../node_modules/@angular/platform-browser/fesm2015/animations.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register.component.ts");
 /* harmony import */ var _adminpannel_adminpannel_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./adminpannel/adminpannel.component */ "./src/app/adminpannel/adminpannel.component.ts");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./material */ "./src/app/material.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
 /* harmony import */ var _adminpannel_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./adminpannel/sidebar/sidebar.component */ "./src/app/adminpannel/sidebar/sidebar.component.ts");
 /* harmony import */ var _adminpannel_header_header_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./adminpannel/header/header.component */ "./src/app/adminpannel/header/header.component.ts");
 /* harmony import */ var _adminpannel_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./adminpannel/countries/countries.component */ "./src/app/adminpannel/countries/countries.component.ts");
@@ -2803,8 +2803,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _adminpannel_location_edit_location_edit_location_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./adminpannel/location/edit-location/edit-location.component */ "./src/app/adminpannel/location/edit-location/edit-location.component.ts");
 /* harmony import */ var _adminpannel_location_add_location_add_location_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./adminpannel/location/add-location/add-location.component */ "./src/app/adminpannel/location/add-location/add-location.component.ts");
 /* harmony import */ var _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./error-page/error-page.component */ "./src/app/error-page/error-page.component.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/common */ "../node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var _ownerpannel_edit_cars_edit_cars_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./ownerpannel/edit-cars/edit-cars.component */ "./src/app/ownerpannel/edit-cars/edit-cars.component.ts");
 /* harmony import */ var _registerpageformarketing_registerpageformarketing_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./registerpageformarketing/registerpageformarketing.component */ "./src/app/registerpageformarketing/registerpageformarketing.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
@@ -3021,8 +3021,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CancelationpolicyComponent", function() { return CancelationpolicyComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let CancelationpolicyComponent = class CancelationpolicyComponent {
@@ -3033,7 +3033,7 @@ let CancelationpolicyComponent = class CancelationpolicyComponent {
 CancelationpolicyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-cancelationpolicy',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./cancelationpolicy.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./cancelationpolicy.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/cancelationpolicy/cancelationpolicy.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./cancelationpolicy.component.css */ "./src/app/cancelationpolicy/cancelationpolicy.component.css")).default]
     })
 ], CancelationpolicyComponent);
@@ -3065,8 +3065,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactusComponent", function() { return ContactusComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let ContactusComponent = class ContactusComponent {
@@ -3077,7 +3077,7 @@ let ContactusComponent = class ContactusComponent {
 ContactusComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-contactus',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./contactus.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./contactus.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/contactus/contactus.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./contactus.component.css */ "./src/app/contactus/contactus.component.css")).default]
     })
 ], ContactusComponent);
@@ -3109,8 +3109,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorPageComponent", function() { return ErrorPageComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let ErrorPageComponent = class ErrorPageComponent {
@@ -3121,7 +3121,7 @@ let ErrorPageComponent = class ErrorPageComponent {
 ErrorPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-error-page',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./error-page.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./error-page.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/error-page/error-page.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./error-page.component.css */ "./src/app/error-page/error-page.component.css")).default]
     })
 ], ErrorPageComponent);
@@ -3153,8 +3153,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FeaturesComponent", function() { return FeaturesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let FeaturesComponent = class FeaturesComponent {
@@ -3165,7 +3165,7 @@ let FeaturesComponent = class FeaturesComponent {
 FeaturesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-features',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./features.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./features.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./features.component.css */ "./src/app/features/features.component.css")).default]
     })
 ], FeaturesComponent);
@@ -3197,8 +3197,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let FooterComponent = class FooterComponent {
@@ -3209,7 +3209,7 @@ let FooterComponent = class FooterComponent {
 FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-footer',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")).default]
     })
 ], FooterComponent);
@@ -3241,8 +3241,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ForgotpasswordComponent", function() { return ForgotpasswordComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let ForgotpasswordComponent = class ForgotpasswordComponent {
@@ -3253,7 +3253,7 @@ let ForgotpasswordComponent = class ForgotpasswordComponent {
 ForgotpasswordComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-forgotpassword',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./forgotpassword.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./forgotpassword.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/forgotpassword/forgotpassword.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./forgotpassword.component.css */ "./src/app/forgotpassword/forgotpassword.component.css")).default]
     })
 ], ForgotpasswordComponent);
@@ -3285,9 +3285,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _login_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../login/login.service */ "./src/app/login/login.service.ts");
 
 
@@ -3325,7 +3325,7 @@ HomeComponent.ctorParameters = () => [
 HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-home',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")).default]
     })
 ], HomeComponent);
@@ -3357,8 +3357,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoadingComponent", function() { return LoadingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _loading_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./loading.service */ "./src/app/loading/loading.service.ts");
 
 
@@ -3381,7 +3381,7 @@ LoadingComponent.ctorParameters = () => [
 LoadingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-loading',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./loading.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./loading.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/loading/loading.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./loading.component.css */ "./src/app/loading/loading.component.css")).default]
     })
 ], LoadingComponent);
@@ -3400,9 +3400,9 @@ LoadingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoadingService", function() { return LoadingService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "../node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
 
 
 
@@ -3450,14 +3450,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./login.service */ "./src/app/login/login.service.ts");
 /* harmony import */ var _services_authentication_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_services/authentication.service */ "./src/app/_services/authentication.service.ts");
-/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/snack-bar */ "../node_modules/@angular/material/esm2015/snack-bar.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -3532,7 +3532,7 @@ LoginComponent.ctorParameters = () => [
 LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-login',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./login.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./login.component.css */ "./src/app/login/login.component.css")).default]
     })
 ], LoginComponent);
@@ -3551,9 +3551,9 @@ LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginService", function() { return LoginService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 
 
@@ -3601,49 +3601,49 @@ LoginService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaterialModule", function() { return MaterialModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/cdk/a11y */ "../node_modules/@angular/cdk/esm2015/a11y.js");
-/* harmony import */ var _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/cdk/drag-drop */ "../node_modules/@angular/cdk/esm2015/drag-drop.js");
-/* harmony import */ var _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/cdk/portal */ "../node_modules/@angular/cdk/esm2015/portal.js");
-/* harmony import */ var _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/cdk/scrolling */ "../node_modules/@angular/cdk/esm2015/scrolling.js");
-/* harmony import */ var _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/cdk/stepper */ "../node_modules/@angular/cdk/esm2015/stepper.js");
-/* harmony import */ var _angular_cdk_table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/cdk/table */ "../node_modules/@angular/cdk/esm2015/table.js");
-/* harmony import */ var _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/cdk/tree */ "../node_modules/@angular/cdk/esm2015/tree.js");
-/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/autocomplete */ "../node_modules/@angular/material/esm2015/autocomplete.js");
-/* harmony import */ var _angular_material_badge__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/badge */ "../node_modules/@angular/material/esm2015/badge.js");
-/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "../node_modules/@angular/material/esm2015/bottom-sheet.js");
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/button */ "../node_modules/@angular/material/esm2015/button.js");
-/* harmony import */ var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/button-toggle */ "../node_modules/@angular/material/esm2015/button-toggle.js");
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/card */ "../node_modules/@angular/material/esm2015/card.js");
-/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/checkbox */ "../node_modules/@angular/material/esm2015/checkbox.js");
-/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/chips */ "../node_modules/@angular/material/esm2015/chips.js");
-/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/stepper */ "../node_modules/@angular/material/esm2015/stepper.js");
-/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/datepicker */ "../node_modules/@angular/material/esm2015/datepicker.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
-/* harmony import */ var _angular_material_divider__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/divider */ "../node_modules/@angular/material/esm2015/divider.js");
-/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/expansion */ "../node_modules/@angular/material/esm2015/expansion.js");
-/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/grid-list */ "../node_modules/@angular/material/esm2015/grid-list.js");
-/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/icon */ "../node_modules/@angular/material/esm2015/icon.js");
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/input */ "../node_modules/@angular/material/esm2015/input.js");
-/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/list */ "../node_modules/@angular/material/esm2015/list.js");
-/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/menu */ "../node_modules/@angular/material/esm2015/menu.js");
-/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/material/core */ "../node_modules/@angular/material/esm2015/core.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
-/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material/progress-bar */ "../node_modules/@angular/material/esm2015/progress-bar.js");
-/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/progress-spinner */ "../node_modules/@angular/material/esm2015/progress-spinner.js");
-/* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/radio */ "../node_modules/@angular/material/esm2015/radio.js");
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/material/select */ "../node_modules/@angular/material/esm2015/select.js");
-/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/material/sidenav */ "../node_modules/@angular/material/esm2015/sidenav.js");
-/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/slider */ "../node_modules/@angular/material/esm2015/slider.js");
-/* harmony import */ var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/material/slide-toggle */ "../node_modules/@angular/material/esm2015/slide-toggle.js");
-/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @angular/material/snack-bar */ "../node_modules/@angular/material/esm2015/snack-bar.js");
-/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @angular/material/sort */ "../node_modules/@angular/material/esm2015/sort.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/material/tabs */ "../node_modules/@angular/material/esm2015/tabs.js");
-/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @angular/material/toolbar */ "../node_modules/@angular/material/esm2015/toolbar.js");
-/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! @angular/material/tooltip */ "../node_modules/@angular/material/esm2015/tooltip.js");
-/* harmony import */ var _angular_material_tree__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @angular/material/tree */ "../node_modules/@angular/material/esm2015/tree.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/cdk/a11y */ "./node_modules/@angular/cdk/esm2015/a11y.js");
+/* harmony import */ var _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/cdk/drag-drop */ "./node_modules/@angular/cdk/esm2015/drag-drop.js");
+/* harmony import */ var _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/cdk/portal */ "./node_modules/@angular/cdk/esm2015/portal.js");
+/* harmony import */ var _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/cdk/scrolling */ "./node_modules/@angular/cdk/esm2015/scrolling.js");
+/* harmony import */ var _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/cdk/stepper */ "./node_modules/@angular/cdk/esm2015/stepper.js");
+/* harmony import */ var _angular_cdk_table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/cdk/table */ "./node_modules/@angular/cdk/esm2015/table.js");
+/* harmony import */ var _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/cdk/tree */ "./node_modules/@angular/cdk/esm2015/tree.js");
+/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/autocomplete */ "./node_modules/@angular/material/esm2015/autocomplete.js");
+/* harmony import */ var _angular_material_badge__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/badge */ "./node_modules/@angular/material/esm2015/badge.js");
+/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "./node_modules/@angular/material/esm2015/bottom-sheet.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/esm2015/button.js");
+/* harmony import */ var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/button-toggle */ "./node_modules/@angular/material/esm2015/button-toggle.js");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/esm2015/card.js");
+/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/esm2015/checkbox.js");
+/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/chips */ "./node_modules/@angular/material/esm2015/chips.js");
+/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/esm2015/stepper.js");
+/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/esm2015/datepicker.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_material_divider__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/divider */ "./node_modules/@angular/material/esm2015/divider.js");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm2015/expansion.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/esm2015/grid-list.js");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/esm2015/icon.js");
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/esm2015/input.js");
+/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/list */ "./node_modules/@angular/material/esm2015/list.js");
+/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/menu */ "./node_modules/@angular/material/esm2015/menu.js");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/esm2015/core.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/esm2015/progress-bar.js");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/esm2015/progress-spinner.js");
+/* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/radio */ "./node_modules/@angular/material/esm2015/radio.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm2015/select.js");
+/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/esm2015/sidenav.js");
+/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/slider */ "./node_modules/@angular/material/esm2015/slider.js");
+/* harmony import */ var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/material/slide-toggle */ "./node_modules/@angular/material/esm2015/slide-toggle.js");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
+/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @angular/material/sort */ "./node_modules/@angular/material/esm2015/sort.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/material/tabs */ "./node_modules/@angular/material/esm2015/tabs.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/esm2015/toolbar.js");
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! @angular/material/tooltip */ "./node_modules/@angular/material/esm2015/tooltip.js");
+/* harmony import */ var _angular_material_tree__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @angular/material/tree */ "./node_modules/@angular/material/esm2015/tree.js");
 
 
 
@@ -3765,9 +3765,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationComponent", function() { return NavigationComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 
 
 
@@ -3791,7 +3791,7 @@ NavigationComponent.ctorParameters = () => [
 NavigationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-navigation',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./navigation.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./navigation.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./navigation.component.css */ "./src/app/navigation/navigation.component.css")).default]
     })
 ], NavigationComponent);
@@ -3823,14 +3823,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddimageOneComponent", function() { return AddimageOneComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -3893,7 +3893,7 @@ AddimageOneComponent.ctorParameters = () => [
 AddimageOneComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addimage-one',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-one.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-one.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addimage-one.component.css */ "./src/app/ownerpannel/addnew-cars/addimage-one/addimage-one.component.css")).default]
     })
 ], AddimageOneComponent);
@@ -3925,14 +3925,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddimageTwoComponent", function() { return AddimageTwoComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -3996,7 +3996,7 @@ AddimageTwoComponent.ctorParameters = () => [
 AddimageTwoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addimage-two',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-two.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addimage-two.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addimage-two.component.css */ "./src/app/ownerpannel/addnew-cars/addimage-two/addimage-two.component.css")).default]
     })
 ], AddimageTwoComponent);
@@ -4028,14 +4028,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddlicenceBackComponent", function() { return AddlicenceBackComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4099,7 +4099,7 @@ AddlicenceBackComponent.ctorParameters = () => [
 AddlicenceBackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addlicence-back',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-back.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-back.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addlicence-back.component.css */ "./src/app/ownerpannel/addnew-cars/addlicence-back/addlicence-back.component.css")).default]
     })
 ], AddlicenceBackComponent);
@@ -4131,14 +4131,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddlicenceFrontComponent", function() { return AddlicenceFrontComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4202,7 +4202,7 @@ AddlicenceFrontComponent.ctorParameters = () => [
 AddlicenceFrontComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addlicence-front',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-front.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addlicence-front.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addlicence-front.component.css */ "./src/app/ownerpannel/addnew-cars/addlicence-front/addlicence-front.component.css")).default]
     })
 ], AddlicenceFrontComponent);
@@ -4234,14 +4234,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddnewCarsComponent", function() { return AddnewCarsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4392,7 +4392,7 @@ AddnewCarsComponent.ctorParameters = () => [
 AddnewCarsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addnew-cars',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addnew-cars.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addnew-cars.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addnew-cars.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addnew-cars.component.css */ "./src/app/ownerpannel/addnew-cars/addnew-cars.component.css")).default]
     })
 ], AddnewCarsComponent);
@@ -4424,14 +4424,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddrcimageComponent", function() { return AddrcimageComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4495,7 +4495,7 @@ AddrcimageComponent.ctorParameters = () => [
 AddrcimageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-addrcimage',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addrcimage.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./addrcimage.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./addrcimage.component.css */ "./src/app/ownerpannel/addnew-cars/addrcimage/addrcimage.component.css")).default]
     })
 ], AddrcimageComponent);
@@ -4527,13 +4527,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddBanksComponent", function() { return AddBanksComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_models_bank__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/_models/bank */ "./src/app/_models/bank.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -4593,7 +4593,7 @@ AddBanksComponent.ctorParameters = () => [
 AddBanksComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-add-banks',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-banks.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-banks.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-banks.component.css */ "./src/app/ownerpannel/bankdetails/add-banks/add-banks.component.css")).default]
     })
 ], AddBanksComponent);
@@ -4625,10 +4625,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BankdetailsComponent", function() { return BankdetailsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_adminpannel_admin_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/adminpannel/admin.service */ "./src/app/adminpannel/admin.service.ts");
 /* harmony import */ var src_app_models_bank__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/bank */ "./src/app/_models/bank.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
@@ -4689,7 +4689,7 @@ BankdetailsComponent.ctorParameters = () => [
 BankdetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-bankdetails',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./bankdetails.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./bankdetails.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/bankdetails.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./bankdetails.component.css */ "./src/app/ownerpannel/bankdetails/bankdetails.component.css")).default]
     })
 ], BankdetailsComponent);
@@ -4721,13 +4721,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditBankdetailsComponent", function() { return EditBankdetailsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_models_bank__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/_models/bank */ "./src/app/_models/bank.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -4787,7 +4787,7 @@ EditBankdetailsComponent.ctorParameters = () => [
 EditBankdetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-edit-bankdetails',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-bankdetails.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-bankdetails.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-bankdetails.component.css */ "./src/app/ownerpannel/bankdetails/edit-bankdetails/edit-bankdetails.component.css")).default]
     })
 ], EditBankdetailsComponent);
@@ -4819,14 +4819,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddDriversComponent", function() { return AddDriversComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -4908,7 +4908,7 @@ AddDriversComponent.ctorParameters = () => [
 AddDriversComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-add-drivers',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-drivers.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-drivers.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-drivers.component.css */ "./src/app/ownerpannel/drivers/add-drivers/add-drivers.component.css")).default]
     })
 ], AddDriversComponent);
@@ -4940,13 +4940,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverLicscenceComponent", function() { return AdddriverLicscenceComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
@@ -5008,7 +5008,7 @@ AdddriverLicscenceComponent.ctorParameters = () => [
 AdddriverLicscenceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adddriver-licscence',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscence.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscence.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-licscence.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscence/adddriver-licscence.component.css")).default]
     })
 ], AdddriverLicscenceComponent);
@@ -5040,13 +5040,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverLicscencebackComponent", function() { return AdddriverLicscencebackComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
@@ -5109,7 +5109,7 @@ AdddriverLicscencebackComponent.ctorParameters = () => [
 AdddriverLicscencebackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adddriver-licscenceback',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscenceback.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-licscenceback.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-licscenceback.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-licscenceback/adddriver-licscenceback.component.css")).default]
     })
 ], AdddriverLicscencebackComponent);
@@ -5141,13 +5141,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdddriverProfilepicComponent", function() { return AdddriverProfilepicComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/ownerpannel/owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
@@ -5211,7 +5211,7 @@ AdddriverProfilepicComponent.ctorParameters = () => [
 AdddriverProfilepicComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-adddriver-profilepic',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-profilepic.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adddriver-profilepic.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adddriver-profilepic.component.css */ "./src/app/ownerpannel/drivers/add-drivers/adddriver-profilepic/adddriver-profilepic.component.css")).default]
     })
 ], AdddriverProfilepicComponent);
@@ -5243,17 +5243,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DriversComponent", function() { return DriversComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
 /* harmony import */ var _viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./viewliscence/viewliscence.component */ "./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.ts");
 /* harmony import */ var _viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./viewlicsenceback/viewlicsenceback.component */ "./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.ts");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/table */ "../node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/paginator */ "../node_modules/@angular/material/esm2015/paginator.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
 
 
 
@@ -5373,7 +5373,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 DriversComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-drivers',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./drivers.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./drivers.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/drivers.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./drivers.component.css */ "./src/app/ownerpannel/drivers/drivers.component.css")).default]
     })
 ], DriversComponent);
@@ -5405,11 +5405,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditDriversComponent", function() { return EditDriversComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 /* harmony import */ var src_app_models_driver__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/_models/driver */ "./src/app/_models/driver.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
@@ -5535,7 +5535,7 @@ EditDriversComponent.ctorParameters = () => [
 EditDriversComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-edit-drivers',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-drivers.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-drivers.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-drivers.component.css */ "./src/app/ownerpannel/drivers/edit-drivers/edit-drivers.component.css")).default]
     })
 ], EditDriversComponent);
@@ -5567,12 +5567,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewlicsencebackComponent", function() { return ViewlicsencebackComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
 
@@ -5621,7 +5621,7 @@ ViewlicsencebackComponent.ctorParameters = () => [
 ViewlicsencebackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
         selector: 'app-viewlicsenceback',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./viewlicsenceback.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./viewlicsenceback.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./viewlicsenceback.component.css */ "./src/app/ownerpannel/drivers/viewlicsenceback/viewlicsenceback.component.css")).default]
     }),
     tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"])(_angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__["MAT_DIALOG_DATA"]))
@@ -5654,13 +5654,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewliscenceComponent", function() { return ViewliscenceComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 
 
 
@@ -5708,7 +5708,7 @@ ViewliscenceComponent.ctorParameters = () => [
 ViewliscenceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-viewliscence',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./viewliscence.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./viewliscence.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./viewliscence.component.css */ "./src/app/ownerpannel/drivers/viewliscence/viewliscence.component.css")).default]
     }),
     tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__["MAT_DIALOG_DATA"]))
@@ -5741,14 +5741,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditCarsComponent", function() { return EditCarsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -5972,7 +5972,7 @@ EditCarsComponent.ctorParameters = () => [
 EditCarsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-edit-cars',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-cars.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-cars.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/edit-cars/edit-cars.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-cars.component.css */ "./src/app/ownerpannel/edit-cars/edit-cars.component.css")).default]
     })
 ], EditCarsComponent);
@@ -6004,9 +6004,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddVehiclekmHandoverComponent", function() { return AddVehiclekmHandoverComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
 
 
 
@@ -6026,7 +6026,7 @@ AddVehiclekmHandoverComponent.ctorParameters = () => [
 AddVehiclekmHandoverComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-add-vehiclekm-handover',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-vehiclekm-handover.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-vehiclekm-handover.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-vehiclekm-handover.component.css */ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.css")).default]
     }),
     tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"]))
@@ -6059,9 +6059,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HandovervehiclesComponent", function() { return HandovervehiclesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "../node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var _add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./add-vehiclekm-handover/add-vehiclekm-handover.component */ "./src/app/ownerpannel/handovervehicles/add-vehiclekm-handover/add-vehiclekm-handover.component.ts");
@@ -6118,7 +6118,7 @@ HandovervehiclesComponent.ctorParameters = () => [
 HandovervehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-handovervehicles',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./handovervehicles.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./handovervehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/handovervehicles/handovervehicles.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./handovervehicles.component.css */ "./src/app/ownerpannel/handovervehicles/handovervehicles.component.css")).default]
     })
 ], HandovervehiclesComponent);
@@ -6137,10 +6137,10 @@ HandovervehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OwnerService", function() { return OwnerService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
 
 
 
@@ -6269,8 +6269,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OwnerpannelComponent", function() { return OwnerpannelComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let OwnerpannelComponent = class OwnerpannelComponent {
@@ -6281,7 +6281,7 @@ let OwnerpannelComponent = class OwnerpannelComponent {
 OwnerpannelComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-ownerpannel',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./ownerpannel.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./ownerpannel.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/ownerpannel.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./ownerpannel.component.css */ "./src/app/ownerpannel/ownerpannel.component.css")).default]
     })
 ], OwnerpannelComponent);
@@ -6313,12 +6313,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RequestsComponent", function() { return RequestsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -6428,7 +6428,7 @@ RequestsComponent.ctorParameters = () => [
 RequestsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-requests',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./requests.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./requests.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/requests.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./requests.component.css */ "./src/app/ownerpannel/requests/requests.component.css")).default]
     })
 ], RequestsComponent);
@@ -6460,11 +6460,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewRequestsComponent", function() { return ViewRequestsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_4__);
 
 
@@ -6536,7 +6536,7 @@ ViewRequestsComponent.ctorParameters = () => [
 ViewRequestsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-view-requests',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-requests.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-requests.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/requests/view-requests/view-requests.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./view-requests.component.css */ "./src/app/ownerpannel/requests/view-requests/view-requests.component.css")).default]
     })
 ], ViewRequestsComponent);
@@ -6568,11 +6568,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OwnerviewvehiclesComponent", function() { return OwnerviewvehiclesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_adminpannel_admin_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/adminpannel/admin.service */ "./src/app/adminpannel/admin.service.ts");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/_models/vehicle */ "./src/app/_models/vehicle.ts");
 
@@ -6679,7 +6679,7 @@ OwnerviewvehiclesComponent.ctorParameters = () => [
 OwnerviewvehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-ownerviewvehicles',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./ownerviewvehicles.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./ownerviewvehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./ownerviewvehicles.component.css */ "./src/app/ownerpannel/vehicles/ownerviewvehicles/ownerviewvehicles.component.css")).default]
     })
 ], OwnerviewvehiclesComponent);
@@ -6711,12 +6711,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VehiclesComponent", function() { return VehiclesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 /* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 
 
 
@@ -6780,7 +6780,7 @@ VehiclesComponent.ctorParameters = () => [
 VehiclesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-vehicles',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vehicles.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vehicles.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicles/vehicles.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./vehicles.component.css */ "./src/app/ownerpannel/vehicles/vehicles.component.css")).default]
     })
 ], VehiclesComponent);
@@ -6812,9 +6812,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VehicletrackingComponent", function() { return VehicletrackingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../owner.service */ "./src/app/ownerpannel/owner.service.ts");
 
 
@@ -6845,7 +6845,7 @@ VehicletrackingComponent.ctorParameters = () => [
 VehicletrackingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-vehicletracking',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vehicletracking.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./vehicletracking.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/vehicletracking.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./vehicletracking.component.css */ "./src/app/ownerpannel/vehicletracking/vehicletracking.component.css")).default]
     })
 ], VehicletrackingComponent);
@@ -6877,8 +6877,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrivacyandpolicyComponent", function() { return PrivacyandpolicyComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let PrivacyandpolicyComponent = class PrivacyandpolicyComponent {
@@ -6889,7 +6889,7 @@ let PrivacyandpolicyComponent = class PrivacyandpolicyComponent {
 PrivacyandpolicyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-privacyandpolicy',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./privacyandpolicy.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./privacyandpolicy.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/privacyandpolicy/privacyandpolicy.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./privacyandpolicy.component.css */ "./src/app/privacyandpolicy/privacyandpolicy.component.css")).default]
     })
 ], PrivacyandpolicyComponent);
@@ -6908,7 +6908,7 @@ PrivacyandpolicyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MustMatch", function() { return MustMatch; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 
 // custom validator to check that two fields match
 function MustMatch(controlName, matchingControlName) {
@@ -6955,14 +6955,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterComponent", function() { return RegisterComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _models_register__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_models/register */ "./src/app/_models/register.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _password_validation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./password-validation */ "./src/app/register/password-validation.ts");
 /* harmony import */ var _login_login_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../login/login.service */ "./src/app/login/login.service.ts");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 
 
 
@@ -7027,7 +7027,7 @@ RegisterComponent.ctorParameters = () => [
 RegisterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-register',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./register.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./register.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./register.component.css */ "./src/app/register/register.component.css")).default]
     })
 ], RegisterComponent);
@@ -7059,8 +7059,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PulicregistrationmarketingComponent", function() { return PulicregistrationmarketingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let PulicregistrationmarketingComponent = class PulicregistrationmarketingComponent {
@@ -7071,7 +7071,7 @@ let PulicregistrationmarketingComponent = class PulicregistrationmarketingCompon
 PulicregistrationmarketingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-pulicregistrationmarketing',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./pulicregistrationmarketing.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./pulicregistrationmarketing.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./pulicregistrationmarketing.component.css */ "./src/app/registerpageformarketing/pulicregistrationmarketing/pulicregistrationmarketing.component.css")).default]
     })
 ], PulicregistrationmarketingComponent);
@@ -7103,14 +7103,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterpageformarketingComponent", function() { return RegisterpageformarketingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _login_login_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../login/login.service */ "./src/app/login/login.service.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _models_register__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_models/register */ "./src/app/_models/register.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "../node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -7181,7 +7181,7 @@ RegisterpageformarketingComponent.ctorParameters = () => [
 RegisterpageformarketingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-registerpageformarketing',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./registerpageformarketing.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./registerpageformarketing.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/registerpageformarketing/registerpageformarketing.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./registerpageformarketing.component.css */ "./src/app/registerpageformarketing/registerpageformarketing.component.css")).default]
     })
 ], RegisterpageformarketingComponent);
@@ -7213,8 +7213,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicesComponent", function() { return ServicesComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let ServicesComponent = class ServicesComponent {
@@ -7225,7 +7225,7 @@ let ServicesComponent = class ServicesComponent {
 ServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-services',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./services.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./services.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./services.component.css */ "./src/app/services/services.component.css")).default]
     })
 ], ServicesComponent);
@@ -7257,8 +7257,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TermsandconditonsComponent", function() { return TermsandconditonsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let TermsandconditonsComponent = class TermsandconditonsComponent {
@@ -7269,7 +7269,7 @@ let TermsandconditonsComponent = class TermsandconditonsComponent {
 TermsandconditonsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-termsandconditons',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./termsandconditons.component.html */ "../node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html")).default,
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./termsandconditons.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/termsandconditons/termsandconditons.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./termsandconditons.component.css */ "./src/app/termsandconditons/termsandconditons.component.css")).default]
     })
 ], TermsandconditonsComponent);
@@ -7288,7 +7288,7 @@ TermsandconditonsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 
 const environment = {
     production: true,
@@ -7309,7 +7309,7 @@ const environment = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
@@ -7338,9 +7338,9 @@ const environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "../node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
 
@@ -7364,7 +7364,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\cmgaddi\latesetfile\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\User\Documents\CMGAADII\src\main.ts */"./src/main.ts");
 
 
 /***/ })

@@ -71,7 +71,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n<div class=\"page-wrapper\" style=\"margin-top: 33px;\">\r\n\r\n\r\n\r\n\r\n    <div class=\"content\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4 col-3\">\r\n                <!-- <h4 class=\"page-title\">Vehicle Mangement</h4> -->\r\n                <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Mangement</h1>\r\n\r\n            </div>\r\n\r\n\r\n            <div class=\"col-sm-8 col-9 text-right m-b-20\">\r\n\r\n                <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;\" (click)=\"addcompany()\"><i\r\n                        class=\"fa fa-plus\"></i> </a> -->\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n\r\n\r\n            <div class=\"table-responsive\">\r\n                <!-- <div class=\"row\">\r\n                    <div class=\"col-sm-4\">\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-4\"></div>\r\n                    <div class=\"col-sm-4\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"search here\" [(ngModel)]=\"searchString\"\r\n                            (keyup)=\"applyFilter(searchString)\">\r\n\r\n\r\n\r\n                    </div>\r\n                </div> -->\r\n                <div class=\"col-sm-12\">\r\n                    <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\r\n                        <mat-tab label=\"Pending\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <div class=\"row\" style=\"padding: 5px;\">\r\n                                            <button class=\"btn btn-success\" style=\"margin-right: 1px;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\r\n                                            <button class=\"btn btn-danger\" style=\" \" (click)=\"reject(results)\"><i class=\"fa fa-times\" aria-hidden=\"true\"></i> Reject</button>\r\n\r\n                                        </div>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <h5 *ngIf=\"message == 'No data found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                        </mat-tab>\r\n\r\n\r\n\r\n                        <mat-tab label=\"Accepted\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\">Ren Per KM :{{results.rentPerKM}}</p>\r\n\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"><i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <h5 *ngIf=\"message == 'No data found'\" style=\"     margin-top: 100px;   text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                        </mat-tab>\r\n\r\n\r\n                        <mat-tab label=\"Rejected\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </mat-tab>\r\n                        <h5 *ngIf=\"message == 'No data found'\" style=\"     margin-top: 100px;   text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab-group>\r\n                    <!-- <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"vname\">\r\n                            <mat-header-cell *matHeaderCellDef>Vehicle Name </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \">{{element.model}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"vnumber\">\r\n                            <mat-header-cell *matHeaderCellDef>Vehicle Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.numberPlate}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"name\">\r\n                            <mat-header-cell *matHeaderCellDef> Company Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.companyName}}</mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"view\">\r\n                            <mat-header-cell *matHeaderCellDef> View Details</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> <button (click)=\"view(element)\" class=\"btn btn-warning\">View</button></mat-cell>\r\n                        </ng-container>\r\n\r\n                        <ng-container matColumnDef=\"approve\">\r\n                            <mat-header-cell *matHeaderCellDef> Approve / Reject</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">\r\n                                <button class=\"btn btn-danger\" (click)=\"approve(element)\">Approve</button> &nbsp;\r\n                                <button class=\"btn btn-dark\" (click)=\"reject(element)\">Reject</button>\r\n\r\n                            </mat-cell>\r\n                        </ng-container>\r\n\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" (page)=\"changePage($event)\">\r\n                    </mat-paginator> -->\r\n\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n<div class=\"page-wrapper\" style=\"margin-top: 33px;\">\r\n\r\n\r\n\r\n\r\n    <div class=\"content\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4 col-3\">\r\n                <!-- <h4 class=\"page-title\">Vehicle Mangement</h4> -->\r\n                <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Mangement</h1>\r\n\r\n            </div>\r\n\r\n\r\n            <div class=\"col-sm-8 col-9 text-right m-b-20\">\r\n\r\n                <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;\" (click)=\"addcompany()\"><i\r\n                        class=\"fa fa-plus\"></i> </a> -->\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n\r\n\r\n            <div class=\"table-responsive\">\r\n                <!-- <div class=\"row\">\r\n                    <div class=\"col-sm-4\">\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-4\"></div>\r\n                    <div class=\"col-sm-4\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"search here\" [(ngModel)]=\"searchString\"\r\n                            (keyup)=\"applyFilter(searchString)\">\r\n\r\n\r\n\r\n                    </div>\r\n                </div> -->\r\n                <div class=\"col-sm-12\">\r\n                    <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\r\n                        <mat-tab label=\"Pending\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <div class=\"row\" style=\"padding: 5px;\">\r\n                                            <button class=\"btn btn-success\" style=\"margin-right: 1px;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\r\n                                            <button class=\"btn btn-danger\" style=\" \" (click)=\"reject(results)\"><i class=\"fa fa-times\" aria-hidden=\"true\"></i> Reject</button>\r\n\r\n                                        </div>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <h5 *ngIf=\"message == 'No data found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                        </mat-tab>\r\n\r\n\r\n\r\n                        <mat-tab label=\"Accepted\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"><i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <h5 *ngIf=\"message == 'No data found'\" style=\"     margin-top: 100px;   text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                        </mat-tab>\r\n\r\n\r\n                        <mat-tab label=\"Rejected\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </mat-tab>\r\n                        <h5 *ngIf=\"message == 'No data found'\" style=\"     margin-top: 100px;   text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab-group>\r\n                    <!-- <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"vname\">\r\n                            <mat-header-cell *matHeaderCellDef>Vehicle Name </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \">{{element.model}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"vnumber\">\r\n                            <mat-header-cell *matHeaderCellDef>Vehicle Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.numberPlate}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"name\">\r\n                            <mat-header-cell *matHeaderCellDef> Company Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.companyName}}</mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"view\">\r\n                            <mat-header-cell *matHeaderCellDef> View Details</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> <button (click)=\"view(element)\" class=\"btn btn-warning\">View</button></mat-cell>\r\n                        </ng-container>\r\n\r\n                        <ng-container matColumnDef=\"approve\">\r\n                            <mat-header-cell *matHeaderCellDef> Approve / Reject</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">\r\n                                <button class=\"btn btn-danger\" (click)=\"approve(element)\">Approve</button> &nbsp;\r\n                                <button class=\"btn btn-dark\" (click)=\"reject(element)\">Reject</button>\r\n\r\n                            </mat-cell>\r\n                        </ng-container>\r\n\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" (page)=\"changePage($event)\">\r\n                    </mat-paginator> -->\r\n\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -91,7 +91,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<app-sidebar></app-sidebar>\r\n<!-- \r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n                <h3>Vehicle Details</h3>\r\n                <hr>\r\n\r\n            </div>\r\n\r\n            <div class=\"col-sm-12\">\r\n                <img src=\"{{apiurl}}vehicle/getImage1/{{vehicleID}}\" alt=\"\" style=\"    width: 124px;\">\r\n                <hr style=\"    width: 52%;\r\n                margin-right: auto;\r\n                margin-left: auto;\r\n                display: block;\">\r\n            </div>\r\n          \r\n            <div class=\"col-sm-12\">\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-industry\"></i> &nbsp; Comapny Name : {{vehicleModel.vehicleCompany}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-registered\"></i> &nbsp; Vehicle Registration :\r\n                        {{vehicleModel.vehicleRegistration}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Model :\r\n                        {{vehicleModel.vehicleModel}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-map-marker\"></i> &nbsp; Location :\r\n                        {{vehicleModel.locality}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-calendar\"></i> &nbsp; Vehicle Year :\r\n                        {{vehicleModel.vehicleYear}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Front</p>\r\n                    <img [src]=\"liscence1\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Back</p>\r\n                    <img [src]=\"liscence2\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>  <mat-card>\r\n                    <p>RC Book</p>\r\n                    <img [src]=\"rc\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div> -->\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <h4>Vehicle <span style=\"color: #ffa800;\">Details</span> </h4>\r\n        <hr>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-8\">\r\n\r\n                <!-- <mat-card> -->\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <h5 style=\"text-align: center;\">{{vehicleModel.vehicleCompany}},{{vehicleModel.vehicleModel}}</h5>\r\n\r\n                            <hr>\r\n                        </div>\r\n                        <!-- <div class=\"col-sm-3\">\r\n                            <p style=\"\r\n                           background: #ffcb67;\r\n                            border-radius: 125px;\r\n                            padding: 3px;\r\n                        \">{{vehicleModel.vehicleModel}}</p>\r\n                        </div> -->\r\n\r\n                    </div>\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}vehicle/getImage1/{{vehicleID}}\" alt=\"\" style=\"     width: 200px; height: 186px;  \">\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"><i class=\"fa fa-car\"></i>&nbsp;Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-registered\"></i>&nbsp; Registration Number : {{vehicleModel.vehicleRegistration}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Location : {{vehicleModel.locality}}\r\n                            </p>\r\n                            <hr>\r\n                            <h6>Rent Details</h6>\r\n                            &nbsp;\r\n                            <p *ngIf=\"rentperhour != null\" style=\"    text-align: left;\"><i class=\"fa fa-inr\"></i>&nbsp; Rent Per Hour : {{rentperhour}}\r\n                            </p>\r\n                            <p *ngIf=\"vehicleModel.rent != null\" style=\"    text-align: left;\"><i class=\"fa fa-calendar\"></i>&nbsp; Rent Per Day : {{vehicleModel.rent}}\r\n                            </p>\r\n                            <p *ngIf=\"rentperkm != null\" style=\"    text-align: left;\"><i class=\"fa fa-road\"></i>&nbsp; Rent Per KM : {{rentperkm}}\r\n                            </p>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}driver/getProfilePic/{{driverDetails}}\" alt=\"\" />\r\n\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <h6>Driver Details</h6>\r\n                            <hr>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-user\"></i>&nbsp;Driver Name : {{vehicleModel.dname}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-phone\"></i>&nbsp;Contact Number : {{vehicleModel.dnumber}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-map-marker\"></i>&nbsp;Driver Address : {{vehicleModel.daddreess}}</p>\r\n                            <p *ngIf=\"DriverDetailsofCar ==null\"> No Driver is linked to this vehicle!</p>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n                <div class=\"card\" *ngIf=\"vehiclestatus == 'PENDING'\">\r\n\r\n                    <div class=\"row\">\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <h6>Vehicle Approve or Reject</h6>\r\n                            <hr>\r\n                            <p>Please verify the above documents and then approve or reject vehicles</p>\r\n\r\n                            <button class=\"btn btn-success\" (click)=\"approve()\">Approve</button>\r\n                            <button class=\"btn btn-danger\" (click)=\"reject()\">Reject</button>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <div class=\"card\">\r\n                    <h6> Vehicle Documents </h6>\r\n                    <hr>\r\n                    <p>License Front</p>\r\n                    <!-- <button (click)=\"open()\" download=\"file.txt\">\r\n                        Download\r\n                    </button> -->\r\n                    <a [href]=\"liscence1\" download=\"liscence1\">Download License Front</a>\r\n\r\n                    <!-- <img [src]=\"liscence1\" alt=\"\"> &nbsp; &nbsp; &nbsp; -->\r\n\r\n                    <p>License Back</p>\r\n                    &nbsp; &nbsp; &nbsp;\r\n                    <!-- <img [src]=\"liscence2\" alt=\"\"> &nbsp; &nbsp; &nbsp; -->\r\n                    <a [href]=\"liscence2\" download=\"liscence2\">Download License Back</a>\r\n\r\n                    <p>RC Book</p>\r\n                    &nbsp; &nbsp; &nbsp;\r\n                    <!-- <img [src]=\"rc\" alt=\"\"> -->\r\n                    <a [href]=\"rc\" download=\"rc\">Download RC Book</a>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<app-sidebar></app-sidebar>\r\n<!-- \r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n                <h3>Vehicle Details</h3>\r\n                <hr>\r\n\r\n            </div>\r\n\r\n            <div class=\"col-sm-12\">\r\n                <img src=\"{{apiurl}}vehicle/getImage1/{{vehicleID}}\" alt=\"\" style=\"    width: 124px;\">\r\n                <hr style=\"    width: 52%;\r\n                margin-right: auto;\r\n                margin-left: auto;\r\n                display: block;\">\r\n            </div>\r\n          \r\n            <div class=\"col-sm-12\">\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-industry\"></i> &nbsp; Comapny Name : {{vehicleModel.vehicleCompany}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-registered\"></i> &nbsp; Vehicle Registration :\r\n                        {{vehicleModel.vehicleRegistration}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Model :\r\n                        {{vehicleModel.vehicleModel}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-map-marker\"></i> &nbsp; Location :\r\n                        {{vehicleModel.locality}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-calendar\"></i> &nbsp; Vehicle Year :\r\n                        {{vehicleModel.vehicleYear}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Front</p>\r\n                    <img [src]=\"liscence1\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Back</p>\r\n                    <img [src]=\"liscence2\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>  <mat-card>\r\n                    <p>RC Book</p>\r\n                    <img [src]=\"rc\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div> -->\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <h4>Vehicle <span style=\"color: #ffa800;\">Details</span> </h4>\r\n        <hr>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-8\">\r\n\r\n                <!-- <mat-card> -->\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <h5 style=\"text-align: center;\">{{vehicleModel.vehicleCompany}},{{vehicleModel.vehicleModel}}</h5>\r\n\r\n                            <hr>\r\n                        </div>\r\n                        <!-- <div class=\"col-sm-3\">\r\n                            <p style=\"\r\n                           background: #ffcb67;\r\n                            border-radius: 125px;\r\n                            padding: 3px;\r\n                        \">{{vehicleModel.vehicleModel}}</p>\r\n                        </div> -->\r\n\r\n                    </div>\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}vehicle/getImage1/{{vehicleID}}\" alt=\"\" style=\"     width: 200px; height: 186px;  \">\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"><i class=\"fa fa-car\"></i>&nbsp;Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-registered\"></i>&nbsp; Registration Number : {{vehicleModel.vehicleRegistration}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Location : {{vehicleModel.locality}}\r\n                            </p>\r\n                            <hr>\r\n                            <h6>Rent Details</h6>\r\n                            &nbsp;\r\n                            <p *ngIf=\"rentperhour != null\" style=\"    text-align: left;\"><i class=\"fa fa-inr\"></i>&nbsp; Rent Per Hour : {{rentperhour}}\r\n                            </p>\r\n                            <p *ngIf=\"vehicleModel.rent != null\" style=\"    text-align: left;\"><i class=\"fa fa-calendar\"></i>&nbsp; Rent Per Day : {{vehicleModel.rent}}\r\n                            </p>\r\n                            <p *ngIf=\"rentperkm != null\" style=\"    text-align: left;\"><i class=\"fa fa-road\"></i>&nbsp; Rent Per KM : {{rentperkm}}\r\n                            </p>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}driver/getProfilePic/{{driverDetails}}\" alt=\"\" />\r\n\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <h6>Driver Details</h6>\r\n                            <hr>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-user\"></i>&nbsp;Driver Name : {{vehicleModel.dname}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-phone\"></i>&nbsp;Contact Number : {{vehicleModel.dnumber}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-map-marker\"></i>&nbsp;Driver Address : {{vehicleModel.daddreess}}</p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-id-card\"></i>&nbsp;Driver Pancard {{driverpancard}}</p>\r\n\r\n                            <p *ngIf=\"DriverDetailsofCar ==null\"> No Driver is linked to this vehicle!</p>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n                <div class=\"card\" *ngIf=\"vehiclestatus == 'PENDING'\">\r\n\r\n                    <div class=\"row\">\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <h6>Vehicle Approve or Reject</h6>\r\n                            <hr>\r\n                            <p>Please verify the above documents and then approve or reject vehicles</p>\r\n\r\n                            <button class=\"btn btn-success\" (click)=\"approve()\">Approve</button>\r\n                            <button class=\"btn btn-danger\" (click)=\"reject()\">Reject</button>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <div class=\"card\">\r\n                    <h6> Vehicle Documents </h6>\r\n                    <hr>\r\n                    <p>License Front</p>\r\n                    <!-- <button (click)=\"open()\" download=\"file.txt\">\r\n                        Download\r\n                    </button> -->\r\n                    <a [href]=\"liscence1\" download=\"liscence1\">Download License Front</a>\r\n\r\n                    <!-- <img [src]=\"liscence1\" alt=\"\"> &nbsp; &nbsp; &nbsp; -->\r\n\r\n                    <p>License Back</p>\r\n                    &nbsp; &nbsp; &nbsp;\r\n                    <!-- <img [src]=\"liscence2\" alt=\"\"> &nbsp; &nbsp; &nbsp; -->\r\n                    <a [href]=\"liscence2\" download=\"liscence2\">Download License Back</a>\r\n\r\n                    <p>RC Book</p>\r\n                    &nbsp; &nbsp; &nbsp;\r\n\r\n                    <!-- <img [src]=\"rc\" alt=\"\"> -->\r\n                    <a [href]=\"rc\" download=\"rc\">Download RC Book</a>\r\n\r\n                </div>\r\n                <div class=\"card\" *ngIf=\"DriverDetailsofCar !=null\">\r\n                    <h6>Driver Documents</h6>\r\n                    <p>License Front</p>\r\n                    <a [href]=\"liscenimag\" download=\"liscenimag\">Download Driver License Front</a>\r\n\r\n                    <p>License Back</p>\r\n                    <a [href]=\"liscenimagback\" download=\"liscenimagback\">Download Driver License Back</a>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -131,7 +131,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <div class=\"container\" *ngIf=\"Role != 'ADMIN'\">\r\n\r\n\r\n                    <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\r\n                        <ol class=\"carousel-indicators\">\r\n                            <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\r\n                            <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\r\n                            <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\r\n                        </ol>\r\n                        <div class=\"carousel-inner\">\r\n                            <div class=\"carousel-item active\">\r\n                                <img class=\"d-block \" src=\"./assets/img/HANDOVER-01.png\" style=\"     border-radius: 19px;width: 60%;height: 270px; margin: 0 auto;\" alt=\"First slide\">\r\n                            </div>\r\n                            <div class=\"carousel-item\">\r\n                                <img class=\"d-block \" src=\"./assets/img/Better Incomes-01-01.png\" style=\"    border-radius: 19px;width: 60%;height: 270px;margin: 0 auto;\" alt=\"Second slide\">\r\n                            </div>\r\n                            <div class=\"carousel-item\">\r\n                                <img class=\"d-block\" src=\"./assets/img/track your car-01.png\" style=\"    border-radius: 19px;width: 60%;height: 270px;margin: 0 auto;\" alt=\"Third slide\">\r\n                            </div>\r\n                        </div>\r\n                        <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\r\n                            <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                            <span class=\"sr-only\">Previous</span>\r\n                        </a>\r\n                        <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\r\n                            <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                            <span class=\"sr-only\">Next</span>\r\n                        </a>\r\n                    </div>\r\n                </div>\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <!-- <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1> -->\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-xl-12\">\r\n\r\n\r\n\r\n\r\n\r\n                    </div>\r\n\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/admin-vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/users\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Users</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-success shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff0278 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff0278 !important;\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff5f02 !important;\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff5f02 !important;\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff02d5 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-warning text-uppercase mb-1\" style=\"color: #ff02d5 !important;\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div routerLink=\"/request\" class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #00d6a1 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #00d6a1 !important;\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/handovervehicles\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div style=\"    color: #ff8e00 !important;\" class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/bankdetails\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/paymentpage\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Payments</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-dollar-sign fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/admin-resetpassword\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/chatsandfeebacks\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Feedbacks</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-envelope fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #ff5e00 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #ff5e00 !important;\">\r\n                                            Location Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #4700ee !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #4700ee !important;\">\r\n                                            Total vehicle count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #e10000 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #e10000 !important;\">\r\n                                            Total trips count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #e10000;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\" border-left: 0.25rem solid #28a745 !important\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Total customers count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #28a745;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <div class=\"container\" *ngIf=\"Role != 'ADMIN'\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\r\n                                <ol class=\"carousel-indicators\">\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\r\n                                </ol>\r\n                                <div class=\"carousel-inner\">\r\n                                    <div class=\"carousel-item active\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/HANDOVER-01.png\" alt=\"First slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/Better Incomes-01-01.png\" alt=\"Second slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block\" src=\"./assets/img/track your car-01.png\" alt=\"Third slide\">\r\n                                    </div>\r\n                                </div>\r\n                                <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\r\n                                    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Previous</span>\r\n                                </a>\r\n                                <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\r\n                                    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Next</span>\r\n                                </a>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div>\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <!-- <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1> -->\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-xl-12\">\r\n\r\n\r\n\r\n\r\n\r\n                    </div>\r\n\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/admin-vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/users\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Users</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-success shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff0278 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff0278 !important;\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff5f02 !important;\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff5f02 !important;\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff02d5 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-warning text-uppercase mb-1\" style=\"color: #ff02d5 !important;\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div routerLink=\"/request\" class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #00d6a1 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #00d6a1 !important;\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/handovervehicles\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div style=\"    color: #ff8e00 !important;\" class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/bankdetails\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/paymentpage\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Payments</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-dollar-sign fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/admin-resetpassword\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/chatsandfeebacks\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Feedbacks</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-envelope fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #ff5e00 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #ff5e00 !important;\">\r\n                                            Location Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #4700ee !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #4700ee !important;\">\r\n                                            Total vehicle count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #e10000 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #e10000 !important;\">\r\n                                            Total trips count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #e10000;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\" border-left: 0.25rem solid #28a745 !important\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Total customers count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #28a745;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>";
     /***/
   },
 
@@ -151,7 +151,27 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<p>allbanks works!</p>\n";
+    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">Bank Details</h1>\n\n                    </div>\n                    <div class=\"col-sm-6\">\n                    </div>\n                </div>\n\n\n                <!-- DataTales Example -->\n                <div class=\"card shadow mb-4\">\n\n                    <div class=\"card-body\">\n                        <div class=\"table-responsive\">\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n                                <thead style=\" color: #fff; background: #3158c8; \">\n                                    <tr>\n                                        <th>Bank Name</th>\n                                        <th>Account Number </th>\n                                        <th>IFSC Code</th>\n                                        <th>Branch </th>\n\n\n                                    </tr>\n                                </thead>\n\n                                <tbody>\n                                    <tr *ngFor=\"let b of results\">\n                                        <td>{{b.name}}</td>\n                                        <td>{{b.name}}</td>\n                                        <td>{{b.name}}</td>\n                                        <td>{{b.name}}</td>\n\n\n                                    </tr>\n\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.html":
+  /*!************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.html ***!
+    \************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminpannelCannceledBookingsCannceledBookingsComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<p>cannceled-bookings works!</p>\n";
     /***/
   },
 
@@ -331,7 +351,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <mat-sidenav-container>\r\n    <mat-sidenav mode=\"side\" opened=\"true\" [fixedInViewport]=\"true\" [fixedTopGap]=\"64\">\r\n        <ul>\r\n            <li routerLink=\"/admin\" routerLinkActive=\"active\">Home</li>\r\n\r\n            <li *ngIf=\"userRole == 'ADMIN'\" routerLink=\"/countries\" routerLinkActive=\"active\">Countries</li>\r\n\r\n        </ul>\r\n    </mat-sidenav>\r\n\r\n</mat-sidenav-container> -->\r\n<!-- \r\n<div class=\"sidebar\" id=\"sidebar\">\r\n    <div class=\"sidebar-inner slimscroll\" style=\"overflow-y: auto;\">\r\n        <div id=\"sidebar-menu\" class=\"sidebar-menu\">\r\n            <ul *ngIf=\"userRole == 'ADMIN'\">\r\n\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong>  Admin</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user\"></i> <span>Owners</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/locations\"><i class=\"fa fa-map-marker\"></i> <span>Locality</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-vehicles\"><i class=\"fa fa-car\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-paymentreports\"><i class=\"fa fa-inr\"></i> <span>Payment Reports</span></a>\r\n                </li>\r\n\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n            <ul *ngIf=\"userRole=='OWNER'\">\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong> Owner</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user-md\"></i> <span>Home</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Terms & Conditions</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Privacy</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Help and Support</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n<ul class=\"navbar-nav bg-gradient-primary sidebar sidebar-dark \" id=\"accordionSidebar\" style=\"position: fixed;\">\r\n\r\n    <a class=\"sidebar-brand d-flex align-items-center justify-content-center\" href=\"index.html\">\r\n        <div class=\"sidebar-brand-icon rotate-n-15\">\r\n            <i class=\"fas fa-laugh-wink\"></i>\r\n        </div>\r\n        <div class=\"sidebar-brand-text mx-3\"> <sup></sup></div>\r\n    </a>\r\n\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/dashboardwhite.png\" alt=\"\"> Dashboard\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicles\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-car \"></i> -->\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-vehicles\">\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicletracking\">\r\n            <!-- <i class=\"fa fa-map-marker \"></i>\r\n            <span>Vehicle Tracking</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Vehicle Tracking\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/drivers\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Driver Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-paymentreports\">\r\n            <!-- <i class=\"fa fa-clipboard \"></i>\r\n            <span>Payment Reports</span></a> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/paymentwhite.png\" alt=\"\"> Payment Reports\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/request\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Request\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/handovervehicles\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 24px !important;\"> Handover Vehicle\r\n\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/bankdetails\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"      padding-right: 8px;  font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n\r\n\r\n\r\n\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/allbanks\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"       padding-right: 8px; font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/chatsandfeebacks\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/add-feedback\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-envelope\" style=\"    font-size: 14px;\r\n                margin-right: 3px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Add feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/locations\">\r\n            <!-- <i class=\"fa fa-map-marker\"></i>\r\n            <span>Location</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-map-marker\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i> -->\r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Location Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <!-- <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n           \r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n              \r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Payments\r\n\r\n            </div>\r\n        </a>\r\n    </li> -->\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\">\r\n            <!-- <i class=\"fa fa-wrench\"></i>\r\n            <span>Users</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-user\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Users\r\n\r\n                <i class=\"fa fa-angle-down\" style=\"float: right;\r\n                font-size: 26px;\"></i>\r\n            </div>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <a class=\"collapse-item\" routerLink=\"/users\"> Owners</a>\r\n                <a class=\"collapse-item\" routerLink=\"/carrenters\"> Renters </a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-resetpassword\">\r\n            <!-- <i class=\"fa fa-key\"></i>\r\n            <span>Reset Password</span> -->\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-key\" style=\"     font-size: 18px;\r\n                margin-right: 0px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/passwordwhite.png\" alt=\"\"> Reset Password\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n\r\n    <!-- \r\n    <div class=\"sidebar-heading\">\r\n        Interface\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">\r\n            <i class=\"fas fa-fw fa-cog\"></i>\r\n            <span>Components</span>\r\n        </a>\r\n        <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Components:</h6>\r\n                <a class=\"collapse-item\" href=\"buttons.html\">Buttons</a>\r\n                <a class=\"collapse-item\" href=\"cards.html\">Cards</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\" aria-controls=\"collapseUtilities\">\r\n            <i class=\"fas fa-fw fa-wrench\"></i>\r\n            <span>Utilities</span>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Utilities:</h6>\r\n                <a class=\"collapse-item\" href=\"utilities-color.html\">Colors</a>\r\n                <a class=\"collapse-item\" href=\"utilities-border.html\">Borders</a>\r\n                <a class=\"collapse-item\" href=\"utilities-animation.html\">Animations</a>\r\n                <a class=\"collapse-item\" href=\"utilities-other.html\">Other</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider\">\r\n\r\n    <div class=\"sidebar-heading\">\r\n        Addons\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapsePages\" aria-expanded=\"true\" aria-controls=\"collapsePages\">\r\n            <i class=\"fas fa-fw fa-folder\"></i>\r\n            <span>Pages</span>\r\n        </a>\r\n        <div id=\"collapsePages\" class=\"collapse\" aria-labelledby=\"headingPages\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Login Screens:</h6>\r\n                <a class=\"collapse-item\" href=\"login.html\">Login</a>\r\n                <a class=\"collapse-item\" href=\"register.html\">Register</a>\r\n                <a class=\"collapse-item\" href=\"forgot-password.html\">Forgot Password</a>\r\n                <div class=\"collapse-divider\"></div>\r\n                <h6 class=\"collapse-header\">Other Pages:</h6>\r\n                <a class=\"collapse-item\" href=\"404.html\">404 Page</a>\r\n                <a class=\"collapse-item\" href=\"blank.html\">Blank Page</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"charts.html\">\r\n            <i class=\"fas fa-fw fa-chart-area\"></i>\r\n            <span>Charts</span></a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"tables.html\">\r\n            <i class=\"fas fa-fw fa-table\"></i>\r\n            <span>Tables</span></a>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider d-none d-md-block\"> -->\r\n\r\n\r\n\r\n</ul>";
+    __webpack_exports__["default"] = "<!-- <mat-sidenav-container>\r\n    <mat-sidenav mode=\"side\" opened=\"true\" [fixedInViewport]=\"true\" [fixedTopGap]=\"64\">\r\n        <ul>\r\n            <li routerLink=\"/admin\" routerLinkActive=\"active\">Home</li>\r\n\r\n            <li *ngIf=\"userRole == 'ADMIN'\" routerLink=\"/countries\" routerLinkActive=\"active\">Countries</li>\r\n\r\n        </ul>\r\n    </mat-sidenav>\r\n\r\n</mat-sidenav-container> -->\r\n<!-- \r\n<div class=\"sidebar\" id=\"sidebar\">\r\n    <div class=\"sidebar-inner slimscroll\" style=\"overflow-y: auto;\">\r\n        <div id=\"sidebar-menu\" class=\"sidebar-menu\">\r\n            <ul *ngIf=\"userRole == 'ADMIN'\">\r\n\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong>  Admin</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user\"></i> <span>Owners</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/locations\"><i class=\"fa fa-map-marker\"></i> <span>Locality</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-vehicles\"><i class=\"fa fa-car\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-paymentreports\"><i class=\"fa fa-inr\"></i> <span>Payment Reports</span></a>\r\n                </li>\r\n\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n            <ul *ngIf=\"userRole=='OWNER'\">\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong> Owner</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user-md\"></i> <span>Home</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Terms & Conditions</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Privacy</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Help and Support</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n<ul class=\"navbar-nav bg-gradient-primary sidebar sidebar-dark \" id=\"accordionSidebar\" style=\"position: fixed;\">\r\n\r\n    <a class=\"sidebar-brand d-flex align-items-center justify-content-center\" href=\"index.html\">\r\n        <div class=\"sidebar-brand-icon rotate-n-15\">\r\n            <i class=\"fas fa-laugh-wink\"></i>\r\n        </div>\r\n        <div class=\"sidebar-brand-text mx-3\"> <sup></sup></div>\r\n    </a>\r\n\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/dashboardwhite.png\" alt=\"\"> Dashboard\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicles\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-car \"></i> -->\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-vehicles\">\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/cancelled-bookings\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Cancelled Bookings\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicletracking\">\r\n            <!-- <i class=\"fa fa-map-marker \"></i>\r\n            <span>Vehicle Tracking</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Vehicle Tracking\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/drivers\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Driver Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-paymentreports\">\r\n            <!-- <i class=\"fa fa-clipboard \"></i>\r\n            <span>Payment Reports</span></a> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/paymentwhite.png\" alt=\"\"> Payment Reports\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/request\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Request\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/handovervehicles\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 30px !important;\"> Handover Vehicle\r\n\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/bankdetails\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"      padding-right: 8px;  font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n\r\n\r\n\r\n\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/allbanks\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"       padding-right: 8px; font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/chatsandfeebacks\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/add-feedback\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-envelope\" style=\"    font-size: 14px;\r\n                margin-right: 3px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Add feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/locations\">\r\n            <!-- <i class=\"fa fa-map-marker\"></i>\r\n            <span>Location</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-map-marker\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i> -->\r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Location Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <!-- <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n           \r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n              \r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Payments\r\n\r\n            </div>\r\n        </a>\r\n    </li> -->\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\">\r\n            <!-- <i class=\"fa fa-wrench\"></i>\r\n            <span>Users</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-user\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Users\r\n\r\n                <i class=\"fa fa-angle-down\" style=\"float: right;\r\n                font-size: 26px;\"></i>\r\n            </div>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <a class=\"collapse-item\" routerLink=\"/users\"> Owners</a>\r\n                <a class=\"collapse-item\" routerLink=\"/carrenters\"> Renters </a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-resetpassword\">\r\n            <!-- <i class=\"fa fa-key\"></i>\r\n            <span>Reset Password</span> -->\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-key\" style=\"     font-size: 18px;\r\n                margin-right: 0px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/passwordwhite.png\" alt=\"\"> Reset Password\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n\r\n    <!-- \r\n    <div class=\"sidebar-heading\">\r\n        Interface\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">\r\n            <i class=\"fas fa-fw fa-cog\"></i>\r\n            <span>Components</span>\r\n        </a>\r\n        <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Components:</h6>\r\n                <a class=\"collapse-item\" href=\"buttons.html\">Buttons</a>\r\n                <a class=\"collapse-item\" href=\"cards.html\">Cards</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\" aria-controls=\"collapseUtilities\">\r\n            <i class=\"fas fa-fw fa-wrench\"></i>\r\n            <span>Utilities</span>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Utilities:</h6>\r\n                <a class=\"collapse-item\" href=\"utilities-color.html\">Colors</a>\r\n                <a class=\"collapse-item\" href=\"utilities-border.html\">Borders</a>\r\n                <a class=\"collapse-item\" href=\"utilities-animation.html\">Animations</a>\r\n                <a class=\"collapse-item\" href=\"utilities-other.html\">Other</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider\">\r\n\r\n    <div class=\"sidebar-heading\">\r\n        Addons\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapsePages\" aria-expanded=\"true\" aria-controls=\"collapsePages\">\r\n            <i class=\"fas fa-fw fa-folder\"></i>\r\n            <span>Pages</span>\r\n        </a>\r\n        <div id=\"collapsePages\" class=\"collapse\" aria-labelledby=\"headingPages\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Login Screens:</h6>\r\n                <a class=\"collapse-item\" href=\"login.html\">Login</a>\r\n                <a class=\"collapse-item\" href=\"register.html\">Register</a>\r\n                <a class=\"collapse-item\" href=\"forgot-password.html\">Forgot Password</a>\r\n                <div class=\"collapse-divider\"></div>\r\n                <h6 class=\"collapse-header\">Other Pages:</h6>\r\n                <a class=\"collapse-item\" href=\"404.html\">404 Page</a>\r\n                <a class=\"collapse-item\" href=\"blank.html\">Blank Page</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"charts.html\">\r\n            <i class=\"fas fa-fw fa-chart-area\"></i>\r\n            <span>Charts</span></a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"tables.html\">\r\n            <i class=\"fas fa-fw fa-table\"></i>\r\n            <span>Tables</span></a>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider d-none d-md-block\"> -->\r\n\r\n\r\n\r\n</ul>";
     /***/
   },
 
@@ -596,6 +616,26 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/mappages/mappages.component.html":
+  /*!****************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/mappages/mappages.component.html ***!
+    \****************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppMappagesMappagesComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<app-header></app-header>\n<div class=\"contianer\">\n    <agm-map [latitude]=\"latitude\" [longitude]=\"longitude\">\n        <agm-marker [latitude]=\"latitude\" [longitude]=\"longitude\" [markerDraggable]=\"true\" (dragEnd)=\"markerDragEnd($event)\"></agm-marker>\n    </agm-map>\n    <button class=\"btn btn-warning\" style=\"    width: 30%;\n    color: white;\n    margin: 0 auto;\n    display: block;\n    margin-top: 19px;\n\" (click)=\"submit()\">Submit</button>\n</div>";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html":
   /*!********************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/navigation/navigation.component.html ***!
@@ -711,7 +751,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\r\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 31px;\">\r\n        <div class=\"row\" style=\"margin-bottom: 10px;\">\r\n            <div class=\"col-md-4\">\r\n                <h3>Add New Vehicles</h3>\r\n            </div>\r\n            <div class=\"col-sm-4\"></div>\r\n            <!-- <div class=\"col-sm-4\">\r\n                <h3>Pricing : <em *ngIf=\"vehicleModel.vehicleType == '3Wheeler'\">25 RS Per 1.5 KM</em>\r\n                    <em *ngIf=\"vehicleModel.vehicleType == '4Wheeler'\">150 RS per 5 KM</em>\r\n                </h3>\r\n            </div> -->\r\n\r\n        </div>\r\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n            <div class=\"col-lg-12\">\r\n\r\n                <form [formGroup]=\"addVehiclesform\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\r\n\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" (change)=\"vehicletype($event)\" class=\"form-control\">\r\n                                    <option value=\"\" disabled selected>Choose a option</option>\r\n                                    <!-- <option value=\"2Wheeler\">2 Wheeler</option> -->\r\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\r\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\r\n\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\r\n\r\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Model<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\r\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Year<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\r\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\r\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\r\n                                    </div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\r\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Locality<span class=\"text-danger\">*</span></label>\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\r\n                                    <option value=\"\" selected disabled>Choose your locality</option>\r\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\r\n                                        {{locations.name}}</option>\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver<span class=\"text-danger\"></span></label>\r\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\r\n                                    <option value=\"\">Choose your Driver</option>\r\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\r\n                                        {{driverslist.name}}</option>\r\n                                </select>\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\r\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\r\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Rent Per Hour</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\" formControlName=\"vRentperHr\">\r\n                                <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\r\n\r\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>License Back <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\r\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\r\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\r\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\r\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 31px;\">\r\n        <div class=\"row\" style=\"margin-bottom: 10px;\">\r\n            <div class=\"col-md-4\">\r\n                <h3>Add New Vehicles</h3>\r\n            </div>\r\n            <div class=\"col-sm-4\"></div>\r\n            <!-- <div class=\"col-sm-4\">\r\n                <h3>Pricing : <em *ngIf=\"vehicleModel.vehicleType == '3Wheeler'\">25 RS Per 1.5 KM</em>\r\n                    <em *ngIf=\"vehicleModel.vehicleType == '4Wheeler'\">150 RS per 5 KM</em>\r\n                </h3>\r\n            </div> -->\r\n\r\n        </div>\r\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n            <div class=\"col-lg-12\">\r\n\r\n                <form [formGroup]=\"addVehiclesform\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label for=\"\">Choose Location <span class=\"text-danger\">*</span></label>\r\n                                <button class=\"btn btn-warning\" style=\"    color: white;\r\n                                width: 100%;\r\n                                \" routerLink=\"/mappage\"> <i class=\"fa fa-map-o\" ></i> Choose Location from map</button>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\r\n\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" (change)=\"vehicletype($event)\" class=\"form-control\">\r\n                                    <option value=\"\" disabled selected>Choose a option</option>\r\n                                    <!-- <option value=\"2Wheeler\">2 Wheeler</option> -->\r\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\r\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\r\n\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\r\n\r\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Model<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\r\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Year<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\r\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\r\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\r\n                                    </div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\r\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Locality<span class=\"text-danger\">*</span></label>\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\r\n                                    <option value=\"\" selected disabled>Choose your locality</option>\r\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\r\n                                        {{locations.name}}</option>\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver<span class=\"text-danger\"></span></label>\r\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\r\n                                    <option value=\"\">Choose your Driver</option>\r\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\r\n                                        {{driverslist.name}}</option>\r\n                                </select>\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\r\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\r\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Rent Per Hour</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\" formControlName=\"vRentperHr\">\r\n                                <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\r\n\r\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>License Back <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\r\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\r\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\r\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1091,7 +1131,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n\r\n\r\n\r\n    <div class=\"content\" style=\"margin-top: 33px !important;\">\r\n\r\n\r\n        <!-- <button class=\"btn btn-warning\" routerLink=\"/admin\"><i class=\"fa fa-arrow-left\"></i>  </button> -->\r\n        <h6 style=\"text-align: center;\r\n        font-size: 33px;\">Requests</h6>\r\n        <hr style=\"width: 60%;color: rgb(255, 230, 0); margin-left: auto;margin-right: auto;\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n\r\n                <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\r\n                    <mat-tab label=\"Pending\">\r\n                        <div class=\"row\">\r\n                            <div class=\"offset-8 col-sm-4\">\r\n                                <select [(ngModel)]=\"optionselected\" (change)=\"selectedeventfilter(optionselected)\" class=\"form-control\" style=\"margin-top: 10px;\">\r\n                                    <option value=\"\" selected disabled>Choose a filter</option>\r\n                                   \r\n                                    <option value=\"Pending\">Pending</option>\r\n                                    <option value=\"Preorder\">Pre-Book</option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\r\n                                    <div class=\"row\" style=\"padding: 5px;\">\r\n                                        <button class=\"btn btn-success\" style=\"margin-left: auto;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\r\n                                        <button class=\"btn btn-danger\" style=\"    margin-right: auto; \r\n                                            margin-left: 11px;\" (click)=\"reject(results)\"> <i class=\"fa fa-close\"></i> Reject</button>\r\n\r\n                                    </div>\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                    <mat-tab label=\"Approved\">\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\r\n\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                    <mat-tab label=\"Reject\">\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\r\n\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                </mat-tab-group>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n\r\n\r\n\r\n    <div class=\"content\" style=\"margin-top: 33px !important;\">\r\n\r\n\r\n        <h6 style=\"text-align: center;\r\n        font-size: 33px;\">Requests</h6>\r\n        <hr style=\"width: 60%;color: rgb(255, 230, 0); margin-left: auto;margin-right: auto;\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n\r\n                <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\r\n                    <mat-tab label=\"Pending\">\r\n                        <div class=\"row\">\r\n                            <div class=\"offset-8 col-sm-4\">\r\n                                <select [(ngModel)]=\"optionselected\" (change)=\"selectedeventfilter(optionselected)\" class=\"form-control\" style=\"margin-top: 10px;\">\r\n                                    <option value=\"\" selected disabled>Filter By</option>\r\n                                   \r\n                                    <option value=\"Pending\">Pending</option>\r\n                                    <option value=\"Preorder\">Pre-Book</option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\r\n                                    <div class=\"row\" style=\"padding: 5px;\">\r\n                                        <button class=\"btn btn-success\" style=\"margin-left: auto;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\r\n                                        <button class=\"btn btn-danger\" style=\"    margin-right: auto; \r\n                                            margin-left: 11px;\" (click)=\"reject(results)\"> <i class=\"fa fa-close\"></i> Reject</button>\r\n\r\n                                    </div>\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                    <mat-tab label=\"Approved\">\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\r\n\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                    <mat-tab label=\"Reject\">\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\r\n\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                </mat-tab-group>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1151,7 +1191,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<!-- <app-header></app-header> -->\r\n<!-- <div class=\"page-wrapper\" style=\"margin-top: 101px;\">\r\n    <div class=\"row\">\r\n\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\r\n                aria-hidden=\"true\"></i> Back</button>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\r\n                color: #ffb100;\">Management</em> </h4>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/add-cars\" class=\" btn btn-success\" style=\"float: right;\"><i class=\"fa fa-plus\"\r\n                aria-hidden=\"true\"></i> Add New Cars</button>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-9\">\r\n\r\n        </div>\r\n        <div class=\"col-sm-3\">\r\n            <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 15px;\">\r\n                <option value=\"\" selected disabled>Filter Options</option>\r\n                <option value=\"1\">Approved</option>\r\n                <option value=\"3\">Rejected</option>\r\n                <option value=\"2\">Pending</option>\r\n\r\n            </select>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row \" style=\"margin-top: 11px;\">\r\n        <div class=\"col-lg-3 col-md-6 con suv mpv\" *ngFor=\"let car of carList\">\r\n            <div class=\"single-popular-car\">\r\n                <div class=\"p-car-thumbnails\">\r\n                    <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"JSOFT\" class=\"vehImg\">\r\n                </div>\r\n\r\n                <div class=\"p-car-content\">\r\n                    <h3>\r\n                        <a>{{car.companyName}}</a>\r\n                        <span class=\"price\"><i class=\"fa fa-tag\"></i> {{car.rentPerDay}}</span>\r\n                    </h3>\r\n                    <h5 style=\"float: right;\">Model : {{car.model}}</h5>\r\n\r\n                    <h5>{{car.numberPlate}}</h5>\r\n\r\n                    <h5 style=\"    float: right;\r\n                        margin-top: -1px;\">{{car.type}}</h5>\r\n\r\n                    <h5>{{car.year}}</h5>\r\n                    <h5><i class=\"fa fa-map-marker\"></i> {{car.locationName}}</h5>\r\n\r\n               \r\n\r\n\r\n\r\n                </div>\r\n                <div class=\"p-car-content\" style=\"    padding: 0px 20px 19px;\">\r\n                    <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                        View</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                        Edit</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                            class=\"fa fa-trash\"></i> Delete</button>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n\r\n    </div>\r\n    <div class=\"row\" *ngIf=\"errormessage == 'No data found'\">\r\n        <img src=\"./assets/img/nodata.png\" alt=\"\" style=\"    margin: auto;\r\n        display: block;     width: 36%;   filter: brightness(0.5);\">\r\n    </div>\r\n    <h5 *ngIf=\"errormessage == 'No data found'\" style=\"text-align: center;\">No Vehicles Found</h5>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <button routerLink=\"/add-cars\" style=\"float: right;    background: #3158c8;\" class=\" btn btn-success\"><i\r\n                                class=\"fa fa-plus\" aria-hidden=\"true\"></i> Add New Cars</button>\r\n                        <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 49px;\">\r\n                                        <option value=\"\" selected disabled>Filter Options</option>\r\n                                        <option value=\"1\">Approved</option>\r\n                                        <option value=\"3\">Rejected</option>\r\n                                        <option value=\"2\">Pending</option>\r\n                        \r\n                                    </select>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Vehicle </th>\r\n                                        <th>Locality</th>\r\n                                        <th>Image</th>\r\n                                        <th>Registration Number</th>\r\n                                        <th>Status</th>\r\n\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let car of carList\">\r\n                                        <!-- <th>{{apUrl}}vehicle/getImage1/{{car.id}}</th> -->\r\n                                        <th>{{car.companyName}}</th>\r\n                                        <th>{{car.locationName}}</th>\r\n                                        <th>\r\n                                            <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"\" style=\"height: 100px;\">\r\n                                        </th>\r\n                                        <th>{{car.numberPlate}}</th>\r\n                                        <th>{{car.status}}</th>\r\n\r\n                                        <th> <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                                            View</button>\r\n                                            <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                                            Edit</button>\r\n                                            <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                                                class=\"fa fa-trash\"></i> Delete</button></th>\r\n                                    </tr>\r\n\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<!-- <app-header></app-header> -->\r\n<!-- <div class=\"page-wrapper\" style=\"margin-top: 101px;\">\r\n    <div class=\"row\">\r\n\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\r\n                aria-hidden=\"true\"></i> Back</button>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\r\n                color: #ffb100;\">Management</em> </h4>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/add-cars\" class=\" btn btn-success\" style=\"float: right;\"><i class=\"fa fa-plus\"\r\n                aria-hidden=\"true\"></i> Add New Cars</button>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-9\">\r\n\r\n        </div>\r\n        <div class=\"col-sm-3\">\r\n            <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 15px;\">\r\n                <option value=\"\" selected disabled>Filter Options</option>\r\n                <option value=\"1\">Approved</option>\r\n                <option value=\"3\">Rejected</option>\r\n                <option value=\"2\">Pending</option>\r\n\r\n            </select>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row \" style=\"margin-top: 11px;\">\r\n        <div class=\"col-lg-3 col-md-6 con suv mpv\" *ngFor=\"let car of carList\">\r\n            <div class=\"single-popular-car\">\r\n                <div class=\"p-car-thumbnails\">\r\n                    <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"JSOFT\" class=\"vehImg\">\r\n                </div>\r\n\r\n                <div class=\"p-car-content\">\r\n                    <h3>\r\n                        <a>{{car.companyName}}</a>\r\n                        <span class=\"price\"><i class=\"fa fa-tag\"></i> {{car.rentPerDay}}</span>\r\n                    </h3>\r\n                    <h5 style=\"float: right;\">Model : {{car.model}}</h5>\r\n\r\n                    <h5>{{car.numberPlate}}</h5>\r\n\r\n                    <h5 style=\"    float: right;\r\n                        margin-top: -1px;\">{{car.type}}</h5>\r\n\r\n                    <h5>{{car.year}}</h5>\r\n                    <h5><i class=\"fa fa-map-marker\"></i> {{car.locationName}}</h5>\r\n\r\n               \r\n\r\n\r\n\r\n                </div>\r\n                <div class=\"p-car-content\" style=\"    padding: 0px 20px 19px;\">\r\n                    <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                        View</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                        Edit</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                            class=\"fa fa-trash\"></i> Delete</button>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n\r\n    </div>\r\n    <div class=\"row\" *ngIf=\"errormessage == 'No data found'\">\r\n        <img src=\"./assets/img/nodata.png\" alt=\"\" style=\"    margin: auto;\r\n        display: block;     width: 36%;   filter: brightness(0.5);\">\r\n    </div>\r\n    <h5 *ngIf=\"errormessage == 'No data found'\" style=\"text-align: center;\">No Vehicles Found</h5>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <button routerLink=\"/add-cars\" style=\"float: right;    background: #3158c8;\" class=\" btn btn-success\"><i\r\n                                class=\"fa fa-plus\" aria-hidden=\"true\"></i> Add New Cars</button>\r\n                        <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 49px;\">\r\n                                        <option value=\"\" selected disabled>Filter Options</option>\r\n                                        <option value=\"1\">Approved</option>\r\n                                        <option value=\"3\">Rejected</option>\r\n                                        <option value=\"2\">Pending</option>\r\n                        \r\n                                    </select>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Vehicle </th>\r\n                                        <th>Locality</th>\r\n                                        <th>Image</th>\r\n                                        <th>Registration Number</th>\r\n                                        <th>Status</th>\r\n\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let car of carList\">\r\n                                        <!-- <th>{{apUrl}}vehicle/getImage1/{{car.id}}</th> -->\r\n                                        <th>{{car.companyName}}</th>\r\n                                        <th>{{car.locationName}}</th>\r\n                                        <th>\r\n                                            <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"\" style=\"height: 100px;\">\r\n                                        </th>\r\n                                        <th>{{car.numberPlate}}</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '1'\">Approved</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '2'\">Pending</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '3'\">Rejected</th>\r\n\r\n\r\n                                        <th> <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                                            View</button>\r\n                                            <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                                            Edit</button>\r\n                                            <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                                                class=\"fa fa-trash\"></i> Delete</button></th>\r\n                                    </tr>\r\n\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -2776,6 +2816,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var req = {};
           return this.http.post(this.BASEURL + 'updatePassword?currentPassword=' + old + '&newPassword=' + password, req);
         }
+      }, {
+        key: "getallbankdetails",
+        value: function getallbankdetails() {
+          return this.http.get(this.BASEURL + 'owner/listAllBankDetails?page=0&size=100');
+        }
       }]);
 
       return AdminService;
@@ -3166,13 +3211,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     var sweetalert2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_6__);
+    /* harmony import */
+
+
+    var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! src/app/ownerpannel/owner.service */
+    "./src/app/ownerpannel/owner.service.ts");
 
     var ViewVehicledetailsComponent = /*#__PURE__*/function () {
-      function ViewVehicledetailsComponent(domsanitizer, adminService) {
+      function ViewVehicledetailsComponent(domsanitizer, adminService, onerservice) {
         _classCallCheck(this, ViewVehicledetailsComponent);
 
         this.domsanitizer = domsanitizer;
         this.adminService = adminService;
+        this.onerservice = onerservice;
         this.formData = new FormData();
       }
 
@@ -3261,15 +3313,22 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           this.adminService.getVehicleDetailsbyId(this.vehicleID).subscribe(function (data) {
             _this12.DriverDetailsofCar = data['driver'];
+            _this12.driverid = data['driverId'];
+            console.log("DRIVER ID =====" + _this12.driverid);
             console.log(_this12.DriverDetailsofCar);
 
             if (_this12.DriverDetailsofCar != null) {
               _this12.vehicleModel.dname = _this12.DriverDetailsofCar['name'];
               _this12.vehicleModel.dnumber = _this12.DriverDetailsofCar['number'];
               _this12.vehicleModel.daddreess = _this12.DriverDetailsofCar['addresss'];
+              _this12.driverpancard = _this12.DriverDetailsofCar['panCardNO'];
             }
 
             _this12.id = _this12.driverDetails['id'];
+
+            _this12.getlicsence();
+
+            _this12.getdriverlicsenceback();
           }, function (error) {});
         }
       }, {
@@ -3305,6 +3364,33 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "open",
         value: function open() {}
+      }, {
+        key: "getlicsence",
+        value: function getlicsence() {
+          var _this15 = this;
+
+          // console.log(id)
+          // this.Id = id
+          console.log(this.driverid);
+          this.onerservice.getliscncefront(this.driverid).subscribe(function (data) {
+            var unnsafeimage = URL.createObjectURL(data);
+            console.log(unnsafeimage);
+            _this15.liscenimag = _this15.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+          }, function (error) {});
+        }
+      }, {
+        key: "getdriverlicsenceback",
+        value: function getdriverlicsenceback() {
+          var _this16 = this;
+
+          // console.log(id)
+          // this.Id = id
+          this.onerservice.getlicscenceback(this.driverid).subscribe(function (data) {
+            var unnsafeimage = URL.createObjectURL(data);
+            console.log(unnsafeimage);
+            _this16.liscenimagback = _this16.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+          }, function (error) {});
+        }
       }]);
 
       return ViewVehicledetailsComponent;
@@ -3315,6 +3401,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"]
       }, {
         type: _admin_service__WEBPACK_IMPORTED_MODULE_5__["AdminService"]
+      }, {
+        type: src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_7__["OwnerService"]
       }];
     };
 
@@ -3427,7 +3515,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n.table-responsive {\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cge1xyXG4gICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgIG1hcmdpbi1yaWdodDogMHB4O1xyXG59XHJcblxyXG4udGFibGUtcmVzcG9uc2l2ZSB7XHJcbiAgICBtYXJnaW4tbGVmdDogMTk1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xyXG59Il19 */";
+    __webpack_exports__["default"] = ".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n.table-responsive {\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n}\r\n\r\n.d-block {\r\n    border-radius: 19px;\r\n    width: 50%;\r\n    height: 270px;\r\n    margin: 0 auto;\r\n}\r\n\r\n@media only screen and (max-width: 991px) {\r\n    .container-fluid {\r\n        margin-left: 93px !important;\r\n        margin-top: 99px !important;\r\n        padding-right: 9px !important;\r\n    }\r\n    #wrapper #content-wrapper {\r\n        background-color: #f8f9fc;\r\n        overflow-x: unset;\r\n    }\r\n    .d-block {\r\n        border-radius: 19px;\r\n        width: 102%;\r\n        height: 161px;\r\n    }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLFVBQVU7SUFDVixhQUFhO0lBQ2IsY0FBYztBQUNsQjs7QUFFQTtJQUNJO1FBQ0ksNEJBQTRCO1FBQzVCLDJCQUEyQjtRQUMzQiw2QkFBNkI7SUFDakM7SUFDQTtRQUNJLHlCQUF5QjtRQUN6QixpQkFBaUI7SUFDckI7SUFDQTtRQUNJLG1CQUFtQjtRQUNuQixXQUFXO1FBQ1gsYUFBYTtJQUNqQjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cge1xyXG4gICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgIG1hcmdpbi1yaWdodDogMHB4O1xyXG59XHJcblxyXG4udGFibGUtcmVzcG9uc2l2ZSB7XHJcbiAgICBtYXJnaW4tbGVmdDogMTk1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xyXG59XHJcblxyXG4uZC1ibG9jayB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxOXB4O1xyXG4gICAgd2lkdGg6IDUwJTtcclxuICAgIGhlaWdodDogMjcwcHg7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxufVxyXG5cclxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5OTFweCkge1xyXG4gICAgLmNvbnRhaW5lci1mbHVpZCB7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDkzcHggIWltcG9ydGFudDtcclxuICAgICAgICBtYXJnaW4tdG9wOiA5OXB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgcGFkZGluZy1yaWdodDogOXB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgICAjd3JhcHBlciAjY29udGVudC13cmFwcGVyIHtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjhmOWZjO1xyXG4gICAgICAgIG92ZXJmbG93LXg6IHVuc2V0O1xyXG4gICAgfVxyXG4gICAgLmQtYmxvY2sge1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDE5cHg7XHJcbiAgICAgICAgd2lkdGg6IDEwMiU7XHJcbiAgICAgICAgaGVpZ2h0OiAxNjFweDtcclxuICAgIH1cclxufSJdfQ== */";
     /***/
   },
 
@@ -3549,19 +3637,45 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _admin_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../admin.service */
+    "./src/app/adminpannel/admin.service.ts");
 
     var AllbanksComponent = /*#__PURE__*/function () {
-      function AllbanksComponent() {
+      function AllbanksComponent(adminservice) {
         _classCallCheck(this, AllbanksComponent);
+
+        this.adminservice = adminservice;
+        this.results = [];
       }
 
       _createClass(AllbanksComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {}
+        value: function ngOnInit() {
+          this.getallbamnks();
+        }
+      }, {
+        key: "getallbamnks",
+        value: function getallbamnks() {
+          var _this17 = this;
+
+          this.adminservice.getallbankdetails().subscribe(function (data) {
+            _this17.results = data;
+          }, function (error) {});
+        }
       }]);
 
       return AllbanksComponent;
     }();
+
+    AllbanksComponent.ctorParameters = function () {
+      return [{
+        type: _admin_service__WEBPACK_IMPORTED_MODULE_2__["AdminService"]
+      }];
+    };
 
     AllbanksComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-allbanks',
@@ -3572,6 +3686,83 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /*! ./allbanks.component.css */
       "./src/app/adminpannel/allbanks/allbanks.component.css"))["default"]]
     })], AllbanksComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.css":
+  /*!*********************************************************************************!*\
+    !*** ./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.css ***!
+    \*********************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminpannelCannceledBookingsCannceledBookingsComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWlucGFubmVsL2Nhbm5jZWxlZC1ib29raW5ncy9jYW5uY2VsZWQtYm9va2luZ3MuY29tcG9uZW50LmNzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.ts":
+  /*!********************************************************************************!*\
+    !*** ./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.ts ***!
+    \********************************************************************************/
+
+  /*! exports provided: CannceledBookingsComponent */
+
+  /***/
+  function srcAppAdminpannelCannceledBookingsCannceledBookingsComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CannceledBookingsComponent", function () {
+      return CannceledBookingsComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var CannceledBookingsComponent = /*#__PURE__*/function () {
+      function CannceledBookingsComponent() {
+        _classCallCheck(this, CannceledBookingsComponent);
+      }
+
+      _createClass(CannceledBookingsComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return CannceledBookingsComponent;
+    }();
+
+    CannceledBookingsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-cannceled-bookings',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./cannceled-bookings.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./cannceled-bookings.component.css */
+      "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.css"))["default"]]
+    })], CannceledBookingsComponent);
     /***/
   },
 
@@ -3668,11 +3859,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallOwners",
         value: function getallOwners() {
-          var _this15 = this;
+          var _this18 = this;
 
           this.adminservice.getallowners(this.pageIndex).subscribe(function (data) {
-            _this15.results = data;
-            _this15.dataSource.data = _this15.results;
+            _this18.results = data;
+            _this18.dataSource.data = _this18.results;
           }, function (error) {});
         }
       }, {
@@ -3695,11 +3886,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "changePage",
         value: function changePage(e) {
-          var _this16 = this;
+          var _this19 = this;
 
           this.adminservice.getallowners(e.pageIndex).subscribe(function (data) {
-            _this16.results = data;
-            _this16.dataSource.data = _this16.results;
+            _this19.results = data;
+            _this19.dataSource.data = _this19.results;
           }, function (error) {});
         }
       }]);
@@ -4072,7 +4263,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this17 = this;
+          var _this20 = this;
 
           if (this.Location == undefined || this.Location == '') {
             this.toaster.error('Please enter a location name');
@@ -4080,11 +4271,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           } else {
             this.formData.append('name', this.Location);
             this.adminservice.addlocation(this.formData).subscribe(function (data) {
-              _this17.router.navigate(['/locations']);
+              _this20.router.navigate(['/locations']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Location Added!', 'Location Added Successfully', 'success');
             }, function (error) {
-              _this17.formData["delete"];
+              _this20.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Cant add Location!', 'Location Added UnSuccessfully', 'error');
             });
           }
@@ -4212,31 +4403,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditLocationComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this18 = this;
+          var _this21 = this;
 
           this.locationForn = this.fb.group({
             Location: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
           });
           this.activaterouter.params.subscribe(function (params) {
             console.log(params);
-            _this18.Location = params.name;
-            _this18.Id = params.id;
+            _this21.Location = params.name;
+            _this21.Id = params.id;
           });
         }
       }, {
         key: "submit",
         value: function submit() {
-          var _this19 = this;
+          var _this22 = this;
 
           this.formData.append('id', this.Id);
           this.formData.append('name', this.Location);
           this.adminservice.Editlocation(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Location Updated!', 'Location Updated Successfully', 'success');
 
-            _this19.router.navigate(['/locations']);
+            _this22.router.navigate(['/locations']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Cant Update Location!', 'Location Updated UnSuccessfully', 'error');
-            _this19.formData["delete"];
+            _this22.formData["delete"];
           });
         }
       }]);
@@ -4385,12 +4576,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalllocations",
         value: function getalllocations() {
-          var _this20 = this;
+          var _this23 = this;
 
           this.adminpannel.getalllocation().subscribe(function (data) {
             console.log(data);
-            _this20.results = data;
-            _this20.dataSource.data = _this20.results;
+            _this23.results = data;
+            _this23.dataSource.data = _this23.results;
           }, function (error) {});
         }
       }, {
@@ -4657,7 +4848,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reset",
         value: function reset() {
-          var _this21 = this;
+          var _this24 = this;
 
           this.submitted = true;
 
@@ -4665,7 +4856,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return;
           } else if (this.resetForm.valid) {
             this.adminservice.resetpassword(this.adminmodel.oldPasswords, this.adminmodel.password).subscribe(function (data) {
-              _this21.resetForm.reset();
+              _this24.resetForm.reset();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Password Reset!', 'Password Reset Successfully', 'success');
             }, function (error) {
@@ -5162,7 +5353,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _ownerpannel_ownerpaymentsection_ownerpaymentsection_component__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(
     /*! ./ownerpannel/ownerpaymentsection/ownerpaymentsection.component */
-    "./src/app/ownerpannel/ownerpaymentsection/ownerpaymentsection.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
+    "./src/app/ownerpannel/ownerpaymentsection/ownerpaymentsection.component.ts");
+    /* harmony import */
+
+
+    var _mappages_mappages_component__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(
+    /*! ./mappages/mappages.component */
+    "./src/app/mappages/mappages.component.ts");
+    /* harmony import */
+
+
+    var _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(
+    /*! ./adminpannel/cannceled-bookings/cannceled-bookings.component */
+    "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
 
 
     var routes = [{
@@ -5377,6 +5580,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     }, {
       path: 'paymentpage',
       component: _ownerpannel_ownerpaymentsection_ownerpaymentsection_component__WEBPACK_IMPORTED_MODULE_59__["OwnerpaymentsectionComponent"],
+      canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_51__["AuthGuard"]]
+    }, {
+      path: 'mappage',
+      component: _mappages_mappages_component__WEBPACK_IMPORTED_MODULE_60__["MappagesComponent"]
+    }, {
+      path: 'cancelled-bookings',
+      component: _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_61__["CannceledBookingsComponent"],
       canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_51__["AuthGuard"]]
     }];
 
@@ -5983,8 +6193,25 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _ownerpannel_ownerpaymentsection_collect_cash_collect_cash_component__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(
     /*! ./ownerpannel/ownerpaymentsection/collect-cash/collect-cash.component */
-    "./src/app/ownerpannel/ownerpaymentsection/collect-cash/collect-cash.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
-    // import { AgmCoreModule } from '@agm/core';
+    "./src/app/ownerpannel/ownerpaymentsection/collect-cash/collect-cash.component.ts");
+    /* harmony import */
+
+
+    var _mappages_mappages_component__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(
+    /*! ./mappages/mappages.component */
+    "./src/app/mappages/mappages.component.ts");
+    /* harmony import */
+
+
+    var _agm_core__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(
+    /*! @agm/core */
+    "./node_modules/@agm/core/fesm2015/agm-core.js");
+    /* harmony import */
+
+
+    var _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(
+    /*! ./adminpannel/cannceled-bookings/cannceled-bookings.component */
+    "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
 
 
     var AppModule = function AppModule() {
@@ -5992,11 +6219,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _login_login_component__WEBPACK_IMPORTED_MODULE_6__["LoginComponent"], _register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"], _adminpannel_adminpannel_component__WEBPACK_IMPORTED_MODULE_8__["AdminpannelComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _adminpannel_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_13__["SidebarComponent"], _adminpannel_header_header_component__WEBPACK_IMPORTED_MODULE_14__["HeaderComponent"], _adminpannel_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__["CountriesComponent"], _adminpannel_adminhome_adminhome_component__WEBPACK_IMPORTED_MODULE_16__["AdminhomeComponent"], _navigation_navigation_component__WEBPACK_IMPORTED_MODULE_17__["NavigationComponent"], _ownerpannel_ownerpannel_component__WEBPACK_IMPORTED_MODULE_18__["OwnerpannelComponent"], _ownerpannel_vehicles_vehicles_component__WEBPACK_IMPORTED_MODULE_19__["VehiclesComponent"], _adminpannel_companies_companies_component__WEBPACK_IMPORTED_MODULE_20__["CompaniesComponent"], _adminpannel_location_location_component__WEBPACK_IMPORTED_MODULE_21__["LocationComponent"], _adminpannel_adminapprovevehicles_adminapprovevehicles_component__WEBPACK_IMPORTED_MODULE_22__["AdminapprovevehiclesComponent"], _adminpannel_paymentreports_paymentreports_component__WEBPACK_IMPORTED_MODULE_23__["PaymentreportsComponent"], _adminpannel_reset_passowrd_reset_passowrd_component__WEBPACK_IMPORTED_MODULE_24__["ResetPassowrdComponent"], _ownerpannel_addnew_cars_addnew_cars_component__WEBPACK_IMPORTED_MODULE_25__["AddnewCarsComponent"], _ownerpannel_drivers_drivers_component__WEBPACK_IMPORTED_MODULE_30__["DriversComponent"], _ownerpannel_drivers_add_drivers_add_drivers_component__WEBPACK_IMPORTED_MODULE_31__["AddDriversComponent"], _loading_loading_component__WEBPACK_IMPORTED_MODULE_32__["LoadingComponent"], _ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"], _forgotpassword_forgotpassword_component__WEBPACK_IMPORTED_MODULE_35__["ForgotpasswordComponent"], _adminpannel_location_edit_location_edit_location_component__WEBPACK_IMPORTED_MODULE_36__["EditLocationComponent"], _adminpannel_location_add_location_add_location_component__WEBPACK_IMPORTED_MODULE_37__["AddLocationComponent"], _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_38__["ErrorPageComponent"], _ownerpannel_edit_cars_edit_cars_component__WEBPACK_IMPORTED_MODULE_41__["EditCarsComponent"], _registerpageformarketing_registerpageformarketing_component__WEBPACK_IMPORTED_MODULE_42__["RegisterpageformarketingComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_43__["FooterComponent"], _registerpageformarketing_pulicregistrationmarketing_pulicregistrationmarketing_component__WEBPACK_IMPORTED_MODULE_44__["PulicregistrationmarketingComponent"], _adminpannel_adminapprovevehicles_view_vehicledetails_view_vehicledetails_component__WEBPACK_IMPORTED_MODULE_45__["ViewVehicledetailsComponent"], _ownerpannel_vehicles_ownerviewvehicles_ownerviewvehicles_component__WEBPACK_IMPORTED_MODULE_46__["OwnerviewvehiclesComponent"], _ownerpannel_drivers_viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_47__["ViewlicsencebackComponent"], _ownerpannel_drivers_edit_drivers_edit_drivers_component__WEBPACK_IMPORTED_MODULE_48__["EditDriversComponent"], _ownerpannel_bankdetails_bankdetails_component__WEBPACK_IMPORTED_MODULE_49__["BankdetailsComponent"], _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_50__["AddBanksComponent"], _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_51__["EditBankdetailsComponent"], _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__["RequestsComponent"], _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"], _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__["HandovervehiclesComponent"], _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"], _ownerpannel_addnew_cars_addimage_one_addimage_one_component__WEBPACK_IMPORTED_MODULE_56__["AddimageOneComponent"], _ownerpannel_addnew_cars_addimage_two_addimage_two_component__WEBPACK_IMPORTED_MODULE_57__["AddimageTwoComponent"], _ownerpannel_addnew_cars_addlicence_front_addlicence_front_component__WEBPACK_IMPORTED_MODULE_58__["AddlicenceFrontComponent"], _ownerpannel_addnew_cars_addlicence_back_addlicence_back_component__WEBPACK_IMPORTED_MODULE_59__["AddlicenceBackComponent"], _ownerpannel_addnew_cars_addrcimage_addrcimage_component__WEBPACK_IMPORTED_MODULE_60__["AddrcimageComponent"], _ownerpannel_drivers_add_drivers_adddriver_licscence_adddriver_licscence_component__WEBPACK_IMPORTED_MODULE_61__["AdddriverLicscenceComponent"], _ownerpannel_drivers_add_drivers_adddriver_licscenceback_adddriver_licscenceback_component__WEBPACK_IMPORTED_MODULE_62__["AdddriverLicscencebackComponent"], _ownerpannel_drivers_add_drivers_adddriver_profilepic_adddriver_profilepic_component__WEBPACK_IMPORTED_MODULE_63__["AdddriverProfilepicComponent"], _ownerpannel_vehicletracking_vehicletracking_component__WEBPACK_IMPORTED_MODULE_64__["VehicletrackingComponent"], _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_65__["AboutusComponent"], _features_features_component__WEBPACK_IMPORTED_MODULE_66__["FeaturesComponent"], _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_67__["ContactusComponent"], _termsandconditons_termsandconditons_component__WEBPACK_IMPORTED_MODULE_68__["TermsandconditonsComponent"], _privacyandpolicy_privacyandpolicy_component__WEBPACK_IMPORTED_MODULE_69__["PrivacyandpolicyComponent"], _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_70__["CancelationpolicyComponent"], _services_services_component__WEBPACK_IMPORTED_MODULE_71__["ServicesComponent"], _chatsadnfeedbacks_chatsadnfeedbacks_component__WEBPACK_IMPORTED_MODULE_72__["ChatsadnfeedbacksComponent"], _users_users_component__WEBPACK_IMPORTED_MODULE_74__["UsersComponent"], _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_75__["PricingComponent"], _register_mobilenumber_mobilenumber_component__WEBPACK_IMPORTED_MODULE_76__["MobilenumberComponent"], _register_verifyotp_verifyotp_component__WEBPACK_IMPORTED_MODULE_77__["VerifyotpComponent"], _car_renters_car_renters_component__WEBPACK_IMPORTED_MODULE_78__["CarRentersComponent"], _slideshow_slideshow_component__WEBPACK_IMPORTED_MODULE_79__["SlideshowComponent"], _adminpannel_allbanks_allbanks_component__WEBPACK_IMPORTED_MODULE_80__["AllbanksComponent"], _chatsadnfeedbacks_add_feedback_add_feedback_component__WEBPACK_IMPORTED_MODULE_81__["AddFeedbackComponent"], _ownerpannel_ownerpaymentsection_ownerpaymentsection_component__WEBPACK_IMPORTED_MODULE_82__["OwnerpaymentsectionComponent"], _ownerpannel_ownerpaymentsection_collect_cash_collect_cash_component__WEBPACK_IMPORTED_MODULE_83__["CollectCashComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _material__WEBPACK_IMPORTED_MODULE_10__["MaterialModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"], // AgmCoreModule.forRoot({
-      //   apiKey: 'AIzaSyA8VTIDe4Yi7VHOJLbVgsr5UyDKHV2vBe4'
-      // }),
-      ngx_toastr__WEBPACK_IMPORTED_MODULE_40__["ToastrModule"].forRoot(), _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["ReactiveFormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _login_login_component__WEBPACK_IMPORTED_MODULE_6__["LoginComponent"], _register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"], _adminpannel_adminpannel_component__WEBPACK_IMPORTED_MODULE_8__["AdminpannelComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _adminpannel_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_13__["SidebarComponent"], _adminpannel_header_header_component__WEBPACK_IMPORTED_MODULE_14__["HeaderComponent"], _adminpannel_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__["CountriesComponent"], _adminpannel_adminhome_adminhome_component__WEBPACK_IMPORTED_MODULE_16__["AdminhomeComponent"], _navigation_navigation_component__WEBPACK_IMPORTED_MODULE_17__["NavigationComponent"], _ownerpannel_ownerpannel_component__WEBPACK_IMPORTED_MODULE_18__["OwnerpannelComponent"], _ownerpannel_vehicles_vehicles_component__WEBPACK_IMPORTED_MODULE_19__["VehiclesComponent"], _adminpannel_companies_companies_component__WEBPACK_IMPORTED_MODULE_20__["CompaniesComponent"], _adminpannel_location_location_component__WEBPACK_IMPORTED_MODULE_21__["LocationComponent"], _adminpannel_adminapprovevehicles_adminapprovevehicles_component__WEBPACK_IMPORTED_MODULE_22__["AdminapprovevehiclesComponent"], _adminpannel_paymentreports_paymentreports_component__WEBPACK_IMPORTED_MODULE_23__["PaymentreportsComponent"], _adminpannel_reset_passowrd_reset_passowrd_component__WEBPACK_IMPORTED_MODULE_24__["ResetPassowrdComponent"], _ownerpannel_addnew_cars_addnew_cars_component__WEBPACK_IMPORTED_MODULE_25__["AddnewCarsComponent"], _ownerpannel_drivers_drivers_component__WEBPACK_IMPORTED_MODULE_30__["DriversComponent"], _ownerpannel_drivers_add_drivers_add_drivers_component__WEBPACK_IMPORTED_MODULE_31__["AddDriversComponent"], _loading_loading_component__WEBPACK_IMPORTED_MODULE_32__["LoadingComponent"], _ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"], _forgotpassword_forgotpassword_component__WEBPACK_IMPORTED_MODULE_35__["ForgotpasswordComponent"], _adminpannel_location_edit_location_edit_location_component__WEBPACK_IMPORTED_MODULE_36__["EditLocationComponent"], _adminpannel_location_add_location_add_location_component__WEBPACK_IMPORTED_MODULE_37__["AddLocationComponent"], _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_38__["ErrorPageComponent"], _ownerpannel_edit_cars_edit_cars_component__WEBPACK_IMPORTED_MODULE_41__["EditCarsComponent"], _registerpageformarketing_registerpageformarketing_component__WEBPACK_IMPORTED_MODULE_42__["RegisterpageformarketingComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_43__["FooterComponent"], _registerpageformarketing_pulicregistrationmarketing_pulicregistrationmarketing_component__WEBPACK_IMPORTED_MODULE_44__["PulicregistrationmarketingComponent"], _adminpannel_adminapprovevehicles_view_vehicledetails_view_vehicledetails_component__WEBPACK_IMPORTED_MODULE_45__["ViewVehicledetailsComponent"], _ownerpannel_vehicles_ownerviewvehicles_ownerviewvehicles_component__WEBPACK_IMPORTED_MODULE_46__["OwnerviewvehiclesComponent"], _ownerpannel_drivers_viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_47__["ViewlicsencebackComponent"], _ownerpannel_drivers_edit_drivers_edit_drivers_component__WEBPACK_IMPORTED_MODULE_48__["EditDriversComponent"], _ownerpannel_bankdetails_bankdetails_component__WEBPACK_IMPORTED_MODULE_49__["BankdetailsComponent"], _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_50__["AddBanksComponent"], _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_51__["EditBankdetailsComponent"], _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__["RequestsComponent"], _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"], _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__["HandovervehiclesComponent"], _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"], _ownerpannel_addnew_cars_addimage_one_addimage_one_component__WEBPACK_IMPORTED_MODULE_56__["AddimageOneComponent"], _ownerpannel_addnew_cars_addimage_two_addimage_two_component__WEBPACK_IMPORTED_MODULE_57__["AddimageTwoComponent"], _ownerpannel_addnew_cars_addlicence_front_addlicence_front_component__WEBPACK_IMPORTED_MODULE_58__["AddlicenceFrontComponent"], _ownerpannel_addnew_cars_addlicence_back_addlicence_back_component__WEBPACK_IMPORTED_MODULE_59__["AddlicenceBackComponent"], _ownerpannel_addnew_cars_addrcimage_addrcimage_component__WEBPACK_IMPORTED_MODULE_60__["AddrcimageComponent"], _ownerpannel_drivers_add_drivers_adddriver_licscence_adddriver_licscence_component__WEBPACK_IMPORTED_MODULE_61__["AdddriverLicscenceComponent"], _ownerpannel_drivers_add_drivers_adddriver_licscenceback_adddriver_licscenceback_component__WEBPACK_IMPORTED_MODULE_62__["AdddriverLicscencebackComponent"], _ownerpannel_drivers_add_drivers_adddriver_profilepic_adddriver_profilepic_component__WEBPACK_IMPORTED_MODULE_63__["AdddriverProfilepicComponent"], _ownerpannel_vehicletracking_vehicletracking_component__WEBPACK_IMPORTED_MODULE_64__["VehicletrackingComponent"], _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_65__["AboutusComponent"], _features_features_component__WEBPACK_IMPORTED_MODULE_66__["FeaturesComponent"], _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_67__["ContactusComponent"], _termsandconditons_termsandconditons_component__WEBPACK_IMPORTED_MODULE_68__["TermsandconditonsComponent"], _privacyandpolicy_privacyandpolicy_component__WEBPACK_IMPORTED_MODULE_69__["PrivacyandpolicyComponent"], _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_70__["CancelationpolicyComponent"], _services_services_component__WEBPACK_IMPORTED_MODULE_71__["ServicesComponent"], _chatsadnfeedbacks_chatsadnfeedbacks_component__WEBPACK_IMPORTED_MODULE_72__["ChatsadnfeedbacksComponent"], _users_users_component__WEBPACK_IMPORTED_MODULE_74__["UsersComponent"], _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_75__["PricingComponent"], _register_mobilenumber_mobilenumber_component__WEBPACK_IMPORTED_MODULE_76__["MobilenumberComponent"], _register_verifyotp_verifyotp_component__WEBPACK_IMPORTED_MODULE_77__["VerifyotpComponent"], _car_renters_car_renters_component__WEBPACK_IMPORTED_MODULE_78__["CarRentersComponent"], _slideshow_slideshow_component__WEBPACK_IMPORTED_MODULE_79__["SlideshowComponent"], _adminpannel_allbanks_allbanks_component__WEBPACK_IMPORTED_MODULE_80__["AllbanksComponent"], _chatsadnfeedbacks_add_feedback_add_feedback_component__WEBPACK_IMPORTED_MODULE_81__["AddFeedbackComponent"], _ownerpannel_ownerpaymentsection_ownerpaymentsection_component__WEBPACK_IMPORTED_MODULE_82__["OwnerpaymentsectionComponent"], _ownerpannel_ownerpaymentsection_collect_cash_collect_cash_component__WEBPACK_IMPORTED_MODULE_83__["CollectCashComponent"], _mappages_mappages_component__WEBPACK_IMPORTED_MODULE_84__["MappagesComponent"], _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_86__["CannceledBookingsComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _material__WEBPACK_IMPORTED_MODULE_10__["MaterialModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"], _agm_core__WEBPACK_IMPORTED_MODULE_85__["AgmCoreModule"].forRoot({
+        apiKey: 'AIzaSyA8VTIDe4Yi7VHOJLbVgsr5UyDKHV2vBe4'
+      }), ngx_toastr__WEBPACK_IMPORTED_MODULE_40__["ToastrModule"].forRoot(), _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["ReactiveFormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"]],
       providers: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_73__["AuthGuard"], {
         provide: _angular_common__WEBPACK_IMPORTED_MODULE_39__["LocationStrategy"],
         useClass: _angular_common__WEBPACK_IMPORTED_MODULE_39__["HashLocationStrategy"]
@@ -6167,10 +6393,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this22 = this;
+          var _this25 = this;
 
           this.adminservice.getallownersforadmin(this.page).subscribe(function (data) {
-            _this22.results = data;
+            _this25.results = data;
           }, function (error) {});
         }
       }]);
@@ -6402,19 +6628,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getchatsafeeback",
         value: function getchatsafeeback() {
-          var _this23 = this;
+          var _this26 = this;
 
           this.AdminService.getalldata(this.faday, this.tday, this.page, this.size).subscribe(function (data) {
-            _this23.results = data;
+            _this26.results = data;
           }, function (error) {});
         }
       }, {
         key: "selected",
         value: function selected(s) {
-          var _this24 = this;
+          var _this27 = this;
 
           this.AdminService.getalldata(this.date1, this.date2, this.page, this.size).subscribe(function (data) {
-            _this24.results = data;
+            _this27.results = data;
           }, function (error) {});
         }
       }]);
@@ -6964,7 +7190,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".overlay {\r\n    position:fixed;\r\n    display:block;\r\n    width:100%;\r\n    height:100%;\r\n    top:0;\r\n    left:0px;\r\n    background-color:rgba(192, 181, 181, 0.589);\r\n    align-items: center;\r\n  }\r\n  .spinner {\r\n    position:absolute;\r\n    top:50%;\r\n    left:49%;\r\n    transform: translate(-50%,-50%);\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n  /* .loader {\r\n    position: fixed;\r\n    left: 0px;\r\n    top: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 9999;\r\n   \r\n    opacity: .8;\r\n} */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9hZGluZy9sb2FkaW5nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsYUFBYTtJQUNiLFVBQVU7SUFDVixXQUFXO0lBQ1gsS0FBSztJQUNMLFFBQVE7SUFDUiwyQ0FBMkM7SUFDM0MsbUJBQW1CO0VBQ3JCO0VBQ0E7SUFDRSxpQkFBaUI7SUFDakIsT0FBTztJQUNQLFFBQVE7SUFDUiwrQkFBK0I7SUFDL0IsaUJBQWlCO0lBQ2pCLGtCQUFrQjtFQUNwQjtFQUNBOzs7Ozs7Ozs7R0FTQyIsImZpbGUiOiJzcmMvYXBwL2xvYWRpbmcvbG9hZGluZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm92ZXJsYXkge1xyXG4gICAgcG9zaXRpb246Zml4ZWQ7XHJcbiAgICBkaXNwbGF5OmJsb2NrO1xyXG4gICAgd2lkdGg6MTAwJTtcclxuICAgIGhlaWdodDoxMDAlO1xyXG4gICAgdG9wOjA7XHJcbiAgICBsZWZ0OjBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6cmdiYSgxOTIsIDE4MSwgMTgxLCAwLjU4OSk7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIH1cclxuICAuc3Bpbm5lciB7XHJcbiAgICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICAgIHRvcDo1MCU7XHJcbiAgICBsZWZ0OjQ5JTtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsLTUwJSk7XHJcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcclxuICAgIG1hcmdpbi1yaWdodDogYXV0bztcclxuICB9XHJcbiAgLyogLmxvYWRlciB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBsZWZ0OiAwcHg7XHJcbiAgICB0b3A6IDBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgei1pbmRleDogOTk5OTtcclxuICAgXHJcbiAgICBvcGFjaXR5OiAuODtcclxufSAqL1xyXG4iXX0= */";
+    __webpack_exports__["default"] = ".overlay {\r\n    position: fixed;\r\n    display: block;\r\n    width: 100%;\r\n    height: 100%;\r\n    top: 0;\r\n    left: 0px;\r\n    background-color: rgba(192, 181, 181, 0.137);\r\n    align-items: center;\r\n}\r\n\r\n.spinner {\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 49%;\r\n    transform: translate(-50%, -50%);\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n/* .loader {\r\n    position: fixed;\r\n    left: 0px;\r\n    top: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 9999;\r\n   \r\n    opacity: .8;\r\n} */\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9hZGluZy9sb2FkaW5nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2YsY0FBYztJQUNkLFdBQVc7SUFDWCxZQUFZO0lBQ1osTUFBTTtJQUNOLFNBQVM7SUFDVCw0Q0FBNEM7SUFDNUMsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFFBQVE7SUFDUixTQUFTO0lBQ1QsZ0NBQWdDO0lBQ2hDLGlCQUFpQjtJQUNqQixrQkFBa0I7QUFDdEI7O0FBR0E7Ozs7Ozs7OztHQVNHIiwiZmlsZSI6InNyYy9hcHAvbG9hZGluZy9sb2FkaW5nLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIub3ZlcmxheSB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgdG9wOiAwO1xyXG4gICAgbGVmdDogMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgxOTIsIDE4MSwgMTgxLCAwLjEzNyk7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG59XHJcblxyXG4uc3Bpbm5lciB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDUwJTtcclxuICAgIGxlZnQ6IDQ5JTtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xyXG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbn1cclxuXHJcblxyXG4vKiAubG9hZGVyIHtcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgIGxlZnQ6IDBweDtcclxuICAgIHRvcDogMHB4O1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICB6LWluZGV4OiA5OTk5O1xyXG4gICBcclxuICAgIG9wYWNpdHk6IC44O1xyXG59ICovIl19 */";
     /***/
   },
 
@@ -7225,7 +7451,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onSubmit",
         value: function onSubmit(form, formData) {
-          var _this25 = this;
+          var _this28 = this;
 
           // this.submitted = true;
           // this.authservice.login(formData.email,formData.password).pipe(first())
@@ -7248,14 +7474,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (data['roleId'] == '1') {
               localStorage.setItem('ROLE', JSON.stringify('ADMIN'));
 
-              _this25.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
+              _this28.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
 
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Admin Login!', ' Admin Login Successfully', 'success');
             } else if (data['roleId'] == '2') {
               localStorage.setItem('ROLE', JSON.stringify('OWNER'));
 
-              _this25.router.navigate(['/admin']);
+              _this28.router.navigate(['/admin']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('WELCOME!', 'Login Successfully', 'success');
             }
@@ -7398,6 +7624,149 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     LoginService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
       providedIn: 'root'
     })], LoginService);
+    /***/
+  },
+
+  /***/
+  "./src/app/mappages/mappages.component.css":
+  /*!*************************************************!*\
+    !*** ./src/app/mappages/mappages.component.css ***!
+    \*************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppMappagesMappagesComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "agm-map {\r\n    height: 500px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFwcGFnZXMvbWFwcGFnZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7QUFDakIiLCJmaWxlIjoic3JjL2FwcC9tYXBwYWdlcy9tYXBwYWdlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYWdtLW1hcCB7XHJcbiAgICBoZWlnaHQ6IDUwMHB4O1xyXG59Il19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/mappages/mappages.component.ts":
+  /*!************************************************!*\
+    !*** ./src/app/mappages/mappages.component.ts ***!
+    \************************************************/
+
+  /*! exports provided: MappagesComponent */
+
+  /***/
+  function srcAppMappagesMappagesComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "MappagesComponent", function () {
+      return MappagesComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    var MappagesComponent = /*#__PURE__*/function () {
+      function MappagesComponent(router) {
+        _classCallCheck(this, MappagesComponent);
+
+        this.router = router;
+        this.latitude = 9.956719437528115;
+        this.longitude = 76.3214111328125;
+      }
+
+      _createClass(MappagesComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }, {
+        key: "markerDragEnd",
+        value: function markerDragEnd($event) {
+          // console.log(event['coords']);
+          console.log($event['latLng'].lat());
+          console.log($event['latLng'].lng());
+          this.latitude = $event['latLng'].lat();
+          this.longitude = $event['latLng'].lng();
+          this.getAddress();
+        }
+      }, {
+        key: "getAddress",
+        value: function getAddress() {
+          var _this29 = this;
+
+          this.geoCoder = new google.maps.Geocoder();
+          this.geoCoder.geocode({
+            'location': {
+              lat: this.latitude,
+              lng: this.longitude
+            }
+          }, function (results, status) {
+            console.log(results);
+            console.log(status);
+
+            if (status === 'OK') {
+              if (results[0]) {
+                // this.zoom = 12;
+                _this29.address = results[0].formatted_address;
+                console.log(_this29.address);
+              } else {
+                window.alert('No results found');
+              }
+            } else {
+              window.alert('Geocoder failed due to: ' + status);
+            }
+          });
+        }
+      }, {
+        key: "submit",
+        value: function submit() {
+          var req = {
+            "latitude": this.latitude,
+            "longitude": this.longitude,
+            "address": this.address
+          };
+          console.log(req);
+          sessionStorage.setItem("mapcordinatess", JSON.stringify(req));
+          this.router.navigate(['/add-cars']);
+        }
+      }]);
+
+      return MappagesComponent;
+    }();
+
+    MappagesComponent.ctorParameters = function () {
+      return [{
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+      }];
+    };
+
+    MappagesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-mappages',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./mappages.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/mappages/mappages.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./mappages.component.css */
+      "./src/app/mappages/mappages.component.css"))["default"]]
+    })], MappagesComponent);
     /***/
   },
 
@@ -7916,7 +8285,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this26 = this;
+          var _this30 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -7929,7 +8298,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this26.router.navigate(['/image2']);
+              _this30.router.navigate(['/image2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8096,7 +8465,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this27 = this;
+          var _this31 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8109,7 +8478,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this27.router.navigate(['/licsence1']);
+              _this31.router.navigate(['/licsence1']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8276,7 +8645,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this28 = this;
+          var _this32 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8289,7 +8658,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added!', 'Licence Added Successfully', 'success');
 
-              _this28.router.navigate(['/rcfrnt']);
+              _this32.router.navigate(['/rcfrnt']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added Error!', 'Licence Back Added SUnccessfully', 'error');
             });
@@ -8456,7 +8825,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this29 = this;
+          var _this33 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8469,7 +8838,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added!', 'Licence Front Added Successfully', 'success');
 
-              _this29.router.navigate(['/licsence2']);
+              _this33.router.navigate(['/licsence2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added Error!', 'Licence Front Added SUnccessfully', 'error');
             });
@@ -8662,21 +9031,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this30 = this;
+          var _this34 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this30.driverslist = data;
-            console.log(_this30.driverslist);
+            _this34.driverslist = data;
+            console.log(_this34.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this31 = this;
+          var _this35 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this31.locations = data;
+            _this35.locations = data;
           }, function (error) {});
         }
       }, {
@@ -8712,9 +9081,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this32 = this;
+          var _this36 = this;
 
-          this.submitted = true; // stop here if form is invalid
+          this.submitted = true;
+          this.mapdataresponse = JSON.parse(sessionStorage.getItem("mapcordinatess")); // stop here if form is invalid
+
+          console.log(this.mapdataresponse['latitude'] + ',' + this.mapdataresponse["longitude"]);
+          console.log(this.mapdataresponse);
 
           if (this.addVehiclesform.invalid) {
             return;
@@ -8726,14 +9099,23 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append('numberPlate', this.vehicleModel.vehicleRegistration);
             this.formData.append('locality', this.vehicleModel.locality);
             this.formData.append('rentPerDay', this.vehicleModel.rent);
-            this.formData.append('ownerId', this.ownerId); // this.formData.append('licenceFront', this.lisencefrnt);
+            this.formData.append('ownerId', this.ownerId);
+            this.formData.append("gpsCoorginates", this.mapdataresponse['latitude'] + ',' + this.mapdataresponse["longitude"]);
+            this.formData.append("gpsAddress", this.mapdataresponse['address']);
+            this.formData.append("pickUpAddress", this.mapdataresponse['address']); // this.formData.append('licenceFront', this.lisencefrnt);
             // this.formData.append('licenceBack', this.lisenceback);
             // this.formData.append('rcImage', this.rcproof);
             // this.formData.append('image1', this.image1);
             // this.formData.append('image2', this.image2);
 
             this.formData.append('driverId', this.vehicleModel.driver);
-            this.formData.append('driverRentPerKM', this.vehicleModel.dRent);
+
+            if (this.vehicleModel.dRent == undefined) {
+              this.formData.append('driverRentPerKM', "");
+            } else {
+              this.formData.append('driverRentPerKM', this.vehicleModel.dRent);
+            }
+
             this.formData.append('rentPerKM', this.vehicleModel.vRentperKm);
             this.formData.append('rentPerHour', this.vehicleModel.vRentperHr);
             console.log(this.formData);
@@ -8757,13 +9139,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem('vehicleadddetailsid', JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Added!', 'Basic Details Added Successfully', 'success');
 
-              _this32.router.navigate(['/image1']);
+              _this36.router.navigate(['/image1']);
             }, function (error) {
               // alert('error')
-              _this32.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this32.error, 'error'); // this.toaster.error(this.error)
+              _this36.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this36.error, 'error'); // this.toaster.error(this.error)
 
-              _this32.formData["delete"];
+              _this36.formData["delete"];
             });
           }
         }
@@ -8931,7 +9313,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this33 = this;
+          var _this37 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8944,7 +9326,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
 
-              _this33.router.navigate(['/vehicles']);
+              _this37.router.navigate(['/vehicles']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added Error!', 'RC Added SUnccessfully', 'error');
             });
@@ -9100,7 +9482,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this34 = this;
+          var _this38 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9115,7 +9497,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.addbanks(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Added!', 'Bank Details Added Successfully', 'success');
 
-              _this34.router.navigate(['/bankdetails']);
+              _this38.router.navigate(['/bankdetails']);
             }, function (error) {});
           }
         }
@@ -9167,7 +9549,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n@media (min-width: 1200px)\r\n{.container {\r\n    max-width: 1287px;\r\n}}\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvYmFua2RldGFpbHMvYmFua2RldGFpbHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLE9BQU87SUFDUCxnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUdsQix5QkFBeUI7QUFDN0I7QUFDQTtDQUNDO0lBQ0csaUJBQWlCO0FBQ3JCLENBQUM7QUFDRDtJQUNJLFdBQVc7SUFDWCwyQkFBMkI7QUFDL0I7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsZUFBZTtJQUNmLGdCQUFnQjtJQUNoQixtQkFBbUI7SUFDbkIsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQiwwQkFBMEI7QUFDOUIiLCJmaWxlIjoic3JjL2FwcC9vd25lcnBhbm5lbC9iYW5rZGV0YWlscy9iYW5rZGV0YWlscy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBhZ2Utd3JhcHBlciB7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDhweDtcclxuICAgIHBhZGRpbmctdG9wOiA1MHB4O1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG4gICAgLW1vei10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG4gICAgdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxufVxyXG5AbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KVxyXG57LmNvbnRhaW5lciB7XHJcbiAgICBtYXgtd2lkdGg6IDEyODdweDtcclxufX1cclxuLm0tdC0yMCB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLnN1Ym1pdC1idG4ge1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBmb250LXdlaWdodDogNTAwO1xyXG4gICAgYmFja2dyb3VuZDogIzAwODVCMjtcclxuICAgIG1pbi13aWR0aDogMjAwcHg7XHJcbiAgICBwYWRkaW5nOiA4cHggMjBweDtcclxuICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xyXG59Il19 */";
+    __webpack_exports__["default"] = ".page-wrapper {\r\n    left: 0;\r\n    margin-left: 8px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n        max-width: 1287px;\r\n    }\r\n}\r\n\r\n.m-t-20 {\r\n    float: left;\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.submit-btn {\r\n    border-radius: 0px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    background: #0085B2;\r\n    min-width: 200px;\r\n    padding: 8px 20px;\r\n    text-transform: capitalize;\r\n}\r\n\r\n@media only screen and (max-width: 991px) {\r\n    .container-fluid {\r\n        margin-left: 93px !important;\r\n        margin-top: 99px !important;\r\n        padding-right: 9px !important;\r\n    }\r\n    #wrapper #content-wrapper {\r\n        background-color: #f8f9fc;\r\n        overflow-x: unset;\r\n    }\r\n    .d-block {\r\n        border-radius: 19px;\r\n        width: 102%;\r\n        height: 161px;\r\n    }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvYmFua2RldGFpbHMvYmFua2RldGFpbHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLE9BQU87SUFDUCxnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUdsQix5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSTtRQUNJLGlCQUFpQjtJQUNyQjtBQUNKOztBQUVBO0lBQ0ksV0FBVztJQUNYLDJCQUEyQjtBQUMvQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsZUFBZTtJQUNmLGdCQUFnQjtJQUNoQixtQkFBbUI7SUFDbkIsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQiwwQkFBMEI7QUFDOUI7O0FBRUE7SUFDSTtRQUNJLDRCQUE0QjtRQUM1QiwyQkFBMkI7UUFDM0IsNkJBQTZCO0lBQ2pDO0lBQ0E7UUFDSSx5QkFBeUI7UUFDekIsaUJBQWlCO0lBQ3JCO0lBQ0E7UUFDSSxtQkFBbUI7UUFDbkIsV0FBVztRQUNYLGFBQWE7SUFDakI7QUFDSiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL2JhbmtkZXRhaWxzL2JhbmtkZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZS13cmFwcGVyIHtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDUwcHg7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG59XHJcblxyXG5AbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XHJcbiAgICAuY29udGFpbmVyIHtcclxuICAgICAgICBtYXgtd2lkdGg6IDEyODdweDtcclxuICAgIH1cclxufVxyXG5cclxuLm0tdC0yMCB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLnN1Ym1pdC1idG4ge1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBmb250LXdlaWdodDogNTAwO1xyXG4gICAgYmFja2dyb3VuZDogIzAwODVCMjtcclxuICAgIG1pbi13aWR0aDogMjAwcHg7XHJcbiAgICBwYWRkaW5nOiA4cHggMjBweDtcclxuICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xyXG59XHJcblxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDk5MXB4KSB7XHJcbiAgICAuY29udGFpbmVyLWZsdWlkIHtcclxuICAgICAgICBtYXJnaW4tbGVmdDogOTNweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIG1hcmdpbi10b3A6IDk5cHggIWltcG9ydGFudDtcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiA5cHggIWltcG9ydGFudDtcclxuICAgIH1cclxuICAgICN3cmFwcGVyICNjb250ZW50LXdyYXBwZXIge1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmOGY5ZmM7XHJcbiAgICAgICAgb3ZlcmZsb3cteDogdW5zZXQ7XHJcbiAgICB9XHJcbiAgICAuZC1ibG9jayB7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTlweDtcclxuICAgICAgICB3aWR0aDogMTAyJTtcclxuICAgICAgICBoZWlnaHQ6IDE2MXB4O1xyXG4gICAgfVxyXG59Il19 */";
     /***/
   },
 
@@ -9262,19 +9644,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getbankdetails",
         value: function getbankdetails() {
-          var _this35 = this;
+          var _this39 = this;
 
           this.adminpannel.getbankdetails(this.userDetails['userId']).subscribe(function (data) {
             console.log(data);
-            _this35.results = data;
+            _this39.results = data;
 
-            _this35.arr.push(_this35.results);
+            _this39.arr.push(_this39.results);
 
-            console.log(_this35.arr.length);
-            _this35.bankModel.accountNumber = _this35.results['accountNumber'];
-            _this35.bankModel.acocuntholderName = _this35.results['accountHolderName'];
-            _this35.bankModel.ifscode = _this35.results['ifscCode'];
-            _this35.bankModel.bankName = _this35.results['bankName']; // this.dataSource.data = this.results;
+            console.log(_this39.arr.length);
+            _this39.bankModel.accountNumber = _this39.results['accountNumber'];
+            _this39.bankModel.acocuntholderName = _this39.results['accountHolderName'];
+            _this39.bankModel.ifscode = _this39.results['ifscCode'];
+            _this39.bankModel.bankName = _this39.results['bankName']; // this.dataSource.data = this.results;
           }, function (error) {});
         }
       }, {
@@ -9432,7 +9814,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this36 = this;
+          var _this40 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9442,7 +9824,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.updateBank(this.bankModel.bankId, this.bankModel.ownerId, this.bankModel.acocuntholderName, this.bankModel.accountNumber, this.bankModel.ifscode, this.bankModel.bankName).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Update!', 'Bank Details Updated Successfully', 'success');
 
-              _this36.router.navigate(['/bankdetails']);
+              _this40.router.navigate(['/bankdetails']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Unable to Update Bank Details !', 'Bank Details Updated UnSuccessfull', 'error');
             });
@@ -9618,7 +10000,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this37 = this;
+          var _this41 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9638,13 +10020,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem("driverDetails", JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Driver Added!', 'Driver Added Successfully', 'success');
 
-              _this37.router.navigate(['/driverlicsencefrnt']);
+              _this41.router.navigate(['/driverlicsencefrnt']);
             }, function (error) {
               // alert('error')
-              _this37.error = error.error['message']; // this.toaster.error(this.error);
+              _this41.error = error.error['message']; // this.toaster.error(this.error);
 
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this37.error, 'error');
-              _this37.formData["delete"];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this41.error, 'error');
+              _this41.formData["delete"];
             });
           }
         }
@@ -9824,7 +10206,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this38 = this;
+          var _this42 = this;
 
           this.submitted = true;
 
@@ -9837,7 +10219,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this38.router.navigate(['/driverlicsenceback']);
+              _this42.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10058,7 +10440,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this39 = this;
+          var _this43 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10071,7 +10453,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this39.router.navigate(['/profilepicdriver']);
+              _this43.router.navigate(['/profilepicdriver']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10237,7 +10619,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this40 = this;
+          var _this44 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10250,7 +10632,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
 
-              _this40.router.navigate(['/drivers']);
+              _this44.router.navigate(['/drivers']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
             });
@@ -10306,7 +10688,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".row{\r\n    margin-right: 0px;\r\n    margin-left: 0px;\r\n    /* margin-top: 100px; */\r\n}\r\nimg {\r\n    max-width: 87%;\r\n    height: auto;\r\n}\r\n::ng-deep .mat-card{\r\n    margin-top: 5px !important;\r\n}\r\nmat-header-row{\r\n\tborder-bottom: 2px solid #ffd000;\r\n}\r\nul {\r\n    list-style-type: none;\r\n    margin: 0;\r\n    padding: 0;\r\n    overflow: hidden;\r\n    background-color: white;\r\n    border-bottom: 3px solid #ffbd01;\r\n  }\r\nli {\r\n    float: left;\r\n  }\r\nli a {\r\n    display: block;\r\n    color: black;\r\n    text-align: center;\r\n    padding: 16px;\r\n    text-decoration: none;\r\n  }\r\n.avatar {\r\n    vertical-align: middle;\r\n    width: 50px;\r\n    height: 50px;\r\n    border-radius: 50%;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvZHJpdmVycy9kcml2ZXJzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7SUFDakIsZ0JBQWdCO0lBQ2hCLHVCQUF1QjtBQUMzQjtBQUNBO0lBQ0ksY0FBYztJQUNkLFlBQVk7QUFDaEI7QUFDQTtJQUNJLDBCQUEwQjtBQUM5QjtBQUNBO0NBQ0MsZ0NBQWdDO0FBQ2pDO0FBQ0E7SUFDSSxxQkFBcUI7SUFDckIsU0FBUztJQUNULFVBQVU7SUFDVixnQkFBZ0I7SUFDaEIsdUJBQXVCO0lBQ3ZCLGdDQUFnQztFQUNsQztBQUVBO0lBQ0UsV0FBVztFQUNiO0FBRUE7SUFDRSxjQUFjO0lBQ2QsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixhQUFhO0lBQ2IscUJBQXFCO0VBQ3ZCO0FBR0E7SUFDRSxzQkFBc0I7SUFDdEIsV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7RUFDcEIiLCJmaWxlIjoic3JjL2FwcC9vd25lcnBhbm5lbC9kcml2ZXJzL2RyaXZlcnMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3d7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDBweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAwcHg7XHJcbiAgICAvKiBtYXJnaW4tdG9wOiAxMDBweDsgKi9cclxufVxyXG5pbWcge1xyXG4gICAgbWF4LXdpZHRoOiA4NyU7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuOjpuZy1kZWVwIC5tYXQtY2FyZHtcclxuICAgIG1hcmdpbi10b3A6IDVweCAhaW1wb3J0YW50O1xyXG59XHJcbm1hdC1oZWFkZXItcm93e1xyXG5cdGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjZmZkMDAwO1xyXG59XHJcbnVsIHtcclxuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3JkZXItYm90dG9tOiAzcHggc29saWQgI2ZmYmQwMTtcclxuICB9XHJcbiAgXHJcbiAgbGkge1xyXG4gICAgZmxvYXQ6IGxlZnQ7XHJcbiAgfVxyXG4gIFxyXG4gIGxpIGEge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAxNnB4O1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gIH1cclxuICBcclxuXHJcbiAgLmF2YXRhciB7XHJcbiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xyXG4gICAgd2lkdGg6IDUwcHg7XHJcbiAgICBoZWlnaHQ6IDUwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgfSJdfQ== */";
+    __webpack_exports__["default"] = ".row {\r\n    margin-right: 0px;\r\n    margin-left: 0px;\r\n    /* margin-top: 100px; */\r\n}\r\n\r\n@media only screen and (max-width: 991px) {\r\n    .container-fluid {\r\n        margin-left: 93px !important;\r\n        margin-top: 99px !important;\r\n        padding-right: 9px !important;\r\n    }\r\n    #wrapper #content-wrapper {\r\n        background-color: #f8f9fc;\r\n        overflow-x: unset;\r\n    }\r\n    .d-block {\r\n        border-radius: 19px;\r\n        width: 102%;\r\n        height: 161px;\r\n    }\r\n}\r\n\r\nimg {\r\n    max-width: 87%;\r\n    height: auto;\r\n}\r\n\r\n::ng-deep .mat-card {\r\n    margin-top: 5px !important;\r\n}\r\n\r\nmat-header-row {\r\n    border-bottom: 2px solid #ffd000;\r\n}\r\n\r\nul {\r\n    list-style-type: none;\r\n    margin: 0;\r\n    padding: 0;\r\n    overflow: hidden;\r\n    background-color: white;\r\n    border-bottom: 3px solid #ffbd01;\r\n}\r\n\r\nli {\r\n    float: left;\r\n}\r\n\r\nli a {\r\n    display: block;\r\n    color: black;\r\n    text-align: center;\r\n    padding: 16px;\r\n    text-decoration: none;\r\n}\r\n\r\n.avatar {\r\n    vertical-align: middle;\r\n    width: 50px;\r\n    height: 50px;\r\n    border-radius: 50%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvZHJpdmVycy9kcml2ZXJzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7SUFDakIsZ0JBQWdCO0lBQ2hCLHVCQUF1QjtBQUMzQjs7QUFFQTtJQUNJO1FBQ0ksNEJBQTRCO1FBQzVCLDJCQUEyQjtRQUMzQiw2QkFBNkI7SUFDakM7SUFDQTtRQUNJLHlCQUF5QjtRQUN6QixpQkFBaUI7SUFDckI7SUFDQTtRQUNJLG1CQUFtQjtRQUNuQixXQUFXO1FBQ1gsYUFBYTtJQUNqQjtBQUNKOztBQUVBO0lBQ0ksY0FBYztJQUNkLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSwwQkFBMEI7QUFDOUI7O0FBRUE7SUFDSSxnQ0FBZ0M7QUFDcEM7O0FBRUE7SUFDSSxxQkFBcUI7SUFDckIsU0FBUztJQUNULFVBQVU7SUFDVixnQkFBZ0I7SUFDaEIsdUJBQXVCO0lBQ3ZCLGdDQUFnQztBQUNwQzs7QUFFQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGNBQWM7SUFDZCxZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLGFBQWE7SUFDYixxQkFBcUI7QUFDekI7O0FBRUE7SUFDSSxzQkFBc0I7SUFDdEIsV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7QUFDdEIiLCJmaWxlIjoic3JjL2FwcC9vd25lcnBhbm5lbC9kcml2ZXJzL2RyaXZlcnMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cge1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDogMHB4O1xyXG4gICAgLyogbWFyZ2luLXRvcDogMTAwcHg7ICovXHJcbn1cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogOTkxcHgpIHtcclxuICAgIC5jb250YWluZXItZmx1aWQge1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiA5M3B4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogOTlweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDlweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gICAgI3dyYXBwZXIgI2NvbnRlbnQtd3JhcHBlciB7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y4ZjlmYztcclxuICAgICAgICBvdmVyZmxvdy14OiB1bnNldDtcclxuICAgIH1cclxuICAgIC5kLWJsb2NrIHtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAxOXB4O1xyXG4gICAgICAgIHdpZHRoOiAxMDIlO1xyXG4gICAgICAgIGhlaWdodDogMTYxcHg7XHJcbiAgICB9XHJcbn1cclxuXHJcbmltZyB7XHJcbiAgICBtYXgtd2lkdGg6IDg3JTtcclxuICAgIGhlaWdodDogYXV0bztcclxufVxyXG5cclxuOjpuZy1kZWVwIC5tYXQtY2FyZCB7XHJcbiAgICBtYXJnaW4tdG9wOiA1cHggIWltcG9ydGFudDtcclxufVxyXG5cclxubWF0LWhlYWRlci1yb3cge1xyXG4gICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICNmZmQwMDA7XHJcbn1cclxuXHJcbnVsIHtcclxuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3JkZXItYm90dG9tOiAzcHggc29saWQgI2ZmYmQwMTtcclxufVxyXG5cclxubGkge1xyXG4gICAgZmxvYXQ6IGxlZnQ7XHJcbn1cclxuXHJcbmxpIGEge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAxNnB4O1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG59XHJcblxyXG4uYXZhdGFyIHtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbiAgICB3aWR0aDogNTBweDtcclxuICAgIGhlaWdodDogNTBweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcclxufSJdfQ== */";
     /***/
   },
 
@@ -10444,12 +10826,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallsdriver",
         value: function getallsdriver() {
-          var _this41 = this;
+          var _this45 = this;
 
           this.ownerservice.getalldrivers(this.ownerId).subscribe(function (data) {
             console.log(data);
-            _this41.driverslist = data;
-            _this41.dataSource.data = _this41.driverslist;
+            _this45.driverslist = data;
+            _this45.dataSource.data = _this45.driverslist;
           }, function (error) {});
         }
       }, {
@@ -10655,14 +11037,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getdriverDetailByDriverId",
         value: function getdriverDetailByDriverId() {
-          var _this42 = this;
+          var _this46 = this;
 
           this.ownerservice.getDriverDetailsBydriverId(this.driverId).subscribe(function (data) {
-            _this42.results = data;
-            _this42.driverModel.name = _this42.results['name'];
-            _this42.driverModel.address = _this42.results['addresss'];
-            _this42.driverModel.number = _this42.results['number'];
-            _this42.driverModel.pancard = _this42.results['panCardNO'];
+            _this46.results = data;
+            _this46.driverModel.name = _this46.results['name'];
+            _this46.driverModel.address = _this46.results['addresss'];
+            _this46.driverModel.number = _this46.results['number'];
+            _this46.driverModel.pancard = _this46.results['panCardNO'];
             console.log(data);
           }, function (error) {});
         }
@@ -10687,7 +11069,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this43 = this;
+          var _this47 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10704,64 +11086,64 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             this.formData.append('id', this.driverId);
             this.ownerservice.editdrivers(this.formData).subscribe(function (data) {
-              _this43.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
+              _this47.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
 
             }, function (error) {
               // alert('error')
-              _this43.error = error.error['message'];
+              _this47.error = error.error['message'];
 
-              _this43.toaster.error(_this43.error);
+              _this47.toaster.error(_this47.error);
 
-              _this43.formData["delete"];
+              _this47.formData["delete"];
             });
           }
         }
       }, {
         key: "update",
         value: function update() {
-          var _this44 = this;
+          var _this48 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "1");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this44.formData = new FormData();
+            _this48.formData = new FormData();
 
-            _this44.toaster.success("Driver License Front Updated");
+            _this48.toaster.success("Driver License Front Updated");
           }, function (error) {
-            _this44.toaster.success("Unable to Driver License Front");
+            _this48.toaster.success("Unable to Driver License Front");
           });
         }
       }, {
         key: "updateLback",
         value: function updateLback() {
-          var _this45 = this;
+          var _this49 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "2");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this45.formData = new FormData();
+            _this49.formData = new FormData();
 
-            _this45.toaster.success("Driver License Back Updated");
+            _this49.toaster.success("Driver License Back Updated");
           }, function (error) {
-            _this45.toaster.success("Unable to Driver License Back");
+            _this49.toaster.success("Unable to Driver License Back");
           });
         }
       }, {
         key: "updatepPic",
         value: function updatepPic() {
-          var _this46 = this;
+          var _this50 = this;
 
           this.formData.append('image', this.propic);
           this.formData.append('type', "3");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this46.formData = new FormData();
+            _this50.formData = new FormData();
 
-            _this46.toaster.success("Profile Picture Updated");
+            _this50.toaster.success("Profile Picture Updated");
           }, function (error) {
-            _this46.toaster.success("Unable to update Profile Picture");
+            _this50.toaster.success("Unable to update Profile Picture");
           });
         }
       }, {
@@ -10902,14 +11284,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this47 = this;
+          var _this51 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getlicscenceback(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this47.liscenimag = _this47.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this51.liscenimag = _this51.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11058,14 +11440,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this48 = this;
+          var _this52 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getliscncefront(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this48.liscenimag = _this48.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this52.liscenimag = _this52.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11220,7 +11602,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditCarsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this49 = this;
+          var _this53 = this;
 
           this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__["Vehicle"]();
           this.vehicleModel.locality = '';
@@ -11248,7 +11630,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerId = this.ownerdetails['userId'];
           console.log(this.ownerId);
           this.activaterouter.params.subscribe(function (params) {
-            _this49.vehicleId = params.id;
+            _this53.vehicleId = params.id;
           });
           this.getvehiclesDetailsById();
           this.getalllocality();
@@ -11257,46 +11639,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getvehiclesDetailsById",
         value: function getvehiclesDetailsById() {
-          var _this50 = this;
+          var _this54 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vehicleId).subscribe(function (data) {
-            _this50.results = data;
-            _this50.vehicleModel.vehicleCompany = _this50.results['companyName'];
-            _this50.vehicleModel.vehicleType = _this50.results['type'];
-            _this50.vehicleModel.vehicleModel = _this50.results['model'];
-            _this50.vehicleModel.vehicleRegistration = _this50.results['numberPlate'];
-            _this50.vehicleModel.rent = _this50.results['rentPerDay'];
-            _this50.vehicleModel.locality = _this50.results['locality'];
-            _this50.vehicleModel.vehicleYear = _this50.results['year'];
-            _this50.vehicleModel.vRentperHr = _this50.results['rentPerHour'];
-            _this50.vehicleModel.vRentperKm = _this50.results['rentPerKM'];
+            _this54.results = data;
+            _this54.vehicleModel.vehicleCompany = _this54.results['companyName'];
+            _this54.vehicleModel.vehicleType = _this54.results['type'];
+            _this54.vehicleModel.vehicleModel = _this54.results['model'];
+            _this54.vehicleModel.vehicleRegistration = _this54.results['numberPlate'];
+            _this54.vehicleModel.rent = _this54.results['rentPerDay'];
+            _this54.vehicleModel.locality = _this54.results['locality'];
+            _this54.vehicleModel.vehicleYear = _this54.results['year'];
+            _this54.vehicleModel.vRentperHr = _this54.results['rentPerHour'];
+            _this54.vehicleModel.vRentperKm = _this54.results['rentPerKM'];
 
-            if (_this50.results['driverId'] != null) {
-              _this50.vehicleModel.driver = _this50.results['driverId'];
-              _this50.vehicleModel.dRent = _this50.results['driverRentPerKM'];
+            if (_this54.results['driverId'] != null) {
+              _this54.vehicleModel.driver = _this54.results['driverId'];
+              _this54.vehicleModel.dRent = _this54.results['driverRentPerKM'];
             } else {
-              _this50.vehicleModel.driver = '';
+              _this54.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this51 = this;
+          var _this55 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this51.driverslist = data;
-            console.log(_this51.driverslist);
+            _this55.driverslist = data;
+            console.log(_this55.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this52 = this;
+          var _this56 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this52.locations = data;
+            _this56.locations = data;
           }, function (error) {});
         }
       }, {
@@ -11332,7 +11714,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this53 = this;
+          var _this57 = this;
 
           this.submitted = true;
 
@@ -11362,94 +11744,94 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               // this.toaster.success('Vehicle Updated Successfully');
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Updated!', 'Vehicle Updated Successfully', 'success'); // this.router.navigate(['/vehicles'])
             }, function (error) {
-              _this53.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this53.error, 'error');
-              _this53.formData["delete"];
+              _this57.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this57.error, 'error');
+              _this57.formData["delete"];
             });
           }
         }
       }, {
         key: "updateimg1",
         value: function updateimg1() {
-          var _this54 = this;
+          var _this58 = this;
 
           this.formData.append('image', this.image1);
           this.formData.append('type', "1");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this54.formData = new FormData();
-            _this54.files = '';
+            _this58.formData = new FormData();
+            _this58.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
           }, function (error) {
-            _this54.formData["delete"];
+            _this58.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
           });
         }
       }, {
         key: "updateimg2",
         value: function updateimg2() {
-          var _this55 = this;
+          var _this59 = this;
 
           this.formData.append('image', this.image2);
           this.formData.append('type', "2");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this55.formData = new FormData();
-            _this55.files = '';
+            _this59.formData = new FormData();
+            _this59.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 2 Added!', 'Image 2 Added Successfully', 'success');
           }, function (error) {
-            _this55.formData["delete"];
+            _this59.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 2!', 'Unable to add image 2 Successfully', 'error');
           });
         }
       }, {
         key: "updatelicfrnt",
         value: function updatelicfrnt() {
-          var _this56 = this;
+          var _this60 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "3");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this56.formData = new FormData();
-            _this56.files = '';
+            _this60.formData = new FormData();
+            _this60.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Added!', 'License Added Successfully', 'success');
           }, function (error) {
-            _this56.formData["delete"];
+            _this60.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License front!', 'Unable to add License front Successfully', 'error');
           });
         }
       }, {
         key: "updatelicback",
         value: function updatelicback() {
-          var _this57 = this;
+          var _this61 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "4");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this57.formData = new FormData();
-            _this57.files = '';
+            _this61.formData = new FormData();
+            _this61.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Back Added!', 'License Back Added Successfully', 'success');
           }, function (error) {
-            _this57.formData = new FormData();
+            _this61.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License Back!', 'Unable to add License Back Successfully', 'error');
           });
         }
       }, {
         key: "updaterc",
         value: function updaterc() {
-          var _this58 = this;
+          var _this62 = this;
 
           this.formData.append('image', this.rcproof);
           this.formData.append('type', "5");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this58.formData = new FormData();
-            _this58.files = '';
+            _this62.formData = new FormData();
+            _this62.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
           }, function (error) {
-            _this58.formData = new FormData();
+            _this62.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add RC!', 'Unable to add RC Successfully', 'error');
           });
         }
@@ -11581,14 +11963,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this59 = this;
+          var _this63 = this;
 
           if (this.kilometer != null || this.kilometer != undefined) {
             this.formData.append("startingKM", this.kilometer);
             this.formData.append("tripId", this.results['id']);
             console.log(this.formData);
             this.ownerservice.addcurrentkilometer(this.formData).subscribe(function (data) {
-              _this59.dialogRef.close();
+              _this63.dialogRef.close();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Kilometer Added!', 'Kilometer Added Successfully', 'success');
             }, function (error) {
@@ -11736,15 +12118,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getapprovedVehicles",
         value: function getapprovedVehicles() {
-          var _this60 = this;
+          var _this64 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
-            _this60.results = data;
+            _this64.results = data;
 
-            if (_this60.results.length == 0) {
-              _this60.message = 'No Data Found';
+            if (_this64.results.length == 0) {
+              _this64.message = 'No Data Found';
             } else {
-              _this60.message = 'Data Found';
+              _this64.message = 'Data Found';
             }
           }, function (error) {});
         }
@@ -12203,21 +12585,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getpaymentdetailsbyTripIdtripid",
         value: function getpaymentdetailsbyTripIdtripid() {
-          var _this61 = this;
+          var _this65 = this;
 
           this.OwnerService.gettripdetailsbyid(this.tripid).subscribe(function (data) {
             console.log(data);
-            _this61.results = data;
-            _this61.customerName = _this61.results['customerName'];
-            _this61.totalKM = _this61.results['totalKM'];
-            _this61.customerMobile = _this61.results['customerMobile'];
-            _this61.vehicleRent = _this61.results['vehicleRent'];
+            _this65.results = data;
+            _this65.customerName = _this65.results['customerName'];
+            _this65.totalKM = _this65.results['totalKM'];
+            _this65.customerMobile = _this65.results['customerMobile'];
+            _this65.vehicleRent = _this65.results['vehicleRent'];
           }, function (error) {});
         }
       }, {
         key: "collectcash",
         value: function collectcash() {
-          var _this62 = this;
+          var _this66 = this;
 
           this.formData.append('paymentMode', '2');
           this.formData.append('tripId', this.tripid);
@@ -12236,12 +12618,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           this.OwnerService.savePayments(this.formData).subscribe(function (data) {
-            _this62.dialogRef.close();
+            _this66.dialogRef.close();
 
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Amount Collected', 'Amount Collcted Successfully', 'success');
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to Collect Cash!', 'Unable Collct Amount Successfully', 'error');
-            _this62.formData["delete"];
+            _this66.formData["delete"];
           });
         }
       }]);
@@ -12372,10 +12754,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallpayments",
         value: function getallpayments() {
-          var _this63 = this;
+          var _this67 = this;
 
           this.ownerservice.getallpaymentsbnyownerid(this.ownerId, this.page).subscribe(function (data) {
-            _this63.payementresults = data;
+            _this67.payementresults = data;
           }, function (error) {});
         }
       }, {
@@ -12432,7 +12814,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".row{\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n.card{\r\n\tpadding: 20px;\r\n\tmargin-bottom: 10px;\r\n}\r\n/* .table-responsive{\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n} */\r\n.page-wrapper > .content {\r\n    padding: 59px;\r\n}\r\n.form-control {\r\n\tborder-radius: 0;\r\n\tbox-shadow: none;\r\n\tpadding: 0.469rem 0.75rem;\r\n\tborder-color: #eaeaea;\r\n\tfont-size: 14px;\r\n\tmin-height: 40px;\r\n}\r\n.form-control:focus {\r\n\tborder-color: #009efb;\r\n\tbox-shadow: none;\r\n\toutline: 0 none;\r\n}\r\na {\r\n\tcolor: #009ce7;\r\n}\r\ninput,\r\nbutton,\r\na {\r\n\ttransition: all 0.4s ease;\r\n\t-moz-transition: all 0.4s ease;\r\n\t-o-transition: all 0.4s ease;\r\n\t-ms-transition: all 0.4s ease;\r\n\t-webkit-transition: all 0.4s ease;\r\n}\r\ninput,\r\nbutton {\r\n\toutline: none;\r\n}\r\ninput[type=\"file\"] {\r\n\theight: auto;\r\n\tpadding: 6px 0.75rem;\r\n}\r\ninput[type=text],\r\ninput[type=password] {\r\n\t-webkit-appearance: none;\r\n\t-moz-appearance: none;\r\n\tappearance: none;\r\n}\r\ntextarea.form-control {\r\n\tresize: vertical;\r\n}\r\n.navbar-nav > li {\r\n\tfloat: left;\r\n}\r\n.form-group {\r\n\tmargin-bottom: 20px;\r\n}\r\n.display-block {\r\n\tdisplay: block;\r\n}\r\n.btn.rounded {\r\n\tbox-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n.btn.focus,\r\n.btn:focus {\r\n\tbox-shadow: inherit !important;\r\n}\r\n.list-group-item {\r\n\tborder: 1px solid #eaeaea;\r\n}\r\n.table {\r\n\tcolor: #000;\r\n\tborder: 1px solid #f0f0f0;\r\n}\r\n.table.table-white {\r\n\tbackground-color: #fff;\r\n}\r\n.table > tbody > tr > td {\r\n\tfont-weight: 300;\r\n}\r\n.table-striped > tbody > tr:nth-of-type(2n + 1) {\r\n\tbackground-color: #f6f6f6;\r\n}\r\ntable.table td .avatar {\r\n\tmargin: 0 5px 0 0;\r\n}\r\ntable.table td h2 {\r\n\tdisplay: inline-block;\r\n\tfont-size: inherit;\r\n\tfont-weight: 400;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tvertical-align: middle;\r\n}\r\ntable.table td h2 a {\r\n\tcolor: #757575;\r\n}\r\ntable.table td h2 a:hover {\r\n\tcolor: #009efb;\r\n}\r\ntable.table td h2 span {\r\n\tcolor: #9e9e9e;\r\n\tdisplay: block;\r\n\tfont-size: 12px;\r\n\tmargin-top: 3px;\r\n}\r\n/*-----------------\r\n\t3. Helper Class\r\n-----------------------*/\r\n.m-r-5 {\r\n\tmargin-right: 5px !important;\r\n}\r\n.m-r-10 {\r\n\tmargin-right: 10px !important;\r\n}\r\n.m-l-5 {\r\n\tmargin-left: 5px !important;\r\n}\r\n.m-t-0 {\r\n\tmargin-top: 0 !important;\r\n}\r\n.m-t-10 {\r\n\tmargin-top: 10px !important;\r\n}\r\n.m-t-20 {\r\n\tmargin-top: 20px !important;\r\n}\r\n.m-t-30 {\r\n\tmargin-top: 30px !important;\r\n}\r\n.m-t-50 {\r\n\tmargin-top: 50px !important;\r\n}\r\n.m-b-10 {\r\n\tmargin-bottom: 10px !important;\r\n}\r\n.m-b-20 {\r\n\tmargin-bottom: 20px !important;\r\n}\r\n.m-b-30 {\r\n\tmargin-bottom: 30px !important;\r\n}\r\n.w-40 {\r\n\twidth: 40px;\r\n}\r\n.block {\r\n\tdisplay: block !important;\r\n}\r\n.text-ellipsis {\r\n\tdisplay: block;\r\n\tmax-width: 100%;\r\n\toverflow: hidden;\r\n\ttext-overflow: ellipsis;\r\n\twhite-space: nowrap;\r\n}\r\n.text-muted-light {\r\n\tcolor: #aaa;\r\n}\r\n.card-box {\r\n\tbackground-color: #fff;\r\n\tborder-radius: 4px;\r\n\tmargin-bottom: 30px;\r\n\tpadding: 20px;\r\n\tposition: relative;\r\n\tbox-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n.card-title {\r\n\tcolor: #333;\r\n\tfont-size: 16px;\r\n\tmargin-bottom: 20px;\r\n}\r\n.page-title {\r\n\tcolor: #565656;\r\n\tfont-size: 21px;\r\n\tfont-weight: normal;\r\n\tmargin-bottom: 20px;\r\n}\r\n.page-sub-title {\r\n\tcolor: #565656;\r\n\tfont-size: 18px;\r\n\tfont-weight: normal;\r\n\tmargin-bottom: 20px;\r\n}\r\n.badge-success-border {\r\n\tborder: 1px solid #55ce63;\r\n\tcolor: #55ce63;\r\n\tbackground-color: #fff;\r\n\tdisplay: inline-block;\r\n\tmin-width: 80px;\r\n}\r\n.badge-danger-border {\r\n\tborder: 1px solid #f62d51;\r\n\tcolor: #f62d51;\r\n\tbackground-color: #fff;\r\n\tdisplay: inline-block;\r\n\tmin-width: 80px;\r\n}\r\n.badge-warning-border {\r\n\tborder: 1px solid #ffbc34;\r\n\tcolor: #ffbc34;\r\n\tbackground-color: #fff;\r\n\tdisplay: inline-block;\r\n\tmin-width: 80px;\r\n}\r\n.badge-info-border {\r\n\tborder: 1px solid #009efb;\r\n\tcolor: #009efb;\r\n\tbackground-color: #fff;\r\n\tdisplay: inline-block;\r\n\tmin-width: 80px;\r\n}\r\n.modal-footer.text-left {\r\n\ttext-align: left;\r\n}\r\n.modal-footer.text-center {\r\n\ttext-align: center;\r\n}\r\n.font-18 {\r\n\tfont-size: 18px;\r\n}\r\n.border-right {\r\n\tborder-right: 1px solid #e7e7e7;\r\n}\r\n.blur {\r\n\t-webkit-filter: blur(3px);\r\n\t-moz-filter: blur(3px);\r\n\t-o-filter: blur(3px);\r\n\t-ms-filter: blur(3px);\r\n\tfilter: blur(3px);\r\n}\r\n.btn {\r\n\tfont-size: 0.875rem;\r\n}\r\n.pagination > .active > a,\r\n.pagination > .active > a:focus,\r\n.pagination > .active > a:hover,\r\n.pagination > .active > span,\r\n.pagination > .active > span:focus,\r\n.pagination > .active > span:hover {\r\n\tbackground-color: #009efb;\r\n\tborder-color: #009efb;\r\n}\r\n.pagination > li > a,\r\n.pagination > li > span {\r\n\tcolor: #009efb;\r\n\tpadding: .5rem .75rem !important;\r\n}\r\n.page-item.active .page-link {\r\n\tbackground-color: #009efb;\r\n\tborder-color: #009efb;\r\n}\r\n.card .card-header .card-title {\r\n\tfont-size: 18px;\r\n\tfont-weight: 400;\r\n\tline-height: 20px;\r\n\tmargin: 0;\r\n\tpadding: 5px 0;\r\n}\r\n.table h5 {\r\n\tfont-size: 14px;\r\n\tfont-weight: 400;\r\n\tline-height: 18px;\r\n\tmargin-bottom: 0;\r\n\tvertical-align: middle;\r\n}\r\n.table h5 + p {\r\n\tcolor: #9e9e9e;\r\n\tfont-size: 14px;\r\n\tline-height: 18px;\r\n\tmargin-bottom: 0;\r\n}\r\n.page-link:focus {\r\n    box-shadow: unset;\r\n}\r\n.card{\r\n\tpadding: 20px;\r\n\tmargin-bottom: 10px;\r\n}\r\n.page-wrapper {\r\n\tleft: 0;\r\n\t/* margin-left: 230px; */\r\n\tpadding-top: 50px;\r\n\tposition: relative;\r\n\ttransition: all 0.4s ease;\r\n}\r\n.page-wrapper > .content {\r\n\tpadding: 30px;\r\n}\r\n.custom-table tr {\r\n\tbackground-color: #fff;\r\n\tbox-shadow: 0 0 3px #e5e5e5;\r\n}\r\n.table.custom-table > tbody > tr > td,\r\n.table.custom-table > tbody > tr > th,\r\n.table.custom-table > tfoot > tr > td,\r\n.table.custom-table > tfoot > tr > th,\r\n.table.custom-table > thead > tr > td,\r\n.table.custom-table > thead > tr > th {\r\n\tpadding: 10px 8px;\r\n\tvertical-align: middle;\r\n}\r\n/*-----------------\r\n\t35. Lock Screen\r\n-----------------------*/\r\n.lock-user {\r\n\tmargin-bottom: 20px;\r\n}\r\n.lock-user img {\r\n\tmargin-bottom: 15px;\r\n\twidth: 100px;\r\n}\r\n.table.custom-table> tbody > tr > td{\r\n\r\n\tpadding: 10px 71px;\r\n    vertical-align: middle;\r\n}\r\n.table.custom-table > thead > tr > th {\r\n    padding: 10px 71px;\r\n    vertical-align: middle;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvcmVxdWVzdHMvcmVxdWVzdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7QUFDQTtDQUNDLGFBQWE7Q0FDYixtQkFBbUI7QUFDcEI7QUFDQTs7O0dBR0c7QUFDSDtJQUNJLGFBQWE7QUFDakI7QUFDQTtDQUNDLGdCQUFnQjtDQUNoQixnQkFBZ0I7Q0FDaEIseUJBQXlCO0NBQ3pCLHFCQUFxQjtDQUNyQixlQUFlO0NBQ2YsZ0JBQWdCO0FBQ2pCO0FBQ0E7Q0FDQyxxQkFBcUI7Q0FDckIsZ0JBQWdCO0NBQ2hCLGVBQWU7QUFDaEI7QUFDQTtDQUNDLGNBQWM7QUFDZjtBQUNBOzs7Q0FHQyx5QkFBeUI7Q0FDekIsOEJBQThCO0NBQzlCLDRCQUE0QjtDQUM1Qiw2QkFBNkI7Q0FDN0IsaUNBQWlDO0FBQ2xDO0FBQ0E7O0NBRUMsYUFBYTtBQUNkO0FBQ0E7Q0FDQyxZQUFZO0NBQ1osb0JBQW9CO0FBQ3JCO0FBQ0E7O0NBRUMsd0JBQXdCO0NBQ3hCLHFCQUFxQjtDQUNyQixnQkFBZ0I7QUFDakI7QUFDQTtDQUNDLGdCQUFnQjtBQUNqQjtBQUNBO0NBQ0MsV0FBVztBQUNaO0FBQ0E7Q0FDQyxtQkFBbUI7QUFDcEI7QUFDQTtDQUNDLGNBQWM7QUFDZjtBQUNBO0NBQ0MsMENBQTBDO0FBQzNDO0FBQ0E7O0NBRUMsOEJBQThCO0FBQy9CO0FBQ0E7Q0FDQyx5QkFBeUI7QUFDMUI7QUFHQTtDQUNDLFdBQVc7Q0FDWCx5QkFBeUI7QUFDMUI7QUFDQTtDQUNDLHNCQUFzQjtBQUN2QjtBQUNBO0NBQ0MsZ0JBQWdCO0FBQ2pCO0FBQ0E7Q0FDQyx5QkFBeUI7QUFDMUI7QUFDQTtDQUNDLGlCQUFpQjtBQUNsQjtBQUNBO0NBQ0MscUJBQXFCO0NBQ3JCLGtCQUFrQjtDQUNsQixnQkFBZ0I7Q0FDaEIsU0FBUztDQUNULFVBQVU7Q0FDVixzQkFBc0I7QUFDdkI7QUFDQTtDQUNDLGNBQWM7QUFDZjtBQUNBO0NBQ0MsY0FBYztBQUNmO0FBQ0E7Q0FDQyxjQUFjO0NBQ2QsY0FBYztDQUNkLGVBQWU7Q0FDZixlQUFlO0FBQ2hCO0FBRUE7O3dCQUV3QjtBQUV4QjtDQUNDLDRCQUE0QjtBQUM3QjtBQUNBO0NBQ0MsNkJBQTZCO0FBQzlCO0FBQ0E7Q0FDQywyQkFBMkI7QUFDNUI7QUFDQTtDQUNDLHdCQUF3QjtBQUN6QjtBQUNBO0NBQ0MsMkJBQTJCO0FBQzVCO0FBQ0E7Q0FDQywyQkFBMkI7QUFDNUI7QUFDQTtDQUNDLDJCQUEyQjtBQUM1QjtBQUNBO0NBQ0MsMkJBQTJCO0FBQzVCO0FBQ0E7Q0FDQyw4QkFBOEI7QUFDL0I7QUFDQTtDQUNDLDhCQUE4QjtBQUMvQjtBQUNBO0NBQ0MsOEJBQThCO0FBQy9CO0FBQ0E7Q0FDQyxXQUFXO0FBQ1o7QUFDQTtDQUNDLHlCQUF5QjtBQUMxQjtBQUNBO0NBQ0MsY0FBYztDQUNkLGVBQWU7Q0FDZixnQkFBZ0I7Q0FDaEIsdUJBQXVCO0NBQ3ZCLG1CQUFtQjtBQUNwQjtBQUNBO0NBQ0MsV0FBVztBQUNaO0FBQ0E7Q0FDQyxzQkFBc0I7Q0FDdEIsa0JBQWtCO0NBQ2xCLG1CQUFtQjtDQUNuQixhQUFhO0NBQ2Isa0JBQWtCO0NBQ2xCLDBDQUEwQztBQUMzQztBQUNBO0NBQ0MsV0FBVztDQUNYLGVBQWU7Q0FDZixtQkFBbUI7QUFDcEI7QUFDQTtDQUNDLGNBQWM7Q0FDZCxlQUFlO0NBQ2YsbUJBQW1CO0NBQ25CLG1CQUFtQjtBQUNwQjtBQUNBO0NBQ0MsY0FBYztDQUNkLGVBQWU7Q0FDZixtQkFBbUI7Q0FDbkIsbUJBQW1CO0FBQ3BCO0FBRUE7Q0FDQyx5QkFBeUI7Q0FDekIsY0FBYztDQUNkLHNCQUFzQjtDQUN0QixxQkFBcUI7Q0FDckIsZUFBZTtBQUNoQjtBQUNBO0NBQ0MseUJBQXlCO0NBQ3pCLGNBQWM7Q0FDZCxzQkFBc0I7Q0FDdEIscUJBQXFCO0NBQ3JCLGVBQWU7QUFDaEI7QUFDQTtDQUNDLHlCQUF5QjtDQUN6QixjQUFjO0NBQ2Qsc0JBQXNCO0NBQ3RCLHFCQUFxQjtDQUNyQixlQUFlO0FBQ2hCO0FBQ0E7Q0FDQyx5QkFBeUI7Q0FDekIsY0FBYztDQUNkLHNCQUFzQjtDQUN0QixxQkFBcUI7Q0FDckIsZUFBZTtBQUNoQjtBQUNBO0NBQ0MsZ0JBQWdCO0FBQ2pCO0FBQ0E7Q0FDQyxrQkFBa0I7QUFDbkI7QUFDQTtDQUNDLGVBQWU7QUFDaEI7QUFDQTtDQUNDLCtCQUErQjtBQUNoQztBQUNBO0NBQ0MseUJBQXlCO0NBQ3pCLHNCQUFzQjtDQUN0QixvQkFBb0I7Q0FDcEIscUJBQXFCO0NBQ3JCLGlCQUFpQjtBQUNsQjtBQUNBO0NBQ0MsbUJBQW1CO0FBQ3BCO0FBRUE7Ozs7OztDQU1DLHlCQUF5QjtDQUN6QixxQkFBcUI7QUFDdEI7QUFDQTs7Q0FFQyxjQUFjO0NBQ2QsZ0NBQWdDO0FBQ2pDO0FBQ0E7Q0FDQyx5QkFBeUI7Q0FDekIscUJBQXFCO0FBQ3RCO0FBRUE7Q0FDQyxlQUFlO0NBQ2YsZ0JBQWdCO0NBQ2hCLGlCQUFpQjtDQUNqQixTQUFTO0NBQ1QsY0FBYztBQUNmO0FBQ0E7Q0FDQyxlQUFlO0NBQ2YsZ0JBQWdCO0NBQ2hCLGlCQUFpQjtDQUNqQixnQkFBZ0I7Q0FDaEIsc0JBQXNCO0FBQ3ZCO0FBQ0E7Q0FDQyxjQUFjO0NBQ2QsZUFBZTtDQUNmLGlCQUFpQjtDQUNqQixnQkFBZ0I7QUFDakI7QUFDQTtJQUNJLGlCQUFpQjtBQUNyQjtBQUNBO0NBQ0MsYUFBYTtDQUNiLG1CQUFtQjtBQUNwQjtBQUNBO0NBQ0MsT0FBTztDQUNQLHdCQUF3QjtDQUN4QixpQkFBaUI7Q0FDakIsa0JBQWtCO0NBR2xCLHlCQUF5QjtBQUMxQjtBQUNBO0NBQ0MsYUFBYTtBQUNkO0FBRUE7Q0FDQyxzQkFBc0I7Q0FDdEIsMkJBQTJCO0FBQzVCO0FBQ0E7Ozs7OztDQU1DLGlCQUFpQjtDQUNqQixzQkFBc0I7QUFDdkI7QUFHQTs7d0JBRXdCO0FBRXhCO0NBQ0MsbUJBQW1CO0FBQ3BCO0FBQ0E7Q0FDQyxtQkFBbUI7Q0FDbkIsWUFBWTtBQUNiO0FBRUE7O0NBRUMsa0JBQWtCO0lBQ2Ysc0JBQXNCO0FBQzFCO0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsc0JBQXNCO0FBQzFCIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvcmVxdWVzdHMvcmVxdWVzdHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3d7XHJcbiAgICBtYXJnaW4tbGVmdDogMHB4O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAwcHg7XHJcbn1cclxuLmNhcmR7XHJcblx0cGFkZGluZzogMjBweDtcclxuXHRtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG59XHJcbi8qIC50YWJsZS1yZXNwb25zaXZle1xyXG4gICAgbWFyZ2luLWxlZnQ6IDE5NXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTZweDtcclxufSAqL1xyXG4ucGFnZS13cmFwcGVyID4gLmNvbnRlbnQge1xyXG4gICAgcGFkZGluZzogNTlweDtcclxufVxyXG4uZm9ybS1jb250cm9sIHtcclxuXHRib3JkZXItcmFkaXVzOiAwO1xyXG5cdGJveC1zaGFkb3c6IG5vbmU7XHJcblx0cGFkZGluZzogMC40NjlyZW0gMC43NXJlbTtcclxuXHRib3JkZXItY29sb3I6ICNlYWVhZWE7XHJcblx0Zm9udC1zaXplOiAxNHB4O1xyXG5cdG1pbi1oZWlnaHQ6IDQwcHg7XHJcbn1cclxuLmZvcm0tY29udHJvbDpmb2N1cyB7XHJcblx0Ym9yZGVyLWNvbG9yOiAjMDA5ZWZiO1xyXG5cdGJveC1zaGFkb3c6IG5vbmU7XHJcblx0b3V0bGluZTogMCBub25lO1xyXG59XHJcbmEge1xyXG5cdGNvbG9yOiAjMDA5Y2U3O1xyXG59XHJcbmlucHV0LFxyXG5idXR0b24sXHJcbmEge1xyXG5cdHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcblx0LW1vei10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG5cdC1vLXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcblx0LW1zLXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcblx0LXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG59XHJcbmlucHV0LFxyXG5idXR0b24ge1xyXG5cdG91dGxpbmU6IG5vbmU7XHJcbn1cclxuaW5wdXRbdHlwZT1cImZpbGVcIl0ge1xyXG5cdGhlaWdodDogYXV0bztcclxuXHRwYWRkaW5nOiA2cHggMC43NXJlbTtcclxufVxyXG5pbnB1dFt0eXBlPXRleHRdLFxyXG5pbnB1dFt0eXBlPXBhc3N3b3JkXSB7XHJcblx0LXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xyXG5cdC1tb3otYXBwZWFyYW5jZTogbm9uZTtcclxuXHRhcHBlYXJhbmNlOiBub25lO1xyXG59XHJcbnRleHRhcmVhLmZvcm0tY29udHJvbCB7XHJcblx0cmVzaXplOiB2ZXJ0aWNhbDtcclxufVxyXG4ubmF2YmFyLW5hdiA+IGxpIHtcclxuXHRmbG9hdDogbGVmdDtcclxufVxyXG4uZm9ybS1ncm91cCB7XHJcblx0bWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG4uZGlzcGxheS1ibG9jayB7XHJcblx0ZGlzcGxheTogYmxvY2s7XHJcbn1cclxuLmJ0bi5yb3VuZGVkIHtcclxuXHRib3gtc2hhZG93OiAwIDFweCAycHggMCByZ2JhKDAsIDAsIDAsIDAuMSk7XHJcbn1cclxuLmJ0bi5mb2N1cyxcclxuLmJ0bjpmb2N1cyB7XHJcblx0Ym94LXNoYWRvdzogaW5oZXJpdCAhaW1wb3J0YW50O1xyXG59XHJcbi5saXN0LWdyb3VwLWl0ZW0ge1xyXG5cdGJvcmRlcjogMXB4IHNvbGlkICNlYWVhZWE7XHJcbn1cclxuXHJcblxyXG4udGFibGUge1xyXG5cdGNvbG9yOiAjMDAwO1xyXG5cdGJvcmRlcjogMXB4IHNvbGlkICNmMGYwZjA7XHJcbn1cclxuLnRhYmxlLnRhYmxlLXdoaXRlIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG59XHJcbi50YWJsZSA+IHRib2R5ID4gdHIgPiB0ZCB7XHJcblx0Zm9udC13ZWlnaHQ6IDMwMDtcclxufVxyXG4udGFibGUtc3RyaXBlZCA+IHRib2R5ID4gdHI6bnRoLW9mLXR5cGUoMm4gKyAxKSB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogI2Y2ZjZmNjtcclxufVxyXG50YWJsZS50YWJsZSB0ZCAuYXZhdGFyIHtcclxuXHRtYXJnaW46IDAgNXB4IDAgMDtcclxufVxyXG50YWJsZS50YWJsZSB0ZCBoMiB7XHJcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG5cdGZvbnQtc2l6ZTogaW5oZXJpdDtcclxuXHRmb250LXdlaWdodDogNDAwO1xyXG5cdG1hcmdpbjogMDtcclxuXHRwYWRkaW5nOiAwO1xyXG5cdHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxudGFibGUudGFibGUgdGQgaDIgYSB7XHJcblx0Y29sb3I6ICM3NTc1NzU7XHJcbn1cclxudGFibGUudGFibGUgdGQgaDIgYTpob3ZlciB7XHJcblx0Y29sb3I6ICMwMDllZmI7XHJcbn1cclxudGFibGUudGFibGUgdGQgaDIgc3BhbiB7XHJcblx0Y29sb3I6ICM5ZTllOWU7XHJcblx0ZGlzcGxheTogYmxvY2s7XHJcblx0Zm9udC1zaXplOiAxMnB4O1xyXG5cdG1hcmdpbi10b3A6IDNweDtcclxufVxyXG5cclxuLyotLS0tLS0tLS0tLS0tLS0tLVxyXG5cdDMuIEhlbHBlciBDbGFzc1xyXG4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSovXHJcblxyXG4ubS1yLTUge1xyXG5cdG1hcmdpbi1yaWdodDogNXB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuLm0tci0xMCB7XHJcblx0bWFyZ2luLXJpZ2h0OiAxMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuLm0tbC01IHtcclxuXHRtYXJnaW4tbGVmdDogNXB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuLm0tdC0wIHtcclxuXHRtYXJnaW4tdG9wOiAwICFpbXBvcnRhbnQ7XHJcbn1cclxuLm0tdC0xMCB7XHJcblx0bWFyZ2luLXRvcDogMTBweCAhaW1wb3J0YW50O1xyXG59XHJcbi5tLXQtMjAge1xyXG5cdG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcclxufVxyXG4ubS10LTMwIHtcclxuXHRtYXJnaW4tdG9wOiAzMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuLm0tdC01MCB7XHJcblx0bWFyZ2luLXRvcDogNTBweCAhaW1wb3J0YW50O1xyXG59XHJcbi5tLWItMTAge1xyXG5cdG1hcmdpbi1ib3R0b206IDEwcHggIWltcG9ydGFudDtcclxufVxyXG4ubS1iLTIwIHtcclxuXHRtYXJnaW4tYm90dG9tOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuLm0tYi0zMCB7XHJcblx0bWFyZ2luLWJvdHRvbTogMzBweCAhaW1wb3J0YW50O1xyXG59XHJcbi53LTQwIHtcclxuXHR3aWR0aDogNDBweDtcclxufVxyXG4uYmxvY2sge1xyXG5cdGRpc3BsYXk6IGJsb2NrICFpbXBvcnRhbnQ7XHJcbn1cclxuLnRleHQtZWxsaXBzaXMge1xyXG5cdGRpc3BsYXk6IGJsb2NrO1xyXG5cdG1heC13aWR0aDogMTAwJTtcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzO1xyXG5cdHdoaXRlLXNwYWNlOiBub3dyYXA7XHJcbn1cclxuLnRleHQtbXV0ZWQtbGlnaHQge1xyXG5cdGNvbG9yOiAjYWFhO1xyXG59XHJcbi5jYXJkLWJveCB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuXHRib3JkZXItcmFkaXVzOiA0cHg7XHJcblx0bWFyZ2luLWJvdHRvbTogMzBweDtcclxuXHRwYWRkaW5nOiAyMHB4O1xyXG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuXHRib3gtc2hhZG93OiAwIDFweCAycHggMCByZ2JhKDAsIDAsIDAsIDAuMSk7XHJcbn1cclxuLmNhcmQtdGl0bGUge1xyXG5cdGNvbG9yOiAjMzMzO1xyXG5cdGZvbnQtc2l6ZTogMTZweDtcclxuXHRtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcbi5wYWdlLXRpdGxlIHtcclxuXHRjb2xvcjogIzU2NTY1NjtcclxuXHRmb250LXNpemU6IDIxcHg7XHJcblx0Zm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuXHRtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcbi5wYWdlLXN1Yi10aXRsZSB7XHJcblx0Y29sb3I6ICM1NjU2NTY7XHJcblx0Zm9udC1zaXplOiAxOHB4O1xyXG5cdGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcblx0bWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLmJhZGdlLXN1Y2Nlc3MtYm9yZGVyIHtcclxuXHRib3JkZXI6IDFweCBzb2xpZCAjNTVjZTYzO1xyXG5cdGNvbG9yOiAjNTVjZTYzO1xyXG5cdGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG5cdG1pbi13aWR0aDogODBweDtcclxufVxyXG4uYmFkZ2UtZGFuZ2VyLWJvcmRlciB7XHJcblx0Ym9yZGVyOiAxcHggc29saWQgI2Y2MmQ1MTtcclxuXHRjb2xvcjogI2Y2MmQ1MTtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuXHRtaW4td2lkdGg6IDgwcHg7XHJcbn1cclxuLmJhZGdlLXdhcm5pbmctYm9yZGVyIHtcclxuXHRib3JkZXI6IDFweCBzb2xpZCAjZmZiYzM0O1xyXG5cdGNvbG9yOiAjZmZiYzM0O1xyXG5cdGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG5cdG1pbi13aWR0aDogODBweDtcclxufVxyXG4uYmFkZ2UtaW5mby1ib3JkZXIge1xyXG5cdGJvcmRlcjogMXB4IHNvbGlkICMwMDllZmI7XHJcblx0Y29sb3I6ICMwMDllZmI7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcblx0bWluLXdpZHRoOiA4MHB4O1xyXG59XHJcbi5tb2RhbC1mb290ZXIudGV4dC1sZWZ0IHtcclxuXHR0ZXh0LWFsaWduOiBsZWZ0O1xyXG59XHJcbi5tb2RhbC1mb290ZXIudGV4dC1jZW50ZXIge1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG4uZm9udC0xOCB7XHJcblx0Zm9udC1zaXplOiAxOHB4O1xyXG59XHJcbi5ib3JkZXItcmlnaHQge1xyXG5cdGJvcmRlci1yaWdodDogMXB4IHNvbGlkICNlN2U3ZTc7XHJcbn1cclxuLmJsdXIge1xyXG5cdC13ZWJraXQtZmlsdGVyOiBibHVyKDNweCk7XHJcblx0LW1vei1maWx0ZXI6IGJsdXIoM3B4KTtcclxuXHQtby1maWx0ZXI6IGJsdXIoM3B4KTtcclxuXHQtbXMtZmlsdGVyOiBibHVyKDNweCk7XHJcblx0ZmlsdGVyOiBibHVyKDNweCk7XHJcbn1cclxuLmJ0biB7XHJcblx0Zm9udC1zaXplOiAwLjg3NXJlbTtcclxufVxyXG5cclxuLnBhZ2luYXRpb24gPiAuYWN0aXZlID4gYSxcclxuLnBhZ2luYXRpb24gPiAuYWN0aXZlID4gYTpmb2N1cyxcclxuLnBhZ2luYXRpb24gPiAuYWN0aXZlID4gYTpob3ZlcixcclxuLnBhZ2luYXRpb24gPiAuYWN0aXZlID4gc3BhbixcclxuLnBhZ2luYXRpb24gPiAuYWN0aXZlID4gc3Bhbjpmb2N1cyxcclxuLnBhZ2luYXRpb24gPiAuYWN0aXZlID4gc3Bhbjpob3ZlciB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogIzAwOWVmYjtcclxuXHRib3JkZXItY29sb3I6ICMwMDllZmI7XHJcbn1cclxuLnBhZ2luYXRpb24gPiBsaSA+IGEsXHJcbi5wYWdpbmF0aW9uID4gbGkgPiBzcGFuIHtcclxuXHRjb2xvcjogIzAwOWVmYjtcclxuXHRwYWRkaW5nOiAuNXJlbSAuNzVyZW0gIWltcG9ydGFudDtcclxufVxyXG4ucGFnZS1pdGVtLmFjdGl2ZSAucGFnZS1saW5rIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjMDA5ZWZiO1xyXG5cdGJvcmRlci1jb2xvcjogIzAwOWVmYjtcclxufVxyXG5cclxuLmNhcmQgLmNhcmQtaGVhZGVyIC5jYXJkLXRpdGxlIHtcclxuXHRmb250LXNpemU6IDE4cHg7XHJcblx0Zm9udC13ZWlnaHQ6IDQwMDtcclxuXHRsaW5lLWhlaWdodDogMjBweDtcclxuXHRtYXJnaW46IDA7XHJcblx0cGFkZGluZzogNXB4IDA7XHJcbn1cclxuLnRhYmxlIGg1IHtcclxuXHRmb250LXNpemU6IDE0cHg7XHJcblx0Zm9udC13ZWlnaHQ6IDQwMDtcclxuXHRsaW5lLWhlaWdodDogMThweDtcclxuXHRtYXJnaW4tYm90dG9tOiAwO1xyXG5cdHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxuLnRhYmxlIGg1ICsgcCB7XHJcblx0Y29sb3I6ICM5ZTllOWU7XHJcblx0Zm9udC1zaXplOiAxNHB4O1xyXG5cdGxpbmUtaGVpZ2h0OiAxOHB4O1xyXG5cdG1hcmdpbi1ib3R0b206IDA7XHJcbn1cclxuLnBhZ2UtbGluazpmb2N1cyB7XHJcbiAgICBib3gtc2hhZG93OiB1bnNldDtcclxufVxyXG4uY2FyZHtcclxuXHRwYWRkaW5nOiAyMHB4O1xyXG5cdG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbn1cclxuLnBhZ2Utd3JhcHBlciB7XHJcblx0bGVmdDogMDtcclxuXHQvKiBtYXJnaW4tbGVmdDogMjMwcHg7ICovXHJcblx0cGFkZGluZy10b3A6IDUwcHg7XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuXHQtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcblx0dHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxufVxyXG4ucGFnZS13cmFwcGVyID4gLmNvbnRlbnQge1xyXG5cdHBhZGRpbmc6IDMwcHg7XHJcbn1cclxuXHJcbi5jdXN0b20tdGFibGUgdHIge1xyXG5cdGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcblx0Ym94LXNoYWRvdzogMCAwIDNweCAjZTVlNWU1O1xyXG59XHJcbi50YWJsZS5jdXN0b20tdGFibGUgPiB0Ym9keSA+IHRyID4gdGQsXHJcbi50YWJsZS5jdXN0b20tdGFibGUgPiB0Ym9keSA+IHRyID4gdGgsXHJcbi50YWJsZS5jdXN0b20tdGFibGUgPiB0Zm9vdCA+IHRyID4gdGQsXHJcbi50YWJsZS5jdXN0b20tdGFibGUgPiB0Zm9vdCA+IHRyID4gdGgsXHJcbi50YWJsZS5jdXN0b20tdGFibGUgPiB0aGVhZCA+IHRyID4gdGQsXHJcbi50YWJsZS5jdXN0b20tdGFibGUgPiB0aGVhZCA+IHRyID4gdGgge1xyXG5cdHBhZGRpbmc6IDEwcHggOHB4O1xyXG5cdHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxuXHJcblxyXG4vKi0tLS0tLS0tLS0tLS0tLS0tXHJcblx0MzUuIExvY2sgU2NyZWVuXHJcbi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKi9cclxuXHJcbi5sb2NrLXVzZXIge1xyXG5cdG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbn1cclxuLmxvY2stdXNlciBpbWcge1xyXG5cdG1hcmdpbi1ib3R0b206IDE1cHg7XHJcblx0d2lkdGg6IDEwMHB4O1xyXG59XHJcblxyXG4udGFibGUuY3VzdG9tLXRhYmxlPiB0Ym9keSA+IHRyID4gdGR7XHJcblxyXG5cdHBhZGRpbmc6IDEwcHggNzFweDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxuLnRhYmxlLmN1c3RvbS10YWJsZSA+IHRoZWFkID4gdHIgPiB0aCB7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDcxcHg7XHJcbiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xyXG59Il19 */";
+    __webpack_exports__["default"] = ".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n@media only screen and (max-width: 991px) {\r\n    .container-fluid {\r\n        margin-left: 93px !important;\r\n        margin-top: 99px !important;\r\n        padding-right: 9px !important;\r\n    }\r\n    #wrapper #content-wrapper {\r\n        background-color: #f8f9fc;\r\n        overflow-x: unset;\r\n    }\r\n    .d-block {\r\n        border-radius: 19px;\r\n        width: 102%;\r\n        height: 161px;\r\n    }\r\n}\r\n\r\n.card {\r\n    padding: 20px;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n/* .table-responsive{\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n} */\r\n\r\n.page-wrapper>.content {\r\n    padding: 59px;\r\n}\r\n\r\n.form-control {\r\n    border-radius: 0;\r\n    box-shadow: none;\r\n    padding: 0.469rem 0.75rem;\r\n    border-color: #eaeaea;\r\n    font-size: 14px;\r\n    min-height: 40px;\r\n}\r\n\r\n.form-control:focus {\r\n    border-color: #009efb;\r\n    box-shadow: none;\r\n    outline: 0 none;\r\n}\r\n\r\na {\r\n    color: #009ce7;\r\n}\r\n\r\ninput,\r\nbutton,\r\na {\r\n    transition: all 0.4s ease;\r\n    -moz-transition: all 0.4s ease;\r\n    -o-transition: all 0.4s ease;\r\n    -ms-transition: all 0.4s ease;\r\n    -webkit-transition: all 0.4s ease;\r\n}\r\n\r\ninput,\r\nbutton {\r\n    outline: none;\r\n}\r\n\r\ninput[type=\"file\"] {\r\n    height: auto;\r\n    padding: 6px 0.75rem;\r\n}\r\n\r\ninput[type=text],\r\ninput[type=password] {\r\n    -webkit-appearance: none;\r\n    -moz-appearance: none;\r\n    appearance: none;\r\n}\r\n\r\ntextarea.form-control {\r\n    resize: vertical;\r\n}\r\n\r\n.navbar-nav>li {\r\n    float: left;\r\n}\r\n\r\n.form-group {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.display-block {\r\n    display: block;\r\n}\r\n\r\n.btn.rounded {\r\n    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n.btn.focus,\r\n.btn:focus {\r\n    box-shadow: inherit !important;\r\n}\r\n\r\n.list-group-item {\r\n    border: 1px solid #eaeaea;\r\n}\r\n\r\n.table {\r\n    color: #000;\r\n    border: 1px solid #f0f0f0;\r\n}\r\n\r\n.table.table-white {\r\n    background-color: #fff;\r\n}\r\n\r\n.table>tbody>tr>td {\r\n    font-weight: 300;\r\n}\r\n\r\n.table-striped>tbody>tr:nth-of-type(2n + 1) {\r\n    background-color: #f6f6f6;\r\n}\r\n\r\ntable.table td .avatar {\r\n    margin: 0 5px 0 0;\r\n}\r\n\r\ntable.table td h2 {\r\n    display: inline-block;\r\n    font-size: inherit;\r\n    font-weight: 400;\r\n    margin: 0;\r\n    padding: 0;\r\n    vertical-align: middle;\r\n}\r\n\r\ntable.table td h2 a {\r\n    color: #757575;\r\n}\r\n\r\ntable.table td h2 a:hover {\r\n    color: #009efb;\r\n}\r\n\r\ntable.table td h2 span {\r\n    color: #9e9e9e;\r\n    display: block;\r\n    font-size: 12px;\r\n    margin-top: 3px;\r\n}\r\n\r\n/*-----------------\r\n\t3. Helper Class\r\n-----------------------*/\r\n\r\n.m-r-5 {\r\n    margin-right: 5px !important;\r\n}\r\n\r\n.m-r-10 {\r\n    margin-right: 10px !important;\r\n}\r\n\r\n.m-l-5 {\r\n    margin-left: 5px !important;\r\n}\r\n\r\n.m-t-0 {\r\n    margin-top: 0 !important;\r\n}\r\n\r\n.m-t-10 {\r\n    margin-top: 10px !important;\r\n}\r\n\r\n.m-t-20 {\r\n    margin-top: 20px !important;\r\n}\r\n\r\n.m-t-30 {\r\n    margin-top: 30px !important;\r\n}\r\n\r\n.m-t-50 {\r\n    margin-top: 50px !important;\r\n}\r\n\r\n.m-b-10 {\r\n    margin-bottom: 10px !important;\r\n}\r\n\r\n.m-b-20 {\r\n    margin-bottom: 20px !important;\r\n}\r\n\r\n.m-b-30 {\r\n    margin-bottom: 30px !important;\r\n}\r\n\r\n.w-40 {\r\n    width: 40px;\r\n}\r\n\r\n.block {\r\n    display: block !important;\r\n}\r\n\r\n.text-ellipsis {\r\n    display: block;\r\n    max-width: 100%;\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n}\r\n\r\n.text-muted-light {\r\n    color: #aaa;\r\n}\r\n\r\n.card-box {\r\n    background-color: #fff;\r\n    border-radius: 4px;\r\n    margin-bottom: 30px;\r\n    padding: 20px;\r\n    position: relative;\r\n    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n.card-title {\r\n    color: #333;\r\n    font-size: 16px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.page-title {\r\n    color: #565656;\r\n    font-size: 21px;\r\n    font-weight: normal;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.page-sub-title {\r\n    color: #565656;\r\n    font-size: 18px;\r\n    font-weight: normal;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.badge-success-border {\r\n    border: 1px solid #55ce63;\r\n    color: #55ce63;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n.badge-danger-border {\r\n    border: 1px solid #f62d51;\r\n    color: #f62d51;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n.badge-warning-border {\r\n    border: 1px solid #ffbc34;\r\n    color: #ffbc34;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n.badge-info-border {\r\n    border: 1px solid #009efb;\r\n    color: #009efb;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n.modal-footer.text-left {\r\n    text-align: left;\r\n}\r\n\r\n.modal-footer.text-center {\r\n    text-align: center;\r\n}\r\n\r\n.font-18 {\r\n    font-size: 18px;\r\n}\r\n\r\n.border-right {\r\n    border-right: 1px solid #e7e7e7;\r\n}\r\n\r\n.blur {\r\n    -webkit-filter: blur(3px);\r\n    -moz-filter: blur(3px);\r\n    -o-filter: blur(3px);\r\n    -ms-filter: blur(3px);\r\n    filter: blur(3px);\r\n}\r\n\r\n.btn {\r\n    font-size: 0.875rem;\r\n}\r\n\r\n.pagination>.active>a,\r\n.pagination>.active>a:focus,\r\n.pagination>.active>a:hover,\r\n.pagination>.active>span,\r\n.pagination>.active>span:focus,\r\n.pagination>.active>span:hover {\r\n    background-color: #009efb;\r\n    border-color: #009efb;\r\n}\r\n\r\n.pagination>li>a,\r\n.pagination>li>span {\r\n    color: #009efb;\r\n    padding: .5rem .75rem !important;\r\n}\r\n\r\n.page-item.active .page-link {\r\n    background-color: #009efb;\r\n    border-color: #009efb;\r\n}\r\n\r\n.card .card-header .card-title {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n    line-height: 20px;\r\n    margin: 0;\r\n    padding: 5px 0;\r\n}\r\n\r\n.table h5 {\r\n    font-size: 14px;\r\n    font-weight: 400;\r\n    line-height: 18px;\r\n    margin-bottom: 0;\r\n    vertical-align: middle;\r\n}\r\n\r\n.table h5+p {\r\n    color: #9e9e9e;\r\n    font-size: 14px;\r\n    line-height: 18px;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.page-link:focus {\r\n    box-shadow: unset;\r\n}\r\n\r\n.card {\r\n    padding: 20px;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.page-wrapper {\r\n    left: 0;\r\n    /* margin-left: 230px; */\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n.page-wrapper>.content {\r\n    padding: 30px;\r\n}\r\n\r\n.custom-table tr {\r\n    background-color: #fff;\r\n    box-shadow: 0 0 3px #e5e5e5;\r\n}\r\n\r\n.table.custom-table>tbody>tr>td,\r\n.table.custom-table>tbody>tr>th,\r\n.table.custom-table>tfoot>tr>td,\r\n.table.custom-table>tfoot>tr>th,\r\n.table.custom-table>thead>tr>td,\r\n.table.custom-table>thead>tr>th {\r\n    padding: 10px 8px;\r\n    vertical-align: middle;\r\n}\r\n\r\n/*-----------------\r\n\t35. Lock Screen\r\n-----------------------*/\r\n\r\n.lock-user {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.lock-user img {\r\n    margin-bottom: 15px;\r\n    width: 100px;\r\n}\r\n\r\n.table.custom-table>tbody>tr>td {\r\n    padding: 10px 71px;\r\n    vertical-align: middle;\r\n}\r\n\r\n.table.custom-table>thead>tr>th {\r\n    padding: 10px 71px;\r\n    vertical-align: middle;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvcmVxdWVzdHMvcmVxdWVzdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSTtRQUNJLDRCQUE0QjtRQUM1QiwyQkFBMkI7UUFDM0IsNkJBQTZCO0lBQ2pDO0lBQ0E7UUFDSSx5QkFBeUI7UUFDekIsaUJBQWlCO0lBQ3JCO0lBQ0E7UUFDSSxtQkFBbUI7UUFDbkIsV0FBVztRQUNYLGFBQWE7SUFDakI7QUFDSjs7QUFFQTtJQUNJLGFBQWE7SUFDYixtQkFBbUI7QUFDdkI7O0FBR0E7OztHQUdHOztBQUVIO0lBQ0ksYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLHFCQUFxQjtJQUNyQixlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0kscUJBQXFCO0lBQ3JCLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksY0FBYztBQUNsQjs7QUFFQTs7O0lBR0kseUJBQXlCO0lBQ3pCLDhCQUE4QjtJQUM5Qiw0QkFBNEI7SUFDNUIsNkJBQTZCO0lBQzdCLGlDQUFpQztBQUNyQzs7QUFFQTs7SUFFSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLG9CQUFvQjtBQUN4Qjs7QUFFQTs7SUFFSSx3QkFBd0I7SUFDeEIscUJBQXFCO0lBQ3JCLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSwwQ0FBMEM7QUFDOUM7O0FBRUE7O0lBRUksOEJBQThCO0FBQ2xDOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksV0FBVztJQUNYLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQixrQkFBa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLFNBQVM7SUFDVCxVQUFVO0lBQ1Ysc0JBQXNCO0FBQzFCOztBQUVBO0lBQ0ksY0FBYztBQUNsQjs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsY0FBYztJQUNkLGVBQWU7SUFDZixlQUFlO0FBQ25COztBQUdBOzt3QkFFd0I7O0FBRXhCO0lBQ0ksNEJBQTRCO0FBQ2hDOztBQUVBO0lBQ0ksNkJBQTZCO0FBQ2pDOztBQUVBO0lBQ0ksMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksd0JBQXdCO0FBQzVCOztBQUVBO0lBQ0ksMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksOEJBQThCO0FBQ2xDOztBQUVBO0lBQ0ksOEJBQThCO0FBQ2xDOztBQUVBO0lBQ0ksOEJBQThCO0FBQ2xDOztBQUVBO0lBQ0ksV0FBVztBQUNmOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksY0FBYztJQUNkLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QixrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsMENBQTBDO0FBQzlDOztBQUVBO0lBQ0ksV0FBVztJQUNYLGVBQWU7SUFDZixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsZUFBZTtJQUNmLG1CQUFtQjtJQUNuQixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsZUFBZTtJQUNmLG1CQUFtQjtJQUNuQixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsY0FBYztJQUNkLHNCQUFzQjtJQUN0QixxQkFBcUI7SUFDckIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6QixjQUFjO0lBQ2Qsc0JBQXNCO0lBQ3RCLHFCQUFxQjtJQUNyQixlQUFlO0FBQ25COztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsY0FBYztJQUNkLHNCQUFzQjtJQUN0QixxQkFBcUI7SUFDckIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSwrQkFBK0I7QUFDbkM7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsc0JBQXNCO0lBQ3RCLG9CQUFvQjtJQUNwQixxQkFBcUI7SUFDckIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksbUJBQW1CO0FBQ3ZCOztBQUVBOzs7Ozs7SUFNSSx5QkFBeUI7SUFDekIscUJBQXFCO0FBQ3pCOztBQUVBOztJQUVJLGNBQWM7SUFDZCxnQ0FBZ0M7QUFDcEM7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsU0FBUztJQUNULGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixnQkFBZ0I7SUFDaEIsc0JBQXNCO0FBQzFCOztBQUVBO0lBQ0ksY0FBYztJQUNkLGVBQWU7SUFDZixpQkFBaUI7SUFDakIsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLE9BQU87SUFDUCx3QkFBd0I7SUFDeEIsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUdsQix5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksc0JBQXNCO0lBQ3RCLDJCQUEyQjtBQUMvQjs7QUFFQTs7Ozs7O0lBTUksaUJBQWlCO0lBQ2pCLHNCQUFzQjtBQUMxQjs7QUFHQTs7d0JBRXdCOztBQUV4QjtJQUNJLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLG1CQUFtQjtJQUNuQixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixzQkFBc0I7QUFDMUIiLCJmaWxlIjoic3JjL2FwcC9vd25lcnBhbm5lbC9yZXF1ZXN0cy9yZXF1ZXN0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvdyB7XHJcbiAgICBtYXJnaW4tbGVmdDogMHB4O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAwcHg7XHJcbn1cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogOTkxcHgpIHtcclxuICAgIC5jb250YWluZXItZmx1aWQge1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiA5M3B4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogOTlweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDlweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gICAgI3dyYXBwZXIgI2NvbnRlbnQtd3JhcHBlciB7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y4ZjlmYztcclxuICAgICAgICBvdmVyZmxvdy14OiB1bnNldDtcclxuICAgIH1cclxuICAgIC5kLWJsb2NrIHtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAxOXB4O1xyXG4gICAgICAgIHdpZHRoOiAxMDIlO1xyXG4gICAgICAgIGhlaWdodDogMTYxcHg7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5jYXJkIHtcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG59XHJcblxyXG5cclxuLyogLnRhYmxlLXJlc3BvbnNpdmV7XHJcbiAgICBtYXJnaW4tbGVmdDogMTk1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xyXG59ICovXHJcblxyXG4ucGFnZS13cmFwcGVyPi5jb250ZW50IHtcclxuICAgIHBhZGRpbmc6IDU5cHg7XHJcbn1cclxuXHJcbi5mb3JtLWNvbnRyb2wge1xyXG4gICAgYm9yZGVyLXJhZGl1czogMDtcclxuICAgIGJveC1zaGFkb3c6IG5vbmU7XHJcbiAgICBwYWRkaW5nOiAwLjQ2OXJlbSAwLjc1cmVtO1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjZWFlYWVhO1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgbWluLWhlaWdodDogNDBweDtcclxufVxyXG5cclxuLmZvcm0tY29udHJvbDpmb2N1cyB7XHJcbiAgICBib3JkZXItY29sb3I6ICMwMDllZmI7XHJcbiAgICBib3gtc2hhZG93OiBub25lO1xyXG4gICAgb3V0bGluZTogMCBub25lO1xyXG59XHJcblxyXG5hIHtcclxuICAgIGNvbG9yOiAjMDA5Y2U3O1xyXG59XHJcblxyXG5pbnB1dCxcclxuYnV0dG9uLFxyXG5hIHtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtbW96LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtby10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG4gICAgLW1zLXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuXHJcbmlucHV0LFxyXG5idXR0b24ge1xyXG4gICAgb3V0bGluZTogbm9uZTtcclxufVxyXG5cclxuaW5wdXRbdHlwZT1cImZpbGVcIl0ge1xyXG4gICAgaGVpZ2h0OiBhdXRvO1xyXG4gICAgcGFkZGluZzogNnB4IDAuNzVyZW07XHJcbn1cclxuXHJcbmlucHV0W3R5cGU9dGV4dF0sXHJcbmlucHV0W3R5cGU9cGFzc3dvcmRdIHtcclxuICAgIC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTtcclxuICAgIC1tb3otYXBwZWFyYW5jZTogbm9uZTtcclxuICAgIGFwcGVhcmFuY2U6IG5vbmU7XHJcbn1cclxuXHJcbnRleHRhcmVhLmZvcm0tY29udHJvbCB7XHJcbiAgICByZXNpemU6IHZlcnRpY2FsO1xyXG59XHJcblxyXG4ubmF2YmFyLW5hdj5saSB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxufVxyXG5cclxuLmZvcm0tZ3JvdXAge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLmRpc3BsYXktYmxvY2sge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbn1cclxuXHJcbi5idG4ucm91bmRlZCB7XHJcbiAgICBib3gtc2hhZG93OiAwIDFweCAycHggMCByZ2JhKDAsIDAsIDAsIDAuMSk7XHJcbn1cclxuXHJcbi5idG4uZm9jdXMsXHJcbi5idG46Zm9jdXMge1xyXG4gICAgYm94LXNoYWRvdzogaW5oZXJpdCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubGlzdC1ncm91cC1pdGVtIHtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICNlYWVhZWE7XHJcbn1cclxuXHJcbi50YWJsZSB7XHJcbiAgICBjb2xvcjogIzAwMDtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICNmMGYwZjA7XHJcbn1cclxuXHJcbi50YWJsZS50YWJsZS13aGl0ZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG59XHJcblxyXG4udGFibGU+dGJvZHk+dHI+dGQge1xyXG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcclxufVxyXG5cclxuLnRhYmxlLXN0cmlwZWQ+dGJvZHk+dHI6bnRoLW9mLXR5cGUoMm4gKyAxKSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjZmNmY2O1xyXG59XHJcblxyXG50YWJsZS50YWJsZSB0ZCAuYXZhdGFyIHtcclxuICAgIG1hcmdpbjogMCA1cHggMCAwO1xyXG59XHJcblxyXG50YWJsZS50YWJsZSB0ZCBoMiB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBmb250LXNpemU6IGluaGVyaXQ7XHJcbiAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxuXHJcbnRhYmxlLnRhYmxlIHRkIGgyIGEge1xyXG4gICAgY29sb3I6ICM3NTc1NzU7XHJcbn1cclxuXHJcbnRhYmxlLnRhYmxlIHRkIGgyIGE6aG92ZXIge1xyXG4gICAgY29sb3I6ICMwMDllZmI7XHJcbn1cclxuXHJcbnRhYmxlLnRhYmxlIHRkIGgyIHNwYW4ge1xyXG4gICAgY29sb3I6ICM5ZTllOWU7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgIG1hcmdpbi10b3A6IDNweDtcclxufVxyXG5cclxuXHJcbi8qLS0tLS0tLS0tLS0tLS0tLS1cclxuXHQzLiBIZWxwZXIgQ2xhc3NcclxuLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0qL1xyXG5cclxuLm0tci01IHtcclxuICAgIG1hcmdpbi1yaWdodDogNXB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLXItMTAge1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAxMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLWwtNSB7XHJcbiAgICBtYXJnaW4tbGVmdDogNXB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLXQtMCB7XHJcbiAgICBtYXJnaW4tdG9wOiAwICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLXQtMTAge1xyXG4gICAgbWFyZ2luLXRvcDogMTBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubS10LTIwIHtcclxuICAgIG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tdC0zMCB7XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLXQtNTAge1xyXG4gICAgbWFyZ2luLXRvcDogNTBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubS1iLTEwIHtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tYi0yMCB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLWItMzAge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMzBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4udy00MCB7XHJcbiAgICB3aWR0aDogNDBweDtcclxufVxyXG5cclxuLmJsb2NrIHtcclxuICAgIGRpc3BsYXk6IGJsb2NrICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi50ZXh0LWVsbGlwc2lzIHtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzO1xyXG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxufVxyXG5cclxuLnRleHQtbXV0ZWQtbGlnaHQge1xyXG4gICAgY29sb3I6ICNhYWE7XHJcbn1cclxuXHJcbi5jYXJkLWJveCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMzBweDtcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBib3gtc2hhZG93OiAwIDFweCAycHggMCByZ2JhKDAsIDAsIDAsIDAuMSk7XHJcbn1cclxuXHJcbi5jYXJkLXRpdGxlIHtcclxuICAgIGNvbG9yOiAjMzMzO1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLnBhZ2UtdGl0bGUge1xyXG4gICAgY29sb3I6ICM1NjU2NTY7XHJcbiAgICBmb250LXNpemU6IDIxcHg7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLnBhZ2Utc3ViLXRpdGxlIHtcclxuICAgIGNvbG9yOiAjNTY1NjU2O1xyXG4gICAgZm9udC1zaXplOiAxOHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbn1cclxuXHJcbi5iYWRnZS1zdWNjZXNzLWJvcmRlciB7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjNTVjZTYzO1xyXG4gICAgY29sb3I6ICM1NWNlNjM7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgbWluLXdpZHRoOiA4MHB4O1xyXG59XHJcblxyXG4uYmFkZ2UtZGFuZ2VyLWJvcmRlciB7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZjYyZDUxO1xyXG4gICAgY29sb3I6ICNmNjJkNTE7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgbWluLXdpZHRoOiA4MHB4O1xyXG59XHJcblxyXG4uYmFkZ2Utd2FybmluZy1ib3JkZXIge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2ZmYmMzNDtcclxuICAgIGNvbG9yOiAjZmZiYzM0O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIG1pbi13aWR0aDogODBweDtcclxufVxyXG5cclxuLmJhZGdlLWluZm8tYm9yZGVyIHtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICMwMDllZmI7XHJcbiAgICBjb2xvcjogIzAwOWVmYjtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBtaW4td2lkdGg6IDgwcHg7XHJcbn1cclxuXHJcbi5tb2RhbC1mb290ZXIudGV4dC1sZWZ0IHtcclxuICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbn1cclxuXHJcbi5tb2RhbC1mb290ZXIudGV4dC1jZW50ZXIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uZm9udC0xOCB7XHJcbiAgICBmb250LXNpemU6IDE4cHg7XHJcbn1cclxuXHJcbi5ib3JkZXItcmlnaHQge1xyXG4gICAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI2U3ZTdlNztcclxufVxyXG5cclxuLmJsdXIge1xyXG4gICAgLXdlYmtpdC1maWx0ZXI6IGJsdXIoM3B4KTtcclxuICAgIC1tb3otZmlsdGVyOiBibHVyKDNweCk7XHJcbiAgICAtby1maWx0ZXI6IGJsdXIoM3B4KTtcclxuICAgIC1tcy1maWx0ZXI6IGJsdXIoM3B4KTtcclxuICAgIGZpbHRlcjogYmx1cigzcHgpO1xyXG59XHJcblxyXG4uYnRuIHtcclxuICAgIGZvbnQtc2l6ZTogMC44NzVyZW07XHJcbn1cclxuXHJcbi5wYWdpbmF0aW9uPi5hY3RpdmU+YSxcclxuLnBhZ2luYXRpb24+LmFjdGl2ZT5hOmZvY3VzLFxyXG4ucGFnaW5hdGlvbj4uYWN0aXZlPmE6aG92ZXIsXHJcbi5wYWdpbmF0aW9uPi5hY3RpdmU+c3BhbixcclxuLnBhZ2luYXRpb24+LmFjdGl2ZT5zcGFuOmZvY3VzLFxyXG4ucGFnaW5hdGlvbj4uYWN0aXZlPnNwYW46aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwOWVmYjtcclxuICAgIGJvcmRlci1jb2xvcjogIzAwOWVmYjtcclxufVxyXG5cclxuLnBhZ2luYXRpb24+bGk+YSxcclxuLnBhZ2luYXRpb24+bGk+c3BhbiB7XHJcbiAgICBjb2xvcjogIzAwOWVmYjtcclxuICAgIHBhZGRpbmc6IC41cmVtIC43NXJlbSAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ucGFnZS1pdGVtLmFjdGl2ZSAucGFnZS1saW5rIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDllZmI7XHJcbiAgICBib3JkZXItY29sb3I6ICMwMDllZmI7XHJcbn1cclxuXHJcbi5jYXJkIC5jYXJkLWhlYWRlciAuY2FyZC10aXRsZSB7XHJcbiAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgbGluZS1oZWlnaHQ6IDIwcHg7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBwYWRkaW5nOiA1cHggMDtcclxufVxyXG5cclxuLnRhYmxlIGg1IHtcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICBsaW5lLWhlaWdodDogMThweDtcclxuICAgIG1hcmdpbi1ib3R0b206IDA7XHJcbiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xyXG59XHJcblxyXG4udGFibGUgaDUrcCB7XHJcbiAgICBjb2xvcjogIzllOWU5ZTtcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgIGxpbmUtaGVpZ2h0OiAxOHB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMDtcclxufVxyXG5cclxuLnBhZ2UtbGluazpmb2N1cyB7XHJcbiAgICBib3gtc2hhZG93OiB1bnNldDtcclxufVxyXG5cclxuLmNhcmQge1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbn1cclxuXHJcbi5wYWdlLXdyYXBwZXIge1xyXG4gICAgbGVmdDogMDtcclxuICAgIC8qIG1hcmdpbi1sZWZ0OiAyMzBweDsgKi9cclxuICAgIHBhZGRpbmctdG9wOiA1MHB4O1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG4gICAgLW1vei10cmFuc2l0aW9uOiBhbGwgMC40cyBlYXNlO1xyXG4gICAgdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxufVxyXG5cclxuLnBhZ2Utd3JhcHBlcj4uY29udGVudCB7XHJcbiAgICBwYWRkaW5nOiAzMHB4O1xyXG59XHJcblxyXG4uY3VzdG9tLXRhYmxlIHRyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBib3gtc2hhZG93OiAwIDAgM3B4ICNlNWU1ZTU7XHJcbn1cclxuXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGJvZHk+dHI+dGQsXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGJvZHk+dHI+dGgsXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGZvb3Q+dHI+dGQsXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGZvb3Q+dHI+dGgsXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGhlYWQ+dHI+dGQsXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGhlYWQ+dHI+dGgge1xyXG4gICAgcGFkZGluZzogMTBweCA4cHg7XHJcbiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xyXG59XHJcblxyXG5cclxuLyotLS0tLS0tLS0tLS0tLS0tLVxyXG5cdDM1LiBMb2NrIFNjcmVlblxyXG4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSovXHJcblxyXG4ubG9jay11c2VyIHtcclxuICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbn1cclxuXHJcbi5sb2NrLXVzZXIgaW1nIHtcclxuICAgIG1hcmdpbi1ib3R0b206IDE1cHg7XHJcbiAgICB3aWR0aDogMTAwcHg7XHJcbn1cclxuXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGJvZHk+dHI+dGQge1xyXG4gICAgcGFkZGluZzogMTBweCA3MXB4O1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufVxyXG5cclxuLnRhYmxlLmN1c3RvbS10YWJsZT50aGVhZD50cj50aCB7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDcxcHg7XHJcbiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xyXG59Il19 */";
     /***/
   },
 
@@ -12546,60 +12928,60 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallPendingdata",
         value: function getallPendingdata() {
-          var _this64 = this;
+          var _this68 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
-            _this64.results = data;
+            _this68.results = data;
 
-            if (_this64.results.length == 0) {
-              _this64.message = 'No Data Found';
+            if (_this68.results.length == 0) {
+              _this68.message = 'No Data Found';
             } else {
-              _this64.message = 'Data Found';
+              _this68.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "getallprebookdata",
         value: function getallprebookdata() {
-          var _this65 = this;
+          var _this69 = this;
 
           this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
-            _this65.results = data;
+            _this69.results = data;
 
-            if (_this65.results.length == 0) {
-              _this65.message = 'No Data Found';
+            if (_this69.results.length == 0) {
+              _this69.message = 'No Data Found';
             } else {
-              _this65.message = 'Data Found';
+              _this69.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "getallApprovedData",
         value: function getallApprovedData() {
-          var _this66 = this;
+          var _this70 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
-            _this66.results = data;
+            _this70.results = data;
 
-            if (_this66.results.length == 0) {
-              _this66.message = 'No Data Found';
+            if (_this70.results.length == 0) {
+              _this70.message = 'No Data Found';
             } else {
-              _this66.message = 'Data Found';
+              _this70.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "getallrejectedData",
         value: function getallrejectedData() {
-          var _this67 = this;
+          var _this71 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
-            _this67.results = data;
+            _this71.results = data;
 
-            if (_this67.results.length == 0) {
-              _this67.message = 'No Data Found';
+            if (_this71.results.length == 0) {
+              _this71.message = 'No Data Found';
             } else {
-              _this67.message = 'Data Found';
+              _this71.message = 'Data Found';
             }
           }, function (error) {});
         }
@@ -12611,7 +12993,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve(s) {
-          var _this68 = this;
+          var _this72 = this;
 
           console.log(s.id);
           var status = "1";
@@ -12620,7 +13002,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this68.ngOnInit();
+            _this72.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -12628,7 +13010,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject(s) {
-          var _this69 = this;
+          var _this73 = this;
 
           console.log(s.id);
           var status = "3";
@@ -12637,7 +13019,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this69.ngOnInit();
+            _this73.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -12754,30 +13136,30 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ViewRequestsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this70 = this;
+          var _this74 = this;
 
           this.activaterouter.params.subscribe(function (params) {
             console.log(params.id, params.name);
-            _this70.customerName = params.name;
-            _this70.cId = params.id;
+            _this74.customerName = params.name;
+            _this74.cId = params.id;
           });
           this.getDetails();
         }
       }, {
         key: "getDetails",
         value: function getDetails() {
-          var _this71 = this;
+          var _this75 = this;
 
           this.ownerservice.getapprovalDetaislById(this.cId).subscribe(function (data) {
-            _this71.results = data;
-            _this71.approvalstatus = _this71.results['approvalStatus'];
-            _this71.startingLocation = _this71.results['startingLocation'];
-            _this71.destinationLocation = _this71.results['destinationLocation'];
-            _this71.requestedDate = _this71.results['requestedDate'];
-            _this71.companyName = _this71.results.vehicleForm['companyName'];
-            _this71.model = _this71.results.vehicleForm['model'];
-            _this71.numberPlate = _this71.results.vehicleForm['numberPlate'];
-            _this71.rentPerDay = _this71.results.vehicleForm['rentPerDay'];
+            _this75.results = data;
+            _this75.approvalstatus = _this75.results['approvalStatus'];
+            _this75.startingLocation = _this75.results['startingLocation'];
+            _this75.destinationLocation = _this75.results['destinationLocation'];
+            _this75.requestedDate = _this75.results['requestedDate'];
+            _this75.companyName = _this75.results.vehicleForm['companyName'];
+            _this75.model = _this75.results.vehicleForm['model'];
+            _this75.numberPlate = _this75.results.vehicleForm['numberPlate'];
+            _this75.rentPerDay = _this75.results.vehicleForm['rentPerDay'];
           }, function (error) {});
         }
       }, {
@@ -12788,7 +13170,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve() {
-          var _this72 = this;
+          var _this76 = this;
 
           console.log(this.cId);
           var status = "1";
@@ -12797,7 +13179,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this72.router.navigate(['/request']);
+            _this76.router.navigate(['/request']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -12805,7 +13187,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject() {
-          var _this73 = this;
+          var _this77 = this;
 
           console.log(this.cId);
           var status = "3";
@@ -12814,7 +13196,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this73.ngOnInit();
+            _this77.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -12958,88 +13340,88 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getimage2",
         value: function getimage2() {
-          var _this74 = this;
+          var _this78 = this;
 
           this.adminService.getimage(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this74.vehicleimage2 = _this74.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this78.vehicleimage2 = _this78.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsByid",
         value: function getvehicleDetailsByid() {
-          var _this75 = this;
+          var _this79 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vId).subscribe(function (data) {
-            _this75.results = data;
-            console.log(_this75.results);
-            _this75.vehicleModel.vehicleCompany = _this75.results['companyName'];
-            _this75.vehicleModel.vehicleType = _this75.results['type'];
-            _this75.vehicleModel.vehicleModel = _this75.results['model'];
-            _this75.vehicleModel.vehicleRegistration = _this75.results['numberPlate'];
-            _this75.vehicleModel.rent = _this75.results['rentPerDay'];
-            _this75.rentperkm = _this75.results['rentPerKM'];
-            _this75.rentPerHour = _this75.results['rentPerHour'];
-            _this75.vehicleModel.locality = _this75.results['locality'];
-            _this75.vehicleModel.vehicleYear = _this75.results['year'];
+            _this79.results = data;
+            console.log(_this79.results);
+            _this79.vehicleModel.vehicleCompany = _this79.results['companyName'];
+            _this79.vehicleModel.vehicleType = _this79.results['type'];
+            _this79.vehicleModel.vehicleModel = _this79.results['model'];
+            _this79.vehicleModel.vehicleRegistration = _this79.results['numberPlate'];
+            _this79.vehicleModel.rent = _this79.results['rentPerDay'];
+            _this79.rentperkm = _this79.results['rentPerKM'];
+            _this79.rentPerHour = _this79.results['rentPerHour'];
+            _this79.vehicleModel.locality = _this79.results['locality'];
+            _this79.vehicleModel.vehicleYear = _this79.results['year'];
 
-            if (_this75.results['driverId'] != null) {
-              _this75.vehicleModel.driver = _this75.results['driverId'];
+            if (_this79.results['driverId'] != null) {
+              _this79.vehicleModel.driver = _this79.results['driverId'];
             } else {
-              _this75.vehicleModel.driver = '';
+              _this79.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getlicencefrnt",
         value: function getlicencefrnt() {
-          var _this76 = this;
+          var _this80 = this;
 
           this.adminService.getlicencefrnt(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this76.liscence1 = _this76.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this80.liscence1 = _this80.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getlicscenceback",
         value: function getlicscenceback() {
-          var _this77 = this;
+          var _this81 = this;
 
           this.adminService.getlicscenceback(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this77.liscence2 = _this77.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this81.liscence2 = _this81.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getrc",
         value: function getrc() {
-          var _this78 = this;
+          var _this82 = this;
 
           this.adminService.getrc(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this78.rc = _this78.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this82.rc = _this82.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsById",
         value: function getvehicleDetailsById() {
-          var _this79 = this;
+          var _this83 = this;
 
           this.adminService.getVehicleDetailsbyId(this.vId).subscribe(function (data) {
-            _this79.DriverDetailsofCar = data['driver'];
-            console.log(_this79.DriverDetailsofCar);
-            _this79.vehicleModel.dname = _this79.DriverDetailsofCar['name'];
-            _this79.vehicleModel.dnumber = _this79.DriverDetailsofCar['number'];
-            _this79.vehicleModel.daddreess = _this79.DriverDetailsofCar['addresss'];
-            _this79.id = _this79.DriverDetailsofCar['id'];
+            _this83.DriverDetailsofCar = data['driver'];
+            console.log(_this83.DriverDetailsofCar);
+            _this83.vehicleModel.dname = _this83.DriverDetailsofCar['name'];
+            _this83.vehicleModel.dnumber = _this83.DriverDetailsofCar['number'];
+            _this83.vehicleModel.daddreess = _this83.DriverDetailsofCar['addresss'];
+            _this83.id = _this83.DriverDetailsofCar['id'];
           }, function (error) {});
         }
       }]);
@@ -13087,7 +13469,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".row{\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n.single-popular-car h3 span.price {\r\n    color: #0e0e0e;\r\n    float: right;\r\n    font-size: 14px;\r\n    font-weight: 700;\r\n}\r\n.vehImg{\r\n    /* width: 78%;\r\n    margin: 0 auto;\r\n    height: 200px;\r\n    display: block; */\r\n    display: block;\r\n    /* height: 134px; */\r\n    margin-bottom: 10px;\r\n    margin-left: auto;\r\n    width: 221px !important;\r\n    margin-right: auto;\r\n    height: 183px !important;\r\n}\r\n/* img{\r\n        max-width: -webkit-fill-available;\r\n    } */\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvdmVoaWNsZXMvdmVoaWNsZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7QUFDQTtJQUNJLGNBQWM7SUFDZCxZQUFZO0lBQ1osZUFBZTtJQUNmLGdCQUFnQjtBQUNwQjtBQUNBO0lBQ0k7OztxQkFHaUI7SUFDakIsY0FBYztJQUNkLG1CQUFtQjtJQUNuQixtQkFBbUI7SUFDbkIsaUJBQWlCO0lBQ2pCLHVCQUF1QjtJQUN2QixrQkFBa0I7SUFDbEIsd0JBQXdCO0FBQzVCO0FBQ0k7O09BRUciLCJmaWxlIjoic3JjL2FwcC9vd25lcnBhbm5lbC92ZWhpY2xlcy92ZWhpY2xlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvd3tcclxuICAgIG1hcmdpbi1sZWZ0OiAwcHg7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDBweDtcclxufVxyXG4uc2luZ2xlLXBvcHVsYXItY2FyIGgzIHNwYW4ucHJpY2Uge1xyXG4gICAgY29sb3I6ICMwZTBlMGU7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICBmb250LXdlaWdodDogNzAwO1xyXG59XHJcbi52ZWhJbWd7XHJcbiAgICAvKiB3aWR0aDogNzglO1xyXG4gICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgICBoZWlnaHQ6IDIwMHB4O1xyXG4gICAgZGlzcGxheTogYmxvY2s7ICovXHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIC8qIGhlaWdodDogMTM0cHg7ICovXHJcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgICB3aWR0aDogMjIxcHggIWltcG9ydGFudDtcclxuICAgIG1hcmdpbi1yaWdodDogYXV0bztcclxuICAgIGhlaWdodDogMTgzcHggIWltcG9ydGFudDtcclxufVxyXG4gICAgLyogaW1ne1xyXG4gICAgICAgIG1heC13aWR0aDogLXdlYmtpdC1maWxsLWF2YWlsYWJsZTtcclxuICAgIH0gKi8iXX0= */";
+    __webpack_exports__["default"] = ".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n.single-popular-car h3 span.price {\r\n    color: #0e0e0e;\r\n    float: right;\r\n    font-size: 14px;\r\n    font-weight: 700;\r\n}\r\n\r\n.vehImg {\r\n    /* width: 78%;\r\n    margin: 0 auto;\r\n    height: 200px;\r\n    display: block; */\r\n    display: block;\r\n    /* height: 134px; */\r\n    margin-bottom: 10px;\r\n    margin-left: auto;\r\n    width: 221px !important;\r\n    margin-right: auto;\r\n    height: 183px !important;\r\n}\r\n\r\n/* img{\r\n        max-width: -webkit-fill-available;\r\n    } */\r\n\r\n@media only screen and (max-width: 991px) {\r\n    .container-fluid {\r\n        margin-left: 93px !important;\r\n        margin-top: 99px !important;\r\n        padding-right: 9px !important;\r\n    }\r\n    #wrapper #content-wrapper {\r\n        background-color: #f8f9fc;\r\n        overflow-x: unset;\r\n    }\r\n    .d-block {\r\n        border-radius: 19px;\r\n        width: 102%;\r\n        height: 161px;\r\n    }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvdmVoaWNsZXMvdmVoaWNsZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsWUFBWTtJQUNaLGVBQWU7SUFDZixnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSTs7O3FCQUdpQjtJQUNqQixjQUFjO0lBQ2QsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQixpQkFBaUI7SUFDakIsdUJBQXVCO0lBQ3ZCLGtCQUFrQjtJQUNsQix3QkFBd0I7QUFDNUI7O0FBR0E7O09BRU87O0FBRVA7SUFDSTtRQUNJLDRCQUE0QjtRQUM1QiwyQkFBMkI7UUFDM0IsNkJBQTZCO0lBQ2pDO0lBQ0E7UUFDSSx5QkFBeUI7UUFDekIsaUJBQWlCO0lBQ3JCO0lBQ0E7UUFDSSxtQkFBbUI7UUFDbkIsV0FBVztRQUNYLGFBQWE7SUFDakI7QUFDSiIsImZpbGUiOiJzcmMvYXBwL293bmVycGFubmVsL3ZlaGljbGVzL3ZlaGljbGVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm93IHtcclxuICAgIG1hcmdpbi1sZWZ0OiAwcHg7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDBweDtcclxufVxyXG5cclxuLnNpbmdsZS1wb3B1bGFyLWNhciBoMyBzcGFuLnByaWNlIHtcclxuICAgIGNvbG9yOiAjMGUwZTBlO1xyXG4gICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcclxufVxyXG5cclxuLnZlaEltZyB7XHJcbiAgICAvKiB3aWR0aDogNzglO1xyXG4gICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgICBoZWlnaHQ6IDIwMHB4O1xyXG4gICAgZGlzcGxheTogYmxvY2s7ICovXHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIC8qIGhlaWdodDogMTM0cHg7ICovXHJcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgICB3aWR0aDogMjIxcHggIWltcG9ydGFudDtcclxuICAgIG1hcmdpbi1yaWdodDogYXV0bztcclxuICAgIGhlaWdodDogMTgzcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuXHJcbi8qIGltZ3tcclxuICAgICAgICBtYXgtd2lkdGg6IC13ZWJraXQtZmlsbC1hdmFpbGFibGU7XHJcbiAgICB9ICovXHJcblxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDk5MXB4KSB7XHJcbiAgICAuY29udGFpbmVyLWZsdWlkIHtcclxuICAgICAgICBtYXJnaW4tbGVmdDogOTNweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIG1hcmdpbi10b3A6IDk5cHggIWltcG9ydGFudDtcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiA5cHggIWltcG9ydGFudDtcclxuICAgIH1cclxuICAgICN3cmFwcGVyICNjb250ZW50LXdyYXBwZXIge1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmOGY5ZmM7XHJcbiAgICAgICAgb3ZlcmZsb3cteDogdW5zZXQ7XHJcbiAgICB9XHJcbiAgICAuZC1ibG9jayB7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTlweDtcclxuICAgICAgICB3aWR0aDogMTAyJTtcclxuICAgICAgICBoZWlnaHQ6IDE2MXB4O1xyXG4gICAgfVxyXG59Il19 */";
     /***/
   },
 
@@ -13169,17 +13551,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallcarsbyowers",
         value: function getallcarsbyowers() {
-          var _this80 = this;
+          var _this84 = this;
 
           this.ownerserivice.getallcars(this.userId).subscribe(function (data) {
-            _this80.carList = data;
-            _this80.errormessage = "data found";
+            _this84.carList = data;
+            _this84.errormessage = "data found";
 
-            if (_this80.carList.length == 0) {
-              _this80.errormessage = "No data found";
+            if (_this84.carList.length == 0) {
+              _this84.errormessage = "No data found";
             }
           }, function (error) {
-            _this80.errormessage = "No data found";
+            _this84.errormessage = "No data found";
           });
         }
       }, {
@@ -13201,19 +13583,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "changeFilter",
         value: function changeFilter(s) {
-          var _this81 = this;
+          var _this85 = this;
 
           console.log(s);
           this.ownerserivice.getFilterOptionsVehicles(s, this.userId).subscribe(function (data) {
-            _this81.carList = data;
-            _this81.errormessage = "data found";
+            _this85.carList = data;
+            _this85.errormessage = "data found";
 
-            if (_this81.carList.length == 0) {
-              _this81.errormessage = "No data found";
+            if (_this85.carList.length == 0) {
+              _this85.errormessage = "No data found";
             }
           }, function (error) {
-            _this81.carList = [];
-            _this81.errormessage = "No data found";
+            _this85.carList = [];
+            _this85.errormessage = "No data found";
           });
         }
       }]);
@@ -13259,7 +13641,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n\r\n/* .table-responsive{\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n} */\r\n\r\n\r\n.page-wrapper>.content {\r\n    padding: 59px;\r\n}\r\n\r\n\r\n.form-control {\r\n    border-radius: 0;\r\n    box-shadow: none;\r\n    padding: 0.469rem 0.75rem;\r\n    border-color: #eaeaea;\r\n    font-size: 14px;\r\n    border-radius: 14px !important;\r\n    min-height: 40px;\r\n}\r\n\r\n\r\n.form-control:focus {\r\n    border-color: #009efb;\r\n    box-shadow: none;\r\n    outline: 0 none;\r\n}\r\n\r\n\r\na {\r\n    color: #009ce7;\r\n}\r\n\r\n\r\ninput,\r\nbutton,\r\na {\r\n    transition: all 0.4s ease;\r\n    -moz-transition: all 0.4s ease;\r\n    -o-transition: all 0.4s ease;\r\n    -ms-transition: all 0.4s ease;\r\n    -webkit-transition: all 0.4s ease;\r\n}\r\n\r\n\r\ninput,\r\nbutton {\r\n    outline: none;\r\n}\r\n\r\n\r\ninput[type=\"file\"] {\r\n    height: auto;\r\n    padding: 6px 0.75rem;\r\n}\r\n\r\n\r\ninput[type=text],\r\ninput[type=password] {\r\n    -webkit-appearance: none;\r\n    -moz-appearance: none;\r\n    appearance: none;\r\n}\r\n\r\n\r\ntextarea.form-control {\r\n    resize: vertical;\r\n}\r\n\r\n\r\n.navbar-nav>li {\r\n    float: left;\r\n}\r\n\r\n\r\n.form-group {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.display-block {\r\n    display: block;\r\n}\r\n\r\n\r\n.btn.rounded {\r\n    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n\r\n.btn.focus,\r\n.btn:focus {\r\n    box-shadow: inherit !important;\r\n}\r\n\r\n\r\n.list-group-item {\r\n    border: 1px solid #eaeaea;\r\n}\r\n\r\n\r\n.table {\r\n    color: #000;\r\n    border: 1px solid #f0f0f0;\r\n}\r\n\r\n\r\n.table.table-white {\r\n    background-color: #fff;\r\n}\r\n\r\n\r\n.table>tbody>tr>td {\r\n    font-weight: 300;\r\n}\r\n\r\n\r\n.table-striped>tbody>tr:nth-of-type(2n + 1) {\r\n    background-color: #f6f6f6;\r\n}\r\n\r\n\r\ntable.table td .avatar {\r\n    margin: 0 5px 0 0;\r\n}\r\n\r\n\r\ntable.table td h2 {\r\n    display: inline-block;\r\n    font-size: inherit;\r\n    font-weight: 400;\r\n    margin: 0;\r\n    padding: 0;\r\n    vertical-align: middle;\r\n}\r\n\r\n\r\ntable.table td h2 a {\r\n    color: #757575;\r\n}\r\n\r\n\r\ntable.table td h2 a:hover {\r\n    color: #009efb;\r\n}\r\n\r\n\r\ntable.table td h2 span {\r\n    color: #9e9e9e;\r\n    display: block;\r\n    font-size: 12px;\r\n    margin-top: 3px;\r\n}\r\n\r\n\r\n/*-----------------\r\n\t3. Helper Class\r\n-----------------------*/\r\n\r\n\r\n.m-r-5 {\r\n    margin-right: 5px !important;\r\n}\r\n\r\n\r\n.m-r-10 {\r\n    margin-right: 10px !important;\r\n}\r\n\r\n\r\n.m-l-5 {\r\n    margin-left: 5px !important;\r\n}\r\n\r\n\r\n.m-t-0 {\r\n    margin-top: 0 !important;\r\n}\r\n\r\n\r\n.m-t-10 {\r\n    margin-top: 10px !important;\r\n}\r\n\r\n\r\n.m-t-20 {\r\n    margin-top: 20px !important;\r\n}\r\n\r\n\r\n.m-t-30 {\r\n    margin-top: 30px !important;\r\n}\r\n\r\n\r\n.m-t-50 {\r\n    margin-top: 50px !important;\r\n}\r\n\r\n\r\n.m-b-10 {\r\n    margin-bottom: 10px !important;\r\n}\r\n\r\n\r\n.m-b-20 {\r\n    margin-bottom: 20px !important;\r\n}\r\n\r\n\r\n.m-b-30 {\r\n    margin-bottom: 30px !important;\r\n}\r\n\r\n\r\n.w-40 {\r\n    width: 40px;\r\n}\r\n\r\n\r\n.block {\r\n    display: block !important;\r\n}\r\n\r\n\r\n.text-ellipsis {\r\n    display: block;\r\n    max-width: 100%;\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n}\r\n\r\n\r\n.text-muted-light {\r\n    color: #aaa;\r\n}\r\n\r\n\r\n.card-box {\r\n    background-color: #fff;\r\n    border-radius: 4px;\r\n    margin-bottom: 30px;\r\n    padding: 20px;\r\n    position: relative;\r\n    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n\r\n.card-title {\r\n    color: #333;\r\n    font-size: 16px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.page-title {\r\n    color: #565656;\r\n    font-size: 21px;\r\n    font-weight: normal;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.page-sub-title {\r\n    color: #565656;\r\n    font-size: 18px;\r\n    font-weight: normal;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.badge-success-border {\r\n    border: 1px solid #55ce63;\r\n    color: #55ce63;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n\r\n.badge-danger-border {\r\n    border: 1px solid #f62d51;\r\n    color: #f62d51;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n\r\n.badge-warning-border {\r\n    border: 1px solid #ffbc34;\r\n    color: #ffbc34;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n\r\n.badge-info-border {\r\n    border: 1px solid #009efb;\r\n    color: #009efb;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n\r\n.modal-footer.text-left {\r\n    text-align: left;\r\n}\r\n\r\n\r\n.modal-footer.text-center {\r\n    text-align: center;\r\n}\r\n\r\n\r\n.font-18 {\r\n    font-size: 18px;\r\n}\r\n\r\n\r\n.border-right {\r\n    border-right: 1px solid #e7e7e7;\r\n}\r\n\r\n\r\n.blur {\r\n    -webkit-filter: blur(3px);\r\n    -moz-filter: blur(3px);\r\n    -o-filter: blur(3px);\r\n    -ms-filter: blur(3px);\r\n    filter: blur(3px);\r\n}\r\n\r\n\r\n.btn {\r\n    font-size: 0.875rem;\r\n}\r\n\r\n\r\n.pagination>.active>a,\r\n.pagination>.active>a:focus,\r\n.pagination>.active>a:hover,\r\n.pagination>.active>span,\r\n.pagination>.active>span:focus,\r\n.pagination>.active>span:hover {\r\n    background-color: #009efb;\r\n    border-color: #009efb;\r\n}\r\n\r\n\r\n.pagination>li>a,\r\n.pagination>li>span {\r\n    color: #009efb;\r\n    padding: .5rem .75rem !important;\r\n}\r\n\r\n\r\n.page-item.active .page-link {\r\n    background-color: #009efb;\r\n    border-color: #009efb;\r\n}\r\n\r\n\r\n.card .card-header .card-title {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n    line-height: 20px;\r\n    margin: 0;\r\n    padding: 5px 0;\r\n}\r\n\r\n\r\n.table h5 {\r\n    font-size: 14px;\r\n    font-weight: 400;\r\n    line-height: 18px;\r\n    margin-bottom: 0;\r\n    vertical-align: middle;\r\n}\r\n\r\n\r\n.table h5+p {\r\n    color: #9e9e9e;\r\n    font-size: 14px;\r\n    line-height: 18px;\r\n    margin-bottom: 0;\r\n}\r\n\r\n\r\n.page-link:focus {\r\n    box-shadow: unset;\r\n}\r\n\r\n\r\n.page-wrapper {\r\n    left: 0;\r\n    margin-left: 230px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n\r\n.page-wrapper>.content {\r\n    padding: 30px;\r\n}\r\n\r\n\r\n.custom-table tr {\r\n    background-color: #fff;\r\n    box-shadow: 0 0 3px #e5e5e5;\r\n}\r\n\r\n\r\n.table.custom-table>tbody>tr>td,\r\n.table.custom-table>tbody>tr>th,\r\n.table.custom-table>tfoot>tr>td,\r\n.table.custom-table>tfoot>tr>th,\r\n.table.custom-table>thead>tr>td,\r\n.table.custom-table>thead>tr>th {\r\n    padding: 10px 8px;\r\n    vertical-align: middle;\r\n}\r\n\r\n\r\n/*-----------------\r\n\t35. Lock Screen\r\n-----------------------*/\r\n\r\n\r\n.lock-user {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.lock-user img {\r\n    margin-bottom: 15px;\r\n    width: 100px;\r\n}\r\n\r\n\r\n.table.custom-table>tbody>tr>td {\r\n    padding: 10px 71px;\r\n    vertical-align: middle;\r\n}\r\n\r\n\r\n.table.custom-table>thead>tr>th {\r\n    padding: 10px 71px;\r\n    vertical-align: middle;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvdmVoaWNsZXRyYWNraW5nL3ZlaGljbGV0cmFja2luZy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGlCQUFpQjtBQUNyQjs7O0FBR0E7OztHQUdHOzs7QUFFSDtJQUNJLGFBQWE7QUFDakI7OztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZiw4QkFBOEI7SUFDOUIsZ0JBQWdCO0FBQ3BCOzs7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQixnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOzs7QUFFQTs7O0lBR0kseUJBQXlCO0lBQ3pCLDhCQUE4QjtJQUM5Qiw0QkFBNEI7SUFDNUIsNkJBQTZCO0lBQzdCLGlDQUFpQztBQUNyQzs7O0FBRUE7O0lBRUksYUFBYTtBQUNqQjs7O0FBRUE7SUFDSSxZQUFZO0lBQ1osb0JBQW9CO0FBQ3hCOzs7QUFFQTs7SUFFSSx3QkFBd0I7SUFDeEIscUJBQXFCO0lBQ3JCLGdCQUFnQjtBQUNwQjs7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEI7OztBQUVBO0lBQ0ksV0FBVztBQUNmOzs7QUFFQTtJQUNJLG1CQUFtQjtBQUN2Qjs7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOzs7QUFFQTtJQUNJLDBDQUEwQztBQUM5Qzs7O0FBRUE7O0lBRUksOEJBQThCO0FBQ2xDOzs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7O0FBRUE7SUFDSSxXQUFXO0lBQ1gseUJBQXlCO0FBQzdCOzs7QUFFQTtJQUNJLHNCQUFzQjtBQUMxQjs7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEI7OztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOzs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7O0FBRUE7SUFDSSxxQkFBcUI7SUFDckIsa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixTQUFTO0lBQ1QsVUFBVTtJQUNWLHNCQUFzQjtBQUMxQjs7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOzs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7OztBQUVBO0lBQ0ksY0FBYztJQUNkLGNBQWM7SUFDZCxlQUFlO0lBQ2YsZUFBZTtBQUNuQjs7O0FBR0E7O3dCQUV3Qjs7O0FBRXhCO0lBQ0ksNEJBQTRCO0FBQ2hDOzs7QUFFQTtJQUNJLDZCQUE2QjtBQUNqQzs7O0FBRUE7SUFDSSwyQkFBMkI7QUFDL0I7OztBQUVBO0lBQ0ksd0JBQXdCO0FBQzVCOzs7QUFFQTtJQUNJLDJCQUEyQjtBQUMvQjs7O0FBRUE7SUFDSSwyQkFBMkI7QUFDL0I7OztBQUVBO0lBQ0ksMkJBQTJCO0FBQy9COzs7QUFFQTtJQUNJLDJCQUEyQjtBQUMvQjs7O0FBRUE7SUFDSSw4QkFBOEI7QUFDbEM7OztBQUVBO0lBQ0ksOEJBQThCO0FBQ2xDOzs7QUFFQTtJQUNJLDhCQUE4QjtBQUNsQzs7O0FBRUE7SUFDSSxXQUFXO0FBQ2Y7OztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOzs7QUFFQTtJQUNJLGNBQWM7SUFDZCxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLHVCQUF1QjtJQUN2QixtQkFBbUI7QUFDdkI7OztBQUVBO0lBQ0ksV0FBVztBQUNmOzs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QixrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsMENBQTBDO0FBQzlDOzs7QUFFQTtJQUNJLFdBQVc7SUFDWCxlQUFlO0lBQ2YsbUJBQW1CO0FBQ3ZCOzs7QUFFQTtJQUNJLGNBQWM7SUFDZCxlQUFlO0lBQ2YsbUJBQW1CO0lBQ25CLG1CQUFtQjtBQUN2Qjs7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsZUFBZTtJQUNmLG1CQUFtQjtJQUNuQixtQkFBbUI7QUFDdkI7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCOzs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7O0FBRUE7SUFDSSxlQUFlO0FBQ25COzs7QUFFQTtJQUNJLCtCQUErQjtBQUNuQzs7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsc0JBQXNCO0lBQ3RCLG9CQUFvQjtJQUNwQixxQkFBcUI7SUFDckIsaUJBQWlCO0FBQ3JCOzs7QUFFQTtJQUNJLG1CQUFtQjtBQUN2Qjs7O0FBRUE7Ozs7OztJQU1JLHlCQUF5QjtJQUN6QixxQkFBcUI7QUFDekI7OztBQUVBOztJQUVJLGNBQWM7SUFDZCxnQ0FBZ0M7QUFDcEM7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLHFCQUFxQjtBQUN6Qjs7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixTQUFTO0lBQ1QsY0FBYztBQUNsQjs7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixnQkFBZ0I7SUFDaEIsc0JBQXNCO0FBQzFCOzs7QUFFQTtJQUNJLGNBQWM7SUFDZCxlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGdCQUFnQjtBQUNwQjs7O0FBRUE7SUFDSSxpQkFBaUI7QUFDckI7OztBQUVBO0lBQ0ksT0FBTztJQUNQLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBR2xCLHlCQUF5QjtBQUM3Qjs7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOzs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QiwyQkFBMkI7QUFDL0I7OztBQUVBOzs7Ozs7SUFNSSxpQkFBaUI7SUFDakIsc0JBQXNCO0FBQzFCOzs7QUFHQTs7d0JBRXdCOzs7QUFFeEI7SUFDSSxtQkFBbUI7QUFDdkI7OztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLFlBQVk7QUFDaEI7OztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLHNCQUFzQjtBQUMxQjs7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsc0JBQXNCO0FBQzFCIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvdmVoaWNsZXRyYWNraW5nL3ZlaGljbGV0cmFja2luZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvdyB7XHJcbiAgICBtYXJnaW4tbGVmdDogMHB4O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAwcHg7XHJcbn1cclxuXHJcblxyXG4vKiAudGFibGUtcmVzcG9uc2l2ZXtcclxuICAgIG1hcmdpbi1sZWZ0OiAxOTVweDtcclxuICAgIG1hcmdpbi10b3A6IDE2cHg7XHJcbn0gKi9cclxuXHJcbi5wYWdlLXdyYXBwZXI+LmNvbnRlbnQge1xyXG4gICAgcGFkZGluZzogNTlweDtcclxufVxyXG5cclxuLmZvcm0tY29udHJvbCB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwO1xyXG4gICAgYm94LXNoYWRvdzogbm9uZTtcclxuICAgIHBhZGRpbmc6IDAuNDY5cmVtIDAuNzVyZW07XHJcbiAgICBib3JkZXItY29sb3I6ICNlYWVhZWE7XHJcbiAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICBtaW4taGVpZ2h0OiA0MHB4O1xyXG59XHJcblxyXG4uZm9ybS1jb250cm9sOmZvY3VzIHtcclxuICAgIGJvcmRlci1jb2xvcjogIzAwOWVmYjtcclxuICAgIGJveC1zaGFkb3c6IG5vbmU7XHJcbiAgICBvdXRsaW5lOiAwIG5vbmU7XHJcbn1cclxuXHJcbmEge1xyXG4gICAgY29sb3I6ICMwMDljZTc7XHJcbn1cclxuXHJcbmlucHV0LFxyXG5idXR0b24sXHJcbmEge1xyXG4gICAgdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1vLXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtbXMtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxufVxyXG5cclxuaW5wdXQsXHJcbmJ1dHRvbiB7XHJcbiAgICBvdXRsaW5lOiBub25lO1xyXG59XHJcblxyXG5pbnB1dFt0eXBlPVwiZmlsZVwiXSB7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICBwYWRkaW5nOiA2cHggMC43NXJlbTtcclxufVxyXG5cclxuaW5wdXRbdHlwZT10ZXh0XSxcclxuaW5wdXRbdHlwZT1wYXNzd29yZF0ge1xyXG4gICAgLXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xyXG4gICAgLW1vei1hcHBlYXJhbmNlOiBub25lO1xyXG4gICAgYXBwZWFyYW5jZTogbm9uZTtcclxufVxyXG5cclxudGV4dGFyZWEuZm9ybS1jb250cm9sIHtcclxuICAgIHJlc2l6ZTogdmVydGljYWw7XHJcbn1cclxuXHJcbi5uYXZiYXItbmF2PmxpIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG59XHJcblxyXG4uZm9ybS1ncm91cCB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4uZGlzcGxheS1ibG9jayB7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxufVxyXG5cclxuLmJ0bi5yb3VuZGVkIHtcclxuICAgIGJveC1zaGFkb3c6IDAgMXB4IDJweCAwIHJnYmEoMCwgMCwgMCwgMC4xKTtcclxufVxyXG5cclxuLmJ0bi5mb2N1cyxcclxuLmJ0bjpmb2N1cyB7XHJcbiAgICBib3gtc2hhZG93OiBpbmhlcml0ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5saXN0LWdyb3VwLWl0ZW0ge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2VhZWFlYTtcclxufVxyXG5cclxuLnRhYmxlIHtcclxuICAgIGNvbG9yOiAjMDAwO1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2YwZjBmMDtcclxufVxyXG5cclxuLnRhYmxlLnRhYmxlLXdoaXRlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbn1cclxuXHJcbi50YWJsZT50Ym9keT50cj50ZCB7XHJcbiAgICBmb250LXdlaWdodDogMzAwO1xyXG59XHJcblxyXG4udGFibGUtc3RyaXBlZD50Ym9keT50cjpudGgtb2YtdHlwZSgybiArIDEpIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmNmY2ZjY7XHJcbn1cclxuXHJcbnRhYmxlLnRhYmxlIHRkIC5hdmF0YXIge1xyXG4gICAgbWFyZ2luOiAwIDVweCAwIDA7XHJcbn1cclxuXHJcbnRhYmxlLnRhYmxlIHRkIGgyIHtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIGZvbnQtc2l6ZTogaW5oZXJpdDtcclxuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufVxyXG5cclxudGFibGUudGFibGUgdGQgaDIgYSB7XHJcbiAgICBjb2xvcjogIzc1NzU3NTtcclxufVxyXG5cclxudGFibGUudGFibGUgdGQgaDIgYTpob3ZlciB7XHJcbiAgICBjb2xvcjogIzAwOWVmYjtcclxufVxyXG5cclxudGFibGUudGFibGUgdGQgaDIgc3BhbiB7XHJcbiAgICBjb2xvcjogIzllOWU5ZTtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgbWFyZ2luLXRvcDogM3B4O1xyXG59XHJcblxyXG5cclxuLyotLS0tLS0tLS0tLS0tLS0tLVxyXG5cdDMuIEhlbHBlciBDbGFzc1xyXG4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSovXHJcblxyXG4ubS1yLTUge1xyXG4gICAgbWFyZ2luLXJpZ2h0OiA1cHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tci0xMCB7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDEwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tbC01IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA1cHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tdC0wIHtcclxuICAgIG1hcmdpbi10b3A6IDAgIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tdC0xMCB7XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLXQtMjAge1xyXG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubS10LTMwIHtcclxuICAgIG1hcmdpbi10b3A6IDMwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tdC01MCB7XHJcbiAgICBtYXJnaW4tdG9wOiA1MHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLWItMTAge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMTBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubS1iLTIwIHtcclxuICAgIG1hcmdpbi1ib3R0b206IDIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tYi0zMCB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAzMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi53LTQwIHtcclxuICAgIHdpZHRoOiA0MHB4O1xyXG59XHJcblxyXG4uYmxvY2sge1xyXG4gICAgZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDtcclxufVxyXG5cclxuLnRleHQtZWxsaXBzaXMge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBtYXgtd2lkdGg6IDEwMCU7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XHJcbiAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG59XHJcblxyXG4udGV4dC1tdXRlZC1saWdodCB7XHJcbiAgICBjb2xvcjogI2FhYTtcclxufVxyXG5cclxuLmNhcmQtYm94IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAzMHB4O1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJveC1zaGFkb3c6IDAgMXB4IDJweCAwIHJnYmEoMCwgMCwgMCwgMC4xKTtcclxufVxyXG5cclxuLmNhcmQtdGl0bGUge1xyXG4gICAgY29sb3I6ICMzMzM7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4ucGFnZS10aXRsZSB7XHJcbiAgICBjb2xvcjogIzU2NTY1NjtcclxuICAgIGZvbnQtc2l6ZTogMjFweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4ucGFnZS1zdWItdGl0bGUge1xyXG4gICAgY29sb3I6ICM1NjU2NTY7XHJcbiAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLmJhZGdlLXN1Y2Nlc3MtYm9yZGVyIHtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICM1NWNlNjM7XHJcbiAgICBjb2xvcjogIzU1Y2U2MztcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBtaW4td2lkdGg6IDgwcHg7XHJcbn1cclxuXHJcbi5iYWRnZS1kYW5nZXItYm9yZGVyIHtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICNmNjJkNTE7XHJcbiAgICBjb2xvcjogI2Y2MmQ1MTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBtaW4td2lkdGg6IDgwcHg7XHJcbn1cclxuXHJcbi5iYWRnZS13YXJuaW5nLWJvcmRlciB7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZmZiYzM0O1xyXG4gICAgY29sb3I6ICNmZmJjMzQ7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgbWluLXdpZHRoOiA4MHB4O1xyXG59XHJcblxyXG4uYmFkZ2UtaW5mby1ib3JkZXIge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgIzAwOWVmYjtcclxuICAgIGNvbG9yOiAjMDA5ZWZiO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIG1pbi13aWR0aDogODBweDtcclxufVxyXG5cclxuLm1vZGFsLWZvb3Rlci50ZXh0LWxlZnQge1xyXG4gICAgdGV4dC1hbGlnbjogbGVmdDtcclxufVxyXG5cclxuLm1vZGFsLWZvb3Rlci50ZXh0LWNlbnRlciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5mb250LTE4IHtcclxuICAgIGZvbnQtc2l6ZTogMThweDtcclxufVxyXG5cclxuLmJvcmRlci1yaWdodCB7XHJcbiAgICBib3JkZXItcmlnaHQ6IDFweCBzb2xpZCAjZTdlN2U3O1xyXG59XHJcblxyXG4uYmx1ciB7XHJcbiAgICAtd2Via2l0LWZpbHRlcjogYmx1cigzcHgpO1xyXG4gICAgLW1vei1maWx0ZXI6IGJsdXIoM3B4KTtcclxuICAgIC1vLWZpbHRlcjogYmx1cigzcHgpO1xyXG4gICAgLW1zLWZpbHRlcjogYmx1cigzcHgpO1xyXG4gICAgZmlsdGVyOiBibHVyKDNweCk7XHJcbn1cclxuXHJcbi5idG4ge1xyXG4gICAgZm9udC1zaXplOiAwLjg3NXJlbTtcclxufVxyXG5cclxuLnBhZ2luYXRpb24+LmFjdGl2ZT5hLFxyXG4ucGFnaW5hdGlvbj4uYWN0aXZlPmE6Zm9jdXMsXHJcbi5wYWdpbmF0aW9uPi5hY3RpdmU+YTpob3ZlcixcclxuLnBhZ2luYXRpb24+LmFjdGl2ZT5zcGFuLFxyXG4ucGFnaW5hdGlvbj4uYWN0aXZlPnNwYW46Zm9jdXMsXHJcbi5wYWdpbmF0aW9uPi5hY3RpdmU+c3Bhbjpob3ZlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA5ZWZiO1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjMDA5ZWZiO1xyXG59XHJcblxyXG4ucGFnaW5hdGlvbj5saT5hLFxyXG4ucGFnaW5hdGlvbj5saT5zcGFuIHtcclxuICAgIGNvbG9yOiAjMDA5ZWZiO1xyXG4gICAgcGFkZGluZzogLjVyZW0gLjc1cmVtICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5wYWdlLWl0ZW0uYWN0aXZlIC5wYWdlLWxpbmsge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwOWVmYjtcclxuICAgIGJvcmRlci1jb2xvcjogIzAwOWVmYjtcclxufVxyXG5cclxuLmNhcmQgLmNhcmQtaGVhZGVyIC5jYXJkLXRpdGxlIHtcclxuICAgIGZvbnQtc2l6ZTogMThweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICBsaW5lLWhlaWdodDogMjBweDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDVweCAwO1xyXG59XHJcblxyXG4udGFibGUgaDUge1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgIGxpbmUtaGVpZ2h0OiAxOHB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxuXHJcbi50YWJsZSBoNStwIHtcclxuICAgIGNvbG9yOiAjOWU5ZTllO1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDE4cHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAwO1xyXG59XHJcblxyXG4ucGFnZS1saW5rOmZvY3VzIHtcclxuICAgIGJveC1zaGFkb3c6IHVuc2V0O1xyXG59XHJcblxyXG4ucGFnZS13cmFwcGVyIHtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBtYXJnaW4tbGVmdDogMjMwcHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNTBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuXHJcbi5wYWdlLXdyYXBwZXI+LmNvbnRlbnQge1xyXG4gICAgcGFkZGluZzogMzBweDtcclxufVxyXG5cclxuLmN1c3RvbS10YWJsZSB0ciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgYm94LXNoYWRvdzogMCAwIDNweCAjZTVlNWU1O1xyXG59XHJcblxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRib2R5PnRyPnRkLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRib2R5PnRyPnRoLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRmb290PnRyPnRkLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRmb290PnRyPnRoLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRoZWFkPnRyPnRkLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRoZWFkPnRyPnRoIHtcclxuICAgIHBhZGRpbmc6IDEwcHggOHB4O1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufVxyXG5cclxuXHJcbi8qLS0tLS0tLS0tLS0tLS0tLS1cclxuXHQzNS4gTG9jayBTY3JlZW5cclxuLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0qL1xyXG5cclxuLmxvY2stdXNlciB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4ubG9jay11c2VyIGltZyB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xyXG4gICAgd2lkdGg6IDEwMHB4O1xyXG59XHJcblxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRib2R5PnRyPnRkIHtcclxuICAgIHBhZGRpbmc6IDEwcHggNzFweDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxuXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGhlYWQ+dHI+dGgge1xyXG4gICAgcGFkZGluZzogMTBweCA3MXB4O1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufSJdfQ== */";
+    __webpack_exports__["default"] = ".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n\r\n/* .table-responsive{\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n} */\r\n\r\n\r\n.page-wrapper>.content {\r\n    padding: 59px;\r\n}\r\n\r\n\r\n.form-control {\r\n    border-radius: 0;\r\n    box-shadow: none;\r\n    padding: 0.469rem 0.75rem;\r\n    border-color: #eaeaea;\r\n    font-size: 14px;\r\n    border-radius: 14px !important;\r\n    min-height: 40px;\r\n}\r\n\r\n\r\n.form-control:focus {\r\n    border-color: #009efb;\r\n    box-shadow: none;\r\n    outline: 0 none;\r\n}\r\n\r\n\r\na {\r\n    color: #009ce7;\r\n}\r\n\r\n\r\n@media only screen and (max-width: 991px) {\r\n    .container-fluid {\r\n        margin-left: 93px !important;\r\n        margin-top: 99px !important;\r\n        padding-right: 9px !important;\r\n    }\r\n    #wrapper #content-wrapper {\r\n        background-color: #f8f9fc;\r\n        overflow-x: unset;\r\n    }\r\n    .d-block {\r\n        border-radius: 19px;\r\n        width: 102%;\r\n        height: 161px;\r\n    }\r\n}\r\n\r\n\r\ninput,\r\nbutton,\r\na {\r\n    transition: all 0.4s ease;\r\n    -moz-transition: all 0.4s ease;\r\n    -o-transition: all 0.4s ease;\r\n    -ms-transition: all 0.4s ease;\r\n    -webkit-transition: all 0.4s ease;\r\n}\r\n\r\n\r\ninput,\r\nbutton {\r\n    outline: none;\r\n}\r\n\r\n\r\ninput[type=\"file\"] {\r\n    height: auto;\r\n    padding: 6px 0.75rem;\r\n}\r\n\r\n\r\ninput[type=text],\r\ninput[type=password] {\r\n    -webkit-appearance: none;\r\n    -moz-appearance: none;\r\n    appearance: none;\r\n}\r\n\r\n\r\ntextarea.form-control {\r\n    resize: vertical;\r\n}\r\n\r\n\r\n.navbar-nav>li {\r\n    float: left;\r\n}\r\n\r\n\r\n.form-group {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.display-block {\r\n    display: block;\r\n}\r\n\r\n\r\n.btn.rounded {\r\n    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n\r\n.btn.focus,\r\n.btn:focus {\r\n    box-shadow: inherit !important;\r\n}\r\n\r\n\r\n.list-group-item {\r\n    border: 1px solid #eaeaea;\r\n}\r\n\r\n\r\n.table {\r\n    color: #000;\r\n    border: 1px solid #f0f0f0;\r\n}\r\n\r\n\r\n.table.table-white {\r\n    background-color: #fff;\r\n}\r\n\r\n\r\n.table>tbody>tr>td {\r\n    font-weight: 300;\r\n}\r\n\r\n\r\n.table-striped>tbody>tr:nth-of-type(2n + 1) {\r\n    background-color: #f6f6f6;\r\n}\r\n\r\n\r\ntable.table td .avatar {\r\n    margin: 0 5px 0 0;\r\n}\r\n\r\n\r\ntable.table td h2 {\r\n    display: inline-block;\r\n    font-size: inherit;\r\n    font-weight: 400;\r\n    margin: 0;\r\n    padding: 0;\r\n    vertical-align: middle;\r\n}\r\n\r\n\r\ntable.table td h2 a {\r\n    color: #757575;\r\n}\r\n\r\n\r\ntable.table td h2 a:hover {\r\n    color: #009efb;\r\n}\r\n\r\n\r\ntable.table td h2 span {\r\n    color: #9e9e9e;\r\n    display: block;\r\n    font-size: 12px;\r\n    margin-top: 3px;\r\n}\r\n\r\n\r\n/*-----------------\r\n\t3. Helper Class\r\n-----------------------*/\r\n\r\n\r\n.m-r-5 {\r\n    margin-right: 5px !important;\r\n}\r\n\r\n\r\n.m-r-10 {\r\n    margin-right: 10px !important;\r\n}\r\n\r\n\r\n.m-l-5 {\r\n    margin-left: 5px !important;\r\n}\r\n\r\n\r\n.m-t-0 {\r\n    margin-top: 0 !important;\r\n}\r\n\r\n\r\n.m-t-10 {\r\n    margin-top: 10px !important;\r\n}\r\n\r\n\r\n.m-t-20 {\r\n    margin-top: 20px !important;\r\n}\r\n\r\n\r\n.m-t-30 {\r\n    margin-top: 30px !important;\r\n}\r\n\r\n\r\n.m-t-50 {\r\n    margin-top: 50px !important;\r\n}\r\n\r\n\r\n.m-b-10 {\r\n    margin-bottom: 10px !important;\r\n}\r\n\r\n\r\n.m-b-20 {\r\n    margin-bottom: 20px !important;\r\n}\r\n\r\n\r\n.m-b-30 {\r\n    margin-bottom: 30px !important;\r\n}\r\n\r\n\r\n.w-40 {\r\n    width: 40px;\r\n}\r\n\r\n\r\n.block {\r\n    display: block !important;\r\n}\r\n\r\n\r\n.text-ellipsis {\r\n    display: block;\r\n    max-width: 100%;\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n}\r\n\r\n\r\n.text-muted-light {\r\n    color: #aaa;\r\n}\r\n\r\n\r\n.card-box {\r\n    background-color: #fff;\r\n    border-radius: 4px;\r\n    margin-bottom: 30px;\r\n    padding: 20px;\r\n    position: relative;\r\n    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n\r\n.card-title {\r\n    color: #333;\r\n    font-size: 16px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.page-title {\r\n    color: #565656;\r\n    font-size: 21px;\r\n    font-weight: normal;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.page-sub-title {\r\n    color: #565656;\r\n    font-size: 18px;\r\n    font-weight: normal;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.badge-success-border {\r\n    border: 1px solid #55ce63;\r\n    color: #55ce63;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n\r\n.badge-danger-border {\r\n    border: 1px solid #f62d51;\r\n    color: #f62d51;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n\r\n.badge-warning-border {\r\n    border: 1px solid #ffbc34;\r\n    color: #ffbc34;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n\r\n.badge-info-border {\r\n    border: 1px solid #009efb;\r\n    color: #009efb;\r\n    background-color: #fff;\r\n    display: inline-block;\r\n    min-width: 80px;\r\n}\r\n\r\n\r\n.modal-footer.text-left {\r\n    text-align: left;\r\n}\r\n\r\n\r\n.modal-footer.text-center {\r\n    text-align: center;\r\n}\r\n\r\n\r\n.font-18 {\r\n    font-size: 18px;\r\n}\r\n\r\n\r\n.border-right {\r\n    border-right: 1px solid #e7e7e7;\r\n}\r\n\r\n\r\n.blur {\r\n    -webkit-filter: blur(3px);\r\n    -moz-filter: blur(3px);\r\n    -o-filter: blur(3px);\r\n    -ms-filter: blur(3px);\r\n    filter: blur(3px);\r\n}\r\n\r\n\r\n.btn {\r\n    font-size: 0.875rem;\r\n}\r\n\r\n\r\n.pagination>.active>a,\r\n.pagination>.active>a:focus,\r\n.pagination>.active>a:hover,\r\n.pagination>.active>span,\r\n.pagination>.active>span:focus,\r\n.pagination>.active>span:hover {\r\n    background-color: #009efb;\r\n    border-color: #009efb;\r\n}\r\n\r\n\r\n.pagination>li>a,\r\n.pagination>li>span {\r\n    color: #009efb;\r\n    padding: .5rem .75rem !important;\r\n}\r\n\r\n\r\n.page-item.active .page-link {\r\n    background-color: #009efb;\r\n    border-color: #009efb;\r\n}\r\n\r\n\r\n.card .card-header .card-title {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n    line-height: 20px;\r\n    margin: 0;\r\n    padding: 5px 0;\r\n}\r\n\r\n\r\n.table h5 {\r\n    font-size: 14px;\r\n    font-weight: 400;\r\n    line-height: 18px;\r\n    margin-bottom: 0;\r\n    vertical-align: middle;\r\n}\r\n\r\n\r\n.table h5+p {\r\n    color: #9e9e9e;\r\n    font-size: 14px;\r\n    line-height: 18px;\r\n    margin-bottom: 0;\r\n}\r\n\r\n\r\n.page-link:focus {\r\n    box-shadow: unset;\r\n}\r\n\r\n\r\n.page-wrapper {\r\n    left: 0;\r\n    margin-left: 230px;\r\n    padding-top: 50px;\r\n    position: relative;\r\n    transition: all 0.4s ease;\r\n}\r\n\r\n\r\n.page-wrapper>.content {\r\n    padding: 30px;\r\n}\r\n\r\n\r\n.custom-table tr {\r\n    background-color: #fff;\r\n    box-shadow: 0 0 3px #e5e5e5;\r\n}\r\n\r\n\r\n.table.custom-table>tbody>tr>td,\r\n.table.custom-table>tbody>tr>th,\r\n.table.custom-table>tfoot>tr>td,\r\n.table.custom-table>tfoot>tr>th,\r\n.table.custom-table>thead>tr>td,\r\n.table.custom-table>thead>tr>th {\r\n    padding: 10px 8px;\r\n    vertical-align: middle;\r\n}\r\n\r\n\r\n/*-----------------\r\n\t35. Lock Screen\r\n-----------------------*/\r\n\r\n\r\n.lock-user {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.lock-user img {\r\n    margin-bottom: 15px;\r\n    width: 100px;\r\n}\r\n\r\n\r\n.table.custom-table>tbody>tr>td {\r\n    padding: 10px 71px;\r\n    vertical-align: middle;\r\n}\r\n\r\n\r\n.table.custom-table>thead>tr>th {\r\n    padding: 10px 71px;\r\n    vertical-align: middle;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvdmVoaWNsZXRyYWNraW5nL3ZlaGljbGV0cmFja2luZy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGlCQUFpQjtBQUNyQjs7O0FBR0E7OztHQUdHOzs7QUFFSDtJQUNJLGFBQWE7QUFDakI7OztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZiw4QkFBOEI7SUFDOUIsZ0JBQWdCO0FBQ3BCOzs7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQixnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOzs7QUFFQTtJQUNJO1FBQ0ksNEJBQTRCO1FBQzVCLDJCQUEyQjtRQUMzQiw2QkFBNkI7SUFDakM7SUFDQTtRQUNJLHlCQUF5QjtRQUN6QixpQkFBaUI7SUFDckI7SUFDQTtRQUNJLG1CQUFtQjtRQUNuQixXQUFXO1FBQ1gsYUFBYTtJQUNqQjtBQUNKOzs7QUFFQTs7O0lBR0kseUJBQXlCO0lBQ3pCLDhCQUE4QjtJQUM5Qiw0QkFBNEI7SUFDNUIsNkJBQTZCO0lBQzdCLGlDQUFpQztBQUNyQzs7O0FBRUE7O0lBRUksYUFBYTtBQUNqQjs7O0FBRUE7SUFDSSxZQUFZO0lBQ1osb0JBQW9CO0FBQ3hCOzs7QUFFQTs7SUFFSSx3QkFBd0I7SUFDeEIscUJBQXFCO0lBQ3JCLGdCQUFnQjtBQUNwQjs7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEI7OztBQUVBO0lBQ0ksV0FBVztBQUNmOzs7QUFFQTtJQUNJLG1CQUFtQjtBQUN2Qjs7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOzs7QUFFQTtJQUNJLDBDQUEwQztBQUM5Qzs7O0FBRUE7O0lBRUksOEJBQThCO0FBQ2xDOzs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7O0FBRUE7SUFDSSxXQUFXO0lBQ1gseUJBQXlCO0FBQzdCOzs7QUFFQTtJQUNJLHNCQUFzQjtBQUMxQjs7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEI7OztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOzs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7O0FBRUE7SUFDSSxxQkFBcUI7SUFDckIsa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixTQUFTO0lBQ1QsVUFBVTtJQUNWLHNCQUFzQjtBQUMxQjs7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOzs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7OztBQUVBO0lBQ0ksY0FBYztJQUNkLGNBQWM7SUFDZCxlQUFlO0lBQ2YsZUFBZTtBQUNuQjs7O0FBR0E7O3dCQUV3Qjs7O0FBRXhCO0lBQ0ksNEJBQTRCO0FBQ2hDOzs7QUFFQTtJQUNJLDZCQUE2QjtBQUNqQzs7O0FBRUE7SUFDSSwyQkFBMkI7QUFDL0I7OztBQUVBO0lBQ0ksd0JBQXdCO0FBQzVCOzs7QUFFQTtJQUNJLDJCQUEyQjtBQUMvQjs7O0FBRUE7SUFDSSwyQkFBMkI7QUFDL0I7OztBQUVBO0lBQ0ksMkJBQTJCO0FBQy9COzs7QUFFQTtJQUNJLDJCQUEyQjtBQUMvQjs7O0FBRUE7SUFDSSw4QkFBOEI7QUFDbEM7OztBQUVBO0lBQ0ksOEJBQThCO0FBQ2xDOzs7QUFFQTtJQUNJLDhCQUE4QjtBQUNsQzs7O0FBRUE7SUFDSSxXQUFXO0FBQ2Y7OztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOzs7QUFFQTtJQUNJLGNBQWM7SUFDZCxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLHVCQUF1QjtJQUN2QixtQkFBbUI7QUFDdkI7OztBQUVBO0lBQ0ksV0FBVztBQUNmOzs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QixrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsMENBQTBDO0FBQzlDOzs7QUFFQTtJQUNJLFdBQVc7SUFDWCxlQUFlO0lBQ2YsbUJBQW1CO0FBQ3ZCOzs7QUFFQTtJQUNJLGNBQWM7SUFDZCxlQUFlO0lBQ2YsbUJBQW1CO0lBQ25CLG1CQUFtQjtBQUN2Qjs7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsZUFBZTtJQUNmLG1CQUFtQjtJQUNuQixtQkFBbUI7QUFDdkI7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCOzs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7O0FBRUE7SUFDSSxlQUFlO0FBQ25COzs7QUFFQTtJQUNJLCtCQUErQjtBQUNuQzs7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsc0JBQXNCO0lBQ3RCLG9CQUFvQjtJQUNwQixxQkFBcUI7SUFDckIsaUJBQWlCO0FBQ3JCOzs7QUFFQTtJQUNJLG1CQUFtQjtBQUN2Qjs7O0FBRUE7Ozs7OztJQU1JLHlCQUF5QjtJQUN6QixxQkFBcUI7QUFDekI7OztBQUVBOztJQUVJLGNBQWM7SUFDZCxnQ0FBZ0M7QUFDcEM7OztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLHFCQUFxQjtBQUN6Qjs7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixTQUFTO0lBQ1QsY0FBYztBQUNsQjs7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixnQkFBZ0I7SUFDaEIsc0JBQXNCO0FBQzFCOzs7QUFFQTtJQUNJLGNBQWM7SUFDZCxlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGdCQUFnQjtBQUNwQjs7O0FBRUE7SUFDSSxpQkFBaUI7QUFDckI7OztBQUVBO0lBQ0ksT0FBTztJQUNQLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBR2xCLHlCQUF5QjtBQUM3Qjs7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOzs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QiwyQkFBMkI7QUFDL0I7OztBQUVBOzs7Ozs7SUFNSSxpQkFBaUI7SUFDakIsc0JBQXNCO0FBQzFCOzs7QUFHQTs7d0JBRXdCOzs7QUFFeEI7SUFDSSxtQkFBbUI7QUFDdkI7OztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLFlBQVk7QUFDaEI7OztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLHNCQUFzQjtBQUMxQjs7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsc0JBQXNCO0FBQzFCIiwiZmlsZSI6InNyYy9hcHAvb3duZXJwYW5uZWwvdmVoaWNsZXRyYWNraW5nL3ZlaGljbGV0cmFja2luZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvdyB7XHJcbiAgICBtYXJnaW4tbGVmdDogMHB4O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAwcHg7XHJcbn1cclxuXHJcblxyXG4vKiAudGFibGUtcmVzcG9uc2l2ZXtcclxuICAgIG1hcmdpbi1sZWZ0OiAxOTVweDtcclxuICAgIG1hcmdpbi10b3A6IDE2cHg7XHJcbn0gKi9cclxuXHJcbi5wYWdlLXdyYXBwZXI+LmNvbnRlbnQge1xyXG4gICAgcGFkZGluZzogNTlweDtcclxufVxyXG5cclxuLmZvcm0tY29udHJvbCB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwO1xyXG4gICAgYm94LXNoYWRvdzogbm9uZTtcclxuICAgIHBhZGRpbmc6IDAuNDY5cmVtIDAuNzVyZW07XHJcbiAgICBib3JkZXItY29sb3I6ICNlYWVhZWE7XHJcbiAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICBtaW4taGVpZ2h0OiA0MHB4O1xyXG59XHJcblxyXG4uZm9ybS1jb250cm9sOmZvY3VzIHtcclxuICAgIGJvcmRlci1jb2xvcjogIzAwOWVmYjtcclxuICAgIGJveC1zaGFkb3c6IG5vbmU7XHJcbiAgICBvdXRsaW5lOiAwIG5vbmU7XHJcbn1cclxuXHJcbmEge1xyXG4gICAgY29sb3I6ICMwMDljZTc7XHJcbn1cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogOTkxcHgpIHtcclxuICAgIC5jb250YWluZXItZmx1aWQge1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiA5M3B4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogOTlweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDlweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gICAgI3dyYXBwZXIgI2NvbnRlbnQtd3JhcHBlciB7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y4ZjlmYztcclxuICAgICAgICBvdmVyZmxvdy14OiB1bnNldDtcclxuICAgIH1cclxuICAgIC5kLWJsb2NrIHtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAxOXB4O1xyXG4gICAgICAgIHdpZHRoOiAxMDIlO1xyXG4gICAgICAgIGhlaWdodDogMTYxcHg7XHJcbiAgICB9XHJcbn1cclxuXHJcbmlucHV0LFxyXG5idXR0b24sXHJcbmEge1xyXG4gICAgdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1vLXRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbiAgICAtbXMtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxufVxyXG5cclxuaW5wdXQsXHJcbmJ1dHRvbiB7XHJcbiAgICBvdXRsaW5lOiBub25lO1xyXG59XHJcblxyXG5pbnB1dFt0eXBlPVwiZmlsZVwiXSB7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICBwYWRkaW5nOiA2cHggMC43NXJlbTtcclxufVxyXG5cclxuaW5wdXRbdHlwZT10ZXh0XSxcclxuaW5wdXRbdHlwZT1wYXNzd29yZF0ge1xyXG4gICAgLXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xyXG4gICAgLW1vei1hcHBlYXJhbmNlOiBub25lO1xyXG4gICAgYXBwZWFyYW5jZTogbm9uZTtcclxufVxyXG5cclxudGV4dGFyZWEuZm9ybS1jb250cm9sIHtcclxuICAgIHJlc2l6ZTogdmVydGljYWw7XHJcbn1cclxuXHJcbi5uYXZiYXItbmF2PmxpIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG59XHJcblxyXG4uZm9ybS1ncm91cCB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4uZGlzcGxheS1ibG9jayB7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxufVxyXG5cclxuLmJ0bi5yb3VuZGVkIHtcclxuICAgIGJveC1zaGFkb3c6IDAgMXB4IDJweCAwIHJnYmEoMCwgMCwgMCwgMC4xKTtcclxufVxyXG5cclxuLmJ0bi5mb2N1cyxcclxuLmJ0bjpmb2N1cyB7XHJcbiAgICBib3gtc2hhZG93OiBpbmhlcml0ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5saXN0LWdyb3VwLWl0ZW0ge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2VhZWFlYTtcclxufVxyXG5cclxuLnRhYmxlIHtcclxuICAgIGNvbG9yOiAjMDAwO1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2YwZjBmMDtcclxufVxyXG5cclxuLnRhYmxlLnRhYmxlLXdoaXRlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbn1cclxuXHJcbi50YWJsZT50Ym9keT50cj50ZCB7XHJcbiAgICBmb250LXdlaWdodDogMzAwO1xyXG59XHJcblxyXG4udGFibGUtc3RyaXBlZD50Ym9keT50cjpudGgtb2YtdHlwZSgybiArIDEpIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmNmY2ZjY7XHJcbn1cclxuXHJcbnRhYmxlLnRhYmxlIHRkIC5hdmF0YXIge1xyXG4gICAgbWFyZ2luOiAwIDVweCAwIDA7XHJcbn1cclxuXHJcbnRhYmxlLnRhYmxlIHRkIGgyIHtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIGZvbnQtc2l6ZTogaW5oZXJpdDtcclxuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufVxyXG5cclxudGFibGUudGFibGUgdGQgaDIgYSB7XHJcbiAgICBjb2xvcjogIzc1NzU3NTtcclxufVxyXG5cclxudGFibGUudGFibGUgdGQgaDIgYTpob3ZlciB7XHJcbiAgICBjb2xvcjogIzAwOWVmYjtcclxufVxyXG5cclxudGFibGUudGFibGUgdGQgaDIgc3BhbiB7XHJcbiAgICBjb2xvcjogIzllOWU5ZTtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgbWFyZ2luLXRvcDogM3B4O1xyXG59XHJcblxyXG5cclxuLyotLS0tLS0tLS0tLS0tLS0tLVxyXG5cdDMuIEhlbHBlciBDbGFzc1xyXG4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSovXHJcblxyXG4ubS1yLTUge1xyXG4gICAgbWFyZ2luLXJpZ2h0OiA1cHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tci0xMCB7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDEwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tbC01IHtcclxuICAgIG1hcmdpbi1sZWZ0OiA1cHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tdC0wIHtcclxuICAgIG1hcmdpbi10b3A6IDAgIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tdC0xMCB7XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLXQtMjAge1xyXG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubS10LTMwIHtcclxuICAgIG1hcmdpbi10b3A6IDMwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tdC01MCB7XHJcbiAgICBtYXJnaW4tdG9wOiA1MHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tLWItMTAge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMTBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubS1iLTIwIHtcclxuICAgIG1hcmdpbi1ib3R0b206IDIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLm0tYi0zMCB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAzMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi53LTQwIHtcclxuICAgIHdpZHRoOiA0MHB4O1xyXG59XHJcblxyXG4uYmxvY2sge1xyXG4gICAgZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDtcclxufVxyXG5cclxuLnRleHQtZWxsaXBzaXMge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBtYXgtd2lkdGg6IDEwMCU7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XHJcbiAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG59XHJcblxyXG4udGV4dC1tdXRlZC1saWdodCB7XHJcbiAgICBjb2xvcjogI2FhYTtcclxufVxyXG5cclxuLmNhcmQtYm94IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAzMHB4O1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJveC1zaGFkb3c6IDAgMXB4IDJweCAwIHJnYmEoMCwgMCwgMCwgMC4xKTtcclxufVxyXG5cclxuLmNhcmQtdGl0bGUge1xyXG4gICAgY29sb3I6ICMzMzM7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4ucGFnZS10aXRsZSB7XHJcbiAgICBjb2xvcjogIzU2NTY1NjtcclxuICAgIGZvbnQtc2l6ZTogMjFweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4ucGFnZS1zdWItdGl0bGUge1xyXG4gICAgY29sb3I6ICM1NjU2NTY7XHJcbiAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLmJhZGdlLXN1Y2Nlc3MtYm9yZGVyIHtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICM1NWNlNjM7XHJcbiAgICBjb2xvcjogIzU1Y2U2MztcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBtaW4td2lkdGg6IDgwcHg7XHJcbn1cclxuXHJcbi5iYWRnZS1kYW5nZXItYm9yZGVyIHtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICNmNjJkNTE7XHJcbiAgICBjb2xvcjogI2Y2MmQ1MTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBtaW4td2lkdGg6IDgwcHg7XHJcbn1cclxuXHJcbi5iYWRnZS13YXJuaW5nLWJvcmRlciB7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZmZiYzM0O1xyXG4gICAgY29sb3I6ICNmZmJjMzQ7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgbWluLXdpZHRoOiA4MHB4O1xyXG59XHJcblxyXG4uYmFkZ2UtaW5mby1ib3JkZXIge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgIzAwOWVmYjtcclxuICAgIGNvbG9yOiAjMDA5ZWZiO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIG1pbi13aWR0aDogODBweDtcclxufVxyXG5cclxuLm1vZGFsLWZvb3Rlci50ZXh0LWxlZnQge1xyXG4gICAgdGV4dC1hbGlnbjogbGVmdDtcclxufVxyXG5cclxuLm1vZGFsLWZvb3Rlci50ZXh0LWNlbnRlciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5mb250LTE4IHtcclxuICAgIGZvbnQtc2l6ZTogMThweDtcclxufVxyXG5cclxuLmJvcmRlci1yaWdodCB7XHJcbiAgICBib3JkZXItcmlnaHQ6IDFweCBzb2xpZCAjZTdlN2U3O1xyXG59XHJcblxyXG4uYmx1ciB7XHJcbiAgICAtd2Via2l0LWZpbHRlcjogYmx1cigzcHgpO1xyXG4gICAgLW1vei1maWx0ZXI6IGJsdXIoM3B4KTtcclxuICAgIC1vLWZpbHRlcjogYmx1cigzcHgpO1xyXG4gICAgLW1zLWZpbHRlcjogYmx1cigzcHgpO1xyXG4gICAgZmlsdGVyOiBibHVyKDNweCk7XHJcbn1cclxuXHJcbi5idG4ge1xyXG4gICAgZm9udC1zaXplOiAwLjg3NXJlbTtcclxufVxyXG5cclxuLnBhZ2luYXRpb24+LmFjdGl2ZT5hLFxyXG4ucGFnaW5hdGlvbj4uYWN0aXZlPmE6Zm9jdXMsXHJcbi5wYWdpbmF0aW9uPi5hY3RpdmU+YTpob3ZlcixcclxuLnBhZ2luYXRpb24+LmFjdGl2ZT5zcGFuLFxyXG4ucGFnaW5hdGlvbj4uYWN0aXZlPnNwYW46Zm9jdXMsXHJcbi5wYWdpbmF0aW9uPi5hY3RpdmU+c3Bhbjpob3ZlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA5ZWZiO1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjMDA5ZWZiO1xyXG59XHJcblxyXG4ucGFnaW5hdGlvbj5saT5hLFxyXG4ucGFnaW5hdGlvbj5saT5zcGFuIHtcclxuICAgIGNvbG9yOiAjMDA5ZWZiO1xyXG4gICAgcGFkZGluZzogLjVyZW0gLjc1cmVtICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5wYWdlLWl0ZW0uYWN0aXZlIC5wYWdlLWxpbmsge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwOWVmYjtcclxuICAgIGJvcmRlci1jb2xvcjogIzAwOWVmYjtcclxufVxyXG5cclxuLmNhcmQgLmNhcmQtaGVhZGVyIC5jYXJkLXRpdGxlIHtcclxuICAgIGZvbnQtc2l6ZTogMThweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICBsaW5lLWhlaWdodDogMjBweDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDVweCAwO1xyXG59XHJcblxyXG4udGFibGUgaDUge1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgIGxpbmUtaGVpZ2h0OiAxOHB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxuXHJcbi50YWJsZSBoNStwIHtcclxuICAgIGNvbG9yOiAjOWU5ZTllO1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDE4cHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAwO1xyXG59XHJcblxyXG4ucGFnZS1saW5rOmZvY3VzIHtcclxuICAgIGJveC1zaGFkb3c6IHVuc2V0O1xyXG59XHJcblxyXG4ucGFnZS13cmFwcGVyIHtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBtYXJnaW4tbGVmdDogMjMwcHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNTBweDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDAuNHMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGVhc2U7XHJcbn1cclxuXHJcbi5wYWdlLXdyYXBwZXI+LmNvbnRlbnQge1xyXG4gICAgcGFkZGluZzogMzBweDtcclxufVxyXG5cclxuLmN1c3RvbS10YWJsZSB0ciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgYm94LXNoYWRvdzogMCAwIDNweCAjZTVlNWU1O1xyXG59XHJcblxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRib2R5PnRyPnRkLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRib2R5PnRyPnRoLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRmb290PnRyPnRkLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRmb290PnRyPnRoLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRoZWFkPnRyPnRkLFxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRoZWFkPnRyPnRoIHtcclxuICAgIHBhZGRpbmc6IDEwcHggOHB4O1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufVxyXG5cclxuXHJcbi8qLS0tLS0tLS0tLS0tLS0tLS1cclxuXHQzNS4gTG9jayBTY3JlZW5cclxuLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0qL1xyXG5cclxuLmxvY2stdXNlciB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4ubG9jay11c2VyIGltZyB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xyXG4gICAgd2lkdGg6IDEwMHB4O1xyXG59XHJcblxyXG4udGFibGUuY3VzdG9tLXRhYmxlPnRib2R5PnRyPnRkIHtcclxuICAgIHBhZGRpbmc6IDEwcHggNzFweDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbn1cclxuXHJcbi50YWJsZS5jdXN0b20tdGFibGU+dGhlYWQ+dHI+dGgge1xyXG4gICAgcGFkZGluZzogMTBweCA3MXB4O1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufSJdfQ== */";
     /***/
   },
 
@@ -13325,12 +13707,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallvehiclefortracking",
         value: function getallvehiclefortracking() {
-          var _this82 = this;
+          var _this86 = this;
 
           this.userDetails = JSON.parse(localStorage.getItem('userDetail'));
           this.userId = this.userDetails['userId'];
           this.ownerservice.getallvechilcetracking(this.userId, this.page).subscribe(function (data) {
-            _this82.result = data;
+            _this86.result = data;
           }, function (error) {});
         }
       }]);
@@ -13616,7 +13998,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this83 = this;
+          var _this87 = this;
 
           var req = {
             "mobilenumber": this.registerModel.mobNo,
@@ -13624,11 +14006,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           sessionStorage.setItem("mobileandemail", JSON.stringify(req));
           this.loginservice.sendotp(this.registerModel.mobNo, this.registerModel.email).subscribe(function (data) {
-            _this83.router.navigate(['/verifyotp']);
+            _this87.router.navigate(['/verifyotp']);
           }, function (error) {
             console.log(error.error['message']);
 
-            _this83.toaster.error(error.error['message']);
+            _this87.toaster.error(error.error['message']);
           });
         }
       }]);
@@ -13828,7 +14210,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this84 = this;
+          var _this88 = this;
 
           // alert('User Registration successfully');
           // console.log(this.registerForm.value);
@@ -13846,14 +14228,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           console.log(req);
           this.loginservice.register(req).subscribe(function (data) {
-            _this84.toaster.success('Register Successfully');
+            _this88.toaster.success('Register Successfully');
 
-            _this84.router.navigate(['/login']);
+            _this88.router.navigate(['/login']);
           }, function (error) {
-            _this84.error = error.error['message'];
-            console.log(_this84.error);
+            _this88.error = error.error['message'];
+            console.log(_this88.error);
 
-            _this84.toaster.error(_this84.error);
+            _this88.toaster.error(_this88.error);
           });
         }
       }]);
@@ -13988,15 +14370,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this85 = this;
+          var _this89 = this;
 
           var mobnumber = JSON.parse(sessionStorage.getItem("mobileandemail"));
           this.loginservice.verifyotp(this.registerModel.mobNo, mobnumber['mobilenumber']).subscribe(function (data) {
-            _this85.router.navigate(['/register']);
+            _this89.router.navigate(['/register']);
 
-            _this85.toaster.error("OTP Verified");
+            _this89.toaster.error("OTP Verified");
           }, function (error) {
-            _this85.toaster.error("Invalid OTP");
+            _this89.toaster.error("Invalid OTP");
           });
         }
       }]);
@@ -14229,7 +14611,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this86 = this;
+          var _this90 = this;
 
           this.submitted = true;
 
@@ -14248,10 +14630,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append("city", this.registerModel.locality);
             this.loginservice.userpublicregister(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Registration Completed!', 'Registered Successfully', 'success');
-              _this86.formData["delete"];
+              _this90.formData["delete"];
               window.location.reload();
             }, function (error) {
-              _this86.formData["delete"];
+              _this90.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Register!', 'Server is busy at this moment', 'error');
             });
           }
@@ -14596,10 +14978,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this87 = this;
+          var _this91 = this;
 
           this.adminservice.getallusers(this.page).subscribe(function (data) {
-            _this87.results = data;
+            _this91.results = data;
           }, function (error) {});
         }
       }]);

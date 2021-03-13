@@ -131,7 +131,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <div class=\"container\" *ngIf=\"Role != 'ADMIN'\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\r\n                                <ol class=\"carousel-indicators\">\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\r\n                                </ol>\r\n                                <div class=\"carousel-inner\">\r\n                                    <div class=\"carousel-item active\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/HANDOVER-01.png\" alt=\"First slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/Better Incomes-01-01.png\" alt=\"Second slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block\" src=\"./assets/img/track your car-01.png\" alt=\"Third slide\">\r\n                                    </div>\r\n                                </div>\r\n                                <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\r\n                                    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Previous</span>\r\n                                </a>\r\n                                <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\r\n                                    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Next</span>\r\n                                </a>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div>\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <!-- <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1> -->\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-xl-12\">\r\n\r\n\r\n\r\n\r\n\r\n                    </div>\r\n\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/admin-vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/users\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Users</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-success shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff0278 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff0278 !important;\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff5f02 !important;\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff5f02 !important;\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff02d5 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-warning text-uppercase mb-1\" style=\"color: #ff02d5 !important;\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div routerLink=\"/request\" class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #00d6a1 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #00d6a1 !important;\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/handovervehicles\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div style=\"    color: #ff8e00 !important;\" class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/bankdetails\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/paymentpage\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Payments</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-dollar-sign fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/admin-resetpassword\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/chatsandfeebacks\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Feedbacks</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-envelope fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #ff5e00 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #ff5e00 !important;\">\r\n                                            Location Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #4700ee !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #4700ee !important;\">\r\n                                            Total vehicle count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #e10000 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #e10000 !important;\">\r\n                                            Total trips count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #e10000;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\" border-left: 0.25rem solid #28a745 !important\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Total customers count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #28a745;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <div class=\"container\" *ngIf=\"Role != 'ADMIN'\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\r\n                                <ol class=\"carousel-indicators\">\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\r\n                                </ol>\r\n                                <div class=\"carousel-inner\">\r\n                                    <div class=\"carousel-item active\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/HANDOVER-01.png\" alt=\"First slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/Better Incomes-01-01.png\" alt=\"Second slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block\" src=\"./assets/img/track your car-01.png\" alt=\"Third slide\">\r\n                                    </div>\r\n                                </div>\r\n                                <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\r\n                                    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Previous</span>\r\n                                </a>\r\n                                <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\r\n                                    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Next</span>\r\n                                </a>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div>\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <!-- <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1> -->\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-xl-12\">\r\n\r\n\r\n\r\n\r\n\r\n                    </div>\r\n\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/admin-vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/users\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Users</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-success shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff0278 !important;\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicletracking\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff0278 !important;\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff5f02 !important;\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff5f02 !important;\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff02d5 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-warning text-uppercase mb-1\" style=\"color: #ff02d5 !important;\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div routerLink=\"/request\" class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #00d6a1 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #00d6a1 !important;\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/handovervehicles\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div style=\"    color: #ff8e00 !important;\" class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/bankdetails\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/paymentpage\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Payments</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-dollar-sign fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/admin-resetpassword\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/chatsandfeebacks\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Feedbacks</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-envelope fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #ff5e00 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #ff5e00 !important;\">\r\n                                            Location Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #4700ee !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #4700ee !important;\">\r\n                                            Total vehicle count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #e10000 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #e10000 !important;\">\r\n                                            Total trips count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #e10000;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\" border-left: 0.25rem solid #28a745 !important\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Total customers count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #28a745;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>";
     /***/
   },
 
@@ -171,7 +171,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<p>cannceled-bookings works!</p>\n";
+    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">Cancelled Bookings </h1>\n\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">From Date</label>\n                        <input type=\"date\" class=\"form-control\" (change)=\"fromdate($event)\">\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">To Date</label>\n\n                        <input type=\"date\" class=\"form-control\" (change)=\"todate($event)\">\n\n                    </div>\n                </div>\n\n\n                <!-- DataTales Example -->\n                <div class=\"card shadow mb-4\">\n\n                    <div class=\"card-body\">\n                        <div class=\"table-responsive\">\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n                                <thead style=\" color: #fff; background: #3158c8; \">\n                                    <tr>\n                                        <th>Customer Name</th>\n                                        <th>Starting Location</th>\n                                        <th>Destination Location </th>\n                                        <th>Requested Date</th>\n                                        <th>Vehicle Model </th>\n\n\n                                    </tr>\n                                </thead>\n\n                                <tbody>\n                                    <tr *ngFor=\"let b of cancelledbookings\">\n                                        <td>{{b.customerName}}</td>\n                                        <td>{{b.startingLocation}}</td>\n                                        <td>{{b.destinationLocation}}</td>\n                                        <td>{{b.requestedDate}} - {{b.requestEndDate}} </td>\n                                        <td>{{b.model}}</td>\n\n\n                                    </tr>\n\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
     /***/
   },
 
@@ -1271,7 +1271,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\n<div class=\"page-wrapper\" >\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-7\">\n\n            </div>\n            <div class=\"col-sm-5\">\n                <form [formGroup]=\"registerForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>Register</h4>\n                            <p>Welcome back! Please register your account.</p>\n\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.name\" formControlName=\"name\" matInput\n                                    placeholder=\"Name\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('name').hasError('required')\">\n                                   Name is Required!\n                                </mat-error>\n\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput\n                                    placeholder=\"Email ID\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\n                                    Email ID is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\n                                    Email ID must be a valid!\n                                </mat-error>\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.username\" formControlName=\"username\" matInput\n                                    placeholder=\"User Name\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('username').hasError('required')\">\n                                    User Name is Required!\n                                </mat-error>\n                               \n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.address\" formControlName=\"address\" matInput\n                                    placeholder=\"Address\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('address').hasError('required')\">\n                                   Address is Required!\n                                </mat-error>\n                               \n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput\n                                    placeholder=\"Mobile Number\" type=\"number\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\n                                    Mobile Number is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\n                                    Mobile Number must be a valid 10 digit !\n                                </mat-error>\n                            </mat-form-field>\n\n                            <mat-form-field class=\"example-full-width\">\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.password\"\n                                    formControlName=\"password\" matInput placeholder=\"Password\" type=\"password\">\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('required')\">\n                                    Password is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('minlength')\">\n                                   Minimum 8 letters needed!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <mat-form-field class=\"example-full-width\">\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.Confirmpassword\"\n                                    formControlName=\"Confirmpassword\" matInput placeholder=\"Confirm Password\" type=\"password\">\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('required')\">\n                                    Password is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('mustMatch')\">\n                                   Password must is Required!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <div class=\"row\" style=\"    margin: 10px;\">\n                                <div class=\"col-sm-6\">\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\"   (click)=\"register()\">Register</button>\n\n                                </div>\n                                <div class=\"col-sm-6\">\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\n                                        Already have an account? Login</p>\n\n                                </div>\n                            </div>\n\n\n\n\n                            <p style=\"margin-top: 50px;\">Term of use. Privacy policy</p>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n\n    </div>\n</div> -->\n\n\n<!-- <app-navigation></app-navigation>\n<div class=\"page-wrapper\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-7\">\n            </div>\n            <div class=\"col-sm-5\">\n                <form (ngSubmit)=\"onSubmit(loginfrom, userData)\" #loginfrom=\"ngForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>LOGIN</h4>\n                            <p>Welcome back! Please login to your account.</p>\n                            <div class=\"form-group\">\n                                <label for=\"email\">Username</label>\n                                <input type=\"text\" id=\"email\" class=\"form-control\" [(ngModel)]=\"userData.usernameOrEmail\" name=\"usernameOrEmail\" #email=\"ngModel\" required>\n                                <span class=\"help-block\" *ngIf=\"!email.valid && email.touched\">Please enter a user\n                                    name</span>\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"password\">Password</label>\n                                <input type=\"password\" id=\"password\" class=\"form-control\" [(ngModel)]=\"userData.password\" name=\"password\" #password=\"ngModel\" required>\n                                <span class=\"help-block\" *ngIf=\"!password.valid && password.touched\">Please enter a\n                                    password!</span>\n\n                            </div>\n                            <div class=\"row\" style=\"    margin: 0px;\">\n                                <button class=\"loginbtn\" [disabled]=\"!loginfrom.valid\">Login</button> &nbsp; &nbsp;\n                                <button class=\"signupbtn\" (click)=register()>Sign up</button>\n                            </div>\n                            <p style=\"text-align: left;cursor: pointer;\n                            margin-top: 12px;\" routerLink=\"/forgotpassword\">Forgot Password ?</p>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n\n    </div>\n</div> -->\n<app-navigation></app-navigation>\n\n\n<section class=\"banner-area relative\">\n    <div class=\"container\">\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\n            <div class=\"banner-content col-lg-7 col-md-6 \">\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\n                <h1 class=\"text-white text-uppercase\">\n                    Bringing the future of rides\n                </h1>\n                <p class=\"pt-20 pb-20 text-white\">\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\n\n                </p>\n            </div>\n            <div class=\"col-lg-5  col-md-6\">\n                <form [formGroup]=\"registerForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>Register</h4>\n                            <p>Welcome back! Please register your account.</p>\n\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput placeholder=\"Mobile Number\" type=\"number\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\n                                    Mobile Number is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\n                                    Mobile Number must be a valid 10 digit !\n                                </mat-error>\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput placeholder=\"Email ID\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\n                                    Email ID is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\n                                    Email ID must be a valid!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <div class=\"row\" style=\"    margin: 10px;\">\n                                <div class=\"col-sm-6\">\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\" (click)=\"register()\">Send OTP</button>\n\n                                </div>\n                                <div class=\"col-sm-6\">\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\n                                        Already have an account? Login</p>\n\n                                </div>\n                            </div>\n\n\n\n\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\n<div class=\"page-wrapper\" >\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-7\">\n\n            </div>\n            <div class=\"col-sm-5\">\n                <form [formGroup]=\"registerForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>Register</h4>\n                            <p>Welcome back! Please register your account.</p>\n\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.name\" formControlName=\"name\" matInput\n                                    placeholder=\"Name\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('name').hasError('required')\">\n                                   Name is Required!\n                                </mat-error>\n\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput\n                                    placeholder=\"Email ID\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\n                                    Email ID is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\n                                    Email ID must be a valid!\n                                </mat-error>\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.username\" formControlName=\"username\" matInput\n                                    placeholder=\"User Name\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('username').hasError('required')\">\n                                    User Name is Required!\n                                </mat-error>\n                               \n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.address\" formControlName=\"address\" matInput\n                                    placeholder=\"Address\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('address').hasError('required')\">\n                                   Address is Required!\n                                </mat-error>\n                               \n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput\n                                    placeholder=\"Mobile Number\" type=\"number\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\n                                    Mobile Number is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\n                                    Mobile Number must be a valid 10 digit !\n                                </mat-error>\n                            </mat-form-field>\n\n                            <mat-form-field class=\"example-full-width\">\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.password\"\n                                    formControlName=\"password\" matInput placeholder=\"Password\" type=\"password\">\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('required')\">\n                                    Password is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('minlength')\">\n                                   Minimum 8 letters needed!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <mat-form-field class=\"example-full-width\">\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.Confirmpassword\"\n                                    formControlName=\"Confirmpassword\" matInput placeholder=\"Confirm Password\" type=\"password\">\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('required')\">\n                                    Password is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('mustMatch')\">\n                                   Password must is Required!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <div class=\"row\" style=\"    margin: 10px;\">\n                                <div class=\"col-sm-6\">\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\"   (click)=\"register()\">Register</button>\n\n                                </div>\n                                <div class=\"col-sm-6\">\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\n                                        Already have an account? Login</p>\n\n                                </div>\n                            </div>\n\n\n\n\n                            <p style=\"margin-top: 50px;\">Term of use. Privacy policy</p>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n\n    </div>\n</div> -->\n\n\n<!-- <app-navigation></app-navigation>\n<div class=\"page-wrapper\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-7\">\n            </div>\n            <div class=\"col-sm-5\">\n                <form (ngSubmit)=\"onSubmit(loginfrom, userData)\" #loginfrom=\"ngForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>LOGIN</h4>\n                            <p>Welcome back! Please login to your account.</p>\n                            <div class=\"form-group\">\n                                <label for=\"email\">Username</label>\n                                <input type=\"text\" id=\"email\" class=\"form-control\" [(ngModel)]=\"userData.usernameOrEmail\" name=\"usernameOrEmail\" #email=\"ngModel\" required>\n                                <span class=\"help-block\" *ngIf=\"!email.valid && email.touched\">Please enter a user\n                                    name</span>\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"password\">Password</label>\n                                <input type=\"password\" id=\"password\" class=\"form-control\" [(ngModel)]=\"userData.password\" name=\"password\" #password=\"ngModel\" required>\n                                <span class=\"help-block\" *ngIf=\"!password.valid && password.touched\">Please enter a\n                                    password!</span>\n\n                            </div>\n                            <div class=\"row\" style=\"    margin: 0px;\">\n                                <button class=\"loginbtn\" [disabled]=\"!loginfrom.valid\">Login</button> &nbsp; &nbsp;\n                                <button class=\"signupbtn\" (click)=register()>Sign up</button>\n                            </div>\n                            <p style=\"text-align: left;cursor: pointer;\n                            margin-top: 12px;\" routerLink=\"/forgotpassword\">Forgot Password ?</p>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n\n    </div>\n</div> -->\n<app-navigation></app-navigation>\n\n\n<section class=\"banner-area relative\">\n    <div class=\"container\">\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\n            <div class=\"banner-content col-lg-7 col-md-6 \">\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\n                <h1 class=\"text-white text-uppercase\">\n                    Bringing the future of rides\n                </h1>\n                <p class=\"pt-20 pb-20 text-white\">\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\n\n                </p>\n            </div>\n            <div class=\"col-lg-5  col-md-6\">\n                <form [formGroup]=\"registerForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 61px;margin: 0 auto;display: block;\">\n                            <!-- <h6 style=\"    padding-left: 6px;\n                            float: right;\n                            margin-top: 23px;\n                            color: #ffcb67;\n                            font-weight: bold;\n                        \">CMGAADI</h6> -->\n                            <h4>Register</h4>\n                            <p>Welcome back! Please register your account.</p>\n\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput placeholder=\"Mobile Number\" type=\"number\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\n                                    Mobile Number is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\n                                    Mobile Number must be a valid 10 digit !\n                                </mat-error>\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput placeholder=\"Email ID\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\n                                    Email ID is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\n                                    Email ID must be a valid!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <div class=\"row\" style=\"    margin: 10px;\">\n                                <div class=\"col-sm-6\">\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\" (click)=\"register()\">Send OTP</button>\n\n                                </div>\n                                <div class=\"col-sm-6\">\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\n                                        Already have an account? Login</p>\n\n                                </div>\n                            </div>\n\n\n\n\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>";
     /***/
   },
 
@@ -1291,7 +1291,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<div class=\"page-wrapper\" >\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-7\">\r\n\r\n            </div>\r\n            <div class=\"col-sm-5\">\r\n                <form [formGroup]=\"registerForm\">\r\n                    <div class=\"card\">\r\n                        <div class=\"card-title\">\r\n                            <h4>Register</h4>\r\n                            <p>Welcome back! Please register your account.</p>\r\n\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.name\" formControlName=\"name\" matInput\r\n                                    placeholder=\"Name\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('name').hasError('required')\">\r\n                                   Name is Required!\r\n                                </mat-error>\r\n\r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput\r\n                                    placeholder=\"Email ID\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\r\n                                    Email ID is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\r\n                                    Email ID must be a valid!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.username\" formControlName=\"username\" matInput\r\n                                    placeholder=\"User Name\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('username').hasError('required')\">\r\n                                    User Name is Required!\r\n                                </mat-error>\r\n                               \r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.address\" formControlName=\"address\" matInput\r\n                                    placeholder=\"Address\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('address').hasError('required')\">\r\n                                   Address is Required!\r\n                                </mat-error>\r\n                               \r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\r\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput\r\n                                    placeholder=\"Mobile Number\" type=\"number\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\r\n                                    Mobile Number is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\r\n                                    Mobile Number must be a valid 10 digit !\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <mat-form-field class=\"example-full-width\">\r\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.password\"\r\n                                    formControlName=\"password\" matInput placeholder=\"Password\" type=\"password\">\r\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\r\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\r\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('required')\">\r\n                                    Password is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('minlength')\">\r\n                                   Minimum 8 letters needed!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <mat-form-field class=\"example-full-width\">\r\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.Confirmpassword\"\r\n                                    formControlName=\"Confirmpassword\" matInput placeholder=\"Confirm Password\" type=\"password\">\r\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\r\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\r\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('required')\">\r\n                                    Password is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('mustMatch')\">\r\n                                   Password must is Required!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <div class=\"row\" style=\"    margin: 10px;\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\"   (click)=\"register()\">Register</button>\r\n\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\r\n                                        Already have an account? Login</p>\r\n\r\n                                </div>\r\n                            </div>\r\n\r\n\r\n\r\n\r\n                            <p style=\"margin-top: 50px;\">Term of use. Privacy policy</p>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n</div> -->\r\n\r\n\r\n<!-- <app-navigation></app-navigation>\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-7\">\r\n            </div>\r\n            <div class=\"col-sm-5\">\r\n                <form (ngSubmit)=\"onSubmit(loginfrom, userData)\" #loginfrom=\"ngForm\">\r\n                    <div class=\"card\">\r\n                        <div class=\"card-title\">\r\n                            <h4>LOGIN</h4>\r\n                            <p>Welcome back! Please login to your account.</p>\r\n                            <div class=\"form-group\">\r\n                                <label for=\"email\">Username</label>\r\n                                <input type=\"text\" id=\"email\" class=\"form-control\" [(ngModel)]=\"userData.usernameOrEmail\" name=\"usernameOrEmail\" #email=\"ngModel\" required>\r\n                                <span class=\"help-block\" *ngIf=\"!email.valid && email.touched\">Please enter a user\r\n                                    name</span>\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label for=\"password\">Password</label>\r\n                                <input type=\"password\" id=\"password\" class=\"form-control\" [(ngModel)]=\"userData.password\" name=\"password\" #password=\"ngModel\" required>\r\n                                <span class=\"help-block\" *ngIf=\"!password.valid && password.touched\">Please enter a\r\n                                    password!</span>\r\n\r\n                            </div>\r\n                            <div class=\"row\" style=\"    margin: 0px;\">\r\n                                <button class=\"loginbtn\" [disabled]=\"!loginfrom.valid\">Login</button> &nbsp; &nbsp;\r\n                                <button class=\"signupbtn\" (click)=register()>Sign up</button>\r\n                            </div>\r\n                            <p style=\"text-align: left;cursor: pointer;\r\n                            margin-top: 12px;\" routerLink=\"/forgotpassword\">Forgot Password ?</p>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n</div> -->\r\n<app-navigation></app-navigation>\r\n\r\n\r\n<section class=\"banner-area relative\">\r\n    <div class=\"container\">\r\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\r\n            <div class=\"banner-content col-lg-7 col-md-6 \">\r\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\r\n                <h1 class=\"text-white text-uppercase\">\r\n                    Bringing the future of rides\r\n                </h1>\r\n                <p class=\"pt-20 pb-20 text-white\">\r\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\r\n\r\n                </p>\r\n            </div>\r\n            <div class=\"col-lg-5  col-md-6\">\r\n                <form [formGroup]=\"registerForm\">\r\n                    <div class=\"card\">\r\n                        <div class=\"card-title\">\r\n                            <h4>Register</h4>\r\n                            <p>Welcome back! Please register your account.</p>\r\n\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.name\" formControlName=\"name\" matInput placeholder=\"Name\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('name').hasError('required')\">\r\n                                    Name is Required!\r\n                                </mat-error>\r\n\r\n                            </mat-form-field>\r\n                            <!-- <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput placeholder=\"Email ID\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\r\n                                    Email ID is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\r\n                                    Email ID must be a valid!\r\n                                </mat-error>\r\n                            </mat-form-field> -->\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.username\" formControlName=\"username\" matInput placeholder=\"User Name\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('username').hasError('required')\">\r\n                                    User Name is Required!\r\n                                </mat-error>\r\n\r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.address\" formControlName=\"address\" matInput placeholder=\"Address\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('address').hasError('required')\">\r\n                                    Address is Required!\r\n                                </mat-error>\r\n\r\n                            </mat-form-field>\r\n                            <!-- <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\r\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput placeholder=\"Mobile Number\" type=\"number\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\r\n                                    Mobile Number is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\r\n                                    Mobile Number must be a valid 10 digit !\r\n                                </mat-error>\r\n                            </mat-form-field> -->\r\n\r\n                            <mat-form-field class=\"example-full-width\">\r\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.password\" formControlName=\"password\" matInput placeholder=\"Password\" type=\"password\">\r\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\" [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\r\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('required')\">\r\n                                    Password is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('minlength')\">\r\n                                    Minimum 8 letters needed!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <mat-form-field class=\"example-full-width\">\r\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.Confirmpassword\" formControlName=\"Confirmpassword\" matInput placeholder=\"Confirm Password\" type=\"password\">\r\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\" [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\r\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('required')\">\r\n                                    Password is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('mustMatch')\">\r\n                                    Password must is Required!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <div class=\"row\" style=\"    margin: 10px;\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\" (click)=\"register()\">Register</button>\r\n\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\r\n                                        Already have an account? Login</p>\r\n\r\n                                </div>\r\n                            </div>\r\n\r\n\r\n\r\n\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<div class=\"page-wrapper\" >\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-7\">\r\n\r\n            </div>\r\n            <div class=\"col-sm-5\">\r\n                <form [formGroup]=\"registerForm\">\r\n                    <div class=\"card\">\r\n                        <div class=\"card-title\">\r\n                            <h4>Register</h4>\r\n                            <p>Welcome back! Please register your account.</p>\r\n\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.name\" formControlName=\"name\" matInput\r\n                                    placeholder=\"Name\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('name').hasError('required')\">\r\n                                   Name is Required!\r\n                                </mat-error>\r\n\r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput\r\n                                    placeholder=\"Email ID\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\r\n                                    Email ID is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\r\n                                    Email ID must be a valid!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.username\" formControlName=\"username\" matInput\r\n                                    placeholder=\"User Name\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('username').hasError('required')\">\r\n                                    User Name is Required!\r\n                                </mat-error>\r\n                               \r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.address\" formControlName=\"address\" matInput\r\n                                    placeholder=\"Address\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('address').hasError('required')\">\r\n                                   Address is Required!\r\n                                </mat-error>\r\n                               \r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\r\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput\r\n                                    placeholder=\"Mobile Number\" type=\"number\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\r\n                                    Mobile Number is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\r\n                                    Mobile Number must be a valid 10 digit !\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <mat-form-field class=\"example-full-width\">\r\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.password\"\r\n                                    formControlName=\"password\" matInput placeholder=\"Password\" type=\"password\">\r\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\r\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\r\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('required')\">\r\n                                    Password is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('minlength')\">\r\n                                   Minimum 8 letters needed!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <mat-form-field class=\"example-full-width\">\r\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.Confirmpassword\"\r\n                                    formControlName=\"Confirmpassword\" matInput placeholder=\"Confirm Password\" type=\"password\">\r\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\r\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\r\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('required')\">\r\n                                    Password is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('mustMatch')\">\r\n                                   Password must is Required!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <div class=\"row\" style=\"    margin: 10px;\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\"   (click)=\"register()\">Register</button>\r\n\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\r\n                                        Already have an account? Login</p>\r\n\r\n                                </div>\r\n                            </div>\r\n\r\n\r\n\r\n\r\n                            <p style=\"margin-top: 50px;\">Term of use. Privacy policy</p>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n</div> -->\r\n\r\n\r\n<!-- <app-navigation></app-navigation>\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-7\">\r\n            </div>\r\n            <div class=\"col-sm-5\">\r\n                <form (ngSubmit)=\"onSubmit(loginfrom, userData)\" #loginfrom=\"ngForm\">\r\n                    <div class=\"card\">\r\n                        <div class=\"card-title\">\r\n                            <h4>LOGIN</h4>\r\n                            <p>Welcome back! Please login to your account.</p>\r\n                            <div class=\"form-group\">\r\n                                <label for=\"email\">Username</label>\r\n                                <input type=\"text\" id=\"email\" class=\"form-control\" [(ngModel)]=\"userData.usernameOrEmail\" name=\"usernameOrEmail\" #email=\"ngModel\" required>\r\n                                <span class=\"help-block\" *ngIf=\"!email.valid && email.touched\">Please enter a user\r\n                                    name</span>\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label for=\"password\">Password</label>\r\n                                <input type=\"password\" id=\"password\" class=\"form-control\" [(ngModel)]=\"userData.password\" name=\"password\" #password=\"ngModel\" required>\r\n                                <span class=\"help-block\" *ngIf=\"!password.valid && password.touched\">Please enter a\r\n                                    password!</span>\r\n\r\n                            </div>\r\n                            <div class=\"row\" style=\"    margin: 0px;\">\r\n                                <button class=\"loginbtn\" [disabled]=\"!loginfrom.valid\">Login</button> &nbsp; &nbsp;\r\n                                <button class=\"signupbtn\" (click)=register()>Sign up</button>\r\n                            </div>\r\n                            <p style=\"text-align: left;cursor: pointer;\r\n                            margin-top: 12px;\" routerLink=\"/forgotpassword\">Forgot Password ?</p>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n</div> -->\r\n<app-navigation></app-navigation>\r\n\r\n\r\n<section class=\"banner-area relative\">\r\n    <div class=\"container\">\r\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\r\n            <div class=\"banner-content col-lg-7 col-md-6 \">\r\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\r\n                <h1 class=\"text-white text-uppercase\">\r\n                    Bringing the future of rides\r\n                </h1>\r\n                <p class=\"pt-20 pb-20 text-white\">\r\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\r\n\r\n                </p>\r\n            </div>\r\n            <div class=\"col-lg-5  col-md-6\">\r\n                <form [formGroup]=\"registerForm\">\r\n                    <div class=\"card\">\r\n                        <div class=\"card-title\">\r\n                            <!-- <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 61px;\"> -->\r\n                            <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 61px;margin: 0 auto;display: block;\">\r\n\r\n                            <h4>Register</h4>\r\n                            <p>Welcome back! Please register your account.</p>\r\n\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.name\" formControlName=\"name\" matInput placeholder=\"Name\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('name').hasError('required')\">\r\n                                    Name is Required!\r\n                                </mat-error>\r\n\r\n                            </mat-form-field>\r\n                            <!-- <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput placeholder=\"Email ID\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\r\n                                    Email ID is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\r\n                                    Email ID must be a valid!\r\n                                </mat-error>\r\n                            </mat-form-field> -->\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.username\" formControlName=\"username\" matInput placeholder=\"User Name\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('username').hasError('required')\">\r\n                                    User Name is Required!\r\n                                </mat-error>\r\n\r\n                            </mat-form-field>\r\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\r\n                                <input [(ngModel)]=\"registerModel.address\" formControlName=\"address\" matInput placeholder=\"Address\" type=\"text\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('address').hasError('required')\">\r\n                                    Address is Required!\r\n                                </mat-error>\r\n\r\n                            </mat-form-field>\r\n                            <!-- <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\r\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput placeholder=\"Mobile Number\" type=\"number\">\r\n                                <button mat-icon-button matSuffix>\r\n                                    <mat-icon></mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\r\n                                    Mobile Number is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\r\n                                    Mobile Number must be a valid 10 digit !\r\n                                </mat-error>\r\n                            </mat-form-field> -->\r\n\r\n                            <mat-form-field class=\"example-full-width\">\r\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.password\" formControlName=\"password\" matInput placeholder=\"Password\" type=\"password\">\r\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\" [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\r\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('required')\">\r\n                                    Password is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('minlength')\">\r\n                                    Minimum 8 letters needed!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <mat-form-field class=\"example-full-width\">\r\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.Confirmpassword\" formControlName=\"Confirmpassword\" matInput placeholder=\"Confirm Password\" type=\"password\">\r\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\" [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\r\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                                </button>\r\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('required')\">\r\n                                    Password is Required!\r\n                                </mat-error>\r\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('mustMatch')\">\r\n                                    Password must is Required!\r\n                                </mat-error>\r\n                            </mat-form-field>\r\n\r\n                            <div class=\"row\" style=\"    margin: 10px;\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\" (click)=\"register()\">Register</button>\r\n\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\r\n                                        Already have an account? Login</p>\r\n\r\n                                </div>\r\n                            </div>\r\n\r\n\r\n\r\n\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>";
     /***/
   },
 
@@ -1311,7 +1311,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\n<div class=\"page-wrapper\" >\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-7\">\n\n            </div>\n            <div class=\"col-sm-5\">\n                <form [formGroup]=\"registerForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>Register</h4>\n                            <p>Welcome back! Please register your account.</p>\n\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.name\" formControlName=\"name\" matInput\n                                    placeholder=\"Name\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('name').hasError('required')\">\n                                   Name is Required!\n                                </mat-error>\n\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput\n                                    placeholder=\"Email ID\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\n                                    Email ID is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\n                                    Email ID must be a valid!\n                                </mat-error>\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.username\" formControlName=\"username\" matInput\n                                    placeholder=\"User Name\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('username').hasError('required')\">\n                                    User Name is Required!\n                                </mat-error>\n                               \n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.address\" formControlName=\"address\" matInput\n                                    placeholder=\"Address\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('address').hasError('required')\">\n                                   Address is Required!\n                                </mat-error>\n                               \n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput\n                                    placeholder=\"Mobile Number\" type=\"number\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\n                                    Mobile Number is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\n                                    Mobile Number must be a valid 10 digit !\n                                </mat-error>\n                            </mat-form-field>\n\n                            <mat-form-field class=\"example-full-width\">\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.password\"\n                                    formControlName=\"password\" matInput placeholder=\"Password\" type=\"password\">\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('required')\">\n                                    Password is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('minlength')\">\n                                   Minimum 8 letters needed!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <mat-form-field class=\"example-full-width\">\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.Confirmpassword\"\n                                    formControlName=\"Confirmpassword\" matInput placeholder=\"Confirm Password\" type=\"password\">\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('required')\">\n                                    Password is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('mustMatch')\">\n                                   Password must is Required!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <div class=\"row\" style=\"    margin: 10px;\">\n                                <div class=\"col-sm-6\">\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\"   (click)=\"register()\">Register</button>\n\n                                </div>\n                                <div class=\"col-sm-6\">\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\n                                        Already have an account? Login</p>\n\n                                </div>\n                            </div>\n\n\n\n\n                            <p style=\"margin-top: 50px;\">Term of use. Privacy policy</p>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n\n    </div>\n</div> -->\n\n\n<!-- <app-navigation></app-navigation>\n<div class=\"page-wrapper\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-7\">\n            </div>\n            <div class=\"col-sm-5\">\n                <form (ngSubmit)=\"onSubmit(loginfrom, userData)\" #loginfrom=\"ngForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>LOGIN</h4>\n                            <p>Welcome back! Please login to your account.</p>\n                            <div class=\"form-group\">\n                                <label for=\"email\">Username</label>\n                                <input type=\"text\" id=\"email\" class=\"form-control\" [(ngModel)]=\"userData.usernameOrEmail\" name=\"usernameOrEmail\" #email=\"ngModel\" required>\n                                <span class=\"help-block\" *ngIf=\"!email.valid && email.touched\">Please enter a user\n                                    name</span>\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"password\">Password</label>\n                                <input type=\"password\" id=\"password\" class=\"form-control\" [(ngModel)]=\"userData.password\" name=\"password\" #password=\"ngModel\" required>\n                                <span class=\"help-block\" *ngIf=\"!password.valid && password.touched\">Please enter a\n                                    password!</span>\n\n                            </div>\n                            <div class=\"row\" style=\"    margin: 0px;\">\n                                <button class=\"loginbtn\" [disabled]=\"!loginfrom.valid\">Login</button> &nbsp; &nbsp;\n                                <button class=\"signupbtn\" (click)=register()>Sign up</button>\n                            </div>\n                            <p style=\"text-align: left;cursor: pointer;\n                            margin-top: 12px;\" routerLink=\"/forgotpassword\">Forgot Password ?</p>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n\n    </div>\n</div> -->\n<app-navigation></app-navigation>\n\n\n<section class=\"banner-area relative\">\n    <div class=\"container\">\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\n            <div class=\"banner-content col-lg-7 col-md-6 \">\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\n                <h1 class=\"text-white text-uppercase\">\n                    Bringing the future of rides\n                </h1>\n                <p class=\"pt-20 pb-20 text-white\">\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\n\n                </p>\n            </div>\n            <div class=\"col-lg-5  col-md-6\">\n                <form [formGroup]=\"registerForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>Verify OTP</h4>\n                            <p>Welcome back! Please Verify your Mobile Number.</p>\n\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput placeholder=\"OTP\" type=\"number\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\n                                    OTP is Required\n                                </mat-error>\n\n                            </mat-form-field>\n\n\n                            <div class=\"row\" style=\"    margin: 10px;\">\n                                <div class=\"col-sm-6\">\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\" (click)=\"register()\">Verify</button>\n\n                                </div>\n\n                            </div>\n\n\n\n\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\n<div class=\"page-wrapper\" >\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-7\">\n\n            </div>\n            <div class=\"col-sm-5\">\n                <form [formGroup]=\"registerForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>Register</h4>\n                            <p>Welcome back! Please register your account.</p>\n\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.name\" formControlName=\"name\" matInput\n                                    placeholder=\"Name\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('name').hasError('required')\">\n                                   Name is Required!\n                                </mat-error>\n\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.email\" formControlName=\"email\" matInput\n                                    placeholder=\"Email ID\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('required')\">\n                                    Email ID is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('email').hasError('email')\">\n                                    Email ID must be a valid!\n                                </mat-error>\n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.username\" formControlName=\"username\" matInput\n                                    placeholder=\"User Name\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('username').hasError('required')\">\n                                    User Name is Required!\n                                </mat-error>\n                               \n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 20px;\">\n                                <input [(ngModel)]=\"registerModel.address\" formControlName=\"address\" matInput\n                                    placeholder=\"Address\" type=\"text\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('address').hasError('required')\">\n                                   Address is Required!\n                                </mat-error>\n                               \n                            </mat-form-field>\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput\n                                    placeholder=\"Mobile Number\" type=\"number\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\n                                    Mobile Number is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('pattern')\">\n                                    Mobile Number must be a valid 10 digit !\n                                </mat-error>\n                            </mat-form-field>\n\n                            <mat-form-field class=\"example-full-width\">\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.password\"\n                                    formControlName=\"password\" matInput placeholder=\"Password\" type=\"password\">\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('required')\">\n                                    Password is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('password').hasError('minlength')\">\n                                   Minimum 8 letters needed!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <mat-form-field class=\"example-full-width\">\n                                <input [type]=\"hide ? 'password' : 'text'\" [(ngModel)]=\"registerModel.Confirmpassword\"\n                                    formControlName=\"Confirmpassword\" matInput placeholder=\"Confirm Password\" type=\"password\">\n                                <button mat-icon-button matSuffix (click)=\"hide = !hide\"\n                                    [attr.aria-label]=\"'Hide password'\" [attr.aria-pressed]=\"hide\">\n                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('required')\">\n                                    Password is Required!\n                                </mat-error>\n                                <mat-error *ngIf=\"registerForm.get('Confirmpassword').hasError('mustMatch')\">\n                                   Password must is Required!\n                                </mat-error>\n                            </mat-form-field>\n\n                            <div class=\"row\" style=\"    margin: 10px;\">\n                                <div class=\"col-sm-6\">\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\"   (click)=\"register()\">Register</button>\n\n                                </div>\n                                <div class=\"col-sm-6\">\n                                    <p routerLink=\"/login\" style=\"text-align: center; outline: none; cursor: pointer;\">\n                                        Already have an account? Login</p>\n\n                                </div>\n                            </div>\n\n\n\n\n                            <p style=\"margin-top: 50px;\">Term of use. Privacy policy</p>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n\n    </div>\n</div> -->\n\n\n<!-- <app-navigation></app-navigation>\n<div class=\"page-wrapper\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-sm-7\">\n            </div>\n            <div class=\"col-sm-5\">\n                <form (ngSubmit)=\"onSubmit(loginfrom, userData)\" #loginfrom=\"ngForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <h4>LOGIN</h4>\n                            <p>Welcome back! Please login to your account.</p>\n                            <div class=\"form-group\">\n                                <label for=\"email\">Username</label>\n                                <input type=\"text\" id=\"email\" class=\"form-control\" [(ngModel)]=\"userData.usernameOrEmail\" name=\"usernameOrEmail\" #email=\"ngModel\" required>\n                                <span class=\"help-block\" *ngIf=\"!email.valid && email.touched\">Please enter a user\n                                    name</span>\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"password\">Password</label>\n                                <input type=\"password\" id=\"password\" class=\"form-control\" [(ngModel)]=\"userData.password\" name=\"password\" #password=\"ngModel\" required>\n                                <span class=\"help-block\" *ngIf=\"!password.valid && password.touched\">Please enter a\n                                    password!</span>\n\n                            </div>\n                            <div class=\"row\" style=\"    margin: 0px;\">\n                                <button class=\"loginbtn\" [disabled]=\"!loginfrom.valid\">Login</button> &nbsp; &nbsp;\n                                <button class=\"signupbtn\" (click)=register()>Sign up</button>\n                            </div>\n                            <p style=\"text-align: left;cursor: pointer;\n                            margin-top: 12px;\" routerLink=\"/forgotpassword\">Forgot Password ?</p>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n\n    </div>\n</div> -->\n<app-navigation></app-navigation>\n\n\n<section class=\"banner-area relative\">\n    <div class=\"container\">\n        <div class=\"row fullscreen d-flex align-items-center justify-content-center\" style=\" height: 667px;\">\n            <div class=\"banner-content col-lg-7 col-md-6 \">\n                <h6 class=\"text-white \">the Royal Essence of Journey</h6>\n                <h1 class=\"text-white text-uppercase\">\n                    Bringing the future of rides\n                </h1>\n                <p class=\"pt-20 pb-20 text-white\">\n                    Offers vehicles for hire such as self-drive car rental or Auto rental services.\n\n                </p>\n            </div>\n            <div class=\"col-lg-5  col-md-6\">\n                <form [formGroup]=\"registerForm\">\n                    <div class=\"card\">\n                        <div class=\"card-title\">\n                            <!-- <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 61px;\"> -->\n                            <img src=\"./assets/img/logoos.png\" alt=\"\" style=\"width: 61px;margin: 0 auto;display: block;\">\n\n                            <h4>Verify OTP</h4>\n                            <p>Welcome back! Please Verify your Mobile Number.</p>\n\n                            <mat-form-field class=\"example-full-width\" style=\"margin-top: 10px;\">\n                                <input [(ngModel)]=\"registerModel.mobNo\" formControlName=\"mobNo\" matInput placeholder=\"OTP\" type=\"number\">\n                                <button mat-icon-button matSuffix>\n                                    <mat-icon></mat-icon>\n                                </button>\n                                <mat-error *ngIf=\"registerForm.get('mobNo').hasError('required')\">\n                                    OTP is Required\n                                </mat-error>\n\n                            </mat-form-field>\n\n\n                            <div class=\"row\" style=\"    margin: 10px;\">\n                                <div class=\"col-sm-6\">\n                                    <button class=\"loginbtn\" [disabled]=\"!registerForm.valid\" (click)=\"register()\">Verify</button>\n\n                                </div>\n\n                            </div>\n\n\n\n\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>";
     /***/
   },
 
@@ -2821,6 +2821,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function getallbankdetails() {
           return this.http.get(this.BASEURL + 'owner/listAllBankDetails?page=0&size=100');
         }
+      }, {
+        key: "getallcancelledbookings",
+        value: function getallcancelledbookings(fromdate, todate, page) {
+          return this.http.get(this.BASEURL + 'trip/listCancelledTripForAdminDate?start=' + fromdate + '&end=' + todate + '&page=' + page + '&size=1000');
+        }
       }]);
 
       return AdminService;
@@ -3740,19 +3745,58 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _admin_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../admin.service */
+    "./src/app/adminpannel/admin.service.ts");
 
     var CannceledBookingsComponent = /*#__PURE__*/function () {
-      function CannceledBookingsComponent() {
+      function CannceledBookingsComponent(adminservice) {
         _classCallCheck(this, CannceledBookingsComponent);
+
+        this.adminservice = adminservice;
+        this.page = 0;
+        this.cancelledbookings = [];
       }
 
       _createClass(CannceledBookingsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {}
+      }, {
+        key: "fromdate",
+        value: function fromdate($event) {
+          console.log($event.target.value);
+          this.fromdatecancel = $event.target.value;
+        }
+      }, {
+        key: "todate",
+        value: function todate($event) {
+          console.log($event.target.value);
+          this.todatecancel = $event.target.value;
+          this.getallcancelledbookings();
+        }
+      }, {
+        key: "getallcancelledbookings",
+        value: function getallcancelledbookings() {
+          var _this18 = this;
+
+          this.adminservice.getallcancelledbookings(this.fromdatecancel, this.todatecancel, this.page).subscribe(function (data) {
+            console.log(data);
+            _this18.cancelledbookings = data;
+          }, function (error) {});
+        }
       }]);
 
       return CannceledBookingsComponent;
     }();
+
+    CannceledBookingsComponent.ctorParameters = function () {
+      return [{
+        type: _admin_service__WEBPACK_IMPORTED_MODULE_2__["AdminService"]
+      }];
+    };
 
     CannceledBookingsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-cannceled-bookings',
@@ -3859,11 +3903,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallOwners",
         value: function getallOwners() {
-          var _this18 = this;
+          var _this19 = this;
 
           this.adminservice.getallowners(this.pageIndex).subscribe(function (data) {
-            _this18.results = data;
-            _this18.dataSource.data = _this18.results;
+            _this19.results = data;
+            _this19.dataSource.data = _this19.results;
           }, function (error) {});
         }
       }, {
@@ -3886,11 +3930,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "changePage",
         value: function changePage(e) {
-          var _this19 = this;
+          var _this20 = this;
 
           this.adminservice.getallowners(e.pageIndex).subscribe(function (data) {
-            _this19.results = data;
-            _this19.dataSource.data = _this19.results;
+            _this20.results = data;
+            _this20.dataSource.data = _this20.results;
           }, function (error) {});
         }
       }]);
@@ -4263,7 +4307,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this20 = this;
+          var _this21 = this;
 
           if (this.Location == undefined || this.Location == '') {
             this.toaster.error('Please enter a location name');
@@ -4271,11 +4315,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           } else {
             this.formData.append('name', this.Location);
             this.adminservice.addlocation(this.formData).subscribe(function (data) {
-              _this20.router.navigate(['/locations']);
+              _this21.router.navigate(['/locations']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Location Added!', 'Location Added Successfully', 'success');
             }, function (error) {
-              _this20.formData["delete"];
+              _this21.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Cant add Location!', 'Location Added UnSuccessfully', 'error');
             });
           }
@@ -4403,31 +4447,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditLocationComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this21 = this;
+          var _this22 = this;
 
           this.locationForn = this.fb.group({
             Location: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
           });
           this.activaterouter.params.subscribe(function (params) {
             console.log(params);
-            _this21.Location = params.name;
-            _this21.Id = params.id;
+            _this22.Location = params.name;
+            _this22.Id = params.id;
           });
         }
       }, {
         key: "submit",
         value: function submit() {
-          var _this22 = this;
+          var _this23 = this;
 
           this.formData.append('id', this.Id);
           this.formData.append('name', this.Location);
           this.adminservice.Editlocation(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Location Updated!', 'Location Updated Successfully', 'success');
 
-            _this22.router.navigate(['/locations']);
+            _this23.router.navigate(['/locations']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Cant Update Location!', 'Location Updated UnSuccessfully', 'error');
-            _this22.formData["delete"];
+            _this23.formData["delete"];
           });
         }
       }]);
@@ -4576,12 +4620,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalllocations",
         value: function getalllocations() {
-          var _this23 = this;
+          var _this24 = this;
 
           this.adminpannel.getalllocation().subscribe(function (data) {
             console.log(data);
-            _this23.results = data;
-            _this23.dataSource.data = _this23.results;
+            _this24.results = data;
+            _this24.dataSource.data = _this24.results;
           }, function (error) {});
         }
       }, {
@@ -4848,7 +4892,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reset",
         value: function reset() {
-          var _this24 = this;
+          var _this25 = this;
 
           this.submitted = true;
 
@@ -4856,7 +4900,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return;
           } else if (this.resetForm.valid) {
             this.adminservice.resetpassword(this.adminmodel.oldPasswords, this.adminmodel.password).subscribe(function (data) {
-              _this24.resetForm.reset();
+              _this25.resetForm.reset();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Password Reset!', 'Password Reset Successfully', 'success');
             }, function (error) {
@@ -6393,10 +6437,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this25 = this;
+          var _this26 = this;
 
           this.adminservice.getallownersforadmin(this.page).subscribe(function (data) {
-            _this25.results = data;
+            _this26.results = data;
           }, function (error) {});
         }
       }]);
@@ -6628,19 +6672,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getchatsafeeback",
         value: function getchatsafeeback() {
-          var _this26 = this;
+          var _this27 = this;
 
           this.AdminService.getalldata(this.faday, this.tday, this.page, this.size).subscribe(function (data) {
-            _this26.results = data;
+            _this27.results = data;
           }, function (error) {});
         }
       }, {
         key: "selected",
         value: function selected(s) {
-          var _this27 = this;
+          var _this28 = this;
 
           this.AdminService.getalldata(this.date1, this.date2, this.page, this.size).subscribe(function (data) {
-            _this27.results = data;
+            _this28.results = data;
           }, function (error) {});
         }
       }]);
@@ -7451,7 +7495,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onSubmit",
         value: function onSubmit(form, formData) {
-          var _this28 = this;
+          var _this29 = this;
 
           // this.submitted = true;
           // this.authservice.login(formData.email,formData.password).pipe(first())
@@ -7474,14 +7518,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (data['roleId'] == '1') {
               localStorage.setItem('ROLE', JSON.stringify('ADMIN'));
 
-              _this28.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
+              _this29.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
 
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Admin Login!', ' Admin Login Successfully', 'success');
             } else if (data['roleId'] == '2') {
               localStorage.setItem('ROLE', JSON.stringify('OWNER'));
 
-              _this28.router.navigate(['/admin']);
+              _this29.router.navigate(['/admin']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('WELCOME!', 'Login Successfully', 'success');
             }
@@ -7710,7 +7754,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getAddress",
         value: function getAddress() {
-          var _this29 = this;
+          var _this30 = this;
 
           this.geoCoder = new google.maps.Geocoder();
           this.geoCoder.geocode({
@@ -7725,8 +7769,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (status === 'OK') {
               if (results[0]) {
                 // this.zoom = 12;
-                _this29.address = results[0].formatted_address;
-                console.log(_this29.address);
+                _this30.address = results[0].formatted_address;
+                console.log(_this30.address);
               } else {
                 window.alert('No results found');
               }
@@ -8285,7 +8329,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this30 = this;
+          var _this31 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8298,7 +8342,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this30.router.navigate(['/image2']);
+              _this31.router.navigate(['/image2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8465,7 +8509,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this31 = this;
+          var _this32 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8478,7 +8522,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this31.router.navigate(['/licsence1']);
+              _this32.router.navigate(['/licsence1']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8645,7 +8689,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this32 = this;
+          var _this33 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8658,7 +8702,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added!', 'Licence Added Successfully', 'success');
 
-              _this32.router.navigate(['/rcfrnt']);
+              _this33.router.navigate(['/rcfrnt']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added Error!', 'Licence Back Added SUnccessfully', 'error');
             });
@@ -8825,7 +8869,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this33 = this;
+          var _this34 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8838,7 +8882,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added!', 'Licence Front Added Successfully', 'success');
 
-              _this33.router.navigate(['/licsence2']);
+              _this34.router.navigate(['/licsence2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added Error!', 'Licence Front Added SUnccessfully', 'error');
             });
@@ -9031,21 +9075,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this34 = this;
+          var _this35 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this34.driverslist = data;
-            console.log(_this34.driverslist);
+            _this35.driverslist = data;
+            console.log(_this35.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this35 = this;
+          var _this36 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this35.locations = data;
+            _this36.locations = data;
           }, function (error) {});
         }
       }, {
@@ -9081,7 +9125,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this36 = this;
+          var _this37 = this;
 
           this.submitted = true;
           this.mapdataresponse = JSON.parse(sessionStorage.getItem("mapcordinatess")); // stop here if form is invalid
@@ -9139,13 +9183,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem('vehicleadddetailsid', JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Added!', 'Basic Details Added Successfully', 'success');
 
-              _this36.router.navigate(['/image1']);
+              _this37.router.navigate(['/image1']);
             }, function (error) {
               // alert('error')
-              _this36.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this36.error, 'error'); // this.toaster.error(this.error)
+              _this37.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this37.error, 'error'); // this.toaster.error(this.error)
 
-              _this36.formData["delete"];
+              _this37.formData["delete"];
             });
           }
         }
@@ -9313,7 +9357,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this37 = this;
+          var _this38 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9326,7 +9370,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
 
-              _this37.router.navigate(['/vehicles']);
+              _this38.router.navigate(['/vehicles']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added Error!', 'RC Added SUnccessfully', 'error');
             });
@@ -9482,7 +9526,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this38 = this;
+          var _this39 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9497,7 +9541,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.addbanks(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Added!', 'Bank Details Added Successfully', 'success');
 
-              _this38.router.navigate(['/bankdetails']);
+              _this39.router.navigate(['/bankdetails']);
             }, function (error) {});
           }
         }
@@ -9644,19 +9688,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getbankdetails",
         value: function getbankdetails() {
-          var _this39 = this;
+          var _this40 = this;
 
           this.adminpannel.getbankdetails(this.userDetails['userId']).subscribe(function (data) {
             console.log(data);
-            _this39.results = data;
+            _this40.results = data;
 
-            _this39.arr.push(_this39.results);
+            _this40.arr.push(_this40.results);
 
-            console.log(_this39.arr.length);
-            _this39.bankModel.accountNumber = _this39.results['accountNumber'];
-            _this39.bankModel.acocuntholderName = _this39.results['accountHolderName'];
-            _this39.bankModel.ifscode = _this39.results['ifscCode'];
-            _this39.bankModel.bankName = _this39.results['bankName']; // this.dataSource.data = this.results;
+            console.log(_this40.arr.length);
+            _this40.bankModel.accountNumber = _this40.results['accountNumber'];
+            _this40.bankModel.acocuntholderName = _this40.results['accountHolderName'];
+            _this40.bankModel.ifscode = _this40.results['ifscCode'];
+            _this40.bankModel.bankName = _this40.results['bankName']; // this.dataSource.data = this.results;
           }, function (error) {});
         }
       }, {
@@ -9814,7 +9858,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this40 = this;
+          var _this41 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9824,7 +9868,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.updateBank(this.bankModel.bankId, this.bankModel.ownerId, this.bankModel.acocuntholderName, this.bankModel.accountNumber, this.bankModel.ifscode, this.bankModel.bankName).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Update!', 'Bank Details Updated Successfully', 'success');
 
-              _this40.router.navigate(['/bankdetails']);
+              _this41.router.navigate(['/bankdetails']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Unable to Update Bank Details !', 'Bank Details Updated UnSuccessfull', 'error');
             });
@@ -10000,7 +10044,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this41 = this;
+          var _this42 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10020,13 +10064,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem("driverDetails", JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Driver Added!', 'Driver Added Successfully', 'success');
 
-              _this41.router.navigate(['/driverlicsencefrnt']);
+              _this42.router.navigate(['/driverlicsencefrnt']);
             }, function (error) {
               // alert('error')
-              _this41.error = error.error['message']; // this.toaster.error(this.error);
+              _this42.error = error.error['message']; // this.toaster.error(this.error);
 
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this41.error, 'error');
-              _this41.formData["delete"];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this42.error, 'error');
+              _this42.formData["delete"];
             });
           }
         }
@@ -10206,7 +10250,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this42 = this;
+          var _this43 = this;
 
           this.submitted = true;
 
@@ -10219,7 +10263,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this42.router.navigate(['/driverlicsenceback']);
+              _this43.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10440,7 +10484,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this43 = this;
+          var _this44 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10453,7 +10497,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this43.router.navigate(['/profilepicdriver']);
+              _this44.router.navigate(['/profilepicdriver']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10619,7 +10663,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this44 = this;
+          var _this45 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10632,7 +10676,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
 
-              _this44.router.navigate(['/drivers']);
+              _this45.router.navigate(['/drivers']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
             });
@@ -10826,12 +10870,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallsdriver",
         value: function getallsdriver() {
-          var _this45 = this;
+          var _this46 = this;
 
           this.ownerservice.getalldrivers(this.ownerId).subscribe(function (data) {
             console.log(data);
-            _this45.driverslist = data;
-            _this45.dataSource.data = _this45.driverslist;
+            _this46.driverslist = data;
+            _this46.dataSource.data = _this46.driverslist;
           }, function (error) {});
         }
       }, {
@@ -11037,14 +11081,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getdriverDetailByDriverId",
         value: function getdriverDetailByDriverId() {
-          var _this46 = this;
+          var _this47 = this;
 
           this.ownerservice.getDriverDetailsBydriverId(this.driverId).subscribe(function (data) {
-            _this46.results = data;
-            _this46.driverModel.name = _this46.results['name'];
-            _this46.driverModel.address = _this46.results['addresss'];
-            _this46.driverModel.number = _this46.results['number'];
-            _this46.driverModel.pancard = _this46.results['panCardNO'];
+            _this47.results = data;
+            _this47.driverModel.name = _this47.results['name'];
+            _this47.driverModel.address = _this47.results['addresss'];
+            _this47.driverModel.number = _this47.results['number'];
+            _this47.driverModel.pancard = _this47.results['panCardNO'];
             console.log(data);
           }, function (error) {});
         }
@@ -11069,7 +11113,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this47 = this;
+          var _this48 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -11086,64 +11130,64 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             this.formData.append('id', this.driverId);
             this.ownerservice.editdrivers(this.formData).subscribe(function (data) {
-              _this47.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
+              _this48.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
 
             }, function (error) {
               // alert('error')
-              _this47.error = error.error['message'];
+              _this48.error = error.error['message'];
 
-              _this47.toaster.error(_this47.error);
+              _this48.toaster.error(_this48.error);
 
-              _this47.formData["delete"];
+              _this48.formData["delete"];
             });
           }
         }
       }, {
         key: "update",
         value: function update() {
-          var _this48 = this;
+          var _this49 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "1");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this48.formData = new FormData();
+            _this49.formData = new FormData();
 
-            _this48.toaster.success("Driver License Front Updated");
+            _this49.toaster.success("Driver License Front Updated");
           }, function (error) {
-            _this48.toaster.success("Unable to Driver License Front");
+            _this49.toaster.success("Unable to Driver License Front");
           });
         }
       }, {
         key: "updateLback",
         value: function updateLback() {
-          var _this49 = this;
+          var _this50 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "2");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this49.formData = new FormData();
+            _this50.formData = new FormData();
 
-            _this49.toaster.success("Driver License Back Updated");
+            _this50.toaster.success("Driver License Back Updated");
           }, function (error) {
-            _this49.toaster.success("Unable to Driver License Back");
+            _this50.toaster.success("Unable to Driver License Back");
           });
         }
       }, {
         key: "updatepPic",
         value: function updatepPic() {
-          var _this50 = this;
+          var _this51 = this;
 
           this.formData.append('image', this.propic);
           this.formData.append('type', "3");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this50.formData = new FormData();
+            _this51.formData = new FormData();
 
-            _this50.toaster.success("Profile Picture Updated");
+            _this51.toaster.success("Profile Picture Updated");
           }, function (error) {
-            _this50.toaster.success("Unable to update Profile Picture");
+            _this51.toaster.success("Unable to update Profile Picture");
           });
         }
       }, {
@@ -11284,14 +11328,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this51 = this;
+          var _this52 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getlicscenceback(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this51.liscenimag = _this51.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this52.liscenimag = _this52.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11440,14 +11484,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this52 = this;
+          var _this53 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getliscncefront(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this52.liscenimag = _this52.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this53.liscenimag = _this53.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11602,7 +11646,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditCarsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this53 = this;
+          var _this54 = this;
 
           this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__["Vehicle"]();
           this.vehicleModel.locality = '';
@@ -11630,7 +11674,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerId = this.ownerdetails['userId'];
           console.log(this.ownerId);
           this.activaterouter.params.subscribe(function (params) {
-            _this53.vehicleId = params.id;
+            _this54.vehicleId = params.id;
           });
           this.getvehiclesDetailsById();
           this.getalllocality();
@@ -11639,46 +11683,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getvehiclesDetailsById",
         value: function getvehiclesDetailsById() {
-          var _this54 = this;
+          var _this55 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vehicleId).subscribe(function (data) {
-            _this54.results = data;
-            _this54.vehicleModel.vehicleCompany = _this54.results['companyName'];
-            _this54.vehicleModel.vehicleType = _this54.results['type'];
-            _this54.vehicleModel.vehicleModel = _this54.results['model'];
-            _this54.vehicleModel.vehicleRegistration = _this54.results['numberPlate'];
-            _this54.vehicleModel.rent = _this54.results['rentPerDay'];
-            _this54.vehicleModel.locality = _this54.results['locality'];
-            _this54.vehicleModel.vehicleYear = _this54.results['year'];
-            _this54.vehicleModel.vRentperHr = _this54.results['rentPerHour'];
-            _this54.vehicleModel.vRentperKm = _this54.results['rentPerKM'];
+            _this55.results = data;
+            _this55.vehicleModel.vehicleCompany = _this55.results['companyName'];
+            _this55.vehicleModel.vehicleType = _this55.results['type'];
+            _this55.vehicleModel.vehicleModel = _this55.results['model'];
+            _this55.vehicleModel.vehicleRegistration = _this55.results['numberPlate'];
+            _this55.vehicleModel.rent = _this55.results['rentPerDay'];
+            _this55.vehicleModel.locality = _this55.results['locality'];
+            _this55.vehicleModel.vehicleYear = _this55.results['year'];
+            _this55.vehicleModel.vRentperHr = _this55.results['rentPerHour'];
+            _this55.vehicleModel.vRentperKm = _this55.results['rentPerKM'];
 
-            if (_this54.results['driverId'] != null) {
-              _this54.vehicleModel.driver = _this54.results['driverId'];
-              _this54.vehicleModel.dRent = _this54.results['driverRentPerKM'];
+            if (_this55.results['driverId'] != null) {
+              _this55.vehicleModel.driver = _this55.results['driverId'];
+              _this55.vehicleModel.dRent = _this55.results['driverRentPerKM'];
             } else {
-              _this54.vehicleModel.driver = '';
+              _this55.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this55 = this;
+          var _this56 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this55.driverslist = data;
-            console.log(_this55.driverslist);
+            _this56.driverslist = data;
+            console.log(_this56.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this56 = this;
+          var _this57 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this56.locations = data;
+            _this57.locations = data;
           }, function (error) {});
         }
       }, {
@@ -11714,7 +11758,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this57 = this;
+          var _this58 = this;
 
           this.submitted = true;
 
@@ -11744,94 +11788,94 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               // this.toaster.success('Vehicle Updated Successfully');
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Updated!', 'Vehicle Updated Successfully', 'success'); // this.router.navigate(['/vehicles'])
             }, function (error) {
-              _this57.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this57.error, 'error');
-              _this57.formData["delete"];
+              _this58.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this58.error, 'error');
+              _this58.formData["delete"];
             });
           }
         }
       }, {
         key: "updateimg1",
         value: function updateimg1() {
-          var _this58 = this;
+          var _this59 = this;
 
           this.formData.append('image', this.image1);
           this.formData.append('type', "1");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this58.formData = new FormData();
-            _this58.files = '';
+            _this59.formData = new FormData();
+            _this59.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
           }, function (error) {
-            _this58.formData["delete"];
+            _this59.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
           });
         }
       }, {
         key: "updateimg2",
         value: function updateimg2() {
-          var _this59 = this;
+          var _this60 = this;
 
           this.formData.append('image', this.image2);
           this.formData.append('type', "2");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this59.formData = new FormData();
-            _this59.files = '';
+            _this60.formData = new FormData();
+            _this60.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 2 Added!', 'Image 2 Added Successfully', 'success');
           }, function (error) {
-            _this59.formData["delete"];
+            _this60.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 2!', 'Unable to add image 2 Successfully', 'error');
           });
         }
       }, {
         key: "updatelicfrnt",
         value: function updatelicfrnt() {
-          var _this60 = this;
+          var _this61 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "3");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this60.formData = new FormData();
-            _this60.files = '';
+            _this61.formData = new FormData();
+            _this61.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Added!', 'License Added Successfully', 'success');
           }, function (error) {
-            _this60.formData["delete"];
+            _this61.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License front!', 'Unable to add License front Successfully', 'error');
           });
         }
       }, {
         key: "updatelicback",
         value: function updatelicback() {
-          var _this61 = this;
+          var _this62 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "4");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this61.formData = new FormData();
-            _this61.files = '';
+            _this62.formData = new FormData();
+            _this62.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Back Added!', 'License Back Added Successfully', 'success');
           }, function (error) {
-            _this61.formData = new FormData();
+            _this62.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License Back!', 'Unable to add License Back Successfully', 'error');
           });
         }
       }, {
         key: "updaterc",
         value: function updaterc() {
-          var _this62 = this;
+          var _this63 = this;
 
           this.formData.append('image', this.rcproof);
           this.formData.append('type', "5");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this62.formData = new FormData();
-            _this62.files = '';
+            _this63.formData = new FormData();
+            _this63.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
           }, function (error) {
-            _this62.formData = new FormData();
+            _this63.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add RC!', 'Unable to add RC Successfully', 'error');
           });
         }
@@ -11963,14 +12007,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this63 = this;
+          var _this64 = this;
 
           if (this.kilometer != null || this.kilometer != undefined) {
             this.formData.append("startingKM", this.kilometer);
             this.formData.append("tripId", this.results['id']);
             console.log(this.formData);
             this.ownerservice.addcurrentkilometer(this.formData).subscribe(function (data) {
-              _this63.dialogRef.close();
+              _this64.dialogRef.close();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Kilometer Added!', 'Kilometer Added Successfully', 'success');
             }, function (error) {
@@ -12118,15 +12162,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getapprovedVehicles",
         value: function getapprovedVehicles() {
-          var _this64 = this;
+          var _this65 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
-            _this64.results = data;
+            _this65.results = data;
 
-            if (_this64.results.length == 0) {
-              _this64.message = 'No Data Found';
+            if (_this65.results.length == 0) {
+              _this65.message = 'No Data Found';
             } else {
-              _this64.message = 'Data Found';
+              _this65.message = 'Data Found';
             }
           }, function (error) {});
         }
@@ -12585,21 +12629,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getpaymentdetailsbyTripIdtripid",
         value: function getpaymentdetailsbyTripIdtripid() {
-          var _this65 = this;
+          var _this66 = this;
 
           this.OwnerService.gettripdetailsbyid(this.tripid).subscribe(function (data) {
             console.log(data);
-            _this65.results = data;
-            _this65.customerName = _this65.results['customerName'];
-            _this65.totalKM = _this65.results['totalKM'];
-            _this65.customerMobile = _this65.results['customerMobile'];
-            _this65.vehicleRent = _this65.results['vehicleRent'];
+            _this66.results = data;
+            _this66.customerName = _this66.results['customerName'];
+            _this66.totalKM = _this66.results['totalKM'];
+            _this66.customerMobile = _this66.results['customerMobile'];
+            _this66.vehicleRent = _this66.results['vehicleRent'];
           }, function (error) {});
         }
       }, {
         key: "collectcash",
         value: function collectcash() {
-          var _this66 = this;
+          var _this67 = this;
 
           this.formData.append('paymentMode', '2');
           this.formData.append('tripId', this.tripid);
@@ -12618,12 +12662,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           this.OwnerService.savePayments(this.formData).subscribe(function (data) {
-            _this66.dialogRef.close();
+            _this67.dialogRef.close();
 
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Amount Collected', 'Amount Collcted Successfully', 'success');
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to Collect Cash!', 'Unable Collct Amount Successfully', 'error');
-            _this66.formData["delete"];
+            _this67.formData["delete"];
           });
         }
       }]);
@@ -12754,10 +12798,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallpayments",
         value: function getallpayments() {
-          var _this67 = this;
+          var _this68 = this;
 
           this.ownerservice.getallpaymentsbnyownerid(this.ownerId, this.page).subscribe(function (data) {
-            _this67.payementresults = data;
+            _this68.payementresults = data;
           }, function (error) {});
         }
       }, {
@@ -12928,24 +12972,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallPendingdata",
         value: function getallPendingdata() {
-          var _this68 = this;
-
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
-            _this68.results = data;
-
-            if (_this68.results.length == 0) {
-              _this68.message = 'No Data Found';
-            } else {
-              _this68.message = 'Data Found';
-            }
-          }, function (error) {});
-        }
-      }, {
-        key: "getallprebookdata",
-        value: function getallprebookdata() {
           var _this69 = this;
 
-          this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
             _this69.results = data;
 
             if (_this69.results.length == 0) {
@@ -12956,11 +12985,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }, function (error) {});
         }
       }, {
-        key: "getallApprovedData",
-        value: function getallApprovedData() {
+        key: "getallprebookdata",
+        value: function getallprebookdata() {
           var _this70 = this;
 
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
             _this70.results = data;
 
             if (_this70.results.length == 0) {
@@ -12971,17 +13000,32 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }, function (error) {});
         }
       }, {
-        key: "getallrejectedData",
-        value: function getallrejectedData() {
+        key: "getallApprovedData",
+        value: function getallApprovedData() {
           var _this71 = this;
 
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
             _this71.results = data;
 
             if (_this71.results.length == 0) {
               _this71.message = 'No Data Found';
             } else {
               _this71.message = 'Data Found';
+            }
+          }, function (error) {});
+        }
+      }, {
+        key: "getallrejectedData",
+        value: function getallrejectedData() {
+          var _this72 = this;
+
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
+            _this72.results = data;
+
+            if (_this72.results.length == 0) {
+              _this72.message = 'No Data Found';
+            } else {
+              _this72.message = 'Data Found';
             }
           }, function (error) {});
         }
@@ -12993,7 +13037,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve(s) {
-          var _this72 = this;
+          var _this73 = this;
 
           console.log(s.id);
           var status = "1";
@@ -13002,7 +13046,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this72.ngOnInit();
+            _this73.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13010,7 +13054,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject(s) {
-          var _this73 = this;
+          var _this74 = this;
 
           console.log(s.id);
           var status = "3";
@@ -13019,7 +13063,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this73.ngOnInit();
+            _this74.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13136,30 +13180,30 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ViewRequestsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this74 = this;
+          var _this75 = this;
 
           this.activaterouter.params.subscribe(function (params) {
             console.log(params.id, params.name);
-            _this74.customerName = params.name;
-            _this74.cId = params.id;
+            _this75.customerName = params.name;
+            _this75.cId = params.id;
           });
           this.getDetails();
         }
       }, {
         key: "getDetails",
         value: function getDetails() {
-          var _this75 = this;
+          var _this76 = this;
 
           this.ownerservice.getapprovalDetaislById(this.cId).subscribe(function (data) {
-            _this75.results = data;
-            _this75.approvalstatus = _this75.results['approvalStatus'];
-            _this75.startingLocation = _this75.results['startingLocation'];
-            _this75.destinationLocation = _this75.results['destinationLocation'];
-            _this75.requestedDate = _this75.results['requestedDate'];
-            _this75.companyName = _this75.results.vehicleForm['companyName'];
-            _this75.model = _this75.results.vehicleForm['model'];
-            _this75.numberPlate = _this75.results.vehicleForm['numberPlate'];
-            _this75.rentPerDay = _this75.results.vehicleForm['rentPerDay'];
+            _this76.results = data;
+            _this76.approvalstatus = _this76.results['approvalStatus'];
+            _this76.startingLocation = _this76.results['startingLocation'];
+            _this76.destinationLocation = _this76.results['destinationLocation'];
+            _this76.requestedDate = _this76.results['requestedDate'];
+            _this76.companyName = _this76.results.vehicleForm['companyName'];
+            _this76.model = _this76.results.vehicleForm['model'];
+            _this76.numberPlate = _this76.results.vehicleForm['numberPlate'];
+            _this76.rentPerDay = _this76.results.vehicleForm['rentPerDay'];
           }, function (error) {});
         }
       }, {
@@ -13170,7 +13214,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve() {
-          var _this76 = this;
+          var _this77 = this;
 
           console.log(this.cId);
           var status = "1";
@@ -13179,7 +13223,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this76.router.navigate(['/request']);
+            _this77.router.navigate(['/request']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13187,7 +13231,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject() {
-          var _this77 = this;
+          var _this78 = this;
 
           console.log(this.cId);
           var status = "3";
@@ -13196,7 +13240,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this77.ngOnInit();
+            _this78.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13340,88 +13384,88 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getimage2",
         value: function getimage2() {
-          var _this78 = this;
+          var _this79 = this;
 
           this.adminService.getimage(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this78.vehicleimage2 = _this78.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this79.vehicleimage2 = _this79.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsByid",
         value: function getvehicleDetailsByid() {
-          var _this79 = this;
+          var _this80 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vId).subscribe(function (data) {
-            _this79.results = data;
-            console.log(_this79.results);
-            _this79.vehicleModel.vehicleCompany = _this79.results['companyName'];
-            _this79.vehicleModel.vehicleType = _this79.results['type'];
-            _this79.vehicleModel.vehicleModel = _this79.results['model'];
-            _this79.vehicleModel.vehicleRegistration = _this79.results['numberPlate'];
-            _this79.vehicleModel.rent = _this79.results['rentPerDay'];
-            _this79.rentperkm = _this79.results['rentPerKM'];
-            _this79.rentPerHour = _this79.results['rentPerHour'];
-            _this79.vehicleModel.locality = _this79.results['locality'];
-            _this79.vehicleModel.vehicleYear = _this79.results['year'];
+            _this80.results = data;
+            console.log(_this80.results);
+            _this80.vehicleModel.vehicleCompany = _this80.results['companyName'];
+            _this80.vehicleModel.vehicleType = _this80.results['type'];
+            _this80.vehicleModel.vehicleModel = _this80.results['model'];
+            _this80.vehicleModel.vehicleRegistration = _this80.results['numberPlate'];
+            _this80.vehicleModel.rent = _this80.results['rentPerDay'];
+            _this80.rentperkm = _this80.results['rentPerKM'];
+            _this80.rentPerHour = _this80.results['rentPerHour'];
+            _this80.vehicleModel.locality = _this80.results['locality'];
+            _this80.vehicleModel.vehicleYear = _this80.results['year'];
 
-            if (_this79.results['driverId'] != null) {
-              _this79.vehicleModel.driver = _this79.results['driverId'];
+            if (_this80.results['driverId'] != null) {
+              _this80.vehicleModel.driver = _this80.results['driverId'];
             } else {
-              _this79.vehicleModel.driver = '';
+              _this80.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getlicencefrnt",
         value: function getlicencefrnt() {
-          var _this80 = this;
+          var _this81 = this;
 
           this.adminService.getlicencefrnt(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this80.liscence1 = _this80.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this81.liscence1 = _this81.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getlicscenceback",
         value: function getlicscenceback() {
-          var _this81 = this;
+          var _this82 = this;
 
           this.adminService.getlicscenceback(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this81.liscence2 = _this81.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this82.liscence2 = _this82.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getrc",
         value: function getrc() {
-          var _this82 = this;
+          var _this83 = this;
 
           this.adminService.getrc(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this82.rc = _this82.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this83.rc = _this83.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsById",
         value: function getvehicleDetailsById() {
-          var _this83 = this;
+          var _this84 = this;
 
           this.adminService.getVehicleDetailsbyId(this.vId).subscribe(function (data) {
-            _this83.DriverDetailsofCar = data['driver'];
-            console.log(_this83.DriverDetailsofCar);
-            _this83.vehicleModel.dname = _this83.DriverDetailsofCar['name'];
-            _this83.vehicleModel.dnumber = _this83.DriverDetailsofCar['number'];
-            _this83.vehicleModel.daddreess = _this83.DriverDetailsofCar['addresss'];
-            _this83.id = _this83.DriverDetailsofCar['id'];
+            _this84.DriverDetailsofCar = data['driver'];
+            console.log(_this84.DriverDetailsofCar);
+            _this84.vehicleModel.dname = _this84.DriverDetailsofCar['name'];
+            _this84.vehicleModel.dnumber = _this84.DriverDetailsofCar['number'];
+            _this84.vehicleModel.daddreess = _this84.DriverDetailsofCar['addresss'];
+            _this84.id = _this84.DriverDetailsofCar['id'];
           }, function (error) {});
         }
       }]);
@@ -13551,17 +13595,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallcarsbyowers",
         value: function getallcarsbyowers() {
-          var _this84 = this;
+          var _this85 = this;
 
           this.ownerserivice.getallcars(this.userId).subscribe(function (data) {
-            _this84.carList = data;
-            _this84.errormessage = "data found";
+            _this85.carList = data;
+            _this85.errormessage = "data found";
 
-            if (_this84.carList.length == 0) {
-              _this84.errormessage = "No data found";
+            if (_this85.carList.length == 0) {
+              _this85.errormessage = "No data found";
             }
           }, function (error) {
-            _this84.errormessage = "No data found";
+            _this85.errormessage = "No data found";
           });
         }
       }, {
@@ -13583,19 +13627,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "changeFilter",
         value: function changeFilter(s) {
-          var _this85 = this;
+          var _this86 = this;
 
           console.log(s);
           this.ownerserivice.getFilterOptionsVehicles(s, this.userId).subscribe(function (data) {
-            _this85.carList = data;
-            _this85.errormessage = "data found";
+            _this86.carList = data;
+            _this86.errormessage = "data found";
 
-            if (_this85.carList.length == 0) {
-              _this85.errormessage = "No data found";
+            if (_this86.carList.length == 0) {
+              _this86.errormessage = "No data found";
             }
           }, function (error) {
-            _this85.carList = [];
-            _this85.errormessage = "No data found";
+            _this86.carList = [];
+            _this86.errormessage = "No data found";
           });
         }
       }]);
@@ -13707,12 +13751,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallvehiclefortracking",
         value: function getallvehiclefortracking() {
-          var _this86 = this;
+          var _this87 = this;
 
           this.userDetails = JSON.parse(localStorage.getItem('userDetail'));
           this.userId = this.userDetails['userId'];
           this.ownerservice.getallvechilcetracking(this.userId, this.page).subscribe(function (data) {
-            _this86.result = data;
+            _this87.result = data;
           }, function (error) {});
         }
       }]);
@@ -13998,7 +14042,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this87 = this;
+          var _this88 = this;
 
           var req = {
             "mobilenumber": this.registerModel.mobNo,
@@ -14006,11 +14050,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           sessionStorage.setItem("mobileandemail", JSON.stringify(req));
           this.loginservice.sendotp(this.registerModel.mobNo, this.registerModel.email).subscribe(function (data) {
-            _this87.router.navigate(['/verifyotp']);
+            _this88.router.navigate(['/verifyotp']);
           }, function (error) {
             console.log(error.error['message']);
 
-            _this87.toaster.error(error.error['message']);
+            _this88.toaster.error(error.error['message']);
           });
         }
       }]);
@@ -14210,7 +14254,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this88 = this;
+          var _this89 = this;
 
           // alert('User Registration successfully');
           // console.log(this.registerForm.value);
@@ -14228,14 +14272,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           console.log(req);
           this.loginservice.register(req).subscribe(function (data) {
-            _this88.toaster.success('Register Successfully');
+            _this89.toaster.success('Register Successfully');
 
-            _this88.router.navigate(['/login']);
+            _this89.router.navigate(['/login']);
           }, function (error) {
-            _this88.error = error.error['message'];
-            console.log(_this88.error);
+            _this89.error = error.error['message'];
+            console.log(_this89.error);
 
-            _this88.toaster.error(_this88.error);
+            _this89.toaster.error(_this89.error);
           });
         }
       }]);
@@ -14370,15 +14414,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this89 = this;
+          var _this90 = this;
 
           var mobnumber = JSON.parse(sessionStorage.getItem("mobileandemail"));
           this.loginservice.verifyotp(this.registerModel.mobNo, mobnumber['mobilenumber']).subscribe(function (data) {
-            _this89.router.navigate(['/register']);
+            _this90.router.navigate(['/register']);
 
-            _this89.toaster.error("OTP Verified");
+            _this90.toaster.error("OTP Verified");
           }, function (error) {
-            _this89.toaster.error("Invalid OTP");
+            _this90.toaster.error("Invalid OTP");
           });
         }
       }]);
@@ -14611,7 +14655,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this90 = this;
+          var _this91 = this;
 
           this.submitted = true;
 
@@ -14630,10 +14674,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append("city", this.registerModel.locality);
             this.loginservice.userpublicregister(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Registration Completed!', 'Registered Successfully', 'success');
-              _this90.formData["delete"];
+              _this91.formData["delete"];
               window.location.reload();
             }, function (error) {
-              _this90.formData["delete"];
+              _this91.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Register!', 'Server is busy at this moment', 'error');
             });
           }
@@ -14978,10 +15022,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this91 = this;
+          var _this92 = this;
 
           this.adminservice.getallusers(this.page).subscribe(function (data) {
-            _this91.results = data;
+            _this92.results = data;
           }, function (error) {});
         }
       }]);

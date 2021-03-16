@@ -71,7 +71,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n<div class=\"page-wrapper\" style=\"margin-top: 33px;\">\r\n\r\n\r\n\r\n\r\n    <div class=\"content\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4 col-3\">\r\n                <!-- <h4 class=\"page-title\">Vehicle Mangement</h4> -->\r\n                <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Mangement</h1>\r\n\r\n            </div>\r\n\r\n\r\n            <div class=\"col-sm-8 col-9 text-right m-b-20\">\r\n\r\n                <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;\" (click)=\"addcompany()\"><i\r\n                        class=\"fa fa-plus\"></i> </a> -->\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n\r\n\r\n            <div class=\"table-responsive\">\r\n                <!-- <div class=\"row\">\r\n                    <div class=\"col-sm-4\">\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-4\"></div>\r\n                    <div class=\"col-sm-4\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"search here\" [(ngModel)]=\"searchString\"\r\n                            (keyup)=\"applyFilter(searchString)\">\r\n\r\n\r\n\r\n                    </div>\r\n                </div> -->\r\n                <div class=\"col-sm-12\">\r\n                    <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\r\n                        <mat-tab label=\"Pending\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <div class=\"row\" style=\"padding: 5px;\">\r\n                                            <button class=\"btn btn-success\" style=\"margin-right: 1px;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\r\n                                            <button class=\"btn btn-danger\" style=\" \" (click)=\"reject(results)\"><i class=\"fa fa-times\" aria-hidden=\"true\"></i> Reject</button>\r\n\r\n                                        </div>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <h5 *ngIf=\"message == 'No data found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                        </mat-tab>\r\n\r\n\r\n\r\n                        <mat-tab label=\"Accepted\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"><i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <h5 *ngIf=\"message == 'No data found'\" style=\"     margin-top: 100px;   text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                        </mat-tab>\r\n\r\n\r\n                        <mat-tab label=\"Rejected\">\r\n                            <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <!-- </mat-card> -->\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </mat-tab>\r\n                        <h5 *ngIf=\"message == 'No data found'\" style=\"     margin-top: 100px;   text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab-group>\r\n                    <!-- <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"vname\">\r\n                            <mat-header-cell *matHeaderCellDef>Vehicle Name </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \">{{element.model}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"vnumber\">\r\n                            <mat-header-cell *matHeaderCellDef>Vehicle Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.numberPlate}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"name\">\r\n                            <mat-header-cell *matHeaderCellDef> Company Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.companyName}}</mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"view\">\r\n                            <mat-header-cell *matHeaderCellDef> View Details</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> <button (click)=\"view(element)\" class=\"btn btn-warning\">View</button></mat-cell>\r\n                        </ng-container>\r\n\r\n                        <ng-container matColumnDef=\"approve\">\r\n                            <mat-header-cell *matHeaderCellDef> Approve / Reject</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">\r\n                                <button class=\"btn btn-danger\" (click)=\"approve(element)\">Approve</button> &nbsp;\r\n                                <button class=\"btn btn-dark\" (click)=\"reject(element)\">Reject</button>\r\n\r\n                            </mat-cell>\r\n                        </ng-container>\r\n\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" (page)=\"changePage($event)\">\r\n                    </mat-paginator> -->\r\n\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n<div class=\"page-wrapper\" style=\"margin-top: 33px;\">\r\n\r\n\r\n\r\n\r\n    <div class=\"content\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4 col-3\">\r\n                <!-- <h4 class=\"page-title\">Vehicle Mangement</h4> -->\r\n                <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Mangement</h1>\r\n\r\n            </div>\r\n\r\n\r\n            <div class=\"col-sm-8 col-9 text-right m-b-20\">\r\n\r\n                <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;\" (click)=\"addcompany()\"><i\r\n                        class=\"fa fa-plus\"></i> </a> -->\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n\r\n\r\n            <div class=\"table-responsive\">\r\n                <!-- <div class=\"row\">\r\n                    <div class=\"col-sm-4\">\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-4\"></div>\r\n                    <div class=\"col-sm-4\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"search here\" [(ngModel)]=\"searchString\"\r\n                            (keyup)=\"applyFilter(searchString)\">\r\n\r\n\r\n\r\n                    </div>\r\n                </div> -->\r\n                <div class=\"col-sm-12\">\r\n                    <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\r\n                        <mat-tab label=\"Pending\">\r\n                            <!-- <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        <div class=\"row\" style=\"padding: 5px;\">\r\n                                            <button class=\"btn btn-success\" style=\"margin-right: 1px;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\r\n                                            <button class=\"btn btn-danger\" style=\" \" (click)=\"reject(results)\"><i class=\"fa fa-times\" aria-hidden=\"true\"></i> Reject</button>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div> -->\r\n                            <div class=\"table-responsive\">\r\n                                <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                    <thead style=\" color: #fff; background: #3158c8; \">\r\n                                        <tr>\r\n                                            <th>Company Name</th>\r\n                                            <th>Vehicle Name</th>\r\n                                            <th>Locality </th>\r\n                                            <th>Rent</th>\r\n                                            <th>Action </th>\r\n\r\n\r\n                                        </tr>\r\n                                    </thead>\r\n\r\n                                    <tbody>\r\n                                        <tr *ngFor=\"let b of results\">\r\n                                            <td>{{b.companyName}}</td>\r\n                                            <td>{{b.model}}</td>\r\n\r\n                                            <td>{{b.locationName}}</td>\r\n                                            <td>\r\n                                                <p *ngIf=\"b.rentPerDay == null\">{{b.rentPerKM}}/km</p>\r\n                                                <p *ngIf=\"b.rentPerKM == null\">{{b.rentPerDay}}/day</p>\r\n                                            </td>\r\n                                            <td>\r\n\r\n                                                <button class=\"btn btn-dark\" style=\"\" (click)=\"view(b)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button> &nbsp;\r\n                                                <button class=\"btn btn-success\" style=\"\" (click)=\"approve(b)\"><i class=\"fa fa-check\"></i> Approve</button>&nbsp;\r\n                                                <button class=\"btn btn-danger\" style=\" \" (click)=\"reject(b)\"><i class=\"fa fa-times\" aria-hidden=\"true\"></i> Reject</button>\r\n\r\n                                            </td>\r\n\r\n\r\n                                        </tr>\r\n\r\n                                    </tbody>\r\n                                </table>\r\n                            </div>\r\n\r\n\r\n                            <h5 *ngIf=\"message == 'No data found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                        </mat-tab>\r\n\r\n\r\n\r\n                        <mat-tab label=\"Accepted\">\r\n                            <!-- <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                 \r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"><i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                     \r\n                                    </div>\r\n                                </div>\r\n                            </div> -->\r\n                            <div class=\"table-responsive\">\r\n                                <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                    <thead style=\" color: #fff; background: #3158c8; \">\r\n                                        <tr>\r\n                                            <th>Company Name</th>\r\n                                            <th>Vehicle Name</th>\r\n                                            <th>Locality </th>\r\n                                            <th>Rent</th>\r\n                                            <th>Action </th>\r\n\r\n\r\n                                        </tr>\r\n                                    </thead>\r\n\r\n                                    <tbody>\r\n                                        <tr *ngFor=\"let b of results\">\r\n                                            <td>{{b.companyName}}</td>\r\n                                            <td>{{b.model}}</td>\r\n\r\n                                            <td>{{b.locationName}}</td>\r\n                                            <td>\r\n                                                <p *ngIf=\"b.rentPerDay == null\">{{b.rentPerKM}}/km</p>\r\n                                                <p *ngIf=\"b.rentPerKM == null\">{{b.rentPerDay}}/day</p>\r\n                                            </td>\r\n                                            <td>\r\n\r\n                                                <button class=\"btn btn-dark\" (click)=\"view(b)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button> &nbsp;\r\n\r\n                                            </td>\r\n\r\n\r\n                                        </tr>\r\n\r\n                                    </tbody>\r\n                                </table>\r\n                            </div>\r\n                            <h5 *ngIf=\"message == 'No data found'\" style=\"     margin-top: 100px;   text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                        </mat-tab>\r\n\r\n\r\n                        <mat-tab label=\"Rejected\">\r\n                            <!-- <div class=\"row\" style=\"margin-top: 10px;\">\r\n                                <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                   \r\n                                    <div class=\"card\">\r\n                                        <img src=\"{{apiurl}}vehicle/getImage1/{{results.id}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                        <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                        <p style=\"text-align: center;\"><i class=\"fa fa-map-marker\"></i> {{results.locationName }}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per hour :{{results.rentPerHour}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour != null\">Ren Per KM :{{results.rentPerKM}}</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per hour : No Data</p>\r\n                                        <p style=\"text-align: center;\" *ngIf=\"results.rentPerHour == null\">Ren Per KM : No Data</p>\r\n\r\n                                        &nbsp;\r\n                                        <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button>\r\n                                        \r\n                                    </div>\r\n                                </div>\r\n                            </div> -->\r\n                            <div class=\"table-responsive\">\r\n                                <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                    <thead style=\" color: #fff; background: #3158c8; \">\r\n                                        <tr>\r\n                                            <th>Company Name</th>\r\n                                            <th>Vehicle Name</th>\r\n                                            <th>Locality </th>\r\n                                            <th>Rent</th>\r\n                                            <th>Action </th>\r\n\r\n\r\n                                        </tr>\r\n                                    </thead>\r\n\r\n                                    <tbody>\r\n                                        <tr *ngFor=\"let b of results\">\r\n                                            <td>{{b.companyName}}</td>\r\n                                            <td>{{b.model}}</td>\r\n\r\n                                            <td>{{b.locationName}}</td>\r\n                                            <td>\r\n                                                <p *ngIf=\"b.rentPerDay == null\">{{b.rentPerKM}}/km</p>\r\n                                                <p *ngIf=\"b.rentPerKM == null\">{{b.rentPerDay}}/day</p>\r\n                                            </td>\r\n                                            <td>\r\n\r\n                                                <button class=\"btn btn-dark\" (click)=\"view(b)\"> <i class=\"fa fa-eye\"></i> View Vehicle</button> &nbsp;\r\n\r\n                                            </td>\r\n\r\n\r\n                                        </tr>\r\n\r\n                                    </tbody>\r\n                                </table>\r\n                            </div>\r\n                        </mat-tab>\r\n                        <h5 *ngIf=\"message == 'No data found'\" style=\"     margin-top: 100px;   text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab-group>\r\n                    <!-- <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"vname\">\r\n                            <mat-header-cell *matHeaderCellDef>Vehicle Name </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \">{{element.model}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"vnumber\">\r\n                            <mat-header-cell *matHeaderCellDef>Vehicle Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.numberPlate}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"name\">\r\n                            <mat-header-cell *matHeaderCellDef> Company Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.companyName}}</mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"view\">\r\n                            <mat-header-cell *matHeaderCellDef> View Details</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> <button (click)=\"view(element)\" class=\"btn btn-warning\">View</button></mat-cell>\r\n                        </ng-container>\r\n\r\n                        <ng-container matColumnDef=\"approve\">\r\n                            <mat-header-cell *matHeaderCellDef> Approve / Reject</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">\r\n                                <button class=\"btn btn-danger\" (click)=\"approve(element)\">Approve</button> &nbsp;\r\n                                <button class=\"btn btn-dark\" (click)=\"reject(element)\">Reject</button>\r\n\r\n                            </mat-cell>\r\n                        </ng-container>\r\n\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" (page)=\"changePage($event)\">\r\n                    </mat-paginator> -->\r\n\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -91,7 +91,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<app-sidebar></app-sidebar>\r\n<!-- \r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n                <h3>Vehicle Details</h3>\r\n                <hr>\r\n\r\n            </div>\r\n\r\n            <div class=\"col-sm-12\">\r\n                <img src=\"{{apiurl}}vehicle/getImage1/{{vehicleID}}\" alt=\"\" style=\"    width: 124px;\">\r\n                <hr style=\"    width: 52%;\r\n                margin-right: auto;\r\n                margin-left: auto;\r\n                display: block;\">\r\n            </div>\r\n          \r\n            <div class=\"col-sm-12\">\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-industry\"></i> &nbsp; Comapny Name : {{vehicleModel.vehicleCompany}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-registered\"></i> &nbsp; Vehicle Registration :\r\n                        {{vehicleModel.vehicleRegistration}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Model :\r\n                        {{vehicleModel.vehicleModel}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-map-marker\"></i> &nbsp; Location :\r\n                        {{vehicleModel.locality}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-calendar\"></i> &nbsp; Vehicle Year :\r\n                        {{vehicleModel.vehicleYear}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Front</p>\r\n                    <img [src]=\"liscence1\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Back</p>\r\n                    <img [src]=\"liscence2\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>  <mat-card>\r\n                    <p>RC Book</p>\r\n                    <img [src]=\"rc\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div> -->\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <h4>Vehicle <span style=\"color: #ffa800;\">Details</span> </h4>\r\n        <hr>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-8\">\r\n\r\n                <!-- <mat-card> -->\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <h5 style=\"text-align: center;\">{{vehicleModel.vehicleCompany}},{{vehicleModel.vehicleModel}}</h5>\r\n\r\n                            <hr>\r\n                        </div>\r\n                        <!-- <div class=\"col-sm-3\">\r\n                            <p style=\"\r\n                           background: #ffcb67;\r\n                            border-radius: 125px;\r\n                            padding: 3px;\r\n                        \">{{vehicleModel.vehicleModel}}</p>\r\n                        </div> -->\r\n\r\n                    </div>\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}vehicle/getImage1/{{vehicleID}}\" alt=\"\" style=\"     width: 200px; height: 186px;  \">\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"><i class=\"fa fa-car\"></i>&nbsp;Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-registered\"></i>&nbsp; Registration Number : {{vehicleModel.vehicleRegistration}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Location : {{vehicleModel.locality}}\r\n                            </p>\r\n                            <hr>\r\n                            <h6>Rent Details</h6>\r\n                            &nbsp;\r\n                            <p *ngIf=\"rentperhour != null\" style=\"    text-align: left;\"><i class=\"fa fa-inr\"></i>&nbsp; Rent Per Hour : {{rentperhour}}\r\n                            </p>\r\n                            <p *ngIf=\"vehicleModel.rent != null\" style=\"    text-align: left;\"><i class=\"fa fa-calendar\"></i>&nbsp; Rent Per Day : {{vehicleModel.rent}}\r\n                            </p>\r\n                            <p *ngIf=\"rentperkm != null\" style=\"    text-align: left;\"><i class=\"fa fa-road\"></i>&nbsp; Rent Per KM : {{rentperkm}}\r\n                            </p>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}driver/getProfilePic/{{driverDetails}}\" alt=\"\" />\r\n\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <h6>Driver Details</h6>\r\n                            <hr>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-user\"></i>&nbsp;Driver Name : {{vehicleModel.dname}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-phone\"></i>&nbsp;Contact Number : {{vehicleModel.dnumber}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-map-marker\"></i>&nbsp;Driver Address : {{vehicleModel.daddreess}}</p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-id-card\"></i>&nbsp;Driver Pancard {{driverpancard}}</p>\r\n\r\n                            <p *ngIf=\"DriverDetailsofCar ==null\"> No Driver is linked to this vehicle!</p>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n                <div class=\"card\" *ngIf=\"vehiclestatus == 'PENDING'\">\r\n\r\n                    <div class=\"row\">\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <h6>Vehicle Approve or Reject</h6>\r\n                            <hr>\r\n                            <p>Please verify the above documents and then approve or reject vehicles</p>\r\n\r\n                            <button class=\"btn btn-success\" (click)=\"approve()\">Approve</button>\r\n                            <button class=\"btn btn-danger\" (click)=\"reject()\">Reject</button>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <div class=\"card\">\r\n                    <h6> Vehicle Documents </h6>\r\n                    <hr>\r\n                    <p>License Front</p>\r\n                    <!-- <button (click)=\"open()\" download=\"file.txt\">\r\n                        Download\r\n                    </button> -->\r\n                    <a [href]=\"liscence1\" download=\"liscence1\">Download License Front</a>\r\n\r\n                    <!-- <img [src]=\"liscence1\" alt=\"\"> &nbsp; &nbsp; &nbsp; -->\r\n\r\n                    <p>License Back</p>\r\n                    &nbsp; &nbsp; &nbsp;\r\n                    <!-- <img [src]=\"liscence2\" alt=\"\"> &nbsp; &nbsp; &nbsp; -->\r\n                    <a [href]=\"liscence2\" download=\"liscence2\">Download License Back</a>\r\n\r\n                    <p>RC Book</p>\r\n                    &nbsp; &nbsp; &nbsp;\r\n\r\n                    <!-- <img [src]=\"rc\" alt=\"\"> -->\r\n                    <a [href]=\"rc\" download=\"rc\">Download RC Book</a>\r\n\r\n                </div>\r\n                <div class=\"card\" *ngIf=\"DriverDetailsofCar !=null\">\r\n                    <h6>Driver Documents</h6>\r\n                    <p>License Front</p>\r\n                    <a [href]=\"liscenimag\" download=\"liscenimag\">Download Driver License Front</a>\r\n\r\n                    <p>License Back</p>\r\n                    <a [href]=\"liscenimagback\" download=\"liscenimagback\">Download Driver License Back</a>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<app-sidebar></app-sidebar>\r\n<!-- \r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n                <h3>Vehicle Details</h3>\r\n                <hr>\r\n\r\n            </div>\r\n\r\n            <div class=\"col-sm-12\">\r\n                <img src=\"{{apiurl}}vehicle/getImage1/{{vehicleID}}\" alt=\"\" style=\"    width: 124px;\">\r\n                <hr style=\"    width: 52%;\r\n                margin-right: auto;\r\n                margin-left: auto;\r\n                display: block;\">\r\n            </div>\r\n          \r\n            <div class=\"col-sm-12\">\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-industry\"></i> &nbsp; Comapny Name : {{vehicleModel.vehicleCompany}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-registered\"></i> &nbsp; Vehicle Registration :\r\n                        {{vehicleModel.vehicleRegistration}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Model :\r\n                        {{vehicleModel.vehicleModel}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-map-marker\"></i> &nbsp; Location :\r\n                        {{vehicleModel.locality}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-calendar\"></i> &nbsp; Vehicle Year :\r\n                        {{vehicleModel.vehicleYear}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Front</p>\r\n                    <img [src]=\"liscence1\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Back</p>\r\n                    <img [src]=\"liscence2\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>  <mat-card>\r\n                    <p>RC Book</p>\r\n                    <img [src]=\"rc\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div> -->\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <!-- <h4>Vehicle <span style=\"color: #ffa800;\">Details</span> </h4>\r\n        <hr> -->\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-8\">\r\n\r\n                <!-- <mat-card> -->\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <h3>Vehicle <em style=\"    font-style: normal;\r\n                                color: #ffd000;\"> Details</em> </h3>\r\n\r\n                            <hr>\r\n                        </div>\r\n                        <!-- <div class=\"col-sm-3\">\r\n                            <p style=\"\r\n                           background: #ffcb67;\r\n                            border-radius: 125px;\r\n                            padding: 3px;\r\n                        \">{{vehicleModel.vehicleModel}}</p>\r\n                        </div> -->\r\n\r\n                    </div>\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}vehicle/getImage1/{{vehicleID}}\" alt=\"\" style=\"     width: 200px; height: 186px;  \">\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"> <i class=\"fa fa-car\"></i>&nbsp;Vehicle Name : {{vehicleModel.vehicleCompany}},{{vehicleModel.vehicleModel}}</p>\r\n\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"><i class=\"fa fa-car\"></i>&nbsp;Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"><i class=\"fa fa-user\"></i>&nbsp;Owner Name : {{ownername}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-registered\"></i>&nbsp; Registration Number : {{vehicleModel.vehicleRegistration}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Location : {{vehicleModel.locality}}\r\n                            </p>\r\n                            <p *ngIf=\"pickUpAddress == null\" style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Pick Up Address : {{gpsAddress}}</p>\r\n                            <p *ngIf=\"gpsAddress == null\" style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Pick Up Address : {{pickUpAddress}}</p>\r\n\r\n                            <hr>\r\n                            <h6>Rent Details</h6>\r\n                            &nbsp;\r\n                            <p *ngIf=\"rentperhour != null\" style=\"    text-align: left;\"><i class=\"fa fa-inr\"></i>&nbsp; Rent Per Hour : {{rentperhour}}\r\n                            </p>\r\n                            <p *ngIf=\"vehicleModel.rent != null\" style=\"    text-align: left;\"><i class=\"fa fa-calendar\"></i>&nbsp; Rent Per Day : {{vehicleModel.rent}}\r\n                            </p>\r\n                            <p *ngIf=\"rentperkm != null\" style=\"    text-align: left;\"><i class=\"fa fa-road\"></i>&nbsp; Rent Per KM : {{rentperkm}}\r\n                            </p>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}driver/getProfilePic/{{driverDetails}}\" alt=\"\" />\r\n\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <h6>Driver Details</h6>\r\n                            <hr>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-user\"></i>&nbsp;Driver Name : {{vehicleModel.dname}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-phone\"></i>&nbsp;Contact Number : {{vehicleModel.dnumber}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-map-marker\"></i>&nbsp;Driver Address : {{vehicleModel.daddreess}}</p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-id-card\"></i>&nbsp;Driver Pancard {{driverpancard}}</p>\r\n\r\n                            <p *ngIf=\"DriverDetailsofCar ==null\"> No Driver is linked to this vehicle!</p>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n                <div class=\"card\" *ngIf=\"vehiclestatus == 'PENDING'\">\r\n\r\n                    <div class=\"row\">\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <h6>Vehicle Approve or Reject</h6>\r\n                            <hr>\r\n                            <p>Please verify the above documents and then approve or reject vehicles</p>\r\n\r\n                            <button class=\"btn btn-success\" (click)=\"approve()\">Approve</button>\r\n                            <button class=\"btn btn-danger\" (click)=\"reject()\">Reject</button>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <div class=\"card\">\r\n                    <h6> Vehicle Documents </h6>\r\n                    <hr>\r\n                    <p>License Front</p>\r\n                    <!-- <button (click)=\"open()\" download=\"file.txt\">\r\n                        Download\r\n                    </button> -->\r\n                    <a [href]=\"liscence1\" download=\"liscence1\">Download License Front</a>\r\n\r\n                    <!-- <img [src]=\"liscence1\" alt=\"\"> &nbsp; &nbsp; &nbsp; -->\r\n\r\n                    <p>License Back</p>\r\n                    &nbsp; &nbsp; &nbsp;\r\n                    <!-- <img [src]=\"liscence2\" alt=\"\"> &nbsp; &nbsp; &nbsp; -->\r\n                    <a [href]=\"liscence2\" download=\"liscence2\">Download License Back</a>\r\n\r\n                    <p>RC Book</p>\r\n                    &nbsp; &nbsp; &nbsp;\r\n\r\n                    <!-- <img [src]=\"rc\" alt=\"\"> -->\r\n                    <a [href]=\"rc\" download=\"rc\">Download RC Book</a>\r\n\r\n                </div>\r\n                <div class=\"card\" *ngIf=\"DriverDetailsofCar !=null\">\r\n                    <h6>Driver Documents</h6>\r\n                    <p>License Front</p>\r\n                    <a [href]=\"liscenimag\" download=\"liscenimag\">Download Driver License Front</a>\r\n\r\n                    <p>License Back</p>\r\n                    <a [href]=\"liscenimagback\" download=\"liscenimagback\">Download Driver License Back</a>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -171,7 +171,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">Cancelled Bookings </h1>\n\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">From Date</label>\n                        <input type=\"date\" class=\"form-control\" (change)=\"fromdate($event)\">\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">To Date</label>\n\n                        <input type=\"date\" class=\"form-control\" (change)=\"todate($event)\">\n\n                    </div>\n                </div>\n\n\n                <!-- DataTales Example -->\n                <div class=\"card shadow mb-4\">\n\n                    <div class=\"card-body\">\n                        <div class=\"table-responsive\">\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n                                <thead style=\" color: #fff; background: #3158c8; \">\n                                    <tr>\n                                        <th>Customer Name</th>\n                                        <th>Starting Location</th>\n                                        <th>Destination Location </th>\n                                        <th>Requested Date</th>\n                                        <th>Vehicle Model </th>\n\n\n                                    </tr>\n                                </thead>\n\n                                <tbody>\n                                    <tr *ngFor=\"let b of cancelledbookings\">\n                                        <td>{{b.customerName}}</td>\n                                        <td>{{b.startingLocation}}</td>\n                                        <td>{{b.destinationLocation}}</td>\n                                        <td>{{b.requestedDate}} - {{b.requestEndDate}} </td>\n                                        <td>{{b.model}}</td>\n\n\n                                    </tr>\n\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">Cancelled Bookings </h1>\n\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">From Date</label>\n                        <input type=\"date\" class=\"form-control\" (change)=\"fromdate($event)\">\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">To Date</label>\n\n                        <input type=\"date\" class=\"form-control\" (change)=\"todate($event)\">\n\n                    </div>\n                </div>\n\n\n                <!-- DataTales Example -->\n                <div class=\"card shadow mb-4\">\n\n                    <div class=\"card-body\">\n                        <div class=\"table-responsive\">\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n                                <thead style=\" color: #fff; background: #3158c8; \">\n                                    <tr>\n                                        <th>Customer Name</th>\n                                        <th>Starting Location</th>\n                                        <th>Destination Location </th>\n                                        <th>Requested Date</th>\n                                        <th>Vehicle Model </th>\n                                        <th>Payment Status</th>\n\n\n                                    </tr>\n                                </thead>\n\n                                <tbody>\n                                    <tr *ngFor=\"let b of cancelledbookings\">\n                                        <td>{{b.customerName}}</td>\n                                        <td>{{b.startingLocation}}</td>\n                                        <td>{{b.destinationLocation}}</td>\n                                        <td>{{b.requestedDate}} - {{b.requestEndDate}} </td>\n                                        <td>{{b.model}}</td>\n                                        <td *ngIf=\"b.paymentMode == null\"> No Payment</td>\n                                        <td *ngIf=\"b.paymentMode == 1\"> Online Payment</td>\n                                        <td *ngIf=\"b.paymentMode == 2\"> Direct Payment</td>\n\n\n\n\n                                    </tr>\n\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
     /***/
   },
 
@@ -351,7 +351,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <mat-sidenav-container>\r\n    <mat-sidenav mode=\"side\" opened=\"true\" [fixedInViewport]=\"true\" [fixedTopGap]=\"64\">\r\n        <ul>\r\n            <li routerLink=\"/admin\" routerLinkActive=\"active\">Home</li>\r\n\r\n            <li *ngIf=\"userRole == 'ADMIN'\" routerLink=\"/countries\" routerLinkActive=\"active\">Countries</li>\r\n\r\n        </ul>\r\n    </mat-sidenav>\r\n\r\n</mat-sidenav-container> -->\r\n<!-- \r\n<div class=\"sidebar\" id=\"sidebar\">\r\n    <div class=\"sidebar-inner slimscroll\" style=\"overflow-y: auto;\">\r\n        <div id=\"sidebar-menu\" class=\"sidebar-menu\">\r\n            <ul *ngIf=\"userRole == 'ADMIN'\">\r\n\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong>  Admin</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user\"></i> <span>Owners</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/locations\"><i class=\"fa fa-map-marker\"></i> <span>Locality</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-vehicles\"><i class=\"fa fa-car\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-paymentreports\"><i class=\"fa fa-inr\"></i> <span>Payment Reports</span></a>\r\n                </li>\r\n\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n            <ul *ngIf=\"userRole=='OWNER'\">\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong> Owner</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user-md\"></i> <span>Home</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Terms & Conditions</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Privacy</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Help and Support</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n<ul class=\"navbar-nav bg-gradient-primary sidebar sidebar-dark \" id=\"accordionSidebar\" style=\"position: fixed;\">\r\n\r\n    <a class=\"sidebar-brand d-flex align-items-center justify-content-center\" href=\"index.html\">\r\n        <div class=\"sidebar-brand-icon rotate-n-15\">\r\n            <i class=\"fas fa-laugh-wink\"></i>\r\n        </div>\r\n        <div class=\"sidebar-brand-text mx-3\"> <sup></sup></div>\r\n    </a>\r\n\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/dashboardwhite.png\" alt=\"\"> Dashboard\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicles\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-car \"></i> -->\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-vehicles\">\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/cancelled-bookings\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Cancelled Bookings\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicletracking\">\r\n            <!-- <i class=\"fa fa-map-marker \"></i>\r\n            <span>Vehicle Tracking</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Vehicle Tracking\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/drivers\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Driver Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-paymentreports\">\r\n            <!-- <i class=\"fa fa-clipboard \"></i>\r\n            <span>Payment Reports</span></a> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/paymentwhite.png\" alt=\"\"> Payment Reports\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/request\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Request\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/handovervehicles\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 30px !important;\"> Handover Vehicle\r\n\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/bankdetails\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"      padding-right: 8px;  font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n\r\n\r\n\r\n\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/allbanks\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"       padding-right: 8px; font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/chatsandfeebacks\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/add-feedback\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-envelope\" style=\"    font-size: 14px;\r\n                margin-right: 3px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Add feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/locations\">\r\n            <!-- <i class=\"fa fa-map-marker\"></i>\r\n            <span>Location</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-map-marker\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i> -->\r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Location Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <!-- <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n           \r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n              \r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Payments\r\n\r\n            </div>\r\n        </a>\r\n    </li> -->\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\">\r\n            <!-- <i class=\"fa fa-wrench\"></i>\r\n            <span>Users</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-user\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Users\r\n\r\n                <i class=\"fa fa-angle-down\" style=\"float: right;\r\n                font-size: 26px;\"></i>\r\n            </div>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <a class=\"collapse-item\" routerLink=\"/users\"> Owners</a>\r\n                <a class=\"collapse-item\" routerLink=\"/carrenters\"> Renters </a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-resetpassword\">\r\n            <!-- <i class=\"fa fa-key\"></i>\r\n            <span>Reset Password</span> -->\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-key\" style=\"     font-size: 18px;\r\n                margin-right: 0px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/passwordwhite.png\" alt=\"\"> Reset Password\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n\r\n    <!-- \r\n    <div class=\"sidebar-heading\">\r\n        Interface\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">\r\n            <i class=\"fas fa-fw fa-cog\"></i>\r\n            <span>Components</span>\r\n        </a>\r\n        <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Components:</h6>\r\n                <a class=\"collapse-item\" href=\"buttons.html\">Buttons</a>\r\n                <a class=\"collapse-item\" href=\"cards.html\">Cards</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\" aria-controls=\"collapseUtilities\">\r\n            <i class=\"fas fa-fw fa-wrench\"></i>\r\n            <span>Utilities</span>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Utilities:</h6>\r\n                <a class=\"collapse-item\" href=\"utilities-color.html\">Colors</a>\r\n                <a class=\"collapse-item\" href=\"utilities-border.html\">Borders</a>\r\n                <a class=\"collapse-item\" href=\"utilities-animation.html\">Animations</a>\r\n                <a class=\"collapse-item\" href=\"utilities-other.html\">Other</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider\">\r\n\r\n    <div class=\"sidebar-heading\">\r\n        Addons\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapsePages\" aria-expanded=\"true\" aria-controls=\"collapsePages\">\r\n            <i class=\"fas fa-fw fa-folder\"></i>\r\n            <span>Pages</span>\r\n        </a>\r\n        <div id=\"collapsePages\" class=\"collapse\" aria-labelledby=\"headingPages\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Login Screens:</h6>\r\n                <a class=\"collapse-item\" href=\"login.html\">Login</a>\r\n                <a class=\"collapse-item\" href=\"register.html\">Register</a>\r\n                <a class=\"collapse-item\" href=\"forgot-password.html\">Forgot Password</a>\r\n                <div class=\"collapse-divider\"></div>\r\n                <h6 class=\"collapse-header\">Other Pages:</h6>\r\n                <a class=\"collapse-item\" href=\"404.html\">404 Page</a>\r\n                <a class=\"collapse-item\" href=\"blank.html\">Blank Page</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"charts.html\">\r\n            <i class=\"fas fa-fw fa-chart-area\"></i>\r\n            <span>Charts</span></a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"tables.html\">\r\n            <i class=\"fas fa-fw fa-table\"></i>\r\n            <span>Tables</span></a>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider d-none d-md-block\"> -->\r\n\r\n\r\n\r\n</ul>";
+    __webpack_exports__["default"] = "<!-- <mat-sidenav-container>\r\n    <mat-sidenav mode=\"side\" opened=\"true\" [fixedInViewport]=\"true\" [fixedTopGap]=\"64\">\r\n        <ul>\r\n            <li routerLink=\"/admin\" routerLinkActive=\"active\">Home</li>\r\n\r\n            <li *ngIf=\"userRole == 'ADMIN'\" routerLink=\"/countries\" routerLinkActive=\"active\">Countries</li>\r\n\r\n        </ul>\r\n    </mat-sidenav>\r\n\r\n</mat-sidenav-container> -->\r\n<!-- \r\n<div class=\"sidebar\" id=\"sidebar\">\r\n    <div class=\"sidebar-inner slimscroll\" style=\"overflow-y: auto;\">\r\n        <div id=\"sidebar-menu\" class=\"sidebar-menu\">\r\n            <ul *ngIf=\"userRole == 'ADMIN'\">\r\n\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong>  Admin</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user\"></i> <span>Owners</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/locations\"><i class=\"fa fa-map-marker\"></i> <span>Locality</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-vehicles\"><i class=\"fa fa-car\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-paymentreports\"><i class=\"fa fa-inr\"></i> <span>Payment Reports</span></a>\r\n                </li>\r\n\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n            <ul *ngIf=\"userRole=='OWNER'\">\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong> Owner</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user-md\"></i> <span>Home</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Terms & Conditions</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Privacy</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Help and Support</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n<ul class=\"navbar-nav bg-gradient-primary sidebar sidebar-dark \" id=\"accordionSidebar\" style=\"position: fixed;\">\r\n\r\n    <a class=\"sidebar-brand d-flex align-items-center justify-content-center\" href=\"index.html\">\r\n        <div class=\"sidebar-brand-icon rotate-n-15\">\r\n            <i class=\"fas fa-laugh-wink\"></i>\r\n        </div>\r\n        <div class=\"sidebar-brand-text mx-3\"> <sup></sup></div>\r\n    </a>\r\n\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/dashboardwhite.png\" alt=\"\"> Dashboard\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicles\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-car \"></i> -->\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-vehicles\">\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/cancelled-bookings\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Cancelled Bookings\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicletracking\">\r\n            <!-- <i class=\"fa fa-map-marker \"></i>\r\n            <span>Vehicle Tracking</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Vehicle Tracking\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/drivers\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Driver Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-paymentreports\">\r\n            <!-- <i class=\"fa fa-clipboard \"></i>\r\n            <span>Payment Reports</span></a> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/paymentwhite.png\" alt=\"\"> Payment Reports\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/request\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Request\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/handovervehicles\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 30px !important;\"> Handover Vehicle\r\n\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"      padding-right: 8px;  font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Payments\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n\r\n\r\n\r\n\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/allbanks\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"       padding-right: 8px; font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/chatsandfeebacks\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/add-feedback\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-envelope\" style=\"    font-size: 14px;\r\n                margin-right: 3px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Add feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/locations\">\r\n            <!-- <i class=\"fa fa-map-marker\"></i>\r\n            <span>Location</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-map-marker\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i> -->\r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Location Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <!-- <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n           \r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n              \r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Payments\r\n\r\n            </div>\r\n        </a>\r\n    </li> -->\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\">\r\n            <!-- <i class=\"fa fa-wrench\"></i>\r\n            <span>Users</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-user\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Users\r\n\r\n                <i class=\"fa fa-angle-down\" style=\"float: right;\r\n                font-size: 26px;\"></i>\r\n            </div>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <a class=\"collapse-item\" routerLink=\"/users\"> Owners</a>\r\n                <a class=\"collapse-item\" routerLink=\"/carrenters\"> Renters </a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-resetpassword\">\r\n            <!-- <i class=\"fa fa-key\"></i>\r\n            <span>Reset Password</span> -->\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-key\" style=\"     font-size: 18px;\r\n                margin-right: 0px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/passwordwhite.png\" alt=\"\"> Reset Password\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n\r\n    <!-- \r\n    <div class=\"sidebar-heading\">\r\n        Interface\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">\r\n            <i class=\"fas fa-fw fa-cog\"></i>\r\n            <span>Components</span>\r\n        </a>\r\n        <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Components:</h6>\r\n                <a class=\"collapse-item\" href=\"buttons.html\">Buttons</a>\r\n                <a class=\"collapse-item\" href=\"cards.html\">Cards</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\" aria-controls=\"collapseUtilities\">\r\n            <i class=\"fas fa-fw fa-wrench\"></i>\r\n            <span>Utilities</span>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Utilities:</h6>\r\n                <a class=\"collapse-item\" href=\"utilities-color.html\">Colors</a>\r\n                <a class=\"collapse-item\" href=\"utilities-border.html\">Borders</a>\r\n                <a class=\"collapse-item\" href=\"utilities-animation.html\">Animations</a>\r\n                <a class=\"collapse-item\" href=\"utilities-other.html\">Other</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider\">\r\n\r\n    <div class=\"sidebar-heading\">\r\n        Addons\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapsePages\" aria-expanded=\"true\" aria-controls=\"collapsePages\">\r\n            <i class=\"fas fa-fw fa-folder\"></i>\r\n            <span>Pages</span>\r\n        </a>\r\n        <div id=\"collapsePages\" class=\"collapse\" aria-labelledby=\"headingPages\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Login Screens:</h6>\r\n                <a class=\"collapse-item\" href=\"login.html\">Login</a>\r\n                <a class=\"collapse-item\" href=\"register.html\">Register</a>\r\n                <a class=\"collapse-item\" href=\"forgot-password.html\">Forgot Password</a>\r\n                <div class=\"collapse-divider\"></div>\r\n                <h6 class=\"collapse-header\">Other Pages:</h6>\r\n                <a class=\"collapse-item\" href=\"404.html\">404 Page</a>\r\n                <a class=\"collapse-item\" href=\"blank.html\">Blank Page</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"charts.html\">\r\n            <i class=\"fas fa-fw fa-chart-area\"></i>\r\n            <span>Charts</span></a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"tables.html\">\r\n            <i class=\"fas fa-fw fa-table\"></i>\r\n            <span>Tables</span></a>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider d-none d-md-block\"> -->\r\n\r\n\r\n\r\n</ul>";
     /***/
   },
 
@@ -671,7 +671,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\r\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 31px;\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-4\">\r\n                <h3>Add Vehicles Image 1</h3>\r\n            </div>\r\n        </div>\r\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n            <div class=\"col-lg-12\">\r\n                <form [formGroup]=\"addVehiclesform\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                </form>\r\n                <div class=\"col-sm-12\">\r\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\r\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 31px;\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-4\">\r\n                <h3>Add Vehicles Image 1</h3>\r\n            </div>\r\n        </div>\r\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n            <div class=\"col-lg-12\">\r\n                <form [formGroup]=\"addVehiclesform\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                </div>\r\n                                <img [src]=\"imagepreview\" alt=\"\">\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                </form>\r\n                <div class=\"col-sm-12\">\r\n                    <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -751,7 +751,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\r\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 31px;\">\r\n        <div class=\"row\" style=\"margin-bottom: 10px;\">\r\n            <div class=\"col-md-4\">\r\n                <h3>Add New Vehicles</h3>\r\n            </div>\r\n            <div class=\"col-sm-4\"></div>\r\n            <!-- <div class=\"col-sm-4\">\r\n                <h3>Pricing : <em *ngIf=\"vehicleModel.vehicleType == '3Wheeler'\">25 RS Per 1.5 KM</em>\r\n                    <em *ngIf=\"vehicleModel.vehicleType == '4Wheeler'\">150 RS per 5 KM</em>\r\n                </h3>\r\n            </div> -->\r\n\r\n        </div>\r\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n            <div class=\"col-lg-12\">\r\n\r\n                <form [formGroup]=\"addVehiclesform\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label for=\"\">Choose Location <span class=\"text-danger\">*</span></label>\r\n                                <button class=\"btn btn-warning\" style=\"    color: white;\r\n                                width: 100%;\r\n                                \" routerLink=\"/mappage\"> <i class=\"fa fa-map-o\" ></i> Choose Location from map</button>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\r\n\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" (change)=\"vehicletype($event)\" class=\"form-control\">\r\n                                    <option value=\"\" disabled selected>Choose a option</option>\r\n                                    <!-- <option value=\"2Wheeler\">2 Wheeler</option> -->\r\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\r\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\r\n\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\r\n\r\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Model<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\r\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Year<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\r\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\r\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\r\n                                    </div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\r\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Locality<span class=\"text-danger\">*</span></label>\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\r\n                                    <option value=\"\" selected disabled>Choose your locality</option>\r\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\r\n                                        {{locations.name}}</option>\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver<span class=\"text-danger\"></span></label>\r\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\r\n                                    <option value=\"\">Choose your Driver</option>\r\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\r\n                                        {{driverslist.name}}</option>\r\n                                </select>\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\r\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\r\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Rent Per Hour</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\" formControlName=\"vRentperHr\">\r\n                                <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\r\n\r\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>License Back <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\r\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\r\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\r\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\r\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 31px;\">\r\n        <div class=\"row\" style=\"margin-bottom: 10px;\">\r\n            <div class=\"col-md-4\">\r\n                <h3>Add New Vehicles</h3>\r\n            </div>\r\n            <div class=\"col-sm-4\"></div>\r\n            <!-- <div class=\"col-sm-4\">\r\n                <h3>Pricing : <em *ngIf=\"vehicleModel.vehicleType == '3Wheeler'\">25 RS Per 1.5 KM</em>\r\n                    <em *ngIf=\"vehicleModel.vehicleType == '4Wheeler'\">150 RS per 5 KM</em>\r\n                </h3>\r\n            </div> -->\r\n\r\n        </div>\r\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n            <div class=\"col-lg-12\">\r\n\r\n                <form [formGroup]=\"addVehiclesform\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label for=\"\">Choose Location <span class=\"text-danger\">*</span></label>\r\n                                <button class=\"btn btn-warning\" style=\"    color: white;\r\n                                width: 100%;\r\n                                \" routerLink=\"/mappage\"> <i class=\"fa fa-map-o\" ></i> Choose Location from map</button>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\r\n\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" (change)=\"vehicletype($event)\" class=\"form-control\">\r\n                                    <option value=\"\" disabled selected>Choose a option</option>\r\n                                    <!-- <option value=\"2Wheeler\">2 Wheeler</option> -->\r\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\r\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\r\n\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\r\n\r\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Model<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\r\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Year<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\r\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\r\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\r\n                                    </div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\r\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Locality<span class=\"text-danger\">*</span></label>\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\r\n                                    <option value=\"\" selected disabled>Choose your locality</option>\r\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\r\n                                        {{locations.name}}</option>\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver<span class=\"text-danger\"></span></label>\r\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\r\n                                    <option value=\"\">Choose your Driver</option>\r\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\r\n                                        {{driverslist.name}}</option>\r\n                                </select>\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\r\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\r\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Pick Up Address</label>\r\n                                <input class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.paddress\" formControlName=\"paddress\">\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\r\n\r\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>License Back <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\r\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\r\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\r\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -931,7 +931,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<div class=\"row\" style=\"margin-bottom: 27px;\r\nmargin-top: 100px;  \">\r\n \r\n    <div class=\"col-sm-4\">\r\n        <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"></i> Back</button>\r\n\r\n    </div>\r\n    <div class=\"col-sm-4\">\r\n        <h4 style=\"text-align: center;\" >Driver <em style=\"font-style: normal;\r\n            color: #ffb100;\">Management</em> </h4>\r\n    </div>\r\n    <div class=\"col-sm-4\">\r\n        <button routerLink=\"/add-drivers\" class=\" btn btn-success\" style=\"float: right;\"> <i class=\"fa fa-plus\"></i> Add Drivers</button>\r\n        \r\n    </div>\r\n</div>\r\n<div class=\"row\">\r\n    \r\n</div>\r\n<div class=\"row\">\r\n<div class=\"container\">\r\n\r\n    <div class=\"col-sm-12\">\r\n      \r\n    \r\n                    <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"name\">\r\n                            <mat-header-cell *matHeaderCellDef>Driver Name </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \"> {{element.name}}</mat-cell>\r\n                        </ng-container>\r\n                      \r\n                        <ng-container matColumnDef=\"phonenumber\">\r\n                            <mat-header-cell *matHeaderCellDef> Contact Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.number}}</mat-cell>\r\n                        </ng-container>\r\n\r\n                        <ng-container matColumnDef=\"pan\">\r\n                            <mat-header-cell *matHeaderCellDef>Pancard Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.panCardNO}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"licensefrnt\">\r\n                            <mat-header-cell *matHeaderCellDef>License Front</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"><Button (click)=\"getlicsence(element.id)\" style=\"    border: none;\r\n                                background: none;\" matTooltip=\"License Front \"> <i class=\"fa fa-eye\"></i> View</Button> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"licenseback\">\r\n                            <mat-header-cell *matHeaderCellDef>License Back</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> <Button (click)=\"getlicsenceback(element.id)\"  style=\"    border: none;\r\n                                background: none;\" matTooltip=\"License Back\">\r\n                                 <i class=\"fa fa-eye\"></i> View</Button></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"edit\">\r\n                            <mat-header-cell *matHeaderCellDef></mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"><i  matTooltip=\"Edit Profile\" (click)=\"edit(element)\" class=\"fa fa-edit\"></i> </mat-cell>\r\n\r\n                        </ng-container>\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" (page)=\"changePage($event)\">\r\n                    </mat-paginator>\r\n\r\n\r\n                </div>\r\n\r\n          \r\n\r\n    </div>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Driver Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <button routerLink=\"/add-drivers\" style=\"float: right;    background: #3158c8;\" class=\" btn btn-success\"><i class=\"fa fa-plus\" aria-hidden=\"true\"></i> Add New\r\n                            Drivers</button>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <!-- <th>Driver Image</th> -->\r\n                                        <th>Driver Name</th>\r\n                                        <th>Phone Number</th>\r\n                                        <th>Pan Card</th>\r\n                                        <!-- <th>License Front</th>\r\n                                        <th>License Back</th> -->\r\n                                        <th>Edit</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let driverslist of driverslist\">\r\n                                        <td>\r\n                                            <img src=\"https://cmgaadi.com/server/driver/getProfilePic/{{driverslist.id}}\" alt=\"\" style=\"height: 40px;\r\n                                                border-radius: 100%;    margin-right: 9px;\r\n                                                width: 40px;\" /> {{driverslist.name}}\r\n                                        </td>\r\n                                        <td>{{driverslist.number}}</td>\r\n                                        <td>{{driverslist.panCardNO}}</td>\r\n                                        <!-- <td>\r\n                                            <Button (click)=\"getlicsence(driverslist.id)\" style=\"    border: none;\r\n                                            background: none;\" matTooltip=\"License Front \"> <i class=\"fa fa-eye\"></i> View</Button>\r\n                                        </td>\r\n                                        <td>\r\n                                            <Button (click)=\"getlicsenceback(driverslist.id)\" style=\"    border: none;\r\n                                            background: none;\" matTooltip=\"License Back\">\r\n                                             <i class=\"fa fa-eye\"></i> View</Button>\r\n                                        </td> -->\r\n                                        <td><i matTooltip=\"Edit Profile\" (click)=\"edit(driverslist)\" class=\"fa fa-edit\"></i></td>\r\n                                    </tr>\r\n\r\n                                </tbody>\r\n                            </table>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<div class=\"row\" style=\"margin-bottom: 27px;\r\nmargin-top: 100px;  \">\r\n \r\n    <div class=\"col-sm-4\">\r\n        <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"></i> Back</button>\r\n\r\n    </div>\r\n    <div class=\"col-sm-4\">\r\n        <h4 style=\"text-align: center;\" >Driver <em style=\"font-style: normal;\r\n            color: #ffb100;\">Management</em> </h4>\r\n    </div>\r\n    <div class=\"col-sm-4\">\r\n        <button routerLink=\"/add-drivers\" class=\" btn btn-success\" style=\"float: right;\"> <i class=\"fa fa-plus\"></i> Add Drivers</button>\r\n        \r\n    </div>\r\n</div>\r\n<div class=\"row\">\r\n    \r\n</div>\r\n<div class=\"row\">\r\n<div class=\"container\">\r\n\r\n    <div class=\"col-sm-12\">\r\n      \r\n    \r\n                    <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"name\">\r\n                            <mat-header-cell *matHeaderCellDef>Driver Name </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \"> {{element.name}}</mat-cell>\r\n                        </ng-container>\r\n                      \r\n                        <ng-container matColumnDef=\"phonenumber\">\r\n                            <mat-header-cell *matHeaderCellDef> Contact Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.number}}</mat-cell>\r\n                        </ng-container>\r\n\r\n                        <ng-container matColumnDef=\"pan\">\r\n                            <mat-header-cell *matHeaderCellDef>Pancard Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\">{{element.panCardNO}} </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"licensefrnt\">\r\n                            <mat-header-cell *matHeaderCellDef>License Front</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"><Button (click)=\"getlicsence(element.id)\" style=\"    border: none;\r\n                                background: none;\" matTooltip=\"License Front \"> <i class=\"fa fa-eye\"></i> View</Button> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"licenseback\">\r\n                            <mat-header-cell *matHeaderCellDef>License Back</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> <Button (click)=\"getlicsenceback(element.id)\"  style=\"    border: none;\r\n                                background: none;\" matTooltip=\"License Back\">\r\n                                 <i class=\"fa fa-eye\"></i> View</Button></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"edit\">\r\n                            <mat-header-cell *matHeaderCellDef></mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"><i  matTooltip=\"Edit Profile\" (click)=\"edit(element)\" class=\"fa fa-edit\"></i> </mat-cell>\r\n\r\n                        </ng-container>\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" (page)=\"changePage($event)\">\r\n                    </mat-paginator>\r\n\r\n\r\n                </div>\r\n\r\n          \r\n\r\n    </div>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Driver Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <button routerLink=\"/add-drivers\" style=\"float: right;    background: #3158c8;\" class=\" btn btn-success\"><i class=\"fa fa-plus\" aria-hidden=\"true\"></i> Add New\r\n                            Drivers</button>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <!-- <th>Driver Image</th> -->\r\n                                        <th>Driver Name</th>\r\n                                        <th>Phone Number</th>\r\n                                        <th>Pan Card</th>\r\n                                        <!-- <th>License Front</th>\r\n                                        <th>License Back</th> -->\r\n                                        <th>Edit</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let driverslist of driverslist\">\r\n                                        <td>\r\n                                            <img src=\"https://cmgaadi.com/server/driver/getProfilePic/{{driverslist.id}}\" alt=\"\" style=\"height: 40px;\r\n                                                border-radius: 100%;    margin-right: 9px;\r\n                                                width: 40px;\" /> {{driverslist.name}}\r\n                                        </td>\r\n                                        <td>{{driverslist.number}}</td>\r\n                                        <td>{{driverslist.panCardNO}}</td>\r\n                                        <!-- <td>\r\n                                            <Button (click)=\"getlicsence(driverslist.id)\" style=\"    border: none;\r\n                                            background: none;\" matTooltip=\"License Front \"> <i class=\"fa fa-eye\"></i> View</Button>\r\n                                        </td>\r\n                                        <td>\r\n                                            <Button (click)=\"getlicsenceback(driverslist.id)\" style=\"    border: none;\r\n                                            background: none;\" matTooltip=\"License Back\">\r\n                                             <i class=\"fa fa-eye\"></i> View</Button>\r\n                                        </td> -->\r\n                                        <td> <button class=\"btn btn-dark\" (click)=\"edit(driverslist)\"><i matTooltip=\"Edit Profile\" class=\"fa fa-edit\"></i> Edit</button>&nbsp;\r\n                                            <button class=\"btn btn-warning\" (click)=\"delete(driverslist)\"><i matTooltip=\"Edit Profile\"  class=\"fa fa-trash\"></i> Delete</button>\r\n                                        </td>\r\n                                    </tr>\r\n\r\n                                </tbody>\r\n                            </table>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1051,7 +1051,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n<div class=\"page-wrapper\" style=\"margin-top: 101px;\">\r\n    <div class=\"row\">\r\n\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\r\n                    aria-hidden=\"true\"></i> Back</button>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\r\n                color: #ffb100;\">Handover Management</em> </h4>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n\r\n        </div>\r\n        <hr>\r\n    </div>\r\n\r\n    <div class=\"row\" style=\"margin-top: 10px;\">\r\n        <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n            <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n            <div class=\"card\" style=\"margin-bottom: 10px;\">\r\n                <!-- <span class=\"close\">   <button matTooltip=\"View Vehicle\" class=\"btn btn-dark\"\r\n                    style=\"display: block;margin-bottom: 10px;margin-left: auto;\"\r\n                    (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> </button></span> -->\r\n                <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                &nbsp;\r\n\r\n                <button class=\"btn btn-dark\" (click)=\"openDialog(results)\">Add current kilometer</button>\r\n                <!-- </mat-card> -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-header></app-header>\r\n<div class=\"page-wrapper\" style=\"margin-top: 101px;\">\r\n    <div class=\"row\">\r\n\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\r\n                    aria-hidden=\"true\"></i> Back</button>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\r\n                color: #ffb100;\">Handover Management</em> </h4>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n\r\n        </div>\r\n        <hr>\r\n    </div>\r\n\r\n\r\n\r\n\r\n    <div class=\"row\" style=\"margin-top: 10px;\">\r\n        <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n            <div class=\"card\" style=\"margin-bottom: 10px;\">\r\n           \r\n                <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                &nbsp;\r\n\r\n                <button class=\"btn btn-dark\" (click)=\"openDialog(results)\">Add current kilometer</button>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Handover Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Vehicle Name</th>\r\n                                        <th>Customer Name</th>\r\n                                        <th>Starting Location</th>\r\n                                        <th>Destination Location</th>\r\n\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let car of results\">\r\n                                        <!-- <th>{{apUrl}}vehicle/getImage1/{{car.id}}</th> -->\r\n                                        <th>{{car.companyName}}</th>\r\n                                        <th>{{car.customerName}}</th>\r\n                                        <th>{{car.startingLocation}}</th>\r\n                                        <th>{{car.destinationLocation}}</th>\r\n                                        <th> <button class=\"btn btn-dark\" (click)=\"openDialog(car)\">Add current\r\n                                                kilometer</button>\r\n                                        </th>\r\n                                    </tr>\r\n\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1131,7 +1131,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n\r\n\r\n\r\n    <div class=\"content\" style=\"margin-top: 33px !important;\">\r\n\r\n\r\n        <h6 style=\"text-align: center;\r\n        font-size: 33px;\">Requests</h6>\r\n        <hr style=\"width: 60%;color: rgb(255, 230, 0); margin-left: auto;margin-right: auto;\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n\r\n                <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\r\n                    <mat-tab label=\"Pending\">\r\n                        <div class=\"row\">\r\n                            <div class=\"offset-8 col-sm-4\">\r\n                                <select [(ngModel)]=\"optionselected\" (change)=\"selectedeventfilter(optionselected)\" class=\"form-control\" style=\"margin-top: 10px;\">\r\n                                    <option value=\"\" selected disabled>Filter By</option>\r\n                                   \r\n                                    <option value=\"Pending\">Pending</option>\r\n                                    <option value=\"Preorder\">Pre-Book</option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\r\n                                    <div class=\"row\" style=\"padding: 5px;\">\r\n                                        <button class=\"btn btn-success\" style=\"margin-left: auto;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\r\n                                        <button class=\"btn btn-danger\" style=\"    margin-right: auto; \r\n                                            margin-left: 11px;\" (click)=\"reject(results)\"> <i class=\"fa fa-close\"></i> Reject</button>\r\n\r\n                                    </div>\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                    <mat-tab label=\"Approved\">\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\r\n\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                    <mat-tab label=\"Reject\">\r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <!-- <mat-card style=\"margin-bottom: 10px;\"> -->\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i>  View More</button>\r\n\r\n                                    <!-- </mat-card> -->\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                </mat-tab-group>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n\r\n\r\n\r\n    <div class=\"content\" style=\"margin-top: 33px !important;\">\r\n\r\n\r\n        <h6 style=\"text-align: center;\r\n        font-size: 33px;\">Requests</h6>\r\n        <hr style=\"width: 60%;color: rgb(255, 230, 0); margin-left: auto;margin-right: auto;\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n\r\n                <mat-tab-group mat-align-tabs=\"center\" (selectedTabChange)=\"tabClick($event)\">\r\n                    <mat-tab label=\"Pending\">\r\n                        <div class=\"row\">\r\n                            <div class=\"offset-8 col-sm-4\">\r\n                                <select [(ngModel)]=\"optionselected\" (change)=\"selectedeventfilter(optionselected)\" class=\"form-control\" style=\"margin-top: 10px;\">\r\n                                    <option value=\"\" selected disabled>Filter By</option>\r\n\r\n                                    <option value=\"Pending\">Pending</option>\r\n                                    <option value=\"Preorder\">Pre-Book</option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n                        <!-- \r\n                        <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}</P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\r\n                                    <div class=\"row\" style=\"padding: 5px;\">\r\n                                        <button class=\"btn btn-success\" style=\"margin-left: auto;\" (click)=\"approve(results)\"><i class=\"fa fa-check\"></i> Approve</button>\r\n                                        <button class=\"btn btn-danger\" style=\"    margin-right: auto; \r\n                                            margin-left: 11px;\" (click)=\"reject(results)\"> <i class=\"fa fa-close\"></i> Reject</button>\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div> -->\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Vehicle Name</th>\r\n                                        <th>Customer Name</th>\r\n                                        <th>Requested Date</th>\r\n                                        <th>Starting Location</th>\r\n                                        <th>Destination Location</th>\r\n\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let car of results\">\r\n                                        <!-- <th>{{apUrl}}vehicle/getImage1/{{car.id}}</th> -->\r\n                                        <th>{{car.companyName}}</th>\r\n                                        <th>{{car.customerName}}</th>\r\n                                        <th>{{car.requestedDate}}</th>\r\n                                        <th>{{car.startingLocation}}</th>\r\n                                        <th>{{car.destinationLocation}}</th>\r\n                                        <th> <button class=\"btn btn-dark\" style=\"\" (click)=\"view(car)\"> <i\r\n                                                    class=\"fa fa-eye\"></i> View More</button> &nbsp; <button class=\"btn btn-success\" (click)=\"approve(car)\"><i\r\n                                                    class=\"fa fa-check\"></i> Approve</button> &nbsp; <button class=\"btn btn-danger\" style=\"   \r\n                                                    \" (click)=\"reject(car)\"> <i class=\"fa fa-close\"></i>\r\n                                                Reject</button>\r\n\r\n                                        </th>\r\n                                    </tr>\r\n\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n\r\n\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                    <mat-tab label=\"Approved\">\r\n                        <!-- <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}\r\n                                    </P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\r\n\r\n                                 \r\n                                </div>\r\n                            </div>\r\n                        </div> -->\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Vehicle Name</th>\r\n                                        <th>Customer Name</th>\r\n                                        <th>Requested Date</th>\r\n                                        <th>Starting Location</th>\r\n                                        <th>Destination Location</th>\r\n\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let car of results\">\r\n                                        <!-- <th>{{apUrl}}vehicle/getImage1/{{car.id}}</th> -->\r\n                                        <th>{{car.companyName}}</th>\r\n                                        <th>{{car.customerName}}</th>\r\n                                        <th>{{car.requestedDate}}</th>\r\n                                        <th>{{car.startingLocation}}</th>\r\n                                        <th>{{car.destinationLocation}}</th>\r\n                                        <th> <button class=\"btn btn-dark\" style=\"\" (click)=\"view(car)\"> <i\r\n                                                    class=\"fa fa-eye\"></i> View More</button>\r\n\r\n                                        </th>\r\n                                    </tr>\r\n\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                    <mat-tab label=\"Reject\">\r\n                        <!-- <div class=\"row\" style=\"margin-top: 10px;\">\r\n                            <div class=\"col-sm-3\" *ngFor=\"let results of results\">\r\n                               \r\n                                <div class=\"card\">\r\n                                    <img src=\"{{apiurl}}vehicle/getImage1/{{results.vehicleId}}\" alt=\"\" style=\"display: block;height: 134px;margin-bottom: 10px;margin-left: auto;margin-right: auto;\">\r\n                                    <P style=\"text-align: center;\">Company : {{results.companyName}}</P>\r\n                                    <P style=\"text-align: center;\">Customer Name : {{results.customerName}}</P>\r\n                                    <p style=\"text-align: center;\">Requested Date : {{results.requestedDate}}</p>\r\n\r\n                                    <P style=\"text-align: center;\">Starting Location : {{results.startingLocation}}</P>\r\n                                    <P style=\"text-align: center;\">Destination Location : {{results.destinationLocation}}\r\n                                    </P>\r\n\r\n                                    &nbsp;\r\n                                    <button class=\"btn btn-dark\" style=\"display: block;margin-bottom: 10px;margin-left: auto;margin-right: auto;\" (click)=\"view(results)\"> <i class=\"fa fa-eye\"></i> View More</button>\r\n\r\n                                \r\n                                </div>\r\n                            </div>\r\n                        </div> -->\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Vehicle Name</th>\r\n                                        <th>Customer Name</th>\r\n                                        <th>Requested Date</th>\r\n                                        <th>Starting Location</th>\r\n                                        <th>Destination Location</th>\r\n\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let car of results\">\r\n                                        <!-- <th>{{apUrl}}vehicle/getImage1/{{car.id}}</th> -->\r\n                                        <th>{{car.companyName}}</th>\r\n                                        <th>{{car.customerName}}</th>\r\n                                        <th>{{car.requestedDate}}</th>\r\n                                        <th>{{car.startingLocation}}</th>\r\n                                        <th>{{car.destinationLocation}}</th>\r\n                                        <th> <button class=\"btn btn-dark\" style=\"\" (click)=\"view(car)\"> <i\r\n                                                    class=\"fa fa-eye\"></i> View More</button>\r\n\r\n                                        </th>\r\n                                    </tr>\r\n\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                        <h5 *ngIf=\"message == 'No Data Found'\" style=\"      margin-top: 100px;  text-align: center;overflow: hidden;\">No Request Found</h5>\r\n\r\n                    </mat-tab>\r\n                </mat-tab-group>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1151,7 +1151,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <!-- <h2>s</h2> -->\r\n\r\n        <div class=\"col-sm-12\">\r\n            <div class=\"card\">\r\n                <span style=\"    margin-left: auto;\" (click)=\"close()\" class=\"close\">X</span>\r\n                <h4>{{customerName}}</h4>\r\n                <hr>\r\n\r\n                <div class=\"line\"></div>\r\n\r\n                <hr>\r\n                <span class=\"round\" style=\"    margin-left: 94px;\r\n                background: green;\r\n                margin-top: -29px;\r\n                height: 25px;\r\n            \r\n              \r\n                width: 25px;\r\n                border-radius: 100%;\"></span>\r\n\r\n                <span class=\"round\" style=\"    margin-left: auto;\r\n                background: red;\r\n                margin-right: 94px;\r\n                margin-top: -25px;\r\n                height: 25px;\r\n               \r\n                left: -7px;\r\n                width: 25px;\r\n                border-radius: 100%;\"></span>\r\n                <div class=\"row\">\r\n                    <p style=\"margin-left: 70px; margin-right: auto;\">Starting From : {{startingLocation}}</p>\r\n                    <p style=\"margin-left: auto; margin-right: 100px;\">Destination : {{destinationLocation}}</p>\r\n\r\n                </div>\r\n\r\n                <!-- <div class=\"row\" style=\"margin-top: 20px;\"> -->\r\n                <h5 style=\"text-align:center;\">Details</h5>\r\n\r\n                <hr style=\"margin-left: auto;\r\n                    margin-right: auto;\r\n                    width: 50%;\r\n                    background: yellow;\">\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-calendar\"></i> Requested Date : {{requestedDate}}</p>\r\n                <h6 style=\"text-align:center;\">Vehicle Details</h6>\r\n                <hr style=\"margin-left: auto;\r\n                    margin-right: auto;\r\n                    width: 50%;\r\n                    background: yellow;\">\r\n\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-car\"></i> Company Name : {{companyName}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-car\"></i> Vehicle Model : {{model}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-number\"></i> Registration Number : {{numberPlate}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-inr\"></i> Rent Per Day : {{rentPerDay}}</p>\r\n\r\n                <!-- </div>  -->\r\n                <div class=\"row\" style=\"    margin: 13px auto 0;\" *ngIf=\"approvalstatus == 2\">\r\n                    <button class=\"btn btn-success\" style=\"margin-right: 10px;\" (click)=\"approve()\"> <i class=\"fa fa-check\"></i> Approve</button>\r\n                    <button class=\"btn btn-danger\" style=\"margin-left: 10px;\" (click)=\"reject()\"> <i class=\"fa fa-close\"></i> Reject</button>\r\n                </div>\r\n            </div>\r\n\r\n\r\n\r\n        </div>\r\n\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <!-- <h2>s</h2> -->\r\n\r\n        <div class=\"col-sm-12\">\r\n            <div class=\"card\">\r\n                <span style=\"    margin-left: auto;\" (click)=\"close()\" class=\"close\">X</span>\r\n                <h4>{{customerName}}</h4>\r\n                <hr>\r\n\r\n                <div class=\"line\"></div>\r\n\r\n                <hr>\r\n                <span class=\"round\" style=\"    margin-left: 94px;\r\n                background: green;\r\n                margin-top: -29px;\r\n                height: 25px;\r\n            \r\n              \r\n                width: 25px;\r\n                border-radius: 100%;\"></span>\r\n\r\n                <span class=\"round\" style=\"    margin-left: auto;\r\n                background: red;\r\n                margin-right: 94px;\r\n                margin-top: -25px;\r\n                height: 25px;\r\n               \r\n                left: -7px;\r\n                width: 25px;\r\n                border-radius: 100%;\"></span>\r\n                <div class=\"row\">\r\n                    <p style=\"margin-left: 70px; margin-right: auto;\">Starting From : {{startingLocation}}</p>\r\n                    <p style=\"margin-left: auto; margin-right: 100px;\">Destination : {{destinationLocation}}</p>\r\n\r\n                </div>\r\n\r\n                <!-- <div class=\"row\" style=\"margin-top: 20px;\"> -->\r\n                <h5 style=\"text-align:center;\">Details</h5>\r\n\r\n                <hr style=\"margin-left: auto;\r\n                    margin-right: auto;\r\n                    width: 50%;\r\n                    background: yellow;\">\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-calendar\"></i> Requested Date : {{requestedDate}}</p>\r\n                <h6 style=\"text-align:center;\">Vehicle Details</h6>\r\n                <hr style=\"margin-left: auto;\r\n                    margin-right: auto;\r\n                    width: 50%;\r\n                    background: yellow;\">\r\n\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-car\"></i> Company Name : {{companyName}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-car\"></i> Vehicle Model : {{model}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-number\"></i> Registration Number : {{numberPlate}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-inr\"></i> Rent Per Day : {{rentPerDay}}</p>\r\n\r\n                <!-- </div>  -->\r\n                <div class=\"row\" style=\"    margin: 13px auto 0;\" *ngIf=\"approvalstatus == 2\">\r\n                    <button class=\"btn btn-warning\" style=\"margin-right: 10px;\" (click)=\"checkbooking()\"> <i class=\"fa fa-check\"></i> Check Other Booking</button>\r\n\r\n                    <button class=\"btn btn-success\" style=\"margin-right: 10px;\" (click)=\"approve()\"> <i class=\"fa fa-check\"></i> Approve</button>\r\n                    <button class=\"btn btn-danger\" style=\"margin-left: 10px;\" (click)=\"reject()\"> <i class=\"fa fa-close\"></i> Reject</button>\r\n                </div>\r\n            </div>\r\n\r\n\r\n\r\n        </div>\r\n\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1171,7 +1171,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n                <h3>Vehicle <em style=\"    font-style: normal;\r\n                    color: #ffd000;\"> Details</em> </h3>\r\n                <hr>\r\n\r\n            </div>\r\n            <div class=\"col-sm-8\">\r\n\r\n                <!-- <mat-card> -->\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <h5 style=\"text-align: center;    margin-left: 24px;\"> {{vehicleModel.vehicleCompany}},{{vehicleModel.vehicleModel}}</h5>\r\n                            <hr>\r\n                        </div>\r\n                        <!-- <div class=\"col-sm-3\">\r\n                            <p style=\"\r\n                           background: #ffcb67;\r\n                            border-radius: 125px;\r\n                            padding: 3px;\r\n                        \">{{vehicleModel.vehicleModel}}</p>\r\n                        </div> -->\r\n                    </div>\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}vehicle/getImage1/{{vId}}\" alt=\"\" style=\"     width: 200px; height: 186px;  \">\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"><i class=\"fa fa-car\"></i>&nbsp;Vehicle Type :{{vehicleModel.vehicleType}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-registered\"></i>&nbsp; Registration Number : {{vehicleModel.vehicleRegistration}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Location : {{vehicleModel.locality}}\r\n                            </p>\r\n                            <hr>\r\n                            <h6>Rent Details</h6>\r\n                            &nbsp;\r\n                            <p *ngIf=\"rentPerHour != null\" style=\"    text-align: left;\"><i class=\"fa fa-inr\"></i>&nbsp; Rent Per Hour : {{rentperhour}}\r\n                            </p>\r\n                            <p *ngIf=\"vehicleModel.rent != null\" style=\"    text-align: left;\"><i class=\"fa fa-calendar\"></i>&nbsp; Rent Per Day : {{vehicleModel.rent}}\r\n                            </p>\r\n                            <p *ngIf=\"rentperkm != null\" style=\"    text-align: left;\"><i class=\"fa fa-road\"></i>&nbsp; Rent Per KM : {{rentperkm}}\r\n                            </p>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div>\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}driver/getProfilePic/{{id}}\" alt=\"\" style=\"\" />\r\n\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <h6>Driver Details</h6>\r\n                            <hr>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-user\"></i>&nbsp;Driver Name : {{vehicleModel.dname}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-phone\"></i>&nbsp;Contact Number : {{vehicleModel.dnumber}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-map-marker\"></i>&nbsp;Driver Address : {{vehicleModel.daddreess}}</p>\r\n                            <p *ngIf=\"DriverDetailsofCar ==null\"> No Driver is linked to this vehicle!</p>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-sm-4\">\r\n                <div class=\"card\">\r\n                    <h6> Vehicle Details </h6>\r\n                    <hr>\r\n                    <p>License Front</p>\r\n                    <img [src]=\"liscence1\" alt=\"\">\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    &nbsp;\r\n\r\n                    <p>License Back</p>\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    <img [src]=\"liscence2\" alt=\"\">\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    &nbsp;\r\n\r\n                    <p>RC Book</p>\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    <img [src]=\"rc\" alt=\"\">\r\n                </div>\r\n\r\n            </div> -->\r\n        </div>\r\n\r\n        <!-- <div class=\"col-sm-12\">\r\n\r\n\r\n                <div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\" style=\"    width: 241px;\r\n                margin-left: auto;\r\n                margin-right: auto;\">\r\n                    <div class=\"carousel-inner\">\r\n                        <div class=\"carousel-item active\">\r\n                            <img class=\"d-block \" src=\"{{apiurl}}vehicle/getImage1/{{vId}}\" style=\"      margin-left: auto;\r\n                        margin-right: auto;      width: 242px;\" alt=\"First slide\">\r\n                        </div>\r\n                        <div class=\"carousel-item\">\r\n                            <img class=\"d-block\" [src]=\"vehicleimage2\" style=\"      margin-left: auto;\r\n                        margin-right: auto;      width: 242px;\" alt=\"Second slide\">\r\n                        </div>\r\n\r\n                    </div>\r\n                    <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">\r\n                        <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                        <span class=\"sr-only\">Previous</span>\r\n                    </a>\r\n                    <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">\r\n                        <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                        <span class=\"sr-only\">Next</span>\r\n                    </a>\r\n                </div>\r\n\r\n\r\n                <hr style=\"    width: 52%;\r\n                margin-right: auto;\r\n                margin-left: auto;\r\n                display: block;\">\r\n            </div> -->\r\n        <!-- <div class=\"col-sm-12\">\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-industry\"></i> &nbsp; Comapny Name : {{vehicleModel.vehicleCompany}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-registered\"></i> &nbsp; Vehicle Registration :\r\n                        {{vehicleModel.vehicleRegistration}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Model :\r\n                        {{vehicleModel.vehicleModel}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-map-marker\"></i> &nbsp; Location :\r\n                        {{vehicleModel.locality}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-calendar\"></i> &nbsp; Vehicle Year :\r\n                        {{vehicleModel.vehicleYear}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Front</p>\r\n                    <img [src]=\"liscence1\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Back</p>\r\n                    <img [src]=\"liscence2\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>RC Book</p>\r\n                    <img [src]=\"rc\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n            </div> -->\r\n    </div>\r\n</div>\r\n<!-- </div> -->\r\n\r\n<!-- \r\n<agm-map [latitude]=\"lat\" [longitude]=\"lng\">\r\n    <agm-marker [latitude]=\"lat\" [longitude]=\"lng\" [markerDraggable]=\"true\" (dragEnd)=\"markerDragEnd($event)\"></agm-marker>\r\n</agm-map> -->";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n\r\n<div class=\"page-wrapper\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12\">\r\n                <!-- <h3>Vehicle <em style=\"    font-style: normal;\r\n                    color: #ffd000;\"> Details</em> </h3>\r\n                <hr> -->\r\n\r\n            </div>\r\n            <div class=\"col-sm-8\">\r\n\r\n                <!-- <mat-card> -->\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <h3>Vehicle <em style=\"    font-style: normal;\r\n                                color: #ffd000;\"> Details</em> </h3>\r\n\r\n                            <hr>\r\n                        </div>\r\n                        <!-- <div class=\"col-sm-3\">\r\n                            <p style=\"\r\n                           background: #ffcb67;\r\n                            border-radius: 125px;\r\n                            padding: 3px;\r\n                        \">{{vehicleModel.vehicleModel}}</p>\r\n                        </div> -->\r\n                    </div>\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}vehicle/getImage1/{{vId}}\" alt=\"\" style=\"     width: 200px; height: 186px;  \">\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"><i class=\"fa fa-car\"></i>&nbsp;Vehicle Name : {{vehicleModel.vehicleCompany}},{{vehicleModel.vehicleModel}}</p>\r\n\r\n                            <p style=\"margin-top: 10px;    text-align: left;\"><i class=\"fa fa-car\"></i>&nbsp;Vehicle Type :{{vehicleModel.vehicleType}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-registered\"></i>&nbsp; Registration Number : {{vehicleModel.vehicleRegistration}}</p>\r\n                            <p style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Location : {{vehicleModel.locality}}\r\n                            </p>\r\n                            <p *ngIf=\"pickUpAddress == null\" style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Pick Up Address : {{gpsAddress}}</p>\r\n                            <p *ngIf=\"gpsAddress == null\" style=\"    text-align: left;\"><i class=\"fa fa-map-marker\"></i> &nbsp; Pick Up Address : {{pickUpAddress}}</p>\r\n\r\n                            <hr>\r\n                            <h6>Rent Details</h6>\r\n                            &nbsp;\r\n                            <p *ngIf=\"rentPerHour != null\" style=\"    text-align: left;\"><i class=\"fa fa-inr\"></i>&nbsp; Rent Per Hour : {{rentperhour}}\r\n                            </p>\r\n                            <p *ngIf=\"vehicleModel.rent != null\" style=\"    text-align: left;\"><i class=\"fa fa-calendar\"></i>&nbsp; Rent Per Day : {{vehicleModel.rent}}\r\n                            </p>\r\n                            <p *ngIf=\"rentperkm != null\" style=\"    text-align: left;\"><i class=\"fa fa-road\"></i>&nbsp; Rent Per KM : {{rentperkm}}\r\n                            </p>\r\n\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div>\r\n                <div class=\"card\">\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <img src=\"{{apiurl}}driver/getProfilePic/{{id}}\" alt=\"\" style=\"\" />\r\n\r\n                        </div>\r\n                        <div class=\"col-sm-8\">\r\n                            <h6>Driver Details</h6>\r\n                            <hr>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-user\"></i>&nbsp;Driver Name : {{vehicleModel.dname}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-phone\"></i>&nbsp;Contact Number : {{vehicleModel.dnumber}}\r\n                            </p>\r\n                            <p *ngIf=\"DriverDetailsofCar !=null\" style=\"text-align: left;    font-size: 16px;\"><i class=\"fa fa-map-marker\"></i>&nbsp;Driver Address : {{vehicleModel.daddreess}}</p>\r\n                            <p *ngIf=\"DriverDetailsofCar ==null\"> No Driver is linked to this vehicle!</p>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n            <!-- <div class=\"col-sm-4\">\r\n                <div class=\"card\">\r\n                    <h6> Vehicle Details </h6>\r\n                    <hr>\r\n                    <p>License Front</p>\r\n                    <img [src]=\"liscence1\" alt=\"\">\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    &nbsp;\r\n\r\n                    <p>License Back</p>\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    <img [src]=\"liscence2\" alt=\"\">\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    &nbsp;\r\n\r\n                    <p>RC Book</p>\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    &nbsp;\r\n                    <img [src]=\"rc\" alt=\"\">\r\n                </div>\r\n\r\n            </div> -->\r\n        </div>\r\n\r\n        <!-- <div class=\"col-sm-12\">\r\n\r\n\r\n                <div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\" style=\"    width: 241px;\r\n                margin-left: auto;\r\n                margin-right: auto;\">\r\n                    <div class=\"carousel-inner\">\r\n                        <div class=\"carousel-item active\">\r\n                            <img class=\"d-block \" src=\"{{apiurl}}vehicle/getImage1/{{vId}}\" style=\"      margin-left: auto;\r\n                        margin-right: auto;      width: 242px;\" alt=\"First slide\">\r\n                        </div>\r\n                        <div class=\"carousel-item\">\r\n                            <img class=\"d-block\" [src]=\"vehicleimage2\" style=\"      margin-left: auto;\r\n                        margin-right: auto;      width: 242px;\" alt=\"Second slide\">\r\n                        </div>\r\n\r\n                    </div>\r\n                    <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">\r\n                        <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                        <span class=\"sr-only\">Previous</span>\r\n                    </a>\r\n                    <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">\r\n                        <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                        <span class=\"sr-only\">Next</span>\r\n                    </a>\r\n                </div>\r\n\r\n\r\n                <hr style=\"    width: 52%;\r\n                margin-right: auto;\r\n                margin-left: auto;\r\n                display: block;\">\r\n            </div> -->\r\n        <!-- <div class=\"col-sm-12\">\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-industry\"></i> &nbsp; Comapny Name : {{vehicleModel.vehicleCompany}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Type : {{vehicleModel.vehicleType}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-registered\"></i> &nbsp; Vehicle Registration :\r\n                        {{vehicleModel.vehicleRegistration}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-car\"></i> &nbsp; Vehicle Model :\r\n                        {{vehicleModel.vehicleModel}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-map-marker\"></i> &nbsp; Location :\r\n                        {{vehicleModel.locality}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-calendar\"></i> &nbsp; Vehicle Year :\r\n                        {{vehicleModel.vehicleYear}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n\r\n                <mat-card>\r\n                    <p><i class=\"fa fa-inr\"></i> &nbsp; Vehicle Rent :\r\n                        {{vehicleModel.rent}}</p>\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Front</p>\r\n                    <img [src]=\"liscence1\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>License Back</p>\r\n                    <img [src]=\"liscence2\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n                <mat-card>\r\n                    <p>RC Book</p>\r\n                    <img [src]=\"rc\" alt=\"\" style=\"    width: 36%;\">\r\n                </mat-card>\r\n            </div> -->\r\n    </div>\r\n</div>\r\n<!-- </div> -->\r\n\r\n<!-- \r\n<agm-map [latitude]=\"lat\" [longitude]=\"lng\">\r\n    <agm-marker [latitude]=\"lat\" [longitude]=\"lng\" [markerDraggable]=\"true\" (dragEnd)=\"markerDragEnd($event)\"></agm-marker>\r\n</agm-map> -->";
     /***/
   },
 
@@ -1211,7 +1211,27 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-header></app-header>\r\n\r\n<div class=\"row\" style=\"margin-left: 10px;margin-bottom: 10px;\"> -->\r\n<!-- <button class=\"btn btn-dark\" routerLink=\"/admin\"> <i class=\"fa fa-arrow-left\"\r\n        aria-hidden=\"true\"></i> Back</button> -->\r\n\r\n\r\n<!-- <div class=\"col-sm-12\">\r\n        <h4 style=\"    text-align: center;\r\n        font-size: 29px;\">Vehicle Tracking</h4>\r\n        <hr style=\"width: 60%; margin-left: auto;margin-right: auto;\">\r\n    </div>\r\n</div>\r\n<div class=\"row\" style=\"margin-top: 0px;\">\r\n    <div class=\"col-sm-4\" *ngFor=\"let result of result\">\r\n        <div class=\"card\"> -->\r\n<!-- <div class=\"row\" style=\"margin-top: 0px;\">\r\n                <div class=\"col-sm-4\">\r\n             \r\n                    <img src=\"./assets/img/caricon.png\" alt=\"\" style=\"width: 48px;\">\r\n                    <p>{{result.startingLocation}} </p>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n                    <div class=\"line-top\"></div>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n        \r\n                    <img src=\"./assets/img/caricon.png\" alt=\"\" style=\"width: 48px;margin-left: 40px;\">\r\n\r\n\r\n                    <p style=\"text-align: end;\">{{result.destinationLocation}}</p>\r\n                </div>\r\n            </div>\r\n            <div class=\"row\" style=\"margin-top: 0px;\">\r\n                <div class=\"col-sm-12\">\r\n                    <h5>Details</h5>\r\n                    <hr>\r\n\r\n                </div>\r\n                <div class=\"col-sm-12\">\r\n                    <p>Customer Name <em style=\"    float: right;\">{{result.customerName}}</em></p>\r\n                    <p>Vehicle Model <em style=\"    float: right;\">{{result.model}}</em> </p>\r\n                    <p>Requested Days <em style=\"    float: right;\">{{result.requestedDays}}</em> </p>\r\n                    <p>Requested Date <em style=\"    float: right;\">{{result.requestedDate}}</em> </p>\r\n                    <p>Requested End Date <em style=\"    float: right;\">{{result.requestEndDate}}</em> </p>\r\n\r\n                    <p>Starting Km <em style=\"    float: right;\">{{result.startingKM}}</em> </p>\r\n                    <p>Ending KM <em style=\"    float: right;\">{{result.endingKM}}</em> </p>\r\n                    <p>Travelled KM <em style=\"    float: right;\">{{result.customerTravelledKM}}</em> </p>\r\n                    <p>Amount <em style=\"    float: right;\">{{result.amount}}</em> </p>\r\n                    <p *ngIf=\"result.driverRequired == false\">Driver is Required <em style=\"    float: right;\">No</em> </p>\r\n                    <p *ngIf=\"result.driverRequired == true\">Driver is Required <em style=\"    float: right;\">Yes</em> </p>\r\n\r\n                </div>\r\n             \r\n            </div> -->\r\n<!-- <div class=\"card shadow mb-4\">\r\n\r\n                <div class=\"card-body\">\r\n                    <div class=\"table-responsive\">\r\n                        <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                            <thead style=\" color: #fff; background: #3158c8; \">\r\n                                <tr>\r\n                                    <th>Starting Location</th>\r\n                                    <th>Destination Location</th>\r\n                                    <th>Customer Name</th>\r\n                                    <th>Vehicle Model</th>\r\n                                    <th>Requested Days</th>\r\n                                </tr>\r\n                            </thead>\r\n\r\n                            <tbody>\r\n                                <tr *ngFor=\"let result of result\">\r\n                                    <td></td>\r\n                                    <td></td>\r\n                                    <td></td>\r\n                                    <td></td>\r\n                                    <td></td>\r\n\r\n                                </tr>\r\n\r\n                            </tbody>\r\n                        </table>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n -->\r\n\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Tracking</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;background: #496fdb;\" routerLink=\"/add-location\"><i class=\"fa fa-plus\"></i> Add Locality </a> -->\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Starting Location</th>\r\n                                        <th>Destination Location</th>\r\n                                        <th>Customer Name</th>\r\n                                        <th>Vehicle Model</th>\r\n                                        <th>Requested Days</th>\r\n                                        <th>Requested Date</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let result of result\">\r\n                                        <td>{{result.startingLocation}}</td>\r\n                                        <td>{{result.destinationLocation}}</td>\r\n                                        <td>{{result.customerName}}</td>\r\n                                        <td>{{result.model}}</td>\r\n                                        <td>{{result.requestedDays}}</td>\r\n                                        <td>{{result.requestedDate}}</td>\r\n                                    </tr>\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-header></app-header>\r\n\r\n<div class=\"row\" style=\"margin-left: 10px;margin-bottom: 10px;\"> -->\r\n<!-- <button class=\"btn btn-dark\" routerLink=\"/admin\"> <i class=\"fa fa-arrow-left\"\r\n        aria-hidden=\"true\"></i> Back</button> -->\r\n\r\n\r\n<!-- <div class=\"col-sm-12\">\r\n        <h4 style=\"    text-align: center;\r\n        font-size: 29px;\">Vehicle Tracking</h4>\r\n        <hr style=\"width: 60%; margin-left: auto;margin-right: auto;\">\r\n    </div>\r\n</div>\r\n<div class=\"row\" style=\"margin-top: 0px;\">\r\n    <div class=\"col-sm-4\" *ngFor=\"let result of result\">\r\n        <div class=\"card\"> -->\r\n<!-- <div class=\"row\" style=\"margin-top: 0px;\">\r\n                <div class=\"col-sm-4\">\r\n             \r\n                    <img src=\"./assets/img/caricon.png\" alt=\"\" style=\"width: 48px;\">\r\n                    <p>{{result.startingLocation}} </p>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n                    <div class=\"line-top\"></div>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n        \r\n                    <img src=\"./assets/img/caricon.png\" alt=\"\" style=\"width: 48px;margin-left: 40px;\">\r\n\r\n\r\n                    <p style=\"text-align: end;\">{{result.destinationLocation}}</p>\r\n                </div>\r\n            </div>\r\n            <div class=\"row\" style=\"margin-top: 0px;\">\r\n                <div class=\"col-sm-12\">\r\n                    <h5>Details</h5>\r\n                    <hr>\r\n\r\n                </div>\r\n                <div class=\"col-sm-12\">\r\n                    <p>Customer Name <em style=\"    float: right;\">{{result.customerName}}</em></p>\r\n                    <p>Vehicle Model <em style=\"    float: right;\">{{result.model}}</em> </p>\r\n                    <p>Requested Days <em style=\"    float: right;\">{{result.requestedDays}}</em> </p>\r\n                    <p>Requested Date <em style=\"    float: right;\">{{result.requestedDate}}</em> </p>\r\n                    <p>Requested End Date <em style=\"    float: right;\">{{result.requestEndDate}}</em> </p>\r\n\r\n                    <p>Starting Km <em style=\"    float: right;\">{{result.startingKM}}</em> </p>\r\n                    <p>Ending KM <em style=\"    float: right;\">{{result.endingKM}}</em> </p>\r\n                    <p>Travelled KM <em style=\"    float: right;\">{{result.customerTravelledKM}}</em> </p>\r\n                    <p>Amount <em style=\"    float: right;\">{{result.amount}}</em> </p>\r\n                    <p *ngIf=\"result.driverRequired == false\">Driver is Required <em style=\"    float: right;\">No</em> </p>\r\n                    <p *ngIf=\"result.driverRequired == true\">Driver is Required <em style=\"    float: right;\">Yes</em> </p>\r\n\r\n                </div>\r\n             \r\n            </div> -->\r\n<!-- <div class=\"card shadow mb-4\">\r\n\r\n                <div class=\"card-body\">\r\n                    <div class=\"table-responsive\">\r\n                        <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                            <thead style=\" color: #fff; background: #3158c8; \">\r\n                                <tr>\r\n                                    <th>Starting Location</th>\r\n                                    <th>Destination Location</th>\r\n                                    <th>Customer Name</th>\r\n                                    <th>Vehicle Model</th>\r\n                                    <th>Requested Days</th>\r\n                                </tr>\r\n                            </thead>\r\n\r\n                            <tbody>\r\n                                <tr *ngFor=\"let result of result\">\r\n                                    <td></td>\r\n                                    <td></td>\r\n                                    <td></td>\r\n                                    <td></td>\r\n                                    <td></td>\r\n\r\n                                </tr>\r\n\r\n                            </tbody>\r\n                        </table>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n -->\r\n\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Tracking</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;background: #496fdb;\" routerLink=\"/add-location\"><i class=\"fa fa-plus\"></i> Add Locality </a> -->\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Starting Location</th>\r\n                                        <th>Destination Location</th>\r\n                                        <th>Customer Name</th>\r\n                                        <th>Vehicle Model</th>\r\n                                        <th>Requested Days</th>\r\n                                        <th>Requested Date</th>\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let result of result\">\r\n                                        <td>{{result.startingLocation}}</td>\r\n                                        <td>{{result.destinationLocation}}</td>\r\n                                        <td>{{result.customerName}}</td>\r\n                                        <td>{{result.model}}</td>\r\n                                        <td>{{result.requestedDays}}</td>\r\n                                        <td>{{result.requestedDate}}</td>\r\n                                        <td><button class=\"btn btn-primary\" (click)=\"trackview(result)\" style=\"    background: #3158c8;\"> <i class=\"fa fa-eye\"></i> View</button></td>\r\n                                    </tr>\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.html":
+  /*!******************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.html ***!
+    \******************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppOwnerpannelVehicletrackingViewTrackingViewTrackingComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">View Vehicle Tracking</h1>\n\n                    </div>\n                    <div class=\"col-sm-6\">\n                        <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;background: #496fdb;\" routerLink=\"/add-location\"><i class=\"fa fa-plus\"></i> Add Locality </a> -->\n\n\n\n                    </div>\n                    <div class=\" offset-3 col-sm-6 offset-3\">\n                        <div class=\"card\">\n                            <div class=\"row\">\n                                <!-- <h6 >Take Vehicle City</h6>\n                                <div class=\"col-sm-3\">\n\n                                    <h6 >Take Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                    margin-left: 27px;\"></i>\n                                    <h6>{{results.startingLocation}}</h6>\n\n                                </div>\n                                <div class=\"col-sm-6\"></div>\n\n                                <div class=\"col-sm-3\">\n\n                                    <h6 style=\"text-align: right;margin-bottom: 22px;\">Return Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"font-size: 57px;\n                                    float: right;\n                                    margin-right: 39px;\n                                \"></i>\n                                </div> -->\n                                <div class=\"col-sm-12\">\n                                    <h6>Take Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                       margin-left: 43%;margin-bottom: 20px;\"></i>\n                                    <h6>{{results.startingLocation}}</h6>\n\n\n                                    <h6>Return Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                       margin-left: 43%;margin-bottom: 20px;\"></i>\n                                    <h6>{{results.destinationLocation}}</h6>\n\n                                    <h6>Take Off Day</h6>\n\n                                    <h6>{{results.requestedDate}}</h6>\n\n                                    <h6>Return Day</h6>\n\n                                    <h6>{{results.requestEndDate}}</h6>\n\n                                    <hr>\n                                    <p>Customer Details</p>\n                                    <h6 style=\"text-align: left;\">{{results.customerName}}</h6>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n\n                </div>\n\n            </div>\n\n        </div>\n    </div>\n</div>";
     /***/
   },
 
@@ -2826,6 +2846,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function getallcancelledbookings(fromdate, todate, page) {
           return this.http.get(this.BASEURL + 'trip/listCancelledTripForAdminDate?start=' + fromdate + '&end=' + todate + '&page=' + page + '&size=1000');
         }
+      }, {
+        key: "getadmincount",
+        value: function getadmincount() {
+          return this.http.get(this.BASEURL + 'admin/getAllCountDetails');
+        }
       }]);
 
       return AdminService;
@@ -3250,7 +3275,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.vehicleModel.vehicleRegistration = this.vehicledetails['numberPlate'];
           this.vehicleID = this.vehicledetails['id'];
           this.driverDetails = this.vehicledetails['driverId'];
+          this.ownername = this.vehicledetails['ownerName'];
           this.driverRentPerKM = this.vehicledetails['driverRentPerKM'];
+          this.pickUpAddress = this.vehicledetails['pickUpAddress'];
+          this.gpsAddress = this.vehicledetails['gpsAddress'];
           this.vehiclestatus = sessionStorage.getItem('tabstatus');
           this.getvehicleImage2imagesbyId();
           this.getlicencefrnt();
@@ -3563,8 +3591,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "./src/app/adminpannel/admin.service.ts");
 
     var AdminpannelComponent = /*#__PURE__*/function () {
-      function AdminpannelComponent() {
+      function AdminpannelComponent(adminservice) {
         _classCallCheck(this, AdminpannelComponent);
+
+        this.adminservice = adminservice;
       }
 
       _createClass(AdminpannelComponent, [{
@@ -3572,11 +3602,25 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function ngOnInit() {
           this.Role = JSON.parse(localStorage.getItem("ROLE"));
           console.log(this.Role);
+          this.getcount();
+        }
+      }, {
+        key: "getcount",
+        value: function getcount() {
+          this.adminservice.getadmincount().subscribe(function (data) {
+            console.log(data);
+          }, function (error) {});
         }
       }]);
 
       return AdminpannelComponent;
     }();
+
+    AdminpannelComponent.ctorParameters = function () {
+      return [{
+        type: _admin_service__WEBPACK_IMPORTED_MODULE_2__["AdminService"]
+      }];
+    };
 
     AdminpannelComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-adminpannel',
@@ -3763,7 +3807,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
       _createClass(CannceledBookingsComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {}
+        value: function ngOnInit() {
+          var date = new Date();
+          console.log(date);
+          var month = ('0' + (date.getMonth() + 1)).slice(-2);
+          var firstDay = date.getFullYear() + '-' + month + '-' + '01';
+          var today = new Date().toISOString().slice(0, 10).replace(/-/g, '-');
+          console.log(firstDay);
+          this.faday = firstDay;
+          this.tday = today;
+          console.log(today);
+          this.date1 = today;
+          this.getallcancelledbookingss();
+        }
       }, {
         key: "fromdate",
         value: function fromdate($event) {
@@ -3785,6 +3841,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.adminservice.getallcancelledbookings(this.fromdatecancel, this.todatecancel, this.page).subscribe(function (data) {
             console.log(data);
             _this18.cancelledbookings = data;
+          }, function (error) {});
+        }
+      }, {
+        key: "getallcancelledbookingss",
+        value: function getallcancelledbookingss() {
+          var _this19 = this;
+
+          this.adminservice.getallcancelledbookings(this.faday, this.tday, this.page).subscribe(function (data) {
+            console.log(data);
+            _this19.cancelledbookings = data;
           }, function (error) {});
         }
       }]);
@@ -3903,11 +3969,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallOwners",
         value: function getallOwners() {
-          var _this19 = this;
+          var _this20 = this;
 
           this.adminservice.getallowners(this.pageIndex).subscribe(function (data) {
-            _this19.results = data;
-            _this19.dataSource.data = _this19.results;
+            _this20.results = data;
+            _this20.dataSource.data = _this20.results;
           }, function (error) {});
         }
       }, {
@@ -3930,11 +3996,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "changePage",
         value: function changePage(e) {
-          var _this20 = this;
+          var _this21 = this;
 
           this.adminservice.getallowners(e.pageIndex).subscribe(function (data) {
-            _this20.results = data;
-            _this20.dataSource.data = _this20.results;
+            _this21.results = data;
+            _this21.dataSource.data = _this21.results;
           }, function (error) {});
         }
       }]);
@@ -4307,7 +4373,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this21 = this;
+          var _this22 = this;
 
           if (this.Location == undefined || this.Location == '') {
             this.toaster.error('Please enter a location name');
@@ -4315,11 +4381,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           } else {
             this.formData.append('name', this.Location);
             this.adminservice.addlocation(this.formData).subscribe(function (data) {
-              _this21.router.navigate(['/locations']);
+              _this22.router.navigate(['/locations']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Location Added!', 'Location Added Successfully', 'success');
             }, function (error) {
-              _this21.formData["delete"];
+              _this22.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Cant add Location!', 'Location Added UnSuccessfully', 'error');
             });
           }
@@ -4447,31 +4513,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditLocationComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this22 = this;
+          var _this23 = this;
 
           this.locationForn = this.fb.group({
             Location: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
           });
           this.activaterouter.params.subscribe(function (params) {
             console.log(params);
-            _this22.Location = params.name;
-            _this22.Id = params.id;
+            _this23.Location = params.name;
+            _this23.Id = params.id;
           });
         }
       }, {
         key: "submit",
         value: function submit() {
-          var _this23 = this;
+          var _this24 = this;
 
           this.formData.append('id', this.Id);
           this.formData.append('name', this.Location);
           this.adminservice.Editlocation(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Location Updated!', 'Location Updated Successfully', 'success');
 
-            _this23.router.navigate(['/locations']);
+            _this24.router.navigate(['/locations']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Cant Update Location!', 'Location Updated UnSuccessfully', 'error');
-            _this23.formData["delete"];
+            _this24.formData["delete"];
           });
         }
       }]);
@@ -4620,12 +4686,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalllocations",
         value: function getalllocations() {
-          var _this24 = this;
+          var _this25 = this;
 
           this.adminpannel.getalllocation().subscribe(function (data) {
             console.log(data);
-            _this24.results = data;
-            _this24.dataSource.data = _this24.results;
+            _this25.results = data;
+            _this25.dataSource.data = _this25.results;
           }, function (error) {});
         }
       }, {
@@ -4892,7 +4958,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reset",
         value: function reset() {
-          var _this25 = this;
+          var _this26 = this;
 
           this.submitted = true;
 
@@ -4900,7 +4966,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return;
           } else if (this.resetForm.valid) {
             this.adminservice.resetpassword(this.adminmodel.oldPasswords, this.adminmodel.password).subscribe(function (data) {
-              _this25.resetForm.reset();
+              _this26.resetForm.reset();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Password Reset!', 'Password Reset Successfully', 'success');
             }, function (error) {
@@ -5409,7 +5475,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(
     /*! ./adminpannel/cannceled-bookings/cannceled-bookings.component */
-    "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
+    "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.ts");
+    /* harmony import */
+
+
+    var _ownerpannel_vehicletracking_view_tracking_view_tracking_component__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(
+    /*! ./ownerpannel/vehicletracking/view-tracking/view-tracking.component */
+    "./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
 
 
     var routes = [{
@@ -5631,6 +5703,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     }, {
       path: 'cancelled-bookings',
       component: _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_61__["CannceledBookingsComponent"],
+      canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_51__["AuthGuard"]]
+    }, {
+      path: 'view-vehicle',
+      component: _ownerpannel_vehicletracking_view_tracking_view_tracking_component__WEBPACK_IMPORTED_MODULE_62__["ViewTrackingComponent"],
       canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_51__["AuthGuard"]]
     }];
 
@@ -6255,7 +6331,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(
     /*! ./adminpannel/cannceled-bookings/cannceled-bookings.component */
-    "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
+    "./src/app/adminpannel/cannceled-bookings/cannceled-bookings.component.ts");
+    /* harmony import */
+
+
+    var _ownerpannel_vehicletracking_view_tracking_view_tracking_component__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(
+    /*! ./ownerpannel/vehicletracking/view-tracking/view-tracking.component */
+    "./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.ts"); // import { AuthGuard } from './_guards/auth.guard';
 
 
     var AppModule = function AppModule() {
@@ -6263,7 +6345,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _login_login_component__WEBPACK_IMPORTED_MODULE_6__["LoginComponent"], _register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"], _adminpannel_adminpannel_component__WEBPACK_IMPORTED_MODULE_8__["AdminpannelComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _adminpannel_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_13__["SidebarComponent"], _adminpannel_header_header_component__WEBPACK_IMPORTED_MODULE_14__["HeaderComponent"], _adminpannel_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__["CountriesComponent"], _adminpannel_adminhome_adminhome_component__WEBPACK_IMPORTED_MODULE_16__["AdminhomeComponent"], _navigation_navigation_component__WEBPACK_IMPORTED_MODULE_17__["NavigationComponent"], _ownerpannel_ownerpannel_component__WEBPACK_IMPORTED_MODULE_18__["OwnerpannelComponent"], _ownerpannel_vehicles_vehicles_component__WEBPACK_IMPORTED_MODULE_19__["VehiclesComponent"], _adminpannel_companies_companies_component__WEBPACK_IMPORTED_MODULE_20__["CompaniesComponent"], _adminpannel_location_location_component__WEBPACK_IMPORTED_MODULE_21__["LocationComponent"], _adminpannel_adminapprovevehicles_adminapprovevehicles_component__WEBPACK_IMPORTED_MODULE_22__["AdminapprovevehiclesComponent"], _adminpannel_paymentreports_paymentreports_component__WEBPACK_IMPORTED_MODULE_23__["PaymentreportsComponent"], _adminpannel_reset_passowrd_reset_passowrd_component__WEBPACK_IMPORTED_MODULE_24__["ResetPassowrdComponent"], _ownerpannel_addnew_cars_addnew_cars_component__WEBPACK_IMPORTED_MODULE_25__["AddnewCarsComponent"], _ownerpannel_drivers_drivers_component__WEBPACK_IMPORTED_MODULE_30__["DriversComponent"], _ownerpannel_drivers_add_drivers_add_drivers_component__WEBPACK_IMPORTED_MODULE_31__["AddDriversComponent"], _loading_loading_component__WEBPACK_IMPORTED_MODULE_32__["LoadingComponent"], _ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"], _forgotpassword_forgotpassword_component__WEBPACK_IMPORTED_MODULE_35__["ForgotpasswordComponent"], _adminpannel_location_edit_location_edit_location_component__WEBPACK_IMPORTED_MODULE_36__["EditLocationComponent"], _adminpannel_location_add_location_add_location_component__WEBPACK_IMPORTED_MODULE_37__["AddLocationComponent"], _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_38__["ErrorPageComponent"], _ownerpannel_edit_cars_edit_cars_component__WEBPACK_IMPORTED_MODULE_41__["EditCarsComponent"], _registerpageformarketing_registerpageformarketing_component__WEBPACK_IMPORTED_MODULE_42__["RegisterpageformarketingComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_43__["FooterComponent"], _registerpageformarketing_pulicregistrationmarketing_pulicregistrationmarketing_component__WEBPACK_IMPORTED_MODULE_44__["PulicregistrationmarketingComponent"], _adminpannel_adminapprovevehicles_view_vehicledetails_view_vehicledetails_component__WEBPACK_IMPORTED_MODULE_45__["ViewVehicledetailsComponent"], _ownerpannel_vehicles_ownerviewvehicles_ownerviewvehicles_component__WEBPACK_IMPORTED_MODULE_46__["OwnerviewvehiclesComponent"], _ownerpannel_drivers_viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_47__["ViewlicsencebackComponent"], _ownerpannel_drivers_edit_drivers_edit_drivers_component__WEBPACK_IMPORTED_MODULE_48__["EditDriversComponent"], _ownerpannel_bankdetails_bankdetails_component__WEBPACK_IMPORTED_MODULE_49__["BankdetailsComponent"], _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_50__["AddBanksComponent"], _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_51__["EditBankdetailsComponent"], _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__["RequestsComponent"], _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"], _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__["HandovervehiclesComponent"], _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"], _ownerpannel_addnew_cars_addimage_one_addimage_one_component__WEBPACK_IMPORTED_MODULE_56__["AddimageOneComponent"], _ownerpannel_addnew_cars_addimage_two_addimage_two_component__WEBPACK_IMPORTED_MODULE_57__["AddimageTwoComponent"], _ownerpannel_addnew_cars_addlicence_front_addlicence_front_component__WEBPACK_IMPORTED_MODULE_58__["AddlicenceFrontComponent"], _ownerpannel_addnew_cars_addlicence_back_addlicence_back_component__WEBPACK_IMPORTED_MODULE_59__["AddlicenceBackComponent"], _ownerpannel_addnew_cars_addrcimage_addrcimage_component__WEBPACK_IMPORTED_MODULE_60__["AddrcimageComponent"], _ownerpannel_drivers_add_drivers_adddriver_licscence_adddriver_licscence_component__WEBPACK_IMPORTED_MODULE_61__["AdddriverLicscenceComponent"], _ownerpannel_drivers_add_drivers_adddriver_licscenceback_adddriver_licscenceback_component__WEBPACK_IMPORTED_MODULE_62__["AdddriverLicscencebackComponent"], _ownerpannel_drivers_add_drivers_adddriver_profilepic_adddriver_profilepic_component__WEBPACK_IMPORTED_MODULE_63__["AdddriverProfilepicComponent"], _ownerpannel_vehicletracking_vehicletracking_component__WEBPACK_IMPORTED_MODULE_64__["VehicletrackingComponent"], _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_65__["AboutusComponent"], _features_features_component__WEBPACK_IMPORTED_MODULE_66__["FeaturesComponent"], _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_67__["ContactusComponent"], _termsandconditons_termsandconditons_component__WEBPACK_IMPORTED_MODULE_68__["TermsandconditonsComponent"], _privacyandpolicy_privacyandpolicy_component__WEBPACK_IMPORTED_MODULE_69__["PrivacyandpolicyComponent"], _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_70__["CancelationpolicyComponent"], _services_services_component__WEBPACK_IMPORTED_MODULE_71__["ServicesComponent"], _chatsadnfeedbacks_chatsadnfeedbacks_component__WEBPACK_IMPORTED_MODULE_72__["ChatsadnfeedbacksComponent"], _users_users_component__WEBPACK_IMPORTED_MODULE_74__["UsersComponent"], _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_75__["PricingComponent"], _register_mobilenumber_mobilenumber_component__WEBPACK_IMPORTED_MODULE_76__["MobilenumberComponent"], _register_verifyotp_verifyotp_component__WEBPACK_IMPORTED_MODULE_77__["VerifyotpComponent"], _car_renters_car_renters_component__WEBPACK_IMPORTED_MODULE_78__["CarRentersComponent"], _slideshow_slideshow_component__WEBPACK_IMPORTED_MODULE_79__["SlideshowComponent"], _adminpannel_allbanks_allbanks_component__WEBPACK_IMPORTED_MODULE_80__["AllbanksComponent"], _chatsadnfeedbacks_add_feedback_add_feedback_component__WEBPACK_IMPORTED_MODULE_81__["AddFeedbackComponent"], _ownerpannel_ownerpaymentsection_ownerpaymentsection_component__WEBPACK_IMPORTED_MODULE_82__["OwnerpaymentsectionComponent"], _ownerpannel_ownerpaymentsection_collect_cash_collect_cash_component__WEBPACK_IMPORTED_MODULE_83__["CollectCashComponent"], _mappages_mappages_component__WEBPACK_IMPORTED_MODULE_84__["MappagesComponent"], _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_86__["CannceledBookingsComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _login_login_component__WEBPACK_IMPORTED_MODULE_6__["LoginComponent"], _register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"], _adminpannel_adminpannel_component__WEBPACK_IMPORTED_MODULE_8__["AdminpannelComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _adminpannel_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_13__["SidebarComponent"], _adminpannel_header_header_component__WEBPACK_IMPORTED_MODULE_14__["HeaderComponent"], _adminpannel_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__["CountriesComponent"], _adminpannel_adminhome_adminhome_component__WEBPACK_IMPORTED_MODULE_16__["AdminhomeComponent"], _navigation_navigation_component__WEBPACK_IMPORTED_MODULE_17__["NavigationComponent"], _ownerpannel_ownerpannel_component__WEBPACK_IMPORTED_MODULE_18__["OwnerpannelComponent"], _ownerpannel_vehicles_vehicles_component__WEBPACK_IMPORTED_MODULE_19__["VehiclesComponent"], _adminpannel_companies_companies_component__WEBPACK_IMPORTED_MODULE_20__["CompaniesComponent"], _adminpannel_location_location_component__WEBPACK_IMPORTED_MODULE_21__["LocationComponent"], _adminpannel_adminapprovevehicles_adminapprovevehicles_component__WEBPACK_IMPORTED_MODULE_22__["AdminapprovevehiclesComponent"], _adminpannel_paymentreports_paymentreports_component__WEBPACK_IMPORTED_MODULE_23__["PaymentreportsComponent"], _adminpannel_reset_passowrd_reset_passowrd_component__WEBPACK_IMPORTED_MODULE_24__["ResetPassowrdComponent"], _ownerpannel_addnew_cars_addnew_cars_component__WEBPACK_IMPORTED_MODULE_25__["AddnewCarsComponent"], _ownerpannel_drivers_drivers_component__WEBPACK_IMPORTED_MODULE_30__["DriversComponent"], _ownerpannel_drivers_add_drivers_add_drivers_component__WEBPACK_IMPORTED_MODULE_31__["AddDriversComponent"], _loading_loading_component__WEBPACK_IMPORTED_MODULE_32__["LoadingComponent"], _ownerpannel_drivers_viewliscence_viewliscence_component__WEBPACK_IMPORTED_MODULE_34__["ViewliscenceComponent"], _forgotpassword_forgotpassword_component__WEBPACK_IMPORTED_MODULE_35__["ForgotpasswordComponent"], _adminpannel_location_edit_location_edit_location_component__WEBPACK_IMPORTED_MODULE_36__["EditLocationComponent"], _adminpannel_location_add_location_add_location_component__WEBPACK_IMPORTED_MODULE_37__["AddLocationComponent"], _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_38__["ErrorPageComponent"], _ownerpannel_edit_cars_edit_cars_component__WEBPACK_IMPORTED_MODULE_41__["EditCarsComponent"], _registerpageformarketing_registerpageformarketing_component__WEBPACK_IMPORTED_MODULE_42__["RegisterpageformarketingComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_43__["FooterComponent"], _registerpageformarketing_pulicregistrationmarketing_pulicregistrationmarketing_component__WEBPACK_IMPORTED_MODULE_44__["PulicregistrationmarketingComponent"], _adminpannel_adminapprovevehicles_view_vehicledetails_view_vehicledetails_component__WEBPACK_IMPORTED_MODULE_45__["ViewVehicledetailsComponent"], _ownerpannel_vehicles_ownerviewvehicles_ownerviewvehicles_component__WEBPACK_IMPORTED_MODULE_46__["OwnerviewvehiclesComponent"], _ownerpannel_drivers_viewlicsenceback_viewlicsenceback_component__WEBPACK_IMPORTED_MODULE_47__["ViewlicsencebackComponent"], _ownerpannel_drivers_edit_drivers_edit_drivers_component__WEBPACK_IMPORTED_MODULE_48__["EditDriversComponent"], _ownerpannel_bankdetails_bankdetails_component__WEBPACK_IMPORTED_MODULE_49__["BankdetailsComponent"], _ownerpannel_bankdetails_add_banks_add_banks_component__WEBPACK_IMPORTED_MODULE_50__["AddBanksComponent"], _ownerpannel_bankdetails_edit_bankdetails_edit_bankdetails_component__WEBPACK_IMPORTED_MODULE_51__["EditBankdetailsComponent"], _ownerpannel_requests_requests_component__WEBPACK_IMPORTED_MODULE_52__["RequestsComponent"], _ownerpannel_requests_view_requests_view_requests_component__WEBPACK_IMPORTED_MODULE_53__["ViewRequestsComponent"], _ownerpannel_handovervehicles_handovervehicles_component__WEBPACK_IMPORTED_MODULE_54__["HandovervehiclesComponent"], _ownerpannel_handovervehicles_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_55__["AddVehiclekmHandoverComponent"], _ownerpannel_addnew_cars_addimage_one_addimage_one_component__WEBPACK_IMPORTED_MODULE_56__["AddimageOneComponent"], _ownerpannel_addnew_cars_addimage_two_addimage_two_component__WEBPACK_IMPORTED_MODULE_57__["AddimageTwoComponent"], _ownerpannel_addnew_cars_addlicence_front_addlicence_front_component__WEBPACK_IMPORTED_MODULE_58__["AddlicenceFrontComponent"], _ownerpannel_addnew_cars_addlicence_back_addlicence_back_component__WEBPACK_IMPORTED_MODULE_59__["AddlicenceBackComponent"], _ownerpannel_addnew_cars_addrcimage_addrcimage_component__WEBPACK_IMPORTED_MODULE_60__["AddrcimageComponent"], _ownerpannel_drivers_add_drivers_adddriver_licscence_adddriver_licscence_component__WEBPACK_IMPORTED_MODULE_61__["AdddriverLicscenceComponent"], _ownerpannel_drivers_add_drivers_adddriver_licscenceback_adddriver_licscenceback_component__WEBPACK_IMPORTED_MODULE_62__["AdddriverLicscencebackComponent"], _ownerpannel_drivers_add_drivers_adddriver_profilepic_adddriver_profilepic_component__WEBPACK_IMPORTED_MODULE_63__["AdddriverProfilepicComponent"], _ownerpannel_vehicletracking_vehicletracking_component__WEBPACK_IMPORTED_MODULE_64__["VehicletrackingComponent"], _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_65__["AboutusComponent"], _features_features_component__WEBPACK_IMPORTED_MODULE_66__["FeaturesComponent"], _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_67__["ContactusComponent"], _termsandconditons_termsandconditons_component__WEBPACK_IMPORTED_MODULE_68__["TermsandconditonsComponent"], _privacyandpolicy_privacyandpolicy_component__WEBPACK_IMPORTED_MODULE_69__["PrivacyandpolicyComponent"], _cancelationpolicy_cancelationpolicy_component__WEBPACK_IMPORTED_MODULE_70__["CancelationpolicyComponent"], _services_services_component__WEBPACK_IMPORTED_MODULE_71__["ServicesComponent"], _chatsadnfeedbacks_chatsadnfeedbacks_component__WEBPACK_IMPORTED_MODULE_72__["ChatsadnfeedbacksComponent"], _users_users_component__WEBPACK_IMPORTED_MODULE_74__["UsersComponent"], _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_75__["PricingComponent"], _register_mobilenumber_mobilenumber_component__WEBPACK_IMPORTED_MODULE_76__["MobilenumberComponent"], _register_verifyotp_verifyotp_component__WEBPACK_IMPORTED_MODULE_77__["VerifyotpComponent"], _car_renters_car_renters_component__WEBPACK_IMPORTED_MODULE_78__["CarRentersComponent"], _slideshow_slideshow_component__WEBPACK_IMPORTED_MODULE_79__["SlideshowComponent"], _adminpannel_allbanks_allbanks_component__WEBPACK_IMPORTED_MODULE_80__["AllbanksComponent"], _chatsadnfeedbacks_add_feedback_add_feedback_component__WEBPACK_IMPORTED_MODULE_81__["AddFeedbackComponent"], _ownerpannel_ownerpaymentsection_ownerpaymentsection_component__WEBPACK_IMPORTED_MODULE_82__["OwnerpaymentsectionComponent"], _ownerpannel_ownerpaymentsection_collect_cash_collect_cash_component__WEBPACK_IMPORTED_MODULE_83__["CollectCashComponent"], _mappages_mappages_component__WEBPACK_IMPORTED_MODULE_84__["MappagesComponent"], _adminpannel_cannceled_bookings_cannceled_bookings_component__WEBPACK_IMPORTED_MODULE_86__["CannceledBookingsComponent"], _ownerpannel_vehicletracking_view_tracking_view_tracking_component__WEBPACK_IMPORTED_MODULE_87__["ViewTrackingComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _material__WEBPACK_IMPORTED_MODULE_10__["MaterialModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"], _agm_core__WEBPACK_IMPORTED_MODULE_85__["AgmCoreModule"].forRoot({
         apiKey: 'AIzaSyA8VTIDe4Yi7VHOJLbVgsr5UyDKHV2vBe4'
       }), ngx_toastr__WEBPACK_IMPORTED_MODULE_40__["ToastrModule"].forRoot(), _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["ReactiveFormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"]],
@@ -6437,10 +6519,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this26 = this;
+          var _this27 = this;
 
           this.adminservice.getallownersforadmin(this.page).subscribe(function (data) {
-            _this26.results = data;
+            _this27.results = data;
           }, function (error) {});
         }
       }]);
@@ -6672,19 +6754,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getchatsafeeback",
         value: function getchatsafeeback() {
-          var _this27 = this;
+          var _this28 = this;
 
           this.AdminService.getalldata(this.faday, this.tday, this.page, this.size).subscribe(function (data) {
-            _this27.results = data;
+            _this28.results = data;
           }, function (error) {});
         }
       }, {
         key: "selected",
         value: function selected(s) {
-          var _this28 = this;
+          var _this29 = this;
 
           this.AdminService.getalldata(this.date1, this.date2, this.page, this.size).subscribe(function (data) {
-            _this28.results = data;
+            _this29.results = data;
           }, function (error) {});
         }
       }]);
@@ -7495,7 +7577,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onSubmit",
         value: function onSubmit(form, formData) {
-          var _this29 = this;
+          var _this30 = this;
 
           // this.submitted = true;
           // this.authservice.login(formData.email,formData.password).pipe(first())
@@ -7518,14 +7600,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (data['roleId'] == '1') {
               localStorage.setItem('ROLE', JSON.stringify('ADMIN'));
 
-              _this29.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
+              _this30.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
 
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Admin Login!', ' Admin Login Successfully', 'success');
             } else if (data['roleId'] == '2') {
               localStorage.setItem('ROLE', JSON.stringify('OWNER'));
 
-              _this29.router.navigate(['/admin']);
+              _this30.router.navigate(['/admin']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('WELCOME!', 'Login Successfully', 'success');
             }
@@ -7754,7 +7836,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getAddress",
         value: function getAddress() {
-          var _this30 = this;
+          var _this31 = this;
 
           this.geoCoder = new google.maps.Geocoder();
           this.geoCoder.geocode({
@@ -7769,8 +7851,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (status === 'OK') {
               if (results[0]) {
                 // this.zoom = 12;
-                _this30.address = results[0].formatted_address;
-                console.log(_this30.address);
+                _this31.address = results[0].formatted_address;
+                console.log(_this31.address);
               } else {
                 window.alert('No results found');
               }
@@ -8325,11 +8407,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function addimage1(event) {
           this.img1 = event.target.files;
           this.image1 = this.img1.item(0);
+          var reader = new FileReader();
+          reader.readAsDataURL(this.img1.item(0));
+
+          reader.onload = function (event) {// this.imagepreview = event.target.result;
+          };
         }
       }, {
         key: "submit",
         value: function submit() {
-          var _this31 = this;
+          var _this32 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8342,7 +8429,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this31.router.navigate(['/image2']);
+              _this32.router.navigate(['/image2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8509,7 +8596,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this32 = this;
+          var _this33 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8522,7 +8609,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this32.router.navigate(['/licsence1']);
+              _this33.router.navigate(['/licsence1']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8689,7 +8776,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this33 = this;
+          var _this34 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8702,7 +8789,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added!', 'Licence Added Successfully', 'success');
 
-              _this33.router.navigate(['/rcfrnt']);
+              _this34.router.navigate(['/rcfrnt']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added Error!', 'Licence Back Added SUnccessfully', 'error');
             });
@@ -8869,7 +8956,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this34 = this;
+          var _this35 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8882,7 +8969,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added!', 'Licence Front Added Successfully', 'success');
 
-              _this34.router.navigate(['/licsence2']);
+              _this35.router.navigate(['/licsence2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added Error!', 'Licence Front Added SUnccessfully', 'error');
             });
@@ -9052,7 +9139,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             // img2 :['',Validators.required],
             driver: [''],
             dRent: [''],
-            vRentperHr: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            paddress: [''],
             vRentperKm: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
           });
           this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
@@ -9075,21 +9162,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this35 = this;
+          var _this36 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this35.driverslist = data;
-            console.log(_this35.driverslist);
+            _this36.driverslist = data;
+            console.log(_this36.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this36 = this;
+          var _this37 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this36.locations = data;
+            _this37.locations = data;
           }, function (error) {});
         }
       }, {
@@ -9125,17 +9212,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this37 = this;
+          var _this38 = this;
 
           this.submitted = true;
           this.mapdataresponse = JSON.parse(sessionStorage.getItem("mapcordinatess")); // stop here if form is invalid
+          // console.log(this.mapdataresponse['latitude'] + ',' + this.mapdataresponse["longitude"]);
 
-          console.log(this.mapdataresponse['latitude'] + ',' + this.mapdataresponse["longitude"]);
           console.log(this.mapdataresponse);
 
           if (this.addVehiclesform.invalid) {
+            console.log(this.vehicleModel.paddress);
             return;
           } else {
+            var vrent = parseInt(this.vehicleModel.vRentperKm) * 30;
+            this.vehicleModel.vRentperHr = vrent.toString();
             this.formData.append('type', this.vehicleModel.vehicleType);
             this.formData.append('companyName', this.vehicleModel.vehicleCompany);
             this.formData.append('model', this.vehicleModel.vehicleModel);
@@ -9146,11 +9236,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append('ownerId', this.ownerId);
             this.formData.append("gpsCoorginates", this.mapdataresponse['latitude'] + ',' + this.mapdataresponse["longitude"]);
             this.formData.append("gpsAddress", this.mapdataresponse['address']);
-            this.formData.append("pickUpAddress", this.mapdataresponse['address']); // this.formData.append('licenceFront', this.lisencefrnt);
+
+            if (this.mapdataresponse == null) {
+              this.formData.append("pickUpAddress", this.vehicleModel.paddress);
+            } else {
+              this.formData.append("pickUpAddress", null);
+            } // this.formData.append('licenceFront', this.lisencefrnt);
             // this.formData.append('licenceBack', this.lisenceback);
             // this.formData.append('rcImage', this.rcproof);
             // this.formData.append('image1', this.image1);
             // this.formData.append('image2', this.image2);
+
 
             this.formData.append('driverId', this.vehicleModel.driver);
 
@@ -9164,32 +9260,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append('rentPerHour', this.vehicleModel.vRentperHr);
             console.log(this.formData);
             this.owenerservice.addnewvehicle(this.formData).subscribe(function (data) {
-              // Swal.fire({
-              //   title: 'Are you sure?',
-              //   text: 'You will not be able to recover this imaginary file!',
-              //   icon: 'success',
-              //   showCancelButton: true,
-              //   confirmButtonText: 'Ok',
-              // }).then((result) => {
-              //   if (result.value) {
-              //     Swal.fire(
-              //       'Vehicle Added!',
-              //       'Vehicle Added Successfully',
-              //       'success'
-              //     )
-              //   this.router.navigate(['/vehicles']);
-              //   } 
-              // })
               localStorage.setItem('vehicleadddetailsid', JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Added!', 'Basic Details Added Successfully', 'success');
 
-              _this37.router.navigate(['/image1']);
+              _this38.router.navigate(['/image1']);
             }, function (error) {
-              // alert('error')
-              _this37.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this37.error, 'error'); // this.toaster.error(this.error)
-
-              _this37.formData["delete"];
+              _this38.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this38.error, 'error');
+              _this38.formData["delete"];
             });
           }
         }
@@ -9357,7 +9435,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this38 = this;
+          var _this39 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9370,7 +9448,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
 
-              _this38.router.navigate(['/vehicles']);
+              _this39.router.navigate(['/vehicles']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added Error!', 'RC Added SUnccessfully', 'error');
             });
@@ -9526,7 +9604,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this39 = this;
+          var _this40 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9541,7 +9619,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.addbanks(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Added!', 'Bank Details Added Successfully', 'success');
 
-              _this39.router.navigate(['/bankdetails']);
+              _this40.router.navigate(['/bankdetails']);
             }, function (error) {});
           }
         }
@@ -9688,19 +9766,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getbankdetails",
         value: function getbankdetails() {
-          var _this40 = this;
+          var _this41 = this;
 
           this.adminpannel.getbankdetails(this.userDetails['userId']).subscribe(function (data) {
             console.log(data);
-            _this40.results = data;
+            _this41.results = data;
 
-            _this40.arr.push(_this40.results);
+            _this41.arr.push(_this41.results);
 
-            console.log(_this40.arr.length);
-            _this40.bankModel.accountNumber = _this40.results['accountNumber'];
-            _this40.bankModel.acocuntholderName = _this40.results['accountHolderName'];
-            _this40.bankModel.ifscode = _this40.results['ifscCode'];
-            _this40.bankModel.bankName = _this40.results['bankName']; // this.dataSource.data = this.results;
+            console.log(_this41.arr.length);
+            _this41.bankModel.accountNumber = _this41.results['accountNumber'];
+            _this41.bankModel.acocuntholderName = _this41.results['accountHolderName'];
+            _this41.bankModel.ifscode = _this41.results['ifscCode'];
+            _this41.bankModel.bankName = _this41.results['bankName']; // this.dataSource.data = this.results;
           }, function (error) {});
         }
       }, {
@@ -9858,7 +9936,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this41 = this;
+          var _this42 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9868,7 +9946,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.updateBank(this.bankModel.bankId, this.bankModel.ownerId, this.bankModel.acocuntholderName, this.bankModel.accountNumber, this.bankModel.ifscode, this.bankModel.bankName).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Update!', 'Bank Details Updated Successfully', 'success');
 
-              _this41.router.navigate(['/bankdetails']);
+              _this42.router.navigate(['/bankdetails']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Unable to Update Bank Details !', 'Bank Details Updated UnSuccessfull', 'error');
             });
@@ -10044,7 +10122,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this42 = this;
+          var _this43 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10064,13 +10142,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem("driverDetails", JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Driver Added!', 'Driver Added Successfully', 'success');
 
-              _this42.router.navigate(['/driverlicsencefrnt']);
+              _this43.router.navigate(['/driverlicsencefrnt']);
             }, function (error) {
               // alert('error')
-              _this42.error = error.error['message']; // this.toaster.error(this.error);
+              _this43.error = error.error['message']; // this.toaster.error(this.error);
 
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this42.error, 'error');
-              _this42.formData["delete"];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this43.error, 'error');
+              _this43.formData["delete"];
             });
           }
         }
@@ -10250,7 +10328,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this43 = this;
+          var _this44 = this;
 
           this.submitted = true;
 
@@ -10263,7 +10341,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this43.router.navigate(['/driverlicsenceback']);
+              _this44.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10272,56 +10350,75 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submitlicsencefront",
         value: function submitlicsencefront() {
+          var _this45 = this;
+
           if (this.lisencefrnt == undefined) {} else {
             this.formData.append('image', this.lisencefrnt);
             this.formData.append('type', "1");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success'); // this.router.navigate(['/driverlicsenceback']);
+              _this45.formData = new FormData();
+              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
+              _this45.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
+              _this45.formData["delete"];
             });
           }
         }
       }, {
         key: "submitlicsenceback",
         value: function submitlicsenceback() {
+          var _this46 = this;
+
           if (this.lisenceback == undefined) {} else {
             this.formData.append('image', this.lisenceback);
             this.formData.append('type', "2");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success'); // this.router.navigate(['/driverlicsenceback']);
+              _this46.formData = new FormData();
+              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
+              _this46.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
+              _this46.formData["delete"];
             });
           }
         }
       }, {
         key: "profilepic",
         value: function profilepic() {
+          var _this47 = this;
+
           if (this.propicfile == undefined) {} else {
             this.formData.append('image', this.propicfile);
             this.formData.append('type', "3");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success'); // this.router.navigate(['/driverlicsenceback']);
+              _this47.formData = new FormData();
+              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
+              _this47.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
+              _this47.formData["delete"];
             });
           }
         }
       }, {
         key: "noc",
         value: function noc() {
+          var _this48 = this;
+
           if (this.nocdriver == undefined) {} else {
             this.formData.append('image', this.nocdriver);
             this.formData.append('type', "4");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added!', 'Driver NOC Added Successfully', 'success'); // this.router.navigate(['/driverlicsenceback']);
+              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added!', 'Driver NOC Added Successfully', 'success');
+              _this48.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added Error!', 'Driver NOC Added Error Successfully', 'error');
+              _this48.formData["delete"];
             });
           }
         }
@@ -10484,7 +10581,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this44 = this;
+          var _this49 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10497,7 +10594,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this44.router.navigate(['/profilepicdriver']);
+              _this49.router.navigate(['/profilepicdriver']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10663,7 +10760,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this45 = this;
+          var _this50 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10676,7 +10773,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
 
-              _this45.router.navigate(['/drivers']);
+              _this50.router.navigate(['/drivers']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
             });
@@ -10821,6 +10918,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! @angular/material/paginator */
     "./node_modules/@angular/material/esm2015/paginator.js");
+    /* harmony import */
+
+
+    var sweetalert2__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! sweetalert2 */
+    "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+    /* harmony import */
+
+
+    var sweetalert2__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_11__);
 
     var DriversComponent = /*#__PURE__*/function () {
       function DriversComponent(router, dialog, ownerservice, domsanitizer) {
@@ -10870,12 +10977,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallsdriver",
         value: function getallsdriver() {
-          var _this46 = this;
+          var _this51 = this;
 
           this.ownerservice.getalldrivers(this.ownerId).subscribe(function (data) {
             console.log(data);
-            _this46.driverslist = data;
-            _this46.dataSource.data = _this46.driverslist;
+            _this51.driverslist = data;
+            _this51.dataSource.data = _this51.driverslist;
           }, function (error) {});
         }
       }, {
@@ -10936,6 +11043,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           console.log(e.id);
           sessionStorage.setItem("driverId", e.id);
           this.router.navigate(['/editdrivers']);
+        }
+      }, {
+        key: "delete",
+        value: function _delete(e) {
+          var _this52 = this;
+
+          console.log(e.id);
+          this.ownerservice.deleteDriver(e.id).subscribe(function (data) {
+            sweetalert2__WEBPACK_IMPORTED_MODULE_11___default.a.fire('Driver Deleted!', 'Driver Deleted Successfully', 'success');
+
+            _this52.ngOnInit();
+          }, function (error) {
+            sweetalert2__WEBPACK_IMPORTED_MODULE_11___default.a.fire('Unable to Delete Driver !', 'Driver Deleted UnSuccessfull', 'error');
+          });
         }
       }]);
 
@@ -11081,14 +11202,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getdriverDetailByDriverId",
         value: function getdriverDetailByDriverId() {
-          var _this47 = this;
+          var _this53 = this;
 
           this.ownerservice.getDriverDetailsBydriverId(this.driverId).subscribe(function (data) {
-            _this47.results = data;
-            _this47.driverModel.name = _this47.results['name'];
-            _this47.driverModel.address = _this47.results['addresss'];
-            _this47.driverModel.number = _this47.results['number'];
-            _this47.driverModel.pancard = _this47.results['panCardNO'];
+            _this53.results = data;
+            _this53.driverModel.name = _this53.results['name'];
+            _this53.driverModel.address = _this53.results['addresss'];
+            _this53.driverModel.number = _this53.results['number'];
+            _this53.driverModel.pancard = _this53.results['panCardNO'];
             console.log(data);
           }, function (error) {});
         }
@@ -11113,7 +11234,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this48 = this;
+          var _this54 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -11130,64 +11251,64 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             this.formData.append('id', this.driverId);
             this.ownerservice.editdrivers(this.formData).subscribe(function (data) {
-              _this48.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
+              _this54.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
 
             }, function (error) {
               // alert('error')
-              _this48.error = error.error['message'];
+              _this54.error = error.error['message'];
 
-              _this48.toaster.error(_this48.error);
+              _this54.toaster.error(_this54.error);
 
-              _this48.formData["delete"];
+              _this54.formData["delete"];
             });
           }
         }
       }, {
         key: "update",
         value: function update() {
-          var _this49 = this;
+          var _this55 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "1");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this49.formData = new FormData();
+            _this55.formData = new FormData();
 
-            _this49.toaster.success("Driver License Front Updated");
+            _this55.toaster.success("Driver License Front Updated");
           }, function (error) {
-            _this49.toaster.success("Unable to Driver License Front");
+            _this55.toaster.success("Unable to Driver License Front");
           });
         }
       }, {
         key: "updateLback",
         value: function updateLback() {
-          var _this50 = this;
+          var _this56 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "2");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this50.formData = new FormData();
+            _this56.formData = new FormData();
 
-            _this50.toaster.success("Driver License Back Updated");
+            _this56.toaster.success("Driver License Back Updated");
           }, function (error) {
-            _this50.toaster.success("Unable to Driver License Back");
+            _this56.toaster.success("Unable to Driver License Back");
           });
         }
       }, {
         key: "updatepPic",
         value: function updatepPic() {
-          var _this51 = this;
+          var _this57 = this;
 
           this.formData.append('image', this.propic);
           this.formData.append('type', "3");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this51.formData = new FormData();
+            _this57.formData = new FormData();
 
-            _this51.toaster.success("Profile Picture Updated");
+            _this57.toaster.success("Profile Picture Updated");
           }, function (error) {
-            _this51.toaster.success("Unable to update Profile Picture");
+            _this57.toaster.success("Unable to update Profile Picture");
           });
         }
       }, {
@@ -11328,14 +11449,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this52 = this;
+          var _this58 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getlicscenceback(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this52.liscenimag = _this52.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this58.liscenimag = _this58.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11484,14 +11605,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this53 = this;
+          var _this59 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getliscncefront(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this53.liscenimag = _this53.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this59.liscenimag = _this59.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11646,7 +11767,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditCarsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this54 = this;
+          var _this60 = this;
 
           this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__["Vehicle"]();
           this.vehicleModel.locality = '';
@@ -11674,7 +11795,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerId = this.ownerdetails['userId'];
           console.log(this.ownerId);
           this.activaterouter.params.subscribe(function (params) {
-            _this54.vehicleId = params.id;
+            _this60.vehicleId = params.id;
           });
           this.getvehiclesDetailsById();
           this.getalllocality();
@@ -11683,46 +11804,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getvehiclesDetailsById",
         value: function getvehiclesDetailsById() {
-          var _this55 = this;
+          var _this61 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vehicleId).subscribe(function (data) {
-            _this55.results = data;
-            _this55.vehicleModel.vehicleCompany = _this55.results['companyName'];
-            _this55.vehicleModel.vehicleType = _this55.results['type'];
-            _this55.vehicleModel.vehicleModel = _this55.results['model'];
-            _this55.vehicleModel.vehicleRegistration = _this55.results['numberPlate'];
-            _this55.vehicleModel.rent = _this55.results['rentPerDay'];
-            _this55.vehicleModel.locality = _this55.results['locality'];
-            _this55.vehicleModel.vehicleYear = _this55.results['year'];
-            _this55.vehicleModel.vRentperHr = _this55.results['rentPerHour'];
-            _this55.vehicleModel.vRentperKm = _this55.results['rentPerKM'];
+            _this61.results = data;
+            _this61.vehicleModel.vehicleCompany = _this61.results['companyName'];
+            _this61.vehicleModel.vehicleType = _this61.results['type'];
+            _this61.vehicleModel.vehicleModel = _this61.results['model'];
+            _this61.vehicleModel.vehicleRegistration = _this61.results['numberPlate'];
+            _this61.vehicleModel.rent = _this61.results['rentPerDay'];
+            _this61.vehicleModel.locality = _this61.results['locality'];
+            _this61.vehicleModel.vehicleYear = _this61.results['year'];
+            _this61.vehicleModel.vRentperHr = _this61.results['rentPerHour'];
+            _this61.vehicleModel.vRentperKm = _this61.results['rentPerKM'];
 
-            if (_this55.results['driverId'] != null) {
-              _this55.vehicleModel.driver = _this55.results['driverId'];
-              _this55.vehicleModel.dRent = _this55.results['driverRentPerKM'];
+            if (_this61.results['driverId'] != null) {
+              _this61.vehicleModel.driver = _this61.results['driverId'];
+              _this61.vehicleModel.dRent = _this61.results['driverRentPerKM'];
             } else {
-              _this55.vehicleModel.driver = '';
+              _this61.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this56 = this;
+          var _this62 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this56.driverslist = data;
-            console.log(_this56.driverslist);
+            _this62.driverslist = data;
+            console.log(_this62.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this57 = this;
+          var _this63 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this57.locations = data;
+            _this63.locations = data;
           }, function (error) {});
         }
       }, {
@@ -11758,7 +11879,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this58 = this;
+          var _this64 = this;
 
           this.submitted = true;
 
@@ -11788,94 +11909,94 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               // this.toaster.success('Vehicle Updated Successfully');
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Updated!', 'Vehicle Updated Successfully', 'success'); // this.router.navigate(['/vehicles'])
             }, function (error) {
-              _this58.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this58.error, 'error');
-              _this58.formData["delete"];
+              _this64.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this64.error, 'error');
+              _this64.formData["delete"];
             });
           }
         }
       }, {
         key: "updateimg1",
         value: function updateimg1() {
-          var _this59 = this;
+          var _this65 = this;
 
           this.formData.append('image', this.image1);
           this.formData.append('type', "1");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this59.formData = new FormData();
-            _this59.files = '';
+            _this65.formData = new FormData();
+            _this65.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
           }, function (error) {
-            _this59.formData["delete"];
+            _this65.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
           });
         }
       }, {
         key: "updateimg2",
         value: function updateimg2() {
-          var _this60 = this;
+          var _this66 = this;
 
           this.formData.append('image', this.image2);
           this.formData.append('type', "2");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this60.formData = new FormData();
-            _this60.files = '';
+            _this66.formData = new FormData();
+            _this66.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 2 Added!', 'Image 2 Added Successfully', 'success');
           }, function (error) {
-            _this60.formData["delete"];
+            _this66.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 2!', 'Unable to add image 2 Successfully', 'error');
           });
         }
       }, {
         key: "updatelicfrnt",
         value: function updatelicfrnt() {
-          var _this61 = this;
+          var _this67 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "3");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this61.formData = new FormData();
-            _this61.files = '';
+            _this67.formData = new FormData();
+            _this67.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Added!', 'License Added Successfully', 'success');
           }, function (error) {
-            _this61.formData["delete"];
+            _this67.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License front!', 'Unable to add License front Successfully', 'error');
           });
         }
       }, {
         key: "updatelicback",
         value: function updatelicback() {
-          var _this62 = this;
+          var _this68 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "4");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this62.formData = new FormData();
-            _this62.files = '';
+            _this68.formData = new FormData();
+            _this68.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Back Added!', 'License Back Added Successfully', 'success');
           }, function (error) {
-            _this62.formData = new FormData();
+            _this68.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License Back!', 'Unable to add License Back Successfully', 'error');
           });
         }
       }, {
         key: "updaterc",
         value: function updaterc() {
-          var _this63 = this;
+          var _this69 = this;
 
           this.formData.append('image', this.rcproof);
           this.formData.append('type', "5");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this63.formData = new FormData();
-            _this63.files = '';
+            _this69.formData = new FormData();
+            _this69.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
           }, function (error) {
-            _this63.formData = new FormData();
+            _this69.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add RC!', 'Unable to add RC Successfully', 'error');
           });
         }
@@ -12007,14 +12128,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this64 = this;
+          var _this70 = this;
 
           if (this.kilometer != null || this.kilometer != undefined) {
             this.formData.append("startingKM", this.kilometer);
             this.formData.append("tripId", this.results['id']);
             console.log(this.formData);
             this.ownerservice.addcurrentkilometer(this.formData).subscribe(function (data) {
-              _this64.dialogRef.close();
+              _this70.dialogRef.close();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Kilometer Added!', 'Kilometer Added Successfully', 'success');
             }, function (error) {
@@ -12148,6 +12269,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.results = [];
         this.formData = new FormData();
         this.message = 'data found';
+        this.page = 0;
       }
 
       _createClass(HandovervehiclesComponent, [{
@@ -12162,26 +12284,30 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getapprovedVehicles",
         value: function getapprovedVehicles() {
-          var _this65 = this;
+          var _this71 = this;
 
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
-            _this65.results = data;
+          this.ownerService.getallvehicleforhanover(this.ownerId, this.page).subscribe(function (data) {
+            _this71.results = data;
 
-            if (_this65.results.length == 0) {
-              _this65.message = 'No Data Found';
+            if (_this71.results.length == 0) {
+              _this71.message = 'No Data Found';
             } else {
-              _this65.message = 'Data Found';
+              _this71.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "openDialog",
         value: function openDialog(s) {
+          var _this72 = this;
+
           var dialogRef = this.dialog.open(_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_6__["AddVehiclekmHandoverComponent"], {
             width: '450px',
             data: s
           });
           dialogRef.afterClosed().subscribe(function (result) {
+            _this72.ngOnInit();
+
             console.log('The dialog was closed');
           });
         }
@@ -12294,6 +12420,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "getalldrivers",
         value: function getalldrivers(id) {
           return this.http.get(this.BASEURL + 'driver/list?ownerId=' + id + '&type=1&page=0&size=50');
+        }
+      }, {
+        key: "deleteDriver",
+        value: function deleteDriver(id) {
+          return this.http["delete"](this.BASEURL + 'driver/delete?id=' + id);
         }
       }, {
         key: "addnewdriver",
@@ -12440,6 +12571,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "savePayments",
         value: function savePayments(data) {
           return this.http.post(this.BASEURL + 'payment/savePayment', data);
+        }
+      }, {
+        key: "checkotherbookings",
+        value: function checkotherbookings(oid, vid) {
+          return this.http.get(this.BASEURL + 'trip/listForOwnerByNotCompletedByVehicle?ownerId=' + oid + '&vehicleId=' + vid + '&page=0&size=200');
+        }
+      }, {
+        key: "getallvehicleforhanover",
+        value: function getallvehicleforhanover(oid, page) {
+          return this.http.get(this.BASEURL + 'trip/listForOwnerByNotCompleted?ownerId=' + oid + '&page=' + page + '&size=200');
         }
       }]);
 
@@ -12629,21 +12770,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getpaymentdetailsbyTripIdtripid",
         value: function getpaymentdetailsbyTripIdtripid() {
-          var _this66 = this;
+          var _this73 = this;
 
           this.OwnerService.gettripdetailsbyid(this.tripid).subscribe(function (data) {
             console.log(data);
-            _this66.results = data;
-            _this66.customerName = _this66.results['customerName'];
-            _this66.totalKM = _this66.results['totalKM'];
-            _this66.customerMobile = _this66.results['customerMobile'];
-            _this66.vehicleRent = _this66.results['vehicleRent'];
+            _this73.results = data;
+            _this73.customerName = _this73.results['customerName'];
+            _this73.totalKM = _this73.results['totalKM'];
+            _this73.customerMobile = _this73.results['customerMobile'];
+            _this73.vehicleRent = _this73.results['vehicleRent'];
           }, function (error) {});
         }
       }, {
         key: "collectcash",
         value: function collectcash() {
-          var _this67 = this;
+          var _this74 = this;
 
           this.formData.append('paymentMode', '2');
           this.formData.append('tripId', this.tripid);
@@ -12662,12 +12803,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           this.OwnerService.savePayments(this.formData).subscribe(function (data) {
-            _this67.dialogRef.close();
+            _this74.dialogRef.close();
 
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Amount Collected', 'Amount Collcted Successfully', 'success');
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to Collect Cash!', 'Unable Collct Amount Successfully', 'error');
-            _this67.formData["delete"];
+            _this74.formData["delete"];
           });
         }
       }]);
@@ -12798,10 +12939,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallpayments",
         value: function getallpayments() {
-          var _this68 = this;
+          var _this75 = this;
 
           this.ownerservice.getallpaymentsbnyownerid(this.ownerId, this.page).subscribe(function (data) {
-            _this68.payementresults = data;
+            _this75.payementresults = data;
           }, function (error) {});
         }
       }, {
@@ -12972,60 +13113,60 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallPendingdata",
         value: function getallPendingdata() {
-          var _this69 = this;
+          var _this76 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
-            _this69.results = data;
+            _this76.results = data;
 
-            if (_this69.results.length == 0) {
-              _this69.message = 'No Data Found';
+            if (_this76.results.length == 0) {
+              _this76.message = 'No Data Found';
             } else {
-              _this69.message = 'Data Found';
+              _this76.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "getallprebookdata",
         value: function getallprebookdata() {
-          var _this70 = this;
+          var _this77 = this;
 
           this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
-            _this70.results = data;
+            _this77.results = data;
 
-            if (_this70.results.length == 0) {
-              _this70.message = 'No Data Found';
+            if (_this77.results.length == 0) {
+              _this77.message = 'No Data Found';
             } else {
-              _this70.message = 'Data Found';
+              _this77.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "getallApprovedData",
         value: function getallApprovedData() {
-          var _this71 = this;
+          var _this78 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
-            _this71.results = data;
+            _this78.results = data;
 
-            if (_this71.results.length == 0) {
-              _this71.message = 'No Data Found';
+            if (_this78.results.length == 0) {
+              _this78.message = 'No Data Found';
             } else {
-              _this71.message = 'Data Found';
+              _this78.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "getallrejectedData",
         value: function getallrejectedData() {
-          var _this72 = this;
+          var _this79 = this;
 
           this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
-            _this72.results = data;
+            _this79.results = data;
 
-            if (_this72.results.length == 0) {
-              _this72.message = 'No Data Found';
+            if (_this79.results.length == 0) {
+              _this79.message = 'No Data Found';
             } else {
-              _this72.message = 'Data Found';
+              _this79.message = 'Data Found';
             }
           }, function (error) {});
         }
@@ -13037,7 +13178,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve(s) {
-          var _this73 = this;
+          var _this80 = this;
 
           console.log(s.id);
           var status = "1";
@@ -13046,7 +13187,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this73.ngOnInit();
+            _this80.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13054,7 +13195,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject(s) {
-          var _this74 = this;
+          var _this81 = this;
 
           console.log(s.id);
           var status = "3";
@@ -13063,7 +13204,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this74.ngOnInit();
+            _this81.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13175,35 +13316,54 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.router = router;
         this.ownerservice = ownerservice;
         this.formData = new FormData();
+        this.bookingsarray = [];
       }
 
       _createClass(ViewRequestsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this75 = this;
+          var _this82 = this;
 
           this.activaterouter.params.subscribe(function (params) {
             console.log(params.id, params.name);
-            _this75.customerName = params.name;
-            _this75.cId = params.id;
+            _this82.customerName = params.name;
+            _this82.cId = params.id;
           });
           this.getDetails();
         }
       }, {
         key: "getDetails",
         value: function getDetails() {
-          var _this76 = this;
+          var _this83 = this;
 
           this.ownerservice.getapprovalDetaislById(this.cId).subscribe(function (data) {
-            _this76.results = data;
-            _this76.approvalstatus = _this76.results['approvalStatus'];
-            _this76.startingLocation = _this76.results['startingLocation'];
-            _this76.destinationLocation = _this76.results['destinationLocation'];
-            _this76.requestedDate = _this76.results['requestedDate'];
-            _this76.companyName = _this76.results.vehicleForm['companyName'];
-            _this76.model = _this76.results.vehicleForm['model'];
-            _this76.numberPlate = _this76.results.vehicleForm['numberPlate'];
-            _this76.rentPerDay = _this76.results.vehicleForm['rentPerDay'];
+            _this83.results = data;
+            _this83.approvalstatus = _this83.results['approvalStatus'];
+            _this83.startingLocation = _this83.results['startingLocation'];
+            _this83.destinationLocation = _this83.results['destinationLocation'];
+            _this83.requestedDate = _this83.results['requestedDate'];
+            _this83.companyName = _this83.results.vehicleForm['companyName'];
+            _this83.model = _this83.results.vehicleForm['model'];
+            _this83.numberPlate = _this83.results.vehicleForm['numberPlate'];
+            _this83.rentPerDay = _this83.results.vehicleForm['rentPerDay'];
+            _this83.ownerid = _this83.results['customerId'];
+            _this83.vehicleId = _this83.results['vehicleId'];
+          }, function (error) {});
+        }
+      }, {
+        key: "checkbooking",
+        value: function checkbooking() {
+          var _this84 = this;
+
+          this.ownerservice.checkotherbookings(this.ownerid, this.vehicleId).subscribe(function (data) {
+            console.log(data);
+            _this84.bookingsarray = data;
+
+            if (_this84.bookingsarray.length == 0) {
+              sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('No Bookings!', 'No Bookings Available', 'success');
+            } else {
+              sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Bookings Found!', 'Bookings Available', 'success');
+            }
           }, function (error) {});
         }
       }, {
@@ -13214,7 +13374,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve() {
-          var _this77 = this;
+          var _this85 = this;
 
           console.log(this.cId);
           var status = "1";
@@ -13223,7 +13383,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this77.router.navigate(['/request']);
+            _this85.router.navigate(['/request']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13231,7 +13391,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject() {
-          var _this78 = this;
+          var _this86 = this;
 
           console.log(this.cId);
           var status = "3";
@@ -13240,7 +13400,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this78.ngOnInit();
+            _this86.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13384,88 +13544,93 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getimage2",
         value: function getimage2() {
-          var _this79 = this;
+          var _this87 = this;
 
           this.adminService.getimage(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this79.vehicleimage2 = _this79.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this87.vehicleimage2 = _this87.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsByid",
         value: function getvehicleDetailsByid() {
-          var _this80 = this;
+          var _this88 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vId).subscribe(function (data) {
-            _this80.results = data;
-            console.log(_this80.results);
-            _this80.vehicleModel.vehicleCompany = _this80.results['companyName'];
-            _this80.vehicleModel.vehicleType = _this80.results['type'];
-            _this80.vehicleModel.vehicleModel = _this80.results['model'];
-            _this80.vehicleModel.vehicleRegistration = _this80.results['numberPlate'];
-            _this80.vehicleModel.rent = _this80.results['rentPerDay'];
-            _this80.rentperkm = _this80.results['rentPerKM'];
-            _this80.rentPerHour = _this80.results['rentPerHour'];
-            _this80.vehicleModel.locality = _this80.results['locality'];
-            _this80.vehicleModel.vehicleYear = _this80.results['year'];
+            _this88.results = data;
+            console.log(_this88.results);
+            _this88.vehicleModel.vehicleCompany = _this88.results['companyName'];
+            _this88.vehicleModel.vehicleType = _this88.results['type'];
+            _this88.vehicleModel.vehicleModel = _this88.results['model'];
+            _this88.vehicleModel.vehicleRegistration = _this88.results['numberPlate'];
+            _this88.vehicleModel.rent = _this88.results['rentPerDay'];
+            _this88.rentperkm = _this88.results['rentPerKM'];
+            _this88.rentPerHour = _this88.results['rentPerHour'];
+            _this88.vehicleModel.locality = _this88.results['locality'];
+            _this88.vehicleModel.vehicleYear = _this88.results['year'];
+            _this88.pickUpAddress = _this88.results['pickUpAddress'];
+            _this88.gpsAddress = _this88.results['gpsAddress'];
 
-            if (_this80.results['driverId'] != null) {
-              _this80.vehicleModel.driver = _this80.results['driverId'];
+            if (_this88.results['driverId'] != null) {
+              _this88.vehicleModel.driver = _this88.results['driverId'];
             } else {
-              _this80.vehicleModel.driver = '';
+              _this88.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getlicencefrnt",
         value: function getlicencefrnt() {
-          var _this81 = this;
+          var _this89 = this;
 
           this.adminService.getlicencefrnt(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this81.liscence1 = _this81.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this89.liscence1 = _this89.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getlicscenceback",
         value: function getlicscenceback() {
-          var _this82 = this;
+          var _this90 = this;
 
           this.adminService.getlicscenceback(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this82.liscence2 = _this82.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this90.liscence2 = _this90.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getrc",
         value: function getrc() {
-          var _this83 = this;
+          var _this91 = this;
 
           this.adminService.getrc(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this83.rc = _this83.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this91.rc = _this91.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsById",
         value: function getvehicleDetailsById() {
-          var _this84 = this;
+          var _this92 = this;
 
           this.adminService.getVehicleDetailsbyId(this.vId).subscribe(function (data) {
-            _this84.DriverDetailsofCar = data['driver'];
-            console.log(_this84.DriverDetailsofCar);
-            _this84.vehicleModel.dname = _this84.DriverDetailsofCar['name'];
-            _this84.vehicleModel.dnumber = _this84.DriverDetailsofCar['number'];
-            _this84.vehicleModel.daddreess = _this84.DriverDetailsofCar['addresss'];
-            _this84.id = _this84.DriverDetailsofCar['id'];
+            _this92.DriverDetailsofCar = data['driver'];
+            console.log(_this92.DriverDetailsofCar);
+
+            if (_this92.DriverDetailsofCar != null) {
+              _this92.vehicleModel.dname = _this92.DriverDetailsofCar['name'];
+              _this92.vehicleModel.dnumber = _this92.DriverDetailsofCar['number'];
+              _this92.vehicleModel.daddreess = _this92.DriverDetailsofCar['addresss'];
+              _this92.id = _this92.DriverDetailsofCar['id'];
+            }
           }, function (error) {});
         }
       }]);
@@ -13595,17 +13760,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallcarsbyowers",
         value: function getallcarsbyowers() {
-          var _this85 = this;
+          var _this93 = this;
 
           this.ownerserivice.getallcars(this.userId).subscribe(function (data) {
-            _this85.carList = data;
-            _this85.errormessage = "data found";
+            _this93.carList = data;
+            _this93.errormessage = "data found";
 
-            if (_this85.carList.length == 0) {
-              _this85.errormessage = "No data found";
+            if (_this93.carList.length == 0) {
+              _this93.errormessage = "No data found";
             }
           }, function (error) {
-            _this85.errormessage = "No data found";
+            _this93.errormessage = "No data found";
           });
         }
       }, {
@@ -13627,19 +13792,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "changeFilter",
         value: function changeFilter(s) {
-          var _this86 = this;
+          var _this94 = this;
 
           console.log(s);
           this.ownerserivice.getFilterOptionsVehicles(s, this.userId).subscribe(function (data) {
-            _this86.carList = data;
-            _this86.errormessage = "data found";
+            _this94.carList = data;
+            _this94.errormessage = "data found";
 
-            if (_this86.carList.length == 0) {
-              _this86.errormessage = "No data found";
+            if (_this94.carList.length == 0) {
+              _this94.errormessage = "No data found";
             }
           }, function (error) {
-            _this86.carList = [];
-            _this86.errormessage = "No data found";
+            _this94.carList = [];
+            _this94.errormessage = "No data found";
           });
         }
       }]);
@@ -13751,13 +13916,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallvehiclefortracking",
         value: function getallvehiclefortracking() {
-          var _this87 = this;
+          var _this95 = this;
 
           this.userDetails = JSON.parse(localStorage.getItem('userDetail'));
           this.userId = this.userDetails['userId'];
           this.ownerservice.getallvechilcetracking(this.userId, this.page).subscribe(function (data) {
-            _this87.result = data;
+            _this95.result = data;
           }, function (error) {});
+        }
+      }, {
+        key: "trackview",
+        value: function trackview(s) {
+          console.log(s);
+          sessionStorage.setItem("vehicletracking", JSON.stringify(s));
+          this.Router.navigate(['/view-vehicle']);
         }
       }]);
 
@@ -13781,6 +13953,87 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /*! ./vehicletracking.component.css */
       "./src/app/ownerpannel/vehicletracking/vehicletracking.component.css"))["default"]]
     })], VehicletrackingComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.css":
+  /*!***************************************************************************************!*\
+    !*** ./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.css ***!
+    \***************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppOwnerpannelVehicletrackingViewTrackingViewTrackingComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".card {\r\n    padding: 20px;\r\n}\r\n\r\nh6 {\r\n    text-align: center;\r\n    margin-bottom: 22px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvb3duZXJwYW5uZWwvdmVoaWNsZXRyYWNraW5nL3ZpZXctdHJhY2tpbmcvdmlldy10cmFja2luZy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9vd25lcnBhbm5lbC92ZWhpY2xldHJhY2tpbmcvdmlldy10cmFja2luZy92aWV3LXRyYWNraW5nLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FyZCB7XHJcbiAgICBwYWRkaW5nOiAyMHB4O1xyXG59XHJcblxyXG5oNiB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMnB4O1xyXG59Il19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.ts":
+  /*!**************************************************************************************!*\
+    !*** ./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.ts ***!
+    \**************************************************************************************/
+
+  /*! exports provided: ViewTrackingComponent */
+
+  /***/
+  function srcAppOwnerpannelVehicletrackingViewTrackingViewTrackingComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ViewTrackingComponent", function () {
+      return ViewTrackingComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var ViewTrackingComponent = /*#__PURE__*/function () {
+      function ViewTrackingComponent() {
+        _classCallCheck(this, ViewTrackingComponent);
+
+        this.results = [];
+      }
+
+      _createClass(ViewTrackingComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.results = JSON.parse(sessionStorage.getItem("vehicletracking"));
+        }
+      }]);
+
+      return ViewTrackingComponent;
+    }();
+
+    ViewTrackingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-view-tracking',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./view-tracking.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./view-tracking.component.css */
+      "./src/app/ownerpannel/vehicletracking/view-tracking/view-tracking.component.css"))["default"]]
+    })], ViewTrackingComponent);
     /***/
   },
 
@@ -14042,7 +14295,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this88 = this;
+          var _this96 = this;
 
           var req = {
             "mobilenumber": this.registerModel.mobNo,
@@ -14050,11 +14303,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           sessionStorage.setItem("mobileandemail", JSON.stringify(req));
           this.loginservice.sendotp(this.registerModel.mobNo, this.registerModel.email).subscribe(function (data) {
-            _this88.router.navigate(['/verifyotp']);
+            _this96.router.navigate(['/verifyotp']);
           }, function (error) {
             console.log(error.error['message']);
 
-            _this88.toaster.error(error.error['message']);
+            _this96.toaster.error(error.error['message']);
           });
         }
       }]);
@@ -14254,7 +14507,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this89 = this;
+          var _this97 = this;
 
           // alert('User Registration successfully');
           // console.log(this.registerForm.value);
@@ -14272,14 +14525,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           console.log(req);
           this.loginservice.register(req).subscribe(function (data) {
-            _this89.toaster.success('Register Successfully');
+            _this97.toaster.success('Register Successfully');
 
-            _this89.router.navigate(['/login']);
+            _this97.router.navigate(['/login']);
           }, function (error) {
-            _this89.error = error.error['message'];
-            console.log(_this89.error);
+            _this97.error = error.error['message'];
+            console.log(_this97.error);
 
-            _this89.toaster.error(_this89.error);
+            _this97.toaster.error(_this97.error);
           });
         }
       }]);
@@ -14414,15 +14667,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this90 = this;
+          var _this98 = this;
 
           var mobnumber = JSON.parse(sessionStorage.getItem("mobileandemail"));
           this.loginservice.verifyotp(this.registerModel.mobNo, mobnumber['mobilenumber']).subscribe(function (data) {
-            _this90.router.navigate(['/register']);
+            _this98.router.navigate(['/register']);
 
-            _this90.toaster.error("OTP Verified");
+            _this98.toaster.error("OTP Verified");
           }, function (error) {
-            _this90.toaster.error("Invalid OTP");
+            _this98.toaster.error("Invalid OTP");
           });
         }
       }]);
@@ -14655,7 +14908,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this91 = this;
+          var _this99 = this;
 
           this.submitted = true;
 
@@ -14674,10 +14927,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append("city", this.registerModel.locality);
             this.loginservice.userpublicregister(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Registration Completed!', 'Registered Successfully', 'success');
-              _this91.formData["delete"];
+              _this99.formData["delete"];
               window.location.reload();
             }, function (error) {
-              _this91.formData["delete"];
+              _this99.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Register!', 'Server is busy at this moment', 'error');
             });
           }
@@ -15022,10 +15275,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this92 = this;
+          var _this100 = this;
 
           this.adminservice.getallusers(this.page).subscribe(function (data) {
-            _this92.results = data;
+            _this100.results = data;
           }, function (error) {});
         }
       }]);

@@ -131,7 +131,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <div class=\"container\" *ngIf=\"Role != 'ADMIN'\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\r\n                                <ol class=\"carousel-indicators\">\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\r\n                                </ol>\r\n                                <div class=\"carousel-inner\">\r\n                                    <div class=\"carousel-item active\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/HANDOVER-01.png\" alt=\"First slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/Better Incomes-01-01.png\" alt=\"Second slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block\" src=\"./assets/img/track your car-01.png\" alt=\"Third slide\">\r\n                                    </div>\r\n                                </div>\r\n                                <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\r\n                                    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Previous</span>\r\n                                </a>\r\n                                <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\r\n                                    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Next</span>\r\n                                </a>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div>\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <!-- <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1> -->\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-xl-12\">\r\n\r\n\r\n\r\n\r\n\r\n                    </div>\r\n\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/admin-vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/users\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Users</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-success shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff0278 !important;\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicletracking\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff0278 !important;\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff5f02 !important;\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #ff5f02 !important;\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #ff02d5 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-warning text-uppercase mb-1\" style=\"color: #ff02d5 !important;\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div routerLink=\"/request\" class=\"card border-left-info shadow h-100 py-2\" style=\"border-left: 0.25rem solid #00d6a1 !important;\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"color: #00d6a1 !important;\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/handovervehicles\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div style=\"    color: #ff8e00 !important;\" class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/bankdetails\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/paymentpage\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Payments</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-dollar-sign fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/admin-resetpassword\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/chatsandfeebacks\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Feedbacks</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-envelope fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #ff5e00 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #ff5e00 !important;\">\r\n                                            Location Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #4700ee !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #4700ee !important;\">\r\n                                            Total vehicle count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\"    border-left: 0.25rem solid #e10000 !important;\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\" style=\"   color: #e10000 !important;\">\r\n                                            Total trips count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #e10000;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-info shadow h-100 py-2\" style=\" border-left: 0.25rem solid #28a745 !important\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-success text-uppercase mb-1\">\r\n                                            Total customers count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #28a745;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- <div class=\"container\" *ngIf=\"Role != 'ADMIN'\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\r\n                                <ol class=\"carousel-indicators\">\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\r\n                                </ol>\r\n                                <div class=\"carousel-inner\">\r\n                                    <div class=\"carousel-item active\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/HANDOVER-01.png\" alt=\"First slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/Better Incomes-01-01.png\" alt=\"Second slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block\" src=\"./assets/img/track your car-01.png\" alt=\"Third slide\">\r\n                                    </div>\r\n                                </div>\r\n                                <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\r\n                                    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Previous</span>\r\n                                </a>\r\n                                <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\r\n                                    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Next</span>\r\n                                </a>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div> -->\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <!-- <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1> -->\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-xl-12\">\r\n\r\n\r\n\r\n\r\n\r\n                    </div>\r\n\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/admin-vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/users\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Users</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicletracking\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/admin-paymentreports\" class=\"card border-left-primary shadow h-100 py-2\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div routerLink=\"/request\" class=\"card border-left-primary shadow h-100 py-2\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/handovervehicles\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/bankdetails\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/paymentpage\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Payments</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-dollar-sign fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/admin-resetpassword\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/chatsandfeebacks\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Feedbacks</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-envelope fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Location Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total vehicle count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total trips count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #e10000;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total customers count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #28a745;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>";
     /***/
   },
 
@@ -151,7 +151,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">Bank Details</h1>\n\n                    </div>\n                    <div class=\"col-sm-6\">\n                    </div>\n                </div>\n\n\n                <!-- DataTales Example -->\n                <div class=\"card shadow mb-4\">\n\n                    <div class=\"card-body\">\n                        <div class=\"table-responsive\">\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n                                <thead style=\" color: #fff; background: #3158c8; \">\n                                    <tr>\n                                        <th>Bank Name</th>\n                                        <th>Account Number </th>\n                                        <th>IFSC Code</th>\n                                        <th>Branch </th>\n\n\n                                    </tr>\n                                </thead>\n\n                                <tbody>\n                                    <tr *ngFor=\"let b of results\">\n                                        <td>{{b.name}}</td>\n                                        <td>{{b.name}}</td>\n                                        <td>{{b.name}}</td>\n                                        <td>{{b.name}}</td>\n\n\n                                    </tr>\n\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">Bank Details</h1>\n\n                    </div>\n                    <div class=\"col-sm-6\">\n                    </div>\n                </div>\n\n\n                <!-- DataTales Example -->\n                <div class=\"card shadow mb-4\">\n\n                    <div class=\"card-body\">\n                        <div class=\"table-responsive\">\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n                                <thead style=\" color: #fff; background: #3158c8; \">\n                                    <tr>\n                                        <th>Bank Name</th>\n                                        <th>Account Number </th>\n                                        <th>IFSC Code</th>\n                                        <th>Customer Name </th>\n\n\n                                    </tr>\n                                </thead>\n\n                                <tbody>\n                                    <tr *ngFor=\"let b of results\">\n                                        <td>{{b.bankName}}</td>\n                                        <td>{{b.accountNumber}}</td>\n                                        <td>{{b.ifscCode}}</td>\n                                        <td>{{b.accountHolderName}}</td>\n\n\n                                    </tr>\n\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
     /***/
   },
 
@@ -171,7 +171,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">Cancelled Bookings </h1>\n\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">From Date</label>\n                        <input type=\"date\" class=\"form-control\" (change)=\"fromdate($event)\">\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">To Date</label>\n\n                        <input type=\"date\" class=\"form-control\" (change)=\"todate($event)\">\n\n                    </div>\n                </div>\n\n\n                <!-- DataTales Example -->\n                <div class=\"card shadow mb-4\">\n\n                    <div class=\"card-body\">\n                        <div class=\"table-responsive\">\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n                                <thead style=\" color: #fff; background: #3158c8; \">\n                                    <tr>\n                                        <th>Customer Name</th>\n                                        <th>Starting Location</th>\n                                        <th>Destination Location </th>\n                                        <th>Requested Date</th>\n                                        <th>Vehicle Model </th>\n                                        <th>Payment Status</th>\n\n\n                                    </tr>\n                                </thead>\n\n                                <tbody>\n                                    <tr *ngFor=\"let b of cancelledbookings\">\n                                        <td>{{b.customerName}}</td>\n                                        <td>{{b.startingLocation}}</td>\n                                        <td>{{b.destinationLocation}}</td>\n                                        <td>{{b.requestedDate}} - {{b.requestEndDate}} </td>\n                                        <td>{{b.model}}</td>\n                                        <td *ngIf=\"b.paymentMode == null\"> No Payment</td>\n                                        <td *ngIf=\"b.paymentMode == 1\"> Online Payment</td>\n                                        <td *ngIf=\"b.paymentMode == 2\"> Direct Payment</td>\n\n\n\n\n                                    </tr>\n\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">Cancelled Bookings </h1>\n\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">From Date</label>\n                        <input type=\"date\" class=\"form-control\" [(ngModel)]=\"date3\" (change)=\"fromdate($event)\">\n                    </div>\n                    <div class=\"col-sm-3\">\n                        <label for=\"\">To Date</label>\n\n                        <input type=\"date\" class=\"form-control\" [(ngModel)]=\"date2\" (change)=\"todate($event)\">\n\n                    </div>\n                </div>\n\n\n                <!-- DataTales Example -->\n                <div class=\"card shadow mb-4\">\n\n                    <div class=\"card-body\">\n                        <div class=\"table-responsive\">\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n                                <thead style=\" color: #fff; background: #3158c8; \">\n                                    <tr>\n                                        <th>Customer Name</th>\n                                        <th>Starting Location</th>\n                                        <th>Destination Location </th>\n                                        <th>Requested Date</th>\n                                        <th>Vehicle Model </th>\n                                        <th>Payment Status</th>\n\n\n                                    </tr>\n                                </thead>\n\n                                <tbody>\n                                    <tr *ngFor=\"let b of cancelledbookings\">\n                                        <td>{{b.customerName}}</td>\n                                        <td>{{b.startingLocation}}</td>\n                                        <td>{{b.destinationLocation}}</td>\n                                        <td>{{b.requestedDate}} - {{b.requestEndDate}} </td>\n                                        <td>{{b.model}}</td>\n                                        <td *ngIf=\"b.paymentMode == null\"> No Payment</td>\n                                        <td *ngIf=\"b.paymentMode == 1\"> Online Payment</td>\n                                        <td *ngIf=\"b.paymentMode == 2\"> Direct Payment</td>\n\n\n\n\n                                    </tr>\n\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
     /***/
   },
 
@@ -351,7 +351,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <mat-sidenav-container>\r\n    <mat-sidenav mode=\"side\" opened=\"true\" [fixedInViewport]=\"true\" [fixedTopGap]=\"64\">\r\n        <ul>\r\n            <li routerLink=\"/admin\" routerLinkActive=\"active\">Home</li>\r\n\r\n            <li *ngIf=\"userRole == 'ADMIN'\" routerLink=\"/countries\" routerLinkActive=\"active\">Countries</li>\r\n\r\n        </ul>\r\n    </mat-sidenav>\r\n\r\n</mat-sidenav-container> -->\r\n<!-- \r\n<div class=\"sidebar\" id=\"sidebar\">\r\n    <div class=\"sidebar-inner slimscroll\" style=\"overflow-y: auto;\">\r\n        <div id=\"sidebar-menu\" class=\"sidebar-menu\">\r\n            <ul *ngIf=\"userRole == 'ADMIN'\">\r\n\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong>  Admin</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user\"></i> <span>Owners</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/locations\"><i class=\"fa fa-map-marker\"></i> <span>Locality</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-vehicles\"><i class=\"fa fa-car\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-paymentreports\"><i class=\"fa fa-inr\"></i> <span>Payment Reports</span></a>\r\n                </li>\r\n\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n            <ul *ngIf=\"userRole=='OWNER'\">\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong> Owner</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user-md\"></i> <span>Home</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Terms & Conditions</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Privacy</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Help and Support</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n<ul class=\"navbar-nav bg-gradient-primary sidebar sidebar-dark \" id=\"accordionSidebar\" style=\"position: fixed;\">\r\n\r\n    <a class=\"sidebar-brand d-flex align-items-center justify-content-center\" href=\"index.html\">\r\n        <div class=\"sidebar-brand-icon rotate-n-15\">\r\n            <i class=\"fas fa-laugh-wink\"></i>\r\n        </div>\r\n        <div class=\"sidebar-brand-text mx-3\"> <sup></sup></div>\r\n    </a>\r\n\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/dashboardwhite.png\" alt=\"\"> Dashboard\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicles\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-car \"></i> -->\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-vehicles\">\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/cancelled-bookings\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Cancelled Bookings\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicletracking\">\r\n            <!-- <i class=\"fa fa-map-marker \"></i>\r\n            <span>Vehicle Tracking</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Vehicle Tracking\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/drivers\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Driver Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-paymentreports\">\r\n            <!-- <i class=\"fa fa-clipboard \"></i>\r\n            <span>Payment Reports</span></a> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/paymentwhite.png\" alt=\"\"> Payment Reports\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/request\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Request\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/handovervehicles\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 30px !important;\"> Handover Vehicle\r\n\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"      padding-right: 8px;  font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Payments\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n\r\n\r\n\r\n\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/allbanks\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"       padding-right: 8px; font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/chatsandfeebacks\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/add-feedback\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-envelope\" style=\"    font-size: 14px;\r\n                margin-right: 3px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Add feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/locations\">\r\n            <!-- <i class=\"fa fa-map-marker\"></i>\r\n            <span>Location</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-map-marker\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i> -->\r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Location Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <!-- <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n           \r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n              \r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Payments\r\n\r\n            </div>\r\n        </a>\r\n    </li> -->\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\">\r\n            <!-- <i class=\"fa fa-wrench\"></i>\r\n            <span>Users</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-user\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Users\r\n\r\n                <i class=\"fa fa-angle-down\" style=\"float: right;\r\n                font-size: 26px;\"></i>\r\n            </div>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <a class=\"collapse-item\" routerLink=\"/users\"> Owners</a>\r\n                <a class=\"collapse-item\" routerLink=\"/carrenters\"> Renters </a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-resetpassword\">\r\n            <!-- <i class=\"fa fa-key\"></i>\r\n            <span>Reset Password</span> -->\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-key\" style=\"     font-size: 18px;\r\n                margin-right: 0px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/passwordwhite.png\" alt=\"\"> Reset Password\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n\r\n    <!-- \r\n    <div class=\"sidebar-heading\">\r\n        Interface\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">\r\n            <i class=\"fas fa-fw fa-cog\"></i>\r\n            <span>Components</span>\r\n        </a>\r\n        <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Components:</h6>\r\n                <a class=\"collapse-item\" href=\"buttons.html\">Buttons</a>\r\n                <a class=\"collapse-item\" href=\"cards.html\">Cards</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\" aria-controls=\"collapseUtilities\">\r\n            <i class=\"fas fa-fw fa-wrench\"></i>\r\n            <span>Utilities</span>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Utilities:</h6>\r\n                <a class=\"collapse-item\" href=\"utilities-color.html\">Colors</a>\r\n                <a class=\"collapse-item\" href=\"utilities-border.html\">Borders</a>\r\n                <a class=\"collapse-item\" href=\"utilities-animation.html\">Animations</a>\r\n                <a class=\"collapse-item\" href=\"utilities-other.html\">Other</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider\">\r\n\r\n    <div class=\"sidebar-heading\">\r\n        Addons\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapsePages\" aria-expanded=\"true\" aria-controls=\"collapsePages\">\r\n            <i class=\"fas fa-fw fa-folder\"></i>\r\n            <span>Pages</span>\r\n        </a>\r\n        <div id=\"collapsePages\" class=\"collapse\" aria-labelledby=\"headingPages\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Login Screens:</h6>\r\n                <a class=\"collapse-item\" href=\"login.html\">Login</a>\r\n                <a class=\"collapse-item\" href=\"register.html\">Register</a>\r\n                <a class=\"collapse-item\" href=\"forgot-password.html\">Forgot Password</a>\r\n                <div class=\"collapse-divider\"></div>\r\n                <h6 class=\"collapse-header\">Other Pages:</h6>\r\n                <a class=\"collapse-item\" href=\"404.html\">404 Page</a>\r\n                <a class=\"collapse-item\" href=\"blank.html\">Blank Page</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"charts.html\">\r\n            <i class=\"fas fa-fw fa-chart-area\"></i>\r\n            <span>Charts</span></a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"tables.html\">\r\n            <i class=\"fas fa-fw fa-table\"></i>\r\n            <span>Tables</span></a>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider d-none d-md-block\"> -->\r\n\r\n\r\n\r\n</ul>";
+    __webpack_exports__["default"] = "<!-- <mat-sidenav-container>\r\n    <mat-sidenav mode=\"side\" opened=\"true\" [fixedInViewport]=\"true\" [fixedTopGap]=\"64\">\r\n        <ul>\r\n            <li routerLink=\"/admin\" routerLinkActive=\"active\">Home</li>\r\n\r\n            <li *ngIf=\"userRole == 'ADMIN'\" routerLink=\"/countries\" routerLinkActive=\"active\">Countries</li>\r\n\r\n        </ul>\r\n    </mat-sidenav>\r\n\r\n</mat-sidenav-container> -->\r\n<!-- \r\n<div class=\"sidebar\" id=\"sidebar\">\r\n    <div class=\"sidebar-inner slimscroll\" style=\"overflow-y: auto;\">\r\n        <div id=\"sidebar-menu\" class=\"sidebar-menu\">\r\n            <ul *ngIf=\"userRole == 'ADMIN'\">\r\n\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong>  Admin</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user\"></i> <span>Owners</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/locations\"><i class=\"fa fa-map-marker\"></i> <span>Locality</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-vehicles\"><i class=\"fa fa-car\"></i> <span>Vehicles</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-paymentreports\"><i class=\"fa fa-inr\"></i> <span>Payment Reports</span></a>\r\n                </li>\r\n\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n            <ul *ngIf=\"userRole=='OWNER'\">\r\n                <img src=\"assets/img/logoos.png\" alt=\"\" style=\"    display: block;\r\n                width: 52%;\r\n                margin: 0 auto;\r\n                padding-top: 32px;\">\r\n                <li class=\"menu-title\" style=\"text-align: center;\"> <strong> Owner</strong></li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin\"><i class=\"fa fa-user-md\"></i> <span>Home</span></a>\r\n                </li>\r\n              \r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Terms & Conditions</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Privacy</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/item-rating\"><i class=\"fa fa-user-md\"></i> <span>Help and Support</span></a>\r\n                </li>\r\n                <li routerLinkActive=\"active\">\r\n                    <a routerLink=\"/admin-resetpassword\"><i class=\"fa fa-lock\"></i> <span>Reset Password</span></a>\r\n                </li>\r\n\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n<ul class=\"navbar-nav bg-gradient-primary sidebar sidebar-dark \" id=\"accordionSidebar\" style=\"position: fixed;\">\r\n\r\n    <a class=\"sidebar-brand d-flex align-items-center justify-content-center\" href=\"index.html\">\r\n        <div class=\"sidebar-brand-icon rotate-n-15\">\r\n            <i class=\"fas fa-laugh-wink\"></i>\r\n        </div>\r\n        <div class=\"sidebar-brand-text mx-3\"> <sup></sup></div>\r\n    </a>\r\n\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/dashboardwhite.png\" alt=\"\"> Dashboard\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicles\">\r\n            <div class=\"text-xs font-weight-bold  text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-car \"></i> -->\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-vehicles\">\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/vehiclewhite.png\" alt=\"\"> Vehicle Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/cancelled-bookings\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Cancelled Bookings\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/vehicletracking\">\r\n            <!-- <i class=\"fa fa-map-marker \"></i>\r\n            <span>Vehicle Tracking</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Vehicle Tracking\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/drivers\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Driver Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-paymentreports\">\r\n            <!-- <i class=\"fa fa-clipboard \"></i>\r\n            <span>Payment Reports</span></a> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/paymentwhite.png\" alt=\"\"> Payment Reports\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/request\">\r\n            <!-- <i class=\"fa fa-refresh \"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-refresh\" style=\"    font-size: 14px;\r\n                margin-right: 7px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/reportswhite.png\" alt=\"\"> Request\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/handovervehicles\">\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 30px !important;\"> Handover Vehicle\r\n\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"      padding-right: 8px;  font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Collect Payment\r\n\r\n            </div>\r\n\r\n\r\n        </a>\r\n\r\n\r\n\r\n\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/allbanks\">\r\n            <!-- <i class=\"fa fa-university\"></i> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <i class=\"fa fa-university\" style=\"       padding-right: 8px; font-size: 19px;\r\n                margin-right: 3px;\r\n                color: #e1dff0;\"> </i> Bank Manage\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item \" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/chatsandfeebacks\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item \" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/add-feedback\">\r\n            <!-- <i class=\"fa fa-envelope\"></i>\r\n            <span>Feedbacks</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-envelope\" style=\"    font-size: 14px;\r\n                margin-right: 3px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/feedbackwhite.png\" alt=\"\"> Add feedbacks\r\n\r\n            </div>\r\n\r\n        </a>\r\n    </li>\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/locations\">\r\n            <!-- <i class=\"fa fa-map-marker\"></i>\r\n            <span>Location</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-map-marker\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i> -->\r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Location Management\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n    <!-- <li class=\"nav-item\" *ngIf=\"Role != 'ADMIN'\">\r\n        <a class=\"nav-link\" routerLink=\"/paymentpage\">\r\n           \r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n              \r\n\r\n                <img src=\"./assets/img/icons/addlocalitywhite.png\" alt=\"\"> Payments\r\n\r\n            </div>\r\n        </a>\r\n    </li> -->\r\n\r\n    <li class=\"nav-item\" *ngIf=\"Role == 'ADMIN'\">\r\n        <a class=\"nav-link\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\">\r\n            <!-- <i class=\"fa fa-wrench\"></i>\r\n            <span>Users</span> -->\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-user\" style=\"     font-size: 20px;\r\n                margin-right: 7px;\"> </i>  -->\r\n                <img src=\"./assets/img/icons/userwhite.png\" alt=\"\"> Users\r\n\r\n                <i class=\"fa fa-angle-down\" style=\"float: right;\r\n                font-size: 26px;\"></i>\r\n            </div>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <a class=\"collapse-item\" routerLink=\"/users\"> Owners</a>\r\n                <a class=\"collapse-item\" routerLink=\"/carrenters\"> Renters </a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/admin-resetpassword\">\r\n            <!-- <i class=\"fa fa-key\"></i>\r\n            <span>Reset Password</span> -->\r\n\r\n            <div class=\"text-xs font-weight-bold text-uppercase mb-1\">\r\n                <!-- <i class=\"fa fa-key\" style=\"     font-size: 18px;\r\n                margin-right: 0px;\"> </i> -->\r\n                <img src=\"./assets/img/icons/passwordwhite.png\" alt=\"\"> Reset Password\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n\r\n\r\n    <!-- \r\n    <div class=\"sidebar-heading\">\r\n        Interface\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">\r\n            <i class=\"fas fa-fw fa-cog\"></i>\r\n            <span>Components</span>\r\n        </a>\r\n        <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Components:</h6>\r\n                <a class=\"collapse-item\" href=\"buttons.html\">Buttons</a>\r\n                <a class=\"collapse-item\" href=\"cards.html\">Cards</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseUtilities\" aria-expanded=\"true\" aria-controls=\"collapseUtilities\">\r\n            <i class=\"fas fa-fw fa-wrench\"></i>\r\n            <span>Utilities</span>\r\n        </a>\r\n        <div id=\"collapseUtilities\" class=\"collapse\" aria-labelledby=\"headingUtilities\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Custom Utilities:</h6>\r\n                <a class=\"collapse-item\" href=\"utilities-color.html\">Colors</a>\r\n                <a class=\"collapse-item\" href=\"utilities-border.html\">Borders</a>\r\n                <a class=\"collapse-item\" href=\"utilities-animation.html\">Animations</a>\r\n                <a class=\"collapse-item\" href=\"utilities-other.html\">Other</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider\">\r\n\r\n    <div class=\"sidebar-heading\">\r\n        Addons\r\n    </div>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapsePages\" aria-expanded=\"true\" aria-controls=\"collapsePages\">\r\n            <i class=\"fas fa-fw fa-folder\"></i>\r\n            <span>Pages</span>\r\n        </a>\r\n        <div id=\"collapsePages\" class=\"collapse\" aria-labelledby=\"headingPages\" data-parent=\"#accordionSidebar\">\r\n            <div class=\"bg-white py-2 collapse-inner rounded\">\r\n                <h6 class=\"collapse-header\">Login Screens:</h6>\r\n                <a class=\"collapse-item\" href=\"login.html\">Login</a>\r\n                <a class=\"collapse-item\" href=\"register.html\">Register</a>\r\n                <a class=\"collapse-item\" href=\"forgot-password.html\">Forgot Password</a>\r\n                <div class=\"collapse-divider\"></div>\r\n                <h6 class=\"collapse-header\">Other Pages:</h6>\r\n                <a class=\"collapse-item\" href=\"404.html\">404 Page</a>\r\n                <a class=\"collapse-item\" href=\"blank.html\">Blank Page</a>\r\n            </div>\r\n        </div>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"charts.html\">\r\n            <i class=\"fas fa-fw fa-chart-area\"></i>\r\n            <span>Charts</span></a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"tables.html\">\r\n            <i class=\"fas fa-fw fa-table\"></i>\r\n            <span>Tables</span></a>\r\n    </li>\r\n\r\n    <hr class=\"sidebar-divider d-none d-md-block\"> -->\r\n\r\n\r\n\r\n</ul>";
     /***/
   },
 
@@ -751,7 +751,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\r\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 31px;\">\r\n        <div class=\"row\" style=\"margin-bottom: 10px;\">\r\n            <div class=\"col-md-4\">\r\n                <h3>Add New Vehicles</h3>\r\n            </div>\r\n            <div class=\"col-sm-4\"></div>\r\n            <!-- <div class=\"col-sm-4\">\r\n                <h3>Pricing : <em *ngIf=\"vehicleModel.vehicleType == '3Wheeler'\">25 RS Per 1.5 KM</em>\r\n                    <em *ngIf=\"vehicleModel.vehicleType == '4Wheeler'\">150 RS per 5 KM</em>\r\n                </h3>\r\n            </div> -->\r\n\r\n        </div>\r\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n            <div class=\"col-lg-12\">\r\n\r\n                <form [formGroup]=\"addVehiclesform\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label for=\"\">Choose Location <span class=\"text-danger\">*</span></label>\r\n                                <button class=\"btn btn-warning\" style=\"    color: white;\r\n                                width: 100%;\r\n                                \" routerLink=\"/mappage\"> <i class=\"fa fa-map-o\" ></i> Choose Location from map</button>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\r\n\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" (change)=\"vehicletype($event)\" class=\"form-control\">\r\n                                    <option value=\"\" disabled selected>Choose a option</option>\r\n                                    <!-- <option value=\"2Wheeler\">2 Wheeler</option> -->\r\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\r\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\r\n\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\r\n\r\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Model<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\r\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Year<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\r\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\r\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\r\n                                    </div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\r\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Locality<span class=\"text-danger\">*</span></label>\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\r\n                                    <option value=\"\" selected disabled>Choose your locality</option>\r\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\r\n                                        {{locations.name}}</option>\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver<span class=\"text-danger\"></span></label>\r\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\r\n                                    <option value=\"\">Choose your Driver</option>\r\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\r\n                                        {{driverslist.name}}</option>\r\n                                </select>\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\r\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\r\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Pick Up Address</label>\r\n                                <input class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.paddress\" formControlName=\"paddress\">\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\r\n\r\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>License Back <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\r\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\r\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\r\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Add Vehicles</i> </p>\r\n    <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 31px;\">\r\n        <div class=\"row\" style=\"margin-bottom: 10px;\">\r\n            <div class=\"col-md-4\">\r\n                <h3>Add New Vehicles</h3>\r\n            </div>\r\n            <div class=\"col-sm-4\"></div>\r\n            <!-- <div class=\"col-sm-4\">\r\n                <h3>Pricing : <em *ngIf=\"vehicleModel.vehicleType == '3Wheeler'\">25 RS Per 1.5 KM</em>\r\n                    <em *ngIf=\"vehicleModel.vehicleType == '4Wheeler'\">150 RS per 5 KM</em>\r\n                </h3>\r\n            </div> -->\r\n\r\n        </div>\r\n        <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n            <div class=\"col-lg-12\">\r\n\r\n                <form [formGroup]=\"addVehiclesform\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label for=\"\">Choose Location <span class=\"text-danger\">*</span></label>\r\n                                <button class=\"btn btn-warning\" style=\"    color: white;\r\n                                width: 100%;\r\n                                \" routerLink=\"/mappage\"> <i class=\"fa fa-map-o\" ></i> Choose Location from map</button>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Vehicle Type<span class=\"text-danger\">*</span></label>\r\n\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" (change)=\"vehicletype($event)\" class=\"form-control\">\r\n                                    <option value=\"\" disabled selected>Choose a option</option>\r\n                                    <!-- <option value=\"2Wheeler\">2 Wheeler</option> -->\r\n                                    <option value=\"3Wheeler\">3 Wheeler</option>\r\n                                    <option value=\"4Wheeler\">4 Wheeler</option>\r\n\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Company Name<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\r\n\r\n                                <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Model<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\r\n                                <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Year<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\r\n                                <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Registration Number<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\r\n                                <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\r\n                                    </div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Rent Type<span class=\"text-danger\">*</span></label>\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.renttype.errors }\" [(ngModel)]=\"renttype\" formControlName=\"renttype\" (change)=\"changerenttype(renttype)\" class=\"form-control\">\r\n                                    <option value=\"rentperday\" selected >Rent Per Day</option>\r\n                                    <option value=\"rentperkm\" >Rent Per Km</option>\r\n\r\n                         \r\n                                </select>\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\" *ngIf=\"renttype == 'rentperday'\">\r\n                            <div class=\"form-group\">\r\n                                <label>Rent Per Day<span class=\"text-danger\">*</span></label>\r\n\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\r\n                                <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"col-sm-4\" *ngIf=\"renttype == 'rentperkm'\">\r\n                            <div class=\"form-group\">\r\n                                <label>Rent Per KM<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\r\n                                <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Locality<span class=\"text-danger\">*</span></label>\r\n                                <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\r\n                                    <option value=\"\" selected disabled>Choose your locality</option>\r\n                                    <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\r\n                                        {{locations.name}}</option>\r\n                                </select>\r\n                                <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver<span class=\"text-danger\"></span></label>\r\n                                <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\r\n                                    <option value=\"\">Choose your Driver</option>\r\n                                    <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\r\n                                        {{driverslist.name}}</option>\r\n                                </select>\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\r\n                            <div class=\"form-group\">\r\n                                <label>Driver Rent Per KM</label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\r\n                                <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>Pick Up Address</label>\r\n                                <input class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.paddress\" formControlName=\"paddress\">\r\n\r\n\r\n                            </div>\r\n                        </div>\r\n\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\r\n\r\n                                <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label>License Back <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\r\n                                <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> RC Image <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\r\n                                <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"col-sm-4\">\r\n                            <div class=\"form-group\">\r\n                                <label> Image 2<span class=\"text-danger\">*</span></label>\r\n                                <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\" class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\r\n                                <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\r\n                                    <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\r\n                                </div>\r\n\r\n                            </div>\r\n                        </div> -->\r\n\r\n                        <div class=\"col-sm-12\">\r\n                            <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                        </div>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1011,7 +1011,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Edit Vehicles</i> </p>\r\n\r\n    <div class=\"container\" style=\"margin-top: 20px;\">\r\n\r\n        <mat-accordion>\r\n\r\n            <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        Edit Vehicle Details\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n                        Vehicle Details\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n            padding: 20px;\r\n            background-color: #F8FAFB;\r\n            margin-top: 25px;\r\n            margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>Edit Vehicles</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <form [formGroup]=\"addVehiclesform\">\r\n                                <div class=\"row\">\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Vehicle Type<span class=\"text-danger\">*</span></label>\r\n                                            <!-- <input [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\" \r\n                                        type=\"text\"   > -->\r\n                                            <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\">\r\n                                            <option value=\"\">Choose a option</option>\r\n                                          \r\n                                            <option value=\"3Wheeler\">3 Wheeler</option>\r\n                                            <option value=\"4Wheeler\">4 Wheeler</option>\r\n\r\n                                        </select>\r\n                                            <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Company Name<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\r\n                                            <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Model<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\r\n                                            <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Year<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\r\n                                            <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Registration Number<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\r\n                                            <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\r\n                                                </div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Rent Per Day<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\r\n                                            <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Locality<span class=\"text-danger\">*</span></label>\r\n                                            <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\r\n                                            <option value=\"\" selected disabled>Choose your locality</option>\r\n                                            <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\r\n                                                {{locations.name}}</option>\r\n                                        </select>\r\n                                            <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Driver<span class=\"text-danger\"></span></label>\r\n                                            <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\r\n                                            <option value=\"\">Choose your Driver</option>\r\n                                            <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\r\n                                                {{driverslist.name}}</option>\r\n                                        </select>\r\n\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Driver Rent Per KM</label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\r\n                                            <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Vehicle Rent Per KM</label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\r\n                                            <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required\r\n                                                </div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Vehicle Rent Per Hour</label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\" formControlName=\"vRentperHr\">\r\n                                            <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required\r\n                                                </div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <!-- <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\r\n        \r\n                                        <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label>License Back <span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\r\n                                        <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> RC Image <span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\r\n                                        <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                        <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Image 2<span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\r\n                                        <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div> -->\r\n                                    <div class=\"col-sm-12\">\r\n                                        <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                                        <!-- <button (click)=\"clicks()\">click</button> -->\r\n                                    </div>\r\n                                </div>\r\n                            </form>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel>\r\n\r\n            <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        Vehicle Image 1\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update Vehicle Image\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n            padding: 20px;\r\n            background-color: #F8FAFB;\r\n            margin-top: 25px;\r\n            margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>Edit Vehicles Image 1</h3>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updateimg1()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel>\r\n\r\n\r\n            <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        Vehicle Image 2\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update Vehicle Image 2\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n            padding: 20px;\r\n            background-color: #F8FAFB;\r\n            margin-top: 25px;\r\n            margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>Edit Vehicles Image 2</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updateimg2()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel>\r\n\r\n            <!-- licesnce imag frnt -->\r\n            <!-- <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        License Front\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update License Front\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n            padding: 20px;\r\n            background-color: #F8FAFB;\r\n            margin-top: 25px;\r\n            margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>License Front</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updatelicfrnt()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel> -->\r\n            <!-- licesnce imag back -->\r\n            <!-- <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        License Back\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update License Back\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>License Back</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> License Back <span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updatelicback()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel> -->\r\n\r\n            <!-- rc Image -->\r\n            <!-- <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        RC Image\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update Rc Image\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>RC Image</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Rc Image<span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updaterc()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel> -->\r\n        </mat-accordion>\r\n\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n\r\n<div class=\"page-wrapper\">\r\n    <p style=\"padding-left: 29px; margin-top: 68px;font-size: 19px;\"> <a routerLink=\"/vehicles\"><i\r\n                style=\"color: black;\">Vehicles</i></a> &nbsp; <i class=\"fa fa-angle-double-right\"></i> &nbsp; <i style=\"color:#1492E6;\">Edit Vehicles</i> </p>\r\n\r\n    <div class=\"container\" style=\"margin-top: 20px;\">\r\n\r\n        <mat-accordion>\r\n\r\n            <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        Edit Vehicle Details\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n                        Vehicle Details\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n            padding: 20px;\r\n            background-color: #F8FAFB;\r\n            margin-top: 25px;\r\n            margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>Edit Vehicles</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <form [formGroup]=\"addVehiclesform\">\r\n                                <div class=\"row\">\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Vehicle Type<span class=\"text-danger\">*</span></label>\r\n                                            <!-- <input [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\" \r\n                                        type=\"text\"   > -->\r\n                                            <select [ngClass]=\"{ 'is-invalid': submitted && f.vehicleType.errors }\" [(ngModel)]=\"vehicleModel.vehicleType\" formControlName=\"vehicleType\" class=\"form-control\">\r\n                                            <option value=\"\">Choose a option</option>\r\n                                          \r\n                                            <option value=\"3Wheeler\">3 Wheeler</option>\r\n                                            <option value=\"4Wheeler\">4 Wheeler</option>\r\n\r\n                                        </select>\r\n                                            <div *ngIf=\"submitted && f.vehicleType.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleType.errors.required\">Vehicle Type is required</div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Company Name<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleCompany.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleCompany\" formControlName=\"vehicleCompany\">\r\n                                            <div *ngIf=\"submitted && f.vehicleCompany.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleCompany.errors.required\">Company Name is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Model<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleModel.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleModel\" formControlName=\"vehicleModel\">\r\n                                            <div *ngIf=\"submitted && f.vehicleModel.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleModel.errors.required\">Vehicle Model is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Year<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleYear.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleYear\" formControlName=\"vehicleYear\">\r\n                                            <div *ngIf=\"submitted && f.vehicleYear.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleYear.errors.required\">Year is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Registration Number<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vehicleRegistration.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vehicleRegistration\" formControlName=\"vehicleRegistration\">\r\n                                            <div *ngIf=\"submitted && f.vehicleRegistration.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vehicleRegistration.errors.required\">Vehicle Registration Number is required\r\n                                                </div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Rent Per Day<span class=\"text-danger\">*</span></label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.rent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.rent\" formControlName=\"rent\">\r\n                                            <div *ngIf=\"submitted && f.rent.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.rent.errors.required\">Vehicle Rent is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Locality<span class=\"text-danger\">*</span></label>\r\n                                            <select [ngClass]=\"{ 'is-invalid': submitted && f.locality.errors }\" [(ngModel)]=\"vehicleModel.locality\" formControlName=\"locality\" class=\"form-control\">\r\n                                            <option value=\"\" selected disabled>Choose your locality</option>\r\n                                            <option value=\"{{locations.id}}\" *ngFor=\"let locations of locations\">\r\n                                                {{locations.name}}</option>\r\n                                        </select>\r\n                                            <div *ngIf=\"submitted && f.locality.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.locality.errors.required\">Locality is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Driver<span class=\"text-danger\"></span></label>\r\n                                            <select [(ngModel)]=\"vehicleModel.driver\" formControlName=\"driver\" class=\"form-control\">\r\n                                            <option value=\"\">Choose your Driver</option>\r\n                                            <option value=\"{{driverslist.id}}\" *ngFor=\"let driverslist of driverslist\">\r\n                                                {{driverslist.name}}</option>\r\n                                        </select>\r\n\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\" *ngIf=\"vehicleModel.driver != ''\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Driver Rent Per KM</label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.dRent.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.dRent\" formControlName=\"dRent\">\r\n                                            <div *ngIf=\"submitted && f.dRent.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.dRent.errors.required\">Driver Rent is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Vehicle Rent Per KM</label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperKm.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperKm\" formControlName=\"vRentperKm\">\r\n                                            <div *ngIf=\"submitted && f.vRentperKm.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vRentperKm.errors.required\">Vehicle Rent Per KM is required\r\n                                                </div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Vehicle Rent Per Hour</label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.vRentperHr.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.vRentperHr\" formControlName=\"vRentperHr\">\r\n                                            <div *ngIf=\"submitted && f.vRentperHr.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.vRentperHr.errors.required\">Vehicle Rent per Hour is required\r\n                                                </div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <!-- <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.liscencefrnt.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\" formControlName=\"liscencefrnt\">\r\n        \r\n                                        <div *ngIf=\"submitted && f.liscencefrnt.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.liscencefrnt.errors.required\">License Front is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label>License Back <span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.liscenceback.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\" formControlName=\"liscenceback\">\r\n                                        <div *ngIf=\"submitted && f.liscenceback.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.liscenceback.errors.required\">License Back is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> RC Image <span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.rcbook.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\" formControlName=\"rcbook\">\r\n                                        <div *ngIf=\"submitted && f.rcbook.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.rcbook.errors.required\">RC Book is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.img1.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\" formControlName=\"img1\">\r\n                                        <div *ngIf=\"submitted && f.img1.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.img1.errors.required\">Image 1 is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Image 2<span class=\"text-danger\">*</span></label>\r\n                                        <input [ngClass]=\"{ 'is-invalid': submitted && f.img2.errors }\"\r\n                                            class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\" formControlName=\"img2\">\r\n                                        <div *ngIf=\"submitted && f.img2.errors\" class=\"invalid-feedback\">\r\n                                            <div *ngIf=\"f.img2.errors.required\">Image 2 is required</div>\r\n                                        </div>\r\n        \r\n                                    </div>\r\n                                </div> -->\r\n                                    <div class=\"col-sm-4\">\r\n                                        <div class=\"form-group\">\r\n                                            <label>Pick Up Address</label>\r\n                                            <input [ngClass]=\"{ 'is-invalid': submitted && f.pkaddress.errors }\" class=\"form-control\" type=\"text\" [(ngModel)]=\"vehicleModel.pkaddress\" formControlName=\"pkaddress\">\r\n                                            <div *ngIf=\"submitted && f.pkaddress.errors\" class=\"invalid-feedback\">\r\n                                                <div *ngIf=\"f.pkaddress.errors.required\">Pick Up Address is required</div>\r\n                                            </div>\r\n\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-sm-12\">\r\n                                        <button style=\"width: 20%; margin-left: auto;margin-right: auto;display: block;\" (click)=\"submit()\" class=\"btn btn-warning\">Submit</button>\r\n                                        <!-- <button (click)=\"clicks()\">click</button> -->\r\n                                    </div>\r\n                                </div>\r\n                            </form>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel>\r\n\r\n            <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        Vehicle Image 1\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update Vehicle Image\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n            padding: 20px;\r\n            background-color: #F8FAFB;\r\n            margin-top: 25px;\r\n            margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>Edit Vehicles Image 1</h3>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addimage1($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updateimg1()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel>\r\n\r\n\r\n            <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        Vehicle Image 2\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update Vehicle Image 2\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n            padding: 20px;\r\n            background-color: #F8FAFB;\r\n            margin-top: 25px;\r\n            margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>Edit Vehicles Image 2</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Image 1 <span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addimage2($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updateimg2()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel>\r\n\r\n            <!-- licesnce imag frnt -->\r\n            <!-- <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        License Front\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update License Front\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n            padding: 20px;\r\n            background-color: #F8FAFB;\r\n            margin-top: 25px;\r\n            margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>License Front</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> License Front <span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addliscensefrnt($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updatelicfrnt()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel> -->\r\n            <!-- licesnce imag back -->\r\n            <!-- <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        License Back\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update License Back\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>License Back</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> License Back <span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addliscenseback($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updatelicback()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel> -->\r\n\r\n            <!-- rc Image -->\r\n            <!-- <mat-expansion-panel>\r\n                <mat-expansion-panel-header>\r\n                    <mat-panel-title>\r\n                        RC Image\r\n                    </mat-panel-title>\r\n                    <mat-panel-description>\r\n\r\n                        Update Rc Image\r\n\r\n                    </mat-panel-description>\r\n                </mat-expansion-panel-header>\r\n                <div class=\"container\" style=\"    box-shadow: 0px 3px 6px #00000029;\r\n    padding: 20px;\r\n    background-color: #F8FAFB;\r\n    margin-top: 25px;\r\n    margin-left: 1px;\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <h3>RC Image</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\" style=\"     padding: 34px;   background-color: WHITE;\">\r\n                        <div class=\"col-lg-12\">\r\n\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-4\">\r\n                                    <div class=\"form-group\">\r\n                                        <label> Rc Image<span class=\"text-danger\">*</span></label>\r\n                                        <input class=\"form-control\" #file type=\"file\" (change)=\"addrcimage($event)\">\r\n\r\n\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <button class=\"btn btn-warning\" (click)=\"updaterc()\">Update</button>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </mat-expansion-panel> -->\r\n        </mat-accordion>\r\n\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1151,7 +1151,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <!-- <h2>s</h2> -->\r\n\r\n        <div class=\"col-sm-12\">\r\n            <div class=\"card\">\r\n                <span style=\"    margin-left: auto;\" (click)=\"close()\" class=\"close\">X</span>\r\n                <h4>{{customerName}}</h4>\r\n                <hr>\r\n\r\n                <div class=\"line\"></div>\r\n\r\n                <hr>\r\n                <span class=\"round\" style=\"    margin-left: 94px;\r\n                background: green;\r\n                margin-top: -29px;\r\n                height: 25px;\r\n            \r\n              \r\n                width: 25px;\r\n                border-radius: 100%;\"></span>\r\n\r\n                <span class=\"round\" style=\"    margin-left: auto;\r\n                background: red;\r\n                margin-right: 94px;\r\n                margin-top: -25px;\r\n                height: 25px;\r\n               \r\n                left: -7px;\r\n                width: 25px;\r\n                border-radius: 100%;\"></span>\r\n                <div class=\"row\">\r\n                    <p style=\"margin-left: 70px; margin-right: auto;\">Starting From : {{startingLocation}}</p>\r\n                    <p style=\"margin-left: auto; margin-right: 100px;\">Destination : {{destinationLocation}}</p>\r\n\r\n                </div>\r\n\r\n                <!-- <div class=\"row\" style=\"margin-top: 20px;\"> -->\r\n                <h5 style=\"text-align:center;\">Details</h5>\r\n\r\n                <hr style=\"margin-left: auto;\r\n                    margin-right: auto;\r\n                    width: 50%;\r\n                    background: yellow;\">\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-calendar\"></i> Requested Date : {{requestedDate}}</p>\r\n                <h6 style=\"text-align:center;\">Vehicle Details</h6>\r\n                <hr style=\"margin-left: auto;\r\n                    margin-right: auto;\r\n                    width: 50%;\r\n                    background: yellow;\">\r\n\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-car\"></i> Company Name : {{companyName}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-car\"></i> Vehicle Model : {{model}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-number\"></i> Registration Number : {{numberPlate}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-inr\"></i> Rent Per Day : {{rentPerDay}}</p>\r\n\r\n                <!-- </div>  -->\r\n                <div class=\"row\" style=\"    margin: 13px auto 0;\" *ngIf=\"approvalstatus == 2\">\r\n                    <button class=\"btn btn-warning\" style=\"margin-right: 10px;\" (click)=\"checkbooking()\"> <i class=\"fa fa-check\"></i> Check Other Booking</button>\r\n\r\n                    <button class=\"btn btn-success\" style=\"margin-right: 10px;\" (click)=\"approve()\"> <i class=\"fa fa-check\"></i> Approve</button>\r\n                    <button class=\"btn btn-danger\" style=\"margin-left: 10px;\" (click)=\"reject()\"> <i class=\"fa fa-close\"></i> Reject</button>\r\n                </div>\r\n            </div>\r\n\r\n\r\n\r\n        </div>\r\n\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<app-header></app-header>\r\n\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <!-- <h2>s</h2> -->\r\n\r\n        <div class=\"col-sm-12\">\r\n            <div class=\"card\">\r\n                <span style=\"    margin-left: auto;\" (click)=\"close()\" class=\"close\">X</span>\r\n                <h4>{{customerName}}</h4>\r\n                <hr>\r\n\r\n                <div class=\"line\"></div>\r\n\r\n                <hr>\r\n                <span class=\"round\" style=\"    margin-left: 94px;\r\n                background: green;\r\n                margin-top: -29px;\r\n                height: 25px;\r\n            \r\n              \r\n                width: 25px;\r\n                border-radius: 100%;\"></span>\r\n\r\n                <span class=\"round\" style=\"    margin-left: auto;\r\n                background: red;\r\n                margin-right: 94px;\r\n                margin-top: -25px;\r\n                height: 25px;\r\n               \r\n                left: -7px;\r\n                width: 25px;\r\n                border-radius: 100%;\"></span>\r\n                <div class=\"row\">\r\n                    <p style=\"margin-left: 70px; margin-right: auto;\">Starting From : {{startingLocation}}</p>\r\n                    <p style=\"margin-left: auto; margin-right: 100px;\">Destination : {{destinationLocation}}</p>\r\n\r\n                </div>\r\n\r\n                <!-- <div class=\"row\" style=\"margin-top: 20px;\"> -->\r\n                <h5 style=\"text-align:center;\">Details</h5>\r\n\r\n                <hr style=\"margin-left: auto;\r\n                    margin-right: auto;\r\n                    width: 50%;\r\n                    background: yellow;\">\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-calendar\"></i> Requested Date : {{requestedDate}}</p>\r\n                <h6 style=\"text-align:center;\">Vehicle Details</h6>\r\n                <hr style=\"margin-left: auto;\r\n                    margin-right: auto;\r\n                    width: 50%;\r\n                    background: yellow;\">\r\n\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-car\"></i> Company Name : {{companyName}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-car\"></i> Vehicle Model : {{model}}</p>\r\n                <p style=\"text-align:center;\"><i class=\"fa fa-number\"></i> Registration Number : {{numberPlate}}</p>\r\n                <p style=\"text-align:center;\" *ngIf=\"rentPerDay !=null\"><i class=\"fa fa-inr\"></i> Rent Per Day : {{rentPerDay}}</p>\r\n                <p style=\"text-align:center;\" *ngIf=\"rentPerHour !=null\"><i class=\"fa fa-inr\"></i> Rent Per Hour : {{rentPerHour}}</p>\r\n                <p style=\"text-align:center;\" *ngIf=\"rentPerKM !=null\"><i class=\"fa fa-inr\"></i> Rent Per KM : {{rentPerKM}}</p>\r\n\r\n                <!-- </div>  -->\r\n                <div class=\"row\" style=\"    margin: 13px auto 0;\" *ngIf=\"approvalstatus == 2\">\r\n                    <button class=\"btn btn-warning\" style=\"margin-right: 10px;\" (click)=\"checkbooking()\"> <i class=\"fa fa-check\"></i> Check Other Booking</button>\r\n\r\n                    <button class=\"btn btn-success\" style=\"margin-right: 10px;\" (click)=\"approve()\"> <i class=\"fa fa-check\"></i> Approve</button>\r\n                    <button class=\"btn btn-danger\" style=\"margin-left: 10px;\" (click)=\"reject()\"> <i class=\"fa fa-close\"></i> Reject</button>\r\n                </div>\r\n            </div>\r\n\r\n\r\n\r\n        </div>\r\n\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1191,7 +1191,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<!-- <app-header></app-header> -->\r\n<!-- <div class=\"page-wrapper\" style=\"margin-top: 101px;\">\r\n    <div class=\"row\">\r\n\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\r\n                aria-hidden=\"true\"></i> Back</button>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\r\n                color: #ffb100;\">Management</em> </h4>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/add-cars\" class=\" btn btn-success\" style=\"float: right;\"><i class=\"fa fa-plus\"\r\n                aria-hidden=\"true\"></i> Add New Cars</button>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-9\">\r\n\r\n        </div>\r\n        <div class=\"col-sm-3\">\r\n            <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 15px;\">\r\n                <option value=\"\" selected disabled>Filter Options</option>\r\n                <option value=\"1\">Approved</option>\r\n                <option value=\"3\">Rejected</option>\r\n                <option value=\"2\">Pending</option>\r\n\r\n            </select>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row \" style=\"margin-top: 11px;\">\r\n        <div class=\"col-lg-3 col-md-6 con suv mpv\" *ngFor=\"let car of carList\">\r\n            <div class=\"single-popular-car\">\r\n                <div class=\"p-car-thumbnails\">\r\n                    <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"JSOFT\" class=\"vehImg\">\r\n                </div>\r\n\r\n                <div class=\"p-car-content\">\r\n                    <h3>\r\n                        <a>{{car.companyName}}</a>\r\n                        <span class=\"price\"><i class=\"fa fa-tag\"></i> {{car.rentPerDay}}</span>\r\n                    </h3>\r\n                    <h5 style=\"float: right;\">Model : {{car.model}}</h5>\r\n\r\n                    <h5>{{car.numberPlate}}</h5>\r\n\r\n                    <h5 style=\"    float: right;\r\n                        margin-top: -1px;\">{{car.type}}</h5>\r\n\r\n                    <h5>{{car.year}}</h5>\r\n                    <h5><i class=\"fa fa-map-marker\"></i> {{car.locationName}}</h5>\r\n\r\n               \r\n\r\n\r\n\r\n                </div>\r\n                <div class=\"p-car-content\" style=\"    padding: 0px 20px 19px;\">\r\n                    <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                        View</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                        Edit</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                            class=\"fa fa-trash\"></i> Delete</button>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n\r\n    </div>\r\n    <div class=\"row\" *ngIf=\"errormessage == 'No data found'\">\r\n        <img src=\"./assets/img/nodata.png\" alt=\"\" style=\"    margin: auto;\r\n        display: block;     width: 36%;   filter: brightness(0.5);\">\r\n    </div>\r\n    <h5 *ngIf=\"errormessage == 'No data found'\" style=\"text-align: center;\">No Vehicles Found</h5>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <button routerLink=\"/add-cars\" style=\"float: right;    background: #3158c8;\" class=\" btn btn-success\"><i\r\n                                class=\"fa fa-plus\" aria-hidden=\"true\"></i> Add New Cars</button>\r\n                        <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 49px;\">\r\n                                        <option value=\"\" selected disabled>Filter Options</option>\r\n                                        <option value=\"1\">Approved</option>\r\n                                        <option value=\"3\">Rejected</option>\r\n                                        <option value=\"2\">Pending</option>\r\n                        \r\n                                    </select>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Vehicle </th>\r\n                                        <th>Locality</th>\r\n                                        <th>Image</th>\r\n                                        <th>Registration Number</th>\r\n                                        <th>Status</th>\r\n\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let car of carList\">\r\n                                        <!-- <th>{{apUrl}}vehicle/getImage1/{{car.id}}</th> -->\r\n                                        <th>{{car.companyName}}</th>\r\n                                        <th>{{car.locationName}}</th>\r\n                                        <th>\r\n                                            <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"\" style=\"height: 100px;\">\r\n                                        </th>\r\n                                        <th>{{car.numberPlate}}</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '1'\">Approved</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '2'\">Pending</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '3'\">Rejected</th>\r\n\r\n\r\n                                        <th> <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                                            View</button>\r\n                                            <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                                            Edit</button>\r\n                                            <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                                                class=\"fa fa-trash\"></i> Delete</button></th>\r\n                                    </tr>\r\n\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<!-- <app-header></app-header> -->\r\n<!-- <div class=\"page-wrapper\" style=\"margin-top: 101px;\">\r\n    <div class=\"row\">\r\n\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/admin\" class=\" btn btn-dark\" style=\"float: Left;\"><i class=\"fa fa-arrow-left\"\r\n                aria-hidden=\"true\"></i> Back</button>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <h4 style=\"text-align: center;\">Vehicle <em style=\"font-style: normal;\r\n                color: #ffb100;\">Management</em> </h4>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <button routerLink=\"/add-cars\" class=\" btn btn-success\" style=\"float: right;\"><i class=\"fa fa-plus\"\r\n                aria-hidden=\"true\"></i> Add New Cars</button>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-9\">\r\n\r\n        </div>\r\n        <div class=\"col-sm-3\">\r\n            <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 15px;\">\r\n                <option value=\"\" selected disabled>Filter Options</option>\r\n                <option value=\"1\">Approved</option>\r\n                <option value=\"3\">Rejected</option>\r\n                <option value=\"2\">Pending</option>\r\n\r\n            </select>\r\n        </div>\r\n\r\n    </div>\r\n    <div class=\"row \" style=\"margin-top: 11px;\">\r\n        <div class=\"col-lg-3 col-md-6 con suv mpv\" *ngFor=\"let car of carList\">\r\n            <div class=\"single-popular-car\">\r\n                <div class=\"p-car-thumbnails\">\r\n                    <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"JSOFT\" class=\"vehImg\">\r\n                </div>\r\n\r\n                <div class=\"p-car-content\">\r\n                    <h3>\r\n                        <a>{{car.companyName}}</a>\r\n                        <span class=\"price\"><i class=\"fa fa-tag\"></i> {{car.rentPerDay}}</span>\r\n                    </h3>\r\n                    <h5 style=\"float: right;\">Model : {{car.model}}</h5>\r\n\r\n                    <h5>{{car.numberPlate}}</h5>\r\n\r\n                    <h5 style=\"    float: right;\r\n                        margin-top: -1px;\">{{car.type}}</h5>\r\n\r\n                    <h5>{{car.year}}</h5>\r\n                    <h5><i class=\"fa fa-map-marker\"></i> {{car.locationName}}</h5>\r\n\r\n               \r\n\r\n\r\n\r\n                </div>\r\n                <div class=\"p-car-content\" style=\"    padding: 0px 20px 19px;\">\r\n                    <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                        View</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                        Edit</button>\r\n                    <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                            class=\"fa fa-trash\"></i> Delete</button>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n\r\n    </div>\r\n    <div class=\"row\" *ngIf=\"errormessage == 'No data found'\">\r\n        <img src=\"./assets/img/nodata.png\" alt=\"\" style=\"    margin: auto;\r\n        display: block;     width: 36%;   filter: brightness(0.5);\">\r\n    </div>\r\n    <h5 *ngIf=\"errormessage == 'No data found'\" style=\"text-align: center;\">No Vehicles Found</h5>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Vehicle Management</h1>\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n                        <button routerLink=\"/add-cars\" style=\"float: right;    background: #3158c8;\" class=\" btn btn-success\"><i\r\n                                class=\"fa fa-plus\" aria-hidden=\"true\"></i> Add New Cars</button>\r\n                        <select [(ngModel)]=\"vstatus\" (change)=\"changeFilter(vstatus)\" class=\"form-control\" style=\"margin-top: 49px;\">\r\n                                        <option value=\"\" selected disabled>Filter Options</option>\r\n                                        <option value=\"1\">Approved</option>\r\n                                        <option value=\"3\">Rejected</option>\r\n                                        <option value=\"2\">Pending</option>\r\n                        \r\n                                    </select>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- DataTales Example -->\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Vehicle </th>\r\n                                        <th>Locality</th>\r\n                                        <th>Image</th>\r\n                                        <th>Registration Number</th>\r\n                                        <th>Status</th>\r\n\r\n                                        <th>Action</th>\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let car of carList\">\r\n                                        <!-- <th>{{apUrl}}vehicle/getImage1/{{car.id}}</th> -->\r\n                                        <th>{{car.companyName}}</th>\r\n                                        <th>{{car.locationName}}</th>\r\n                                        <th>\r\n                                            <img src=\"{{apUrl}}vehicle/getImage1/{{car.id}}\" alt=\"\" style=\"    width: 100px;\r\n                                            \">\r\n                                        </th>\r\n                                        <th>{{car.numberPlate}}</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '1'\">Approved</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '2'\">Pending</th>\r\n                                        <th *ngIf=\"car.approvalStatus == '3'\">Rejected</th>\r\n\r\n\r\n                                        <th> <button style=\"margin: 2px;\" (click)=\"view(car)\" class=\"btn btn-dark\"><i class=\"fa fa-eye\"></i>\r\n                                            View</button>\r\n                                            <button style=\"margin: 2px;\" (click)=\"edit(car)\" class=\"btn btn-danger\"><i class=\"fa fa-pencil\"></i>\r\n                                            Edit</button>\r\n                                            <button style=\"margin: 2px;\" (click)=\"delete(car)\" class=\"btn btn-warning\"><i\r\n                                                class=\"fa fa-trash\"></i> Delete</button></th>\r\n                                    </tr>\r\n\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -1231,7 +1231,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">View Vehicle Tracking</h1>\n\n                    </div>\n                    <div class=\"col-sm-6\">\n                        <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;background: #496fdb;\" routerLink=\"/add-location\"><i class=\"fa fa-plus\"></i> Add Locality </a> -->\n\n\n\n                    </div>\n                    <div class=\" offset-3 col-sm-6 offset-3\">\n                        <div class=\"card\">\n                            <div class=\"row\">\n                                <!-- <h6 >Take Vehicle City</h6>\n                                <div class=\"col-sm-3\">\n\n                                    <h6 >Take Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                    margin-left: 27px;\"></i>\n                                    <h6>{{results.startingLocation}}</h6>\n\n                                </div>\n                                <div class=\"col-sm-6\"></div>\n\n                                <div class=\"col-sm-3\">\n\n                                    <h6 style=\"text-align: right;margin-bottom: 22px;\">Return Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"font-size: 57px;\n                                    float: right;\n                                    margin-right: 39px;\n                                \"></i>\n                                </div> -->\n                                <div class=\"col-sm-12\">\n                                    <h6>Take Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                       margin-left: 43%;margin-bottom: 20px;\"></i>\n                                    <h6>{{results.startingLocation}}</h6>\n\n\n                                    <h6>Return Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                       margin-left: 43%;margin-bottom: 20px;\"></i>\n                                    <h6>{{results.destinationLocation}}</h6>\n\n                                    <h6>Take Off Day</h6>\n\n                                    <h6>{{results.requestedDate}}</h6>\n\n                                    <h6>Return Day</h6>\n\n                                    <h6>{{results.requestEndDate}}</h6>\n\n                                    <hr>\n                                    <p>Customer Details</p>\n                                    <h6 style=\"text-align: left;\">{{results.customerName}}</h6>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n\n                </div>\n\n            </div>\n\n        </div>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id=\"wrapper\">\n\n    <app-sidebar></app-sidebar>\n\n    <!-- Content Wrapper -->\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\n\n        <!-- Main Content -->\n        <div id=\"content\">\n\n            <!-- Topbar -->\n            <app-header></app-header>\n            <!-- End of Topbar -->\n            <!-- <app-adminhome></app-adminhome> -->\n            <!-- Begin Page Content -->\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\n            margin-top: 99px;\n            padding-right: 240px;  \">\n                <!-- Page Heading -->\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\n                    <div class=\"col-sm-6\">\n                        <h1 class=\"h3 mb-2 text-gray-800\">View Vehicle Tracking</h1>\n\n                    </div>\n                    <div class=\"col-sm-6\">\n                        <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;background: #496fdb;\" routerLink=\"/add-location\"><i class=\"fa fa-plus\"></i> Add Locality </a> -->\n\n\n\n                    </div>\n                    <div class=\" offset-3 col-sm-6 offset-3\">\n                        <div class=\"card\">\n                            <div class=\"row\">\n                                <!-- <h6 >Take Vehicle City</h6>\n                                <div class=\"col-sm-3\">\n\n                                    <h6 >Take Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                    margin-left: 27px;\"></i>\n                                    <h6>{{results.startingLocation}}</h6>\n\n                                </div>\n                                <div class=\"col-sm-6\"></div>\n\n                                <div class=\"col-sm-3\">\n\n                                    <h6 style=\"text-align: right;margin-bottom: 22px;\">Return Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"font-size: 57px;\n                                    float: right;\n                                    margin-right: 39px;\n                                \"></i>\n                                </div> -->\n                                <div class=\"col-sm-12\">\n                                    <h6 style=\"color: #777777;\">Take Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                       margin-left: 43%;margin-bottom: 20px;\"></i>\n                                    <h6>{{results.startingLocation}}</h6>\n                                    <hr>\n\n                                    <h6 style=\"color: #777777;\">Return Vehicle City</h6>\n                                    <i class=\"fa fa-car\" style=\"    font-size: 57px;\n                                       margin-left: 43%;margin-bottom: 20px;\"></i>\n                                    <h6>{{results.destinationLocation}}</h6>\n                                    <hr>\n                                    <div class=\"row\">\n                                        <div class=\"col-sm-6\">\n                                            <h6 style=\"color: #777777;\">Take Off Day</h6>\n\n                                            <h6>{{results.requestedDate}}</h6>\n                                        </div>\n                                        <div class=\"col-sm-6\">\n                                            <h6 style=\"color: #777777;\">Return Day</h6>\n\n                                            <h6>{{results.requestEndDate}}</h6>\n                                        </div>\n                                    </div>\n\n\n\n\n                                    <hr>\n                                    <p>Customer Details</p>\n                                    <h6 style=\"text-align: left;\">Name : {{results.customerName}}</h6>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n\n                </div>\n\n            </div>\n\n        </div>\n    </div>\n</div>";
     /***/
   },
 
@@ -3548,7 +3548,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n.table-responsive {\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n}\r\n\r\n.d-block {\r\n    border-radius: 19px;\r\n    width: 50%;\r\n    height: 270px;\r\n    margin: 0 auto;\r\n}\r\n\r\n@media only screen and (max-width: 991px) {\r\n    .container-fluid {\r\n        margin-left: 93px !important;\r\n        margin-top: 99px !important;\r\n        padding-right: 9px !important;\r\n    }\r\n    #wrapper #content-wrapper {\r\n        background-color: #f8f9fc;\r\n        overflow-x: unset;\r\n    }\r\n    .d-block {\r\n        border-radius: 19px;\r\n        width: 102%;\r\n        height: 161px;\r\n    }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLFVBQVU7SUFDVixhQUFhO0lBQ2IsY0FBYztBQUNsQjs7QUFFQTtJQUNJO1FBQ0ksNEJBQTRCO1FBQzVCLDJCQUEyQjtRQUMzQiw2QkFBNkI7SUFDakM7SUFDQTtRQUNJLHlCQUF5QjtRQUN6QixpQkFBaUI7SUFDckI7SUFDQTtRQUNJLG1CQUFtQjtRQUNuQixXQUFXO1FBQ1gsYUFBYTtJQUNqQjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cge1xyXG4gICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgIG1hcmdpbi1yaWdodDogMHB4O1xyXG59XHJcblxyXG4udGFibGUtcmVzcG9uc2l2ZSB7XHJcbiAgICBtYXJnaW4tbGVmdDogMTk1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xyXG59XHJcblxyXG4uZC1ibG9jayB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxOXB4O1xyXG4gICAgd2lkdGg6IDUwJTtcclxuICAgIGhlaWdodDogMjcwcHg7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxufVxyXG5cclxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5OTFweCkge1xyXG4gICAgLmNvbnRhaW5lci1mbHVpZCB7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDkzcHggIWltcG9ydGFudDtcclxuICAgICAgICBtYXJnaW4tdG9wOiA5OXB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgcGFkZGluZy1yaWdodDogOXB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgICAjd3JhcHBlciAjY29udGVudC13cmFwcGVyIHtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjhmOWZjO1xyXG4gICAgICAgIG92ZXJmbG93LXg6IHVuc2V0O1xyXG4gICAgfVxyXG4gICAgLmQtYmxvY2sge1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDE5cHg7XHJcbiAgICAgICAgd2lkdGg6IDEwMiU7XHJcbiAgICAgICAgaGVpZ2h0OiAxNjFweDtcclxuICAgIH1cclxufSJdfQ== */";
+    __webpack_exports__["default"] = ".row {\r\n    margin-left: 0px;\r\n    margin-right: 0px;\r\n}\r\n\r\n.table-responsive {\r\n    margin-left: 195px;\r\n    margin-top: 16px;\r\n}\r\n\r\n.d-block {\r\n    border-radius: 19px;\r\n    width: 50%;\r\n    height: 270px;\r\n    margin: 0 auto;\r\n}\r\n\r\n@media only screen and (max-width: 991px) {\r\n    .container-fluid {\r\n        margin-left: 93px !important;\r\n        margin-top: 99px !important;\r\n        padding-right: 9px !important;\r\n    }\r\n    #wrapper #content-wrapper {\r\n        background-color: #f8f9fc;\r\n        overflow-x: unset;\r\n    }\r\n    .d-block {\r\n        border-radius: 19px;\r\n        width: 102%;\r\n        height: 161px;\r\n    }\r\n}\r\n\r\n.border-left-info {\r\n    border-left: 0.25rem solid #ff920a !important;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLFVBQVU7SUFDVixhQUFhO0lBQ2IsY0FBYztBQUNsQjs7QUFFQTtJQUNJO1FBQ0ksNEJBQTRCO1FBQzVCLDJCQUEyQjtRQUMzQiw2QkFBNkI7SUFDakM7SUFDQTtRQUNJLHlCQUF5QjtRQUN6QixpQkFBaUI7SUFDckI7SUFDQTtRQUNJLG1CQUFtQjtRQUNuQixXQUFXO1FBQ1gsYUFBYTtJQUNqQjtBQUNKOztBQUVBO0lBQ0ksNkNBQTZDO0FBQ2pEIiwiZmlsZSI6InNyYy9hcHAvYWRtaW5wYW5uZWwvYWRtaW5wYW5uZWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cge1xyXG4gICAgbWFyZ2luLWxlZnQ6IDBweDtcclxuICAgIG1hcmdpbi1yaWdodDogMHB4O1xyXG59XHJcblxyXG4udGFibGUtcmVzcG9uc2l2ZSB7XHJcbiAgICBtYXJnaW4tbGVmdDogMTk1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xyXG59XHJcblxyXG4uZC1ibG9jayB7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxOXB4O1xyXG4gICAgd2lkdGg6IDUwJTtcclxuICAgIGhlaWdodDogMjcwcHg7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxufVxyXG5cclxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5OTFweCkge1xyXG4gICAgLmNvbnRhaW5lci1mbHVpZCB7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDkzcHggIWltcG9ydGFudDtcclxuICAgICAgICBtYXJnaW4tdG9wOiA5OXB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgcGFkZGluZy1yaWdodDogOXB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgICAjd3JhcHBlciAjY29udGVudC13cmFwcGVyIHtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjhmOWZjO1xyXG4gICAgICAgIG92ZXJmbG93LXg6IHVuc2V0O1xyXG4gICAgfVxyXG4gICAgLmQtYmxvY2sge1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDE5cHg7XHJcbiAgICAgICAgd2lkdGg6IDEwMiU7XHJcbiAgICAgICAgaGVpZ2h0OiAxNjFweDtcclxuICAgIH1cclxufVxyXG5cclxuLmJvcmRlci1sZWZ0LWluZm8ge1xyXG4gICAgYm9yZGVyLWxlZnQ6IDAuMjVyZW0gc29saWQgI2ZmOTIwYSAhaW1wb3J0YW50O1xyXG59Il19 */";
     /***/
   },
 
@@ -3851,6 +3851,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.adminservice.getallcancelledbookings(this.faday, this.tday, this.page).subscribe(function (data) {
             console.log(data);
             _this19.cancelledbookings = data;
+            _this19.date3 = _this19.faday;
+            _this19.date2 = _this19.tday;
           }, function (error) {});
         }
       }]);
@@ -6608,17 +6610,35 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! src/app/ownerpannel/owner.service */
     "./src/app/ownerpannel/owner.service.ts");
+    /* harmony import */
+
+
+    var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! sweetalert2 */
+    "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+    /* harmony import */
+
+
+    var sweetalert2__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_5__);
 
     var AddFeedbackComponent = /*#__PURE__*/function () {
-      function AddFeedbackComponent(fb, ownerservice) {
+      function AddFeedbackComponent(fb, router, ownerservice) {
         _classCallCheck(this, AddFeedbackComponent);
 
         this.fb = fb;
+        this.router = router;
         this.ownerservice = ownerservice;
         this.submitted = false;
+        this.formData = new FormData();
       }
 
       _createClass(AddFeedbackComponent, [{
@@ -6632,11 +6652,23 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
+          var _this28 = this;
+
           this.submitted = true; // stop here if form is invalid
 
           if (this.feedbackform.invalid) {
             return;
-          } else {}
+          } else {
+            this.formData.append("comment", this.comments);
+            this.formData.append("experiance", this.rating);
+            this.ownerservice.addcomments(this.formData).subscribe(function (data) {
+              sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Feedback Added!', 'Feedback Added Successfully', 'success');
+
+              _this28.router.navigate(['/admin']);
+            }, function (error) {
+              sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to add Feedback!', 'Feedback Added UnSuccessfull', 'error');
+            });
+          }
         }
       }, {
         key: "f",
@@ -6652,7 +6684,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       return [{
         type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]
       }, {
-        type: src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_3__["OwnerService"]
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+      }, {
+        type: src_app_ownerpannel_owner_service__WEBPACK_IMPORTED_MODULE_4__["OwnerService"]
       }];
     };
 
@@ -6754,19 +6788,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getchatsafeeback",
         value: function getchatsafeeback() {
-          var _this28 = this;
+          var _this29 = this;
 
           this.AdminService.getalldata(this.faday, this.tday, this.page, this.size).subscribe(function (data) {
-            _this28.results = data;
+            _this29.results = data;
           }, function (error) {});
         }
       }, {
         key: "selected",
         value: function selected(s) {
-          var _this29 = this;
+          var _this30 = this;
 
           this.AdminService.getalldata(this.date1, this.date2, this.page, this.size).subscribe(function (data) {
-            _this29.results = data;
+            _this30.results = data;
           }, function (error) {});
         }
       }]);
@@ -7577,7 +7611,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onSubmit",
         value: function onSubmit(form, formData) {
-          var _this30 = this;
+          var _this31 = this;
 
           // this.submitted = true;
           // this.authservice.login(formData.email,formData.password).pipe(first())
@@ -7600,14 +7634,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (data['roleId'] == '1') {
               localStorage.setItem('ROLE', JSON.stringify('ADMIN'));
 
-              _this30.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
+              _this31.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
 
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Admin Login!', ' Admin Login Successfully', 'success');
             } else if (data['roleId'] == '2') {
               localStorage.setItem('ROLE', JSON.stringify('OWNER'));
 
-              _this30.router.navigate(['/admin']);
+              _this31.router.navigate(['/admin']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('WELCOME!', 'Login Successfully', 'success');
             }
@@ -7836,7 +7870,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getAddress",
         value: function getAddress() {
-          var _this31 = this;
+          var _this32 = this;
 
           this.geoCoder = new google.maps.Geocoder();
           this.geoCoder.geocode({
@@ -7851,8 +7885,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (status === 'OK') {
               if (results[0]) {
                 // this.zoom = 12;
-                _this31.address = results[0].formatted_address;
-                console.log(_this31.address);
+                _this32.address = results[0].formatted_address;
+                console.log(_this32.address);
               } else {
                 window.alert('No results found');
               }
@@ -8416,7 +8450,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this32 = this;
+          var _this33 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8429,7 +8463,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this32.router.navigate(['/image2']);
+              _this33.router.navigate(['/image2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8596,7 +8630,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this33 = this;
+          var _this34 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8609,7 +8643,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this33.router.navigate(['/licsence1']);
+              _this34.router.navigate(['/licsence1']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8776,7 +8810,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this34 = this;
+          var _this35 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8789,7 +8823,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added!', 'Licence Added Successfully', 'success');
 
-              _this34.router.navigate(['/rcfrnt']);
+              _this35.router.navigate(['/rcfrnt']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added Error!', 'Licence Back Added SUnccessfully', 'error');
             });
@@ -8956,7 +8990,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this35 = this;
+          var _this36 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8969,7 +9003,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added!', 'Licence Front Added Successfully', 'success');
 
-              _this35.router.navigate(['/licsence2']);
+              _this36.router.navigate(['/licsence2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added Error!', 'Licence Front Added SUnccessfully', 'error');
             });
@@ -9111,6 +9145,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.owenerservice = owenerservice;
         this.lat = 13;
         this.lng = 80;
+        this.renttype = 'rentperday';
         this.formData = new FormData();
         this.locations = [];
         this.submitted = false;
@@ -9124,29 +9159,59 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.vehicleModel.locality = '';
           this.vehicleModel.vehicleType = '';
           this.vehicleModel.driver = '';
-          this.addVehiclesform = this.fb.group({
-            vehicleType: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            vehicleModel: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            vehicleYear: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            vehicleCompany: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            vehicleRegistration: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            locality: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            rent: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            // liscencefrnt:['',Validators.required],
-            // liscenceback:['',Validators.required],
-            // rcbook:['',Validators.required],
-            // img1:['',Validators.required],
-            // img2 :['',Validators.required],
-            driver: [''],
-            dRent: [''],
-            paddress: [''],
-            vRentperKm: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
-          });
+
+          if (this.renttype == 'rentperday') {
+            this.addVehiclesform = this.fb.group({
+              vehicleType: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              vehicleModel: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              vehicleYear: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              vehicleCompany: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              vehicleRegistration: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              locality: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              rent: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              // liscencefrnt:['',Validators.required],
+              // liscenceback:['',Validators.required],
+              // rcbook:['',Validators.required],
+              // img1:['',Validators.required],
+              // img2 :['',Validators.required],
+              renttype: [''],
+              driver: [''],
+              dRent: [''],
+              paddress: [''],
+              vRentperKm: ['']
+            });
+          } else {
+            this.addVehiclesform = this.fb.group({
+              vehicleType: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              vehicleModel: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              vehicleYear: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              vehicleCompany: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              vehicleRegistration: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              locality: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+              rent: [''],
+              // liscencefrnt:['',Validators.required],
+              // liscenceback:['',Validators.required],
+              // rcbook:['',Validators.required],
+              // img1:['',Validators.required],
+              // img2 :['',Validators.required],
+              renttype: [''],
+              driver: [''],
+              dRent: [''],
+              paddress: [''],
+              vRentperKm: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+            });
+          }
+
           this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
           this.ownerId = this.ownerdetails['userId'];
           console.log(this.ownerId);
           this.getalllocality();
           this.getalldrivers();
+        }
+      }, {
+        key: "changerenttype",
+        value: function changerenttype(s) {
+          console.log(s);
         }
       }, {
         key: "vehicletype",
@@ -9162,21 +9227,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this36 = this;
+          var _this37 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this36.driverslist = data;
-            console.log(_this36.driverslist);
+            _this37.driverslist = data;
+            console.log(_this37.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this37 = this;
+          var _this38 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this37.locations = data;
+            _this38.locations = data;
           }, function (error) {});
         }
       }, {
@@ -9212,7 +9277,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this38 = this;
+          var _this39 = this;
 
           this.submitted = true;
           this.mapdataresponse = JSON.parse(sessionStorage.getItem("mapcordinatess")); // stop here if form is invalid
@@ -9224,8 +9289,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             console.log(this.vehicleModel.paddress);
             return;
           } else {
-            var vrent = parseInt(this.vehicleModel.vRentperKm) * 30;
-            this.vehicleModel.vRentperHr = vrent.toString();
+            console.log(this.vehicleModel.vRentperKm);
+
+            if (this.vehicleModel.vRentperKm == undefined) {
+              this.vehicleModel.vRentperKm = "";
+              this.formData.append('rentPerHour', "");
+            } else {
+              var vrent = parseInt(this.vehicleModel.vRentperKm) * 30;
+              this.vehicleModel.vRentperHr = vrent.toString();
+              this.formData.append('rentPerHour', this.vehicleModel.vRentperHr);
+            }
+
             this.formData.append('type', this.vehicleModel.vehicleType);
             this.formData.append('companyName', this.vehicleModel.vehicleCompany);
             this.formData.append('model', this.vehicleModel.vehicleModel);
@@ -9233,14 +9307,25 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append('numberPlate', this.vehicleModel.vehicleRegistration);
             this.formData.append('locality', this.vehicleModel.locality);
             this.formData.append('rentPerDay', this.vehicleModel.rent);
+            this.formData.append('rentPerKM', this.vehicleModel.vRentperKm);
             this.formData.append('ownerId', this.ownerId);
-            this.formData.append("gpsCoorginates", this.mapdataresponse['latitude'] + ',' + this.mapdataresponse["longitude"]);
-            this.formData.append("gpsAddress", this.mapdataresponse['address']);
 
             if (this.mapdataresponse == null) {
-              this.formData.append("pickUpAddress", this.vehicleModel.paddress);
+              if (this.vehicleModel.paddress == undefined) {
+                this.toaster.error("Enter the pickup address");
+              } else {
+                this.formData.append("pickUpAddress", this.vehicleModel.paddress);
+              }
             } else {
               this.formData.append("pickUpAddress", null);
+            }
+
+            if (this.vehicleModel.paddress != null || this.vehicleModel.paddress != undefined) {
+              this.formData.append("gpsCoorginates", "");
+              this.formData.append("gpsAddress", "");
+            } else {
+              this.formData.append("gpsCoorginates", this.mapdataresponse['latitude'] + ',' + this.mapdataresponse["longitude"]);
+              this.formData.append("gpsAddress", this.mapdataresponse['address']);
             } // this.formData.append('licenceFront', this.lisencefrnt);
             // this.formData.append('licenceBack', this.lisenceback);
             // this.formData.append('rcImage', this.rcproof);
@@ -9256,18 +9341,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               this.formData.append('driverRentPerKM', this.vehicleModel.dRent);
             }
 
-            this.formData.append('rentPerKM', this.vehicleModel.vRentperKm);
-            this.formData.append('rentPerHour', this.vehicleModel.vRentperHr);
             console.log(this.formData);
             this.owenerservice.addnewvehicle(this.formData).subscribe(function (data) {
               localStorage.setItem('vehicleadddetailsid', JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Added!', 'Basic Details Added Successfully', 'success');
 
-              _this38.router.navigate(['/image1']);
+              _this39.router.navigate(['/image1']);
             }, function (error) {
-              _this38.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this38.error, 'error');
-              _this38.formData["delete"];
+              _this39.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this39.error, 'error');
+              _this39.formData["delete"];
             });
           }
         }
@@ -9435,7 +9518,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this39 = this;
+          var _this40 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9448,7 +9531,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
 
-              _this39.router.navigate(['/vehicles']);
+              _this40.router.navigate(['/vehicles']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added Error!', 'RC Added SUnccessfully', 'error');
             });
@@ -9604,7 +9687,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this40 = this;
+          var _this41 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9619,7 +9702,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.addbanks(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Added!', 'Bank Details Added Successfully', 'success');
 
-              _this40.router.navigate(['/bankdetails']);
+              _this41.router.navigate(['/bankdetails']);
             }, function (error) {});
           }
         }
@@ -9766,19 +9849,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getbankdetails",
         value: function getbankdetails() {
-          var _this41 = this;
+          var _this42 = this;
 
           this.adminpannel.getbankdetails(this.userDetails['userId']).subscribe(function (data) {
             console.log(data);
-            _this41.results = data;
+            _this42.results = data;
 
-            _this41.arr.push(_this41.results);
+            _this42.arr.push(_this42.results);
 
-            console.log(_this41.arr.length);
-            _this41.bankModel.accountNumber = _this41.results['accountNumber'];
-            _this41.bankModel.acocuntholderName = _this41.results['accountHolderName'];
-            _this41.bankModel.ifscode = _this41.results['ifscCode'];
-            _this41.bankModel.bankName = _this41.results['bankName']; // this.dataSource.data = this.results;
+            console.log(_this42.arr.length);
+            _this42.bankModel.accountNumber = _this42.results['accountNumber'];
+            _this42.bankModel.acocuntholderName = _this42.results['accountHolderName'];
+            _this42.bankModel.ifscode = _this42.results['ifscCode'];
+            _this42.bankModel.bankName = _this42.results['bankName']; // this.dataSource.data = this.results;
           }, function (error) {});
         }
       }, {
@@ -9936,7 +10019,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this42 = this;
+          var _this43 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9946,7 +10029,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.updateBank(this.bankModel.bankId, this.bankModel.ownerId, this.bankModel.acocuntholderName, this.bankModel.accountNumber, this.bankModel.ifscode, this.bankModel.bankName).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Update!', 'Bank Details Updated Successfully', 'success');
 
-              _this42.router.navigate(['/bankdetails']);
+              _this43.router.navigate(['/bankdetails']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Unable to Update Bank Details !', 'Bank Details Updated UnSuccessfull', 'error');
             });
@@ -10122,7 +10205,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this43 = this;
+          var _this44 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10142,13 +10225,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem("driverDetails", JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Driver Added!', 'Driver Added Successfully', 'success');
 
-              _this43.router.navigate(['/driverlicsencefrnt']);
+              _this44.router.navigate(['/driverlicsencefrnt']);
             }, function (error) {
               // alert('error')
-              _this43.error = error.error['message']; // this.toaster.error(this.error);
+              _this44.error = error.error['message']; // this.toaster.error(this.error);
 
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this43.error, 'error');
-              _this43.formData["delete"];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this44.error, 'error');
+              _this44.formData["delete"];
             });
           }
         }
@@ -10328,7 +10411,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this44 = this;
+          var _this45 = this;
 
           this.submitted = true;
 
@@ -10341,7 +10424,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this44.router.navigate(['/driverlicsenceback']);
+              _this45.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10350,30 +10433,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submitlicsencefront",
         value: function submitlicsencefront() {
-          var _this45 = this;
+          var _this46 = this;
 
           if (this.lisencefrnt == undefined) {} else {
             this.formData.append('image', this.lisencefrnt);
             this.formData.append('type', "1");
-            this.formData.append('id', this.driverId['id']);
-            this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              _this45.formData = new FormData();
-              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
-              _this45.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
-            }, function (error) {
-              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
-              _this45.formData["delete"];
-            });
-          }
-        }
-      }, {
-        key: "submitlicsenceback",
-        value: function submitlicsenceback() {
-          var _this46 = this;
-
-          if (this.lisenceback == undefined) {} else {
-            this.formData.append('image', this.lisenceback);
-            this.formData.append('type', "2");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               _this46.formData = new FormData();
@@ -10386,28 +10450,47 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
         }
       }, {
+        key: "submitlicsenceback",
+        value: function submitlicsenceback() {
+          var _this47 = this;
+
+          if (this.lisenceback == undefined) {} else {
+            this.formData.append('image', this.lisenceback);
+            this.formData.append('type', "2");
+            this.formData.append('id', this.driverId['id']);
+            this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
+              _this47.formData = new FormData();
+              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
+              _this47.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+            }, function (error) {
+              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
+              _this47.formData["delete"];
+            });
+          }
+        }
+      }, {
         key: "profilepic",
         value: function profilepic() {
-          var _this47 = this;
+          var _this48 = this;
 
           if (this.propicfile == undefined) {} else {
             this.formData.append('image', this.propicfile);
             this.formData.append('type', "3");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              _this47.formData = new FormData();
+              _this48.formData = new FormData();
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
-              _this47.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+              _this48.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
-              _this47.formData["delete"];
+              _this48.formData["delete"];
             });
           }
         }
       }, {
         key: "noc",
         value: function noc() {
-          var _this48 = this;
+          var _this49 = this;
 
           if (this.nocdriver == undefined) {} else {
             this.formData.append('image', this.nocdriver);
@@ -10415,10 +10498,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added!', 'Driver NOC Added Successfully', 'success');
-              _this48.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+              _this49.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added Error!', 'Driver NOC Added Error Successfully', 'error');
-              _this48.formData["delete"];
+              _this49.formData["delete"];
             });
           }
         }
@@ -10581,7 +10664,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this49 = this;
+          var _this50 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10594,7 +10677,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this49.router.navigate(['/profilepicdriver']);
+              _this50.router.navigate(['/profilepicdriver']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10760,7 +10843,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this50 = this;
+          var _this51 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10773,7 +10856,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
 
-              _this50.router.navigate(['/drivers']);
+              _this51.router.navigate(['/drivers']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
             });
@@ -10977,12 +11060,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallsdriver",
         value: function getallsdriver() {
-          var _this51 = this;
+          var _this52 = this;
 
           this.ownerservice.getalldrivers(this.ownerId).subscribe(function (data) {
             console.log(data);
-            _this51.driverslist = data;
-            _this51.dataSource.data = _this51.driverslist;
+            _this52.driverslist = data;
+            _this52.dataSource.data = _this52.driverslist;
           }, function (error) {});
         }
       }, {
@@ -11047,13 +11130,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "delete",
         value: function _delete(e) {
-          var _this52 = this;
+          var _this53 = this;
 
           console.log(e.id);
           this.ownerservice.deleteDriver(e.id).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_11___default.a.fire('Driver Deleted!', 'Driver Deleted Successfully', 'success');
 
-            _this52.ngOnInit();
+            _this53.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_11___default.a.fire('Unable to Delete Driver !', 'Driver Deleted UnSuccessfull', 'error');
           });
@@ -11202,14 +11285,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getdriverDetailByDriverId",
         value: function getdriverDetailByDriverId() {
-          var _this53 = this;
+          var _this54 = this;
 
           this.ownerservice.getDriverDetailsBydriverId(this.driverId).subscribe(function (data) {
-            _this53.results = data;
-            _this53.driverModel.name = _this53.results['name'];
-            _this53.driverModel.address = _this53.results['addresss'];
-            _this53.driverModel.number = _this53.results['number'];
-            _this53.driverModel.pancard = _this53.results['panCardNO'];
+            _this54.results = data;
+            _this54.driverModel.name = _this54.results['name'];
+            _this54.driverModel.address = _this54.results['addresss'];
+            _this54.driverModel.number = _this54.results['number'];
+            _this54.driverModel.pancard = _this54.results['panCardNO'];
             console.log(data);
           }, function (error) {});
         }
@@ -11234,7 +11317,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this54 = this;
+          var _this55 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -11251,64 +11334,64 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             this.formData.append('id', this.driverId);
             this.ownerservice.editdrivers(this.formData).subscribe(function (data) {
-              _this54.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
+              _this55.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
 
             }, function (error) {
               // alert('error')
-              _this54.error = error.error['message'];
+              _this55.error = error.error['message'];
 
-              _this54.toaster.error(_this54.error);
+              _this55.toaster.error(_this55.error);
 
-              _this54.formData["delete"];
+              _this55.formData["delete"];
             });
           }
         }
       }, {
         key: "update",
         value: function update() {
-          var _this55 = this;
+          var _this56 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "1");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this55.formData = new FormData();
+            _this56.formData = new FormData();
 
-            _this55.toaster.success("Driver License Front Updated");
+            _this56.toaster.success("Driver License Front Updated");
           }, function (error) {
-            _this55.toaster.success("Unable to Driver License Front");
+            _this56.toaster.success("Unable to Driver License Front");
           });
         }
       }, {
         key: "updateLback",
         value: function updateLback() {
-          var _this56 = this;
+          var _this57 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "2");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this56.formData = new FormData();
+            _this57.formData = new FormData();
 
-            _this56.toaster.success("Driver License Back Updated");
+            _this57.toaster.success("Driver License Back Updated");
           }, function (error) {
-            _this56.toaster.success("Unable to Driver License Back");
+            _this57.toaster.success("Unable to Driver License Back");
           });
         }
       }, {
         key: "updatepPic",
         value: function updatepPic() {
-          var _this57 = this;
+          var _this58 = this;
 
           this.formData.append('image', this.propic);
           this.formData.append('type', "3");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this57.formData = new FormData();
+            _this58.formData = new FormData();
 
-            _this57.toaster.success("Profile Picture Updated");
+            _this58.toaster.success("Profile Picture Updated");
           }, function (error) {
-            _this57.toaster.success("Unable to update Profile Picture");
+            _this58.toaster.success("Unable to update Profile Picture");
           });
         }
       }, {
@@ -11449,14 +11532,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this58 = this;
+          var _this59 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getlicscenceback(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this58.liscenimag = _this58.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this59.liscenimag = _this59.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11605,14 +11688,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this59 = this;
+          var _this60 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getliscncefront(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this59.liscenimag = _this59.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this60.liscenimag = _this60.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11767,7 +11850,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditCarsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this60 = this;
+          var _this61 = this;
 
           this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__["Vehicle"]();
           this.vehicleModel.locality = '';
@@ -11788,14 +11871,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             // img2 :['',Validators.required],
             driver: [''],
             dRent: [''],
-            vRentperHr: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            vRentperKm: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+            vRentperHr: [''],
+            vRentperKm: [''],
+            pkaddress: ['']
           });
           this.ownerdetails = JSON.parse(localStorage.getItem('userDetail'));
           this.ownerId = this.ownerdetails['userId'];
           console.log(this.ownerId);
           this.activaterouter.params.subscribe(function (params) {
-            _this60.vehicleId = params.id;
+            _this61.vehicleId = params.id;
           });
           this.getvehiclesDetailsById();
           this.getalllocality();
@@ -11804,46 +11888,58 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getvehiclesDetailsById",
         value: function getvehiclesDetailsById() {
-          var _this61 = this;
+          var _this62 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vehicleId).subscribe(function (data) {
-            _this61.results = data;
-            _this61.vehicleModel.vehicleCompany = _this61.results['companyName'];
-            _this61.vehicleModel.vehicleType = _this61.results['type'];
-            _this61.vehicleModel.vehicleModel = _this61.results['model'];
-            _this61.vehicleModel.vehicleRegistration = _this61.results['numberPlate'];
-            _this61.vehicleModel.rent = _this61.results['rentPerDay'];
-            _this61.vehicleModel.locality = _this61.results['locality'];
-            _this61.vehicleModel.vehicleYear = _this61.results['year'];
-            _this61.vehicleModel.vRentperHr = _this61.results['rentPerHour'];
-            _this61.vehicleModel.vRentperKm = _this61.results['rentPerKM'];
+            _this62.results = data;
+            _this62.vehicleModel.vehicleCompany = _this62.results['companyName'];
+            _this62.vehicleModel.vehicleType = _this62.results['type'];
+            _this62.vehicleModel.vehicleModel = _this62.results['model'];
+            _this62.vehicleModel.vehicleRegistration = _this62.results['numberPlate'];
+            _this62.vehicleModel.rent = _this62.results['rentPerDay'];
+            _this62.vehicleModel.locality = _this62.results['locality'];
+            _this62.vehicleModel.vehicleYear = _this62.results['year'];
+            _this62.vehicleModel.vRentperHr = _this62.results['rentPerHour'];
+            _this62.vehicleModel.vRentperKm = _this62.results['rentPerKM'];
 
-            if (_this61.results['driverId'] != null) {
-              _this61.vehicleModel.driver = _this61.results['driverId'];
-              _this61.vehicleModel.dRent = _this61.results['driverRentPerKM'];
+            if (_this62.results['driverId'] != null) {
+              _this62.vehicleModel.driver = _this62.results['driverId'];
+              _this62.vehicleModel.dRent = _this62.results['driverRentPerKM'];
             } else {
-              _this61.vehicleModel.driver = '';
+              _this62.vehicleModel.driver = '';
+            }
+
+            if (_this62.results['pickUpAddress'] != null) {
+              _this62.vehicleModel.pkaddress = _this62.results['pickUpAddress'];
+            }
+
+            if (_this62.vehicleModel.vRentperHr == null) {
+              _this62.vehicleModel.vRentperHr = "";
+            }
+
+            if (_this62.vehicleModel.vRentperKm == null) {
+              _this62.vehicleModel.vRentperKm = "";
             }
           }, function (error) {});
         }
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this62 = this;
+          var _this63 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this62.driverslist = data;
-            console.log(_this62.driverslist);
+            _this63.driverslist = data;
+            console.log(_this63.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this63 = this;
+          var _this64 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this63.locations = data;
+            _this64.locations = data;
           }, function (error) {});
         }
       }, {
@@ -11879,7 +11975,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this64 = this;
+          var _this65 = this;
 
           this.submitted = true;
 
@@ -11905,98 +12001,99 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append('driverRentPerKM', this.vehicleModel.dRent);
             this.formData.append('rentPerKM', this.vehicleModel.vRentperKm);
             this.formData.append('rentPerHour', this.vehicleModel.vRentperHr);
+            this.formData.append("pickUpAddress", this.vehicleModel.pkaddress);
             this.owenerservice.editvehicle(this.formData).subscribe(function (data) {
               // this.toaster.success('Vehicle Updated Successfully');
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Updated!', 'Vehicle Updated Successfully', 'success'); // this.router.navigate(['/vehicles'])
             }, function (error) {
-              _this64.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this64.error, 'error');
-              _this64.formData["delete"];
+              _this65.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this65.error, 'error');
+              _this65.formData["delete"];
             });
           }
         }
       }, {
         key: "updateimg1",
         value: function updateimg1() {
-          var _this65 = this;
+          var _this66 = this;
 
           this.formData.append('image', this.image1);
           this.formData.append('type', "1");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this65.formData = new FormData();
-            _this65.files = '';
+            _this66.formData = new FormData();
+            _this66.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
           }, function (error) {
-            _this65.formData["delete"];
+            _this66.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
           });
         }
       }, {
         key: "updateimg2",
         value: function updateimg2() {
-          var _this66 = this;
+          var _this67 = this;
 
           this.formData.append('image', this.image2);
           this.formData.append('type', "2");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this66.formData = new FormData();
-            _this66.files = '';
+            _this67.formData = new FormData();
+            _this67.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 2 Added!', 'Image 2 Added Successfully', 'success');
           }, function (error) {
-            _this66.formData["delete"];
+            _this67.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 2!', 'Unable to add image 2 Successfully', 'error');
           });
         }
       }, {
         key: "updatelicfrnt",
         value: function updatelicfrnt() {
-          var _this67 = this;
+          var _this68 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "3");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this67.formData = new FormData();
-            _this67.files = '';
+            _this68.formData = new FormData();
+            _this68.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Added!', 'License Added Successfully', 'success');
           }, function (error) {
-            _this67.formData["delete"];
+            _this68.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License front!', 'Unable to add License front Successfully', 'error');
           });
         }
       }, {
         key: "updatelicback",
         value: function updatelicback() {
-          var _this68 = this;
+          var _this69 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "4");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this68.formData = new FormData();
-            _this68.files = '';
+            _this69.formData = new FormData();
+            _this69.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Back Added!', 'License Back Added Successfully', 'success');
           }, function (error) {
-            _this68.formData = new FormData();
+            _this69.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License Back!', 'Unable to add License Back Successfully', 'error');
           });
         }
       }, {
         key: "updaterc",
         value: function updaterc() {
-          var _this69 = this;
+          var _this70 = this;
 
           this.formData.append('image', this.rcproof);
           this.formData.append('type', "5");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this69.formData = new FormData();
-            _this69.files = '';
+            _this70.formData = new FormData();
+            _this70.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
           }, function (error) {
-            _this69.formData = new FormData();
+            _this70.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add RC!', 'Unable to add RC Successfully', 'error');
           });
         }
@@ -12128,14 +12225,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this70 = this;
+          var _this71 = this;
 
           if (this.kilometer != null || this.kilometer != undefined) {
             this.formData.append("startingKM", this.kilometer);
             this.formData.append("tripId", this.results['id']);
             console.log(this.formData);
             this.ownerservice.addcurrentkilometer(this.formData).subscribe(function (data) {
-              _this70.dialogRef.close();
+              _this71.dialogRef.close();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Kilometer Added!', 'Kilometer Added Successfully', 'success');
             }, function (error) {
@@ -12284,29 +12381,29 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getapprovedVehicles",
         value: function getapprovedVehicles() {
-          var _this71 = this;
+          var _this72 = this;
 
           this.ownerService.getallvehicleforhanover(this.ownerId, this.page).subscribe(function (data) {
-            _this71.results = data;
+            _this72.results = data;
 
-            if (_this71.results.length == 0) {
-              _this71.message = 'No Data Found';
+            if (_this72.results.length == 0) {
+              _this72.message = 'No Data Found';
             } else {
-              _this71.message = 'Data Found';
+              _this72.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "openDialog",
         value: function openDialog(s) {
-          var _this72 = this;
+          var _this73 = this;
 
           var dialogRef = this.dialog.open(_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_6__["AddVehiclekmHandoverComponent"], {
             width: '450px',
             data: s
           });
           dialogRef.afterClosed().subscribe(function (result) {
-            _this72.ngOnInit();
+            _this73.ngOnInit();
 
             console.log('The dialog was closed');
           });
@@ -12582,6 +12679,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function getallvehicleforhanover(oid, page) {
           return this.http.get(this.BASEURL + 'trip/listForOwnerByNotCompleted?ownerId=' + oid + '&page=' + page + '&size=200');
         }
+      }, {
+        key: "addcomments",
+        value: function addcomments(formdata) {
+          return this.http.post(this.BASEURL + 'rating/postReview', formdata);
+        }
+      }, {
+        key: "deleteCar",
+        value: function deleteCar(id) {
+          return this.http["delete"](this.BASEURL + 'vehicle/delete?id=' + id);
+        }
       }]);
 
       return OwnerService;
@@ -12770,21 +12877,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getpaymentdetailsbyTripIdtripid",
         value: function getpaymentdetailsbyTripIdtripid() {
-          var _this73 = this;
+          var _this74 = this;
 
           this.OwnerService.gettripdetailsbyid(this.tripid).subscribe(function (data) {
             console.log(data);
-            _this73.results = data;
-            _this73.customerName = _this73.results['customerName'];
-            _this73.totalKM = _this73.results['totalKM'];
-            _this73.customerMobile = _this73.results['customerMobile'];
-            _this73.vehicleRent = _this73.results['vehicleRent'];
+            _this74.results = data;
+            _this74.customerName = _this74.results['customerName'];
+            _this74.totalKM = _this74.results['totalKM'];
+            _this74.customerMobile = _this74.results['customerMobile'];
+            _this74.vehicleRent = _this74.results['vehicleRent'];
           }, function (error) {});
         }
       }, {
         key: "collectcash",
         value: function collectcash() {
-          var _this74 = this;
+          var _this75 = this;
 
           this.formData.append('paymentMode', '2');
           this.formData.append('tripId', this.tripid);
@@ -12803,12 +12910,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           this.OwnerService.savePayments(this.formData).subscribe(function (data) {
-            _this74.dialogRef.close();
+            _this75.dialogRef.close();
 
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Amount Collected', 'Amount Collcted Successfully', 'success');
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to Collect Cash!', 'Unable Collct Amount Successfully', 'error');
-            _this74.formData["delete"];
+            _this75.formData["delete"];
           });
         }
       }]);
@@ -12939,10 +13046,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallpayments",
         value: function getallpayments() {
-          var _this75 = this;
+          var _this76 = this;
 
           this.ownerservice.getallpaymentsbnyownerid(this.ownerId, this.page).subscribe(function (data) {
-            _this75.payementresults = data;
+            _this76.payementresults = data;
           }, function (error) {});
         }
       }, {
@@ -13113,24 +13220,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallPendingdata",
         value: function getallPendingdata() {
-          var _this76 = this;
-
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
-            _this76.results = data;
-
-            if (_this76.results.length == 0) {
-              _this76.message = 'No Data Found';
-            } else {
-              _this76.message = 'Data Found';
-            }
-          }, function (error) {});
-        }
-      }, {
-        key: "getallprebookdata",
-        value: function getallprebookdata() {
           var _this77 = this;
 
-          this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
             _this77.results = data;
 
             if (_this77.results.length == 0) {
@@ -13141,11 +13233,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }, function (error) {});
         }
       }, {
-        key: "getallApprovedData",
-        value: function getallApprovedData() {
+        key: "getallprebookdata",
+        value: function getallprebookdata() {
           var _this78 = this;
 
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
             _this78.results = data;
 
             if (_this78.results.length == 0) {
@@ -13156,17 +13248,32 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }, function (error) {});
         }
       }, {
-        key: "getallrejectedData",
-        value: function getallrejectedData() {
+        key: "getallApprovedData",
+        value: function getallApprovedData() {
           var _this79 = this;
 
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
             _this79.results = data;
 
             if (_this79.results.length == 0) {
               _this79.message = 'No Data Found';
             } else {
               _this79.message = 'Data Found';
+            }
+          }, function (error) {});
+        }
+      }, {
+        key: "getallrejectedData",
+        value: function getallrejectedData() {
+          var _this80 = this;
+
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
+            _this80.results = data;
+
+            if (_this80.results.length == 0) {
+              _this80.message = 'No Data Found';
+            } else {
+              _this80.message = 'Data Found';
             }
           }, function (error) {});
         }
@@ -13178,7 +13285,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve(s) {
-          var _this80 = this;
+          var _this81 = this;
 
           console.log(s.id);
           var status = "1";
@@ -13187,7 +13294,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this80.ngOnInit();
+            _this81.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13195,7 +13302,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject(s) {
-          var _this81 = this;
+          var _this82 = this;
 
           console.log(s.id);
           var status = "3";
@@ -13204,7 +13311,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this81.ngOnInit();
+            _this82.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13322,44 +13429,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ViewRequestsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this82 = this;
+          var _this83 = this;
 
           this.activaterouter.params.subscribe(function (params) {
             console.log(params.id, params.name);
-            _this82.customerName = params.name;
-            _this82.cId = params.id;
+            _this83.customerName = params.name;
+            _this83.cId = params.id;
           });
           this.getDetails();
         }
       }, {
         key: "getDetails",
         value: function getDetails() {
-          var _this83 = this;
+          var _this84 = this;
 
           this.ownerservice.getapprovalDetaislById(this.cId).subscribe(function (data) {
-            _this83.results = data;
-            _this83.approvalstatus = _this83.results['approvalStatus'];
-            _this83.startingLocation = _this83.results['startingLocation'];
-            _this83.destinationLocation = _this83.results['destinationLocation'];
-            _this83.requestedDate = _this83.results['requestedDate'];
-            _this83.companyName = _this83.results.vehicleForm['companyName'];
-            _this83.model = _this83.results.vehicleForm['model'];
-            _this83.numberPlate = _this83.results.vehicleForm['numberPlate'];
-            _this83.rentPerDay = _this83.results.vehicleForm['rentPerDay'];
-            _this83.ownerid = _this83.results['customerId'];
-            _this83.vehicleId = _this83.results['vehicleId'];
+            _this84.results = data;
+            _this84.approvalstatus = _this84.results['approvalStatus'];
+            _this84.startingLocation = _this84.results['startingLocation'];
+            _this84.destinationLocation = _this84.results['destinationLocation'];
+            _this84.requestedDate = _this84.results['requestedDate'];
+            _this84.companyName = _this84.results.vehicleForm['companyName'];
+            _this84.model = _this84.results.vehicleForm['model'];
+            _this84.numberPlate = _this84.results.vehicleForm['numberPlate'];
+            _this84.rentPerDay = _this84.results.vehicleForm['rentPerDay'];
+            _this84.rentPerHour = _this84.results.vehicleForm['rentPerHour'];
+            _this84.rentPerKM = _this84.results.vehicleForm['rentPerKM'];
+            _this84.ownerid = _this84.results['customerId'];
+            _this84.vehicleId = _this84.results['vehicleId'];
           }, function (error) {});
         }
       }, {
         key: "checkbooking",
         value: function checkbooking() {
-          var _this84 = this;
+          var _this85 = this;
 
           this.ownerservice.checkotherbookings(this.ownerid, this.vehicleId).subscribe(function (data) {
             console.log(data);
-            _this84.bookingsarray = data;
+            _this85.bookingsarray = data;
 
-            if (_this84.bookingsarray.length == 0) {
+            if (_this85.bookingsarray.length == 0) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('No Bookings!', 'No Bookings Available', 'success');
             } else {
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Bookings Found!', 'Bookings Available', 'success');
@@ -13374,7 +13483,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve() {
-          var _this85 = this;
+          var _this86 = this;
 
           console.log(this.cId);
           var status = "1";
@@ -13383,7 +13492,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this85.router.navigate(['/request']);
+            _this86.router.navigate(['/request']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13391,7 +13500,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject() {
-          var _this86 = this;
+          var _this87 = this;
 
           console.log(this.cId);
           var status = "3";
@@ -13400,7 +13509,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this86.ngOnInit();
+            _this87.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13544,92 +13653,92 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getimage2",
         value: function getimage2() {
-          var _this87 = this;
+          var _this88 = this;
 
           this.adminService.getimage(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this87.vehicleimage2 = _this87.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this88.vehicleimage2 = _this88.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsByid",
         value: function getvehicleDetailsByid() {
-          var _this88 = this;
+          var _this89 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vId).subscribe(function (data) {
-            _this88.results = data;
-            console.log(_this88.results);
-            _this88.vehicleModel.vehicleCompany = _this88.results['companyName'];
-            _this88.vehicleModel.vehicleType = _this88.results['type'];
-            _this88.vehicleModel.vehicleModel = _this88.results['model'];
-            _this88.vehicleModel.vehicleRegistration = _this88.results['numberPlate'];
-            _this88.vehicleModel.rent = _this88.results['rentPerDay'];
-            _this88.rentperkm = _this88.results['rentPerKM'];
-            _this88.rentPerHour = _this88.results['rentPerHour'];
-            _this88.vehicleModel.locality = _this88.results['locality'];
-            _this88.vehicleModel.vehicleYear = _this88.results['year'];
-            _this88.pickUpAddress = _this88.results['pickUpAddress'];
-            _this88.gpsAddress = _this88.results['gpsAddress'];
+            _this89.results = data;
+            console.log(_this89.results);
+            _this89.vehicleModel.vehicleCompany = _this89.results['companyName'];
+            _this89.vehicleModel.vehicleType = _this89.results['type'];
+            _this89.vehicleModel.vehicleModel = _this89.results['model'];
+            _this89.vehicleModel.vehicleRegistration = _this89.results['numberPlate'];
+            _this89.vehicleModel.rent = _this89.results['rentPerDay'];
+            _this89.rentperkm = _this89.results['rentPerKM'];
+            _this89.rentPerHour = _this89.results['rentPerHour'];
+            _this89.vehicleModel.locality = _this89.results['locationName'];
+            _this89.vehicleModel.vehicleYear = _this89.results['year'];
+            _this89.pickUpAddress = _this89.results['pickUpAddress'];
+            _this89.gpsAddress = _this89.results['gpsAddress'];
 
-            if (_this88.results['driverId'] != null) {
-              _this88.vehicleModel.driver = _this88.results['driverId'];
+            if (_this89.results['driverId'] != null) {
+              _this89.vehicleModel.driver = _this89.results['driverId'];
             } else {
-              _this88.vehicleModel.driver = '';
+              _this89.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getlicencefrnt",
         value: function getlicencefrnt() {
-          var _this89 = this;
+          var _this90 = this;
 
           this.adminService.getlicencefrnt(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this89.liscence1 = _this89.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this90.liscence1 = _this90.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getlicscenceback",
         value: function getlicscenceback() {
-          var _this90 = this;
+          var _this91 = this;
 
           this.adminService.getlicscenceback(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this90.liscence2 = _this90.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this91.liscence2 = _this91.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getrc",
         value: function getrc() {
-          var _this91 = this;
+          var _this92 = this;
 
           this.adminService.getrc(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this91.rc = _this91.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this92.rc = _this92.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsById",
         value: function getvehicleDetailsById() {
-          var _this92 = this;
+          var _this93 = this;
 
           this.adminService.getVehicleDetailsbyId(this.vId).subscribe(function (data) {
-            _this92.DriverDetailsofCar = data['driver'];
-            console.log(_this92.DriverDetailsofCar);
+            _this93.DriverDetailsofCar = data['driver'];
+            console.log(_this93.DriverDetailsofCar);
 
-            if (_this92.DriverDetailsofCar != null) {
-              _this92.vehicleModel.dname = _this92.DriverDetailsofCar['name'];
-              _this92.vehicleModel.dnumber = _this92.DriverDetailsofCar['number'];
-              _this92.vehicleModel.daddreess = _this92.DriverDetailsofCar['addresss'];
-              _this92.id = _this92.DriverDetailsofCar['id'];
+            if (_this93.DriverDetailsofCar != null) {
+              _this93.vehicleModel.dname = _this93.DriverDetailsofCar['name'];
+              _this93.vehicleModel.dnumber = _this93.DriverDetailsofCar['number'];
+              _this93.vehicleModel.daddreess = _this93.DriverDetailsofCar['addresss'];
+              _this93.id = _this93.DriverDetailsofCar['id'];
             }
           }, function (error) {});
         }
@@ -13760,17 +13869,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallcarsbyowers",
         value: function getallcarsbyowers() {
-          var _this93 = this;
+          var _this94 = this;
 
           this.ownerserivice.getallcars(this.userId).subscribe(function (data) {
-            _this93.carList = data;
-            _this93.errormessage = "data found";
+            _this94.carList = data;
+            _this94.errormessage = "data found";
 
-            if (_this93.carList.length == 0) {
-              _this93.errormessage = "No data found";
+            if (_this94.carList.length == 0) {
+              _this94.errormessage = "No data found";
             }
           }, function (error) {
-            _this93.errormessage = "No data found";
+            _this94.errormessage = "No data found";
           });
         }
       }, {
@@ -13787,24 +13896,34 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "delete",
         value: function _delete(e) {
-          this.toaster.warning('We are working on this module please be patient');
+          var _this95 = this;
+
+          this.ownerserivice.deleteCar(e.id).subscribe(function (data) {
+            _this95.toaster.success('Vehicle Deleted Successfully');
+
+            _this95.ngOnInit();
+          }, function (error) {
+            _this95.toaster.error('Vehicle Deleted Unsuccessfully');
+
+            _this95.ngOnInit();
+          });
         }
       }, {
         key: "changeFilter",
         value: function changeFilter(s) {
-          var _this94 = this;
+          var _this96 = this;
 
           console.log(s);
           this.ownerserivice.getFilterOptionsVehicles(s, this.userId).subscribe(function (data) {
-            _this94.carList = data;
-            _this94.errormessage = "data found";
+            _this96.carList = data;
+            _this96.errormessage = "data found";
 
-            if (_this94.carList.length == 0) {
-              _this94.errormessage = "No data found";
+            if (_this96.carList.length == 0) {
+              _this96.errormessage = "No data found";
             }
           }, function (error) {
-            _this94.carList = [];
-            _this94.errormessage = "No data found";
+            _this96.carList = [];
+            _this96.errormessage = "No data found";
           });
         }
       }]);
@@ -13916,12 +14035,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallvehiclefortracking",
         value: function getallvehiclefortracking() {
-          var _this95 = this;
+          var _this97 = this;
 
           this.userDetails = JSON.parse(localStorage.getItem('userDetail'));
           this.userId = this.userDetails['userId'];
           this.ownerservice.getallvechilcetracking(this.userId, this.page).subscribe(function (data) {
-            _this95.result = data;
+            _this97.result = data;
           }, function (error) {});
         }
       }, {
@@ -14295,7 +14414,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this96 = this;
+          var _this98 = this;
 
           var req = {
             "mobilenumber": this.registerModel.mobNo,
@@ -14303,11 +14422,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           sessionStorage.setItem("mobileandemail", JSON.stringify(req));
           this.loginservice.sendotp(this.registerModel.mobNo, this.registerModel.email).subscribe(function (data) {
-            _this96.router.navigate(['/verifyotp']);
+            _this98.router.navigate(['/verifyotp']);
           }, function (error) {
             console.log(error.error['message']);
 
-            _this96.toaster.error(error.error['message']);
+            _this98.toaster.error(error.error['message']);
           });
         }
       }]);
@@ -14507,7 +14626,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this97 = this;
+          var _this99 = this;
 
           // alert('User Registration successfully');
           // console.log(this.registerForm.value);
@@ -14525,14 +14644,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           console.log(req);
           this.loginservice.register(req).subscribe(function (data) {
-            _this97.toaster.success('Register Successfully');
+            _this99.toaster.success('Register Successfully');
 
-            _this97.router.navigate(['/login']);
+            _this99.router.navigate(['/login']);
           }, function (error) {
-            _this97.error = error.error['message'];
-            console.log(_this97.error);
+            _this99.error = error.error['message'];
+            console.log(_this99.error);
 
-            _this97.toaster.error(_this97.error);
+            _this99.toaster.error(_this99.error);
           });
         }
       }]);
@@ -14667,15 +14786,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this98 = this;
+          var _this100 = this;
 
           var mobnumber = JSON.parse(sessionStorage.getItem("mobileandemail"));
           this.loginservice.verifyotp(this.registerModel.mobNo, mobnumber['mobilenumber']).subscribe(function (data) {
-            _this98.router.navigate(['/register']);
+            _this100.router.navigate(['/register']);
 
-            _this98.toaster.error("OTP Verified");
+            _this100.toaster.error("OTP Verified");
           }, function (error) {
-            _this98.toaster.error("Invalid OTP");
+            _this100.toaster.error("Invalid OTP");
           });
         }
       }]);
@@ -14908,7 +15027,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this99 = this;
+          var _this101 = this;
 
           this.submitted = true;
 
@@ -14927,10 +15046,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append("city", this.registerModel.locality);
             this.loginservice.userpublicregister(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Registration Completed!', 'Registered Successfully', 'success');
-              _this99.formData["delete"];
+              _this101.formData["delete"];
               window.location.reload();
             }, function (error) {
-              _this99.formData["delete"];
+              _this101.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Register!', 'Server is busy at this moment', 'error');
             });
           }
@@ -15275,10 +15394,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this100 = this;
+          var _this102 = this;
 
           this.adminservice.getallusers(this.page).subscribe(function (data) {
-            _this100.results = data;
+            _this102.results = data;
           }, function (error) {});
         }
       }]);

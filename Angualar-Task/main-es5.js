@@ -131,7 +131,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- <div class=\"container\" *ngIf=\"Role != 'ADMIN'\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\r\n                                <ol class=\"carousel-indicators\">\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\r\n                                </ol>\r\n                                <div class=\"carousel-inner\">\r\n                                    <div class=\"carousel-item active\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/HANDOVER-01.png\" alt=\"First slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/Better Incomes-01-01.png\" alt=\"Second slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block\" src=\"./assets/img/track your car-01.png\" alt=\"Third slide\">\r\n                                    </div>\r\n                                </div>\r\n                                <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\r\n                                    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Previous</span>\r\n                                </a>\r\n                                <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\r\n                                    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Next</span>\r\n                                </a>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div> -->\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <!-- <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1> -->\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-xl-12\">\r\n\r\n\r\n\r\n\r\n\r\n                    </div>\r\n\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/admin-vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/users\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Users</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicletracking\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/admin-paymentreports\" class=\"card border-left-primary shadow h-100 py-2\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div routerLink=\"/request\" class=\"card border-left-primary shadow h-100 py-2\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/handovervehicles\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/bankdetails\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/paymentpage\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Payments</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-dollar-sign fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/admin-resetpassword\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/chatsandfeebacks\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Feedbacks</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-envelope fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Location Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total vehicle count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total trips count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #e10000;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total customers count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #28a745;\">20</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation>\r\n<app-sidebar></app-sidebar>\r\n<app-adminhome></app-adminhome>  -->\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <!-- Sidebar -->\r\n    <app-sidebar></app-sidebar>\r\n    <!-- End of Sidebar -->\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- <div class=\"container\" *ngIf=\"Role != 'ADMIN'\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12\">\r\n                            <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\r\n                                <ol class=\"carousel-indicators\">\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\r\n                                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\r\n                                </ol>\r\n                                <div class=\"carousel-inner\">\r\n                                    <div class=\"carousel-item active\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/HANDOVER-01.png\" alt=\"First slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block \" src=\"./assets/img/Better Incomes-01-01.png\" alt=\"Second slide\">\r\n                                    </div>\r\n                                    <div class=\"carousel-item\">\r\n                                        <img class=\"d-block\" src=\"./assets/img/track your car-01.png\" alt=\"Third slide\">\r\n                                    </div>\r\n                                </div>\r\n                                <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\r\n                                    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Previous</span>\r\n                                </a>\r\n                                <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\r\n                                    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                                    <span class=\"sr-only\">Next</span>\r\n                                </a>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                </div> -->\r\n                <!-- Page Heading -->\r\n                <div class=\"d-sm-flex align-items-center justify-content-between mb-4\">\r\n                    <!-- <h1 class=\"h3 mb-0 text-gray-800\">Dashboard</h1> -->\r\n                    <!-- <a href=\"#\" class=\"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm\"><i\r\n                            class=\"fas fa-download fa-sm text-white-50\"></i> Generate Report</a> -->\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-xl-12\">\r\n\r\n\r\n\r\n\r\n\r\n                    </div>\r\n\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/admin-vehicles\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-car fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/users\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Users</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/vehicletracking\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Vehicle Tracking</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\" routerLink=\"/drivers\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Drivers</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-user fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/admin-paymentreports\" class=\"card border-left-primary shadow h-100 py-2\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Payment Reports</div>\r\n                                        <!-- <div class=\"h5 mb-0 font-weight-bold text-gray-800\">18</div> -->\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-clipboard fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <!-- <div class=\"card border-left-info shadow h-100 py-2\"> -->\r\n                        <div routerLink=\"/request\" class=\"card border-left-primary shadow h-100 py-2\">\r\n\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Request</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-refresh fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/handovervehicles\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Handover Vehicle </div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <!-- <i class=\"fas fa-dollar-sign fa-2x text-gray-300\"></i> -->\r\n                                        <img src=\"./assets/img/iconshandover.png\" alt=\"\" style=\"width: 26px !important;\">\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/bankdetails\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Bank Manage</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-university fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role != 'ADMIN'\">\r\n                        <div routerLink=\"/paymentpage\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Payments</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-dollar-sign fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/admin-resetpassword\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Reset Password</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-key fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-4 col-md-6 mb-4\">\r\n                        <div routerLink=\"/chatsandfeebacks\" class=\"card border-left-info shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Feedbacks</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-envelope fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div> -->\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div routerLink=\"/locations\" class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Location Management</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <i class=\"fa fa-map-marker fa-2x text-gray-300\"></i>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total vehicle count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">{{countdetails.vehicleCount}}</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total trips count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">{{countdetails.tripCount}}</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-xl-4 col-md-6 mb-4\" *ngIf=\"Role == 'ADMIN'\">\r\n                        <div class=\"card border-left-primary shadow h-100 py-2\">\r\n                            <div class=\"card-body\">\r\n                                <div class=\"row no-gutters align-items-center\">\r\n                                    <div class=\"col mr-2\">\r\n                                        <div class=\"text-xs font-weight-bold text-primary text-uppercase mb-1\">\r\n                                            Total customers count</div>\r\n                                    </div>\r\n                                    <div class=\"col-auto\">\r\n                                        <h6 style=\"color: #4700ee;\">{{countdetails.customerCount}}</h6>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n\r\n\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n\r\n</div>";
     /***/
   },
 
@@ -3600,6 +3600,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, AdminpannelComponent);
 
         this.adminservice = adminservice;
+        this.countdetails = [];
       }
 
       _createClass(AdminpannelComponent, [{
@@ -3612,8 +3613,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getcount",
         value: function getcount() {
+          var _this17 = this;
+
           this.adminservice.getadmincount().subscribe(function (data) {
             console.log(data);
+            _this17.countdetails = data;
           }, function (error) {});
         }
       }]);
@@ -3714,10 +3718,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallbamnks",
         value: function getallbamnks() {
-          var _this17 = this;
+          var _this18 = this;
 
           this.adminservice.getallbankdetails().subscribe(function (data) {
-            _this17.results = data;
+            _this18.results = data;
           }, function (error) {});
         }
       }]);
@@ -3841,23 +3845,23 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallcancelledbookings",
         value: function getallcancelledbookings() {
-          var _this18 = this;
+          var _this19 = this;
 
           this.adminservice.getallcancelledbookings(this.fromdatecancel, this.todatecancel, this.page).subscribe(function (data) {
             console.log(data);
-            _this18.cancelledbookings = data;
+            _this19.cancelledbookings = data;
           }, function (error) {});
         }
       }, {
         key: "getallcancelledbookingss",
         value: function getallcancelledbookingss() {
-          var _this19 = this;
+          var _this20 = this;
 
           this.adminservice.getallcancelledbookings(this.faday, this.tday, this.page).subscribe(function (data) {
             console.log(data);
-            _this19.cancelledbookings = data;
-            _this19.date3 = _this19.faday;
-            _this19.date2 = _this19.tday;
+            _this20.cancelledbookings = data;
+            _this20.date3 = _this20.faday;
+            _this20.date2 = _this20.tday;
           }, function (error) {});
         }
       }]);
@@ -3976,11 +3980,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallOwners",
         value: function getallOwners() {
-          var _this20 = this;
+          var _this21 = this;
 
           this.adminservice.getallowners(this.pageIndex).subscribe(function (data) {
-            _this20.results = data;
-            _this20.dataSource.data = _this20.results;
+            _this21.results = data;
+            _this21.dataSource.data = _this21.results;
           }, function (error) {});
         }
       }, {
@@ -4003,11 +4007,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "changePage",
         value: function changePage(e) {
-          var _this21 = this;
+          var _this22 = this;
 
           this.adminservice.getallowners(e.pageIndex).subscribe(function (data) {
-            _this21.results = data;
-            _this21.dataSource.data = _this21.results;
+            _this22.results = data;
+            _this22.dataSource.data = _this22.results;
           }, function (error) {});
         }
       }]);
@@ -4380,7 +4384,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this22 = this;
+          var _this23 = this;
 
           if (this.Location == undefined || this.Location == '') {
             this.toaster.error('Please enter a location name');
@@ -4388,11 +4392,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           } else {
             this.formData.append('name', this.Location);
             this.adminservice.addlocation(this.formData).subscribe(function (data) {
-              _this22.router.navigate(['/locations']);
+              _this23.router.navigate(['/locations']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Location Added!', 'Location Added Successfully', 'success');
             }, function (error) {
-              _this22.formData["delete"];
+              _this23.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Cant add Location!', 'Location Added UnSuccessfully', 'error');
             });
           }
@@ -4520,31 +4524,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditLocationComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this23 = this;
+          var _this24 = this;
 
           this.locationForn = this.fb.group({
             Location: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
           });
           this.activaterouter.params.subscribe(function (params) {
             console.log(params);
-            _this23.Location = params.name;
-            _this23.Id = params.id;
+            _this24.Location = params.name;
+            _this24.Id = params.id;
           });
         }
       }, {
         key: "submit",
         value: function submit() {
-          var _this24 = this;
+          var _this25 = this;
 
           this.formData.append('id', this.Id);
           this.formData.append('name', this.Location);
           this.adminservice.Editlocation(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Location Updated!', 'Location Updated Successfully', 'success');
 
-            _this24.router.navigate(['/locations']);
+            _this25.router.navigate(['/locations']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Cant Update Location!', 'Location Updated UnSuccessfully', 'error');
-            _this24.formData["delete"];
+            _this25.formData["delete"];
           });
         }
       }]);
@@ -4693,12 +4697,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalllocations",
         value: function getalllocations() {
-          var _this25 = this;
+          var _this26 = this;
 
           this.adminpannel.getalllocation().subscribe(function (data) {
             console.log(data);
-            _this25.results = data;
-            _this25.dataSource.data = _this25.results;
+            _this26.results = data;
+            _this26.dataSource.data = _this26.results;
           }, function (error) {});
         }
       }, {
@@ -4824,20 +4828,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getPaymentreport",
         value: function getPaymentreport() {
-          var _this26 = this;
+          var _this27 = this;
 
           this.AdminService.getPymentreport(this.faday, this.tday).subscribe(function (data) {
             console.log(data);
-            _this26.results = data;
+            _this27.results = data;
           }, function (error) {});
         }
       }, {
         key: "selected",
         value: function selected(s) {
-          var _this27 = this;
+          var _this28 = this;
 
           this.AdminService.getPymentreport(this.date1, this.date2).subscribe(function (data) {
-            _this27.results = data;
+            _this28.results = data;
           }, function (error) {});
         }
       }]);
@@ -4973,7 +4977,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reset",
         value: function reset() {
-          var _this28 = this;
+          var _this29 = this;
 
           this.submitted = true;
 
@@ -4981,7 +4985,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return;
           } else if (this.resetForm.valid) {
             this.adminservice.resetpassword(this.adminmodel.oldPasswords, this.adminmodel.password).subscribe(function (data) {
-              _this28.resetForm.reset();
+              _this29.resetForm.reset();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Password Reset!', 'Password Reset Successfully', 'success');
             }, function (error) {
@@ -6534,10 +6538,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this29 = this;
+          var _this30 = this;
 
           this.adminservice.getallownersforadmin(this.page).subscribe(function (data) {
-            _this29.results = data;
+            _this30.results = data;
           }, function (error) {});
         }
       }]);
@@ -6665,7 +6669,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this30 = this;
+          var _this31 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -6677,7 +6681,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.addcomments(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Feedback Added!', 'Feedback Added Successfully', 'success');
 
-              _this30.router.navigate(['/admin']);
+              _this31.router.navigate(['/admin']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to add Feedback!', 'Feedback Added UnSuccessfull', 'error');
             });
@@ -6801,19 +6805,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getchatsafeeback",
         value: function getchatsafeeback() {
-          var _this31 = this;
+          var _this32 = this;
 
           this.AdminService.getalldata(this.faday, this.tday, this.page, this.size).subscribe(function (data) {
-            _this31.results = data;
+            _this32.results = data;
           }, function (error) {});
         }
       }, {
         key: "selected",
         value: function selected(s) {
-          var _this32 = this;
+          var _this33 = this;
 
           this.AdminService.getalldata(this.date1, this.date2, this.page, this.size).subscribe(function (data) {
-            _this32.results = data;
+            _this33.results = data;
           }, function (error) {});
         }
       }]);
@@ -7624,7 +7628,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onSubmit",
         value: function onSubmit(form, formData) {
-          var _this33 = this;
+          var _this34 = this;
 
           // this.submitted = true;
           // this.authservice.login(formData.email,formData.password).pipe(first())
@@ -7647,14 +7651,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (data['roleId'] == '1') {
               localStorage.setItem('ROLE', JSON.stringify('ADMIN'));
 
-              _this33.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
+              _this34.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
 
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Admin Login!', ' Admin Login Successfully', 'success');
             } else if (data['roleId'] == '2') {
               localStorage.setItem('ROLE', JSON.stringify('OWNER'));
 
-              _this33.router.navigate(['/admin']);
+              _this34.router.navigate(['/admin']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('WELCOME!', 'Login Successfully', 'success');
             }
@@ -7883,7 +7887,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getAddress",
         value: function getAddress() {
-          var _this34 = this;
+          var _this35 = this;
 
           this.geoCoder = new google.maps.Geocoder();
           this.geoCoder.geocode({
@@ -7898,8 +7902,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (status === 'OK') {
               if (results[0]) {
                 // this.zoom = 12;
-                _this34.address = results[0].formatted_address;
-                console.log(_this34.address);
+                _this35.address = results[0].formatted_address;
+                console.log(_this35.address);
               } else {
                 window.alert('No results found');
               }
@@ -8463,7 +8467,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this35 = this;
+          var _this36 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8476,7 +8480,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this35.router.navigate(['/image2']);
+              _this36.router.navigate(['/image2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8643,7 +8647,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this36 = this;
+          var _this37 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8656,7 +8660,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this36.router.navigate(['/licsence1']);
+              _this37.router.navigate(['/licsence1']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8823,7 +8827,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this37 = this;
+          var _this38 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8836,7 +8840,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added!', 'Licence Added Successfully', 'success');
 
-              _this37.router.navigate(['/rcfrnt']);
+              _this38.router.navigate(['/rcfrnt']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added Error!', 'Licence Back Added SUnccessfully', 'error');
             });
@@ -9003,7 +9007,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this38 = this;
+          var _this39 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9016,7 +9020,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added!', 'Licence Front Added Successfully', 'success');
 
-              _this38.router.navigate(['/licsence2']);
+              _this39.router.navigate(['/licsence2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added Error!', 'Licence Front Added SUnccessfully', 'error');
             });
@@ -9240,21 +9244,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this39 = this;
+          var _this40 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this39.driverslist = data;
-            console.log(_this39.driverslist);
+            _this40.driverslist = data;
+            console.log(_this40.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this40 = this;
+          var _this41 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this40.locations = data;
+            _this41.locations = data;
           }, function (error) {});
         }
       }, {
@@ -9290,7 +9294,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this41 = this;
+          var _this42 = this;
 
           this.submitted = true;
           this.mapdataresponse = JSON.parse(sessionStorage.getItem("mapcordinatess")); // stop here if form is invalid
@@ -9359,11 +9363,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem('vehicleadddetailsid', JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Added!', 'Basic Details Added Successfully', 'success');
 
-              _this41.router.navigate(['/image1']);
+              _this42.router.navigate(['/image1']);
             }, function (error) {
-              _this41.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this41.error, 'error');
-              _this41.formData["delete"];
+              _this42.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this42.error, 'error');
+              _this42.formData["delete"];
             });
           }
         }
@@ -9531,7 +9535,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this42 = this;
+          var _this43 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9544,7 +9548,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
 
-              _this42.router.navigate(['/vehicles']);
+              _this43.router.navigate(['/vehicles']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added Error!', 'RC Added SUnccessfully', 'error');
             });
@@ -9700,7 +9704,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this43 = this;
+          var _this44 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9715,7 +9719,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.addbanks(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Added!', 'Bank Details Added Successfully', 'success');
 
-              _this43.router.navigate(['/bankdetails']);
+              _this44.router.navigate(['/bankdetails']);
             }, function (error) {});
           }
         }
@@ -9862,19 +9866,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getbankdetails",
         value: function getbankdetails() {
-          var _this44 = this;
+          var _this45 = this;
 
           this.adminpannel.getbankdetails(this.userDetails['userId']).subscribe(function (data) {
             console.log(data);
-            _this44.results = data;
+            _this45.results = data;
 
-            _this44.arr.push(_this44.results);
+            _this45.arr.push(_this45.results);
 
-            console.log(_this44.arr.length);
-            _this44.bankModel.accountNumber = _this44.results['accountNumber'];
-            _this44.bankModel.acocuntholderName = _this44.results['accountHolderName'];
-            _this44.bankModel.ifscode = _this44.results['ifscCode'];
-            _this44.bankModel.bankName = _this44.results['bankName']; // this.dataSource.data = this.results;
+            console.log(_this45.arr.length);
+            _this45.bankModel.accountNumber = _this45.results['accountNumber'];
+            _this45.bankModel.acocuntholderName = _this45.results['accountHolderName'];
+            _this45.bankModel.ifscode = _this45.results['ifscCode'];
+            _this45.bankModel.bankName = _this45.results['bankName']; // this.dataSource.data = this.results;
           }, function (error) {});
         }
       }, {
@@ -10032,7 +10036,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this45 = this;
+          var _this46 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10042,7 +10046,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.updateBank(this.bankModel.bankId, this.bankModel.ownerId, this.bankModel.acocuntholderName, this.bankModel.accountNumber, this.bankModel.ifscode, this.bankModel.bankName).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Update!', 'Bank Details Updated Successfully', 'success');
 
-              _this45.router.navigate(['/bankdetails']);
+              _this46.router.navigate(['/bankdetails']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Unable to Update Bank Details !', 'Bank Details Updated UnSuccessfull', 'error');
             });
@@ -10218,7 +10222,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this46 = this;
+          var _this47 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10238,13 +10242,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem("driverDetails", JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Driver Added!', 'Driver Added Successfully', 'success');
 
-              _this46.router.navigate(['/driverlicsencefrnt']);
+              _this47.router.navigate(['/driverlicsencefrnt']);
             }, function (error) {
               // alert('error')
-              _this46.error = error.error['message']; // this.toaster.error(this.error);
+              _this47.error = error.error['message']; // this.toaster.error(this.error);
 
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this46.error, 'error');
-              _this46.formData["delete"];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this47.error, 'error');
+              _this47.formData["delete"];
             });
           }
         }
@@ -10424,7 +10428,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this47 = this;
+          var _this48 = this;
 
           this.submitted = true;
 
@@ -10437,7 +10441,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this47.router.navigate(['/driverlicsenceback']);
+              _this48.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10446,30 +10450,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submitlicsencefront",
         value: function submitlicsencefront() {
-          var _this48 = this;
+          var _this49 = this;
 
           if (this.lisencefrnt == undefined) {} else {
             this.formData.append('image', this.lisencefrnt);
             this.formData.append('type', "1");
-            this.formData.append('id', this.driverId['id']);
-            this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              _this48.formData = new FormData();
-              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
-              _this48.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
-            }, function (error) {
-              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
-              _this48.formData["delete"];
-            });
-          }
-        }
-      }, {
-        key: "submitlicsenceback",
-        value: function submitlicsenceback() {
-          var _this49 = this;
-
-          if (this.lisenceback == undefined) {} else {
-            this.formData.append('image', this.lisenceback);
-            this.formData.append('type', "2");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               _this49.formData = new FormData();
@@ -10482,28 +10467,47 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
         }
       }, {
+        key: "submitlicsenceback",
+        value: function submitlicsenceback() {
+          var _this50 = this;
+
+          if (this.lisenceback == undefined) {} else {
+            this.formData.append('image', this.lisenceback);
+            this.formData.append('type', "2");
+            this.formData.append('id', this.driverId['id']);
+            this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
+              _this50.formData = new FormData();
+              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
+              _this50.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+            }, function (error) {
+              sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
+              _this50.formData["delete"];
+            });
+          }
+        }
+      }, {
         key: "profilepic",
         value: function profilepic() {
-          var _this50 = this;
+          var _this51 = this;
 
           if (this.propicfile == undefined) {} else {
             this.formData.append('image', this.propicfile);
             this.formData.append('type', "3");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              _this50.formData = new FormData();
+              _this51.formData = new FormData();
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
-              _this50.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+              _this51.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
-              _this50.formData["delete"];
+              _this51.formData["delete"];
             });
           }
         }
       }, {
         key: "noc",
         value: function noc() {
-          var _this51 = this;
+          var _this52 = this;
 
           if (this.nocdriver == undefined) {} else {
             this.formData.append('image', this.nocdriver);
@@ -10511,10 +10515,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added!', 'Driver NOC Added Successfully', 'success');
-              _this51.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+              _this52.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added Error!', 'Driver NOC Added Error Successfully', 'error');
-              _this51.formData["delete"];
+              _this52.formData["delete"];
             });
           }
         }
@@ -10677,7 +10681,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this52 = this;
+          var _this53 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10690,7 +10694,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this52.router.navigate(['/profilepicdriver']);
+              _this53.router.navigate(['/profilepicdriver']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10856,7 +10860,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this53 = this;
+          var _this54 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10869,7 +10873,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
 
-              _this53.router.navigate(['/drivers']);
+              _this54.router.navigate(['/drivers']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
             });
@@ -11073,12 +11077,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallsdriver",
         value: function getallsdriver() {
-          var _this54 = this;
+          var _this55 = this;
 
           this.ownerservice.getalldrivers(this.ownerId).subscribe(function (data) {
             console.log(data);
-            _this54.driverslist = data;
-            _this54.dataSource.data = _this54.driverslist;
+            _this55.driverslist = data;
+            _this55.dataSource.data = _this55.driverslist;
           }, function (error) {});
         }
       }, {
@@ -11143,13 +11147,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "delete",
         value: function _delete(e) {
-          var _this55 = this;
+          var _this56 = this;
 
           console.log(e.id);
           this.ownerservice.deleteDriver(e.id).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_11___default.a.fire('Driver Deleted!', 'Driver Deleted Successfully', 'success');
 
-            _this55.ngOnInit();
+            _this56.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_11___default.a.fire('Unable to Delete Driver !', 'Driver Deleted UnSuccessfull', 'error');
           });
@@ -11298,14 +11302,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getdriverDetailByDriverId",
         value: function getdriverDetailByDriverId() {
-          var _this56 = this;
+          var _this57 = this;
 
           this.ownerservice.getDriverDetailsBydriverId(this.driverId).subscribe(function (data) {
-            _this56.results = data;
-            _this56.driverModel.name = _this56.results['name'];
-            _this56.driverModel.address = _this56.results['addresss'];
-            _this56.driverModel.number = _this56.results['number'];
-            _this56.driverModel.pancard = _this56.results['panCardNO'];
+            _this57.results = data;
+            _this57.driverModel.name = _this57.results['name'];
+            _this57.driverModel.address = _this57.results['addresss'];
+            _this57.driverModel.number = _this57.results['number'];
+            _this57.driverModel.pancard = _this57.results['panCardNO'];
             console.log(data);
           }, function (error) {});
         }
@@ -11330,7 +11334,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this57 = this;
+          var _this58 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -11347,64 +11351,64 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             this.formData.append('id', this.driverId);
             this.ownerservice.editdrivers(this.formData).subscribe(function (data) {
-              _this57.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
+              _this58.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
 
             }, function (error) {
               // alert('error')
-              _this57.error = error.error['message'];
+              _this58.error = error.error['message'];
 
-              _this57.toaster.error(_this57.error);
+              _this58.toaster.error(_this58.error);
 
-              _this57.formData["delete"];
+              _this58.formData["delete"];
             });
           }
         }
       }, {
         key: "update",
         value: function update() {
-          var _this58 = this;
+          var _this59 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "1");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this58.formData = new FormData();
+            _this59.formData = new FormData();
 
-            _this58.toaster.success("Driver License Front Updated");
+            _this59.toaster.success("Driver License Front Updated");
           }, function (error) {
-            _this58.toaster.success("Unable to Driver License Front");
+            _this59.toaster.success("Unable to Driver License Front");
           });
         }
       }, {
         key: "updateLback",
         value: function updateLback() {
-          var _this59 = this;
+          var _this60 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "2");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this59.formData = new FormData();
+            _this60.formData = new FormData();
 
-            _this59.toaster.success("Driver License Back Updated");
+            _this60.toaster.success("Driver License Back Updated");
           }, function (error) {
-            _this59.toaster.success("Unable to Driver License Back");
+            _this60.toaster.success("Unable to Driver License Back");
           });
         }
       }, {
         key: "updatepPic",
         value: function updatepPic() {
-          var _this60 = this;
+          var _this61 = this;
 
           this.formData.append('image', this.propic);
           this.formData.append('type', "3");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this60.formData = new FormData();
+            _this61.formData = new FormData();
 
-            _this60.toaster.success("Profile Picture Updated");
+            _this61.toaster.success("Profile Picture Updated");
           }, function (error) {
-            _this60.toaster.success("Unable to update Profile Picture");
+            _this61.toaster.success("Unable to update Profile Picture");
           });
         }
       }, {
@@ -11545,14 +11549,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this61 = this;
+          var _this62 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getlicscenceback(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this61.liscenimag = _this61.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this62.liscenimag = _this62.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11701,14 +11705,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this62 = this;
+          var _this63 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getliscncefront(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this62.liscenimag = _this62.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this63.liscenimag = _this63.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11863,7 +11867,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditCarsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this63 = this;
+          var _this64 = this;
 
           this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__["Vehicle"]();
           this.vehicleModel.locality = '';
@@ -11892,7 +11896,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerId = this.ownerdetails['userId'];
           console.log(this.ownerId);
           this.activaterouter.params.subscribe(function (params) {
-            _this63.vehicleId = params.id;
+            _this64.vehicleId = params.id;
           });
           this.getvehiclesDetailsById();
           this.getalllocality();
@@ -11901,58 +11905,58 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getvehiclesDetailsById",
         value: function getvehiclesDetailsById() {
-          var _this64 = this;
+          var _this65 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vehicleId).subscribe(function (data) {
-            _this64.results = data;
-            _this64.vehicleModel.vehicleCompany = _this64.results['companyName'];
-            _this64.vehicleModel.vehicleType = _this64.results['type'];
-            _this64.vehicleModel.vehicleModel = _this64.results['model'];
-            _this64.vehicleModel.vehicleRegistration = _this64.results['numberPlate'];
-            _this64.vehicleModel.rent = _this64.results['rentPerDay'];
-            _this64.vehicleModel.locality = _this64.results['locality'];
-            _this64.vehicleModel.vehicleYear = _this64.results['year'];
-            _this64.vehicleModel.vRentperHr = _this64.results['rentPerHour'];
-            _this64.vehicleModel.vRentperKm = _this64.results['rentPerKM'];
+            _this65.results = data;
+            _this65.vehicleModel.vehicleCompany = _this65.results['companyName'];
+            _this65.vehicleModel.vehicleType = _this65.results['type'];
+            _this65.vehicleModel.vehicleModel = _this65.results['model'];
+            _this65.vehicleModel.vehicleRegistration = _this65.results['numberPlate'];
+            _this65.vehicleModel.rent = _this65.results['rentPerDay'];
+            _this65.vehicleModel.locality = _this65.results['locality'];
+            _this65.vehicleModel.vehicleYear = _this65.results['year'];
+            _this65.vehicleModel.vRentperHr = _this65.results['rentPerHour'];
+            _this65.vehicleModel.vRentperKm = _this65.results['rentPerKM'];
 
-            if (_this64.results['driverId'] != null) {
-              _this64.vehicleModel.driver = _this64.results['driverId'];
-              _this64.vehicleModel.dRent = _this64.results['driverRentPerKM'];
+            if (_this65.results['driverId'] != null) {
+              _this65.vehicleModel.driver = _this65.results['driverId'];
+              _this65.vehicleModel.dRent = _this65.results['driverRentPerKM'];
             } else {
-              _this64.vehicleModel.driver = '';
+              _this65.vehicleModel.driver = '';
             }
 
-            if (_this64.results['pickUpAddress'] != null) {
-              _this64.vehicleModel.pkaddress = _this64.results['pickUpAddress'];
+            if (_this65.results['pickUpAddress'] != null) {
+              _this65.vehicleModel.pkaddress = _this65.results['pickUpAddress'];
             }
 
-            if (_this64.vehicleModel.vRentperHr == null) {
-              _this64.vehicleModel.vRentperHr = "";
+            if (_this65.vehicleModel.vRentperHr == null) {
+              _this65.vehicleModel.vRentperHr = "";
             }
 
-            if (_this64.vehicleModel.vRentperKm == null) {
-              _this64.vehicleModel.vRentperKm = "";
+            if (_this65.vehicleModel.vRentperKm == null) {
+              _this65.vehicleModel.vRentperKm = "";
             }
           }, function (error) {});
         }
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this65 = this;
+          var _this66 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this65.driverslist = data;
-            console.log(_this65.driverslist);
+            _this66.driverslist = data;
+            console.log(_this66.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this66 = this;
+          var _this67 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this66.locations = data;
+            _this67.locations = data;
           }, function (error) {});
         }
       }, {
@@ -11988,7 +11992,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this67 = this;
+          var _this68 = this;
 
           this.submitted = true;
 
@@ -12019,94 +12023,94 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               // this.toaster.success('Vehicle Updated Successfully');
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Updated!', 'Vehicle Updated Successfully', 'success'); // this.router.navigate(['/vehicles'])
             }, function (error) {
-              _this67.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this67.error, 'error');
-              _this67.formData["delete"];
+              _this68.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this68.error, 'error');
+              _this68.formData["delete"];
             });
           }
         }
       }, {
         key: "updateimg1",
         value: function updateimg1() {
-          var _this68 = this;
+          var _this69 = this;
 
           this.formData.append('image', this.image1);
           this.formData.append('type', "1");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this68.formData = new FormData();
-            _this68.files = '';
+            _this69.formData = new FormData();
+            _this69.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
           }, function (error) {
-            _this68.formData["delete"];
+            _this69.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
           });
         }
       }, {
         key: "updateimg2",
         value: function updateimg2() {
-          var _this69 = this;
+          var _this70 = this;
 
           this.formData.append('image', this.image2);
           this.formData.append('type', "2");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this69.formData = new FormData();
-            _this69.files = '';
+            _this70.formData = new FormData();
+            _this70.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 2 Added!', 'Image 2 Added Successfully', 'success');
           }, function (error) {
-            _this69.formData["delete"];
+            _this70.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 2!', 'Unable to add image 2 Successfully', 'error');
           });
         }
       }, {
         key: "updatelicfrnt",
         value: function updatelicfrnt() {
-          var _this70 = this;
+          var _this71 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "3");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this70.formData = new FormData();
-            _this70.files = '';
+            _this71.formData = new FormData();
+            _this71.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Added!', 'License Added Successfully', 'success');
           }, function (error) {
-            _this70.formData["delete"];
+            _this71.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License front!', 'Unable to add License front Successfully', 'error');
           });
         }
       }, {
         key: "updatelicback",
         value: function updatelicback() {
-          var _this71 = this;
+          var _this72 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "4");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this71.formData = new FormData();
-            _this71.files = '';
+            _this72.formData = new FormData();
+            _this72.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Back Added!', 'License Back Added Successfully', 'success');
           }, function (error) {
-            _this71.formData = new FormData();
+            _this72.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License Back!', 'Unable to add License Back Successfully', 'error');
           });
         }
       }, {
         key: "updaterc",
         value: function updaterc() {
-          var _this72 = this;
+          var _this73 = this;
 
           this.formData.append('image', this.rcproof);
           this.formData.append('type', "5");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this72.formData = new FormData();
-            _this72.files = '';
+            _this73.formData = new FormData();
+            _this73.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
           }, function (error) {
-            _this72.formData = new FormData();
+            _this73.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add RC!', 'Unable to add RC Successfully', 'error');
           });
         }
@@ -12238,14 +12242,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this73 = this;
+          var _this74 = this;
 
           if (this.kilometer != null || this.kilometer != undefined) {
             this.formData.append("startingKM", this.kilometer);
             this.formData.append("tripId", this.results['id']);
             console.log(this.formData);
             this.ownerservice.addcurrentkilometer(this.formData).subscribe(function (data) {
-              _this73.dialogRef.close();
+              _this74.dialogRef.close();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Kilometer Added!', 'Kilometer Added Successfully', 'success');
             }, function (error) {
@@ -12394,29 +12398,29 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getapprovedVehicles",
         value: function getapprovedVehicles() {
-          var _this74 = this;
+          var _this75 = this;
 
           this.ownerService.getallvehicleforhanover(this.ownerId, this.page).subscribe(function (data) {
-            _this74.results = data;
+            _this75.results = data;
 
-            if (_this74.results.length == 0) {
-              _this74.message = 'No Data Found';
+            if (_this75.results.length == 0) {
+              _this75.message = 'No Data Found';
             } else {
-              _this74.message = 'Data Found';
+              _this75.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "openDialog",
         value: function openDialog(s) {
-          var _this75 = this;
+          var _this76 = this;
 
           var dialogRef = this.dialog.open(_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_6__["AddVehiclekmHandoverComponent"], {
             width: '450px',
             data: s
           });
           dialogRef.afterClosed().subscribe(function (result) {
-            _this75.ngOnInit();
+            _this76.ngOnInit();
 
             console.log('The dialog was closed');
           });
@@ -12895,21 +12899,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getpaymentdetailsbyTripIdtripid",
         value: function getpaymentdetailsbyTripIdtripid() {
-          var _this76 = this;
+          var _this77 = this;
 
           this.OwnerService.gettripdetailsbyid(this.tripid).subscribe(function (data) {
             console.log(data);
-            _this76.results = data;
-            _this76.customerName = _this76.results['customerName'];
-            _this76.totalKM = _this76.results['totalKM'];
-            _this76.customerMobile = _this76.results['customerMobile'];
-            _this76.vehicleRent = _this76.results['vehicleRent'];
+            _this77.results = data;
+            _this77.customerName = _this77.results['customerName'];
+            _this77.totalKM = _this77.results['totalKM'];
+            _this77.customerMobile = _this77.results['customerMobile'];
+            _this77.vehicleRent = _this77.results['vehicleRent'];
           }, function (error) {});
         }
       }, {
         key: "collectcash",
         value: function collectcash() {
-          var _this77 = this;
+          var _this78 = this;
 
           this.formData.append('paymentMode', '2');
           this.formData.append('tripId', this.tripid);
@@ -12928,12 +12932,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           this.OwnerService.savePayments(this.formData).subscribe(function (data) {
-            _this77.dialogRef.close();
+            _this78.dialogRef.close();
 
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Amount Collected', 'Amount Collcted Successfully', 'success');
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to Collect Cash!', 'Unable Collct Amount Successfully', 'error');
-            _this77.formData["delete"];
+            _this78.formData["delete"];
           });
         }
       }]);
@@ -13064,10 +13068,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallpayments",
         value: function getallpayments() {
-          var _this78 = this;
+          var _this79 = this;
 
           this.ownerservice.getallpaymentsbnyownerid(this.ownerId, this.page).subscribe(function (data) {
-            _this78.payementresults = data;
+            _this79.payementresults = data;
           }, function (error) {});
         }
       }, {
@@ -13238,24 +13242,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallPendingdata",
         value: function getallPendingdata() {
-          var _this79 = this;
-
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
-            _this79.results = data;
-
-            if (_this79.results.length == 0) {
-              _this79.message = 'No Data Found';
-            } else {
-              _this79.message = 'Data Found';
-            }
-          }, function (error) {});
-        }
-      }, {
-        key: "getallprebookdata",
-        value: function getallprebookdata() {
           var _this80 = this;
 
-          this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
             _this80.results = data;
 
             if (_this80.results.length == 0) {
@@ -13266,11 +13255,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }, function (error) {});
         }
       }, {
-        key: "getallApprovedData",
-        value: function getallApprovedData() {
+        key: "getallprebookdata",
+        value: function getallprebookdata() {
           var _this81 = this;
 
-          this.ownerService.getallRequestApproved(this.ownerId).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
             _this81.results = data;
 
             if (_this81.results.length == 0) {
@@ -13281,17 +13270,32 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }, function (error) {});
         }
       }, {
-        key: "getallrejectedData",
-        value: function getallrejectedData() {
+        key: "getallApprovedData",
+        value: function getallApprovedData() {
           var _this82 = this;
 
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
+          this.ownerService.getallRequestApproved(this.ownerId).subscribe(function (data) {
             _this82.results = data;
 
             if (_this82.results.length == 0) {
               _this82.message = 'No Data Found';
             } else {
               _this82.message = 'Data Found';
+            }
+          }, function (error) {});
+        }
+      }, {
+        key: "getallrejectedData",
+        value: function getallrejectedData() {
+          var _this83 = this;
+
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
+            _this83.results = data;
+
+            if (_this83.results.length == 0) {
+              _this83.message = 'No Data Found';
+            } else {
+              _this83.message = 'Data Found';
             }
           }, function (error) {});
         }
@@ -13303,7 +13307,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve(s) {
-          var _this83 = this;
+          var _this84 = this;
 
           console.log(s.id);
           var status = "1";
@@ -13312,7 +13316,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this83.ngOnInit();
+            _this84.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13320,7 +13324,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject(s) {
-          var _this84 = this;
+          var _this85 = this;
 
           console.log(s.id);
           var status = "3";
@@ -13329,7 +13333,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this84.ngOnInit();
+            _this85.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13447,46 +13451,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ViewRequestsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this85 = this;
+          var _this86 = this;
 
           this.activaterouter.params.subscribe(function (params) {
             console.log(params.id, params.name);
-            _this85.customerName = params.name;
-            _this85.cId = params.id;
+            _this86.customerName = params.name;
+            _this86.cId = params.id;
           });
           this.getDetails();
         }
       }, {
         key: "getDetails",
         value: function getDetails() {
-          var _this86 = this;
+          var _this87 = this;
 
           this.ownerservice.getapprovalDetaislById(this.cId).subscribe(function (data) {
-            _this86.results = data;
-            _this86.approvalstatus = _this86.results['approvalStatus'];
-            _this86.startingLocation = _this86.results['startingLocation'];
-            _this86.destinationLocation = _this86.results['destinationLocation'];
-            _this86.requestedDate = _this86.results['requestedDate'];
-            _this86.companyName = _this86.results.vehicleForm['companyName'];
-            _this86.model = _this86.results.vehicleForm['model'];
-            _this86.numberPlate = _this86.results.vehicleForm['numberPlate'];
-            _this86.rentPerDay = _this86.results.vehicleForm['rentPerDay'];
-            _this86.rentPerHour = _this86.results.vehicleForm['rentPerHour'];
-            _this86.rentPerKM = _this86.results.vehicleForm['rentPerKM'];
-            _this86.ownerid = _this86.results['customerId'];
-            _this86.vehicleId = _this86.results['vehicleId'];
+            _this87.results = data;
+            _this87.approvalstatus = _this87.results['approvalStatus'];
+            _this87.startingLocation = _this87.results['startingLocation'];
+            _this87.destinationLocation = _this87.results['destinationLocation'];
+            _this87.requestedDate = _this87.results['requestedDate'];
+            _this87.companyName = _this87.results.vehicleForm['companyName'];
+            _this87.model = _this87.results.vehicleForm['model'];
+            _this87.numberPlate = _this87.results.vehicleForm['numberPlate'];
+            _this87.rentPerDay = _this87.results.vehicleForm['rentPerDay'];
+            _this87.rentPerHour = _this87.results.vehicleForm['rentPerHour'];
+            _this87.rentPerKM = _this87.results.vehicleForm['rentPerKM'];
+            _this87.ownerid = _this87.results['customerId'];
+            _this87.vehicleId = _this87.results['vehicleId'];
           }, function (error) {});
         }
       }, {
         key: "checkbooking",
         value: function checkbooking() {
-          var _this87 = this;
+          var _this88 = this;
 
           this.ownerservice.checkotherbookings(this.ownerid, this.vehicleId).subscribe(function (data) {
             console.log(data);
-            _this87.bookingsarray = data;
+            _this88.bookingsarray = data;
 
-            if (_this87.bookingsarray.length == 0) {
+            if (_this88.bookingsarray.length == 0) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('No Bookings!', 'No Bookings Available', 'success');
             } else {
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Bookings Found!', 'Bookings Available', 'success');
@@ -13501,7 +13505,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve() {
-          var _this88 = this;
+          var _this89 = this;
 
           console.log(this.cId);
           var status = "1";
@@ -13510,7 +13514,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this88.router.navigate(['/request']);
+            _this89.router.navigate(['/request']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13518,7 +13522,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject() {
-          var _this89 = this;
+          var _this90 = this;
 
           console.log(this.cId);
           var status = "3";
@@ -13527,7 +13531,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this89.ngOnInit();
+            _this90.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13671,92 +13675,92 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getimage2",
         value: function getimage2() {
-          var _this90 = this;
+          var _this91 = this;
 
           this.adminService.getimage(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this90.vehicleimage2 = _this90.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this91.vehicleimage2 = _this91.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsByid",
         value: function getvehicleDetailsByid() {
-          var _this91 = this;
+          var _this92 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vId).subscribe(function (data) {
-            _this91.results = data;
-            console.log(_this91.results);
-            _this91.vehicleModel.vehicleCompany = _this91.results['companyName'];
-            _this91.vehicleModel.vehicleType = _this91.results['type'];
-            _this91.vehicleModel.vehicleModel = _this91.results['model'];
-            _this91.vehicleModel.vehicleRegistration = _this91.results['numberPlate'];
-            _this91.vehicleModel.rent = _this91.results['rentPerDay'];
-            _this91.rentperkm = _this91.results['rentPerKM'];
-            _this91.rentPerHour = _this91.results['rentPerHour'];
-            _this91.vehicleModel.locality = _this91.results['locationName'];
-            _this91.vehicleModel.vehicleYear = _this91.results['year'];
-            _this91.pickUpAddress = _this91.results['pickUpAddress'];
-            _this91.gpsAddress = _this91.results['gpsAddress'];
+            _this92.results = data;
+            console.log(_this92.results);
+            _this92.vehicleModel.vehicleCompany = _this92.results['companyName'];
+            _this92.vehicleModel.vehicleType = _this92.results['type'];
+            _this92.vehicleModel.vehicleModel = _this92.results['model'];
+            _this92.vehicleModel.vehicleRegistration = _this92.results['numberPlate'];
+            _this92.vehicleModel.rent = _this92.results['rentPerDay'];
+            _this92.rentperkm = _this92.results['rentPerKM'];
+            _this92.rentPerHour = _this92.results['rentPerHour'];
+            _this92.vehicleModel.locality = _this92.results['locationName'];
+            _this92.vehicleModel.vehicleYear = _this92.results['year'];
+            _this92.pickUpAddress = _this92.results['pickUpAddress'];
+            _this92.gpsAddress = _this92.results['gpsAddress'];
 
-            if (_this91.results['driverId'] != null) {
-              _this91.vehicleModel.driver = _this91.results['driverId'];
+            if (_this92.results['driverId'] != null) {
+              _this92.vehicleModel.driver = _this92.results['driverId'];
             } else {
-              _this91.vehicleModel.driver = '';
+              _this92.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getlicencefrnt",
         value: function getlicencefrnt() {
-          var _this92 = this;
+          var _this93 = this;
 
           this.adminService.getlicencefrnt(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this92.liscence1 = _this92.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this93.liscence1 = _this93.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getlicscenceback",
         value: function getlicscenceback() {
-          var _this93 = this;
+          var _this94 = this;
 
           this.adminService.getlicscenceback(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this93.liscence2 = _this93.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this94.liscence2 = _this94.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getrc",
         value: function getrc() {
-          var _this94 = this;
+          var _this95 = this;
 
           this.adminService.getrc(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this94.rc = _this94.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this95.rc = _this95.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsById",
         value: function getvehicleDetailsById() {
-          var _this95 = this;
+          var _this96 = this;
 
           this.adminService.getVehicleDetailsbyId(this.vId).subscribe(function (data) {
-            _this95.DriverDetailsofCar = data['driver'];
-            console.log(_this95.DriverDetailsofCar);
+            _this96.DriverDetailsofCar = data['driver'];
+            console.log(_this96.DriverDetailsofCar);
 
-            if (_this95.DriverDetailsofCar != null) {
-              _this95.vehicleModel.dname = _this95.DriverDetailsofCar['name'];
-              _this95.vehicleModel.dnumber = _this95.DriverDetailsofCar['number'];
-              _this95.vehicleModel.daddreess = _this95.DriverDetailsofCar['addresss'];
-              _this95.id = _this95.DriverDetailsofCar['id'];
+            if (_this96.DriverDetailsofCar != null) {
+              _this96.vehicleModel.dname = _this96.DriverDetailsofCar['name'];
+              _this96.vehicleModel.dnumber = _this96.DriverDetailsofCar['number'];
+              _this96.vehicleModel.daddreess = _this96.DriverDetailsofCar['addresss'];
+              _this96.id = _this96.DriverDetailsofCar['id'];
             }
           }, function (error) {});
         }
@@ -13887,17 +13891,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallcarsbyowers",
         value: function getallcarsbyowers() {
-          var _this96 = this;
+          var _this97 = this;
 
           this.ownerserivice.getallcars(this.userId).subscribe(function (data) {
-            _this96.carList = data;
-            _this96.errormessage = "data found";
+            _this97.carList = data;
+            _this97.errormessage = "data found";
 
-            if (_this96.carList.length == 0) {
-              _this96.errormessage = "No data found";
+            if (_this97.carList.length == 0) {
+              _this97.errormessage = "No data found";
             }
           }, function (error) {
-            _this96.errormessage = "No data found";
+            _this97.errormessage = "No data found";
           });
         }
       }, {
@@ -13914,34 +13918,34 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "delete",
         value: function _delete(e) {
-          var _this97 = this;
+          var _this98 = this;
 
           this.ownerserivice.deleteCar(e.id).subscribe(function (data) {
-            _this97.toaster.success('Vehicle Deleted Successfully');
+            _this98.toaster.success('Vehicle Deleted Successfully');
 
-            _this97.ngOnInit();
+            _this98.ngOnInit();
           }, function (error) {
-            _this97.toaster.error('Vehicle Deleted Unsuccessfully');
+            _this98.toaster.error('Vehicle Deleted Unsuccessfully');
 
-            _this97.ngOnInit();
+            _this98.ngOnInit();
           });
         }
       }, {
         key: "changeFilter",
         value: function changeFilter(s) {
-          var _this98 = this;
+          var _this99 = this;
 
           console.log(s);
           this.ownerserivice.getFilterOptionsVehicles(s, this.userId).subscribe(function (data) {
-            _this98.carList = data;
-            _this98.errormessage = "data found";
+            _this99.carList = data;
+            _this99.errormessage = "data found";
 
-            if (_this98.carList.length == 0) {
-              _this98.errormessage = "No data found";
+            if (_this99.carList.length == 0) {
+              _this99.errormessage = "No data found";
             }
           }, function (error) {
-            _this98.carList = [];
-            _this98.errormessage = "No data found";
+            _this99.carList = [];
+            _this99.errormessage = "No data found";
           });
         }
       }]);
@@ -14053,12 +14057,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallvehiclefortracking",
         value: function getallvehiclefortracking() {
-          var _this99 = this;
+          var _this100 = this;
 
           this.userDetails = JSON.parse(localStorage.getItem('userDetail'));
           this.userId = this.userDetails['userId'];
           this.ownerservice.getallvechilcetracking(this.userId, this.page).subscribe(function (data) {
-            _this99.result = data;
+            _this100.result = data;
           }, function (error) {});
         }
       }, {
@@ -14432,7 +14436,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this100 = this;
+          var _this101 = this;
 
           var req = {
             "mobilenumber": this.registerModel.mobNo,
@@ -14440,11 +14444,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           sessionStorage.setItem("mobileandemail", JSON.stringify(req));
           this.loginservice.sendotp(this.registerModel.mobNo, this.registerModel.email).subscribe(function (data) {
-            _this100.router.navigate(['/verifyotp']);
+            _this101.router.navigate(['/verifyotp']);
           }, function (error) {
             console.log(error.error['message']);
 
-            _this100.toaster.error(error.error['message']);
+            _this101.toaster.error(error.error['message']);
           });
         }
       }]);
@@ -14644,7 +14648,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this101 = this;
+          var _this102 = this;
 
           // alert('User Registration successfully');
           // console.log(this.registerForm.value);
@@ -14662,14 +14666,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           console.log(req);
           this.loginservice.register(req).subscribe(function (data) {
-            _this101.toaster.success('Register Successfully');
+            _this102.toaster.success('Register Successfully');
 
-            _this101.router.navigate(['/login']);
+            _this102.router.navigate(['/login']);
           }, function (error) {
-            _this101.error = error.error['message'];
-            console.log(_this101.error);
+            _this102.error = error.error['message'];
+            console.log(_this102.error);
 
-            _this101.toaster.error(_this101.error);
+            _this102.toaster.error(_this102.error);
           });
         }
       }]);
@@ -14804,15 +14808,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this102 = this;
+          var _this103 = this;
 
           var mobnumber = JSON.parse(sessionStorage.getItem("mobileandemail"));
           this.loginservice.verifyotp(this.registerModel.mobNo, mobnumber['mobilenumber']).subscribe(function (data) {
-            _this102.router.navigate(['/register']);
+            _this103.router.navigate(['/register']);
 
-            _this102.toaster.error("OTP Verified");
+            _this103.toaster.error("OTP Verified");
           }, function (error) {
-            _this102.toaster.error("Invalid OTP");
+            _this103.toaster.error("Invalid OTP");
           });
         }
       }]);
@@ -15045,7 +15049,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this103 = this;
+          var _this104 = this;
 
           this.submitted = true;
 
@@ -15064,10 +15068,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append("city", this.registerModel.locality);
             this.loginservice.userpublicregister(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Registration Completed!', 'Registered Successfully', 'success');
-              _this103.formData["delete"];
+              _this104.formData["delete"];
               window.location.reload();
             }, function (error) {
-              _this103.formData["delete"];
+              _this104.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Register!', 'Server is busy at this moment', 'error');
             });
           }
@@ -15412,10 +15416,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this104 = this;
+          var _this105 = this;
 
           this.adminservice.getallusers(this.page).subscribe(function (data) {
-            _this104.results = data;
+            _this105.results = data;
           }, function (error) {});
         }
       }]);

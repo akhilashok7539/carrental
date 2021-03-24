@@ -201,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <app-navigation></app-navigation> -->\r\n<app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n<div class=\"page-wrapper\" style=\"margin-top: 33px;\">\r\n\r\n\r\n\r\n\r\n    <div class=\"content\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4 col-3\">\r\n                <h4 class=\"page-title\">Payment Reports</h4>\r\n\r\n            </div>\r\n\r\n\r\n            <div class=\"col-sm-8 col-9 text-right m-b-20\">\r\n\r\n                <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;\" (click)=\"addcompany()\"><i\r\n                        class=\"fa fa-plus\"></i> </a> -->\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n\r\n\r\n            <div class=\"table-responsive\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-4\">\r\n                        <!-- <h5>Vehicles</h5> -->\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-4\"></div>\r\n                    <div class=\"col-sm-4\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"search here\" [(ngModel)]=\"searchString\" (keyup)=\"applyFilter(searchString)\">\r\n\r\n\r\n\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-sm-12\">\r\n\r\n                    <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"transId\">\r\n                            <mat-header-cell *matHeaderCellDef>Transaction ID </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \"> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"uname\">\r\n                            <mat-header-cell *matHeaderCellDef>User Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"unumber\">\r\n                            <mat-header-cell *matHeaderCellDef> User Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"dname\">\r\n                            <mat-header-cell *matHeaderCellDef> Driver Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"dnumber\">\r\n                            <mat-header-cell *matHeaderCellDef> Driver Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n\r\n\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" [pageSizeOptions]=\"pageLimit\">\r\n                    </mat-paginator>\r\n\r\n                    <h5 *ngIf=\"message == 'No data found'\">No data Found</h5>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <app-navigation></app-navigation> -->\r\n<!-- <app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n<div class=\"page-wrapper\" style=\"margin-top: 33px;\">\r\n\r\n\r\n\r\n\r\n    <div class=\"content\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4 col-3\">\r\n                <h4 class=\"page-title\">Payment Reports</h4>\r\n\r\n            </div>\r\n\r\n\r\n            <div class=\"col-sm-8 col-9 text-right m-b-20\">\r\n\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n\r\n\r\n            <div class=\"table-responsive\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-4\">\r\n                     \r\n\r\n                    </div>\r\n                    <div class=\"col-sm-4\"></div>\r\n                    <div class=\"col-sm-4\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"search here\" [(ngModel)]=\"searchString\" (keyup)=\"applyFilter(searchString)\">\r\n\r\n\r\n\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-sm-12\">\r\n\r\n                    <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"transId\">\r\n                            <mat-header-cell *matHeaderCellDef>Transaction ID </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \"> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"uname\">\r\n                            <mat-header-cell *matHeaderCellDef>User Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"unumber\">\r\n                            <mat-header-cell *matHeaderCellDef> User Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"dname\">\r\n                            <mat-header-cell *matHeaderCellDef> Driver Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"dnumber\">\r\n                            <mat-header-cell *matHeaderCellDef> Driver Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n\r\n\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" [pageSizeOptions]=\"pageLimit\">\r\n                    </mat-paginator>\r\n\r\n                    <h5 *ngIf=\"message == 'No data found'\">No data Found</h5>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Payment Reports</h1>\r\n\r\n                    </div>\r\n\r\n\r\n                </div>\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <label for=\"\">From</label>\r\n                        <input type=\"date\" class=\"form-control\" [(ngModel)]=\"date1\">\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n\r\n                        <label for=\"\">To</label>\r\n                        <input type=\"date\" class=\"form-control\" [(ngModel)]=\"date2\" (change)=\"selected(date2)\">\r\n\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Customer Name</th>\r\n                                        <th>Date</th>\r\n                                        <th>Owner Name</th>\r\n                                        <th>Payment Mode</th>\r\n                                        <th>Vehicle Model</th>\r\n                                        <th>Vehicle Rent</th>\r\n\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let s of results\">\r\n                                        <td>{{s.customerName}}</td>\r\n                                        <td>{{s.date}}</td>\r\n                                        <td>{{s.ownerName}}</td>\r\n                                        <td *ngIf=\"s.paymentMode == null\">Booking Cancelled</td>\r\n                                        <td *ngIf=\"s.paymentMode == 1\">Online Payment</td>\r\n                                        <td *ngIf=\"s.paymentMode == 2\">Direct Payment</td>\r\n\r\n                                        <td>{{s.vehicleName}}</td>\r\n                                        <td>{{s.vehicleRent}}</td>\r\n\r\n                                    </tr>\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>");
 
 /***/ }),
 
@@ -1626,6 +1626,9 @@ let AdminService = class AdminService {
     getadmincount() {
         return this.http.get(this.BASEURL + 'admin/getAllCountDetails');
     }
+    getPymentreport(fday, today) {
+        return this.http.get(this.BASEURL + 'payment/getDateBetweenForAdmin?start=' + fday + '&page=0&size=1000&end=' + today);
+    }
 };
 AdminService.ctorParameters = () => [
     { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
@@ -2802,41 +2805,48 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PaymentreportsComponent", function() { return PaymentreportsComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/esm2015/table.js");
-/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/esm2015/paginator.js");
-
+/* harmony import */ var _admin_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../admin.service */ "./src/app/adminpannel/admin.service.ts");
 
 
 
 let PaymentreportsComponent = class PaymentreportsComponent {
-    constructor() {
-        this.displayedColumns = ['transId', 'uname', 'unumber', 'dname', 'dnumber'];
-        this.limit = 5;
-        this.skip = 0;
-        this.totalLength = 0;
-        this.pageIndex = 0;
-        this.pageLimit = [5, 10];
-        this.dataSource = new _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTableDataSource"]();
-        this.message = 'data found';
+    constructor(AdminService) {
+        this.AdminService = AdminService;
+        this.results = [];
+        this.page = 0;
+        this.size = 200;
     }
     ngOnInit() {
+        var date = new Date();
+        console.log(date);
+        const month = ('0' + (date.getMonth() + 1)).slice(-2);
+        var firstDay = date.getFullYear() + '-' + month + '-' + '01';
+        let today = new Date().toISOString().slice(0, 10).replace(/-/g, '-');
+        console.log(firstDay);
+        this.faday = firstDay;
+        this.tday = today;
+        console.log(today);
+        this.date1 = this.faday;
+        this.date2 = this.tday;
+        this.getPaymentreport();
     }
-    ngAfterViewInit() {
-        this.dataSource.paginator = this.paginator;
+    getPaymentreport() {
+        this.AdminService.getPymentreport(this.faday, this.tday).subscribe(data => {
+            console.log(data);
+            this.results = data;
+        }, error => {
+        });
     }
-    applyFilter(filterValue) {
-        filterValue = filterValue.trim();
-        filterValue = filterValue.toLowerCase();
-        this.dataSource.filter = filterValue;
-        console.log(this.dataSource.filteredData.length);
-        if (this.dataSource.filteredData.length == 0) {
-            this.message = 'No data found';
-        }
+    selected(s) {
+        this.AdminService.getPymentreport(this.date1, this.date2).subscribe(data => {
+            this.results = data;
+        }, error => {
+        });
     }
 };
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])(_angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__["MatPaginator"], { static: false })
-], PaymentreportsComponent.prototype, "paginator", void 0);
+PaymentreportsComponent.ctorParameters = () => [
+    { type: _admin_service__WEBPACK_IMPORTED_MODULE_2__["AdminService"] }
+];
 PaymentreportsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-paymentreports',
@@ -7275,6 +7285,9 @@ let OwnerService = class OwnerService {
     getFilterOptionsVehicles(status, id) {
         return this.http.get(this.BASEURL + 'vehicle/listApprovalStatusForOwner?ownerId=' + id + '&status=' + status + '&page=0&size=100');
     }
+    getallRequestApproved(id) {
+        return this.http.get(this.BASEURL + 'trip/listForOwnerByNotCompleted?ownerId=' + id + '&page=0&size=100');
+    }
     getallRequestfromUserBsedonStatus(id, status) {
         return this.http.get(this.BASEURL + 'trip/listForOwnerByApprovalStatus?ownerId=' + id + '&status=' + status);
     }
@@ -7664,7 +7677,7 @@ let RequestsComponent = class RequestsComponent {
         });
     }
     getallApprovedData() {
-        this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(data => {
+        this.ownerService.getallRequestApproved(this.ownerId).subscribe(data => {
             this.results = data;
             if (this.results.length == 0) {
                 this.message = 'No Data Found';

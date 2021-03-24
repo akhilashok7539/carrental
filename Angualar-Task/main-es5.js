@@ -311,7 +311,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n<div class=\"page-wrapper\" style=\"margin-top: 33px;\">\r\n\r\n\r\n\r\n\r\n    <div class=\"content\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4 col-3\">\r\n                <h4 class=\"page-title\">Payment Reports</h4>\r\n\r\n            </div>\r\n\r\n\r\n            <div class=\"col-sm-8 col-9 text-right m-b-20\">\r\n\r\n                <!-- <a class=\"btn btn btn-primary btn-rounded float-right \" style=\"color: white;\" (click)=\"addcompany()\"><i\r\n                        class=\"fa fa-plus\"></i> </a> -->\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n\r\n\r\n            <div class=\"table-responsive\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-4\">\r\n                        <!-- <h5>Vehicles</h5> -->\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-4\"></div>\r\n                    <div class=\"col-sm-4\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"search here\" [(ngModel)]=\"searchString\" (keyup)=\"applyFilter(searchString)\">\r\n\r\n\r\n\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-sm-12\">\r\n\r\n                    <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"transId\">\r\n                            <mat-header-cell *matHeaderCellDef>Transaction ID </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \"> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"uname\">\r\n                            <mat-header-cell *matHeaderCellDef>User Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"unumber\">\r\n                            <mat-header-cell *matHeaderCellDef> User Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"dname\">\r\n                            <mat-header-cell *matHeaderCellDef> Driver Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"dnumber\">\r\n                            <mat-header-cell *matHeaderCellDef> Driver Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n\r\n\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" [pageSizeOptions]=\"pageLimit\">\r\n                    </mat-paginator>\r\n\r\n                    <h5 *ngIf=\"message == 'No data found'\">No data Found</h5>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <app-navigation></app-navigation> -->\r\n<!-- <app-header></app-header>\r\n<app-sidebar></app-sidebar>\r\n<div class=\"page-wrapper\" style=\"margin-top: 33px;\">\r\n\r\n\r\n\r\n\r\n    <div class=\"content\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4 col-3\">\r\n                <h4 class=\"page-title\">Payment Reports</h4>\r\n\r\n            </div>\r\n\r\n\r\n            <div class=\"col-sm-8 col-9 text-right m-b-20\">\r\n\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n\r\n\r\n            <div class=\"table-responsive\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-4\">\r\n                     \r\n\r\n                    </div>\r\n                    <div class=\"col-sm-4\"></div>\r\n                    <div class=\"col-sm-4\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"search here\" [(ngModel)]=\"searchString\" (keyup)=\"applyFilter(searchString)\">\r\n\r\n\r\n\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-sm-12\">\r\n\r\n                    <mat-table #table [dataSource]=\"dataSource\">\r\n\r\n                        <ng-container matColumnDef=\"transId\">\r\n                            <mat-header-cell *matHeaderCellDef>Transaction ID </mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element \"> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"uname\">\r\n                            <mat-header-cell *matHeaderCellDef>User Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"> </mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"unumber\">\r\n                            <mat-header-cell *matHeaderCellDef> User Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"dname\">\r\n                            <mat-header-cell *matHeaderCellDef> Driver Name</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n                        <ng-container matColumnDef=\"dnumber\">\r\n                            <mat-header-cell *matHeaderCellDef> Driver Number</mat-header-cell>\r\n                            <mat-cell *matCellDef=\"let element\"></mat-cell>\r\n                        </ng-container>\r\n\r\n\r\n\r\n\r\n\r\n                        <mat-header-row *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\r\n                        <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\r\n                    </mat-table>\r\n\r\n\r\n                    <mat-paginator #paginator [length]=\"totalLength\" [pageSize]=\"limit\" [pageSizeOptions]=\"pageLimit\">\r\n                    </mat-paginator>\r\n\r\n                    <h5 *ngIf=\"message == 'No data found'\">No data Found</h5>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div> -->\r\n\r\n\r\n<div id=\"wrapper\">\r\n\r\n    <app-sidebar></app-sidebar>\r\n\r\n    <!-- Content Wrapper -->\r\n    <div id=\"content-wrapper\" class=\"d-flex flex-column\">\r\n\r\n        <!-- Main Content -->\r\n        <div id=\"content\">\r\n\r\n            <!-- Topbar -->\r\n            <app-header></app-header>\r\n            <!-- End of Topbar -->\r\n            <!-- <app-adminhome></app-adminhome> -->\r\n            <!-- Begin Page Content -->\r\n            <div class=\"container-fluid\" style=\"margin-left: 223px;\r\n            margin-top: 99px;\r\n            padding-right: 240px;  \">\r\n                <!-- Page Heading -->\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <h1 class=\"h3 mb-2 text-gray-800\">Payment Reports</h1>\r\n\r\n                    </div>\r\n\r\n\r\n                </div>\r\n                <div class=\"row\" style=\"margin-bottom: 20px;\">\r\n                    <div class=\"col-sm-6\">\r\n                        <label for=\"\">From</label>\r\n                        <input type=\"date\" class=\"form-control\" [(ngModel)]=\"date1\">\r\n\r\n                    </div>\r\n                    <div class=\"col-sm-6\">\r\n\r\n                        <label for=\"\">To</label>\r\n                        <input type=\"date\" class=\"form-control\" [(ngModel)]=\"date2\" (change)=\"selected(date2)\">\r\n\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"card shadow mb-4\">\r\n\r\n                    <div class=\"card-body\">\r\n                        <div class=\"table-responsive\">\r\n                            <table class=\"table\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\r\n                                <thead style=\" color: #fff; background: #3158c8; \">\r\n                                    <tr>\r\n                                        <th>Customer Name</th>\r\n                                        <th>Date</th>\r\n                                        <th>Owner Name</th>\r\n                                        <th>Payment Mode</th>\r\n                                        <th>Vehicle Model</th>\r\n                                        <th>Vehicle Rent</th>\r\n\r\n                                    </tr>\r\n                                </thead>\r\n\r\n                                <tbody>\r\n                                    <tr *ngFor=\"let s of results\">\r\n                                        <td>{{s.customerName}}</td>\r\n                                        <td>{{s.date}}</td>\r\n                                        <td>{{s.ownerName}}</td>\r\n                                        <td *ngIf=\"s.paymentMode == null\">Booking Cancelled</td>\r\n                                        <td *ngIf=\"s.paymentMode == 1\">Online Payment</td>\r\n                                        <td *ngIf=\"s.paymentMode == 2\">Direct Payment</td>\r\n\r\n                                        <td>{{s.vehicleName}}</td>\r\n                                        <td>{{s.vehicleRent}}</td>\r\n\r\n                                    </tr>\r\n\r\n                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -2851,6 +2851,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function getadmincount() {
           return this.http.get(this.BASEURL + 'admin/getAllCountDetails');
         }
+      }, {
+        key: "getPymentreport",
+        value: function getPymentreport(fday, today) {
+          return this.http.get(this.BASEURL + 'payment/getDateBetweenForAdmin?start=' + fday + '&page=0&size=1000&end=' + today);
+        }
       }]);
 
       return AdminService;
@@ -4786,58 +4791,66 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _angular_material_table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/material/table */
-    "./node_modules/@angular/material/esm2015/table.js");
-    /* harmony import */
-
-
-    var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! @angular/material/paginator */
-    "./node_modules/@angular/material/esm2015/paginator.js");
+    var _admin_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../admin.service */
+    "./src/app/adminpannel/admin.service.ts");
 
     var PaymentreportsComponent = /*#__PURE__*/function () {
-      function PaymentreportsComponent() {
+      function PaymentreportsComponent(AdminService) {
         _classCallCheck(this, PaymentreportsComponent);
 
-        this.displayedColumns = ['transId', 'uname', 'unumber', 'dname', 'dnumber'];
-        this.limit = 5;
-        this.skip = 0;
-        this.totalLength = 0;
-        this.pageIndex = 0;
-        this.pageLimit = [5, 10];
-        this.dataSource = new _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTableDataSource"]();
-        this.message = 'data found';
+        this.AdminService = AdminService;
+        this.results = [];
+        this.page = 0;
+        this.size = 200;
       }
 
       _createClass(PaymentreportsComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {}
-      }, {
-        key: "ngAfterViewInit",
-        value: function ngAfterViewInit() {
-          this.dataSource.paginator = this.paginator;
+        value: function ngOnInit() {
+          var date = new Date();
+          console.log(date);
+          var month = ('0' + (date.getMonth() + 1)).slice(-2);
+          var firstDay = date.getFullYear() + '-' + month + '-' + '01';
+          var today = new Date().toISOString().slice(0, 10).replace(/-/g, '-');
+          console.log(firstDay);
+          this.faday = firstDay;
+          this.tday = today;
+          console.log(today);
+          this.date1 = this.faday;
+          this.date2 = this.tday;
+          this.getPaymentreport();
         }
       }, {
-        key: "applyFilter",
-        value: function applyFilter(filterValue) {
-          filterValue = filterValue.trim();
-          filterValue = filterValue.toLowerCase();
-          this.dataSource.filter = filterValue;
-          console.log(this.dataSource.filteredData.length);
+        key: "getPaymentreport",
+        value: function getPaymentreport() {
+          var _this26 = this;
 
-          if (this.dataSource.filteredData.length == 0) {
-            this.message = 'No data found';
-          }
+          this.AdminService.getPymentreport(this.faday, this.tday).subscribe(function (data) {
+            console.log(data);
+            _this26.results = data;
+          }, function (error) {});
+        }
+      }, {
+        key: "selected",
+        value: function selected(s) {
+          var _this27 = this;
+
+          this.AdminService.getPymentreport(this.date1, this.date2).subscribe(function (data) {
+            _this27.results = data;
+          }, function (error) {});
         }
       }]);
 
       return PaymentreportsComponent;
     }();
 
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])(_angular_material_paginator__WEBPACK_IMPORTED_MODULE_3__["MatPaginator"], {
-      "static": false
-    })], PaymentreportsComponent.prototype, "paginator", void 0);
+    PaymentreportsComponent.ctorParameters = function () {
+      return [{
+        type: _admin_service__WEBPACK_IMPORTED_MODULE_2__["AdminService"]
+      }];
+    };
+
     PaymentreportsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-paymentreports',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
@@ -4960,7 +4973,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reset",
         value: function reset() {
-          var _this26 = this;
+          var _this28 = this;
 
           this.submitted = true;
 
@@ -4968,7 +4981,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return;
           } else if (this.resetForm.valid) {
             this.adminservice.resetpassword(this.adminmodel.oldPasswords, this.adminmodel.password).subscribe(function (data) {
-              _this26.resetForm.reset();
+              _this28.resetForm.reset();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Password Reset!', 'Password Reset Successfully', 'success');
             }, function (error) {
@@ -6521,10 +6534,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this27 = this;
+          var _this29 = this;
 
           this.adminservice.getallownersforadmin(this.page).subscribe(function (data) {
-            _this27.results = data;
+            _this29.results = data;
           }, function (error) {});
         }
       }]);
@@ -6652,7 +6665,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this28 = this;
+          var _this30 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -6664,7 +6677,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.addcomments(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Feedback Added!', 'Feedback Added Successfully', 'success');
 
-              _this28.router.navigate(['/admin']);
+              _this30.router.navigate(['/admin']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to add Feedback!', 'Feedback Added UnSuccessfull', 'error');
             });
@@ -6788,19 +6801,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getchatsafeeback",
         value: function getchatsafeeback() {
-          var _this29 = this;
+          var _this31 = this;
 
           this.AdminService.getalldata(this.faday, this.tday, this.page, this.size).subscribe(function (data) {
-            _this29.results = data;
+            _this31.results = data;
           }, function (error) {});
         }
       }, {
         key: "selected",
         value: function selected(s) {
-          var _this30 = this;
+          var _this32 = this;
 
           this.AdminService.getalldata(this.date1, this.date2, this.page, this.size).subscribe(function (data) {
-            _this30.results = data;
+            _this32.results = data;
           }, function (error) {});
         }
       }]);
@@ -7611,7 +7624,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onSubmit",
         value: function onSubmit(form, formData) {
-          var _this31 = this;
+          var _this33 = this;
 
           // this.submitted = true;
           // this.authservice.login(formData.email,formData.password).pipe(first())
@@ -7634,14 +7647,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (data['roleId'] == '1') {
               localStorage.setItem('ROLE', JSON.stringify('ADMIN'));
 
-              _this31.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
+              _this33.router.navigate(['/admin']); // this.toaster.success('   Login Successfully');
 
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Admin Login!', ' Admin Login Successfully', 'success');
             } else if (data['roleId'] == '2') {
               localStorage.setItem('ROLE', JSON.stringify('OWNER'));
 
-              _this31.router.navigate(['/admin']);
+              _this33.router.navigate(['/admin']);
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('WELCOME!', 'Login Successfully', 'success');
             }
@@ -7870,7 +7883,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getAddress",
         value: function getAddress() {
-          var _this32 = this;
+          var _this34 = this;
 
           this.geoCoder = new google.maps.Geocoder();
           this.geoCoder.geocode({
@@ -7885,8 +7898,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (status === 'OK') {
               if (results[0]) {
                 // this.zoom = 12;
-                _this32.address = results[0].formatted_address;
-                console.log(_this32.address);
+                _this34.address = results[0].formatted_address;
+                console.log(_this34.address);
               } else {
                 window.alert('No results found');
               }
@@ -8450,7 +8463,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this33 = this;
+          var _this35 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8463,7 +8476,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this33.router.navigate(['/image2']);
+              _this35.router.navigate(['/image2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8630,7 +8643,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this34 = this;
+          var _this36 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8643,7 +8656,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
 
-              _this34.router.navigate(['/licsence1']);
+              _this36.router.navigate(['/licsence1']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
             });
@@ -8810,7 +8823,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this35 = this;
+          var _this37 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -8823,7 +8836,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added!', 'Licence Added Successfully', 'success');
 
-              _this35.router.navigate(['/rcfrnt']);
+              _this37.router.navigate(['/rcfrnt']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Back Added Error!', 'Licence Back Added SUnccessfully', 'error');
             });
@@ -8990,7 +9003,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this36 = this;
+          var _this38 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9003,7 +9016,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added!', 'Licence Front Added Successfully', 'success');
 
-              _this36.router.navigate(['/licsence2']);
+              _this38.router.navigate(['/licsence2']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Licence Front Added Error!', 'Licence Front Added SUnccessfully', 'error');
             });
@@ -9227,21 +9240,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this37 = this;
+          var _this39 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this37.driverslist = data;
-            console.log(_this37.driverslist);
+            _this39.driverslist = data;
+            console.log(_this39.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this38 = this;
+          var _this40 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this38.locations = data;
+            _this40.locations = data;
           }, function (error) {});
         }
       }, {
@@ -9277,7 +9290,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this39 = this;
+          var _this41 = this;
 
           this.submitted = true;
           this.mapdataresponse = JSON.parse(sessionStorage.getItem("mapcordinatess")); // stop here if form is invalid
@@ -9346,11 +9359,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem('vehicleadddetailsid', JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Added!', 'Basic Details Added Successfully', 'success');
 
-              _this39.router.navigate(['/image1']);
+              _this41.router.navigate(['/image1']);
             }, function (error) {
-              _this39.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this39.error, 'error');
-              _this39.formData["delete"];
+              _this41.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add Vehicle!', _this41.error, 'error');
+              _this41.formData["delete"];
             });
           }
         }
@@ -9518,7 +9531,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this40 = this;
+          var _this42 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9531,7 +9544,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.owenerservice.addimages(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
 
-              _this40.router.navigate(['/vehicles']);
+              _this42.router.navigate(['/vehicles']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added Error!', 'RC Added SUnccessfully', 'error');
             });
@@ -9687,7 +9700,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this41 = this;
+          var _this43 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -9702,7 +9715,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.addbanks(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Added!', 'Bank Details Added Successfully', 'success');
 
-              _this41.router.navigate(['/bankdetails']);
+              _this43.router.navigate(['/bankdetails']);
             }, function (error) {});
           }
         }
@@ -9849,19 +9862,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getbankdetails",
         value: function getbankdetails() {
-          var _this42 = this;
+          var _this44 = this;
 
           this.adminpannel.getbankdetails(this.userDetails['userId']).subscribe(function (data) {
             console.log(data);
-            _this42.results = data;
+            _this44.results = data;
 
-            _this42.arr.push(_this42.results);
+            _this44.arr.push(_this44.results);
 
-            console.log(_this42.arr.length);
-            _this42.bankModel.accountNumber = _this42.results['accountNumber'];
-            _this42.bankModel.acocuntholderName = _this42.results['accountHolderName'];
-            _this42.bankModel.ifscode = _this42.results['ifscCode'];
-            _this42.bankModel.bankName = _this42.results['bankName']; // this.dataSource.data = this.results;
+            console.log(_this44.arr.length);
+            _this44.bankModel.accountNumber = _this44.results['accountNumber'];
+            _this44.bankModel.acocuntholderName = _this44.results['accountHolderName'];
+            _this44.bankModel.ifscode = _this44.results['ifscCode'];
+            _this44.bankModel.bankName = _this44.results['bankName']; // this.dataSource.data = this.results;
           }, function (error) {});
         }
       }, {
@@ -10019,7 +10032,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this43 = this;
+          var _this45 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10029,7 +10042,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.updateBank(this.bankModel.bankId, this.bankModel.ownerId, this.bankModel.acocuntholderName, this.bankModel.accountNumber, this.bankModel.ifscode, this.bankModel.bankName).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Bank Details Update!', 'Bank Details Updated Successfully', 'success');
 
-              _this43.router.navigate(['/bankdetails']);
+              _this45.router.navigate(['/bankdetails']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Unable to Update Bank Details !', 'Bank Details Updated UnSuccessfull', 'error');
             });
@@ -10205,7 +10218,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this44 = this;
+          var _this46 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10225,13 +10238,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               localStorage.setItem("driverDetails", JSON.stringify(data));
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Driver Added!', 'Driver Added Successfully', 'success');
 
-              _this44.router.navigate(['/driverlicsencefrnt']);
+              _this46.router.navigate(['/driverlicsencefrnt']);
             }, function (error) {
               // alert('error')
-              _this44.error = error.error['message']; // this.toaster.error(this.error);
+              _this46.error = error.error['message']; // this.toaster.error(this.error);
 
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this44.error, 'error');
-              _this44.formData["delete"];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Add driver!', _this46.error, 'error');
+              _this46.formData["delete"];
             });
           }
         }
@@ -10411,7 +10424,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this45 = this;
+          var _this47 = this;
 
           this.submitted = true;
 
@@ -10424,7 +10437,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this45.router.navigate(['/driverlicsenceback']);
+              _this47.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10433,64 +10446,64 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submitlicsencefront",
         value: function submitlicsencefront() {
-          var _this46 = this;
+          var _this48 = this;
 
           if (this.lisencefrnt == undefined) {} else {
             this.formData.append('image', this.lisencefrnt);
             this.formData.append('type', "1");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              _this46.formData = new FormData();
+              _this48.formData = new FormData();
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
-              _this46.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+              _this48.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
-              _this46.formData["delete"];
+              _this48.formData["delete"];
             });
           }
         }
       }, {
         key: "submitlicsenceback",
         value: function submitlicsenceback() {
-          var _this47 = this;
+          var _this49 = this;
 
           if (this.lisenceback == undefined) {} else {
             this.formData.append('image', this.lisenceback);
             this.formData.append('type', "2");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              _this47.formData = new FormData();
+              _this49.formData = new FormData();
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
-              _this47.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+              _this49.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
-              _this47.formData["delete"];
+              _this49.formData["delete"];
             });
           }
         }
       }, {
         key: "profilepic",
         value: function profilepic() {
-          var _this48 = this;
+          var _this50 = this;
 
           if (this.propicfile == undefined) {} else {
             this.formData.append('image', this.propicfile);
             this.formData.append('type', "3");
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-              _this48.formData = new FormData();
+              _this50.formData = new FormData();
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
-              _this48.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+              _this50.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
-              _this48.formData["delete"];
+              _this50.formData["delete"];
             });
           }
         }
       }, {
         key: "noc",
         value: function noc() {
-          var _this49 = this;
+          var _this51 = this;
 
           if (this.nocdriver == undefined) {} else {
             this.formData.append('image', this.nocdriver);
@@ -10498,10 +10511,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append('id', this.driverId['id']);
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added!', 'Driver NOC Added Successfully', 'success');
-              _this49.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
+              _this51.formData["delete"]; // this.router.navigate(['/driverlicsenceback']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver NOC Added Error!', 'Driver NOC Added Error Successfully', 'error');
-              _this49.formData["delete"];
+              _this51.formData["delete"];
             });
           }
         }
@@ -10664,7 +10677,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this50 = this;
+          var _this52 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10677,7 +10690,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added!', 'Driver License Added Successfully', 'success');
 
-              _this50.router.navigate(['/profilepicdriver']);
+              _this52.router.navigate(['/profilepicdriver']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver License Added Error!', 'Driver License Added Error Successfully', 'error');
             });
@@ -10843,7 +10856,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this51 = this;
+          var _this53 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -10856,7 +10869,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added!', 'Driver Profile Pic Added Successfully', 'success');
 
-              _this51.router.navigate(['/drivers']);
+              _this53.router.navigate(['/drivers']);
             }, function (error) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire('Driver Profile Pic Added Error!', 'Driver Profile Pic Added Error Successfully', 'error');
             });
@@ -11060,12 +11073,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallsdriver",
         value: function getallsdriver() {
-          var _this52 = this;
+          var _this54 = this;
 
           this.ownerservice.getalldrivers(this.ownerId).subscribe(function (data) {
             console.log(data);
-            _this52.driverslist = data;
-            _this52.dataSource.data = _this52.driverslist;
+            _this54.driverslist = data;
+            _this54.dataSource.data = _this54.driverslist;
           }, function (error) {});
         }
       }, {
@@ -11130,13 +11143,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "delete",
         value: function _delete(e) {
-          var _this53 = this;
+          var _this55 = this;
 
           console.log(e.id);
           this.ownerservice.deleteDriver(e.id).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_11___default.a.fire('Driver Deleted!', 'Driver Deleted Successfully', 'success');
 
-            _this53.ngOnInit();
+            _this55.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_11___default.a.fire('Unable to Delete Driver !', 'Driver Deleted UnSuccessfull', 'error');
           });
@@ -11285,14 +11298,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getdriverDetailByDriverId",
         value: function getdriverDetailByDriverId() {
-          var _this54 = this;
+          var _this56 = this;
 
           this.ownerservice.getDriverDetailsBydriverId(this.driverId).subscribe(function (data) {
-            _this54.results = data;
-            _this54.driverModel.name = _this54.results['name'];
-            _this54.driverModel.address = _this54.results['addresss'];
-            _this54.driverModel.number = _this54.results['number'];
-            _this54.driverModel.pancard = _this54.results['panCardNO'];
+            _this56.results = data;
+            _this56.driverModel.name = _this56.results['name'];
+            _this56.driverModel.address = _this56.results['addresss'];
+            _this56.driverModel.number = _this56.results['number'];
+            _this56.driverModel.pancard = _this56.results['panCardNO'];
             console.log(data);
           }, function (error) {});
         }
@@ -11317,7 +11330,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this55 = this;
+          var _this57 = this;
 
           this.submitted = true; // stop here if form is invalid
 
@@ -11334,64 +11347,64 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             this.formData.append('id', this.driverId);
             this.ownerservice.editdrivers(this.formData).subscribe(function (data) {
-              _this55.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
+              _this57.toaster.success('Driver updated Successfully'); // this.router.navigate(['/drivers'])
 
             }, function (error) {
               // alert('error')
-              _this55.error = error.error['message'];
+              _this57.error = error.error['message'];
 
-              _this55.toaster.error(_this55.error);
+              _this57.toaster.error(_this57.error);
 
-              _this55.formData["delete"];
+              _this57.formData["delete"];
             });
           }
         }
       }, {
         key: "update",
         value: function update() {
-          var _this56 = this;
+          var _this58 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "1");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this56.formData = new FormData();
+            _this58.formData = new FormData();
 
-            _this56.toaster.success("Driver License Front Updated");
+            _this58.toaster.success("Driver License Front Updated");
           }, function (error) {
-            _this56.toaster.success("Unable to Driver License Front");
+            _this58.toaster.success("Unable to Driver License Front");
           });
         }
       }, {
         key: "updateLback",
         value: function updateLback() {
-          var _this57 = this;
+          var _this59 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "2");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this57.formData = new FormData();
+            _this59.formData = new FormData();
 
-            _this57.toaster.success("Driver License Back Updated");
+            _this59.toaster.success("Driver License Back Updated");
           }, function (error) {
-            _this57.toaster.success("Unable to Driver License Back");
+            _this59.toaster.success("Unable to Driver License Back");
           });
         }
       }, {
         key: "updatepPic",
         value: function updatepPic() {
-          var _this58 = this;
+          var _this60 = this;
 
           this.formData.append('image', this.propic);
           this.formData.append('type', "3");
           this.formData.append('id', this.driverId);
           this.ownerservice.adddriverimnage(this.formData).subscribe(function (data) {
-            _this58.formData = new FormData();
+            _this60.formData = new FormData();
 
-            _this58.toaster.success("Profile Picture Updated");
+            _this60.toaster.success("Profile Picture Updated");
           }, function (error) {
-            _this58.toaster.success("Unable to update Profile Picture");
+            _this60.toaster.success("Unable to update Profile Picture");
           });
         }
       }, {
@@ -11532,14 +11545,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this59 = this;
+          var _this61 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getlicscenceback(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this59.liscenimag = _this59.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this61.liscenimag = _this61.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11688,14 +11701,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getlicsence",
         value: function getlicsence() {
-          var _this60 = this;
+          var _this62 = this;
 
           // console.log(id)
           // this.Id = id
           this.onerservice.getliscncefront(this.id).subscribe(function (data) {
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this60.liscenimag = _this60.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
+            _this62.liscenimag = _this62.domsanitizer.bypassSecurityTrustUrl(unnsafeimage); // window.open(this.liscenimag,"_blank")
           }, function (error) {});
         }
       }, {
@@ -11850,7 +11863,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EditCarsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this61 = this;
+          var _this63 = this;
 
           this.vehicleModel = new src_app_models_vehicle__WEBPACK_IMPORTED_MODULE_3__["Vehicle"]();
           this.vehicleModel.locality = '';
@@ -11879,7 +11892,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerId = this.ownerdetails['userId'];
           console.log(this.ownerId);
           this.activaterouter.params.subscribe(function (params) {
-            _this61.vehicleId = params.id;
+            _this63.vehicleId = params.id;
           });
           this.getvehiclesDetailsById();
           this.getalllocality();
@@ -11888,58 +11901,58 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getvehiclesDetailsById",
         value: function getvehiclesDetailsById() {
-          var _this62 = this;
+          var _this64 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vehicleId).subscribe(function (data) {
-            _this62.results = data;
-            _this62.vehicleModel.vehicleCompany = _this62.results['companyName'];
-            _this62.vehicleModel.vehicleType = _this62.results['type'];
-            _this62.vehicleModel.vehicleModel = _this62.results['model'];
-            _this62.vehicleModel.vehicleRegistration = _this62.results['numberPlate'];
-            _this62.vehicleModel.rent = _this62.results['rentPerDay'];
-            _this62.vehicleModel.locality = _this62.results['locality'];
-            _this62.vehicleModel.vehicleYear = _this62.results['year'];
-            _this62.vehicleModel.vRentperHr = _this62.results['rentPerHour'];
-            _this62.vehicleModel.vRentperKm = _this62.results['rentPerKM'];
+            _this64.results = data;
+            _this64.vehicleModel.vehicleCompany = _this64.results['companyName'];
+            _this64.vehicleModel.vehicleType = _this64.results['type'];
+            _this64.vehicleModel.vehicleModel = _this64.results['model'];
+            _this64.vehicleModel.vehicleRegistration = _this64.results['numberPlate'];
+            _this64.vehicleModel.rent = _this64.results['rentPerDay'];
+            _this64.vehicleModel.locality = _this64.results['locality'];
+            _this64.vehicleModel.vehicleYear = _this64.results['year'];
+            _this64.vehicleModel.vRentperHr = _this64.results['rentPerHour'];
+            _this64.vehicleModel.vRentperKm = _this64.results['rentPerKM'];
 
-            if (_this62.results['driverId'] != null) {
-              _this62.vehicleModel.driver = _this62.results['driverId'];
-              _this62.vehicleModel.dRent = _this62.results['driverRentPerKM'];
+            if (_this64.results['driverId'] != null) {
+              _this64.vehicleModel.driver = _this64.results['driverId'];
+              _this64.vehicleModel.dRent = _this64.results['driverRentPerKM'];
             } else {
-              _this62.vehicleModel.driver = '';
+              _this64.vehicleModel.driver = '';
             }
 
-            if (_this62.results['pickUpAddress'] != null) {
-              _this62.vehicleModel.pkaddress = _this62.results['pickUpAddress'];
+            if (_this64.results['pickUpAddress'] != null) {
+              _this64.vehicleModel.pkaddress = _this64.results['pickUpAddress'];
             }
 
-            if (_this62.vehicleModel.vRentperHr == null) {
-              _this62.vehicleModel.vRentperHr = "";
+            if (_this64.vehicleModel.vRentperHr == null) {
+              _this64.vehicleModel.vRentperHr = "";
             }
 
-            if (_this62.vehicleModel.vRentperKm == null) {
-              _this62.vehicleModel.vRentperKm = "";
+            if (_this64.vehicleModel.vRentperKm == null) {
+              _this64.vehicleModel.vRentperKm = "";
             }
           }, function (error) {});
         }
       }, {
         key: "getalldrivers",
         value: function getalldrivers() {
-          var _this63 = this;
+          var _this65 = this;
 
           this.owenerservice.getalldrivers(this.ownerId).subscribe(function (data) {
-            _this63.driverslist = data;
-            console.log(_this63.driverslist);
+            _this65.driverslist = data;
+            console.log(_this65.driverslist);
           }, function (error) {});
         }
       }, {
         key: "getalllocality",
         value: function getalllocality() {
-          var _this64 = this;
+          var _this66 = this;
 
           this.owenerservice.getalllocality().subscribe(function (data) {
             console.log(data);
-            _this64.locations = data;
+            _this66.locations = data;
           }, function (error) {});
         }
       }, {
@@ -11975,7 +11988,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this65 = this;
+          var _this67 = this;
 
           this.submitted = true;
 
@@ -12006,94 +12019,94 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               // this.toaster.success('Vehicle Updated Successfully');
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Vehicle Updated!', 'Vehicle Updated Successfully', 'success'); // this.router.navigate(['/vehicles'])
             }, function (error) {
-              _this65.error = error.error['message'];
-              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this65.error, 'error');
-              _this65.formData["delete"];
+              _this67.error = error.error['message'];
+              sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Update Vehicle!', _this67.error, 'error');
+              _this67.formData["delete"];
             });
           }
         }
       }, {
         key: "updateimg1",
         value: function updateimg1() {
-          var _this66 = this;
+          var _this68 = this;
 
           this.formData.append('image', this.image1);
           this.formData.append('type', "1");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this66.formData = new FormData();
-            _this66.files = '';
+            _this68.formData = new FormData();
+            _this68.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 1 Added!', 'Image 1 Added Successfully', 'success');
           }, function (error) {
-            _this66.formData["delete"];
+            _this68.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 1!', 'Unable to add image 1 Successfully', 'error');
           });
         }
       }, {
         key: "updateimg2",
         value: function updateimg2() {
-          var _this67 = this;
+          var _this69 = this;
 
           this.formData.append('image', this.image2);
           this.formData.append('type', "2");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this67.formData = new FormData();
-            _this67.files = '';
+            _this69.formData = new FormData();
+            _this69.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Image 2 Added!', 'Image 2 Added Successfully', 'success');
           }, function (error) {
-            _this67.formData["delete"];
+            _this69.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add image 2!', 'Unable to add image 2 Successfully', 'error');
           });
         }
       }, {
         key: "updatelicfrnt",
         value: function updatelicfrnt() {
-          var _this68 = this;
+          var _this70 = this;
 
           this.formData.append('image', this.lisencefrnt);
           this.formData.append('type', "3");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this68.formData = new FormData();
-            _this68.files = '';
+            _this70.formData = new FormData();
+            _this70.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Added!', 'License Added Successfully', 'success');
           }, function (error) {
-            _this68.formData["delete"];
+            _this70.formData["delete"];
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License front!', 'Unable to add License front Successfully', 'error');
           });
         }
       }, {
         key: "updatelicback",
         value: function updatelicback() {
-          var _this69 = this;
+          var _this71 = this;
 
           this.formData.append('image', this.lisenceback);
           this.formData.append('type', "4");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this69.formData = new FormData();
-            _this69.files = '';
+            _this71.formData = new FormData();
+            _this71.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('License Back Added!', 'License Back Added Successfully', 'success');
           }, function (error) {
-            _this69.formData = new FormData();
+            _this71.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add License Back!', 'Unable to add License Back Successfully', 'error');
           });
         }
       }, {
         key: "updaterc",
         value: function updaterc() {
-          var _this70 = this;
+          var _this72 = this;
 
           this.formData.append('image', this.rcproof);
           this.formData.append('type', "5");
           this.formData.append('id', this.vehicleId);
           this.owenerservice.addimages(this.formData).subscribe(function (data) {
-            _this70.formData = new FormData();
-            _this70.files = '';
+            _this72.formData = new FormData();
+            _this72.files = '';
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('RC Added!', 'RC Added Successfully', 'success');
           }, function (error) {
-            _this70.formData = new FormData();
+            _this72.formData = new FormData();
             sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to add RC!', 'Unable to add RC Successfully', 'error');
           });
         }
@@ -12225,14 +12238,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "submit",
         value: function submit() {
-          var _this71 = this;
+          var _this73 = this;
 
           if (this.kilometer != null || this.kilometer != undefined) {
             this.formData.append("startingKM", this.kilometer);
             this.formData.append("tripId", this.results['id']);
             console.log(this.formData);
             this.ownerservice.addcurrentkilometer(this.formData).subscribe(function (data) {
-              _this71.dialogRef.close();
+              _this73.dialogRef.close();
 
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Kilometer Added!', 'Kilometer Added Successfully', 'success');
             }, function (error) {
@@ -12381,29 +12394,29 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getapprovedVehicles",
         value: function getapprovedVehicles() {
-          var _this72 = this;
+          var _this74 = this;
 
           this.ownerService.getallvehicleforhanover(this.ownerId, this.page).subscribe(function (data) {
-            _this72.results = data;
+            _this74.results = data;
 
-            if (_this72.results.length == 0) {
-              _this72.message = 'No Data Found';
+            if (_this74.results.length == 0) {
+              _this74.message = 'No Data Found';
             } else {
-              _this72.message = 'Data Found';
+              _this74.message = 'Data Found';
             }
           }, function (error) {});
         }
       }, {
         key: "openDialog",
         value: function openDialog(s) {
-          var _this73 = this;
+          var _this75 = this;
 
           var dialogRef = this.dialog.open(_add_vehiclekm_handover_add_vehiclekm_handover_component__WEBPACK_IMPORTED_MODULE_6__["AddVehiclekmHandoverComponent"], {
             width: '450px',
             data: s
           });
           dialogRef.afterClosed().subscribe(function (result) {
-            _this73.ngOnInit();
+            _this75.ngOnInit();
 
             console.log('The dialog was closed');
           });
@@ -12603,6 +12616,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "getFilterOptionsVehicles",
         value: function getFilterOptionsVehicles(status, id) {
           return this.http.get(this.BASEURL + 'vehicle/listApprovalStatusForOwner?ownerId=' + id + '&status=' + status + '&page=0&size=100');
+        }
+      }, {
+        key: "getallRequestApproved",
+        value: function getallRequestApproved(id) {
+          return this.http.get(this.BASEURL + 'trip/listForOwnerByNotCompleted?ownerId=' + id + '&page=0&size=100');
         }
       }, {
         key: "getallRequestfromUserBsedonStatus",
@@ -12877,21 +12895,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getpaymentdetailsbyTripIdtripid",
         value: function getpaymentdetailsbyTripIdtripid() {
-          var _this74 = this;
+          var _this76 = this;
 
           this.OwnerService.gettripdetailsbyid(this.tripid).subscribe(function (data) {
             console.log(data);
-            _this74.results = data;
-            _this74.customerName = _this74.results['customerName'];
-            _this74.totalKM = _this74.results['totalKM'];
-            _this74.customerMobile = _this74.results['customerMobile'];
-            _this74.vehicleRent = _this74.results['vehicleRent'];
+            _this76.results = data;
+            _this76.customerName = _this76.results['customerName'];
+            _this76.totalKM = _this76.results['totalKM'];
+            _this76.customerMobile = _this76.results['customerMobile'];
+            _this76.vehicleRent = _this76.results['vehicleRent'];
           }, function (error) {});
         }
       }, {
         key: "collectcash",
         value: function collectcash() {
-          var _this75 = this;
+          var _this77 = this;
 
           this.formData.append('paymentMode', '2');
           this.formData.append('tripId', this.tripid);
@@ -12910,12 +12928,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           this.OwnerService.savePayments(this.formData).subscribe(function (data) {
-            _this75.dialogRef.close();
+            _this77.dialogRef.close();
 
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Amount Collected', 'Amount Collcted Successfully', 'success');
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to Collect Cash!', 'Unable Collct Amount Successfully', 'error');
-            _this75.formData["delete"];
+            _this77.formData["delete"];
           });
         }
       }]);
@@ -13046,10 +13064,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallpayments",
         value: function getallpayments() {
-          var _this76 = this;
+          var _this78 = this;
 
           this.ownerservice.getallpaymentsbnyownerid(this.ownerId, this.page).subscribe(function (data) {
-            _this76.payementresults = data;
+            _this78.payementresults = data;
           }, function (error) {});
         }
       }, {
@@ -13220,39 +13238,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallPendingdata",
         value: function getallPendingdata() {
-          var _this77 = this;
-
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
-            _this77.results = data;
-
-            if (_this77.results.length == 0) {
-              _this77.message = 'No Data Found';
-            } else {
-              _this77.message = 'Data Found';
-            }
-          }, function (error) {});
-        }
-      }, {
-        key: "getallprebookdata",
-        value: function getallprebookdata() {
-          var _this78 = this;
-
-          this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
-            _this78.results = data;
-
-            if (_this78.results.length == 0) {
-              _this78.message = 'No Data Found';
-            } else {
-              _this78.message = 'Data Found';
-            }
-          }, function (error) {});
-        }
-      }, {
-        key: "getallApprovedData",
-        value: function getallApprovedData() {
           var _this79 = this;
 
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.APPROVED).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.PENDING).subscribe(function (data) {
             _this79.results = data;
 
             if (_this79.results.length == 0) {
@@ -13263,17 +13251,47 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }, function (error) {});
         }
       }, {
-        key: "getallrejectedData",
-        value: function getallrejectedData() {
+        key: "getallprebookdata",
+        value: function getallprebookdata() {
           var _this80 = this;
 
-          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
+          this.ownerService.getallRequestfromUserBsedonprebook(this.ownerId, this.pagenumberprebook).subscribe(function (data) {
             _this80.results = data;
 
             if (_this80.results.length == 0) {
               _this80.message = 'No Data Found';
             } else {
               _this80.message = 'Data Found';
+            }
+          }, function (error) {});
+        }
+      }, {
+        key: "getallApprovedData",
+        value: function getallApprovedData() {
+          var _this81 = this;
+
+          this.ownerService.getallRequestApproved(this.ownerId).subscribe(function (data) {
+            _this81.results = data;
+
+            if (_this81.results.length == 0) {
+              _this81.message = 'No Data Found';
+            } else {
+              _this81.message = 'Data Found';
+            }
+          }, function (error) {});
+        }
+      }, {
+        key: "getallrejectedData",
+        value: function getallrejectedData() {
+          var _this82 = this;
+
+          this.ownerService.getallRequestfromUserBsedonStatus(this.ownerId, this.REJECTED).subscribe(function (data) {
+            _this82.results = data;
+
+            if (_this82.results.length == 0) {
+              _this82.message = 'No Data Found';
+            } else {
+              _this82.message = 'Data Found';
             }
           }, function (error) {});
         }
@@ -13285,7 +13303,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve(s) {
-          var _this81 = this;
+          var _this83 = this;
 
           console.log(s.id);
           var status = "1";
@@ -13294,7 +13312,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this81.ngOnInit();
+            _this83.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13302,7 +13320,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject(s) {
-          var _this82 = this;
+          var _this84 = this;
 
           console.log(s.id);
           var status = "3";
@@ -13311,7 +13329,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerService.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this82.ngOnInit();
+            _this84.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13429,46 +13447,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ViewRequestsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this83 = this;
+          var _this85 = this;
 
           this.activaterouter.params.subscribe(function (params) {
             console.log(params.id, params.name);
-            _this83.customerName = params.name;
-            _this83.cId = params.id;
+            _this85.customerName = params.name;
+            _this85.cId = params.id;
           });
           this.getDetails();
         }
       }, {
         key: "getDetails",
         value: function getDetails() {
-          var _this84 = this;
+          var _this86 = this;
 
           this.ownerservice.getapprovalDetaislById(this.cId).subscribe(function (data) {
-            _this84.results = data;
-            _this84.approvalstatus = _this84.results['approvalStatus'];
-            _this84.startingLocation = _this84.results['startingLocation'];
-            _this84.destinationLocation = _this84.results['destinationLocation'];
-            _this84.requestedDate = _this84.results['requestedDate'];
-            _this84.companyName = _this84.results.vehicleForm['companyName'];
-            _this84.model = _this84.results.vehicleForm['model'];
-            _this84.numberPlate = _this84.results.vehicleForm['numberPlate'];
-            _this84.rentPerDay = _this84.results.vehicleForm['rentPerDay'];
-            _this84.rentPerHour = _this84.results.vehicleForm['rentPerHour'];
-            _this84.rentPerKM = _this84.results.vehicleForm['rentPerKM'];
-            _this84.ownerid = _this84.results['customerId'];
-            _this84.vehicleId = _this84.results['vehicleId'];
+            _this86.results = data;
+            _this86.approvalstatus = _this86.results['approvalStatus'];
+            _this86.startingLocation = _this86.results['startingLocation'];
+            _this86.destinationLocation = _this86.results['destinationLocation'];
+            _this86.requestedDate = _this86.results['requestedDate'];
+            _this86.companyName = _this86.results.vehicleForm['companyName'];
+            _this86.model = _this86.results.vehicleForm['model'];
+            _this86.numberPlate = _this86.results.vehicleForm['numberPlate'];
+            _this86.rentPerDay = _this86.results.vehicleForm['rentPerDay'];
+            _this86.rentPerHour = _this86.results.vehicleForm['rentPerHour'];
+            _this86.rentPerKM = _this86.results.vehicleForm['rentPerKM'];
+            _this86.ownerid = _this86.results['customerId'];
+            _this86.vehicleId = _this86.results['vehicleId'];
           }, function (error) {});
         }
       }, {
         key: "checkbooking",
         value: function checkbooking() {
-          var _this85 = this;
+          var _this87 = this;
 
           this.ownerservice.checkotherbookings(this.ownerid, this.vehicleId).subscribe(function (data) {
             console.log(data);
-            _this85.bookingsarray = data;
+            _this87.bookingsarray = data;
 
-            if (_this85.bookingsarray.length == 0) {
+            if (_this87.bookingsarray.length == 0) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('No Bookings!', 'No Bookings Available', 'success');
             } else {
               sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Bookings Found!', 'Bookings Available', 'success');
@@ -13483,7 +13501,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "approve",
         value: function approve() {
-          var _this86 = this;
+          var _this88 = this;
 
           console.log(this.cId);
           var status = "1";
@@ -13492,7 +13510,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Approved!', 'Request Approved Successfully', 'success');
 
-            _this86.router.navigate(['/request']);
+            _this88.router.navigate(['/request']);
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to approve request!', 'Unable to approve request Successfully', 'error');
           });
@@ -13500,7 +13518,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "reject",
         value: function reject() {
-          var _this87 = this;
+          var _this89 = this;
 
           console.log(this.cId);
           var status = "3";
@@ -13509,7 +13527,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ownerservice.approveRequest(this.formData).subscribe(function (data) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Request Rejected!', 'Request Rejected Successfully', 'success');
 
-            _this87.ngOnInit();
+            _this89.ngOnInit();
           }, function (error) {
             sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire('Unable to reject request!', 'Unable to reject request Successfully', 'error');
           });
@@ -13653,92 +13671,92 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getimage2",
         value: function getimage2() {
-          var _this88 = this;
+          var _this90 = this;
 
           this.adminService.getimage(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this88.vehicleimage2 = _this88.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this90.vehicleimage2 = _this90.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsByid",
         value: function getvehicleDetailsByid() {
-          var _this89 = this;
+          var _this91 = this;
 
           this.owenerservice.getvehiclesDetailsById(this.vId).subscribe(function (data) {
-            _this89.results = data;
-            console.log(_this89.results);
-            _this89.vehicleModel.vehicleCompany = _this89.results['companyName'];
-            _this89.vehicleModel.vehicleType = _this89.results['type'];
-            _this89.vehicleModel.vehicleModel = _this89.results['model'];
-            _this89.vehicleModel.vehicleRegistration = _this89.results['numberPlate'];
-            _this89.vehicleModel.rent = _this89.results['rentPerDay'];
-            _this89.rentperkm = _this89.results['rentPerKM'];
-            _this89.rentPerHour = _this89.results['rentPerHour'];
-            _this89.vehicleModel.locality = _this89.results['locationName'];
-            _this89.vehicleModel.vehicleYear = _this89.results['year'];
-            _this89.pickUpAddress = _this89.results['pickUpAddress'];
-            _this89.gpsAddress = _this89.results['gpsAddress'];
+            _this91.results = data;
+            console.log(_this91.results);
+            _this91.vehicleModel.vehicleCompany = _this91.results['companyName'];
+            _this91.vehicleModel.vehicleType = _this91.results['type'];
+            _this91.vehicleModel.vehicleModel = _this91.results['model'];
+            _this91.vehicleModel.vehicleRegistration = _this91.results['numberPlate'];
+            _this91.vehicleModel.rent = _this91.results['rentPerDay'];
+            _this91.rentperkm = _this91.results['rentPerKM'];
+            _this91.rentPerHour = _this91.results['rentPerHour'];
+            _this91.vehicleModel.locality = _this91.results['locationName'];
+            _this91.vehicleModel.vehicleYear = _this91.results['year'];
+            _this91.pickUpAddress = _this91.results['pickUpAddress'];
+            _this91.gpsAddress = _this91.results['gpsAddress'];
 
-            if (_this89.results['driverId'] != null) {
-              _this89.vehicleModel.driver = _this89.results['driverId'];
+            if (_this91.results['driverId'] != null) {
+              _this91.vehicleModel.driver = _this91.results['driverId'];
             } else {
-              _this89.vehicleModel.driver = '';
+              _this91.vehicleModel.driver = '';
             }
           }, function (error) {});
         }
       }, {
         key: "getlicencefrnt",
         value: function getlicencefrnt() {
-          var _this90 = this;
+          var _this92 = this;
 
           this.adminService.getlicencefrnt(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this90.liscence1 = _this90.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this92.liscence1 = _this92.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getlicscenceback",
         value: function getlicscenceback() {
-          var _this91 = this;
+          var _this93 = this;
 
           this.adminService.getlicscenceback(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this91.liscence2 = _this91.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this93.liscence2 = _this93.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getrc",
         value: function getrc() {
-          var _this92 = this;
+          var _this94 = this;
 
           this.adminService.getrc(this.vId).subscribe(function (data) {
             console.log(data);
             var unnsafeimage = URL.createObjectURL(data);
             console.log(unnsafeimage);
-            _this92.rc = _this92.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
+            _this94.rc = _this94.domsanitizer.bypassSecurityTrustUrl(unnsafeimage);
           }, function (error) {});
         }
       }, {
         key: "getvehicleDetailsById",
         value: function getvehicleDetailsById() {
-          var _this93 = this;
+          var _this95 = this;
 
           this.adminService.getVehicleDetailsbyId(this.vId).subscribe(function (data) {
-            _this93.DriverDetailsofCar = data['driver'];
-            console.log(_this93.DriverDetailsofCar);
+            _this95.DriverDetailsofCar = data['driver'];
+            console.log(_this95.DriverDetailsofCar);
 
-            if (_this93.DriverDetailsofCar != null) {
-              _this93.vehicleModel.dname = _this93.DriverDetailsofCar['name'];
-              _this93.vehicleModel.dnumber = _this93.DriverDetailsofCar['number'];
-              _this93.vehicleModel.daddreess = _this93.DriverDetailsofCar['addresss'];
-              _this93.id = _this93.DriverDetailsofCar['id'];
+            if (_this95.DriverDetailsofCar != null) {
+              _this95.vehicleModel.dname = _this95.DriverDetailsofCar['name'];
+              _this95.vehicleModel.dnumber = _this95.DriverDetailsofCar['number'];
+              _this95.vehicleModel.daddreess = _this95.DriverDetailsofCar['addresss'];
+              _this95.id = _this95.DriverDetailsofCar['id'];
             }
           }, function (error) {});
         }
@@ -13869,17 +13887,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallcarsbyowers",
         value: function getallcarsbyowers() {
-          var _this94 = this;
+          var _this96 = this;
 
           this.ownerserivice.getallcars(this.userId).subscribe(function (data) {
-            _this94.carList = data;
-            _this94.errormessage = "data found";
+            _this96.carList = data;
+            _this96.errormessage = "data found";
 
-            if (_this94.carList.length == 0) {
-              _this94.errormessage = "No data found";
+            if (_this96.carList.length == 0) {
+              _this96.errormessage = "No data found";
             }
           }, function (error) {
-            _this94.errormessage = "No data found";
+            _this96.errormessage = "No data found";
           });
         }
       }, {
@@ -13896,34 +13914,34 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "delete",
         value: function _delete(e) {
-          var _this95 = this;
+          var _this97 = this;
 
           this.ownerserivice.deleteCar(e.id).subscribe(function (data) {
-            _this95.toaster.success('Vehicle Deleted Successfully');
+            _this97.toaster.success('Vehicle Deleted Successfully');
 
-            _this95.ngOnInit();
+            _this97.ngOnInit();
           }, function (error) {
-            _this95.toaster.error('Vehicle Deleted Unsuccessfully');
+            _this97.toaster.error('Vehicle Deleted Unsuccessfully');
 
-            _this95.ngOnInit();
+            _this97.ngOnInit();
           });
         }
       }, {
         key: "changeFilter",
         value: function changeFilter(s) {
-          var _this96 = this;
+          var _this98 = this;
 
           console.log(s);
           this.ownerserivice.getFilterOptionsVehicles(s, this.userId).subscribe(function (data) {
-            _this96.carList = data;
-            _this96.errormessage = "data found";
+            _this98.carList = data;
+            _this98.errormessage = "data found";
 
-            if (_this96.carList.length == 0) {
-              _this96.errormessage = "No data found";
+            if (_this98.carList.length == 0) {
+              _this98.errormessage = "No data found";
             }
           }, function (error) {
-            _this96.carList = [];
-            _this96.errormessage = "No data found";
+            _this98.carList = [];
+            _this98.errormessage = "No data found";
           });
         }
       }]);
@@ -14035,12 +14053,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallvehiclefortracking",
         value: function getallvehiclefortracking() {
-          var _this97 = this;
+          var _this99 = this;
 
           this.userDetails = JSON.parse(localStorage.getItem('userDetail'));
           this.userId = this.userDetails['userId'];
           this.ownerservice.getallvechilcetracking(this.userId, this.page).subscribe(function (data) {
-            _this97.result = data;
+            _this99.result = data;
           }, function (error) {});
         }
       }, {
@@ -14414,7 +14432,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this98 = this;
+          var _this100 = this;
 
           var req = {
             "mobilenumber": this.registerModel.mobNo,
@@ -14422,11 +14440,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           sessionStorage.setItem("mobileandemail", JSON.stringify(req));
           this.loginservice.sendotp(this.registerModel.mobNo, this.registerModel.email).subscribe(function (data) {
-            _this98.router.navigate(['/verifyotp']);
+            _this100.router.navigate(['/verifyotp']);
           }, function (error) {
             console.log(error.error['message']);
 
-            _this98.toaster.error(error.error['message']);
+            _this100.toaster.error(error.error['message']);
           });
         }
       }]);
@@ -14626,7 +14644,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this99 = this;
+          var _this101 = this;
 
           // alert('User Registration successfully');
           // console.log(this.registerForm.value);
@@ -14644,14 +14662,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           console.log(req);
           this.loginservice.register(req).subscribe(function (data) {
-            _this99.toaster.success('Register Successfully');
+            _this101.toaster.success('Register Successfully');
 
-            _this99.router.navigate(['/login']);
+            _this101.router.navigate(['/login']);
           }, function (error) {
-            _this99.error = error.error['message'];
-            console.log(_this99.error);
+            _this101.error = error.error['message'];
+            console.log(_this101.error);
 
-            _this99.toaster.error(_this99.error);
+            _this101.toaster.error(_this101.error);
           });
         }
       }]);
@@ -14786,15 +14804,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this100 = this;
+          var _this102 = this;
 
           var mobnumber = JSON.parse(sessionStorage.getItem("mobileandemail"));
           this.loginservice.verifyotp(this.registerModel.mobNo, mobnumber['mobilenumber']).subscribe(function (data) {
-            _this100.router.navigate(['/register']);
+            _this102.router.navigate(['/register']);
 
-            _this100.toaster.error("OTP Verified");
+            _this102.toaster.error("OTP Verified");
           }, function (error) {
-            _this100.toaster.error("Invalid OTP");
+            _this102.toaster.error("Invalid OTP");
           });
         }
       }]);
@@ -15027,7 +15045,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "register",
         value: function register() {
-          var _this101 = this;
+          var _this103 = this;
 
           this.submitted = true;
 
@@ -15046,10 +15064,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.formData.append("city", this.registerModel.locality);
             this.loginservice.userpublicregister(this.formData).subscribe(function (data) {
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Registration Completed!', 'Registered Successfully', 'success');
-              _this101.formData["delete"];
+              _this103.formData["delete"];
               window.location.reload();
             }, function (error) {
-              _this101.formData["delete"];
+              _this103.formData["delete"];
               sweetalert2__WEBPACK_IMPORTED_MODULE_7___default.a.fire('Unable to Register!', 'Server is busy at this moment', 'error');
             });
           }
@@ -15394,10 +15412,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getallusers",
         value: function getallusers() {
-          var _this102 = this;
+          var _this104 = this;
 
           this.adminservice.getallusers(this.page).subscribe(function (data) {
-            _this102.results = data;
+            _this104.results = data;
           }, function (error) {});
         }
       }]);

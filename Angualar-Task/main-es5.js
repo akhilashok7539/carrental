@@ -12238,7 +12238,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             vehicleCompany: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             vehicleRegistration: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             locality: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            rent: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            rent: [''],
             // liscencefrnt:['',Validators.required],
             // liscenceback:['',Validators.required],
             // rcbook:['',Validators.required],
